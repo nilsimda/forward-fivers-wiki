@@ -16,7 +16,6 @@ Static, data-driven wiki for Monster Hunter Frontier G1.
 
 ## Data ingestion rules
 
-- Never copy gameplay/stat data from Ferias.
 - Treat extracted `mhfdat.raw.bin` outputs as canonical gameplay/stat sources.
 - Keep `g1_data/monster_names.json` as the editable source of truth for monster display names.
 - When new extraction data arrives, update transform logic and regenerate JSON.
