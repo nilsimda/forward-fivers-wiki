@@ -1,0 +1,165 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import monsterDrops from '../../data/generated/monster-drops.json';
+
+export function getStaticPaths() {
+  return monsterDrops.map((monster) => ({
+    params: { monsterId: String(monster.monsterId) },
+    props: { monster }
+  }));
+}
+
+const { monster } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+type Monster = (typeof monsterDrops)[number];
+type MonsterDrop = Monster['drops'][number];
+type Rank = 'lr' | 'hr' | 'arena' | 'hr100' | 'gr';
+
+interface GroupedDropItem {
+  itemId: number;
+  itemName: string;
+  percentage: number;
+  quantity: number;
+}
+
+interface GroupedDrop {
+  rank: Rank;
+  partbreakType: string;
+  dropMode: string;
+  items: GroupedDropItem[];
+}
+
+const rankOrder: Rank[] = ['lr', 'hr', 'arena', 'hr100', 'gr'];
+const rankLabels: Record<Rank, string> = {
+  lr: 'LR (Low Rank)',
+  hr: 'HR (High Rank)',
+  arena: 'Arena',
+  hr100: 'HR 100',
+  gr: 'G-Rank'
+};
+const rankPanelClasses: Record<Rank, string> = {
+  lr: 'rank-panel--lr',
+  hr: 'rank-panel--hr',
+  arena: 'rank-panel--arena',
+  hr100: 'rank-panel--hr100',
+  gr: 'rank-panel--gr'
+};
+const isRank = (value: string): value is Rank => rankOrder.includes(value as Rank);
+const resolvedMonsterName =
+  monster.monsterLabel && !String(monster.monsterLabel).startsWith('Monster ')
+    ? monster.monsterLabel
+    : monster.drops.find((drop: MonsterDrop) => drop.monsterName)?.monsterName || `Monster ${monster.monsterId}`;
+
+const groupedDropsMap = new Map<string, GroupedDrop>();
+
+for (const drop of monster.drops as MonsterDrop[]) {
+  if (!isRank(drop.rank)) continue;
+  const key = `${drop.rank}::${drop.dropMode}::${drop.partbreakType}`;
+  if (!groupedDropsMap.has(key)) {
+    groupedDropsMap.set(key, {
+      rank: drop.rank,
+      partbreakType: drop.partbreakType,
+      dropMode: drop.dropMode,
+      items: []
+    });
+  }
+
+  const groupedDrop = groupedDropsMap.get(key);
+  if (!groupedDrop) continue;
+  groupedDrop.items.push({
+    itemId: drop.itemId,
+    itemName: drop.itemName,
+    percentage: drop.percentage,
+    quantity: drop.quantity
+  });
+}
+
+const groupedDrops = [...groupedDropsMap.values()]
+  .map((group) => ({
+    ...group,
+    items: group.items.sort((a: GroupedDropItem, b: GroupedDropItem) => {
+      return a.itemId - b.itemId;
+    })
+  }))
+  .sort((a, b) => {
+    const rankA = rankOrder.indexOf(a.rank);
+    const rankB = rankOrder.indexOf(b.rank);
+    if (rankA !== rankB) return rankA - rankB;
+    if (a.dropMode !== b.dropMode) return a.dropMode.localeCompare(b.dropMode);
+    return a.partbreakType.localeCompare(b.partbreakType);
+  });
+
+const rankSections = rankOrder
+  .map((rank) => ({
+    rank,
+    rankLabel: rankLabels[rank],
+    groups: groupedDrops.filter((group) => group.rank === rank)
+  }))
+  .filter((section) => section.groups.length > 0);
+---
+
+<WikiLayout title={`${resolvedMonsterName} Drops | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase('monster-drops/')} class="text-sm">Back to monster drop index</a>
+      <h1>
+        {resolvedMonsterName} Drops
+        <span class="text-slate-500"> (#{monster.monsterId})</span>
+      </h1>
+      <p class="text-slate-300">
+        {monster.totalEntries} entries grouped by rank and part break type.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+      {rankSections.map((section) => (
+        <section class={`panel rank-panel ${rankPanelClasses[section.rank]}`}>
+          <header class="mb-3 flex items-center justify-between gap-3">
+            <h2 class="text-lg">{section.rankLabel}</h2>
+            <p class="text-sm text-slate-300">{section.groups.length} drop groups</p>
+          </header>
+          <div class="table-wrap">
+            <table class="table-grid">
+              <thead>
+                <tr>
+                  <th>Drop origin</th>
+                  <th>Drops</th>
+                </tr>
+              </thead>
+              <tbody>
+                {section.groups.map((group) => (
+                  <tr>
+                    <td>
+                      {group.dropMode === 'capture'
+                        ? 'Capture'
+                        : group.dropMode === 'hardcore_carve'
+                          ? 'Hardcore Carve'
+                          : `Part Break: ${group.partbreakType}`}
+                    </td>
+                    <td>
+                      <ul class="list-disc space-y-1 pl-5">
+                        {group.items.map((item: GroupedDropItem) => (
+                          <li>
+                            <a
+                              href={withBase(`items/${item.itemId}/`)}
+                              class="font-medium text-slate-200 hover:text-white"
+                            >
+                              {item.itemName}
+                            </a>
+                            <span class="text-slate-300"> - {item.percentage}% x{item.quantity}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))}
+    </div>
+  </article>
+</WikiLayout>

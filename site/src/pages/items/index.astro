@@ -1,0 +1,165 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import items from '../../data/generated/items.json';
+
+const sortedItems = [...items].sort((a, b) => a.id - b.id);
+const clientItems = sortedItems.map((item) => ({
+  id: item.id,
+  slug: item.slug,
+  name: item.name,
+  description: item.description,
+  rarityPlusOne: item.rarityPlusOne,
+  buyPrice: item.buyPrice,
+  sellPrice: item.sellPrice
+}));
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+---
+
+<WikiLayout title="Items | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Item Index</h1>
+    <p class="text-slate-300">Search and filter extracted item records from the G1 game data files.</p>
+  </section>
+
+  <section class="panel mt-6 space-y-3">
+    <label class="block text-sm font-medium text-slate-200" for="item-search">Search items</label>
+    <input
+      id="item-search"
+      type="search"
+      placeholder="Name, description, or item ID..."
+      class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+    />
+    <p class="text-sm text-slate-400">
+      Showing <span id="visible-count">{sortedItems.length}</span> of {sortedItems.length} items
+    </p>
+  </section>
+
+  <div class="table-wrap mt-6">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Rarity</th>
+          <th>Buy</th>
+          <th>Sell</th>
+        </tr>
+      </thead>
+      <tbody id="items-table-body"></tbody>
+    </table>
+  </div>
+
+  <div class="mt-4 flex items-center justify-between gap-3">
+    <button
+      id="prev-page"
+      class="rounded border border-slate-700 px-3 py-1 text-sm text-slate-200 disabled:opacity-40"
+      type="button"
+    >
+      Previous
+    </button>
+    <p class="text-sm text-slate-400">
+      Page <span id="current-page">1</span> of <span id="total-pages">1</span>
+    </p>
+    <button
+      id="next-page"
+      class="rounded border border-slate-700 px-3 py-1 text-sm text-slate-200 disabled:opacity-40"
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+
+  <script define:vars={{ clientItems, basePath }}>
+    const searchInput = document.querySelector('#item-search');
+    const tableBody = document.querySelector('#items-table-body');
+    const visibleCount = document.querySelector('#visible-count');
+    const prevPageButton = document.querySelector('#prev-page');
+    const nextPageButton = document.querySelector('#next-page');
+    const currentPageLabel = document.querySelector('#current-page');
+    const totalPagesLabel = document.querySelector('#total-pages');
+    const perPage = 100;
+    let currentPage = 1;
+
+    const toSearchRecord = (item) => ({
+      ...item,
+      idText: String(item.id),
+      nameText: item.name.toLowerCase(),
+      descriptionText: (item.description || '').toLowerCase()
+    });
+
+    const searchItems = clientItems.map(toSearchRecord);
+
+    const renderRows = (rows) => {
+      if (!tableBody) return;
+      tableBody.innerHTML = '';
+      const fragment = document.createDocumentFragment();
+      for (const item of rows) {
+        const row = document.createElement('tr');
+        const idCell = document.createElement('td');
+        idCell.textContent = String(item.id);
+
+        const nameCell = document.createElement('td');
+        const link = document.createElement('a');
+        link.href = `${basePath}items/${item.slug}`;
+        link.textContent = item.name;
+        nameCell.appendChild(link);
+
+        const rarityCell = document.createElement('td');
+        rarityCell.textContent = String(item.rarityPlusOne);
+        const buyCell = document.createElement('td');
+        buyCell.textContent = String(item.buyPrice);
+        const sellCell = document.createElement('td');
+        sellCell.textContent = String(item.sellPrice);
+
+        row.append(idCell, nameCell, rarityCell, buyCell, sellCell);
+        fragment.appendChild(row);
+      }
+      tableBody.appendChild(fragment);
+    };
+
+    const getFilteredItems = () => {
+      const query = (searchInput?.value || '').trim().toLowerCase();
+      return searchItems.filter((item) => {
+        const matchesQuery =
+          !query ||
+          item.nameText.includes(query) ||
+          item.descriptionText.includes(query) ||
+          item.idText.includes(query);
+        return matchesQuery;
+      });
+    };
+
+    const update = () => {
+      const filteredItems = getFilteredItems();
+      const totalPages = Math.max(1, Math.ceil(filteredItems.length / perPage));
+      currentPage = Math.min(currentPage, totalPages);
+      const start = (currentPage - 1) * perPage;
+      const end = start + perPage;
+      const pageItems = filteredItems.slice(start, end);
+
+      renderRows(pageItems);
+      if (visibleCount) visibleCount.textContent = String(filteredItems.length);
+      if (currentPageLabel) currentPageLabel.textContent = String(currentPage);
+      if (totalPagesLabel) totalPagesLabel.textContent = String(totalPages);
+      if (prevPageButton) prevPageButton.disabled = currentPage <= 1;
+      if (nextPageButton) nextPageButton.disabled = currentPage >= totalPages;
+    };
+
+    const resetToFirstPageAndUpdate = () => {
+      currentPage = 1;
+      update();
+    };
+
+    searchInput?.addEventListener('input', resetToFirstPageAndUpdate);
+    prevPageButton?.addEventListener('click', () => {
+      currentPage = Math.max(1, currentPage - 1);
+      update();
+    });
+    nextPageButton?.addEventListener('click', () => {
+      currentPage += 1;
+      update();
+    });
+    update();
+  </script>
+</WikiLayout>

@@ -1,0 +1,96 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import monsterDrops from '../../data/generated/monster-drops.json';
+
+const sortedMonsters = [...monsterDrops].sort((a, b) => a.monsterId - b.monsterId);
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+---
+
+<WikiLayout title="Monster Drops | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Monster Drop Tables</h1>
+    <p class="text-slate-300">
+      Generated from extracted capture, part break, and hardcore carve data. Search by monster name, ID, rank, or drop mode.
+    </p>
+  </section>
+
+  <section class="panel mt-6 space-y-3">
+    <label class="block text-sm font-medium text-slate-200" for="monster-search">Search monsters</label>
+    <input
+      id="monster-search"
+      type="search"
+      placeholder="Monster name, ID, rank, or drop mode..."
+      class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+    />
+    <p class="text-sm text-slate-400">
+      Showing <span id="visible-monster-count">{sortedMonsters.length}</span> of {sortedMonsters.length} monsters
+    </p>
+  </section>
+
+  <div class="table-wrap mt-6">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>Monster</th>
+          <th>Drop entries</th>
+          <th>Drop modes</th>
+          <th>Ranks</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sortedMonsters.map((monster) => (
+          <tr
+            data-monster-row
+            data-monster-id={String(monster.monsterId)}
+            data-monster-name={monster.monsterLabel.toLowerCase()}
+            data-drop-modes={monster.dropModes.join(' ').toLowerCase()}
+            data-ranks={monster.ranks.join(' ').toLowerCase()}
+          >
+            <td>
+              <a href={withBase(`monster-drops/${monster.monsterId}/`)}>
+                {monster.monsterLabel}
+              </a>
+            </td>
+            <td>{monster.totalEntries}</td>
+            <td>{monster.dropModes.join(', ')}</td>
+            <td>{monster.ranks.join(', ')}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>('#monster-search');
+    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('[data-monster-row]'));
+    const count = document.querySelector<HTMLElement>('#visible-monster-count');
+
+    const update = () => {
+      const query = (input?.value || '').trim().toLowerCase();
+      let shown = 0;
+
+      for (const row of rows) {
+        const id = row.dataset.monsterId || '';
+        const name = row.dataset.monsterName || '';
+        const modes = row.dataset.dropModes || '';
+        const ranks = row.dataset.ranks || '';
+        const show =
+          !query ||
+          id.includes(query) ||
+          name.includes(query) ||
+          modes.includes(query) ||
+          ranks.includes(query);
+        row.style.display = show ? '' : 'none';
+        if (show) shown += 1;
+      }
+
+      if (count) {
+        count.textContent = String(shown);
+      }
+    };
+
+    input?.addEventListener('input', update);
+  </script>
+</WikiLayout>

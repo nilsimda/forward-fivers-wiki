@@ -1,0 +1,165 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import items from '../../data/generated/items.json';
+import itemAcquisitionByItemId from '../../data/generated/item-acquisition.json';
+
+export function getStaticPaths() {
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { item }
+  }));
+}
+
+const { item } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+const rankOrder = ['lr', 'hr', 'arena', 'hr100', 'gr'];
+const rankLabels: Record<string, string> = {
+  lr: 'LR (Low Rank)',
+  hr: 'HR (High Rank)',
+  arena: 'Arena',
+  hr100: 'HR 100',
+  gr: 'G-Rank'
+};
+const methodOrder = ['capture', 'part_break', 'hardcore_carve', 'quest_reward', 'carve', 'gather', 'shop'];
+const methodLabels: Record<string, string> = {
+  capture: 'Capture',
+  part_break: 'Part Break',
+  hardcore_carve: 'Hardcore Carve',
+  quest_reward: 'Quest Reward',
+  carve: 'Carve',
+  gather: 'Gather',
+  shop: 'Shop'
+};
+
+type AcquisitionMethod = {
+  methodType: string;
+  rank?: string;
+  sourceLabel?: string;
+  chance?: number;
+  quantity?: number;
+  monsterId?: number;
+  monsterName?: string;
+  partbreakType?: string;
+};
+
+type ItemAcquisitionEntry = {
+  itemId: number;
+  itemName: string;
+  methods: AcquisitionMethod[];
+};
+
+const acquisitionEntry = (itemAcquisitionByItemId as Record<string, ItemAcquisitionEntry>)[String(item.id)];
+const acquisitionMethods = acquisitionEntry?.methods || [];
+
+const groupedMethodsMap = new Map<string, { rank: string; methodType: string; methods: AcquisitionMethod[] }>();
+
+for (const method of acquisitionMethods) {
+  const rank = method.rank || 'unknown';
+  const methodType = method.methodType || 'unknown';
+  const key = `${rank}::${methodType}`;
+
+  if (!groupedMethodsMap.has(key)) {
+    groupedMethodsMap.set(key, { rank, methodType, methods: [] });
+  }
+
+  const group = groupedMethodsMap.get(key);
+  if (!group) continue;
+  group.methods.push(method);
+}
+
+const groupedMethods = [...groupedMethodsMap.values()].sort((a, b) => {
+  const rankA = rankOrder.indexOf(a.rank);
+  const rankB = rankOrder.indexOf(b.rank);
+  const safeRankA = rankA === -1 ? Number.MAX_SAFE_INTEGER : rankA;
+  const safeRankB = rankB === -1 ? Number.MAX_SAFE_INTEGER : rankB;
+  if (safeRankA !== safeRankB) return safeRankA - safeRankB;
+
+  const methodA = methodOrder.indexOf(a.methodType);
+  const methodB = methodOrder.indexOf(b.methodType);
+  const safeMethodA = methodA === -1 ? Number.MAX_SAFE_INTEGER : methodA;
+  const safeMethodB = methodB === -1 ? Number.MAX_SAFE_INTEGER : methodB;
+  if (safeMethodA !== safeMethodB) return safeMethodA - safeMethodB;
+
+  return a.methodType.localeCompare(b.methodType);
+});
+
+const renderSourceLabel = (method: AcquisitionMethod) => {
+  if (method.methodType === 'capture') {
+    return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Capture`;
+  }
+  if (method.methodType === 'part_break') {
+    const part = method.partbreakType || 'unknown';
+    return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Part Break ${part}`;
+  }
+  if (method.methodType === 'hardcore_carve') {
+    return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Hardcore carve`;
+  }
+  return method.sourceLabel || 'Unknown source';
+};
+---
+
+<WikiLayout title={`${item.name} | Items | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase('items/')} class="text-sm">Back to item index</a>
+      <h1>{item.name}</h1>
+      <p class="text-slate-300">Item ID {item.id}</p>
+    </header>
+
+    <section class="grid gap-4 md:grid-cols-2">
+      <div class="panel">
+        <h2 class="text-lg">Core Stats</h2>
+        <dl class="mt-3 space-y-2 text-sm text-slate-300">
+          <div class="flex justify-between gap-3"><dt>Rarity</dt><dd>{item.rarityPlusOne}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Max stack</dt><dd>{item.maxStack}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Icon</dt><dd>{item.icon}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Icon color</dt><dd>{item.iconColor}</dd></div>
+        </dl>
+      </div>
+      <div class="panel">
+        <h2 class="text-lg">Economy</h2>
+        <dl class="mt-3 space-y-2 text-sm text-slate-300">
+          <div class="flex justify-between gap-3"><dt>Buy price</dt><dd>{item.buyPrice}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Sell price</dt><dd>{item.sellPrice}</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="text-lg">Description</h2>
+      <p class="mt-3 whitespace-pre-line text-slate-300">
+        {item.description || 'No description available in the current extraction output.'}
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2 class="text-lg">How to Obtain</h2>
+      {groupedMethods.length === 0 ? (
+        <p class="mt-3 text-slate-300">No acquisition data available yet.</p>
+      ) : (
+        <div class="mt-4 space-y-5">
+          {groupedMethods.map((group) => (
+            <section class="space-y-2">
+              <h3 class="text-base text-slate-200">
+                {(rankLabels[group.rank] || group.rank.toUpperCase())} - {methodLabels[group.methodType] || group.methodType}
+              </h3>
+              <ul class="list-disc space-y-1 pl-5 text-slate-300">
+                {group.methods.map((method) => (
+                  <li>
+                    <span class="text-slate-200">{renderSourceLabel(method)}</span>
+                    {' - '}
+                    <span>{typeof method.chance === 'number' ? `${method.chance}%` : 'Unknown chance'}</span>
+                    {' x'}
+                    <span>{typeof method.quantity === 'number' ? method.quantity : '?'}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      )}
+    </section>
+  </article>
+</WikiLayout>

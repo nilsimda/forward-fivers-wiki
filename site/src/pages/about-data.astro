@@ -1,0 +1,42 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+---
+
+<WikiLayout title="About Data | MHFG1 Wiki">
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <h1>About Data Sources</h1>
+      <p class="text-slate-300">
+        This wiki is built from extracted MHFG G1 data files and rendered as a static site.
+      </p>
+    </header>
+
+    <section class="panel space-y-2">
+      <h2 class="text-lg">Current canonical sources</h2>
+      <ul class="list-disc space-y-1 pl-5 text-slate-300">
+        <li><code>g1_data/mhfdat.raw.bin</code> for extracted gameplay data</li>
+        <li><code>g1_data/monster_names.json</code> for editable monster display names</li>
+      </ul>
+    </section>
+
+    <section class="panel space-y-2">
+      <h2 class="text-lg">Ferias policy</h2>
+      <p class="text-slate-300">
+        Ferias content is used only as structural inspiration for navigation and categorization.
+      </p>
+      <p class="text-slate-300">
+        No gameplay/stat values should be copied from Ferias into G1 wiki content.
+      </p>
+    </section>
+
+    <section class="panel space-y-2">
+      <h2 class="text-lg">Build process</h2>
+      <ol class="list-decimal space-y-1 pl-5 text-slate-300">
+        <li>Python scripts extract source JSON from <code>g1_data/mhfdat.raw.bin</code>.</li>
+        <li><code>scripts/extract_partbreak_data.py</code> applies <code>g1_data/monster_names.json</code>.</li>
+        <li>Generated JSON is written to <code>site/src/data/generated/</code>.</li>
+        <li>Astro renders static pages from generated JSON and markdown content.</li>
+      </ol>
+    </section>
+  </article>
+</WikiLayout>

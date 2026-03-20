@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Monster Hunter Frontier G1 community wiki.' } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <header class="border-b border-slate-800 bg-slate-900/70 backdrop-blur">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4">
+        <a href={withBase('')} class="text-lg font-semibold tracking-wide text-cyan-300">MHFG1 Wiki</a>
+        <nav class="flex gap-4 text-sm">
+          <a class="nav-link" href={withBase('')}>Home</a>
+          <a class="nav-link" href={withBase('items/')}>Items</a>
+          <a class="nav-link" href={withBase('monster-drops/')}>Monster Drops</a>
+          <a class="nav-link" href={withBase('about-data/')}>About Data</a>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto w-full max-w-6xl px-4 py-8">
+      <slot />
+    </main>
+  </body>
+</html>

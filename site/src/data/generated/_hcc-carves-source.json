@@ -1,0 +1,303 @@
+[
+  {
+    "monster_id": 6,
+    "lr_item_id": 2703,
+    "hr_item_id": 2704,
+    "hr100_item_id": 2705,
+    "gr_item_id": 2705
+  },
+  {
+    "monster_id": 52,
+    "lr_item_id": 2706,
+    "hr_item_id": 2707,
+    "hr100_item_id": 2708,
+    "gr_item_id": 2708
+  },
+  {
+    "monster_id": 75,
+    "lr_item_id": 2709,
+    "hr_item_id": 2710,
+    "hr100_item_id": 2711,
+    "gr_item_id": 2711
+  },
+  {
+    "monster_id": 15,
+    "lr_item_id": 2712,
+    "hr_item_id": 2713,
+    "hr100_item_id": 2714,
+    "gr_item_id": 2714
+  },
+  {
+    "monster_id": 11,
+    "lr_item_id": 2715,
+    "hr_item_id": 2716,
+    "hr100_item_id": 2717,
+    "gr_item_id": 2717
+  },
+  {
+    "monster_id": 1,
+    "lr_item_id": 2718,
+    "hr_item_id": 2719,
+    "hr100_item_id": 2720,
+    "gr_item_id": 2720
+  },
+  {
+    "monster_id": 14,
+    "lr_item_id": 2721,
+    "hr_item_id": 2722,
+    "hr100_item_id": 2723,
+    "gr_item_id": 2723
+  },
+  {
+    "monster_id": 51,
+    "lr_item_id": 2724,
+    "hr_item_id": 2725,
+    "hr100_item_id": 2726,
+    "gr_item_id": 2726
+  },
+  {
+    "monster_id": 22,
+    "lr_item_id": 3510,
+    "hr_item_id": 3511,
+    "hr100_item_id": 3512,
+    "gr_item_id": 3512
+  },
+  {
+    "monster_id": 65,
+    "lr_item_id": 3516,
+    "hr_item_id": 3517,
+    "hr100_item_id": 3518,
+    "gr_item_id": 3518
+  },
+  {
+    "monster_id": 21,
+    "lr_item_id": 3519,
+    "hr_item_id": 3520,
+    "hr100_item_id": 3521,
+    "gr_item_id": 3521
+  },
+  {
+    "monster_id": 48,
+    "lr_item_id": 3522,
+    "hr_item_id": 3523,
+    "hr100_item_id": 3524,
+    "gr_item_id": 3524
+  },
+  {
+    "monster_id": 76,
+    "lr_item_id": 3526,
+    "hr_item_id": 3526,
+    "hr100_item_id": 3527,
+    "gr_item_id": 3527
+  },
+  {
+    "monster_id": 74,
+    "lr_item_id": 3528,
+    "hr_item_id": 3529,
+    "hr100_item_id": 3530,
+    "gr_item_id": 3530
+  },
+  {
+    "monster_id": 89,
+    "lr_item_id": 3532,
+    "hr_item_id": 3532,
+    "hr100_item_id": 3533,
+    "gr_item_id": 3533
+  },
+  {
+    "monster_id": 81,
+    "lr_item_id": 3535,
+    "hr_item_id": 3535,
+    "hr100_item_id": 5734,
+    "gr_item_id": 5734
+  },
+  {
+    "monster_id": 20,
+    "lr_item_id": 3513,
+    "hr_item_id": 3514,
+    "hr100_item_id": 3515,
+    "gr_item_id": 3515
+  },
+  {
+    "monster_id": 33,
+    "lr_item_id": 3712,
+    "hr_item_id": 3713,
+    "hr100_item_id": 3714,
+    "gr_item_id": 3714
+  },
+  {
+    "monster_id": 59,
+    "lr_item_id": 3715,
+    "hr_item_id": 3716,
+    "hr100_item_id": 3717,
+    "gr_item_id": 3717
+  },
+  {
+    "monster_id": 40,
+    "lr_item_id": 3718,
+    "hr_item_id": 3718,
+    "hr100_item_id": 3719,
+    "gr_item_id": 3719
+  },
+  {
+    "monster_id": 80,
+    "lr_item_id": 3720,
+    "hr_item_id": 3720,
+    "hr100_item_id": 3721,
+    "gr_item_id": 3721
+  },
+  {
+    "monster_id": 94,
+    "lr_item_id": 3722,
+    "hr_item_id": 3723,
+    "hr100_item_id": 3724,
+    "gr_item_id": 3724
+  },
+  {
+    "monster_id": 67,
+    "lr_item_id": 3725,
+    "hr_item_id": 3726,
+    "hr100_item_id": 3727,
+    "gr_item_id": 3727
+  },
+  {
+    "monster_id": 53,
+    "lr_item_id": 3728,
+    "hr_item_id": 3728,
+    "hr100_item_id": 3729,
+    "gr_item_id": 3729
+  },
+  {
+    "monster_id": 27,
+    "lr_item_id": 3731,
+    "hr_item_id": 3732,
+    "hr100_item_id": 3733,
+    "gr_item_id": 3733
+  },
+  {
+    "monster_id": 26,
+    "lr_item_id": 3734,
+    "hr_item_id": 3734,
+    "hr100_item_id": 3734,
+    "gr_item_id": 3734
+  },
+  {
+    "monster_id": 49,
+    "lr_item_id": 3735,
+    "hr_item_id": 3736,
+    "hr100_item_id": 5735,
+    "gr_item_id": 5735
+  },
+  {
+    "monster_id": 54,
+    "lr_item_id": 4320,
+    "hr_item_id": 4321,
+    "hr100_item_id": 4322,
+    "gr_item_id": 4322
+  },
+  {
+    "monster_id": 37,
+    "lr_item_id": 4327,
+    "hr_item_id": 4328,
+    "hr100_item_id": 5736,
+    "gr_item_id": 5736
+  },
+  {
+    "monster_id": 45,
+    "lr_item_id": 4329,
+    "hr_item_id": 4330,
+    "hr100_item_id": 6155,
+    "gr_item_id": 4330
+  },
+  {
+    "monster_id": 78,
+    "lr_item_id": 4331,
+    "hr_item_id": 4332,
+    "hr100_item_id": 5737,
+    "gr_item_id": 5737
+  },
+  {
+    "monster_id": 91,
+    "lr_item_id": 4323,
+    "hr_item_id": 4323,
+    "hr100_item_id": 4324,
+    "gr_item_id": 4324
+  },
+  {
+    "monster_id": 92,
+    "lr_item_id": 4325,
+    "hr_item_id": 4325,
+    "hr100_item_id": 4326,
+    "gr_item_id": 4326
+  },
+  {
+    "monster_id": 38,
+    "lr_item_id": 4932,
+    "hr_item_id": 4933,
+    "hr100_item_id": 6154,
+    "gr_item_id": 4933
+  },
+  {
+    "monster_id": 68,
+    "lr_item_id": 4927,
+    "hr_item_id": 4928,
+    "hr100_item_id": 4929,
+    "gr_item_id": 4929
+  },
+  {
+    "monster_id": 77,
+    "lr_item_id": 4930,
+    "hr_item_id": 4930,
+    "hr100_item_id": 4931,
+    "gr_item_id": 4931
+  },
+  {
+    "monster_id": 95,
+    "lr_item_id": 4921,
+    "hr_item_id": 4921,
+    "hr100_item_id": 4922,
+    "gr_item_id": 4922
+  },
+  {
+    "monster_id": 43,
+    "lr_item_id": 4935,
+    "hr_item_id": 4936,
+    "hr100_item_id": 6156,
+    "gr_item_id": 4936
+  },
+  {
+    "monster_id": 17,
+    "lr_item_id": 4924,
+    "hr_item_id": 4925,
+    "hr100_item_id": 4926,
+    "gr_item_id": 4926
+  },
+  {
+    "monster_id": 60,
+    "lr_item_id": 5730,
+    "hr_item_id": 5731,
+    "hr100_item_id": 5732,
+    "gr_item_id": 5732
+  },
+  {
+    "monster_id": 96,
+    "lr_item_id": 5727,
+    "hr_item_id": 5728,
+    "hr100_item_id": 5729,
+    "gr_item_id": 5729
+  },
+  {
+    "monster_id": 85,
+    "lr_item_id": 6152,
+    "hr_item_id": 6152,
+    "hr100_item_id": 6153,
+    "gr_item_id": 6153
+  },
+  {
+    "monster_id": 101,
+    "lr_item_id": 6149,
+    "hr_item_id": 6150,
+    "hr100_item_id": 6151,
+    "gr_item_id": 6151
+  }
+]
