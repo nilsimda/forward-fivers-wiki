@@ -25765,7 +25765,7 @@
   },
   {
     "monsterId": 85,
-    "monsterLabel": "Berukyurosu",
+    "monsterLabel": "Belkuros",
     "totalEntries": 107,
     "dropModes": [
       "capture",
@@ -25780,7 +25780,7 @@
     ],
     "drops": [
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "lr",
@@ -25790,7 +25790,7 @@
         "itemName": "Belkuros Carpace"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "lr",
@@ -25800,7 +25800,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "lr",
@@ -25810,7 +25810,7 @@
         "itemName": "Belkuros Fluid"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "lr",
@@ -25820,7 +25820,7 @@
         "itemName": "Thunder Sac"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "lr",
@@ -25830,7 +25830,7 @@
         "itemName": "Belkuros Marrow"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25840,7 +25840,7 @@
         "itemName": "Belkuros Horn+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25850,7 +25850,7 @@
         "itemName": "Belkuros Carpace"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25860,7 +25860,7 @@
         "itemName": "Belkuros Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25870,7 +25870,7 @@
         "itemName": "Belkuros Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25880,7 +25880,7 @@
         "itemName": "Belkuros Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25890,7 +25890,7 @@
         "itemName": "Belkuros Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25900,7 +25900,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "lr",
@@ -25910,7 +25910,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "lr",
@@ -25920,7 +25920,7 @@
         "itemName": "Bel Voltscale"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr",
@@ -25930,7 +25930,7 @@
         "itemName": "Belkuros Carpace"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr",
@@ -25940,7 +25940,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr",
@@ -25950,7 +25950,7 @@
         "itemName": "Belkuros Fluid"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr",
@@ -25960,7 +25960,7 @@
         "itemName": "Thunder Sac"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr",
@@ -25970,7 +25970,7 @@
         "itemName": "Belkuros Marrow"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr",
@@ -25980,7 +25980,7 @@
         "itemName": "Belkuros Horn+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr",
@@ -25990,7 +25990,7 @@
         "itemName": "Belkuros Carpace"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26000,7 +26000,7 @@
         "itemName": "Belkuros Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26010,7 +26010,7 @@
         "itemName": "Belkuros Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26020,7 +26020,7 @@
         "itemName": "Belkuros Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26030,7 +26030,7 @@
         "itemName": "Belkuros Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26040,7 +26040,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr",
@@ -26050,7 +26050,7 @@
         "itemName": "Belkuros Scale+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr",
@@ -26060,7 +26060,7 @@
         "itemName": "Bel Voltscale"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "arena",
@@ -26070,7 +26070,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "arena",
@@ -26080,7 +26080,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "arena",
@@ -26090,7 +26090,7 @@
         "itemName": "Monster Bone S"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "arena",
@@ -26100,7 +26100,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26110,7 +26110,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26120,7 +26120,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26130,7 +26130,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26140,7 +26140,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26150,7 +26150,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26160,7 +26160,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26170,7 +26170,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26180,7 +26180,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26190,7 +26190,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26200,7 +26200,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26210,7 +26210,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26220,7 +26220,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26230,7 +26230,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26240,7 +26240,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26250,7 +26250,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26260,7 +26260,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26270,7 +26270,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26280,7 +26280,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26290,7 +26290,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26300,7 +26300,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26310,7 +26310,7 @@
         "itemName": "Stone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26320,7 +26320,7 @@
         "itemName": "Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26330,7 +26330,7 @@
         "itemName": "Max Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "arena",
@@ -26340,7 +26340,7 @@
         "itemName": "Ancient Potion"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26350,7 +26350,7 @@
         "itemName": "F.Wyvern Fang"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26360,7 +26360,7 @@
         "itemName": "F.Wyvern Fluid"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26370,7 +26370,7 @@
         "itemName": "F.Wyvern Fluid+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26380,7 +26380,7 @@
         "itemName": "F.Wyvern Broth"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26390,7 +26390,7 @@
         "itemName": "F.Wyvern Fang+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26400,7 +26400,7 @@
         "itemName": "F.Wyv Hardfang"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26410,7 +26410,7 @@
         "itemName": "Capture Ticket"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x80",
         "dropMode": "capture",
         "rank": "hr100",
@@ -26420,7 +26420,7 @@
         "itemName": "Storm Sac"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26430,7 +26430,7 @@
         "itemName": "F.Wyvern Fang"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26440,7 +26440,7 @@
         "itemName": "F.Wyvern Jaw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26450,7 +26450,7 @@
         "itemName": "F.Wyvern Fang+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26460,7 +26460,7 @@
         "itemName": "F.Wyvern Jaw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26470,7 +26470,7 @@
         "itemName": "F.Wyv Hardfang"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26480,7 +26480,7 @@
         "itemName": "F.Wyvern Maw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x01",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26490,7 +26490,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26500,7 +26500,7 @@
         "itemName": "F.Wyvern Shell"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26510,7 +26510,7 @@
         "itemName": "F.Wyvern Spike"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26520,7 +26520,7 @@
         "itemName": "F.Wyvern Carpace"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26530,7 +26530,7 @@
         "itemName": "F.Wyvern Spike+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26540,7 +26540,7 @@
         "itemName": "F.Wyv Surspike"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26550,7 +26550,7 @@
         "itemName": "F.Wyvern Cortex"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x02",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26560,7 +26560,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26570,7 +26570,7 @@
         "itemName": "F.Wyvern Claw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26580,7 +26580,7 @@
         "itemName": "F.Wyvern Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26590,7 +26590,7 @@
         "itemName": "F.Wyvern Wing"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26600,7 +26600,7 @@
         "itemName": "F.Wyv Hardclaw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26610,7 +26610,7 @@
         "itemName": "F.Wyvern Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26620,7 +26620,7 @@
         "itemName": "F.Wyv Fellwing"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x03",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26630,7 +26630,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26640,7 +26640,7 @@
         "itemName": "F.Wyvern Claw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26650,7 +26650,7 @@
         "itemName": "F.Wyvern Claw+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26660,7 +26660,7 @@
         "itemName": "F.Wyvern Wing"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26670,7 +26670,7 @@
         "itemName": "F.Wyv Hardclaw"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26680,7 +26680,7 @@
         "itemName": "F.Wyvern Wing+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26690,7 +26690,7 @@
         "itemName": "F.Wyv Fellwing"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26700,7 +26700,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26710,7 +26710,7 @@
         "itemName": "F.Wyvern Bone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26720,7 +26720,7 @@
         "itemName": "F.Wyvern Blood"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26730,7 +26730,7 @@
         "itemName": "F.Wyvern Blood+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26740,7 +26740,7 @@
         "itemName": "F.Wyvern Bone+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26750,7 +26750,7 @@
         "itemName": "F.Wyv Hardbone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26760,7 +26760,7 @@
         "itemName": "ThickF.WyvBlood"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26770,7 +26770,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26780,7 +26780,7 @@
         "itemName": "F.Wyvern Bone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26790,7 +26790,7 @@
         "itemName": "F.Wyvern Blood"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26800,7 +26800,7 @@
         "itemName": "F.Wyvern Blood+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26810,7 +26810,7 @@
         "itemName": "F.Wyvern Bone+"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26820,7 +26820,7 @@
         "itemName": "F.Wyv Hardbone"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26830,7 +26830,7 @@
         "itemName": "ThickF.WyvBlood"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "0x06",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -26840,7 +26840,7 @@
         "itemName": "F.Wyvern Jewel"
       },
       {
-        "monsterName": "Berukyurosu",
+        "monsterName": "Belkuros",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
@@ -42325,15 +42325,12 @@
   {
     "monsterId": 107,
     "monsterLabel": "Disufiroa",
-    "totalEntries": 69,
+    "totalEntries": 25,
     "dropModes": [
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -42341,166 +42338,6 @@
         "monsterName": "Disufiroa",
         "partbreakType": "0x01",
         "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -42656,286 +42493,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Disufiroa",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Disufiroa",
@@ -43032,15 +42589,12 @@
   {
     "monsterId": 108,
     "monsterLabel": "Rebidiora",
-    "totalEntries": 72,
+    "totalEntries": 28,
     "dropModes": [
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -43048,166 +42602,6 @@
         "monsterName": "Rebidiora",
         "partbreakType": "0x01",
         "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -43363,286 +42757,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Rebidiora",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Rebidiora",
@@ -43769,16 +42883,13 @@
   {
     "monsterId": 109,
     "monsterLabel": "Anorupatisu",
-    "totalEntries": 56,
+    "totalEntries": 23,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -43786,126 +42897,6 @@
         "monsterName": "Anorupatisu",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -44021,216 +43012,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Anorupatisu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Anorupatisu",
@@ -44347,16 +43128,13 @@
   {
     "monsterId": 110,
     "monsterLabel": "Hyujikiki",
-    "totalEntries": 97,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -44364,246 +43142,6 @@
         "monsterName": "Hyujikiki",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 51,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 38,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -44799,346 +43337,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 28,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 26,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 16,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 11,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 11,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 11,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Hyujikiki",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Hyujikiki",
@@ -45335,16 +43533,13 @@
   {
     "monsterId": 111,
     "monsterLabel": "Midogaron",
-    "totalEntries": 74,
+    "totalEntries": 30,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -45352,166 +43547,6 @@
         "monsterName": "Midogaron",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -45667,286 +43702,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Midogaron",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Midogaron",
@@ -46093,16 +43848,13 @@
   {
     "monsterId": 112,
     "monsterLabel": "Giaorugu",
-    "totalEntries": 75,
+    "totalEntries": 31,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -46110,166 +43862,6 @@
         "monsterName": "Giaorugu",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -46425,286 +44017,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Giaorugu",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Giaorugu",
@@ -46861,15 +44173,12 @@
   {
     "monsterId": 113,
     "monsterLabel": "Mi Ru",
-    "totalEntries": 87,
+    "totalEntries": 32,
     "dropModes": [
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -46877,206 +44186,6 @@
         "monsterName": "Mi Ru",
         "partbreakType": "0x01",
         "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -47272,356 +44381,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Mi Ru",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Mi Ru",
@@ -47748,16 +44507,13 @@
   {
     "monsterId": 114,
     "monsterLabel": "Farunokku",
-    "totalEntries": 38,
+    "totalEntries": 16,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -47765,96 +44521,6 @@
         "monsterName": "Farunokku",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 51,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 38,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -47930,136 +44596,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 28,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 26,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 16,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Farunokku",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Farunokku",
@@ -48146,16 +44682,13 @@
   {
     "monsterId": 115,
     "monsterLabel": "Pokaradon",
-    "totalEntries": 56,
+    "totalEntries": 23,
     "dropModes": [
       "capture",
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -48163,126 +44696,6 @@
         "monsterName": "Pokaradon",
         "partbreakType": "0x80",
         "dropMode": "capture",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -48398,216 +44811,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x80",
-        "dropMode": "capture",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Pokaradon",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Pokaradon",
@@ -48724,15 +44927,12 @@
   {
     "monsterId": 116,
     "monsterLabel": "Shantien",
-    "totalEntries": 91,
+    "totalEntries": 36,
     "dropModes": [
       "part_break"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -48740,206 +44940,6 @@
         "monsterName": "Shantien",
         "partbreakType": "0x01",
         "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 68,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 31,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 1,
-        "quantity": 1,
-        "itemId": 5742,
-        "itemName": "Quarzeps Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -49135,356 +45135,6 @@
         "quantity": 1,
         "itemId": 28,
         "itemName": "Ancient Potion"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x01",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x02",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x03",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x04",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 21,
-        "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "monsterName": "Shantien",
-        "partbreakType": "0x05",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "monsterName": "Shantien",
