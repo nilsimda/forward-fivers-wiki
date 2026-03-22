@@ -254,8 +254,7 @@ function buildHardcoreCarveMethods(rows, items, monsterNamesById) {
   const rankItemColumns = [
     { rank: 'lr', column: 'lr_item_id' },
     { rank: 'hr', column: 'hr_item_id' },
-    { rank: 'hr100', column: 'hr100_item_id' },
-    { rank: 'gr', column: 'gr_item_id' }
+    { rank: 'hr100', column: 'hr100_item_id' }
   ];
 
   const methods = [];

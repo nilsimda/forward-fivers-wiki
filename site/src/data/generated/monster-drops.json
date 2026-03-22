@@ -2,7 +2,7 @@
   {
     "monsterId": 1,
     "monsterLabel": "Rathian",
-    "totalEntries": 57,
+    "totalEntries": 56,
     "dropModes": [
       "capture",
       "part_break",
@@ -575,16 +575,6 @@
         "quantity": 1,
         "itemId": 6992,
         "itemName": "Rath Glosshell"
-      },
-      {
-        "monsterName": "Rathian",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2720,
-        "itemName": "Rathian Graceshl"
       }
     ]
   },
@@ -927,7 +917,7 @@
   {
     "monsterId": 6,
     "monsterLabel": "Yian Kut-Ku",
-    "totalEntries": 45,
+    "totalEntries": 44,
     "dropModes": [
       "capture",
       "part_break",
@@ -1380,16 +1370,6 @@
         "quantity": 1,
         "itemId": 6644,
         "itemName": "Sinister Beak"
-      },
-      {
-        "monsterName": "Yian Kut-Ku",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2705,
-        "itemName": "Divine Beak"
       }
     ]
   },
@@ -2659,7 +2639,7 @@
   {
     "monsterId": 11,
     "monsterLabel": "Rathalos",
-    "totalEntries": 57,
+    "totalEntries": 56,
     "dropModes": [
       "capture",
       "part_break",
@@ -3232,23 +3212,13 @@
         "quantity": 1,
         "itemId": 6997,
         "itemName": "Rath Valorshell"
-      },
-      {
-        "monsterName": "Rathalos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2717,
-        "itemName": "Rathalos Kingscl"
       }
     ]
   },
   {
     "monsterId": 14,
     "monsterLabel": "Diablos",
-    "totalEntries": 33,
+    "totalEntries": 32,
     "dropModes": [
       "capture",
       "part_break",
@@ -3258,8 +3228,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -3581,23 +3550,13 @@
         "quantity": 1,
         "itemId": 2723,
         "itemName": "Sublime Horn"
-      },
-      {
-        "monsterName": "Diablos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2723,
-        "itemName": "Sublime Horn"
       }
     ]
   },
   {
     "monsterId": 15,
     "monsterLabel": "Khezu",
-    "totalEntries": 42,
+    "totalEntries": 41,
     "dropModes": [
       "capture",
       "part_break",
@@ -4020,23 +3979,13 @@
         "quantity": 1,
         "itemId": 6693,
         "itemName": "Pale Concentrate"
-      },
-      {
-        "monsterName": "Khezu",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2714,
-        "itemName": "Pale Belly"
       }
     ]
   },
   {
     "monsterId": 17,
     "monsterLabel": "Gravios",
-    "totalEntries": 49,
+    "totalEntries": 48,
     "dropModes": [
       "capture",
       "part_break",
@@ -4529,23 +4478,13 @@
         "quantity": 1,
         "itemId": 6755,
         "itemName": "Torpor Sac"
-      },
-      {
-        "monsterName": "Gravios",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4926,
-        "itemName": "Gravios Blazeshl"
       }
     ]
   },
   {
     "monsterId": 20,
     "monsterLabel": "Gypceros",
-    "totalEntries": 45,
+    "totalEntries": 44,
     "dropModes": [
       "capture",
       "part_break",
@@ -4998,23 +4937,13 @@
         "quantity": 1,
         "itemId": 6607,
         "itemName": "Galena"
-      },
-      {
-        "monsterName": "Gypceros",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3515,
-        "itemName": "Gypcero Hardhead"
       }
     ]
   },
   {
     "monsterId": 21,
     "monsterLabel": "Plesioth",
-    "totalEntries": 33,
+    "totalEntries": 32,
     "dropModes": [
       "capture",
       "part_break",
@@ -5024,8 +4953,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -5347,23 +5275,13 @@
         "quantity": 1,
         "itemId": 3521,
         "itemName": "Plesio Beautifin"
-      },
-      {
-        "monsterName": "Plesioth",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3521,
-        "itemName": "Plesio Beautifin"
       }
     ]
   },
   {
     "monsterId": 22,
     "monsterLabel": "Basarios",
-    "totalEntries": 46,
+    "totalEntries": 45,
     "dropModes": [
       "capture",
       "part_break",
@@ -5826,23 +5744,13 @@
         "quantity": 1,
         "itemId": 6670,
         "itemName": "Basarios Grndwng"
-      },
-      {
-        "monsterName": "Basarios",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3512,
-        "itemName": "Basarios Cragshl"
       }
     ]
   },
   {
     "monsterId": 26,
     "monsterLabel": "Monoblos",
-    "totalEntries": 30,
+    "totalEntries": 29,
     "dropModes": [
       "capture",
       "part_break",
@@ -5852,8 +5760,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -6145,23 +6052,13 @@
         "quantity": 1,
         "itemId": 3734,
         "itemName": "Monoblos Hardshl"
-      },
-      {
-        "monsterName": "Monoblos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3734,
-        "itemName": "Monoblos Hardshl"
       }
     ]
   },
   {
     "monsterId": 27,
     "monsterLabel": "Velocidrome",
-    "totalEntries": 19,
+    "totalEntries": 18,
     "dropModes": [
       "capture",
       "hardcore_carve"
@@ -6170,8 +6067,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -6349,16 +6245,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3733,
-        "itemName": "Vdrome Longclaw"
-      },
-      {
-        "monsterName": "Velocidrome",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 3733,
@@ -6741,7 +6627,7 @@
   {
     "monsterId": 33,
     "monsterLabel": "Kirin",
-    "totalEntries": 17,
+    "totalEntries": 16,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -6750,8 +6636,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -6909,16 +6794,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3714,
-        "itemName": "Kirin Silverhorn"
-      },
-      {
-        "monsterName": "Kirin",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 3714,
@@ -7265,7 +7140,7 @@
   {
     "monsterId": 37,
     "monsterLabel": "Pink Rathian",
-    "totalEntries": 51,
+    "totalEntries": 50,
     "dropModes": [
       "capture",
       "part_break",
@@ -7275,8 +7150,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -7778,23 +7652,13 @@
         "quantity": 1,
         "itemId": 5736,
         "itemName": "P.Rath Graceshl"
-      },
-      {
-        "monsterName": "Pink Rathian",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5736,
-        "itemName": "P.Rath Graceshl"
       }
     ]
   },
   {
     "monsterId": 38,
     "monsterLabel": "Blue Yian Kut-Ku",
-    "totalEntries": 39,
+    "totalEntries": 38,
     "dropModes": [
       "capture",
       "part_break",
@@ -7804,8 +7668,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -8187,16 +8050,6 @@
         "quantity": 1,
         "itemId": 6154,
         "itemName": "Gaudy Beak"
-      },
-      {
-        "monsterName": "Blue Yian Kut-Ku",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4933,
-        "itemName": "Pompous Beak"
       }
     ]
   },
@@ -8560,7 +8413,7 @@
   {
     "monsterId": 40,
     "monsterLabel": "Yian Garuga",
-    "totalEntries": 94,
+    "totalEntries": 93,
     "dropModes": [
       "capture",
       "part_break",
@@ -9503,16 +9356,6 @@
         "quantity": 1,
         "itemId": 6733,
         "itemName": "Garuga Greatwing"
-      },
-      {
-        "monsterName": "Yian Garuga",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3719,
-        "itemName": "Poisonous Beak"
       }
     ]
   },
@@ -10393,7 +10236,7 @@
   {
     "monsterId": 43,
     "monsterLabel": "Black Diablos",
-    "totalEntries": 36,
+    "totalEntries": 35,
     "dropModes": [
       "capture",
       "part_break",
@@ -10403,8 +10246,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -10756,16 +10598,6 @@
         "quantity": 1,
         "itemId": 6156,
         "itemName": "Violent Horn"
-      },
-      {
-        "monsterName": "Black Diablos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4936,
-        "itemName": "Contorted Horn"
       }
     ]
   },
@@ -11049,7 +10881,7 @@
   {
     "monsterId": 45,
     "monsterLabel": "Red Khezu",
-    "totalEntries": 34,
+    "totalEntries": 33,
     "dropModes": [
       "capture",
       "part_break",
@@ -11059,8 +10891,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -11392,16 +11223,6 @@
         "quantity": 1,
         "itemId": 6155,
         "itemName": "Crimson Belly"
-      },
-      {
-        "monsterName": "Red Khezu",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4330,
-        "itemName": "Crimson Hide"
       }
     ]
   },
@@ -12052,7 +11873,7 @@
   {
     "monsterId": 48,
     "monsterLabel": "Daimyo Hermitaur",
-    "totalEntries": 63,
+    "totalEntries": 62,
     "dropModes": [
       "capture",
       "part_break",
@@ -12685,23 +12506,13 @@
         "quantity": 1,
         "itemId": 6647,
         "itemName": "Herm Shieldclaw"
-      },
-      {
-        "monsterName": "Daimyo Hermitaur",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3524,
-        "itemName": "Hermitaur Vice"
       }
     ]
   },
   {
     "monsterId": 49,
     "monsterLabel": "Azure Rathalos",
-    "totalEntries": 48,
+    "totalEntries": 47,
     "dropModes": [
       "capture",
       "part_break",
@@ -12711,8 +12522,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -13180,16 +12990,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5735,
-        "itemName": "A.Rath Kingscl"
-      },
-      {
-        "monsterName": "Azure Rathalos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 5735,
@@ -13996,7 +13796,7 @@
   {
     "monsterId": 51,
     "monsterLabel": "Blangonga",
-    "totalEntries": 61,
+    "totalEntries": 60,
     "dropModes": [
       "capture",
       "part_break",
@@ -14609,23 +14409,13 @@
         "quantity": 1,
         "itemId": 6689,
         "itemName": "Blan Tempertail"
-      },
-      {
-        "monsterName": "Blangonga",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2726,
-        "itemName": "Blangonga Mauler"
       }
     ]
   },
   {
     "monsterId": 52,
     "monsterLabel": "Congalala",
-    "totalEntries": 57,
+    "totalEntries": 56,
     "dropModes": [
       "capture",
       "part_break",
@@ -15198,23 +14988,13 @@
         "quantity": 1,
         "itemId": 6668,
         "itemName": "Magnific Gem"
-      },
-      {
-        "monsterName": "Congalala",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2708,
-        "itemName": "Congalala Ripper"
       }
     ]
   },
   {
     "monsterId": 53,
     "monsterLabel": "Rajang",
-    "totalEntries": 58,
+    "totalEntries": 57,
     "dropModes": [
       "capture",
       "part_break",
@@ -15797,23 +15577,13 @@
         "quantity": 1,
         "itemId": 6725,
         "itemName": "Pure Gold Pelt"
-      },
-      {
-        "monsterName": "Rajang",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3729,
-        "itemName": "Rajang Ebonfur"
       }
     ]
   },
   {
     "monsterId": 54,
     "monsterLabel": "Kushala Daora",
-    "totalEntries": 36,
+    "totalEntries": 35,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -15822,8 +15592,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -16171,16 +15940,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4322,
-        "itemName": "Daora Galeshell"
-      },
-      {
-        "monsterName": "Kushala Daora",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 4322,
@@ -16553,7 +16312,7 @@
   {
     "monsterId": 59,
     "monsterLabel": "Chameleos",
-    "totalEntries": 15,
+    "totalEntries": 14,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -16562,8 +16321,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -16705,23 +16463,13 @@
         "quantity": 1,
         "itemId": 3717,
         "itemName": "Cham Prismhide"
-      },
-      {
-        "monsterName": "Chameleos",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3717,
-        "itemName": "Cham Prismhide"
       }
     ]
   },
   {
     "monsterId": 60,
     "monsterLabel": "Rusted Kushala Daora",
-    "totalEntries": 33,
+    "totalEntries": 32,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -16730,8 +16478,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -17053,16 +16800,6 @@
         "quantity": 1,
         "itemId": 5732,
         "itemName": "Rusted Fellwing"
-      },
-      {
-        "monsterName": "Rusted Kushala Daora",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5732,
-        "itemName": "Rusted Fellwing"
       }
     ]
   },
@@ -17365,7 +17102,7 @@
   {
     "monsterId": 65,
     "monsterLabel": "Teostra",
-    "totalEntries": 34,
+    "totalEntries": 33,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -17374,8 +17111,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -17707,23 +17443,13 @@
         "quantity": 1,
         "itemId": 3518,
         "itemName": "Teo Kaiserhorn"
-      },
-      {
-        "monsterName": "Teostra",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3518,
-        "itemName": "Teo Kaiserhorn"
       }
     ]
   },
   {
     "monsterId": 67,
     "monsterLabel": "Shogun Ceanataur",
-    "totalEntries": 95,
+    "totalEntries": 94,
     "dropModes": [
       "capture",
       "part_break",
@@ -18676,23 +18402,13 @@
         "quantity": 1,
         "itemId": 6676,
         "itemName": "Ceanataur Reaper"
-      },
-      {
-        "monsterName": "Shogun Ceanataur",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3727,
-        "itemName": "Ceanataur Saber"
       }
     ]
   },
   {
     "monsterId": 68,
     "monsterLabel": "Bulldrome",
-    "totalEntries": 20,
+    "totalEntries": 19,
     "dropModes": [
       "capture",
       "hardcore_carve"
@@ -18701,8 +18417,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -18890,16 +18605,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4929,
-        "itemName": "Bdrome Apextusk"
-      },
-      {
-        "monsterName": "Bulldrome",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 4929,
@@ -19246,7 +18951,7 @@
   {
     "monsterId": 74,
     "monsterLabel": "Hypnocatrice",
-    "totalEntries": 40,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break",
@@ -19256,8 +18961,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -19649,23 +19353,13 @@
         "quantity": 1,
         "itemId": 3530,
         "itemName": "Prismatic Bezoar"
-      },
-      {
-        "monsterName": "Hypnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3530,
-        "itemName": "Prismatic Bezoar"
       }
     ]
   },
   {
     "monsterId": 75,
     "monsterLabel": "Lavasioth",
-    "totalEntries": 60,
+    "totalEntries": 59,
     "dropModes": [
       "capture",
       "part_break",
@@ -20268,23 +19962,13 @@
         "quantity": 1,
         "itemId": 6749,
         "itemName": "Conflagrant Sac"
-      },
-      {
-        "monsterName": "Lavasioth",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 2711,
-        "itemName": "Lavasio Razorfin"
       }
     ]
   },
   {
     "monsterId": 76,
     "monsterLabel": "Tigrex",
-    "totalEntries": 61,
+    "totalEntries": 60,
     "dropModes": [
       "capture",
       "part_break",
@@ -20897,23 +20581,13 @@
         "quantity": 1,
         "itemId": 6723,
         "itemName": "Exalted Gem"
-      },
-      {
-        "monsterName": "Tigrex",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3527,
-        "itemName": "Tigrex Ripper"
       }
     ]
   },
   {
     "monsterId": 77,
     "monsterLabel": "Akantor",
-    "totalEntries": 68,
+    "totalEntries": 67,
     "dropModes": [
       "part_break",
       "hardcore_carve"
@@ -20922,8 +20596,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -21595,23 +21268,13 @@
         "quantity": 1,
         "itemId": 4931,
         "itemName": "Akantor Impaler"
-      },
-      {
-        "monsterName": "Akantor",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4931,
-        "itemName": "Akantor Impaler"
       }
     ]
   },
   {
     "monsterId": 78,
     "monsterLabel": "Vivid Hypnocatrice",
-    "totalEntries": 40,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break",
@@ -21621,8 +21284,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -22010,16 +21672,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5737,
-        "itemName": "Dazzling Bezoar"
-      },
-      {
-        "monsterName": "Vivid Hypnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 5737,
@@ -22527,7 +22179,7 @@
   {
     "monsterId": 80,
     "monsterLabel": "Espinas",
-    "totalEntries": 96,
+    "totalEntries": 95,
     "dropModes": [
       "capture",
       "part_break",
@@ -23490,23 +23142,13 @@
         "quantity": 1,
         "itemId": 6754,
         "itemName": "Ultraplegia Sac"
-      },
-      {
-        "monsterName": "Espinas",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3721,
-        "itemName": "Espinas Noxspike"
       }
     ]
   },
   {
     "monsterId": 81,
     "monsterLabel": "Flaming Espinas",
-    "totalEntries": 88,
+    "totalEntries": 87,
     "dropModes": [
       "capture",
       "part_break",
@@ -23516,8 +23158,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -24385,16 +24026,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5734,
-        "itemName": "F.Espi Noxspike"
-      },
-      {
-        "monsterName": "Flaming Espinas",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 5734,
@@ -26135,7 +25766,7 @@
   {
     "monsterId": 85,
     "monsterLabel": "Berukyurosu",
-    "totalEntries": 108,
+    "totalEntries": 107,
     "dropModes": [
       "capture",
       "part_break",
@@ -26145,8 +25776,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -27218,23 +26848,13 @@
         "quantity": 1,
         "itemId": 6153,
         "itemName": "Bel Lumenscale"
-      },
-      {
-        "monsterName": "Berukyurosu",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 6153,
-        "itemName": "Bel Lumenscale"
       }
     ]
   },
   {
     "monsterId": 89,
     "monsterLabel": "Pariapuria",
-    "totalEntries": 175,
+    "totalEntries": 174,
     "dropModes": [
       "capture",
       "part_break",
@@ -28987,16 +28607,6 @@
         "quantity": 1,
         "itemId": 6712,
         "itemName": "Paria Stoutbone"
-      },
-      {
-        "monsterName": "Pariapuria",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3533,
-        "itemName": "Paria Beautifin"
       }
     ]
   },
@@ -29670,7 +29280,7 @@
   {
     "monsterId": 91,
     "monsterLabel": "Kamu Orugaron",
-    "totalEntries": 78,
+    "totalEntries": 77,
     "dropModes": [
       "capture",
       "part_break",
@@ -29680,8 +29290,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -30453,23 +30062,13 @@
         "quantity": 1,
         "itemId": 4324,
         "itemName": "Orgaron Ripper"
-      },
-      {
-        "monsterName": "Kamu Orugaron",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4324,
-        "itemName": "Orgaron Ripper"
       }
     ]
   },
   {
     "monsterId": 92,
     "monsterLabel": "Nono Orugaron",
-    "totalEntries": 78,
+    "totalEntries": 77,
     "dropModes": [
       "capture",
       "part_break",
@@ -30479,8 +30078,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -31252,22 +30850,12 @@
         "quantity": 1,
         "itemId": 4326,
         "itemName": "Orgaron Glowfur"
-      },
-      {
-        "monsterName": "Nono Orugaron",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4326,
-        "itemName": "Orgaron Glowfur"
       }
     ]
   },
   {
     "monsterId": 93,
-    "monsterLabel": "Raviente",
+    "monsterLabel": "Laviente",
     "totalEntries": 100,
     "dropModes": [
       "part_break"
@@ -31280,7 +30868,7 @@
     ],
     "drops": [
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31290,7 +30878,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31300,7 +30888,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31310,7 +30898,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31320,7 +30908,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31330,7 +30918,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31340,7 +30928,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31350,7 +30938,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31360,7 +30948,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31370,7 +30958,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31380,7 +30968,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31390,7 +30978,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31400,7 +30988,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31410,7 +30998,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31420,7 +31008,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31430,7 +31018,7 @@
         "itemName": "Raviente Wing"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31440,7 +31028,7 @@
         "itemName": "Raviente Marrow"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31450,7 +31038,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31460,7 +31048,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31470,7 +31058,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31480,7 +31068,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31490,7 +31078,7 @@
         "itemName": "Raviente Tail"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31500,7 +31088,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31510,7 +31098,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "lr",
@@ -31520,7 +31108,7 @@
         "itemName": "Raviente Spike"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31530,7 +31118,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31540,7 +31128,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31550,7 +31138,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31560,7 +31148,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31570,7 +31158,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31580,7 +31168,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31590,7 +31178,7 @@
         "itemName": "Raviente Blood+"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31600,7 +31188,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31610,7 +31198,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31620,7 +31208,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31630,7 +31218,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31640,7 +31228,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31650,7 +31238,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31660,7 +31248,7 @@
         "itemName": "Raviente Blood+"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31670,7 +31258,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31680,7 +31268,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31690,7 +31278,7 @@
         "itemName": "Raviente Wing"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31700,7 +31288,7 @@
         "itemName": "Raviente Marrow"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31710,7 +31298,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31720,7 +31308,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31730,7 +31318,7 @@
         "itemName": "Raviente Blood+"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31740,7 +31328,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31750,7 +31338,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31760,7 +31348,7 @@
         "itemName": "Raviente Tail"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31770,7 +31358,7 @@
         "itemName": "Raviente Spike"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31780,7 +31368,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31790,7 +31378,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr",
@@ -31800,7 +31388,7 @@
         "itemName": "Raviente Blood+"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31810,7 +31398,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31820,7 +31408,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31830,7 +31418,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31840,7 +31428,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31850,7 +31438,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31860,7 +31448,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31870,7 +31458,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31880,7 +31468,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31890,7 +31478,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31900,7 +31488,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31910,7 +31498,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31920,7 +31508,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31930,7 +31518,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31940,7 +31528,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31950,7 +31538,7 @@
         "itemName": "Raviente Wing"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31960,7 +31548,7 @@
         "itemName": "Raviente Marrow"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31970,7 +31558,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31980,7 +31568,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -31990,7 +31578,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -32000,7 +31588,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -32010,7 +31598,7 @@
         "itemName": "Raviente Tail"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -32020,7 +31608,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -32030,7 +31618,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "arena",
@@ -32040,7 +31628,7 @@
         "itemName": "Raviente Spike"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32050,7 +31638,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32060,7 +31648,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32070,7 +31658,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32080,7 +31668,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32090,7 +31678,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x04",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32100,7 +31688,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32110,7 +31698,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32120,7 +31708,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32130,7 +31718,7 @@
         "itemName": "Raviente Horn"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32140,7 +31728,7 @@
         "itemName": "Raviente Fang"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32150,7 +31738,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x05",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32160,7 +31748,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32170,7 +31758,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32180,7 +31768,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32190,7 +31778,7 @@
         "itemName": "Raviente Wing"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32200,7 +31788,7 @@
         "itemName": "Raviente Marrow"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32210,7 +31798,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0A",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32220,7 +31808,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32230,7 +31818,7 @@
         "itemName": "Raviente Scale"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32240,7 +31828,7 @@
         "itemName": "Raviente Hide"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32250,7 +31838,7 @@
         "itemName": "Raviente Tail"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32260,7 +31848,7 @@
         "itemName": "Raviente Blood"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32270,7 +31858,7 @@
         "itemName": "Raviente Ruby"
       },
       {
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "partbreakType": "0x0D",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -32284,7 +31872,7 @@
   {
     "monsterId": 94,
     "monsterLabel": "Dyuragaua",
-    "totalEntries": 127,
+    "totalEntries": 126,
     "dropModes": [
       "capture",
       "part_break",
@@ -33557,23 +33145,13 @@
         "quantity": 1,
         "itemId": 6740,
         "itemName": "Dura Frigidshell"
-      },
-      {
-        "monsterName": "Dyuragaua",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 3724,
-        "itemName": "Dura Iceshell"
       }
     ]
   },
   {
     "monsterId": 95,
     "monsterLabel": "Doragyurosu",
-    "totalEntries": 144,
+    "totalEntries": 143,
     "dropModes": [
       "capture",
       "part_break",
@@ -33583,8 +33161,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -35016,23 +34593,13 @@
         "quantity": 1,
         "itemId": 4922,
         "itemName": "Drag Dreadtalon"
-      },
-      {
-        "monsterName": "Doragyurosu",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 4922,
-        "itemName": "Drag Dreadtalon"
       }
     ]
   },
   {
     "monsterId": 96,
     "monsterLabel": "Grenzebul",
-    "totalEntries": 151,
+    "totalEntries": 150,
     "dropModes": [
       "capture",
       "part_break",
@@ -36545,16 +36112,6 @@
         "quantity": 1,
         "itemId": 7006,
         "itemName": "Grenze Apexscale"
-      },
-      {
-        "monsterName": "Grenzebul",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 5729,
-        "itemName": "Grenze Impaler"
       }
     ]
   },
@@ -37673,7 +37230,7 @@
   {
     "monsterId": 101,
     "monsterLabel": "Gogomoa",
-    "totalEntries": 86,
+    "totalEntries": 85,
     "dropModes": [
       "capture",
       "part_break",
@@ -37683,8 +37240,7 @@
       "lr",
       "hr",
       "arena",
-      "hr100",
-      "gr"
+      "hr100"
     ],
     "drops": [
       {
@@ -38532,16 +38088,6 @@
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
-        "percentage": 2,
-        "quantity": 1,
-        "itemId": 6151,
-        "itemName": "Gogo Mightpelt"
-      },
-      {
-        "monsterName": "Gogomoa",
-        "partbreakType": "unknown",
-        "dropMode": "hardcore_carve",
-        "rank": "gr",
         "percentage": 2,
         "quantity": 1,
         "itemId": 6151,

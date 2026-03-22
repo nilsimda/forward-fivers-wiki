@@ -62,8 +62,6 @@ Schema and guardrail details are documented in `site/src/data/generated/README.m
 ### Frontend:
 1. Monsters without lr/hr versions point to quarzeps drops, dont show those?
 2. grank hccs, do they always equal hr, do they exist?
-3. Fix Monster names 
-4. parse from .bin files directly instead of copying csv over?
 5. Display Item icons + colors
 6. Monster Names should not be optional
 

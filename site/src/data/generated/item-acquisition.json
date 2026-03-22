@@ -42858,11 +42858,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x04"
@@ -42870,11 +42870,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x05"
@@ -42882,11 +42882,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0A"
@@ -42894,11 +42894,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0D"
@@ -42906,11 +42906,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x04"
@@ -42918,11 +42918,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x05"
@@ -42930,11 +42930,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0A"
@@ -42942,11 +42942,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0D"
@@ -42954,11 +42954,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x04"
@@ -42966,11 +42966,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x05"
@@ -42978,11 +42978,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0A"
@@ -42990,11 +42990,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0D"
@@ -43002,11 +43002,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x04"
@@ -43014,11 +43014,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x05"
@@ -43026,11 +43026,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0A"
@@ -43038,11 +43038,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2146,
         "itemName": "Raviente Blood",
         "partbreakType": "0x0D"
@@ -43056,11 +43056,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x04"
@@ -43068,11 +43068,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x05"
@@ -43080,11 +43080,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0A"
@@ -43092,11 +43092,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0D"
@@ -43104,11 +43104,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x04"
@@ -43116,11 +43116,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x05"
@@ -43128,11 +43128,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0A"
@@ -43140,11 +43140,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 12,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0D"
@@ -43152,11 +43152,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x04"
@@ -43164,11 +43164,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x05"
@@ -43176,11 +43176,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0A"
@@ -43188,11 +43188,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0D"
@@ -43200,11 +43200,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x04"
@@ -43212,11 +43212,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x05"
@@ -43224,11 +43224,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0A"
@@ -43236,11 +43236,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2147,
         "itemName": "Raviente Ruby",
         "partbreakType": "0x0D"
@@ -43254,11 +43254,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x04"
@@ -43266,11 +43266,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x05"
@@ -43278,11 +43278,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0A"
@@ -43290,11 +43290,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0D"
@@ -43302,11 +43302,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x04"
@@ -43314,11 +43314,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x05"
@@ -43326,11 +43326,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0A"
@@ -43338,11 +43338,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0D"
@@ -43350,11 +43350,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x04"
@@ -43362,11 +43362,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x05"
@@ -43374,11 +43374,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0A"
@@ -43386,11 +43386,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0D"
@@ -43398,11 +43398,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x04"
@@ -43410,11 +43410,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x05"
@@ -43422,11 +43422,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0A"
@@ -43434,11 +43434,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 30,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2148,
         "itemName": "Raviente Hide",
         "partbreakType": "0x0D"
@@ -43452,11 +43452,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x04"
@@ -43464,11 +43464,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x05"
@@ -43476,11 +43476,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0A"
@@ -43488,11 +43488,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0D"
@@ -43500,11 +43500,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 21,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x04"
@@ -43512,11 +43512,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 21,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x05"
@@ -43524,11 +43524,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 21,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0A"
@@ -43536,11 +43536,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 21,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0D"
@@ -43548,11 +43548,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x04"
@@ -43560,11 +43560,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x05"
@@ -43572,11 +43572,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0A"
@@ -43584,11 +43584,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0D"
@@ -43596,11 +43596,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x04"
@@ -43608,11 +43608,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x05"
@@ -43620,11 +43620,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0A"
@@ -43632,11 +43632,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 34,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2149,
         "itemName": "Raviente Scale",
         "partbreakType": "0x0D"
@@ -43650,11 +43650,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 16,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2150,
         "itemName": "Raviente Wing",
         "partbreakType": "0x0A"
@@ -43662,11 +43662,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2150,
         "itemName": "Raviente Wing",
         "partbreakType": "0x0A"
@@ -43674,11 +43674,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 16,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2150,
         "itemName": "Raviente Wing",
         "partbreakType": "0x0A"
@@ -43686,11 +43686,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 16,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2150,
         "itemName": "Raviente Wing",
         "partbreakType": "0x0A"
@@ -43704,11 +43704,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 8,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2151,
         "itemName": "Raviente Marrow",
         "partbreakType": "0x0A"
@@ -43716,11 +43716,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2151,
         "itemName": "Raviente Marrow",
         "partbreakType": "0x0A"
@@ -43728,11 +43728,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 8,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2151,
         "itemName": "Raviente Marrow",
         "partbreakType": "0x0A"
@@ -43740,11 +43740,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 8,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2151,
         "itemName": "Raviente Marrow",
         "partbreakType": "0x0A"
@@ -43758,11 +43758,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x04"
@@ -43770,11 +43770,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x05"
@@ -43782,11 +43782,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x04"
@@ -43794,11 +43794,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x05"
@@ -43806,11 +43806,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x04"
@@ -43818,11 +43818,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x05"
@@ -43830,11 +43830,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x04"
@@ -43842,11 +43842,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2152,
         "itemName": "Raviente Horn",
         "partbreakType": "0x05"
@@ -43860,11 +43860,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x04"
@@ -43872,11 +43872,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x05"
@@ -43884,11 +43884,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x04"
@@ -43896,11 +43896,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x05"
@@ -43908,11 +43908,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x04"
@@ -43920,11 +43920,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x05"
@@ -43932,11 +43932,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x04"
@@ -43944,11 +43944,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 10,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2153,
         "itemName": "Raviente Fang",
         "partbreakType": "0x05"
@@ -43962,11 +43962,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2154,
         "itemName": "Raviente Tail",
         "partbreakType": "0x0D"
@@ -43974,11 +43974,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2154,
         "itemName": "Raviente Tail",
         "partbreakType": "0x0D"
@@ -43986,11 +43986,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2154,
         "itemName": "Raviente Tail",
         "partbreakType": "0x0D"
@@ -43998,11 +43998,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 18,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2154,
         "itemName": "Raviente Tail",
         "partbreakType": "0x0D"
@@ -44016,11 +44016,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2155,
         "itemName": "Raviente Spike",
         "partbreakType": "0x0D"
@@ -44028,11 +44028,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 14,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2155,
         "itemName": "Raviente Spike",
         "partbreakType": "0x0D"
@@ -44040,11 +44040,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2155,
         "itemName": "Raviente Spike",
         "partbreakType": "0x0D"
@@ -44052,11 +44052,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 6,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 2155,
         "itemName": "Raviente Spike",
         "partbreakType": "0x0D"
@@ -44627,17 +44627,6 @@
         "monsterName": "Yian Kut-Ku",
         "itemId": 2705,
         "itemName": "Divine Beak"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Yian Kut-Ku",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 6,
-        "monsterName": "Yian Kut-Ku",
-        "itemId": 2705,
-        "itemName": "Divine Beak"
       }
     ]
   },
@@ -44682,17 +44671,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Congalala",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 52,
-        "monsterName": "Congalala",
-        "itemId": 2708,
-        "itemName": "Congalala Ripper"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Congalala",
         "chance": 2,
         "quantity": 1,
@@ -44751,17 +44729,6 @@
         "monsterName": "Lavasioth",
         "itemId": 2711,
         "itemName": "Lavasio Razorfin"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Lavasioth",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 75,
-        "monsterName": "Lavasioth",
-        "itemId": 2711,
-        "itemName": "Lavasio Razorfin"
       }
     ]
   },
@@ -44806,17 +44773,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Khezu",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 15,
-        "monsterName": "Khezu",
-        "itemId": 2714,
-        "itemName": "Pale Belly"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Khezu",
         "chance": 2,
         "quantity": 1,
@@ -44875,17 +44831,6 @@
         "monsterName": "Rathalos",
         "itemId": 2717,
         "itemName": "Rathalos Kingscl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Rathalos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 11,
-        "monsterName": "Rathalos",
-        "itemId": 2717,
-        "itemName": "Rathalos Kingscl"
       }
     ]
   },
@@ -44930,17 +44875,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Rathian",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 1,
-        "monsterName": "Rathian",
-        "itemId": 2720,
-        "itemName": "Rathian Graceshl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Rathian",
         "chance": 2,
         "quantity": 1,
@@ -44999,17 +44933,6 @@
         "monsterName": "Diablos",
         "itemId": 2723,
         "itemName": "Sublime Horn"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Diablos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 14,
-        "monsterName": "Diablos",
-        "itemId": 2723,
-        "itemName": "Sublime Horn"
       }
     ]
   },
@@ -45054,17 +44977,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Blangonga",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 51,
-        "monsterName": "Blangonga",
-        "itemId": 2726,
-        "itemName": "Blangonga Mauler"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Blangonga",
         "chance": 2,
         "quantity": 1,
@@ -45453,17 +45365,6 @@
         "monsterName": "Basarios",
         "itemId": 3512,
         "itemName": "Basarios Cragshl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Basarios",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 22,
-        "monsterName": "Basarios",
-        "itemId": 3512,
-        "itemName": "Basarios Cragshl"
       }
     ]
   },
@@ -45508,17 +45409,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Gypceros",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 20,
-        "monsterName": "Gypceros",
-        "itemId": 3515,
-        "itemName": "Gypcero Hardhead"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Gypceros",
         "chance": 2,
         "quantity": 1,
@@ -45577,17 +45467,6 @@
         "monsterName": "Teostra",
         "itemId": 3518,
         "itemName": "Teo Kaiserhorn"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Teostra",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 65,
-        "monsterName": "Teostra",
-        "itemId": 3518,
-        "itemName": "Teo Kaiserhorn"
       }
     ]
   },
@@ -45632,17 +45511,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Plesioth",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 21,
-        "monsterName": "Plesioth",
-        "itemId": 3521,
-        "itemName": "Plesio Beautifin"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Plesioth",
         "chance": 2,
         "quantity": 1,
@@ -45701,17 +45569,6 @@
         "monsterName": "Daimyo Hermitaur",
         "itemId": 3524,
         "itemName": "Hermitaur Vice"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Daimyo Hermitaur",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 48,
-        "monsterName": "Daimyo Hermitaur",
-        "itemId": 3524,
-        "itemName": "Hermitaur Vice"
       }
     ]
   },
@@ -45750,17 +45607,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Tigrex",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 76,
-        "monsterName": "Tigrex",
-        "itemId": 3527,
-        "itemName": "Tigrex Ripper"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Tigrex",
         "chance": 2,
         "quantity": 1,
@@ -45819,17 +45665,6 @@
         "monsterName": "Hypnocatrice",
         "itemId": 3530,
         "itemName": "Prismatic Bezoar"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Hypnocatrice",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 74,
-        "monsterName": "Hypnocatrice",
-        "itemId": 3530,
-        "itemName": "Prismatic Bezoar"
       }
     ]
   },
@@ -45868,17 +45703,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Pariapuria",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 89,
-        "monsterName": "Pariapuria",
-        "itemId": 3533,
-        "itemName": "Paria Beautifin"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Pariapuria",
         "chance": 2,
         "quantity": 1,
@@ -46805,17 +46629,6 @@
         "monsterName": "Kirin",
         "itemId": 3714,
         "itemName": "Kirin Silverhorn"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Kirin",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 33,
-        "monsterName": "Kirin",
-        "itemId": 3714,
-        "itemName": "Kirin Silverhorn"
       }
     ]
   },
@@ -46860,17 +46673,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Chameleos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 59,
-        "monsterName": "Chameleos",
-        "itemId": 3717,
-        "itemName": "Cham Prismhide"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Chameleos",
         "chance": 2,
         "quantity": 1,
@@ -46923,17 +46725,6 @@
         "monsterName": "Yian Garuga",
         "itemId": 3719,
         "itemName": "Poisonous Beak"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Yian Garuga",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 40,
-        "monsterName": "Yian Garuga",
-        "itemId": 3719,
-        "itemName": "Poisonous Beak"
       }
     ]
   },
@@ -46972,17 +46763,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Espinas",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 80,
-        "monsterName": "Espinas",
-        "itemId": 3721,
-        "itemName": "Espinas Noxspike"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Espinas",
         "chance": 2,
         "quantity": 1,
@@ -47041,17 +46821,6 @@
         "monsterName": "Dyuragaua",
         "itemId": 3724,
         "itemName": "Dura Iceshell"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Dyuragaua",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 94,
-        "monsterName": "Dyuragaua",
-        "itemId": 3724,
-        "itemName": "Dura Iceshell"
       }
     ]
   },
@@ -47103,17 +46872,6 @@
         "monsterName": "Shogun Ceanataur",
         "itemId": 3727,
         "itemName": "Ceanataur Saber"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Shogun Ceanataur",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 67,
-        "monsterName": "Shogun Ceanataur",
-        "itemId": 3727,
-        "itemName": "Ceanataur Saber"
       }
     ]
   },
@@ -47152,17 +46910,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Rajang",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 53,
-        "monsterName": "Rajang",
-        "itemId": 3729,
-        "itemName": "Rajang Ebonfur"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Rajang",
         "chance": 2,
         "quantity": 1,
@@ -47221,17 +46968,6 @@
         "monsterName": "Velocidrome",
         "itemId": 3733,
         "itemName": "Vdrome Longclaw"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Velocidrome",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 27,
-        "monsterName": "Velocidrome",
-        "itemId": 3733,
-        "itemName": "Vdrome Longclaw"
       }
     ]
   },
@@ -47264,17 +47000,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Monoblos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 26,
-        "monsterName": "Monoblos",
-        "itemId": 3734,
-        "itemName": "Monoblos Hardshl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Monoblos",
         "chance": 2,
         "quantity": 1,
@@ -47673,17 +47398,6 @@
         "monsterName": "Kushala Daora",
         "itemId": 4322,
         "itemName": "Daora Galeshell"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Kushala Daora",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 54,
-        "monsterName": "Kushala Daora",
-        "itemId": 4322,
-        "itemName": "Daora Galeshell"
       }
     ]
   },
@@ -47729,17 +47443,6 @@
         "monsterName": "Kamu Orugaron",
         "itemId": 4324,
         "itemName": "Orgaron Ripper"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Kamu Orugaron",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
-        "itemId": 4324,
-        "itemName": "Orgaron Ripper"
       }
     ]
   },
@@ -47778,17 +47481,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 92,
-        "monsterName": "Nono Orugaron",
-        "itemId": 4326,
-        "itemName": "Orgaron Glowfur"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Nono Orugaron",
         "chance": 2,
         "quantity": 1,
@@ -47857,17 +47549,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr",
-        "sourceLabel": "Red Khezu",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 45,
-        "monsterName": "Red Khezu",
-        "itemId": 4330,
-        "itemName": "Crimson Hide"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Red Khezu",
         "chance": 2,
         "quantity": 1,
@@ -48201,11 +47882,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 5,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 4398,
         "itemName": "Raviente Blood+",
         "partbreakType": "0x04"
@@ -48213,11 +47894,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 5,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 4398,
         "itemName": "Raviente Blood+",
         "partbreakType": "0x05"
@@ -48225,11 +47906,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 5,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 4398,
         "itemName": "Raviente Blood+",
         "partbreakType": "0x0A"
@@ -48237,11 +47918,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Raviente",
+        "sourceLabel": "Laviente",
         "chance": 5,
         "quantity": 1,
         "monsterId": 93,
-        "monsterName": "Raviente",
+        "monsterName": "Laviente",
         "itemId": 4398,
         "itemName": "Raviente Blood+",
         "partbreakType": "0x0D"
@@ -48818,17 +48499,6 @@
         "monsterName": "Doragyurosu",
         "itemId": 4922,
         "itemName": "Drag Dreadtalon"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Doragyurosu",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 95,
-        "monsterName": "Doragyurosu",
-        "itemId": 4922,
-        "itemName": "Drag Dreadtalon"
       }
     ]
   },
@@ -48873,17 +48543,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Gravios",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 17,
-        "monsterName": "Gravios",
-        "itemId": 4926,
-        "itemName": "Gravios Blazeshl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Gravios",
         "chance": 2,
         "quantity": 1,
@@ -48942,17 +48601,6 @@
         "monsterName": "Bulldrome",
         "itemId": 4929,
         "itemName": "Bdrome Apextusk"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Bulldrome",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 68,
-        "monsterName": "Bulldrome",
-        "itemId": 4929,
-        "itemName": "Bdrome Apextusk"
       }
     ]
   },
@@ -48998,17 +48646,6 @@
         "monsterName": "Akantor",
         "itemId": 4931,
         "itemName": "Akantor Impaler"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Akantor",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 77,
-        "monsterName": "Akantor",
-        "itemId": 4931,
-        "itemName": "Akantor Impaler"
       }
     ]
   },
@@ -49043,17 +48680,6 @@
         "monsterName": "Blue Yian Kut-Ku",
         "itemId": 4933,
         "itemName": "Pompous Beak"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Blue Yian Kut-Ku",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 38,
-        "monsterName": "Blue Yian Kut-Ku",
-        "itemId": 4933,
-        "itemName": "Pompous Beak"
       }
     ]
   },
@@ -49081,17 +48707,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr",
-        "sourceLabel": "Black Diablos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 43,
-        "monsterName": "Black Diablos",
-        "itemId": 4936,
-        "itemName": "Contorted Horn"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Black Diablos",
         "chance": 2,
         "quantity": 1,
@@ -51478,17 +51093,6 @@
         "monsterName": "Grenzebul",
         "itemId": 5729,
         "itemName": "Grenze Impaler"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Grenzebul",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 96,
-        "monsterName": "Grenzebul",
-        "itemId": 5729,
-        "itemName": "Grenze Impaler"
       }
     ]
   },
@@ -51540,17 +51144,6 @@
         "monsterName": "Rusted Kushala Daora",
         "itemId": 5732,
         "itemName": "Rusted Fellwing"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Rusted Kushala Daora",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 60,
-        "monsterName": "Rusted Kushala Daora",
-        "itemId": 5732,
-        "itemName": "Rusted Fellwing"
       }
     ]
   },
@@ -51561,17 +51154,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Flaming Espinas",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 81,
-        "monsterName": "Flaming Espinas",
-        "itemId": 5734,
-        "itemName": "F.Espi Noxspike"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Flaming Espinas",
         "chance": 2,
         "quantity": 1,
@@ -51596,17 +51178,6 @@
         "monsterName": "Azure Rathalos",
         "itemId": 5735,
         "itemName": "A.Rath Kingscl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Azure Rathalos",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 49,
-        "monsterName": "Azure Rathalos",
-        "itemId": 5735,
-        "itemName": "A.Rath Kingscl"
       }
     ]
   },
@@ -51624,17 +51195,6 @@
         "monsterName": "Pink Rathian",
         "itemId": 5736,
         "itemName": "P.Rath Graceshl"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Pink Rathian",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 37,
-        "monsterName": "Pink Rathian",
-        "itemId": 5736,
-        "itemName": "P.Rath Graceshl"
       }
     ]
   },
@@ -51645,17 +51205,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Vivid Hypnocatrice",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 78,
-        "monsterName": "Vivid Hypnocatrice",
-        "itemId": 5737,
-        "itemName": "Dazzling Bezoar"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Vivid Hypnocatrice",
         "chance": 2,
         "quantity": 1,
@@ -58224,17 +57773,6 @@
         "monsterName": "Gogomoa",
         "itemId": 6151,
         "itemName": "Gogo Mightpelt"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
-        "sourceLabel": "Gogomoa",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 101,
-        "monsterName": "Gogomoa",
-        "itemId": 6151,
-        "itemName": "Gogo Mightpelt"
       }
     ]
   },
@@ -58273,17 +57811,6 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Berukyurosu",
-        "chance": 2,
-        "quantity": 1,
-        "monsterId": 85,
-        "monsterName": "Berukyurosu",
-        "itemId": 6153,
-        "itemName": "Bel Lumenscale"
-      },
-      {
-        "methodType": "hardcore_carve",
-        "rank": "gr",
         "sourceLabel": "Berukyurosu",
         "chance": 2,
         "quantity": 1,
