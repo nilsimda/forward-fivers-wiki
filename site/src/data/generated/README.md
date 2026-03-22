@@ -18,7 +18,10 @@ Each item has:
 - `id`
 - `slug`
 - `name`
-- `description`
+- `description` (normalized plain text alias of `descriptionPlain` for compatibility)
+- `descriptionRaw` (lossless extracted value, including control tags)
+- `descriptionPlain` (control tags stripped)
+- `descriptionSegments` (`[{ text, colorCode }]`, where `colorCode` can be `null`)
 - `rarityRaw`
 - `rarityPlusOne`
 - `maxStack`
@@ -27,6 +30,13 @@ Each item has:
 - `buyPrice`
 - `sellPrice`
 - `type`
+
+Description parsing notes:
+
+- color control tags are parsed from patterns like `~C05` / `~C00`
+- text between tags is emitted in `descriptionSegments` with active `colorCode`
+- `~C00` resets to default (`colorCode: null`)
+- malformed/unrecognized tag-like text is treated as plain text (fail-soft)
 
 ## `monster-drops.json`
 

@@ -50,8 +50,25 @@ type ItemAcquisitionEntry = {
   methods: AcquisitionMethod[];
 };
 
+type DescriptionSegment = {
+  text: string;
+  colorCode: string | null;
+};
+
 const acquisitionEntry = (itemAcquisitionByItemId as Record<string, ItemAcquisitionEntry>)[String(item.id)];
 const acquisitionMethods = acquisitionEntry?.methods || [];
+const descriptionSegments: DescriptionSegment[] = Array.isArray(item.descriptionSegments)
+  ? item.descriptionSegments
+  : [];
+const fallbackDescription = item.descriptionPlain || item.description || '';
+if (descriptionSegments.length === 0 && fallbackDescription) {
+  descriptionSegments.push({ text: fallbackDescription, colorCode: null });
+}
+const descriptionColorClassByCode: Record<string, string> = {
+  '05': 'text-amber-300'
+};
+const getDescriptionSegmentClass = (colorCode: string | null) =>
+  colorCode ? descriptionColorClassByCode[colorCode] || 'text-slate-300' : 'text-slate-300';
 
 const groupedMethodsMap = new Map<string, { rank: string; methodType: string; methods: AcquisitionMethod[] }>();
 
@@ -129,8 +146,14 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
 
     <section class="panel">
       <h2 class="text-lg">Description</h2>
-      <p class="mt-3 whitespace-pre-line text-slate-300">
-        {item.description || 'No description available in the current extraction output.'}
+      <p class="mt-3 whitespace-pre-line">
+        {descriptionSegments.length === 0 ? (
+          'No description available in the current extraction output.'
+        ) : (
+          descriptionSegments.map((segment) => (
+            <span class={getDescriptionSegmentClass(segment.colorCode)}>{segment.text}</span>
+          ))
+        )}
       </p>
     </section>
 
