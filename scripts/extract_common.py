@@ -36,6 +36,16 @@ def is_dummy_placeholder_description(description_plain: str) -> bool:
     return str(description_plain or "").strip().casefold() == "dummy"
 
 
+def name_contains_dummy_marker(name: str) -> bool:
+    """True when the item name includes the Japanese placeholder substring (ダミー)."""
+    return "ダミー" in str(name or "")
+
+
+def is_wiki_hidden_item(*, name: str, description_plain: str) -> bool:
+    """True when this item should be omitted from the wiki (items list and drop tables)."""
+    return is_dummy_placeholder_description(description_plain) or name_contains_dummy_marker(name)
+
+
 def default_wiki_hidden_item_ids_path(items_source: Path) -> Path:
     return items_source.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
 

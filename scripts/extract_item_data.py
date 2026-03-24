@@ -7,7 +7,7 @@ from pathlib import Path
 from extract_common import (
     REPO_ROOT,
     WIKI_HIDDEN_ITEM_IDS_FILENAME,
-    is_dummy_placeholder_description,
+    is_wiki_hidden_item,
     read_u16,
     read_u32,
     write_json_output,
@@ -192,7 +192,10 @@ def main() -> None:
     hidden_ids = {
         int(r["item_index"])
         for r in rows
-        if is_dummy_placeholder_description(str(r.get("descriptionPlain", "")))
+        if is_wiki_hidden_item(
+            name=str(r.get("name", "")),
+            description_plain=str(r.get("descriptionPlain", "")),
+        )
     }
     kept = [r for r in rows if int(r["item_index"]) not in hidden_ids]
 
@@ -201,7 +204,7 @@ def main() -> None:
     write_json_output(args.output, kept)
 
     print(
-        f"Extracted {len(kept)} items into wiki source ({len(hidden_ids)} dummy-description rows hidden)"
+        f"Extracted {len(kept)} items into wiki source ({len(hidden_ids)} wiki-hidden rows)"
     )
 
 if __name__ == "__main__":
