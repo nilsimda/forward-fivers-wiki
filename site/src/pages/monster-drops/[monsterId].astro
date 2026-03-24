@@ -28,6 +28,7 @@ interface GroupedDrop {
   rank: Rank;
   partbreakType: string;
   dropMode: string;
+  sourceLabel: string;
   items: GroupedDropItem[];
 }
 
@@ -56,12 +57,14 @@ const groupedDropsMap = new Map<string, GroupedDrop>();
 
 for (const drop of monster.drops as MonsterDrop[]) {
   if (!isRank(drop.rank)) continue;
-  const key = `${drop.rank}::${drop.dropMode}::${drop.partbreakType}`;
+  const sourceLabel = drop.sourceLabel || '';
+  const key = `${drop.rank}::${drop.dropMode}::${drop.partbreakType}::${sourceLabel}`;
   if (!groupedDropsMap.has(key)) {
     groupedDropsMap.set(key, {
       rank: drop.rank,
       partbreakType: drop.partbreakType,
       dropMode: drop.dropMode,
+      sourceLabel,
       items: []
     });
   }
@@ -88,6 +91,7 @@ const groupedDrops = [...groupedDropsMap.values()]
     const rankB = rankOrder.indexOf(b.rank);
     if (rankA !== rankB) return rankA - rankB;
     if (a.dropMode !== b.dropMode) return a.dropMode.localeCompare(b.dropMode);
+    if (a.sourceLabel !== b.sourceLabel) return a.sourceLabel.localeCompare(b.sourceLabel);
     return a.partbreakType.localeCompare(b.partbreakType);
   });
 
@@ -109,7 +113,7 @@ const rankSections = rankOrder
         <span class="text-slate-500"> (#{monster.monsterId})</span>
       </h1>
       <p class="text-slate-300">
-        {monster.totalEntries} entries grouped by rank and part break type.
+        {monster.totalEntries} entries grouped by rank and drop origin.
       </p>
     </header>
 
@@ -136,6 +140,8 @@ const rankSections = rankOrder
                         ? 'Capture'
                         : group.dropMode === 'hardcore_carve'
                           ? 'Hardcore Carve'
+                          : group.dropMode === 'carve'
+                            ? group.sourceLabel || 'Carve'
                           : `Part Break: ${group.partbreakType}`}
                     </td>
                     <td>

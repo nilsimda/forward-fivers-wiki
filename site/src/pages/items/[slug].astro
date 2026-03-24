@@ -113,6 +113,11 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
   if (method.methodType === 'hardcore_carve') {
     return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Hardcore carve`;
   }
+  if (method.methodType === 'carve') {
+    const monsterName = method.monsterName || 'Unknown source';
+    const carveLabel = method.sourceLabel || 'Carve';
+    return `${monsterName} - ${carveLabel}`;
+  }
   return method.sourceLabel || 'Unknown source';
 };
 ---

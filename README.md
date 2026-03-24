@@ -11,7 +11,6 @@ Static, data-driven wiki for Monster Hunter Frontier G1.
 ## Repository layout
 
 - `g1_data/`: extracted binary-derived data files and manual mappings
-- `ferias_reference/`: legacy reference material for structure only
 - `site/`: Astro + Tailwind static wiki app
 
 ## Data ingestion rules
@@ -33,7 +32,7 @@ npm run dev
 
 The dev/build scripts automatically run the data pipeline first:
 
-1. Extract binary-backed source data using Python (`scripts/extract_item_data.py`, `scripts/extract_partbreak_data.py`, `scripts/extract_hcc_carves.py`)
+1. Extract binary-backed source data using Python (`scripts/extract_item_data.py`, `scripts/extract_partbreak_data.py`, `scripts/extract_hcc_carves.py`, `scripts/extract_carve_data.py`)
 2. Build Astro-ready generated JSON (`site/scripts/build-data.mjs`)
 
 Generated outputs currently include:
@@ -47,7 +46,9 @@ Source note:
 - Item source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_items-source.json` as part of the build pipeline.
 - Partbreak source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_partbreak-source.json` as part of the build pipeline.
 - HCC carve source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_hcc-carves-source.json` as part of the build pipeline.
+- Regular carve source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_carves-source.json` as part of the build pipeline.
 - Monster name labels for partbreak extraction are loaded from `g1_data/monster_names.json`.
+- Monster name labels for carve extraction are loaded from `g1_data/monster_names.json`.
 
 Schema and guardrail details are documented in `site/src/data/generated/README.md`.
 
@@ -60,10 +61,8 @@ Schema and guardrail details are documented in `site/src/data/generated/README.m
 
 ## TODOs:
 ### Frontend:
-1. Monsters without lr/hr versions point to quarzeps drops, dont show those?
-2. grank hccs, do they always equal hr, do they exist?
-5. Display Item icons + colors
-6. Monster Names should not be optional
+1. Display Item icons + colors
+2. Monster Names should not be optional
 
 ### RE
 1. Carve Tables - carve options per mon?

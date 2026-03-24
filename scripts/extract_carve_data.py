@@ -1,0 +1,404 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import struct
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
+OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
+ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
+
+IMPORTANT_NUMS_POINTER_HEADER_ADDRESS = 0x00000010
+CARVE_DT_POINTER_HEADER_ADDRESS = 0x00000124
+CARVE_ASSOC_POINTER_HEADER_ADDRESS = 0x0000013C
+CARVE_DT_COUNT_OFFSET_IN_IMPORTANT_NUMS = 0x22
+
+U16_FMT = "<H"
+U32_FMT = "<I"
+
+CARVE_DROP_FMT = "<HH"
+CARVE_DROP_SIZE = struct.calcsize(CARVE_DROP_FMT)
+CARVE_DROP_TERMINATOR = 0xFFFF
+
+ASSOC_ENTRY_FMT = "<III"
+ASSOC_ENTRY_SIZE = struct.calcsize(ASSOC_ENTRY_FMT)
+
+PRIMARY_RECORD_STRIDE = 0x28
+SECONDARY_RECORD_STRIDE = 0x1A
+PRIMARY_NUM_CARVES_OFFSET = 0x18
+PRIMARY_RECORD_SCAN_HARD_CAP = 0x100
+
+RANK_LABELS = ["lr", "hr", "arena", "hr100", "gr"]
+GRANK_DT_INDEX_OFFSET = 0x0E
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Extract regular carve table data from mhfdat.raw.bin into flat JSON."
+    )
+    parser.add_argument("--input", type=Path, default=INPUT_DEFAULT, help="Path to mhfdat.raw.bin")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=OUTPUT_DEFAULT,
+        help="Output JSON path consumed by downstream scripts/docs.",
+    )
+    parser.add_argument(
+        "--items-source",
+        type=Path,
+        default=ITEMS_SOURCE_DEFAULT,
+        help="Path to generated _items-source.json (for item names).",
+    )
+    parser.add_argument(
+        "--monster-names-json",
+        type=Path,
+        default=MONSTER_NAMES_JSON_DEFAULT,
+        help="JSON object mapping monster ids to display names.",
+    )
+    return parser.parse_args()
+
+
+def read_u32(raw: bytes, offset: int, label: str) -> int:
+    size = struct.calcsize(U32_FMT)
+    if offset < 0 or offset + size > len(raw):
+        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
+    (value,) = struct.unpack_from(U32_FMT, raw, offset)
+    return value
+
+
+def read_u16(raw: bytes, offset: int, label: str) -> int:
+    size = struct.calcsize(U16_FMT)
+    if offset < 0 or offset + size > len(raw):
+        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
+    (value,) = struct.unpack_from(U16_FMT, raw, offset)
+    return value
+
+
+def load_item_names(items_source_path: Path) -> dict[int, str]:
+    if not items_source_path.exists():
+        return {}
+    data = json.loads(items_source_path.read_text(encoding="utf-8"))
+    names_by_id: dict[int, str] = {}
+    for row in data:
+        item_id = row.get("item_index")
+        if not isinstance(item_id, int):
+            continue
+        name = str(row.get("name", "")).strip()
+        if name:
+            names_by_id[item_id] = name
+    return names_by_id
+
+
+def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
+    if not monster_names_json_path.exists():
+        return {}
+
+    raw = json.loads(monster_names_json_path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError(
+            f"Monster names JSON must be an object mapping ids to names: {monster_names_json_path}"
+        )
+
+    names_by_id: dict[int, str] = {}
+    for raw_monster_id, raw_name in raw.items():
+        try:
+            monster_id = int(str(raw_monster_id).strip(), 0)
+        except ValueError:
+            continue
+        monster_name = str(raw_name or "").strip()
+        if not monster_name:
+            continue
+        names_by_id[monster_id] = monster_name
+    return names_by_id
+
+
+def parse_carve_dt_pointer_array(raw: bytes, pointer_array_base: int, pointer_count: int) -> list[int]:
+    if pointer_count <= 0:
+        raise ValueError(f"Invalid carve DT pointer_count={pointer_count}")
+    pointers: list[int] = []
+    for index in range(pointer_count):
+        pointer_offset = pointer_array_base + index * 4
+        if pointer_offset + 4 > len(raw):
+            raise ValueError(
+                f"Carve DT pointer table reached file end while reading index {index} at 0x{pointer_offset:08X}"
+            )
+        pointer = read_u32(raw, pointer_offset, f"carve_dt_pointer[{index}]")
+        if pointer >= len(raw):
+            raise ValueError(
+                f"Carve DT pointer index {index} -> 0x{pointer:08X} is outside file bounds"
+            )
+        pointers.append(pointer)
+    if not pointers:
+        raise ValueError("No valid carve DT pointers were decoded")
+    return pointers
+
+
+def parse_single_carve_table(raw: bytes, table_pointer: int, table_index: int) -> list[dict[str, int]]:
+    drops: list[dict[str, int]] = []
+    offset = table_pointer
+    drop_index = 0
+    while True:
+        percentage = read_u16(raw, offset, f"carve_dt[{table_index}] percentage")
+        if percentage == CARVE_DROP_TERMINATOR:
+            break
+        if offset + CARVE_DROP_SIZE > len(raw):
+            raise ValueError(f"Carve DT {table_index} record at 0x{offset:08X} exceeds file bounds")
+        percentage, item_id = struct.unpack_from(CARVE_DROP_FMT, raw, offset)
+        drops.append(
+            {
+                "drop_index_in_table": drop_index,
+                "entry_offset": offset,
+                "percentage": percentage,
+                "item_id": item_id,
+            }
+        )
+        offset += CARVE_DROP_SIZE
+        drop_index += 1
+    return drops
+
+
+def parse_all_carve_tables(
+    raw: bytes, pointer_array_base: int, pointer_count: int
+) -> tuple[list[int], dict[int, list[dict[str, int]]]]:
+    pointers = parse_carve_dt_pointer_array(raw, pointer_array_base, pointer_count)
+    tables: dict[int, list[dict[str, int]]] = {}
+    for index, pointer in enumerate(pointers):
+        tables[index] = parse_single_carve_table(raw, pointer, index)
+    return pointers, tables
+
+
+def read_assoc_entry(raw: bytes, assoc_base: int, monster_id: int) -> dict[str, int]:
+    entry_offset = assoc_base + monster_id * ASSOC_ENTRY_SIZE
+    if entry_offset < 0 or entry_offset + ASSOC_ENTRY_SIZE > len(raw):
+        raise ValueError(
+            f"Carve assoc entry for monster_id={monster_id} is out of bounds at 0x{entry_offset:08X}"
+        )
+    primary_ptr, secondary_ptr, secondary_count = struct.unpack_from(ASSOC_ENTRY_FMT, raw, entry_offset)
+    return {
+        "association_entry_offset": entry_offset,
+        "primary_ptr": primary_ptr,
+        "secondary_ptr": secondary_ptr,
+        "secondary_count": secondary_count,
+    }
+
+
+def is_zero_rank_group(indices: list[int]) -> bool:
+    return all(index == 0 for index in indices)
+
+
+def parse_record_rank_indices(raw: bytes, record_offset: int, label: str) -> list[int]:
+    base_rank_indices = [
+        read_u16(raw, record_offset + rank_slot * 2, f"{label} rank_slot {rank_slot}")
+        for rank_slot in range(4)
+    ]
+    grank_index = read_u16(raw, record_offset + GRANK_DT_INDEX_OFFSET, f"{label} gr_rank_slot")
+    return [*base_rank_indices, grank_index]
+
+
+def get_primary_record_scan_limit(primary_ptr: int, secondary_ptr: int) -> int:
+    """
+    Use contiguous primary->secondary distance when it is cleanly aligned;
+    otherwise keep a conservative hard cap and rely on zero-rank sentinel stop.
+    """
+    if secondary_ptr > primary_ptr:
+        distance = secondary_ptr - primary_ptr
+        if distance % PRIMARY_RECORD_STRIDE == 0:
+            return distance // PRIMARY_RECORD_STRIDE
+    return PRIMARY_RECORD_SCAN_HARD_CAP
+
+
+def flatten_rows(
+    *,
+    raw: bytes,
+    monster_names_by_id: dict[int, str],
+    item_names_by_id: dict[int, str],
+    assoc_base: int,
+    carve_dt_pointers: list[int],
+    carve_tables: dict[int, list[dict[str, int]]],
+) -> list[dict[str, int | str | None]]:
+    rows: list[dict[str, int | str | None]] = []
+
+    for monster_id in sorted(monster_names_by_id.keys()):
+        monster_name = monster_names_by_id[monster_id]
+        assoc = read_assoc_entry(raw, assoc_base, monster_id)
+
+        primary_ptr = int(assoc["primary_ptr"])
+        secondary_ptr = int(assoc["secondary_ptr"])
+        secondary_count = int(assoc["secondary_count"])
+
+        # Ignore all-zero/sentinel assoc entries.
+        if primary_ptr == 0 and secondary_ptr == 0 and secondary_count == 0:
+            continue
+
+        if primary_ptr != 0:
+            if primary_ptr >= len(raw):
+                raise ValueError(
+                    f"monster_id={monster_id}: primary_ptr 0x{primary_ptr:08X} outside file bounds"
+                )
+            primary_scan_limit = get_primary_record_scan_limit(primary_ptr, secondary_ptr)
+            for record_index in range(primary_scan_limit):
+                record_offset = primary_ptr + record_index * PRIMARY_RECORD_STRIDE
+                if record_offset + PRIMARY_RECORD_STRIDE > len(raw):
+                    raise ValueError(
+                        f"monster_id={monster_id} primary record {record_index} at 0x{record_offset:08X} exceeds bounds"
+                    )
+
+                rank_indices = parse_record_rank_indices(
+                    raw, record_offset, f"monster_id={monster_id} primary record={record_index}"
+                )
+                if is_zero_rank_group(rank_indices):
+                    break
+
+                primary_num_carves = read_u16(
+                    raw,
+                    record_offset + PRIMARY_NUM_CARVES_OFFSET,
+                    f"monster_id={monster_id} primary record={record_index} num_carves",
+                )
+
+                for rank_slot, dt_index in enumerate(rank_indices):
+                    if dt_index < 0 or dt_index >= len(carve_dt_pointers):
+                        raise ValueError(
+                            f"monster_id={monster_id} primary record={record_index} rank_slot={rank_slot} invalid dt_index={dt_index}"
+                        )
+                    dt_pointer = carve_dt_pointers[dt_index]
+                    drops = carve_tables[dt_index]
+                    for drop in drops:
+                        item_id = int(drop["item_id"])
+                        rows.append(
+                            {
+                                "monster_id": monster_id,
+                                "monster_name": monster_name,
+                                "path": "primary",
+                                "record_index": record_index,
+                                "rank_slot": rank_slot,
+                                "rank_label": RANK_LABELS[rank_slot],
+                                "dt_index": dt_index,
+                                "dt_pointer": f"0x{dt_pointer:08X}",
+                                "record_offset": f"0x{record_offset:08X}",
+                                "entry_offset": f"0x{int(drop['entry_offset']):08X}",
+                                "drop_index_in_table": drop["drop_index_in_table"],
+                                "percentage": drop["percentage"],
+                                "item_id": item_id,
+                                "item_name": item_names_by_id.get(item_id, f"Item {item_id}"),
+                                "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
+                                "primary_ptr": f"0x{primary_ptr:08X}",
+                                "secondary_ptr": f"0x{secondary_ptr:08X}",
+                                "secondary_count": secondary_count,
+                                "primary_num_carves": primary_num_carves,
+                            }
+                        )
+
+        if secondary_ptr != 0 and secondary_count != 0:
+            if secondary_ptr >= len(raw):
+                raise ValueError(
+                    f"monster_id={monster_id}: secondary_ptr 0x{secondary_ptr:08X} outside file bounds"
+                )
+            for record_index in range(secondary_count):
+                record_offset = secondary_ptr + record_index * SECONDARY_RECORD_STRIDE
+                if record_offset + SECONDARY_RECORD_STRIDE > len(raw):
+                    raise ValueError(
+                        f"monster_id={monster_id} secondary record {record_index} at 0x{record_offset:08X} exceeds bounds"
+                    )
+
+                rank_indices = parse_record_rank_indices(
+                    raw, record_offset, f"monster_id={monster_id} secondary record={record_index}"
+                )
+                if is_zero_rank_group(rank_indices):
+                    continue
+
+                for rank_slot, dt_index in enumerate(rank_indices):
+                    if dt_index < 0 or dt_index >= len(carve_dt_pointers):
+                        raise ValueError(
+                            f"monster_id={monster_id} secondary record={record_index} rank_slot={rank_slot} invalid dt_index={dt_index}"
+                        )
+                    dt_pointer = carve_dt_pointers[dt_index]
+                    drops = carve_tables[dt_index]
+                    for drop in drops:
+                        item_id = int(drop["item_id"])
+                        rows.append(
+                            {
+                                "monster_id": monster_id,
+                                "monster_name": monster_name,
+                                "path": "secondary",
+                                "record_index": record_index,
+                                "rank_slot": rank_slot,
+                                "rank_label": RANK_LABELS[rank_slot],
+                                "dt_index": dt_index,
+                                "dt_pointer": f"0x{dt_pointer:08X}",
+                                "record_offset": f"0x{record_offset:08X}",
+                                "entry_offset": f"0x{int(drop['entry_offset']):08X}",
+                                "drop_index_in_table": drop["drop_index_in_table"],
+                                "percentage": drop["percentage"],
+                                "item_id": item_id,
+                                "item_name": item_names_by_id.get(item_id, f"Item {item_id}"),
+                                "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
+                                "primary_ptr": f"0x{primary_ptr:08X}",
+                                "secondary_ptr": f"0x{secondary_ptr:08X}",
+                                "secondary_count": secondary_count,
+                                "primary_num_carves": None,
+                            }
+                        )
+
+    return rows
+
+
+def main() -> None:
+    args = parse_args()
+
+    raw = args.input.read_bytes()
+    important_nums_base = read_u32(raw, IMPORTANT_NUMS_POINTER_HEADER_ADDRESS, "important_nums_pointer")
+    carve_dt_pointer_array_base = read_u32(
+        raw, CARVE_DT_POINTER_HEADER_ADDRESS, "carve_dt_pointer_header"
+    )
+    carve_assoc_base = read_u32(raw, CARVE_ASSOC_POINTER_HEADER_ADDRESS, "carve_assoc_pointer_header")
+    carve_dt_count = read_u16(
+        raw,
+        important_nums_base + CARVE_DT_COUNT_OFFSET_IN_IMPORTANT_NUMS,
+        "important_nums carve_dt_count",
+    )
+
+    if important_nums_base >= len(raw):
+        raise ValueError(f"important_nums base 0x{important_nums_base:08X} outside file bounds")
+    if carve_dt_pointer_array_base >= len(raw):
+        raise ValueError(
+            f"Carve DT pointer array base 0x{carve_dt_pointer_array_base:08X} outside file bounds"
+        )
+    if carve_assoc_base >= len(raw):
+        raise ValueError(f"Carve association base 0x{carve_assoc_base:08X} outside file bounds")
+
+    monster_names_by_id = load_monster_names(args.monster_names_json)
+    item_names_by_id = load_item_names(args.items_source)
+    carve_dt_pointers, carve_tables = parse_all_carve_tables(
+        raw, carve_dt_pointer_array_base, carve_dt_count
+    )
+
+    rows = flatten_rows(
+        raw=raw,
+        monster_names_by_id=monster_names_by_id,
+        item_names_by_id=item_names_by_id,
+        assoc_base=carve_assoc_base,
+        carve_dt_pointers=carve_dt_pointers,
+        carve_tables=carve_tables,
+    )
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    print(f"Input: {args.input}")
+    print(f"Output: {args.output}")
+    print(f"Carve DT pointer header: 0x{CARVE_DT_POINTER_HEADER_ADDRESS:08X}")
+    print(f"Carve assoc pointer header: 0x{CARVE_ASSOC_POINTER_HEADER_ADDRESS:08X}")
+    print(f"important_nums pointer header: 0x{IMPORTANT_NUMS_POINTER_HEADER_ADDRESS:08X}")
+    print(f"important_nums base: 0x{important_nums_base:08X}")
+    print(f"Carve DT count (important_nums+0x22): {carve_dt_count}")
+    print(f"Carve DT pointer base: 0x{carve_dt_pointer_array_base:08X}")
+    print(f"Carve assoc base: 0x{carve_assoc_base:08X}")
+    print(f"Decoded {len(carve_dt_pointers)} carve DT pointers")
+    print(f"Decoded carve rows: {len(rows)}")
+
+
+if __name__ == "__main__":
+    main()

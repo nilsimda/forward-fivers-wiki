@@ -10,6 +10,7 @@ const generatedDir = path.join(siteRoot, 'src', 'data', 'generated');
 const itemsSourcePath = path.join(generatedDir, '_items-source.json');
 const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
+const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
 const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
@@ -21,7 +22,7 @@ const quarzepsMonsterId = 105;
 const quarzepsFallbackRanks = new Set(['lr', 'hr', 'hr100']);
 
 /**
- * @typedef {'capture' | 'part_break' | 'hardcore_carve'} SupportedMethodType
+ * @typedef {'capture' | 'part_break' | 'hardcore_carve' | 'carve'} SupportedMethodType
  *
  * @typedef {{
  *   methodType: SupportedMethodType;
@@ -38,17 +39,19 @@ const quarzepsFallbackRanks = new Set(['lr', 'hr', 'hr100']);
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows] = await Promise.all([
+  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows] = await Promise.all([
     readJson(itemsSourcePath),
     readJson(partbreakSourcePath),
-    readJson(hardcoreCarvesSourcePath)
+    readJson(hardcoreCarvesSourcePath),
+    readJson(carvesSourcePath)
   ]);
 
   const items = buildItems(itemRows);
-  const monsterNamesById = buildMonsterNamesById(partbreakRows);
+  const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
   const filteredPartbreakRows = filterQuarzepsFallbackPartbreakRows(partbreakRows);
   const methods = [
     ...buildAcquisitionMethods(filteredPartbreakRows),
+    ...buildCarveMethods(carveRows),
     ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
   ].sort(compareMethods);
 
@@ -339,6 +342,65 @@ function buildHardcoreCarveMethods(rows, items, monsterNamesById) {
 }
 
 /**
+ * @param {Record<string, string | number | null>[]} rows
+ * @returns {AcquisitionMethod[]}
+ */
+function buildCarveMethods(rows) {
+  const methods = rows.map((row, index) => {
+    const monsterId = parseNumber(row.monster_id, `carve row ${index + 1} monster_id`);
+    const monsterName = (row.monster_name || '').trim() || `Monster ${monsterId}`;
+    const itemId = parseNumber(row.item_id, `carve row ${index + 1} item_id`);
+    const itemName = (row.item_name || '').trim() || `Item ${itemId}`;
+    const rank = normalizeRank(row.rank_label, 'carve source data');
+    const chance = parseNumber(row.percentage, `carve row ${index + 1} percentage`);
+    const recordIndex = parseNumber(row.record_index, `carve row ${index + 1} record_index`);
+    const pathLabel = String(row.path || '').trim().toLowerCase();
+    const rawNumCarves = row.primary_num_carves;
+    const numCarves =
+      rawNumCarves === null || rawNumCarves === undefined || String(rawNumCarves).trim() === ''
+        ? null
+        : parseNumber(rawNumCarves, `carve row ${index + 1} primary_num_carves`);
+
+    return {
+      methodType: 'carve',
+      rank,
+      sourceLabel: formatCarveSourceLabel(pathLabel, recordIndex, numCarves),
+      chance,
+      quantity: 1,
+      monsterId,
+      monsterName,
+      itemId,
+      itemName
+    };
+  });
+
+  return methods.sort(compareMethods);
+}
+
+/**
+ * @param {string} pathLabel
+ * @param {number} recordIndex
+ * @param {number | null} numCarves
+ */
+function formatCarveSourceLabel(pathLabel, recordIndex, numCarves) {
+  const numCarvesSuffix =
+    typeof numCarves === 'number' && Number.isFinite(numCarves) ? ` (${numCarves})` : '';
+
+  if (pathLabel === 'primary') {
+    if (recordIndex === 0) {
+      return `Body Carves${numCarvesSuffix}`;
+    }
+    return `Non Body Carve Primary ${recordIndex}${numCarvesSuffix}`;
+  }
+
+  if (pathLabel === 'secondary') {
+    return `Secondary Carve ${recordIndex}`;
+  }
+
+  return `Carve ${recordIndex}`;
+}
+
+/**
  * @param {AcquisitionMethod[]} methods
  * @param {{ id: number }[]} items
  */
@@ -384,6 +446,7 @@ function buildMonsterDrops(methods) {
     group.dropModes.add(method.methodType);
     group.ranks.add(method.rank);
     group.drops.push({
+      sourceLabel: method.sourceLabel || '',
       monsterName: method.monsterName,
       partbreakType: method.partbreakType || 'unknown',
       dropMode: method.methodType,
@@ -470,11 +533,12 @@ function compareMethods(a, b) {
 
 /**
  * @param {string} value
+ * @param {string} [sourceLabel]
  */
-function normalizeRank(value) {
+function normalizeRank(value, sourceLabel = 'partbreak source data') {
   const rank = (value || '').trim().toLowerCase();
   if (!rank) {
-    throw new Error('Encountered empty rank in partbreak source data');
+    throw new Error(`Encountered empty rank in ${sourceLabel}`);
   }
   return rank;
 }
