@@ -210,6 +210,15 @@ def get_primary_record_scan_limit(primary_ptr: int, secondary_ptr: int) -> int:
     return PRIMARY_RECORD_SCAN_HARD_CAP
 
 
+def should_skip_dt_index(monster_id: int, dt_index: int) -> bool:
+    """
+    DT index 0 is Rathian's LR body carve table.
+    In many non-Rathian rank slots the game stores 0 as a fallback/null-like value,
+    which otherwise leaks Rathian carve rows into unrelated monsters.
+    """
+    return dt_index == 0 and monster_id != 1
+
+
 def flatten_rows(
     *,
     raw: bytes,
@@ -259,6 +268,8 @@ def flatten_rows(
                 )
 
                 for rank_slot, dt_index in enumerate(rank_indices):
+                    if should_skip_dt_index(monster_id, dt_index):
+                        continue
                     if dt_index < 0 or dt_index >= len(carve_dt_pointers):
                         raise ValueError(
                             f"monster_id={monster_id} primary record={record_index} rank_slot={rank_slot} invalid dt_index={dt_index}"
@@ -310,6 +321,8 @@ def flatten_rows(
                     continue
 
                 for rank_slot, dt_index in enumerate(rank_indices):
+                    if should_skip_dt_index(monster_id, dt_index):
+                        continue
                     if dt_index < 0 or dt_index >= len(carve_dt_pointers):
                         raise ValueError(
                             f"monster_id={monster_id} secondary record={record_index} rank_slot={rank_slot} invalid dt_index={dt_index}"

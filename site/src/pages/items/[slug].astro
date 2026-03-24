@@ -108,7 +108,7 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
   }
   if (method.methodType === 'part_break') {
     const part = method.partbreakType || 'unknown';
-    return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Part Break ${part}`;
+    return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Part Break: ${part}`;
   }
   if (method.methodType === 'hardcore_carve') {
     return `${method.monsterName || method.sourceLabel || 'Unknown source'} - Hardcore carve`;

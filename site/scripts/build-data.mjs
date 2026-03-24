@@ -12,6 +12,7 @@ const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
 const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
 const monsterCarveLabelsPath = path.resolve(siteRoot, '..', 'g1_data', 'monster_carve_labels.json');
+const monsterPartbreakLabelsPath = path.resolve(siteRoot, '..', 'g1_data', 'monster_partbreak_labels.json');
 const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
@@ -40,19 +41,21 @@ const quarzepsFallbackRanks = new Set(['lr', 'hr', 'hr100']);
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, monsterCarveLabels] = await Promise.all([
-    readJson(itemsSourcePath),
-    readJson(partbreakSourcePath),
-    readJson(hardcoreCarvesSourcePath),
-    readJson(carvesSourcePath),
-    readJsonOptional(monsterCarveLabelsPath, {})
-  ]);
+  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, monsterCarveLabels, monsterPartbreakLabels] =
+    await Promise.all([
+      readJson(itemsSourcePath),
+      readJson(partbreakSourcePath),
+      readJson(hardcoreCarvesSourcePath),
+      readJson(carvesSourcePath),
+      readJsonOptional(monsterCarveLabelsPath, {}),
+      readJsonOptional(monsterPartbreakLabelsPath, {})
+    ]);
 
   const items = buildItems(itemRows);
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
   const filteredPartbreakRows = filterQuarzepsFallbackPartbreakRows(partbreakRows);
   const methods = [
-    ...buildAcquisitionMethods(filteredPartbreakRows),
+    ...buildAcquisitionMethods(filteredPartbreakRows, monsterPartbreakLabels),
     ...buildCarveMethods(carveRows, monsterCarveLabels),
     ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
   ].sort(compareMethods);
@@ -201,11 +204,31 @@ function parseDescriptionSegments(descriptionRaw) {
 }
 
 /**
+ * @param {Record<string, Record<string, string>>} labelsByMonsterId
+ * @param {number} monsterId
+ * @param {string} rawType e.g. "0x01"
+ * @returns {string | null} trimmed label, "__ignore__", or null if unmapped
+ */
+function resolvePartbreakLabel(labelsByMonsterId, monsterId, rawType) {
+  const entry = labelsByMonsterId[String(monsterId)];
+  if (!entry || typeof entry !== 'object') return null;
+  const value = entry[rawType];
+  if (typeof value !== 'string') return null;
+  const trimmed = value.trim();
+  return trimmed === '' ? null : trimmed;
+}
+
+/**
  * @param {Record<string, string | number>[]} rows
+ * @param {Record<string, Record<string, string>>} partbreakLabelsByMonsterId
  * @returns {AcquisitionMethod[]}
  */
-function buildAcquisitionMethods(rows) {
-  const methods = rows.map((row, index) => {
+function buildAcquisitionMethods(rows, partbreakLabelsByMonsterId) {
+  const labels = partbreakLabelsByMonsterId || {};
+  /** @type {AcquisitionMethod[]} */
+  const methods = [];
+
+  for (const [index, row] of rows.entries()) {
     const dropMode = (row.drop_mode || '').trim().toLowerCase();
     if (!knownDropModes.has(dropMode)) {
       throw new Error(`Unknown drop_mode "${row.drop_mode}" at partbreak row ${index + 1}`);
@@ -219,7 +242,12 @@ function buildAcquisitionMethods(rows) {
     const rank = normalizeRank(row.rank);
     const chance = parseNumber(row.percentage, `partbreak row ${index + 1} percentage`);
     const quantity = parseNumber(row.quantity, `partbreak row ${index + 1} quantity`);
-    const partbreakType = (row.partbreak_type_raw || '').trim();
+    const partbreakTypeRaw = (row.partbreak_type_raw || '').trim();
+    const manualLabel = resolvePartbreakLabel(labels, monsterId, partbreakTypeRaw);
+
+    if (methodType === 'part_break' && manualLabel === '__ignore__') {
+      continue;
+    }
 
     /** @type {AcquisitionMethod} */
     const method = {
@@ -235,13 +263,15 @@ function buildAcquisitionMethods(rows) {
     };
 
     if (methodType === 'part_break') {
-      method.partbreakType = partbreakType || 'unknown';
-    } else if (partbreakType) {
-      method.partbreakType = partbreakType;
+      method.partbreakType =
+        manualLabel && manualLabel !== '__ignore__' ? manualLabel : partbreakTypeRaw || 'unknown';
+    } else if (partbreakTypeRaw) {
+      method.partbreakType =
+        manualLabel && manualLabel !== '__ignore__' ? manualLabel : partbreakTypeRaw;
     }
 
-    return method;
-  });
+    methods.push(method);
+  }
 
   return methods.sort(compareMethods);
 }
