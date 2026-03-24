@@ -22118,7 +22118,7 @@
   {
     "monsterId": 39,
     "monsterLabel": "Purple Gypceros",
-    "totalEntries": 82,
+    "totalEntries": 81,
     "dropModes": [
       "capture",
       "part_break",
@@ -22534,17 +22534,6 @@
         "dropMode": "capture",
         "rank": "arena",
         "percentage": 60,
-        "quantity": 1,
-        "itemId": 377,
-        "itemName": "Rubbery Prp Hide"
-      },
-      {
-        "sourceLabel": "Purple Gypceros",
-        "monsterName": "Purple Gypceros",
-        "partbreakType": "Capture",
-        "dropMode": "capture",
-        "rank": "arena",
-        "percentage": 20,
         "quantity": 1,
         "itemId": 377,
         "itemName": "Rubbery Prp Hide"
@@ -24730,7 +24719,7 @@
   {
     "monsterId": 41,
     "monsterLabel": "Silver Rathalos",
-    "totalEntries": 94,
+    "totalEntries": 93,
     "dropModes": [
       "capture",
       "part_break",
@@ -25182,17 +25171,6 @@
         "quantity": 3,
         "itemId": 427,
         "itemName": "S.Rathalos Wing"
-      },
-      {
-        "sourceLabel": "Silver Rathalos",
-        "monsterName": "Silver Rathalos",
-        "partbreakType": "Capture",
-        "dropMode": "capture",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 424,
-        "itemName": "S.Rathalos Cpc"
       },
       {
         "sourceLabel": "Silver Rathalos",
@@ -25782,7 +25760,7 @@
   {
     "monsterId": 42,
     "monsterLabel": "Gold Rathian",
-    "totalEntries": 91,
+    "totalEntries": 90,
     "dropModes": [
       "capture",
       "part_break",
@@ -26223,17 +26201,6 @@
         "quantity": 1,
         "itemId": 405,
         "itemName": "G.Rathian Cpc"
-      },
-      {
-        "sourceLabel": "Gold Rathian",
-        "monsterName": "Gold Rathian",
-        "partbreakType": "Capture",
-        "dropMode": "capture",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 404,
-        "itemName": "G.Rathian Scale+"
       },
       {
         "sourceLabel": "Gold Rathian",
@@ -29123,7 +29090,7 @@
   {
     "monsterId": 46,
     "monsterLabel": "Green Plesioth",
-    "totalEntries": 64,
+    "totalEntries": 63,
     "dropModes": [
       "capture",
       "part_break",
@@ -29454,17 +29421,6 @@
         "quantity": 3,
         "itemId": 380,
         "itemName": "Piscine Fang"
-      },
-      {
-        "sourceLabel": "Green Plesioth",
-        "monsterName": "Green Plesioth",
-        "partbreakType": "Capture",
-        "dropMode": "capture",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 384,
-        "itemName": "G.Plesioth Scale"
       },
       {
         "sourceLabel": "Green Plesioth",
@@ -31940,7 +31896,7 @@
   {
     "monsterId": 49,
     "monsterLabel": "Azure Rathalos",
-    "totalEntries": 106,
+    "totalEntries": 105,
     "dropModes": [
       "capture",
       "part_break",
@@ -32512,17 +32468,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 420,
-        "itemName": "A.Rathalos Cpc"
-      },
-      {
-        "sourceLabel": "Azure Rathalos",
-        "monsterName": "Azure Rathalos",
-        "partbreakType": "Capture",
-        "dropMode": "capture",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 420,
         "itemName": "A.Rathalos Cpc"
       },
@@ -38042,7 +37987,7 @@
   {
     "monsterId": 54,
     "monsterLabel": "Kushala Daora",
-    "totalEntries": 81,
+    "totalEntries": 80,
     "dropModes": [
       "part_break",
       "hardcore_carve",
@@ -38437,17 +38382,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 548,
-        "itemName": "Daora Shell"
-      },
-      {
-        "sourceLabel": "Kushala Daora",
-        "monsterName": "Kushala Daora",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 548,
         "itemName": "Daora Shell"
       },
@@ -38951,7 +38885,7 @@
   {
     "monsterId": 55,
     "monsterLabel": "Shen Gaoren",
-    "totalEntries": 54,
+    "totalEntries": 53,
     "dropModes": [
       "part_break",
       "carve"
@@ -39224,17 +39158,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 544,
-        "itemName": "Gaoren Ridge"
-      },
-      {
-        "sourceLabel": "Shen Gaoren",
-        "monsterName": "Shen Gaoren",
-        "partbreakType": "Shell",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 544,
         "itemName": "Gaoren Ridge"
       },
@@ -40212,7 +40135,7 @@
   {
     "monsterId": 58,
     "monsterLabel": "Yama Tsukami",
-    "totalEntries": 65,
+    "totalEntries": 64,
     "dropModes": [
       "part_break",
       "carve"
@@ -40551,17 +40474,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 592,
-        "itemName": "Dragonwood"
-      },
-      {
-        "sourceLabel": "Yama Tsukami",
-        "monsterName": "Yama Tsukami",
-        "partbreakType": "Fin",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 592,
         "itemName": "Dragonwood"
       },
@@ -41611,7 +41523,7 @@
   {
     "monsterId": 60,
     "monsterLabel": "Rusted Kushala Daora",
-    "totalEntries": 78,
+    "totalEntries": 77,
     "dropModes": [
       "part_break",
       "hardcore_carve",
@@ -41984,17 +41896,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 548,
-        "itemName": "Daora Shell"
-      },
-      {
-        "sourceLabel": "Rusted Kushala Daora",
-        "monsterName": "Rusted Kushala Daora",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 548,
         "itemName": "Daora Shell"
       },
@@ -43187,7 +43088,7 @@
   {
     "monsterId": 64,
     "monsterLabel": "Lunastra",
-    "totalEntries": 79,
+    "totalEntries": 78,
     "dropModes": [
       "part_break",
       "carve"
@@ -43548,17 +43449,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 575,
-        "itemName": "Lunastra Shell"
-      },
-      {
-        "sourceLabel": "Lunastra",
-        "monsterName": "Lunastra",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 575,
         "itemName": "Lunastra Shell"
       },
@@ -44073,7 +43963,7 @@
   {
     "monsterId": 65,
     "monsterLabel": "Teostra",
-    "totalEntries": 87,
+    "totalEntries": 86,
     "dropModes": [
       "part_break",
       "hardcore_carve",
@@ -44501,17 +44391,6 @@
         "rank": "arena",
         "percentage": 60,
         "quantity": 3,
-        "itemId": 581,
-        "itemName": "Teostra Shell"
-      },
-      {
-        "sourceLabel": "Teostra",
-        "monsterName": "Teostra",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 581,
         "itemName": "Teostra Shell"
       },
@@ -63909,7 +63788,7 @@
   {
     "monsterId": 89,
     "monsterLabel": "Pariapuria",
-    "totalEntries": 221,
+    "totalEntries": 217,
     "dropModes": [
       "capture",
       "part_break",
@@ -64418,17 +64297,6 @@
         "quantity": 1,
         "itemId": 1659,
         "itemName": "Prickly Eel"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 1x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Pariapuria",
@@ -65456,17 +65324,6 @@
       {
         "sourceLabel": "Pariapuria",
         "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 1x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
         "partbreakType": "Additional reward: 2x Vomit",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -65632,17 +65489,6 @@
       {
         "sourceLabel": "Pariapuria",
         "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 3x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
         "partbreakType": "Additional reward: 4x Vomit",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -65705,17 +65551,6 @@
         "quantity": 1,
         "itemId": 394,
         "itemName": "Rathian Plate"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 4x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Pariapuria",
@@ -81957,7 +81792,7 @@
   {
     "monsterId": 103,
     "monsterLabel": "Taikun Zamuza",
-    "totalEntries": 227,
+    "totalEntries": 107,
     "dropModes": [
       "capture",
       "part_break",
@@ -82031,138 +81866,6 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5298,
-        "itemName": "Zamuza Rockclaw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
         "percentage": 25,
         "quantity": 1,
         "itemId": 5298,
@@ -82178,138 +81881,6 @@
         "quantity": 1,
         "itemId": 5297,
         "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5297,
-        "itemName": "Zamuza Rockshell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
       },
       {
         "sourceLabel": "Taikun Zamuza",
@@ -82515,138 +82086,6 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5299,
-        "itemName": "Zamuza Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5300,
-        "itemName": "Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
         "percentage": 25,
         "quantity": 1,
         "itemId": 5300,
@@ -82669,208 +82108,10 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5303,
-        "itemName": "Zamuza Claw+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
         "percentage": 15,
         "quantity": 1,
         "itemId": 5302,
         "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 15,
-        "quantity": 1,
-        "itemId": 5302,
-        "itemName": "Zamuza Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 10,
-        "quantity": 1,
-        "itemId": 5305,
-        "itemName": "Pale Zamuza Claw"
       },
       {
         "sourceLabel": "Taikun Zamuza",
@@ -83131,138 +82372,6 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 30,
         "quantity": 1,
         "itemId": 7,
@@ -83278,138 +82387,6 @@
         "quantity": 1,
         "itemId": 27,
         "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
       },
       {
         "sourceLabel": "Taikun Zamuza",
@@ -83681,208 +82658,10 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 22,
-        "quantity": 1,
-        "itemId": 1289,
-        "itemName": "Carapaceon Shell"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
         "percentage": 20,
         "quantity": 1,
         "itemId": 1088,
         "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 1088,
-        "itemName": "Carapaceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 19,
-        "quantity": 1,
-        "itemId": 1290,
-        "itemName": "Cpceon Carapace"
       },
       {
         "sourceLabel": "Taikun Zamuza",
@@ -83912,138 +82691,6 @@
         "partbreakType": "Other",
         "dropMode": "part_break",
         "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 1291,
-        "itemName": "Cpceon Cortex"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 1089,
-        "itemName": "Carapaceolite+"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
         "percentage": 12,
         "quantity": 1,
         "itemId": 1089,
@@ -84059,138 +82706,6 @@
         "quantity": 1,
         "itemId": 1090,
         "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 8,
-        "quantity": 1,
-        "itemId": 1090,
-        "itemName": "Pure Cpceolite"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
-      },
-      {
-        "sourceLabel": "Taikun Zamuza",
-        "monsterName": "Taikun Zamuza",
-        "partbreakType": "Other",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 1447,
-        "itemName": "Partbreaker Tkt"
       },
       {
         "sourceLabel": "Taikun Zamuza",
@@ -85656,7 +84171,7 @@
   {
     "monsterId": 105,
     "monsterLabel": "Quarzeps",
-    "totalEntries": 123,
+    "totalEntries": 107,
     "dropModes": [
       "capture",
       "part_break",
@@ -85684,17 +84199,6 @@
         "sourceLabel": "Quarzeps",
         "monsterName": "Quarzeps",
         "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 100,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "lr",
         "percentage": 100,
@@ -85862,28 +84366,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 5740,
-        "itemName": "Quarzeps Hide"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5741,
-        "itemName": "Quarz Crystalscl"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr",
         "percentage": 25,
         "quantity": 1,
         "itemId": 5741,
@@ -85899,28 +84381,6 @@
         "quantity": 1,
         "itemId": 5739,
         "itemName": "Quarzeps Claw"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 25,
-        "quantity": 1,
-        "itemId": 5739,
-        "itemName": "Quarzeps Claw"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5738,
-        "itemName": "Quarzeps Scale"
       },
       {
         "sourceLabel": "Quarzeps",
@@ -86192,28 +84652,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 30,
         "quantity": 1,
         "itemId": 7,
@@ -86229,28 +84667,6 @@
         "quantity": 1,
         "itemId": 27,
         "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
       },
       {
         "sourceLabel": "Quarzeps",
@@ -86601,41 +85017,8 @@
         "rank": "hr100",
         "percentage": 20,
         "quantity": 1,
-        "itemId": 5746,
-        "itemName": "Leviathan Hide"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
         "itemId": 5743,
         "itemName": "Leviathan Scale"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 5743,
-        "itemName": "Leviathan Scale"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 18,
-        "quantity": 1,
-        "itemId": 5747,
-        "itemName": "Leviathan Hide+"
       },
       {
         "sourceLabel": "Quarzeps",
@@ -86665,28 +85048,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "hr100",
-        "percentage": 14,
-        "quantity": 1,
-        "itemId": 5744,
-        "itemName": "Leviathan Scale+"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 5748,
-        "itemName": "Leviathan Piel"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
         "percentage": 12,
         "quantity": 1,
         "itemId": 5748,
@@ -86702,28 +85063,6 @@
         "quantity": 1,
         "itemId": 5745,
         "itemName": "Leviathan Shard"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 11,
-        "quantity": 1,
-        "itemId": 5745,
-        "itemName": "Leviathan Shard"
-      },
-      {
-        "sourceLabel": "Quarzeps",
-        "monsterName": "Quarzeps",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 5749,
-        "itemName": "Leviathan Gem"
       },
       {
         "sourceLabel": "Quarzeps",
@@ -87715,7 +86054,7 @@
   {
     "monsterId": 107,
     "monsterLabel": "Disufiroa",
-    "totalEntries": 64,
+    "totalEntries": 58,
     "dropModes": [
       "part_break",
       "carve"
@@ -87921,28 +86260,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 30,
         "quantity": 1,
         "itemId": 7,
@@ -87958,28 +86275,6 @@
         "quantity": 1,
         "itemId": 27,
         "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
       },
       {
         "sourceLabel": "Disufiroa",
@@ -88266,28 +86561,6 @@
         "quantity": 1,
         "itemId": 6780,
         "itemName": "Vors Firescale"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "gr",
-        "percentage": 88,
-        "quantity": 1,
-        "itemId": 6780,
-        "itemName": "Vors Firescale"
-      },
-      {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "gr",
-        "percentage": 12,
-        "quantity": 1,
-        "itemId": 6782,
-        "itemName": "Vors Fireclaw"
       },
       {
         "sourceLabel": "Disufiroa",

@@ -79,10 +79,23 @@ for (const drop of monster.drops as MonsterDrop[]) {
   });
 }
 
+/** Same display label can pool multiple raw partbreak rows; show each item line once. */
+function dedupeGroupedDropItems(items: GroupedDropItem[]): GroupedDropItem[] {
+  const seen = new Set<string>();
+  const out: GroupedDropItem[] = [];
+  for (const item of items) {
+    const key = `${item.itemId}|${item.percentage}|${item.quantity}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(item);
+  }
+  return out;
+}
+
 const groupedDrops = [...groupedDropsMap.values()]
   .map((group) => ({
     ...group,
-    items: group.items.sort((a: GroupedDropItem, b: GroupedDropItem) => {
+    items: dedupeGroupedDropItems(group.items).sort((a: GroupedDropItem, b: GroupedDropItem) => {
       return a.itemId - b.itemId;
     })
   }))

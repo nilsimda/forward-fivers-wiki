@@ -54,11 +54,13 @@ async function main() {
   const items = buildItems(itemRows);
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
   const filteredPartbreakRows = filterQuarzepsFallbackPartbreakRows(partbreakRows);
-  const methods = [
-    ...buildAcquisitionMethods(filteredPartbreakRows, monsterPartbreakLabels),
-    ...buildCarveMethods(carveRows, monsterCarveLabels),
-    ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
-  ].sort(compareMethods);
+  const methods = dedupePooledDropMethods(
+    [
+      ...buildAcquisitionMethods(filteredPartbreakRows, monsterPartbreakLabels),
+      ...buildCarveMethods(carveRows, monsterCarveLabels),
+      ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
+    ].sort(compareMethods)
+  );
 
   validateMethods(methods, items);
 
@@ -625,6 +627,42 @@ function compareMethods(a, b) {
   if (b.chance !== a.chance) return b.chance - a.chance;
   if (b.quantity !== a.quantity) return b.quantity - a.quantity;
   return a.itemId - b.itemId;
+}
+
+/**
+ * Several raw partbreak slots can share one display label (e.g. "Other") with the same PDT;
+ * collapse identical acquisition lines so pooled breaks do not repeat in JSON/UI.
+ *
+ * @param {AcquisitionMethod[]} methods
+ * @returns {AcquisitionMethod[]}
+ */
+function dedupePooledDropMethods(methods) {
+  const seen = new Set();
+  /** @type {AcquisitionMethod[]} */
+  const out = [];
+
+  for (const m of methods) {
+    if (m.methodType !== 'part_break' && m.methodType !== 'capture') {
+      out.push(m);
+      continue;
+    }
+
+    const key = [
+      m.monsterId,
+      m.rank,
+      m.methodType,
+      m.partbreakType ?? '',
+      m.itemId,
+      m.chance,
+      m.quantity
+    ].join('|');
+
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(m);
+  }
+
+  return out;
 }
 
 /**
