@@ -310,28 +310,6 @@
       {
         "methodType": "carve",
         "rank": "lr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
         "sourceLabel": "Body Carves (3)",
         "chance": 30,
         "quantity": 1,
@@ -358,7 +336,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -369,7 +347,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -496,45 +474,45 @@
       },
       {
         "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Body Carves (3)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Tail Carve (1)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
+        "rank": "lr",
         "sourceLabel": "Body Carves (4)",
         "chance": 30,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 7,
         "itemName": "Potion"
       },
       {
         "methodType": "carve",
         "rank": "hr",
-        "sourceLabel": "Tail Carves (2)",
+        "sourceLabel": "Body Carves (3)",
         "chance": 30,
         "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carve (1)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -545,7 +523,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -556,7 +534,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -678,6 +656,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -756,11 +756,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Capture"
@@ -1320,42 +1320,6 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion",
-        "partbreakType": "Jaw"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion",
-        "partbreakType": "Wing"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
         "sourceLabel": "Draguros",
         "chance": 30,
         "quantity": 1,
@@ -1488,11 +1452,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Beak"
@@ -2424,6 +2388,42 @@
       {
         "methodType": "part_break",
         "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion",
+        "partbreakType": "Claws"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion",
+        "partbreakType": "Jaw"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion",
+        "partbreakType": "Wing"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
         "sourceLabel": "White Espinas",
         "chance": 30,
         "quantity": 1,
@@ -2806,28 +2806,6 @@
       {
         "methodType": "carve",
         "rank": "arena",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 30,
         "quantity": 1,
@@ -2887,7 +2865,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -2898,7 +2876,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -3565,6 +3543,28 @@
       {
         "methodType": "carve",
         "rank": "arena",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 30,
         "quantity": 1,
@@ -3664,33 +3664,11 @@
       {
         "methodType": "carve",
         "rank": "hr100",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 30,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
         "sourceLabel": "Body Carves (3)",
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -3701,7 +3679,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -3823,6 +3801,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 7,
+        "itemName": "Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 30,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 7,
         "itemName": "Potion"
       }
@@ -4072,11 +4072,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Capture"
@@ -4360,42 +4360,6 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 27,
-        "itemName": "Max Potion",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 27,
-        "itemName": "Max Potion",
-        "partbreakType": "Jaw"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 27,
-        "itemName": "Max Potion",
-        "partbreakType": "Wing"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
         "sourceLabel": "Draguros",
         "chance": 20,
         "quantity": 1,
@@ -4468,11 +4432,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Beak"
@@ -5296,6 +5260,42 @@
       {
         "methodType": "part_break",
         "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 27,
+        "itemName": "Max Potion",
+        "partbreakType": "Claws"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 27,
+        "itemName": "Max Potion",
+        "partbreakType": "Jaw"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 27,
+        "itemName": "Max Potion",
+        "partbreakType": "Wing"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
         "sourceLabel": "White Espinas",
         "chance": 20,
         "quantity": 1,
@@ -5394,28 +5394,6 @@
       {
         "methodType": "carve",
         "rank": "lr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
         "sourceLabel": "Body Carves (3)",
         "chance": 5,
         "quantity": 1,
@@ -5442,7 +5420,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5453,7 +5431,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5580,45 +5558,45 @@
       },
       {
         "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Body Carves (3)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Tail Carve (1)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
+        "rank": "lr",
         "sourceLabel": "Body Carves (4)",
         "chance": 5,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
       {
         "methodType": "carve",
         "rank": "hr",
-        "sourceLabel": "Tail Carves (2)",
+        "sourceLabel": "Body Carves (3)",
         "chance": 5,
         "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carve (1)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5629,7 +5607,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5640,7 +5618,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5762,6 +5740,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -5840,11 +5840,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Capture"
@@ -6512,42 +6512,6 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion",
-        "partbreakType": "Jaw"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion",
-        "partbreakType": "Wing"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
         "sourceLabel": "Draguros",
         "chance": 5,
         "quantity": 1,
@@ -6680,11 +6644,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Beak"
@@ -7616,6 +7580,42 @@
       {
         "methodType": "part_break",
         "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion",
+        "partbreakType": "Claws"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion",
+        "partbreakType": "Jaw"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion",
+        "partbreakType": "Wing"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
         "sourceLabel": "White Espinas",
         "chance": 5,
         "quantity": 1,
@@ -7987,28 +7987,6 @@
       {
         "methodType": "carve",
         "rank": "arena",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 5,
         "quantity": 1,
@@ -8057,7 +8035,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -8068,7 +8046,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -8735,6 +8713,28 @@
       {
         "methodType": "carve",
         "rank": "arena",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 5,
         "quantity": 1,
@@ -8834,33 +8834,11 @@
       {
         "methodType": "carve",
         "rank": "hr100",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 5,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
         "sourceLabel": "Body Carves (3)",
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -8871,7 +8849,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -8993,6 +8971,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 28,
+        "itemName": "Ancient Potion"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 5,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 28,
         "itemName": "Ancient Potion"
       }
@@ -11146,28 +11146,6 @@
       {
         "methodType": "carve",
         "rank": "lr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
         "sourceLabel": "Body Carves (3)",
         "chance": 45,
         "quantity": 1,
@@ -11194,7 +11172,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11205,7 +11183,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11327,6 +11305,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11379,33 +11379,11 @@
       {
         "methodType": "carve",
         "rank": "hr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
         "sourceLabel": "Body Carves (3)",
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11416,7 +11394,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11538,6 +11516,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -11628,11 +11628,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Capture"
@@ -12204,42 +12204,6 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone",
-        "partbreakType": "Jaw"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Disufiroa",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone",
-        "partbreakType": "Wing"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
         "sourceLabel": "Draguros",
         "chance": 45,
         "quantity": 1,
@@ -12384,11 +12348,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Beak"
@@ -13308,6 +13272,42 @@
       {
         "methodType": "part_break",
         "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone",
+        "partbreakType": "Claws"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone",
+        "partbreakType": "Jaw"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
+        "sourceLabel": "Vorsphyroa",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone",
+        "partbreakType": "Wing"
+      },
+      {
+        "methodType": "part_break",
+        "rank": "arena",
         "sourceLabel": "White Espinas",
         "chance": 45,
         "quantity": 1,
@@ -13745,28 +13745,6 @@
       {
         "methodType": "carve",
         "rank": "arena",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 45,
         "quantity": 1,
@@ -13826,7 +13804,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -13837,7 +13815,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -14636,6 +14614,28 @@
       {
         "methodType": "carve",
         "rank": "arena",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 45,
         "quantity": 1,
@@ -14757,33 +14757,11 @@
       {
         "methodType": "carve",
         "rank": "hr100",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 45,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
         "sourceLabel": "Body Carves (3)",
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -14794,7 +14772,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -14916,6 +14894,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 215,
+        "itemName": "Stone"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 45,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 215,
         "itemName": "Stone"
       }
@@ -18458,28 +18458,6 @@
       {
         "methodType": "carve",
         "rank": "lr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "lr",
         "sourceLabel": "Body Carves (3)",
         "chance": 20,
         "quantity": 1,
@@ -18506,7 +18484,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -18517,7 +18495,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -18677,6 +18655,28 @@
       },
       {
         "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "lr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
         "rank": "hr",
         "sourceLabel": "Body Carves (3)",
         "chance": 20,
@@ -18722,33 +18722,11 @@
       {
         "methodType": "carve",
         "rank": "hr",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr",
         "sourceLabel": "Body Carves (3)",
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -18759,7 +18737,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -18903,6 +18881,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -19441,28 +19441,6 @@
       {
         "methodType": "carve",
         "rank": "arena",
-        "sourceLabel": "Body Carves (4)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carves (2)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
         "sourceLabel": "Body Carves (3)",
         "chance": 20,
         "quantity": 1,
@@ -19511,7 +19489,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -19522,7 +19500,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -20112,110 +20090,110 @@
       {
         "methodType": "carve",
         "rank": "arena",
-        "sourceLabel": "Body Carves (3)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 90,
-        "monsterName": "White Espinas",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carve (1)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 90,
-        "monsterName": "White Espinas",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Shiny Drops",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 90,
-        "monsterName": "White Espinas",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Body Carves (3)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 40,
-        "monsterName": "Yian Garuga",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Tail Carve (1)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 40,
-        "monsterName": "Yian Garuga",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "arena",
-        "sourceLabel": "Shiny Drops",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 40,
-        "monsterName": "Yian Garuga",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
-        "sourceLabel": "Body Carves (3)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
-        "sourceLabel": "Tail Carve (1)",
-        "chance": 20,
-        "quantity": 1,
-        "monsterId": 109,
-        "monsterName": "Anorupatisu",
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "methodType": "carve",
-        "rank": "hr100",
         "sourceLabel": "Body Carves (4)",
         "chance": 20,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Body Carves (3)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 90,
+        "monsterName": "White Espinas",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carve (1)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 90,
+        "monsterName": "White Espinas",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Shiny Drops",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 90,
+        "monsterName": "White Espinas",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Body Carves (3)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 40,
+        "monsterName": "Yian Garuga",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Tail Carve (1)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 40,
+        "monsterName": "Yian Garuga",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "arena",
+        "sourceLabel": "Shiny Drops",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 40,
+        "monsterName": "Yian Garuga",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
       {
         "methodType": "carve",
         "rank": "hr100",
-        "sourceLabel": "Tail Carves (2)",
+        "sourceLabel": "Body Carves (3)",
         "chance": 20,
         "quantity": 1,
-        "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Tail Carve (1)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 109,
+        "monsterName": "Anorupatisu",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -20226,7 +20204,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -20237,7 +20215,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -20359,6 +20337,28 @@
         "quantity": 1,
         "monsterId": 116,
         "monsterName": "Shantien",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Body Carves (4)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
+        "itemId": 312,
+        "itemName": "Monster Bone S"
+      },
+      {
+        "methodType": "carve",
+        "rank": "hr100",
+        "sourceLabel": "Tail Carves (2)",
+        "chance": 20,
+        "quantity": 1,
+        "monsterId": 107,
+        "monsterName": "Vorsphyroa",
         "itemId": 312,
         "itemName": "Monster Bone S"
       }
@@ -94931,11 +94931,11 @@
       {
         "methodType": "capture",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 55,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6662,
         "itemName": "Falno Claw",
         "partbreakType": "Capture"
@@ -94947,7 +94947,7 @@
         "chance": 35,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6662,
         "itemName": "Falno Claw"
       }
@@ -94960,11 +94960,11 @@
       {
         "methodType": "capture",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 35,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6663,
         "itemName": "Falno Drypelt",
         "partbreakType": "Capture"
@@ -94972,11 +94972,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 37,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6663,
         "itemName": "Falno Drypelt",
         "partbreakType": "Beak"
@@ -94988,7 +94988,7 @@
         "chance": 55,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6663,
         "itemName": "Falno Drypelt"
       },
@@ -94999,7 +94999,7 @@
         "chance": 15,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6663,
         "itemName": "Falno Drypelt"
       }
@@ -95012,11 +95012,11 @@
       {
         "methodType": "capture",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 4,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6664,
         "itemName": "Brilliant Quill",
         "partbreakType": "Capture"
@@ -95028,7 +95028,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6664,
         "itemName": "Brilliant Quill"
       },
@@ -95039,7 +95039,7 @@
         "chance": 3,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6664,
         "itemName": "Brilliant Quill"
       }
@@ -95056,7 +95056,7 @@
         "chance": 1,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6665,
         "itemName": "Falno Voltpelt"
       }
@@ -95069,11 +95069,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 12,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6666,
         "itemName": "Falno Beak",
         "partbreakType": "Beak"
@@ -95091,7 +95091,7 @@
         "chance": 60,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6667,
         "itemName": "Falno Tail"
       }
@@ -95128,11 +95128,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 40,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6668,
         "itemName": "Magnific Gem",
         "partbreakType": "Beak"
@@ -95156,7 +95156,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6668,
         "itemName": "Magnific Gem"
       }
@@ -99335,11 +99335,11 @@
       {
         "methodType": "capture",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 6,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6751,
         "itemName": "Lightning Sac",
         "partbreakType": "Capture"
@@ -99371,11 +99371,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Farunokku",
+        "sourceLabel": "Falnocatrice",
         "chance": 11,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6751,
         "itemName": "Lightning Sac",
         "partbreakType": "Beak"
@@ -99447,7 +99447,7 @@
         "chance": 6,
         "quantity": 1,
         "monsterId": 114,
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "itemId": 6751,
         "itemName": "Lightning Sac"
       },
@@ -100930,11 +100930,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 88,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6780,
         "itemName": "Vors Firescale",
         "partbreakType": "Claws"
@@ -100942,11 +100942,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 58,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6780,
         "itemName": "Vors Firescale",
         "partbreakType": "Wing"
@@ -100958,7 +100958,7 @@
         "chance": 44,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6780,
         "itemName": "Vors Firescale"
       }
@@ -100971,11 +100971,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 88,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6781,
         "itemName": "Vors Rimescale",
         "partbreakType": "Jaw"
@@ -100983,11 +100983,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 30,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6781,
         "itemName": "Vors Rimescale",
         "partbreakType": "Wing"
@@ -100999,7 +100999,7 @@
         "chance": 41,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6781,
         "itemName": "Vors Rimescale"
       },
@@ -101010,7 +101010,7 @@
         "chance": 25,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6781,
         "itemName": "Vors Rimescale"
       }
@@ -101023,11 +101023,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 12,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6782,
         "itemName": "Vors Fireclaw",
         "partbreakType": "Claws"
@@ -101039,7 +101039,7 @@
         "chance": 7,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6782,
         "itemName": "Vors Fireclaw"
       }
@@ -101052,11 +101052,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 12,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6783,
         "itemName": "Vors Rimehorn",
         "partbreakType": "Jaw"
@@ -101068,7 +101068,7 @@
         "chance": 7,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6783,
         "itemName": "Vors Rimehorn"
       }
@@ -101085,7 +101085,7 @@
         "chance": 1,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6784,
         "itemName": "Antinomic Gem"
       }
@@ -101098,11 +101098,11 @@
       {
         "methodType": "part_break",
         "rank": "gr",
-        "sourceLabel": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
         "chance": 12,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6785,
         "itemName": "Vorsphyroa Wing",
         "partbreakType": "Wing"
@@ -101120,7 +101120,7 @@
         "chance": 75,
         "quantity": 1,
         "monsterId": 107,
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "itemId": 6786,
         "itemName": "Vorsphyroa Tail"
       }

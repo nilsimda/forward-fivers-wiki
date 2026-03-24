@@ -86053,7 +86053,7 @@
   },
   {
     "monsterId": 107,
-    "monsterLabel": "Disufiroa",
+    "monsterLabel": "Vorsphyroa",
     "totalEntries": 58,
     "dropModes": [
       "part_break",
@@ -86069,7 +86069,7 @@
     "drops": [
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86080,7 +86080,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86091,7 +86091,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86102,7 +86102,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86113,7 +86113,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86124,7 +86124,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86135,7 +86135,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86146,7 +86146,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -86157,7 +86157,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86168,7 +86168,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86179,7 +86179,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86190,7 +86190,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86201,7 +86201,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86212,7 +86212,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86223,7 +86223,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86234,7 +86234,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -86244,8 +86244,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86255,8 +86255,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86266,8 +86266,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86277,8 +86277,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86288,8 +86288,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86299,8 +86299,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86310,8 +86310,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86321,8 +86321,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86332,8 +86332,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86343,8 +86343,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86354,8 +86354,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86365,8 +86365,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "arena",
@@ -86377,7 +86377,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86388,7 +86388,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86399,7 +86399,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86410,7 +86410,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86421,7 +86421,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86432,7 +86432,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86443,7 +86443,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86454,7 +86454,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -86465,7 +86465,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86476,7 +86476,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86487,7 +86487,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86498,7 +86498,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86509,7 +86509,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86520,7 +86520,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86531,7 +86531,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86542,7 +86542,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -86552,8 +86552,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86563,8 +86563,8 @@
         "itemName": "Vors Firescale"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86574,8 +86574,8 @@
         "itemName": "Vors Fireclaw"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86585,8 +86585,8 @@
         "itemName": "Vors Rimescale"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86596,8 +86596,8 @@
         "itemName": "Vors Rimehorn"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86607,8 +86607,8 @@
         "itemName": "Vors Firescale"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86618,8 +86618,8 @@
         "itemName": "Vors Rimescale"
       },
       {
-        "sourceLabel": "Disufiroa",
-        "monsterName": "Disufiroa",
+        "sourceLabel": "Vorsphyroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "Wing",
         "dropMode": "part_break",
         "rank": "gr",
@@ -86630,7 +86630,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86641,7 +86641,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86652,7 +86652,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86663,7 +86663,7 @@
       },
       {
         "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86674,7 +86674,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86685,7 +86685,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -86696,7 +86696,7 @@
       },
       {
         "sourceLabel": "Body Carves (4)",
-        "monsterName": "Disufiroa",
+        "monsterName": "Vorsphyroa",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90869,7 +90869,7 @@
   },
   {
     "monsterId": 114,
-    "monsterLabel": "Farunokku",
+    "monsterLabel": "Falnocatrice",
     "totalEntries": 57,
     "dropModes": [
       "capture",
@@ -90886,7 +90886,7 @@
     "drops": [
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90897,7 +90897,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90908,7 +90908,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90919,7 +90919,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90930,7 +90930,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90941,7 +90941,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90952,7 +90952,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90963,7 +90963,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -90974,7 +90974,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -90985,7 +90985,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -90996,7 +90996,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91007,7 +91007,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91018,7 +91018,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91029,7 +91029,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91040,7 +91040,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91051,7 +91051,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -91061,8 +91061,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -91072,8 +91072,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -91083,8 +91083,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -91094,8 +91094,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -91105,8 +91105,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "arena",
@@ -91116,8 +91116,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "arena",
@@ -91127,8 +91127,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "arena",
@@ -91138,8 +91138,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "arena",
@@ -91150,7 +91150,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91161,7 +91161,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91172,7 +91172,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91183,7 +91183,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91194,7 +91194,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91205,7 +91205,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91216,7 +91216,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91227,7 +91227,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -91238,7 +91238,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91249,7 +91249,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91260,7 +91260,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91271,7 +91271,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91282,7 +91282,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91293,7 +91293,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91304,7 +91304,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91315,7 +91315,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -91325,8 +91325,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -91336,8 +91336,8 @@
         "itemName": "Falno Claw"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -91347,8 +91347,8 @@
         "itemName": "Falno Drypelt"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -91358,8 +91358,8 @@
         "itemName": "Lightning Sac"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -91369,8 +91369,8 @@
         "itemName": "Brilliant Quill"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "gr",
@@ -91380,8 +91380,8 @@
         "itemName": "Magnific Gem"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "gr",
@@ -91391,8 +91391,8 @@
         "itemName": "Falno Drypelt"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "gr",
@@ -91402,8 +91402,8 @@
         "itemName": "Falno Beak"
       },
       {
-        "sourceLabel": "Farunokku",
-        "monsterName": "Farunokku",
+        "sourceLabel": "Falnocatrice",
+        "monsterName": "Falnocatrice",
         "partbreakType": "Beak",
         "dropMode": "part_break",
         "rank": "gr",
@@ -91414,7 +91414,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91425,7 +91425,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91436,7 +91436,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91447,7 +91447,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91458,7 +91458,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91469,7 +91469,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91480,7 +91480,7 @@
       },
       {
         "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91491,7 +91491,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -91502,7 +91502,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Farunokku",
+        "monsterName": "Falnocatrice",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
