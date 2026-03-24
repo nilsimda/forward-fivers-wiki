@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 import argparse
-import json
 import struct
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+from extract_common import (
+    REPO_ROOT,
+    load_item_names,
+    load_monster_names,
+    read_u16,
+    read_u32,
+    write_json_output,
+)
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
@@ -15,9 +21,6 @@ IMPORTANT_NUMS_POINTER_HEADER_ADDRESS = 0x00000010
 CARVE_DT_POINTER_HEADER_ADDRESS = 0x00000124
 CARVE_ASSOC_POINTER_HEADER_ADDRESS = 0x0000013C
 CARVE_DT_COUNT_OFFSET_IN_IMPORTANT_NUMS = 0x22
-
-U16_FMT = "<H"
-U32_FMT = "<I"
 
 CARVE_DROP_FMT = "<HH"
 CARVE_DROP_SIZE = struct.calcsize(CARVE_DROP_FMT)
@@ -59,60 +62,6 @@ def parse_args() -> argparse.Namespace:
         help="JSON object mapping monster ids to display names.",
     )
     return parser.parse_args()
-
-
-def read_u32(raw: bytes, offset: int, label: str) -> int:
-    size = struct.calcsize(U32_FMT)
-    if offset < 0 or offset + size > len(raw):
-        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
-    (value,) = struct.unpack_from(U32_FMT, raw, offset)
-    return value
-
-
-def read_u16(raw: bytes, offset: int, label: str) -> int:
-    size = struct.calcsize(U16_FMT)
-    if offset < 0 or offset + size > len(raw):
-        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
-    (value,) = struct.unpack_from(U16_FMT, raw, offset)
-    return value
-
-
-def load_item_names(items_source_path: Path) -> dict[int, str]:
-    if not items_source_path.exists():
-        return {}
-    data = json.loads(items_source_path.read_text(encoding="utf-8"))
-    names_by_id: dict[int, str] = {}
-    for row in data:
-        item_id = row.get("item_index")
-        if not isinstance(item_id, int):
-            continue
-        name = str(row.get("name", "")).strip()
-        if name:
-            names_by_id[item_id] = name
-    return names_by_id
-
-
-def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
-    if not monster_names_json_path.exists():
-        return {}
-
-    raw = json.loads(monster_names_json_path.read_text(encoding="utf-8"))
-    if not isinstance(raw, dict):
-        raise ValueError(
-            f"Monster names JSON must be an object mapping ids to names: {monster_names_json_path}"
-        )
-
-    names_by_id: dict[int, str] = {}
-    for raw_monster_id, raw_name in raw.items():
-        try:
-            monster_id = int(str(raw_monster_id).strip(), 0)
-        except ValueError:
-            continue
-        monster_name = str(raw_name or "").strip()
-        if not monster_name:
-            continue
-        names_by_id[monster_id] = monster_name
-    return names_by_id
 
 
 def parse_carve_dt_pointer_array(raw: bytes, pointer_array_base: int, pointer_count: int) -> list[int]:
@@ -397,8 +346,7 @@ def main() -> None:
         carve_tables=carve_tables,
     )
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_json_output(args.output, rows)
 
     print(f"Input: {args.input}")
     print(f"Output: {args.output}")

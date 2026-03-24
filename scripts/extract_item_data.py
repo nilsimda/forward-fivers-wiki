@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 import argparse
-import json
 import struct
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+from extract_common import REPO_ROOT, read_u16, read_u32, write_json_output
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
@@ -17,8 +16,6 @@ ITEM_DESCRIPTIONS_POINTER_TABLE_OFFSET = 0x60
 ITEM_COUNT_POINTER_ADDRESS = 0x00000010
 ITEM_COUNT_OFFSET_FROM_POINTER = 0x0C
 
-POINTER_FMT = "<I"
-U16_FMT = "<H"
 ITEM_STRUCT_FMT = "<BBBBBBBBHHIIHHHBBHBB"
 ITEM_STRUCT_SIZE = struct.calcsize(ITEM_STRUCT_FMT)
 
@@ -40,22 +37,6 @@ def parse_args() -> argparse.Namespace:
         help="Output JSON path consumed by site/scripts/build-data.mjs",
     )
     return parser.parse_args()
-
-
-def read_u32(raw: bytes, offset: int, label: str) -> int:
-    size = struct.calcsize(POINTER_FMT)
-    if offset < 0 or offset + size > len(raw):
-        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
-    (value,) = struct.unpack_from(POINTER_FMT, raw, offset)
-    return value
-
-
-def read_u16(raw: bytes, offset: int, label: str) -> int:
-    size = struct.calcsize(U16_FMT)
-    if offset < 0 or offset + size > len(raw):
-        raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
-    (value,) = struct.unpack_from(U16_FMT, raw, offset)
-    return value
 
 
 def decode_c_string(raw: bytes, pointer: int) -> str:
@@ -157,8 +138,7 @@ def main() -> None:
     raw = args.input.read_bytes()
     rows, item_count, items_base, names_base, desc_base = extract_items(raw)
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_json_output(args.output, rows)
 
     print(f"Input: {args.input}")
     print(f"Output: {args.output}")

@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 import argparse
-import json
 import struct
 from pathlib import Path
 
+from extract_common import REPO_ROOT, read_u32, write_json_output
+
 POINTER_ADDRESS = 0x0000034C
-POINTER_FMT = "<I"
 RECORD_FMT = "<HHHHH"
 RECORD_SIZE = struct.calcsize(RECORD_FMT)
 TERMINATOR = b"\xFF\xFF"
 FIELDS = ["monster_id", "lr_item_id", "hr_item_id", "hr100_item_id", "gr_item_id"]
-REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 def parse_args() -> argparse.Namespace:
@@ -35,13 +34,7 @@ def parse_args() -> argparse.Namespace:
 def read_hcc_blob(binary_path: Path) -> bytes:
     raw = binary_path.read_bytes()
 
-    pointer_size = struct.calcsize(POINTER_FMT)
-    if len(raw) < POINTER_ADDRESS + pointer_size:
-        raise ValueError(
-            f"File too small for pointer read at 0x{POINTER_ADDRESS:08X}: {binary_path}"
-        )
-
-    (data_address,) = struct.unpack_from(POINTER_FMT, raw, POINTER_ADDRESS)
+    data_address = read_u32(raw, POINTER_ADDRESS, "hcc_table_pointer")
     if data_address >= len(raw):
         raise ValueError(
             f"Pointer target 0x{data_address:08X} outside file bounds ({len(raw)} bytes)"
@@ -74,8 +67,7 @@ def main() -> None:
     blob = read_hcc_blob(args.input)
     records = decode_records(blob)
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
+    write_json_output(args.output, records)
 
     print(f"Input: {args.input}")
     print(f"Output: {args.output}")
