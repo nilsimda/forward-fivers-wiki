@@ -1,0 +1,518 @@
+{
+  "1": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "6": {
+    "secondary": {
+      "0": "Shiny Drops",
+      "1": "Gocoo Quest - Shiny Drops"
+    }
+  },
+  "7": {
+    "primary": {
+      "1": "Back Carves (3)"
+    }
+  },
+  "8": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "11": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "12": {
+    "primary": {
+      "1": "__ignore__"
+    }
+  },
+  "14": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "15": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "17": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "20": {
+    "primary": {
+      "1": "Playing Dead"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "21": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "22": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops",
+      "1": "Gocoo Quest - Shiny Drops"
+    }
+  },
+  "23": {
+    "secondary": {
+      "0": "Shiny Drops",
+      "1": "Shiny Drops",
+      "2": "Shiny Drops"
+    }
+  },
+  "26": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "37": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "38": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "39": {
+    "primary": {
+      "1": "Playing Dead"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "40": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "41": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "42": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "43": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "44": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "45": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "46": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "47": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "48": {
+    "secondary": {
+      "0": "Shiny Drops",
+      "1": "Gocoo Quest - Shiny Drops"
+    }
+  },
+  "49": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "50": {
+    "primary": {
+      "1": "Back Carves (3)"
+    }
+  },
+  "51": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "52": {
+    "secondary": {
+      "0": "Shiny Drops:Bones",
+      "1": "Shiny Drops:Mushroom",
+      "2": "Shiny Drops:Ore",
+      "3": "Gocoo Quest - Shiny Drops"
+    }
+  },
+  "54": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "55": {
+    "primary": {
+      "1": "Back Carves (3)"
+    }
+  },
+  "56": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "57": {
+    "primary": {
+      "1": "KingBody Carves (1)"
+    }
+  },
+  "58": {
+    "primary": {
+      "1": "Back Carves (3)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "59": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "60": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "64": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "65": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "67": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "74": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "75": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "76": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops",
+      "1": "Gocoo Quest - Shiny Drops"
+    }
+  },
+  "77": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "78": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "79": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "80": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "81": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "82": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "83": {
+    "primary": {
+      "1": "Tail Carve (1)",
+      "2": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "84": {
+    "primary": {
+      "1": "Tail Carve (1)",
+      "2": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "85": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "87": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "88": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "89": {
+    "secondary": {
+      "0": "嘔吐：肉",
+      "1": "嘔吐：肉",
+      "2": "嘔吐：肉",
+      "3": "嘔吐：肉",
+      "4": "嘔吐：肉",
+      "5": "嘔吐：肉",
+      "6": "嘔吐：肉",
+      "7": "嘔吐：肉",
+      "8": "嘔吐：肉",
+      "9": "嘔吐：肉",
+      "10": "嘔吐：肉",
+      "11": "嘔吐：肉",
+      "12": "嘔吐：肉",
+      "13": "嘔吐：肉",
+      "14": "嘔吐：肉",
+      "15": "嘔吐：肉"
+    }
+  },
+  "90": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "91": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "92": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "93": {
+    "primary": {
+      "0": "Body Carves: Head (9)",
+      "1": "Body Carves: Body (4-9)",
+      "2": "Body Carves: Body (4-9)",
+      "3": "Body Carves: Body (4-9)",
+      "4": "Body Carves: Tail (3-9)",
+      "5": "Body Carves: Tail (3-9)",
+      "6": "Body Carves: Tail (3-9)",
+      "7": "Body Carves: Tail (3-9)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "94": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "95": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "__ignore__"
+    }
+  },
+  "96": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "__ignore__"
+    }
+  },
+  "99": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "100": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    },
+    "secondary": {
+      "0": "__ignore__"
+    }
+  },
+  "101": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "103": {
+    "primary": {
+      "1": "Body Carve (Blue) (3)"
+    },
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "104": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "105": {
+    "secondary": {
+      "0": "Shiny Drops"
+    }
+  },
+  "106": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    }
+  },
+  "107": {
+    "primary": {
+      "1": "Tail Carves (2)"
+    }
+  },
+  "108": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    }
+  },
+  "109": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    }
+  },
+  "110": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    }
+  },
+  "114": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    }
+  },
+  "115": {
+    "primary": {
+      "1": "Tail Carve (1)"
+    }
+  }
+}

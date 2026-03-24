@@ -11,6 +11,7 @@ const itemsSourcePath = path.join(generatedDir, '_items-source.json');
 const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
 const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
+const monsterCarveLabelsPath = path.resolve(siteRoot, '..', 'g1_data', 'monster_carve_labels.json');
 const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
@@ -39,11 +40,12 @@ const quarzepsFallbackRanks = new Set(['lr', 'hr', 'hr100']);
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows] = await Promise.all([
+  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, monsterCarveLabels] = await Promise.all([
     readJson(itemsSourcePath),
     readJson(partbreakSourcePath),
     readJson(hardcoreCarvesSourcePath),
-    readJson(carvesSourcePath)
+    readJson(carvesSourcePath),
+    readJsonOptional(monsterCarveLabelsPath, {})
   ]);
 
   const items = buildItems(itemRows);
@@ -51,7 +53,7 @@ async function main() {
   const filteredPartbreakRows = filterQuarzepsFallbackPartbreakRows(partbreakRows);
   const methods = [
     ...buildAcquisitionMethods(filteredPartbreakRows),
-    ...buildCarveMethods(carveRows),
+    ...buildCarveMethods(carveRows, monsterCarveLabels),
     ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
   ].sort(compareMethods);
 
@@ -83,6 +85,23 @@ async function main() {
 async function readJson(filePath) {
   const content = await readFile(filePath, 'utf8');
   return JSON.parse(content);
+}
+
+/**
+ * @template T
+ * @param {string} filePath
+ * @param {T} fallbackValue
+ * @returns {Promise<T>}
+ */
+async function readJsonOptional(filePath, fallbackValue) {
+  try {
+    return await readJson(filePath);
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      return fallbackValue;
+    }
+    throw error;
+  }
 }
 
 /**
@@ -343,10 +362,15 @@ function buildHardcoreCarveMethods(rows, items, monsterNamesById) {
 
 /**
  * @param {Record<string, string | number | null>[]} rows
+ * @param {Record<string, { primary?: Record<string, string>; secondary?: Record<string, string> }>} labelsByMonsterId
  * @returns {AcquisitionMethod[]}
  */
-function buildCarveMethods(rows) {
-  const methods = rows.map((row, index) => {
+function buildCarveMethods(rows, labelsByMonsterId) {
+  /** @type {AcquisitionMethod[]} */
+  const methods = [];
+  const seenMethodKeys = new Set();
+
+  for (const [index, row] of rows.entries()) {
     const monsterId = parseNumber(row.monster_id, `carve row ${index + 1} monster_id`);
     const monsterName = (row.monster_name || '').trim() || `Monster ${monsterId}`;
     const itemId = parseNumber(row.item_id, `carve row ${index + 1} item_id`);
@@ -361,10 +385,21 @@ function buildCarveMethods(rows) {
         ? null
         : parseNumber(rawNumCarves, `carve row ${index + 1} primary_num_carves`);
 
-    return {
+    const sourceLabel = formatCarveSourceLabel(
+      pathLabel,
+      recordIndex,
+      numCarves,
+      monsterId,
+      labelsByMonsterId
+    );
+    if (!sourceLabel) {
+      continue;
+    }
+
+    const method = {
       methodType: 'carve',
       rank,
-      sourceLabel: formatCarveSourceLabel(pathLabel, recordIndex, numCarves),
+      sourceLabel,
       chance,
       quantity: 1,
       monsterId,
@@ -372,7 +407,21 @@ function buildCarveMethods(rows) {
       itemId,
       itemName
     };
-  });
+    const methodKey = [
+      method.methodType,
+      method.rank,
+      method.sourceLabel,
+      method.monsterId,
+      method.itemId,
+      method.chance,
+      method.quantity
+    ].join('|');
+    if (seenMethodKeys.has(methodKey)) {
+      continue;
+    }
+    seenMethodKeys.add(methodKey);
+    methods.push(method);
+  }
 
   return methods.sort(compareMethods);
 }
@@ -381,12 +430,23 @@ function buildCarveMethods(rows) {
  * @param {string} pathLabel
  * @param {number} recordIndex
  * @param {number | null} numCarves
+ * @param {number} monsterId
+ * @param {Record<string, { primary?: Record<string, string>; secondary?: Record<string, string> }>} labelsByMonsterId
+ * @returns {string | null}
  */
-function formatCarveSourceLabel(pathLabel, recordIndex, numCarves) {
+function formatCarveSourceLabel(pathLabel, recordIndex, numCarves, monsterId, labelsByMonsterId) {
   const numCarvesSuffix =
     typeof numCarves === 'number' && Number.isFinite(numCarves) ? ` (${numCarves})` : '';
+  const monsterLabels = labelsByMonsterId[String(monsterId)] || {};
 
   if (pathLabel === 'primary') {
+    const manualPrimaryRaw = monsterLabels.primary?.[String(recordIndex)];
+    const manualPrimary = typeof manualPrimaryRaw === 'string' ? manualPrimaryRaw.trim() : '';
+    if (manualPrimary === '__ignore__') {
+      return null;
+    }
+    if (manualPrimary) return manualPrimary;
+
     if (recordIndex === 0) {
       return `Body Carves${numCarvesSuffix}`;
     }
@@ -394,6 +454,12 @@ function formatCarveSourceLabel(pathLabel, recordIndex, numCarves) {
   }
 
   if (pathLabel === 'secondary') {
+    const manualSecondaryRaw = monsterLabels.secondary?.[String(recordIndex)];
+    const manualSecondary = typeof manualSecondaryRaw === 'string' ? manualSecondaryRaw.trim() : '';
+    if (manualSecondary === '__ignore__') {
+      return null;
+    }
+    if (manualSecondary) return manualSecondary;
     return `Secondary Carve ${recordIndex}`;
   }
 
