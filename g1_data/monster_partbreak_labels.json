@@ -387,8 +387,8 @@
     "0x80": "Capture"
   },
   "106": {
-    "0x01": "Jaw",
-    "0x02": "Back",
+    "0x01": "Back",
+    "0x02": "Jaw",
     "0x03": "Left Claw",
     "0x04": "Right Claw"
   },

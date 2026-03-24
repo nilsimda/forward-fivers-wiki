@@ -464,23 +464,6 @@
     "monster_name": "Rathian",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 229,
-    "pdt_pointer": "0x00739310",
-    "drop_index_in_table": 1,
-    "entry_offset": "0x00739316",
-    "percentage": 75,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Head"
-  },
-  {
-    "mapping_index": 1,
-    "monster_id": 1,
-    "monster_name": "Rathian",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 409,
     "pdt_pointer": "0x0073A12C",
@@ -711,23 +694,6 @@
     "quantity": 2,
     "item_id": 711,
     "item_name": "Flying Coin",
-    "partbreak_type": "Wing"
-  },
-  {
-    "mapping_index": 2,
-    "monster_id": 1,
-    "monster_name": "Rathian",
-    "partbreak_type_raw": "0x02",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 230,
-    "pdt_pointer": "0x00739320",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x0073932C",
-    "percentage": 67,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Wing"
   },
   {
@@ -1935,23 +1901,6 @@
     "quantity": 2,
     "item_id": 710,
     "item_name": "Bird Coin",
-    "partbreak_type": "Head"
-  },
-  {
-    "mapping_index": 9,
-    "monster_id": 6,
-    "monster_name": "Yian Kut-Ku",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 237,
-    "pdt_pointer": "0x0073936C",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739378",
-    "percentage": 80,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Head"
   },
   {
@@ -4102,23 +4051,6 @@
     "monster_name": "Cephadrome",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 244,
-    "pdt_pointer": "0x00739408",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739414",
-    "percentage": 80,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Fin"
-  },
-  {
-    "mapping_index": 16,
-    "monster_id": 8,
-    "monster_name": "Cephadrome",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 424,
     "pdt_pointer": "0x0073A348",
@@ -5496,23 +5428,6 @@
     "monster_name": "Diablos",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 249,
-    "pdt_pointer": "0x00739460",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x0073946C",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Horn"
-  },
-  {
-    "mapping_index": 21,
-    "monster_id": 14,
-    "monster_name": "Diablos",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 429,
     "pdt_pointer": "0x0073A41C",
@@ -6117,23 +6032,6 @@
     "quantity": 2,
     "item_id": 711,
     "item_name": "Flying Coin",
-    "partbreak_type": "Body"
-  },
-  {
-    "mapping_index": 23,
-    "monster_id": 15,
-    "monster_name": "Khezu",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 251,
-    "pdt_pointer": "0x00739484",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739490",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Body"
   },
   {
@@ -7511,23 +7409,6 @@
     "quantity": 2,
     "item_id": 710,
     "item_name": "Bird Coin",
-    "partbreak_type": "Head"
-  },
-  {
-    "mapping_index": 27,
-    "monster_id": 20,
-    "monster_name": "Gypceros",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 255,
-    "pdt_pointer": "0x007394E0",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x007394EC",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Head"
   },
   {
@@ -10299,23 +10180,6 @@
     "quantity": 1,
     "item_id": 715,
     "item_name": "Dragon Coin",
-    "partbreak_type": "Horn"
-  },
-  {
-    "mapping_index": 37,
-    "monster_id": 33,
-    "monster_name": "Kirin",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 265,
-    "pdt_pointer": "0x00739598",
-    "drop_index_in_table": 1,
-    "entry_offset": "0x0073959E",
-    "percentage": 40,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Horn"
   },
   {
@@ -16325,23 +16189,6 @@
     "monster_name": "Black Diablos",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 290,
-    "pdt_pointer": "0x00739790",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x0073979C",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Horn"
-  },
-  {
-    "mapping_index": 62,
-    "monster_id": 43,
-    "monster_name": "Black Diablos",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 470,
     "pdt_pointer": "0x0073AAA0",
@@ -18977,23 +18824,6 @@
     "monster_name": "Daimyo Hermitaur",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 300,
-    "pdt_pointer": "0x00739840",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x0073984C",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Shell"
-  },
-  {
-    "mapping_index": 72,
-    "monster_id": 48,
-    "monster_name": "Daimyo Hermitaur",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 480,
     "pdt_pointer": "0x0073AC4C",
@@ -19258,23 +19088,6 @@
     "quantity": 2,
     "item_id": 714,
     "item_name": "Carapaceon Coin",
-    "partbreak_type": "Claws"
-  },
-  {
-    "mapping_index": 73,
-    "monster_id": 48,
-    "monster_name": "Daimyo Hermitaur",
-    "partbreak_type_raw": "0x02",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 301,
-    "pdt_pointer": "0x00739854",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739860",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Claws"
   },
   {
@@ -21986,23 +21799,6 @@
     "monster_name": "Blangonga",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 311,
-    "pdt_pointer": "0x00739928",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739934",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Head"
-  },
-  {
-    "mapping_index": 83,
-    "monster_id": 51,
-    "monster_name": "Blangonga",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 491,
     "pdt_pointer": "0x0073ADB8",
@@ -22284,23 +22080,6 @@
     "quantity": 2,
     "item_id": 713,
     "item_name": "Beast Coin",
-    "partbreak_type": "Tail"
-  },
-  {
-    "mapping_index": 84,
-    "monster_id": 51,
-    "monster_name": "Blangonga",
-    "partbreak_type_raw": "0x02",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 312,
-    "pdt_pointer": "0x0073993C",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739948",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Tail"
   },
   {
@@ -22938,23 +22717,6 @@
     "monster_name": "Congalala",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 314,
-    "pdt_pointer": "0x00739960",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x0073996C",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Head"
-  },
-  {
-    "mapping_index": 86,
-    "monster_id": 52,
-    "monster_name": "Congalala",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 494,
     "pdt_pointer": "0x0073AE3C",
@@ -23219,23 +22981,6 @@
     "quantity": 2,
     "item_id": 713,
     "item_name": "Beast Coin",
-    "partbreak_type": "Claws"
-  },
-  {
-    "mapping_index": 87,
-    "monster_id": 52,
-    "monster_name": "Congalala",
-    "partbreak_type_raw": "0x02",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 315,
-    "pdt_pointer": "0x00739974",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739980",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Claws"
   },
   {
@@ -27562,23 +27307,6 @@
     "monster_name": "Shogun Ceanataur",
     "partbreak_type_raw": "0x01",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 332,
-    "pdt_pointer": "0x00739AA4",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739AB0",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Shell (Crab)"
-  },
-  {
-    "mapping_index": 104,
-    "monster_id": 67,
-    "monster_name": "Shogun Ceanataur",
-    "partbreak_type_raw": "0x01",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 512,
     "pdt_pointer": "0x0073B12C",
@@ -27851,23 +27579,6 @@
     "monster_name": "Shogun Ceanataur",
     "partbreak_type_raw": "0x02",
     "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 333,
-    "pdt_pointer": "0x00739AB8",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739AC4",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Shell (Seashell)"
-  },
-  {
-    "mapping_index": 105,
-    "monster_id": 67,
-    "monster_name": "Shogun Ceanataur",
-    "partbreak_type_raw": "0x02",
-    "drop_mode": "part_break",
     "rank": "hr100",
     "pdt_index": 513,
     "pdt_pointer": "0x0073B158",
@@ -28132,23 +27843,6 @@
     "quantity": 2,
     "item_id": 714,
     "item_name": "Carapaceon Coin",
-    "partbreak_type": "Shell (Skull)"
-  },
-  {
-    "mapping_index": 106,
-    "monster_id": 67,
-    "monster_name": "Shogun Ceanataur",
-    "partbreak_type_raw": "0x03",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 334,
-    "pdt_pointer": "0x00739ACC",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739AD8",
-    "percentage": 55,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Shell (Skull)"
   },
   {
@@ -28438,23 +28132,6 @@
     "quantity": 2,
     "item_id": 714,
     "item_name": "Carapaceon Coin",
-    "partbreak_type": "Claws"
-  },
-  {
-    "mapping_index": 107,
-    "monster_id": 67,
-    "monster_name": "Shogun Ceanataur",
-    "partbreak_type_raw": "0x04",
-    "drop_mode": "part_break",
-    "rank": "arena",
-    "pdt_index": 335,
-    "pdt_pointer": "0x00739AE0",
-    "drop_index_in_table": 2,
-    "entry_offset": "0x00739AEC",
-    "percentage": 60,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Claws"
   },
   {
@@ -43559,40 +43236,6 @@
     "monster_name": "Pariapuria",
     "partbreak_type_raw": "0x04",
     "drop_mode": "part_break",
-    "rank": "hr",
-    "pdt_index": 661,
-    "pdt_pointer": "0x0073BF08",
-    "drop_index_in_table": 6,
-    "entry_offset": "0x0073BF2C",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 1x Vomit"
-  },
-  {
-    "mapping_index": 169,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x04",
-    "drop_mode": "part_break",
-    "rank": "hr",
-    "pdt_index": 661,
-    "pdt_pointer": "0x0073BF08",
-    "drop_index_in_table": 7,
-    "entry_offset": "0x0073BF32",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 1x Vomit"
-  },
-  {
-    "mapping_index": 169,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x04",
-    "drop_mode": "part_break",
     "rank": "arena",
     "pdt_index": 665,
     "pdt_pointer": "0x0073BFD8",
@@ -43755,40 +43398,6 @@
     "quantity": 1,
     "item_id": 605,
     "item_name": "Lost Umbrella",
-    "partbreak_type": "Additional reward: 1x Vomit"
-  },
-  {
-    "mapping_index": 169,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x04",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 669,
-    "pdt_pointer": "0x0073C048",
-    "drop_index_in_table": 6,
-    "entry_offset": "0x0073C06C",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 1x Vomit"
-  },
-  {
-    "mapping_index": 169,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x04",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 669,
-    "pdt_pointer": "0x0073C048",
-    "drop_index_in_table": 7,
-    "entry_offset": "0x0073C072",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Additional reward: 1x Vomit"
   },
   {
@@ -44574,40 +44183,6 @@
     "partbreak_type": "Additional reward: 3x Vomit"
   },
   {
-    "mapping_index": 171,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x06",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 671,
-    "pdt_pointer": "0x0073C0B0",
-    "drop_index_in_table": 6,
-    "entry_offset": "0x0073C0D4",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 3x Vomit"
-  },
-  {
-    "mapping_index": 171,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x06",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 671,
-    "pdt_pointer": "0x0073C0B0",
-    "drop_index_in_table": 7,
-    "entry_offset": "0x0073C0DA",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 3x Vomit"
-  },
-  {
     "mapping_index": 172,
     "monster_id": 89,
     "monster_name": "Pariapuria",
@@ -44979,40 +44554,6 @@
     "quantity": 1,
     "item_id": 394,
     "item_name": "Rathian Plate",
-    "partbreak_type": "Additional reward: 4x Vomit"
-  },
-  {
-    "mapping_index": 172,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x07",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 672,
-    "pdt_pointer": "0x0073C0E4",
-    "drop_index_in_table": 6,
-    "entry_offset": "0x0073C108",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
-    "partbreak_type": "Additional reward: 4x Vomit"
-  },
-  {
-    "mapping_index": 172,
-    "monster_id": 89,
-    "monster_name": "Pariapuria",
-    "partbreak_type_raw": "0x07",
-    "drop_mode": "part_break",
-    "rank": "hr100",
-    "pdt_index": 672,
-    "pdt_pointer": "0x0073C0E4",
-    "drop_index_in_table": 7,
-    "entry_offset": "0x0073C10E",
-    "percentage": 0,
-    "quantity": 1,
-    "item_id": 0,
-    "item_name": "−−−−−−",
     "partbreak_type": "Additional reward: 4x Vomit"
   },
   {
@@ -66552,7 +66093,7 @@
     "quantity": 1,
     "item_id": 3537,
     "item_name": "Grenzebul Scale",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66569,7 +66110,7 @@
     "quantity": 1,
     "item_id": 3543,
     "item_name": "Grenzebul Spike",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66586,7 +66127,7 @@
     "quantity": 1,
     "item_id": 3537,
     "item_name": "Grenzebul Scale",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66603,7 +66144,7 @@
     "quantity": 1,
     "item_id": 3543,
     "item_name": "Grenzebul Spike",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66620,7 +66161,7 @@
     "quantity": 1,
     "item_id": 28,
     "item_name": "Ancient Potion",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66637,7 +66178,7 @@
     "quantity": 1,
     "item_id": 27,
     "item_name": "Max Potion",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66654,7 +66195,7 @@
     "quantity": 1,
     "item_id": 7,
     "item_name": "Potion",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66671,7 +66212,7 @@
     "quantity": 1,
     "item_id": 215,
     "item_name": "Stone",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66688,7 +66229,7 @@
     "quantity": 1,
     "item_id": 6140,
     "item_name": "Odiba Shell",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 250,
@@ -66705,7 +66246,7 @@
     "quantity": 1,
     "item_id": 6143,
     "item_name": "Odiba Ragehorn",
-    "partbreak_type": "Jaw"
+    "partbreak_type": "Back"
   },
   {
     "mapping_index": 251,
@@ -66722,7 +66263,7 @@
     "quantity": 1,
     "item_id": 3537,
     "item_name": "Grenzebul Scale",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66739,7 +66280,7 @@
     "quantity": 1,
     "item_id": 3540,
     "item_name": "Grenzebul Horn",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66756,7 +66297,7 @@
     "quantity": 1,
     "item_id": 3537,
     "item_name": "Grenzebul Scale",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66773,7 +66314,7 @@
     "quantity": 1,
     "item_id": 3540,
     "item_name": "Grenzebul Horn",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66790,7 +66331,7 @@
     "quantity": 1,
     "item_id": 28,
     "item_name": "Ancient Potion",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66807,7 +66348,7 @@
     "quantity": 1,
     "item_id": 312,
     "item_name": "Monster Bone S",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66824,7 +66365,7 @@
     "quantity": 1,
     "item_id": 7,
     "item_name": "Potion",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66841,7 +66382,7 @@
     "quantity": 1,
     "item_id": 215,
     "item_name": "Stone",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66858,7 +66399,7 @@
     "quantity": 1,
     "item_id": 6140,
     "item_name": "Odiba Shell",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 251,
@@ -66875,7 +66416,7 @@
     "quantity": 1,
     "item_id": 6142,
     "item_name": "Odiba Greatjaw",
-    "partbreak_type": "Back"
+    "partbreak_type": "Jaw"
   },
   {
     "mapping_index": 252,

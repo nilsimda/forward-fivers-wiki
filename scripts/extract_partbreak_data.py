@@ -5,9 +5,11 @@ from pathlib import Path
 
 from extract_common import (
     REPO_ROOT,
+    default_wiki_hidden_item_ids_path,
     load_item_names,
     load_monster_names,
     load_optional_json_object,
+    load_wiki_hidden_item_ids,
     read_u16,
     read_u32,
     write_json_output,
@@ -70,6 +72,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=ITEMS_SOURCE_DEFAULT,
         help="Path to generated _items-source.json (for item names).",
+    )
+    parser.add_argument(
+        "--wiki-hidden-item-ids",
+        type=Path,
+        default=None,
+        help="JSON with itemIds to omit from drops (default: sibling of --items-source).",
     )
     parser.add_argument(
         "--monster-names-json",
@@ -191,6 +199,7 @@ def flatten_rows(
     drop_tables: dict[int, list[dict[str, int]]],
     item_names_by_id: dict[int, str],
     monster_names_by_id: dict[int, str],
+    wiki_hidden_item_ids: frozenset[int],
 ) -> list[dict[str, int | str]]:
     rows: list[dict[str, int | str]] = []
     for mapping in mappings:
@@ -217,6 +226,8 @@ def flatten_rows(
             drops = drop_tables[pdt_index]
             for drop in drops:
                 item_id = int(drop["item_id"])
+                if item_id in wiki_hidden_item_ids:
+                    continue
                 rows.append(
                     {
                         "mapping_index": mapping["mapping_index"],
@@ -352,6 +363,8 @@ def main() -> None:
     item_names_by_id = load_item_names(args.items_source)
     monster_names_by_id = load_monster_names(args.monster_names_json)
     partbreak_labels = load_optional_json_object(args.monster_partbreak_labels)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
 
     rows = flatten_rows(
         mappings=mappings,
@@ -359,6 +372,7 @@ def main() -> None:
         drop_tables=drop_tables,
         item_names_by_id=item_names_by_id,
         monster_names_by_id=monster_names_by_id,
+        wiki_hidden_item_ids=wiki_hidden_item_ids,
     )
     rows = filter_quarzeps_fallback_partbreak_rows(rows)
     rows = apply_partbreak_display_labels(rows, partbreak_labels)

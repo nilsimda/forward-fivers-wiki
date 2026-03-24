@@ -9,6 +9,8 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+WIKI_HIDDEN_ITEM_IDS_FILENAME = "_wiki-hidden-item-ids.json"
+
 U16_FMT = "<H"
 U32_FMT = "<I"
 
@@ -27,6 +29,34 @@ def read_u16(raw: bytes, offset: int, label: str) -> int:
         raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
     (value,) = struct.unpack_from(U16_FMT, raw, offset)
     return value
+
+
+def is_dummy_placeholder_description(description_plain: str) -> bool:
+    """True when the item's plain description is the game's placeholder (wiki-hidden)."""
+    return str(description_plain or "").strip().casefold() == "dummy"
+
+
+def default_wiki_hidden_item_ids_path(items_source: Path) -> Path:
+    return items_source.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
+
+
+def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
+    if not path.exists():
+        return frozenset()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected JSON object in {path}")
+    raw_ids = data.get("itemIds")
+    if raw_ids is None:
+        return frozenset()
+    if not isinstance(raw_ids, list):
+        raise ValueError(f'Expected "itemIds" list in {path}')
+    out: set[int] = set()
+    for x in raw_ids:
+        if not isinstance(x, int):
+            raise ValueError(f'Expected integer entries in "itemIds" in {path}')
+        out.add(x)
+    return frozenset(out)
 
 
 def load_item_names(items_source_path: Path) -> dict[int, str]:

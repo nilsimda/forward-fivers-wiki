@@ -45,13 +45,16 @@ async function main() {
   ]);
 
   const items = buildItems(itemRows);
+  const validItemIds = new Set(items.map((item) => item.id));
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
   const methods = dedupePooledDropMethods(
     [
       ...buildAcquisitionMethods(partbreakRows),
       ...buildCarveMethods(carveRows),
       ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
-    ].sort(compareMethods)
+    ]
+      .filter((method) => validItemIds.has(method.itemId))
+      .sort(compareMethods)
   );
 
   validateMethods(methods, items);

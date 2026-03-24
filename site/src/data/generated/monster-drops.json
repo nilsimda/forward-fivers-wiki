@@ -2,7 +2,7 @@
   {
     "monsterId": 1,
     "monsterLabel": "Rathian",
-    "totalEntries": 125,
+    "totalEntries": 123,
     "dropModes": [
       "capture",
       "part_break",
@@ -573,32 +573,10 @@
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 75,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Rathian",
-        "monsterName": "Rathian",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 25,
         "quantity": 1,
         "itemId": 711,
         "itemName": "Flying Coin"
-      },
-      {
-        "sourceLabel": "Rathian",
-        "monsterName": "Rathian",
-        "partbreakType": "Wing",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 67,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Rathian",
@@ -2719,7 +2697,7 @@
   {
     "monsterId": 6,
     "monsterLabel": "Yian Kut-Ku",
-    "totalEntries": 95,
+    "totalEntries": 94,
     "dropModes": [
       "capture",
       "part_break",
@@ -3140,17 +3118,6 @@
         "quantity": 2,
         "itemId": 710,
         "itemName": "Bird Coin"
-      },
-      {
-        "sourceLabel": "Yian Kut-Ku",
-        "monsterName": "Yian Kut-Ku",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 80,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Yian Kut-Ku",
@@ -5209,7 +5176,7 @@
   {
     "monsterId": 8,
     "monsterLabel": "Cephadrome",
-    "totalEntries": 69,
+    "totalEntries": 68,
     "dropModes": [
       "capture",
       "part_break",
@@ -5551,17 +5518,6 @@
         "quantity": 2,
         "itemId": 712,
         "itemName": "Piscine Coin"
-      },
-      {
-        "sourceLabel": "Cephadrome",
-        "monsterName": "Cephadrome",
-        "partbreakType": "Fin",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 80,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Cephadrome",
@@ -8146,7 +8102,7 @@
   {
     "monsterId": 14,
     "monsterLabel": "Diablos",
-    "totalEntries": 74,
+    "totalEntries": 73,
     "dropModes": [
       "capture",
       "part_break",
@@ -8500,17 +8456,6 @@
         "quantity": 2,
         "itemId": 711,
         "itemName": "Flying Coin"
-      },
-      {
-        "sourceLabel": "Diablos",
-        "monsterName": "Diablos",
-        "partbreakType": "Horn",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Diablos",
@@ -8979,7 +8924,7 @@
   {
     "monsterId": 15,
     "monsterLabel": "Khezu",
-    "totalEntries": 84,
+    "totalEntries": 83,
     "dropModes": [
       "capture",
       "part_break",
@@ -9334,17 +9279,6 @@
         "quantity": 2,
         "itemId": 711,
         "itemName": "Flying Coin"
-      },
-      {
-        "sourceLabel": "Khezu",
-        "monsterName": "Khezu",
-        "partbreakType": "Body",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Khezu",
@@ -11671,7 +11605,7 @@
   {
     "monsterId": 20,
     "monsterLabel": "Gypceros",
-    "totalEntries": 109,
+    "totalEntries": 108,
     "dropModes": [
       "capture",
       "part_break",
@@ -12125,17 +12059,6 @@
         "quantity": 2,
         "itemId": 710,
         "itemName": "Bird Coin"
-      },
-      {
-        "sourceLabel": "Gypceros",
-        "monsterName": "Gypceros",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Gypceros",
@@ -18436,7 +18359,7 @@
   {
     "monsterId": 33,
     "monsterLabel": "Kirin",
-    "totalEntries": 41,
+    "totalEntries": 40,
     "dropModes": [
       "part_break",
       "hardcore_carve",
@@ -18657,17 +18580,6 @@
         "quantity": 1,
         "itemId": 715,
         "itemName": "Dragon Coin"
-      },
-      {
-        "sourceLabel": "Kirin",
-        "monsterName": "Kirin",
-        "partbreakType": "Horn",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 40,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Body Carves (2)",
@@ -26768,7 +26680,7 @@
   {
     "monsterId": 43,
     "monsterLabel": "Black Diablos",
-    "totalEntries": 76,
+    "totalEntries": 75,
     "dropModes": [
       "capture",
       "part_break",
@@ -27166,17 +27078,6 @@
         "quantity": 2,
         "itemId": 711,
         "itemName": "Flying Coin"
-      },
-      {
-        "sourceLabel": "Black Diablos",
-        "monsterName": "Black Diablos",
-        "partbreakType": "Horn",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Black Diablos",
@@ -30710,7 +30611,7 @@
   {
     "monsterId": 48,
     "monsterLabel": "Daimyo Hermitaur",
-    "totalEntries": 106,
+    "totalEntries": 104,
     "dropModes": [
       "capture",
       "part_break",
@@ -31138,17 +31039,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Daimyo Hermitaur",
-        "monsterName": "Daimyo Hermitaur",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 30,
         "quantity": 1,
         "itemId": 714,
@@ -31164,17 +31054,6 @@
         "quantity": 2,
         "itemId": 714,
         "itemName": "Carapaceon Coin"
-      },
-      {
-        "sourceLabel": "Daimyo Hermitaur",
-        "monsterName": "Daimyo Hermitaur",
-        "partbreakType": "Shell",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Daimyo Hermitaur",
@@ -34374,7 +34253,7 @@
   {
     "monsterId": 51,
     "monsterLabel": "Blangonga",
-    "totalEntries": 103,
+    "totalEntries": 101,
     "dropModes": [
       "capture",
       "part_break",
@@ -34769,17 +34648,6 @@
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Blangonga",
-        "monsterName": "Blangonga",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 35,
         "quantity": 1,
         "itemId": 713,
@@ -34795,17 +34663,6 @@
         "quantity": 2,
         "itemId": 713,
         "itemName": "Beast Coin"
-      },
-      {
-        "sourceLabel": "Blangonga",
-        "monsterName": "Blangonga",
-        "partbreakType": "Tail",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Blangonga",
@@ -35527,7 +35384,7 @@
   {
     "monsterId": 52,
     "monsterLabel": "Congalala",
-    "totalEntries": 139,
+    "totalEntries": 137,
     "dropModes": [
       "capture",
       "part_break",
@@ -36065,17 +35922,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Congalala",
-        "monsterName": "Congalala",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 35,
         "quantity": 1,
         "itemId": 713,
@@ -36091,17 +35937,6 @@
         "quantity": 2,
         "itemId": 713,
         "itemName": "Beast Coin"
-      },
-      {
-        "sourceLabel": "Congalala",
-        "monsterName": "Congalala",
-        "partbreakType": "Head",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Congalala",
@@ -45175,7 +45010,7 @@
   {
     "monsterId": 67,
     "monsterLabel": "Shogun Ceanataur",
-    "totalEntries": 136,
+    "totalEntries": 132,
     "dropModes": [
       "capture",
       "part_break",
@@ -45669,17 +45504,6 @@
         "partbreakType": "Claws",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 60,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Shogun Ceanataur",
-        "monsterName": "Shogun Ceanataur",
-        "partbreakType": "Claws",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 30,
         "quantity": 1,
         "itemId": 714,
@@ -45702,17 +45526,6 @@
         "partbreakType": "Shell (Crab)",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Shogun Ceanataur",
-        "monsterName": "Shogun Ceanataur",
-        "partbreakType": "Shell (Crab)",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 35,
         "quantity": 1,
         "itemId": 714,
@@ -45735,17 +45548,6 @@
         "partbreakType": "Shell (Seashell)",
         "dropMode": "part_break",
         "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Shogun Ceanataur",
-        "monsterName": "Shogun Ceanataur",
-        "partbreakType": "Shell (Seashell)",
-        "dropMode": "part_break",
-        "rank": "arena",
         "percentage": 35,
         "quantity": 1,
         "itemId": 714,
@@ -45761,17 +45563,6 @@
         "quantity": 2,
         "itemId": 714,
         "itemName": "Carapaceon Coin"
-      },
-      {
-        "sourceLabel": "Shogun Ceanataur",
-        "monsterName": "Shogun Ceanataur",
-        "partbreakType": "Shell (Skull)",
-        "dropMode": "part_break",
-        "rank": "arena",
-        "percentage": 55,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Shogun Ceanataur",
@@ -63788,7 +63579,7 @@
   {
     "monsterId": 89,
     "monsterLabel": "Pariapuria",
-    "totalEntries": 217,
+    "totalEntries": 213,
     "dropModes": [
       "capture",
       "part_break",
@@ -64297,17 +64088,6 @@
         "quantity": 1,
         "itemId": 1659,
         "itemName": "Prickly Eel"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 1x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Pariapuria",
@@ -65313,17 +65093,6 @@
       {
         "sourceLabel": "Pariapuria",
         "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 1x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
         "partbreakType": "Additional reward: 2x Vomit",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -65478,17 +65247,6 @@
       {
         "sourceLabel": "Pariapuria",
         "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 3x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
         "partbreakType": "Additional reward: 4x Vomit",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -65551,17 +65309,6 @@
         "quantity": 1,
         "itemId": 394,
         "itemName": "Rathian Plate"
-      },
-      {
-        "sourceLabel": "Pariapuria",
-        "monsterName": "Pariapuria",
-        "partbreakType": "Additional reward: 4x Vomit",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 0,
-        "quantity": 1,
-        "itemId": 0,
-        "itemName": "−−−−−−"
       },
       {
         "sourceLabel": "Pariapuria",
@@ -85384,28 +85131,6 @@
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
-        "percentage": 80,
-        "quantity": 1,
-        "itemId": 3537,
-        "itemName": "Grenzebul Scale"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 3540,
-        "itemName": "Grenzebul Horn"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
-        "dropMode": "part_break",
-        "rank": "lr",
         "percentage": 75,
         "quantity": 1,
         "itemId": 3537,
@@ -85414,7 +85139,7 @@
       {
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
+        "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
         "percentage": 25,
@@ -85425,6 +85150,28 @@
       {
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "lr",
+        "percentage": 80,
+        "quantity": 1,
+        "itemId": 3537,
+        "itemName": "Grenzebul Scale"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "lr",
+        "percentage": 20,
+        "quantity": 1,
+        "itemId": 3540,
+        "itemName": "Grenzebul Horn"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
         "partbreakType": "Left Claw",
         "dropMode": "part_break",
         "rank": "lr",
@@ -85492,28 +85239,6 @@
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
         "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 80,
-        "quantity": 1,
-        "itemId": 3537,
-        "itemName": "Grenzebul Scale"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 3540,
-        "itemName": "Grenzebul Horn"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "hr",
         "percentage": 75,
@@ -85524,7 +85249,7 @@
       {
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
+        "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
         "percentage": 25,
@@ -85535,6 +85260,28 @@
       {
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "hr",
+        "percentage": 80,
+        "quantity": 1,
+        "itemId": 3537,
+        "itemName": "Grenzebul Scale"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "hr",
+        "percentage": 20,
+        "quantity": 1,
+        "itemId": 3540,
+        "itemName": "Grenzebul Horn"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
         "partbreakType": "Left Claw",
         "dropMode": "part_break",
         "rank": "hr",
@@ -85628,8 +85375,8 @@
         "rank": "arena",
         "percentage": 20,
         "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
+        "itemId": 27,
+        "itemName": "Max Potion"
       },
       {
         "sourceLabel": "Odibataurus",
@@ -85672,8 +85419,8 @@
         "rank": "arena",
         "percentage": 20,
         "quantity": 1,
-        "itemId": 27,
-        "itemName": "Max Potion"
+        "itemId": 312,
+        "itemName": "Monster Bone S"
       },
       {
         "sourceLabel": "Odibataurus",
@@ -85866,28 +85613,6 @@
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
         "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 64,
-        "quantity": 1,
-        "itemId": 6140,
-        "itemName": "Odiba Shell"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Back",
-        "dropMode": "part_break",
-        "rank": "hr100",
-        "percentage": 36,
-        "quantity": 1,
-        "itemId": 6142,
-        "itemName": "Odiba Greatjaw"
-      },
-      {
-        "sourceLabel": "Odibataurus",
-        "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
         "dropMode": "part_break",
         "rank": "hr100",
         "percentage": 68,
@@ -85898,13 +85623,35 @@
       {
         "sourceLabel": "Odibataurus",
         "monsterName": "Odibataurus",
-        "partbreakType": "Jaw",
+        "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
         "percentage": 32,
         "quantity": 1,
         "itemId": 6143,
         "itemName": "Odiba Ragehorn"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "hr100",
+        "percentage": 64,
+        "quantity": 1,
+        "itemId": 6140,
+        "itemName": "Odiba Shell"
+      },
+      {
+        "sourceLabel": "Odibataurus",
+        "monsterName": "Odibataurus",
+        "partbreakType": "Jaw",
+        "dropMode": "part_break",
+        "rank": "hr100",
+        "percentage": 36,
+        "quantity": 1,
+        "itemId": 6142,
+        "itemName": "Odiba Greatjaw"
       },
       {
         "sourceLabel": "Odibataurus",

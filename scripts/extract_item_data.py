@@ -4,7 +4,14 @@ import re
 import struct
 from pathlib import Path
 
-from extract_common import REPO_ROOT, read_u16, read_u32, write_json_output
+from extract_common import (
+    REPO_ROOT,
+    WIKI_HIDDEN_ITEM_IDS_FILENAME,
+    is_dummy_placeholder_description,
+    read_u16,
+    read_u32,
+    write_json_output,
+)
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
@@ -180,11 +187,22 @@ def extract_items(
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
-    rows, item_count, items_base, names_base, desc_base = extract_items(raw)
+    rows, _, _, _, _ = extract_items(raw)
 
-    write_json_output(args.output, rows)
+    hidden_ids = {
+        int(r["item_index"])
+        for r in rows
+        if is_dummy_placeholder_description(str(r.get("descriptionPlain", "")))
+    }
+    kept = [r for r in rows if int(r["item_index"]) not in hidden_ids]
 
-    print(f"Extracted {item_count} items")
+    hidden_path = args.output.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
+    write_json_output(hidden_path, {"itemIds": sorted(hidden_ids)})
+    write_json_output(args.output, kept)
+
+    print(
+        f"Extracted {len(kept)} items into wiki source ({len(hidden_ids)} dummy-description rows hidden)"
+    )
 
 if __name__ == "__main__":
     main()

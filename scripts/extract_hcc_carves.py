@@ -3,13 +3,21 @@ import argparse
 import struct
 from pathlib import Path
 
-from extract_common import REPO_ROOT, read_u32, write_json_output
+from extract_common import (
+    REPO_ROOT,
+    default_wiki_hidden_item_ids_path,
+    load_wiki_hidden_item_ids,
+    read_u32,
+    write_json_output,
+)
 
 POINTER_ADDRESS = 0x0000034C
 RECORD_FMT = "<HHHHH"
 RECORD_SIZE = struct.calcsize(RECORD_FMT)
 TERMINATOR = b"\xFF\xFF"
 FIELDS = ["monster_id", "lr_item_id", "hr_item_id", "hr100_item_id", "gr_item_id"]
+ITEM_ID_COLUMNS = ["lr_item_id", "hr_item_id", "hr100_item_id", "gr_item_id"]
+ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
 
 
 def parse_args() -> argparse.Namespace:
@@ -27,6 +35,18 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=REPO_ROOT / "site" / "src" / "data" / "generated" / "_hcc-carves-source.json",
         help="Output JSON path consumed by site/scripts/build-data.mjs.",
+    )
+    parser.add_argument(
+        "--wiki-hidden-item-ids",
+        type=Path,
+        default=None,
+        help="JSON with itemIds to strip from HCC slots (default: sibling of items source).",
+    )
+    parser.add_argument(
+        "--items-source",
+        type=Path,
+        default=ITEMS_SOURCE_DEFAULT,
+        help="Used only to locate default --wiki-hidden-item-ids path.",
     )
     return parser.parse_args()
 
@@ -62,10 +82,26 @@ def decode_records(blob: bytes) -> list[dict[str, int]]:
     return records
 
 
+def scrub_wiki_hidden_item_slots(
+    records: list[dict[str, int]], hidden: frozenset[int]
+) -> list[dict[str, int | None]]:
+    out: list[dict[str, int | None]] = []
+    for rec in records:
+        row: dict[str, int | None] = {"monster_id": int(rec["monster_id"])}
+        for col in ITEM_ID_COLUMNS:
+            vid = int(rec[col])
+            row[col] = None if vid in hidden else vid
+        out.append(row)
+    return out
+
+
 def main() -> None:
     args = parse_args()
     blob = read_hcc_blob(args.input)
     records = decode_records(blob)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    hidden = load_wiki_hidden_item_ids(hidden_path)
+    records = scrub_wiki_hidden_item_slots(records, hidden)
 
     write_json_output(args.output, records)
 

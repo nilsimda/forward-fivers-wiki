@@ -1,286 +1,4 @@
 {
-  "0": {
-    "itemId": 0,
-    "itemName": "−−−−−−",
-    "methods": [
-      {
-        "methodType": "part_break",
-        "rank": "hr",
-        "sourceLabel": "Pariapuria",
-        "chance": 0,
-        "quantity": 1,
-        "monsterId": 89,
-        "monsterName": "Pariapuria",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Additional reward: 1x Vomit"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Black Diablos",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 43,
-        "monsterName": "Black Diablos",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Horn"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Blangonga",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 51,
-        "monsterName": "Blangonga",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Head"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Blangonga",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 51,
-        "monsterName": "Blangonga",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Tail"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Cephadrome",
-        "chance": 80,
-        "quantity": 1,
-        "monsterId": 8,
-        "monsterName": "Cephadrome",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Fin"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Congalala",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 52,
-        "monsterName": "Congalala",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Congalala",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 52,
-        "monsterName": "Congalala",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Head"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Daimyo Hermitaur",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 48,
-        "monsterName": "Daimyo Hermitaur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Daimyo Hermitaur",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 48,
-        "monsterName": "Daimyo Hermitaur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Shell"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Diablos",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 14,
-        "monsterName": "Diablos",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Horn"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Gypceros",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 20,
-        "monsterName": "Gypceros",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Head"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Khezu",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 15,
-        "monsterName": "Khezu",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Body"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Kirin",
-        "chance": 40,
-        "quantity": 1,
-        "monsterId": 33,
-        "monsterName": "Kirin",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Horn"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Rathian",
-        "chance": 75,
-        "quantity": 1,
-        "monsterId": 1,
-        "monsterName": "Rathian",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Head"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Rathian",
-        "chance": 67,
-        "quantity": 1,
-        "monsterId": 1,
-        "monsterName": "Rathian",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Wing"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Shogun Ceanataur",
-        "chance": 60,
-        "quantity": 1,
-        "monsterId": 67,
-        "monsterName": "Shogun Ceanataur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Claws"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Shogun Ceanataur",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 67,
-        "monsterName": "Shogun Ceanataur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Shell (Crab)"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Shogun Ceanataur",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 67,
-        "monsterName": "Shogun Ceanataur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Shell (Seashell)"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Shogun Ceanataur",
-        "chance": 55,
-        "quantity": 1,
-        "monsterId": 67,
-        "monsterName": "Shogun Ceanataur",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Shell (Skull)"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "arena",
-        "sourceLabel": "Yian Kut-Ku",
-        "chance": 80,
-        "quantity": 1,
-        "monsterId": 6,
-        "monsterName": "Yian Kut-Ku",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Head"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "hr100",
-        "sourceLabel": "Pariapuria",
-        "chance": 0,
-        "quantity": 1,
-        "monsterId": 89,
-        "monsterName": "Pariapuria",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Additional reward: 1x Vomit"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "hr100",
-        "sourceLabel": "Pariapuria",
-        "chance": 0,
-        "quantity": 1,
-        "monsterId": 89,
-        "monsterName": "Pariapuria",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Additional reward: 3x Vomit"
-      },
-      {
-        "methodType": "part_break",
-        "rank": "hr100",
-        "sourceLabel": "Pariapuria",
-        "chance": 0,
-        "quantity": 1,
-        "monsterId": 89,
-        "monsterName": "Pariapuria",
-        "itemId": 0,
-        "itemName": "−−−−−−",
-        "partbreakType": "Additional reward: 4x Vomit"
-      }
-    ]
-  },
   "7": {
     "itemId": 7,
     "itemName": "Potion",
@@ -4382,7 +4100,7 @@
         "monsterName": "Odibataurus",
         "itemId": 27,
         "itemName": "Max Potion",
-        "partbreakType": "Jaw"
+        "partbreakType": "Back"
       },
       {
         "methodType": "part_break",
@@ -17159,7 +16877,7 @@
         "monsterName": "Odibataurus",
         "itemId": 312,
         "itemName": "Monster Bone S",
-        "partbreakType": "Back"
+        "partbreakType": "Jaw"
       },
       {
         "methodType": "carve",
@@ -82296,7 +82014,7 @@
         "methodType": "part_break",
         "rank": "lr",
         "sourceLabel": "Odibataurus",
-        "chance": 80,
+        "chance": 75,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -82308,7 +82026,7 @@
         "methodType": "part_break",
         "rank": "lr",
         "sourceLabel": "Odibataurus",
-        "chance": 75,
+        "chance": 80,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -82402,7 +82120,7 @@
         "methodType": "part_break",
         "rank": "hr",
         "sourceLabel": "Odibataurus",
-        "chance": 80,
+        "chance": 75,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -82414,7 +82132,7 @@
         "methodType": "part_break",
         "rank": "hr",
         "sourceLabel": "Odibataurus",
-        "chance": 75,
+        "chance": 80,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -82696,7 +82414,7 @@
         "monsterName": "Odibataurus",
         "itemId": 3540,
         "itemName": "Grenzebul Horn",
-        "partbreakType": "Back"
+        "partbreakType": "Jaw"
       },
       {
         "methodType": "part_break",
@@ -82720,7 +82438,7 @@
         "monsterName": "Odibataurus",
         "itemId": 3540,
         "itemName": "Grenzebul Horn",
-        "partbreakType": "Back"
+        "partbreakType": "Jaw"
       }
     ]
   },
@@ -82892,7 +82610,7 @@
         "monsterName": "Odibataurus",
         "itemId": 3543,
         "itemName": "Grenzebul Spike",
-        "partbreakType": "Jaw"
+        "partbreakType": "Back"
       },
       {
         "methodType": "part_break",
@@ -82928,7 +82646,7 @@
         "monsterName": "Odibataurus",
         "itemId": 3543,
         "itemName": "Grenzebul Spike",
-        "partbreakType": "Jaw"
+        "partbreakType": "Back"
       }
     ]
   },
@@ -90598,7 +90316,7 @@
         "methodType": "part_break",
         "rank": "hr100",
         "sourceLabel": "Odibataurus",
-        "chance": 64,
+        "chance": 68,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -90610,7 +90328,7 @@
         "methodType": "part_break",
         "rank": "hr100",
         "sourceLabel": "Odibataurus",
-        "chance": 68,
+        "chance": 64,
         "quantity": 1,
         "monsterId": 106,
         "monsterName": "Odibataurus",
@@ -90732,7 +90450,7 @@
         "monsterName": "Odibataurus",
         "itemId": 6142,
         "itemName": "Odiba Greatjaw",
-        "partbreakType": "Back"
+        "partbreakType": "Jaw"
       },
       {
         "methodType": "carve",
@@ -90761,7 +90479,7 @@
         "monsterName": "Odibataurus",
         "itemId": 6143,
         "itemName": "Odiba Ragehorn",
-        "partbreakType": "Jaw"
+        "partbreakType": "Back"
       }
     ]
   },

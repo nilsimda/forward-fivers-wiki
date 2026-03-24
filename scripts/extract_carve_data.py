@@ -5,9 +5,11 @@ from pathlib import Path
 
 from extract_common import (
     REPO_ROOT,
+    default_wiki_hidden_item_ids_path,
     load_item_names,
     load_monster_names,
     load_optional_json_object,
+    load_wiki_hidden_item_ids,
     read_u16,
     read_u32,
     write_json_output,
@@ -65,6 +67,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=ITEMS_SOURCE_DEFAULT,
         help="Path to generated _items-source.json (for item names).",
+    )
+    parser.add_argument(
+        "--wiki-hidden-item-ids",
+        type=Path,
+        default=None,
+        help="JSON with itemIds to omit from drops (default: sibling of --items-source).",
     )
     parser.add_argument(
         "--monster-names-json",
@@ -190,6 +198,7 @@ def flatten_rows(
     raw: bytes,
     monster_names_by_id: dict[int, str],
     item_names_by_id: dict[int, str],
+    wiki_hidden_item_ids: frozenset[int],
     assoc_base: int,
     carve_dt_pointers: list[int],
     carve_tables: dict[int, list[dict[str, int]]],
@@ -244,6 +253,8 @@ def flatten_rows(
                     drops = carve_tables[dt_index]
                     for drop in drops:
                         item_id = int(drop["item_id"])
+                        if item_id in wiki_hidden_item_ids:
+                            continue
                         rows.append(
                             {
                                 "monster_id": monster_id,
@@ -297,6 +308,8 @@ def flatten_rows(
                     drops = carve_tables[dt_index]
                     for drop in drops:
                         item_id = int(drop["item_id"])
+                        if item_id in wiki_hidden_item_ids:
+                            continue
                         rows.append(
                             {
                                 "monster_id": monster_id,
@@ -505,6 +518,8 @@ def main() -> None:
 
     monster_names_by_id = load_monster_names(args.monster_names_json)
     item_names_by_id = load_item_names(args.items_source)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
     carve_labels = load_optional_json_object(args.monster_carve_labels)
     carve_dt_pointers, carve_tables = parse_all_carve_tables(
         raw, carve_dt_pointer_array_base, carve_dt_count
@@ -514,6 +529,7 @@ def main() -> None:
         raw=raw,
         monster_names_by_id=monster_names_by_id,
         item_names_by_id=item_names_by_id,
+        wiki_hidden_item_ids=wiki_hidden_item_ids,
         assoc_base=carve_assoc_base,
         carve_dt_pointers=carve_dt_pointers,
         carve_tables=carve_tables,
