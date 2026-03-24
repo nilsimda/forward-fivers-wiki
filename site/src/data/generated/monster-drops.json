@@ -86054,196 +86054,17 @@
   {
     "monsterId": 107,
     "monsterLabel": "Vorsphyroa",
-    "totalEntries": 58,
+    "totalEntries": 34,
     "dropModes": [
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Vorsphyroa",
         "monsterName": "Vorsphyroa",
         "partbreakType": "Claws",
@@ -86458,94 +86279,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carves (2)",
-        "monsterName": "Vorsphyroa",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -86710,196 +86443,17 @@
   {
     "monsterId": 108,
     "monsterLabel": "Rebidiora",
-    "totalEntries": 68,
+    "totalEntries": 44,
     "dropModes": [
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Rebidiora",
         "monsterName": "Rebidiora",
         "partbreakType": "Horn Once",
@@ -87158,94 +86712,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Rebidiora",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -87476,197 +86942,18 @@
   {
     "monsterId": 109,
     "monsterLabel": "Anorupatisu",
-    "totalEntries": 63,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Anorupatisu",
         "monsterName": "Anorupatisu",
         "partbreakType": "Capture",
@@ -87881,94 +87168,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Anorupatisu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -88188,197 +87387,18 @@
   {
     "monsterId": 110,
     "monsterLabel": "Hyujikiki",
-    "totalEntries": 82,
+    "totalEntries": 58,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Hyujikiki",
         "monsterName": "Hyujikiki",
         "partbreakType": "Capture",
@@ -88681,94 +87701,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Hyujikiki",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -89109,109 +88041,18 @@
   {
     "monsterId": 111,
     "monsterLabel": "Midogaron",
-    "totalEntries": 51,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Midogaron",
         "monsterName": "Midogaron",
         "partbreakType": "Capture",
@@ -89426,50 +88267,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Midogaron",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -89688,112 +88485,21 @@
   },
   {
     "monsterId": 112,
-    "monsterLabel": "Giaorugu",
-    "totalEntries": 52,
+    "monsterLabel": "Giaorg",
+    "totalEntries": 40,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -89803,8 +88509,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -89814,8 +88520,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -89825,8 +88531,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -89836,8 +88542,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89847,8 +88553,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89858,8 +88564,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89869,8 +88575,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89880,8 +88586,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89891,8 +88597,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89902,8 +88608,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89913,8 +88619,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89924,8 +88630,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89935,8 +88641,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89946,8 +88652,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89957,8 +88663,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -89969,7 +88675,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -89980,7 +88686,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -89991,7 +88697,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -90002,7 +88708,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -90012,52 +88718,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -90067,8 +88729,8 @@
         "itemName": "Giaorg Hide"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -90078,8 +88740,8 @@
         "itemName": "Giaorg Scale"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -90089,8 +88751,8 @@
         "itemName": "Cryo Sac"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "gr",
@@ -90100,8 +88762,8 @@
         "itemName": "Giaorg Horn"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90111,8 +88773,8 @@
         "itemName": "Giaorg Tail"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90122,8 +88784,8 @@
         "itemName": "Giaorg Hide"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Once",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90133,8 +88795,8 @@
         "itemName": "Exalted Gem"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90144,8 +88806,8 @@
         "itemName": "Giaorg Scale"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90155,8 +88817,8 @@
         "itemName": "Exalted Gem"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90166,8 +88828,8 @@
         "itemName": "Cryo Sac"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Head Twice",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90177,8 +88839,8 @@
         "itemName": "Giaorg Horn"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90188,8 +88850,8 @@
         "itemName": "Giaorg Scale"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90199,8 +88861,8 @@
         "itemName": "Giaorg Hide"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90210,8 +88872,8 @@
         "itemName": "Exalted Gem"
       },
       {
-        "sourceLabel": "Giaorugu",
-        "monsterName": "Giaorugu",
+        "sourceLabel": "Giaorg",
+        "monsterName": "Giaorg",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "gr",
@@ -90222,7 +88884,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90233,7 +88895,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90244,7 +88906,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90255,7 +88917,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90266,7 +88928,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Giaorugu",
+        "monsterName": "Giaorg",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "gr",
@@ -90280,108 +88942,17 @@
   {
     "monsterId": 113,
     "monsterLabel": "Mi Ru",
-    "totalEntries": 52,
+    "totalEntries": 40,
     "dropModes": [
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Mi Ru",
         "monsterName": "Mi Ru",
         "partbreakType": "Back",
@@ -90640,50 +89211,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Mi Ru",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -90870,197 +89397,18 @@
   {
     "monsterId": 114,
     "monsterLabel": "Falnocatrice",
-    "totalEntries": 57,
+    "totalEntries": 33,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Falnocatrice",
         "monsterName": "Falnocatrice",
         "partbreakType": "Capture",
@@ -91231,94 +89579,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Falnocatrice",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -91516,197 +89776,18 @@
   {
     "monsterId": 115,
     "monsterLabel": "Pokaradon",
-    "totalEntries": 63,
+    "totalEntries": 39,
     "dropModes": [
       "capture",
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Pokaradon",
         "monsterName": "Pokaradon",
         "partbreakType": "Capture",
@@ -91921,94 +90002,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (3)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Tail Carve (1)",
-        "monsterName": "Pokaradon",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -92228,108 +90221,17 @@
   {
     "monsterId": 116,
     "monsterLabel": "Shantien",
-    "totalEntries": 57,
+    "totalEntries": 45,
     "dropModes": [
       "part_break",
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
       {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
         "sourceLabel": "Shantien",
         "monsterName": "Shantien",
         "partbreakType": "Back",
@@ -92588,50 +90490,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (4)",
-        "monsterName": "Shantien",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,
@@ -92873,15 +90731,12 @@
   {
     "monsterId": 117,
     "monsterLabel": "Pokara",
-    "totalEntries": 19,
+    "totalEntries": 7,
     "dropModes": [
       "carve"
     ],
     "ranks": [
-      "lr",
-      "hr",
       "arena",
-      "hr100",
       "gr"
     ],
     "drops": [
@@ -92890,94 +90745,6 @@
         "monsterName": "Pokara",
         "partbreakType": "unknown",
         "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "lr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
         "rank": "arena",
         "percentage": 45,
         "quantity": 1,
@@ -93012,50 +90779,6 @@
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
-        "percentage": 5,
-        "quantity": 1,
-        "itemId": 28,
-        "itemName": "Ancient Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 45,
-        "quantity": 1,
-        "itemId": 215,
-        "itemName": "Stone"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 30,
-        "quantity": 1,
-        "itemId": 7,
-        "itemName": "Potion"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
-        "percentage": 20,
-        "quantity": 1,
-        "itemId": 312,
-        "itemName": "Monster Bone S"
-      },
-      {
-        "sourceLabel": "Body Carves (2)",
-        "monsterName": "Pokara",
-        "partbreakType": "unknown",
-        "dropMode": "carve",
-        "rank": "hr100",
         "percentage": 5,
         "quantity": 1,
         "itemId": 28,

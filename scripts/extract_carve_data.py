@@ -37,6 +37,15 @@ PRIMARY_RECORD_SCAN_HARD_CAP = 0x100
 RANK_LABELS = ["lr", "hr", "arena", "hr100", "gr"]
 GRANK_DT_INDEX_OFFSET = 0x0E
 
+# Carve DT 801 is a *shared* table (generic supplies: potions, bone, stone). In the data it is
+# wired to the **arena** rank slot for monsters 107–117 (Vorsphyroa … Pokara). The same DT is
+# also referenced from LR/HR/HR100 for those IDs (bogus fallbacks) and from all four of those
+# ranks for Shantien (116). It is not “Shantien’s” table—just one global pool reused for arena
+# (and incorrectly for other ranks). We keep one monster’s copy for wiki dedupe: anchor 116
+# (same pattern as Quarzeps partbreak).
+FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID = 116
+FRONTIER_SHARED_CARVE_DEDUPE_RANKS = frozenset({"lr", "hr", "hr100"})
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -307,6 +316,50 @@ def flatten_rows(
     return rows
 
 
+def filter_frontier_shared_carve_pool_duplicates(
+    rows: list[dict[str, int | str | None]],
+) -> list[dict[str, int | str | None]]:
+    """
+    Drop duplicate references to the shared arena-rank carve pool (DT 801, etc.): same idea as
+    Quarzeps partbreak. Anchor monster defines which dt_index values per rank are treated as
+    that pool for deduplication (see FRONTIER_SHARED_CARVE_DEDUPE_* constants).
+    """
+    anchor_dt_by_rank: dict[str, set[int]] = {}
+    for row in rows:
+        monster_id = int(row["monster_id"])
+        if monster_id != FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID:
+            continue
+        rank = str(row.get("rank_label", "")).strip().lower()
+        if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
+            continue
+        anchor_dt_by_rank.setdefault(rank, set()).add(int(row["dt_index"]))
+
+    if not anchor_dt_by_rank:
+        return rows
+
+    kept: list[dict[str, int | str | None]] = []
+    removed = 0
+    for row in rows:
+        monster_id = int(row["monster_id"])
+        rank = str(row.get("rank_label", "")).strip().lower()
+        if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
+            kept.append(row)
+            continue
+        indices = anchor_dt_by_rank.get(rank)
+        if not indices:
+            kept.append(row)
+            continue
+        if int(row["dt_index"]) in indices:
+            removed += 1
+            continue
+        kept.append(row)
+
+    if removed > 0:
+        print(f"Filtered {removed} Frontier shared carve pool duplicate rows")
+
+    return kept
+
+
 def main() -> None:
     args = parse_args()
 
@@ -345,18 +398,10 @@ def main() -> None:
         carve_dt_pointers=carve_dt_pointers,
         carve_tables=carve_tables,
     )
+    rows = filter_frontier_shared_carve_pool_duplicates(rows)
 
     write_json_output(args.output, rows)
 
-    print(f"Input: {args.input}")
-    print(f"Output: {args.output}")
-    print(f"Carve DT pointer header: 0x{CARVE_DT_POINTER_HEADER_ADDRESS:08X}")
-    print(f"Carve assoc pointer header: 0x{CARVE_ASSOC_POINTER_HEADER_ADDRESS:08X}")
-    print(f"important_nums pointer header: 0x{IMPORTANT_NUMS_POINTER_HEADER_ADDRESS:08X}")
-    print(f"important_nums base: 0x{important_nums_base:08X}")
-    print(f"Carve DT count (important_nums+0x22): {carve_dt_count}")
-    print(f"Carve DT pointer base: 0x{carve_dt_pointer_array_base:08X}")
-    print(f"Carve assoc base: 0x{carve_assoc_base:08X}")
     print(f"Decoded {len(carve_dt_pointers)} carve DT pointers")
     print(f"Decoded carve rows: {len(rows)}")
 

@@ -69,9 +69,6 @@ def main() -> None:
 
     write_json_output(args.output, records)
 
-    print(f"Input: {args.input}")
-    print(f"Output: {args.output}")
-    print(f"Pointer address: 0x{POINTER_ADDRESS:08X}")
     print(f"Decoded {len(records)} HCC records")
 
 

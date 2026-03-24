@@ -20,8 +20,6 @@ const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
 const rankOrder = ['lr', 'hr', 'arena', 'hr100', 'gr'];
 const methodOrder = ['capture', 'part_break', 'hardcore_carve', 'quest_reward', 'carve', 'gather', 'shop'];
 const knownDropModes = new Set(['capture', 'part_break']);
-const quarzepsMonsterId = 105;
-const quarzepsFallbackRanks = new Set(['lr', 'hr', 'hr100']);
 
 /**
  * @typedef {'capture' | 'part_break' | 'hardcore_carve' | 'carve'} SupportedMethodType
@@ -53,10 +51,9 @@ async function main() {
 
   const items = buildItems(itemRows);
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
-  const filteredPartbreakRows = filterQuarzepsFallbackPartbreakRows(partbreakRows);
   const methods = dedupePooledDropMethods(
     [
-      ...buildAcquisitionMethods(filteredPartbreakRows, monsterPartbreakLabels),
+      ...buildAcquisitionMethods(partbreakRows, monsterPartbreakLabels),
       ...buildCarveMethods(carveRows, monsterCarveLabels),
       ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
     ].sort(compareMethods)
@@ -125,15 +122,19 @@ function buildItems(rows) {
     .map((row, index) => {
       const id = parseNumber(row.item_index, `items row ${index + 1} item_index`);
       const descriptionRaw = (row.description || '').trim();
-      const parsedDescription = parseDescriptionSegments(descriptionRaw);
+      if (row.descriptionPlain === undefined || !Array.isArray(row.descriptionSegments)) {
+        throw new Error(
+          `items row ${index + 1}: missing descriptionPlain/descriptionSegments — run scripts/extract_item_data.py`
+        );
+      }
       return {
         id,
         slug: String(id),
         name: (row.name || '').trim(),
-        description: parsedDescription.descriptionPlain,
+        description: row.descriptionPlain,
         descriptionRaw,
-        descriptionPlain: parsedDescription.descriptionPlain,
-        descriptionSegments: parsedDescription.descriptionSegments,
+        descriptionPlain: row.descriptionPlain,
+        descriptionSegments: row.descriptionSegments,
         rarityRaw: parseNumber(row.rarity_raw, `items row ${index + 1} rarity_raw`),
         rarityPlusOne: parseNumber(row.rarity_plus_one, `items row ${index + 1} rarity_plus_one`),
         maxStack: parseNumber(row.maxStack, `items row ${index + 1} maxStack`),
@@ -155,54 +156,6 @@ function buildItems(rows) {
   }
 
   return items;
-}
-
-/**
- * @param {string} descriptionRaw
- */
-function parseDescriptionSegments(descriptionRaw) {
-  const colorTagRegex = /~C([0-9A-Fa-f]{2})/g;
-  /** @type {{ text: string; colorCode: string | null }[]} */
-  const segments = [];
-  let currentColorCode = null;
-  let cursor = 0;
-  let match;
-
-  while ((match = colorTagRegex.exec(descriptionRaw)) !== null) {
-    if (match.index > cursor) {
-      segments.push({
-        text: descriptionRaw.slice(cursor, match.index),
-        colorCode: currentColorCode
-      });
-    }
-
-    const nextColorCode = match[1].toUpperCase();
-    currentColorCode = nextColorCode === '00' ? null : nextColorCode;
-    cursor = match.index + match[0].length;
-  }
-
-  if (cursor < descriptionRaw.length) {
-    segments.push({
-      text: descriptionRaw.slice(cursor),
-      colorCode: currentColorCode
-    });
-  }
-
-  const mergedSegments = [];
-  for (const segment of segments) {
-    if (!segment.text) continue;
-    const previous = mergedSegments.at(-1);
-    if (previous && previous.colorCode === segment.colorCode) {
-      previous.text += segment.text;
-      continue;
-    }
-    mergedSegments.push(segment);
-  }
-
-  return {
-    descriptionPlain: mergedSegments.map((segment) => segment.text).join(''),
-    descriptionSegments: mergedSegments
-  };
 }
 
 /**
@@ -276,54 +229,6 @@ function buildAcquisitionMethods(rows, partbreakLabelsByMonsterId) {
   }
 
   return methods.sort(compareMethods);
-}
-
-/**
- * Treat non-Quarzeps LR/HR/HR100 rows that point to Quarzeps PDT tables as
- * "no data for this rank" by removing those fallback rows before projection.
- *
- * @param {Record<string, string | number>[]} rows
- */
-function filterQuarzepsFallbackPartbreakRows(rows) {
-  /** @type {Map<string, Set<number>>} */
-  const quarzepsPdtIndicesByRank = new Map();
-
-  for (const row of rows) {
-    const monsterId = parseNumber(row.monster_id, 'partbreak row monster_id');
-    if (monsterId !== quarzepsMonsterId) continue;
-
-    const rank = normalizeRank(row.rank);
-    if (!quarzepsFallbackRanks.has(rank)) continue;
-
-    const pdtIndex = parseNumber(row.pdt_index, 'partbreak row pdt_index');
-    if (!quarzepsPdtIndicesByRank.has(rank)) {
-      quarzepsPdtIndicesByRank.set(rank, new Set());
-    }
-    quarzepsPdtIndicesByRank.get(rank).add(pdtIndex);
-  }
-
-  let removedCount = 0;
-  const filteredRows = rows.filter((row) => {
-    const monsterId = parseNumber(row.monster_id, 'partbreak row monster_id');
-    if (monsterId === quarzepsMonsterId) return true;
-
-    const rank = normalizeRank(row.rank);
-    if (!quarzepsFallbackRanks.has(rank)) return true;
-
-    const pdtIndicesForRank = quarzepsPdtIndicesByRank.get(rank);
-    if (!pdtIndicesForRank || pdtIndicesForRank.size === 0) return true;
-
-    const pdtIndex = parseNumber(row.pdt_index, 'partbreak row pdt_index');
-    const isFallback = pdtIndicesForRank.has(pdtIndex);
-    if (isFallback) removedCount += 1;
-    return !isFallback;
-  });
-
-  if (removedCount > 0) {
-    console.log(`Filtered ${removedCount} Quarzeps fallback partbreak rows`);
-  }
-
-  return filteredRows;
 }
 
 /**

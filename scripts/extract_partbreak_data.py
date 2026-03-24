@@ -36,6 +36,11 @@ RANK_COLUMNS = [
     ("gr", "grankPDTIndex"),
 ]
 
+# Quarzeps (id 105): grank monsters' LR/HR/HR100 slots sometimes reuse its PDT indices as fallbacks;
+# drop those rows so only Quarzeps keeps that data
+QUARZEPS_MONSTER_ID = 105
+QUARZEPS_FALLBACK_RANKS = frozenset({"lr", "hr", "hr100"})
+
 
 def should_skip_rank_entry(rank: str, pdt_index: int, monster_id: int, mapping_index: int) -> bool:
     # Reverse-engineering note: grank index 0x0000 is usually a "no entry" sentinel.
@@ -225,6 +230,51 @@ def flatten_rows(
     return rows
 
 
+def filter_quarzeps_fallback_partbreak_rows(
+    rows: list[dict[str, int | str]],
+) -> list[dict[str, int | str]]:
+    """Remove non-Quarzeps LR/HR/HR100 rows whose PDT index matches a Quarzeps row for that rank."""
+    quarzeps_pdt_by_rank: dict[str, set[int]] = {}
+    for row in rows:
+        monster_id = int(row["monster_id"])
+        if monster_id != QUARZEPS_MONSTER_ID:
+            continue
+        rank = str(row.get("rank", "")).strip().lower()
+        if rank not in QUARZEPS_FALLBACK_RANKS:
+            continue
+        pdt_index = int(row["pdt_index"])
+        quarzeps_pdt_by_rank.setdefault(rank, set()).add(pdt_index)
+
+    if not quarzeps_pdt_by_rank:
+        return rows
+
+    kept: list[dict[str, int | str]] = []
+    removed = 0
+    for row in rows:
+        monster_id = int(row["monster_id"])
+        if monster_id == QUARZEPS_MONSTER_ID:
+            kept.append(row)
+            continue
+        rank = str(row.get("rank", "")).strip().lower()
+        if rank not in QUARZEPS_FALLBACK_RANKS:
+            kept.append(row)
+            continue
+        indices = quarzeps_pdt_by_rank.get(rank)
+        if not indices:
+            kept.append(row)
+            continue
+        pdt_index = int(row["pdt_index"])
+        if pdt_index in indices:
+            removed += 1
+            continue
+        kept.append(row)
+
+    if removed > 0:
+        print(f"Filtered {removed} Quarzeps fallback partbreak rows")
+
+    return kept
+
+
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
@@ -253,15 +303,10 @@ def main() -> None:
         item_names_by_id=item_names_by_id,
         monster_names_by_id=monster_names_by_id,
     )
+    rows = filter_quarzeps_fallback_partbreak_rows(rows)
 
     write_json_output(args.output, rows)
 
-    print(f"Input: {args.input}")
-    print(f"Output: {args.output}")
-    print(f"Drop table pointer header: 0x{DROP_TABLE_POINTER_HEADER_ADDRESS:08X}")
-    print(f"Mapping pointer header: 0x{MAPPING_POINTER_HEADER_ADDRESS:08X}")
-    print(f"Drop pointer array base: 0x{drop_table_pointer_array_base:08X}")
-    print(f"Mapping base: 0x{mapping_base:08X}")
     print(f"Decoded {len(drop_table_pointers)} PDT pointers and {len(mappings)} mappings")
     print(f"Wrote {len(rows)} flattened partbreak rows")
 
