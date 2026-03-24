@@ -11,8 +11,6 @@ const itemsSourcePath = path.join(generatedDir, '_items-source.json');
 const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
 const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
-const monsterCarveLabelsPath = path.resolve(siteRoot, '..', 'g1_data', 'monster_carve_labels.json');
-const monsterPartbreakLabelsPath = path.resolve(siteRoot, '..', 'g1_data', 'monster_partbreak_labels.json');
 const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
@@ -39,22 +37,19 @@ const knownDropModes = new Set(['capture', 'part_break']);
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, monsterCarveLabels, monsterPartbreakLabels] =
-    await Promise.all([
-      readJson(itemsSourcePath),
-      readJson(partbreakSourcePath),
-      readJson(hardcoreCarvesSourcePath),
-      readJson(carvesSourcePath),
-      readJsonOptional(monsterCarveLabelsPath, {}),
-      readJsonOptional(monsterPartbreakLabelsPath, {})
-    ]);
+  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows] = await Promise.all([
+    readJson(itemsSourcePath),
+    readJson(partbreakSourcePath),
+    readJson(hardcoreCarvesSourcePath),
+    readJson(carvesSourcePath)
+  ]);
 
   const items = buildItems(itemRows);
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
   const methods = dedupePooledDropMethods(
     [
-      ...buildAcquisitionMethods(partbreakRows, monsterPartbreakLabels),
-      ...buildCarveMethods(carveRows, monsterCarveLabels),
+      ...buildAcquisitionMethods(partbreakRows),
+      ...buildCarveMethods(carveRows),
       ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
     ].sort(compareMethods)
   );
@@ -87,23 +82,6 @@ async function main() {
 async function readJson(filePath) {
   const content = await readFile(filePath, 'utf8');
   return JSON.parse(content);
-}
-
-/**
- * @template T
- * @param {string} filePath
- * @param {T} fallbackValue
- * @returns {Promise<T>}
- */
-async function readJsonOptional(filePath, fallbackValue) {
-  try {
-    return await readJson(filePath);
-  } catch (error) {
-    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
-      return fallbackValue;
-    }
-    throw error;
-  }
 }
 
 /**
@@ -159,27 +137,10 @@ function buildItems(rows) {
 }
 
 /**
- * @param {Record<string, Record<string, string>>} labelsByMonsterId
- * @param {number} monsterId
- * @param {string} rawType e.g. "0x01"
- * @returns {string | null} trimmed label, "__ignore__", or null if unmapped
- */
-function resolvePartbreakLabel(labelsByMonsterId, monsterId, rawType) {
-  const entry = labelsByMonsterId[String(monsterId)];
-  if (!entry || typeof entry !== 'object') return null;
-  const value = entry[rawType];
-  if (typeof value !== 'string') return null;
-  const trimmed = value.trim();
-  return trimmed === '' ? null : trimmed;
-}
-
-/**
  * @param {Record<string, string | number>[]} rows
- * @param {Record<string, Record<string, string>>} partbreakLabelsByMonsterId
  * @returns {AcquisitionMethod[]}
  */
-function buildAcquisitionMethods(rows, partbreakLabelsByMonsterId) {
-  const labels = partbreakLabelsByMonsterId || {};
+function buildAcquisitionMethods(rows) {
   /** @type {AcquisitionMethod[]} */
   const methods = [];
 
@@ -197,11 +158,11 @@ function buildAcquisitionMethods(rows, partbreakLabelsByMonsterId) {
     const rank = normalizeRank(row.rank);
     const chance = parseNumber(row.percentage, `partbreak row ${index + 1} percentage`);
     const quantity = parseNumber(row.quantity, `partbreak row ${index + 1} quantity`);
-    const partbreakTypeRaw = (row.partbreak_type_raw || '').trim();
-    const manualLabel = resolvePartbreakLabel(labels, monsterId, partbreakTypeRaw);
 
-    if (methodType === 'part_break' && manualLabel === '__ignore__') {
-      continue;
+    if (row.partbreak_type === undefined || row.partbreak_type === null) {
+      throw new Error(
+        `partbreak row ${index + 1}: missing partbreak_type — run scripts/extract_partbreak_data.py`
+      );
     }
 
     /** @type {AcquisitionMethod} */
@@ -214,16 +175,9 @@ function buildAcquisitionMethods(rows, partbreakLabelsByMonsterId) {
       monsterId,
       monsterName,
       itemId,
-      itemName
+      itemName,
+      partbreakType: String(row.partbreak_type)
     };
-
-    if (methodType === 'part_break') {
-      method.partbreakType =
-        manualLabel && manualLabel !== '__ignore__' ? manualLabel : partbreakTypeRaw || 'unknown';
-    } else if (partbreakTypeRaw) {
-      method.partbreakType =
-        manualLabel && manualLabel !== '__ignore__' ? manualLabel : partbreakTypeRaw;
-    }
 
     methods.push(method);
   }
@@ -299,13 +253,11 @@ function buildHardcoreCarveMethods(rows, items, monsterNamesById) {
 
 /**
  * @param {Record<string, string | number | null>[]} rows
- * @param {Record<string, { primary?: Record<string, string>; secondary?: Record<string, string> }>} labelsByMonsterId
  * @returns {AcquisitionMethod[]}
  */
-function buildCarveMethods(rows, labelsByMonsterId) {
+function buildCarveMethods(rows) {
   /** @type {AcquisitionMethod[]} */
   const methods = [];
-  const seenMethodKeys = new Set();
 
   for (const [index, row] of rows.entries()) {
     const monsterId = parseNumber(row.monster_id, `carve row ${index + 1} monster_id`);
@@ -314,26 +266,12 @@ function buildCarveMethods(rows, labelsByMonsterId) {
     const itemName = (row.item_name || '').trim() || `Item ${itemId}`;
     const rank = normalizeRank(row.rank_label, 'carve source data');
     const chance = parseNumber(row.percentage, `carve row ${index + 1} percentage`);
-    const recordIndex = parseNumber(row.record_index, `carve row ${index + 1} record_index`);
-    const pathLabel = String(row.path || '').trim().toLowerCase();
-    const rawNumCarves = row.primary_num_carves;
-    const numCarves =
-      rawNumCarves === null || rawNumCarves === undefined || String(rawNumCarves).trim() === ''
-        ? null
-        : parseNumber(rawNumCarves, `carve row ${index + 1} primary_num_carves`);
-
-    const sourceLabel = formatCarveSourceLabel(
-      pathLabel,
-      recordIndex,
-      numCarves,
-      monsterId,
-      labelsByMonsterId
-    );
+    const sourceLabel = String(row.source_label || '').trim();
     if (!sourceLabel) {
-      continue;
+      throw new Error(`carve row ${index + 1}: missing source_label — run scripts/extract_carve_data.py`);
     }
 
-    const method = {
+    methods.push({
       methodType: 'carve',
       rank,
       sourceLabel,
@@ -343,64 +281,10 @@ function buildCarveMethods(rows, labelsByMonsterId) {
       monsterName,
       itemId,
       itemName
-    };
-    const methodKey = [
-      method.methodType,
-      method.rank,
-      method.sourceLabel,
-      method.monsterId,
-      method.itemId,
-      method.chance,
-      method.quantity
-    ].join('|');
-    if (seenMethodKeys.has(methodKey)) {
-      continue;
-    }
-    seenMethodKeys.add(methodKey);
-    methods.push(method);
+    });
   }
 
   return methods.sort(compareMethods);
-}
-
-/**
- * @param {string} pathLabel
- * @param {number} recordIndex
- * @param {number | null} numCarves
- * @param {number} monsterId
- * @param {Record<string, { primary?: Record<string, string>; secondary?: Record<string, string> }>} labelsByMonsterId
- * @returns {string | null}
- */
-function formatCarveSourceLabel(pathLabel, recordIndex, numCarves, monsterId, labelsByMonsterId) {
-  const numCarvesSuffix =
-    typeof numCarves === 'number' && Number.isFinite(numCarves) ? ` (${numCarves})` : '';
-  const monsterLabels = labelsByMonsterId[String(monsterId)] || {};
-
-  if (pathLabel === 'primary') {
-    const manualPrimaryRaw = monsterLabels.primary?.[String(recordIndex)];
-    const manualPrimary = typeof manualPrimaryRaw === 'string' ? manualPrimaryRaw.trim() : '';
-    if (manualPrimary === '__ignore__') {
-      return null;
-    }
-    if (manualPrimary) return manualPrimary;
-
-    if (recordIndex === 0) {
-      return `Body Carves${numCarvesSuffix}`;
-    }
-    return `Non Body Carve Primary ${recordIndex}${numCarvesSuffix}`;
-  }
-
-  if (pathLabel === 'secondary') {
-    const manualSecondaryRaw = monsterLabels.secondary?.[String(recordIndex)];
-    const manualSecondary = typeof manualSecondaryRaw === 'string' ? manualSecondaryRaw.trim() : '';
-    if (manualSecondary === '__ignore__') {
-      return null;
-    }
-    if (manualSecondary) return manualSecondary;
-    return `Secondary Carve ${recordIndex}`;
-  }
-
-  return `Carve ${recordIndex}`;
 }
 
 /**

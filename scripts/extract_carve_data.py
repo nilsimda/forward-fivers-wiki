@@ -7,6 +7,7 @@ from extract_common import (
     REPO_ROOT,
     load_item_names,
     load_monster_names,
+    load_optional_json_object,
     read_u16,
     read_u32,
     write_json_output,
@@ -16,6 +17,7 @@ INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
 ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
+MONSTER_CARVE_LABELS_DEFAULT = REPO_ROOT / "g1_data" / "monster_carve_labels.json"
 
 IMPORTANT_NUMS_POINTER_HEADER_ADDRESS = 0x00000010
 CARVE_DT_POINTER_HEADER_ADDRESS = 0x00000124
@@ -69,6 +71,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=MONSTER_NAMES_JSON_DEFAULT,
         help="JSON object mapping monster ids to display names.",
+    )
+    parser.add_argument(
+        "--monster-carve-labels",
+        type=Path,
+        default=MONSTER_CARVE_LABELS_DEFAULT,
+        help="Optional carve labels (primary/secondary record_index -> label); __ignore__ drops rows.",
     )
     return parser.parse_args()
 
@@ -360,6 +368,117 @@ def filter_frontier_shared_carve_pool_duplicates(
     return kept
 
 
+def _coerce_primary_num_carves(value: object) -> int | None:
+    if value is None:
+        return None
+    if isinstance(value, str) and value.strip() == "":
+        return None
+    if isinstance(value, int):
+        return value
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def format_carve_source_label(
+    labels: dict[str, object],
+    monster_id: int,
+    path_label: str,
+    record_index: int,
+    primary_num_carves: int | None,
+) -> str | None:
+    """Match site/scripts/build-data.mjs formatCarveSourceLabel; None means __ignore__."""
+    path_lower = path_label.strip().lower()
+    suffix = ""
+    if primary_num_carves is not None:
+        suffix = f" ({primary_num_carves})"
+
+    monster_labels = labels.get(str(monster_id))
+    if not isinstance(monster_labels, dict):
+        monster_labels = {}
+
+    if path_lower == "primary":
+        prim = monster_labels.get("primary")
+        if not isinstance(prim, dict):
+            prim = {}
+        raw_manual = prim.get(str(record_index))
+        manual = raw_manual.strip() if isinstance(raw_manual, str) else ""
+        if manual == "__ignore__":
+            return None
+        if manual:
+            return manual
+        if record_index == 0:
+            return f"Body Carves{suffix}"
+        return f"Non Body Carve Primary {record_index}{suffix}"
+
+    if path_lower == "secondary":
+        sec = monster_labels.get("secondary")
+        if not isinstance(sec, dict):
+            sec = {}
+        raw_manual = sec.get(str(record_index))
+        manual = raw_manual.strip() if isinstance(raw_manual, str) else ""
+        if manual == "__ignore__":
+            return None
+        if manual:
+            return manual
+        return f"Secondary Carve {record_index}"
+
+    return f"Carve {record_index}"
+
+
+def apply_carve_source_labels(
+    rows: list[dict[str, int | str | None]],
+    labels: dict[str, object],
+) -> list[dict[str, int | str | None]]:
+    """Set source_label for each row; drop rows marked __ignore__ in labels."""
+    out: list[dict[str, int | str | None]] = []
+    ignored = 0
+    for row in rows:
+        num_carves = _coerce_primary_num_carves(row.get("primary_num_carves"))
+        sl = format_carve_source_label(
+            labels,
+            int(row["monster_id"]),
+            str(row.get("path", "")),
+            int(row["record_index"]),
+            num_carves,
+        )
+        if sl is None:
+            ignored += 1
+            continue
+        new_row = dict(row)
+        new_row["source_label"] = sl
+        out.append(new_row)
+
+    if ignored > 0:
+        print(f"Dropped {ignored} carve rows marked __ignore__ in labels")
+
+    return out
+
+
+def dedupe_carve_rows_for_build(
+    rows: list[dict[str, int | str | None]],
+) -> list[dict[str, int | str | None]]:
+    """Same key as former build-data.mjs buildCarveMethods dedupe."""
+    seen: set[tuple[object, ...]] = set()
+    out: list[dict[str, int | str | None]] = []
+    for r in rows:
+        key = (
+            "carve",
+            str(r["rank_label"]).lower(),
+            str(r["source_label"]),
+            int(r["monster_id"]),
+            int(r["item_id"]),
+            int(r["percentage"]),
+            1,
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(r)
+    return out
+
+
 def main() -> None:
     args = parse_args()
 
@@ -386,6 +505,7 @@ def main() -> None:
 
     monster_names_by_id = load_monster_names(args.monster_names_json)
     item_names_by_id = load_item_names(args.items_source)
+    carve_labels = load_optional_json_object(args.monster_carve_labels)
     carve_dt_pointers, carve_tables = parse_all_carve_tables(
         raw, carve_dt_pointer_array_base, carve_dt_count
     )
@@ -399,6 +519,8 @@ def main() -> None:
         carve_tables=carve_tables,
     )
     rows = filter_frontier_shared_carve_pool_duplicates(rows)
+    rows = apply_carve_source_labels(rows, carve_labels)
+    rows = dedupe_carve_rows_for_build(rows)
 
     write_json_output(args.output, rows)
 

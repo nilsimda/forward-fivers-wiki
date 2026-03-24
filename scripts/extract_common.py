@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import struct
 from pathlib import Path
+from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -66,6 +67,16 @@ def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
             continue
         names_by_id[monster_id] = monster_name
     return names_by_id
+
+
+def load_optional_json_object(path: Path) -> dict[str, Any]:
+    """Load a JSON object; missing file yields {}. Non-object JSON raises."""
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected JSON object in {path}")
+    return data
 
 
 def write_json_output(path: Path, data: object, *, ensure_ascii: bool = False) -> None:

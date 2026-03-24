@@ -7,6 +7,7 @@ from extract_common import (
     REPO_ROOT,
     load_item_names,
     load_monster_names,
+    load_optional_json_object,
     read_u16,
     read_u32,
     write_json_output,
@@ -16,6 +17,7 @@ INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_partbreak-source.json"
 ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
+MONSTER_PARTBREAK_LABELS_DEFAULT = REPO_ROOT / "g1_data" / "monster_partbreak_labels.json"
 
 DROP_TABLE_POINTER_HEADER_ADDRESS = 0x00000128
 MAPPING_POINTER_HEADER_ADDRESS = 0x0000012C
@@ -74,6 +76,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=MONSTER_NAMES_JSON_DEFAULT,
         help="Optional JSON object mapping monster_id keys to display names.",
+    )
+    parser.add_argument(
+        "--monster-partbreak-labels",
+        type=Path,
+        default=MONSTER_PARTBREAK_LABELS_DEFAULT,
+        help="Optional monster_id -> partbreak_type_raw -> display label; __ignore__ drops part_break rows.",
     )
     return parser.parse_args()
 
@@ -275,6 +283,54 @@ def filter_quarzeps_fallback_partbreak_rows(
     return kept
 
 
+def resolve_partbreak_label(
+    labels: dict[str, object], monster_id: int, partbreak_type_raw: str
+) -> str | None:
+    entry = labels.get(str(monster_id))
+    if not isinstance(entry, dict):
+        return None
+    val = entry.get(partbreak_type_raw)
+    if not isinstance(val, str):
+        return None
+    trimmed = val.strip()
+    return None if trimmed == "" else trimmed
+
+
+def apply_partbreak_display_labels(
+    rows: list[dict[str, int | str]],
+    labels: dict[str, object],
+) -> list[dict[str, int | str]]:
+    """Set partbreak_type (wiki display); drop part_break rows labeled __ignore__."""
+    out: list[dict[str, int | str]] = []
+    ignored = 0
+    for row in rows:
+        raw_type = str(row.get("partbreak_type_raw", "")).strip()
+        manual = resolve_partbreak_label(labels, int(row["monster_id"]), raw_type)
+        drop_mode = str(row.get("drop_mode", "")).strip().lower()
+
+        if drop_mode == "part_break" and manual == "__ignore__":
+            ignored += 1
+            continue
+
+        if drop_mode == "part_break":
+            partbreak_type: str = (
+                (manual if manual and manual != "__ignore__" else None) or raw_type or "unknown"
+            )
+        elif raw_type:
+            partbreak_type = (manual if manual and manual != "__ignore__" else None) or raw_type
+        else:
+            partbreak_type = (manual if manual and manual != "__ignore__" else None) or ""
+
+        new_row = dict(row)
+        new_row["partbreak_type"] = partbreak_type
+        out.append(new_row)
+
+    if ignored > 0:
+        print(f"Dropped {ignored} partbreak rows marked __ignore__ in labels")
+
+    return out
+
+
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
@@ -295,6 +351,7 @@ def main() -> None:
 
     item_names_by_id = load_item_names(args.items_source)
     monster_names_by_id = load_monster_names(args.monster_names_json)
+    partbreak_labels = load_optional_json_object(args.monster_partbreak_labels)
 
     rows = flatten_rows(
         mappings=mappings,
@@ -304,6 +361,7 @@ def main() -> None:
         monster_names_by_id=monster_names_by_id,
     )
     rows = filter_quarzeps_fallback_partbreak_rows(rows)
+    rows = apply_partbreak_display_labels(rows, partbreak_labels)
 
     write_json_output(args.output, rows)
 
