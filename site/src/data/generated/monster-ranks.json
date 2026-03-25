@@ -1,0 +1,1404 @@
+{
+  "schema": "Per-monster rank flags from MHFZ Ferias English carve tables (mons/*_h.htm). lr/hr from LR and HR columns; arena from Arena when present; hr100 from Elite (HR100); gr is always false for this G1 wiki. Ferias is a newer game — treat as reference only.",
+  "ranks": [
+    "lr",
+    "hr",
+    "arena",
+    "hr100",
+    "gr"
+  ],
+  "monsters": {
+    "1": {
+      "name": "Rathian",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reia_h.htm"
+    },
+    "2": {
+      "name": "Fatalis",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "mira_h.htm"
+    },
+    "3": {
+      "name": "Kelbi",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kerubi_h.htm"
+    },
+    "4": {
+      "name": "Mosswine",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "mos_h.htm"
+    },
+    "5": {
+      "name": "Bullfango",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "buru_h.htm"
+    },
+    "6": {
+      "name": "Yian Kut-Ku",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kukku_h.htm"
+    },
+    "7": {
+      "name": "Lao-Shan Lung",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "rao_h.htm"
+    },
+    "8": {
+      "name": "Cephadrome",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dosgare_h.htm"
+    },
+    "9": {
+      "name": "Felyne",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "airu_h.htm"
+    },
+    "10": {
+      "name": "Veggie Elder",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "11": {
+      "name": "Rathalos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reusu_h.htm"
+    },
+    "12": {
+      "name": "Aptonoth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "apono_h.htm"
+    },
+    "13": {
+      "name": "Genprey",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gene_h.htm"
+    },
+    "14": {
+      "name": "Diablos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dea_h.htm"
+    },
+    "15": {
+      "name": "Khezu",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "furu_h.htm"
+    },
+    "16": {
+      "name": "Velociprey",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ran_h.htm"
+    },
+    "17": {
+      "name": "Gravios",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gura_h.htm"
+    },
+    "18": {
+      "name": "MaybeFelyne",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "airu_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Felyne\" may not match G1 \"MaybeFelyne\"; ranks taken from airu_h.htm carve columns."
+      ]
+    },
+    "19": {
+      "name": "Vespoid",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "rango_h.htm"
+    },
+    "20": {
+      "name": "Gypceros",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "geryo_h.htm"
+    },
+    "21": {
+      "name": "Plesioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gano_h.htm"
+    },
+    "22": {
+      "name": "Basarios",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "basa_h.htm"
+    },
+    "23": {
+      "name": "Melynx",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "merura_h.htm"
+    },
+    "24": {
+      "name": "Hornetaur",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kanta_h.htm"
+    },
+    "25": {
+      "name": "Apceros",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "apuke_h.htm"
+    },
+    "26": {
+      "name": "Monoblos",
+      "ranks": {
+        "lr": true,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "mono_h.htm"
+    },
+    "27": {
+      "name": "Velocidrome",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dosran_h.htm"
+    },
+    "28": {
+      "name": "Gendrome",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dosgene_h.htm"
+    },
+    "29": {
+      "name": "Rocks",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "30": {
+      "name": "Ioprey",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ios_h.htm"
+    },
+    "31": {
+      "name": "Iodrome",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dosios_h.htm"
+    },
+    "32": {
+      "name": "Pugis",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "33": {
+      "name": "Kirin",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kirin_h.htm"
+    },
+    "34": {
+      "name": "Cephalos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gare_h.htm"
+    },
+    "35": {
+      "name": "Giaprey",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "giano_h.htm"
+    },
+    "36": {
+      "name": "Crimson Fatalis",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "miraval_h.htm"
+    },
+    "37": {
+      "name": "Pink Rathian",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reiasa_h.htm"
+    },
+    "38": {
+      "name": "Blue Yian Kut-Ku",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kukkuao_h.htm"
+    },
+    "39": {
+      "name": "Purple Gypceros",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "geryoao_h.htm"
+    },
+    "40": {
+      "name": "Yian Garuga",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "garuru_h.htm"
+    },
+    "41": {
+      "name": "Silver Rathalos",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reusugin_h.htm"
+    },
+    "42": {
+      "name": "Gold Rathian",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reiakin_h.htm"
+    },
+    "43": {
+      "name": "Black Diablos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "deakuro_h.htm"
+    },
+    "44": {
+      "name": "White Monoblos",
+      "ranks": {
+        "lr": true,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "monosiro_h.htm"
+    },
+    "45": {
+      "name": "Red Khezu",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "furuaka_h.htm"
+    },
+    "46": {
+      "name": "Green Plesioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ganomidori_h.htm"
+    },
+    "47": {
+      "name": "Black Gravios",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gurakuro_h.htm"
+    },
+    "48": {
+      "name": "Daimyo Hermitaur",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "daimyo_h.htm"
+    },
+    "49": {
+      "name": "Azure Rathalos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "reusuao_h.htm"
+    },
+    "50": {
+      "name": "Ashen Lao-Shan Lung",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "raoao_h.htm"
+    },
+    "51": {
+      "name": "Blangonga",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dodobura_h.htm"
+    },
+    "52": {
+      "name": "Congalala",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "babakonga_h.htm"
+    },
+    "53": {
+      "name": "Rajang",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ra_h.htm"
+    },
+    "54": {
+      "name": "Kushala Daora",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "kusha_h.htm"
+    },
+    "55": {
+      "name": "Shen Gaoren",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "shen_h.htm"
+    },
+    "56": {
+      "name": "Great Thunderbug",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "raikou_h.htm"
+    },
+    "57": {
+      "name": "Shakalaka",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "cyacya_h.htm"
+    },
+    "58": {
+      "name": "Yama Tsukami",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "yama_h.htm"
+    },
+    "59": {
+      "name": "Chameleos",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "oo_h.htm"
+    },
+    "60": {
+      "name": "Rusted Kushala Daora",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "61": {
+      "name": "Blango",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "bura_h.htm"
+    },
+    "62": {
+      "name": "Conga",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "konga_h.htm"
+    },
+    "63": {
+      "name": "Remobra",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gabu_h.htm"
+    },
+    "64": {
+      "name": "Lunastra",
+      "ranks": {
+        "lr": true,
+        "hr": false,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "nana_h.htm"
+    },
+    "65": {
+      "name": "Teostra",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "teo_h.htm"
+    },
+    "66": {
+      "name": "Hermitaur",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gami_h.htm"
+    },
+    "67": {
+      "name": "Shogun Ceanataur",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "syougun_h.htm"
+    },
+    "68": {
+      "name": "Bulldrome",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "dosburu_h.htm"
+    },
+    "69": {
+      "name": "Anteka",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gau_h.htm"
+    },
+    "70": {
+      "name": "Popo",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "popo_h.htm"
+    },
+    "71": {
+      "name": "Old Fatalis",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "miraru_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"White Fatalis\" may not match G1 \"Old Fatalis\"; ranks taken from miraru_h.htm carve columns."
+      ]
+    },
+    "72": {
+      "name": "Yama Tsukami2",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "yama_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Yama Tsukami\" may not match G1 \"Yama Tsukami2\"; ranks taken from yama_h.htm carve columns."
+      ]
+    },
+    "73": {
+      "name": "Ceanataur",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "yao_h.htm"
+    },
+    "74": {
+      "name": "Hypnocatrice",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "75": {
+      "name": "Lavasioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "76": {
+      "name": "Tigrex",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "tiga_h.htm"
+    },
+    "77": {
+      "name": "Akantor",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "akamu_h.htm"
+    },
+    "78": {
+      "name": "Vivid Hypnocatrice",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "79": {
+      "name": "Red Lavasioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "80": {
+      "name": "Espinas",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "esp_h.htm"
+    },
+    "81": {
+      "name": "Flaming Espinas",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "82": {
+      "name": "Pale Hypnocatrice",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "83": {
+      "name": "Aqra Vashim",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "aqura_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Akura Vashimu\" may not match G1 \"Aqra Vashim\"; ranks taken from aqura_h.htm carve columns."
+      ]
+    },
+    "84": {
+      "name": "Aqra Jebia",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "85": {
+      "name": "Belkuros",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "beru_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Berukyurosu\" may not match G1 \"Belkuros\"; ranks taken from beru_h.htm carve columns."
+      ]
+    },
+    "86": {
+      "name": "Cactus",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "saboten_h.htm"
+    },
+    "87": {
+      "name": "Canyon Objects",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "88": {
+      "name": "Canyon Rocks",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "89": {
+      "name": "Pariapuria",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "paria_h.htm"
+    },
+    "90": {
+      "name": "Pearl Espinas",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "91": {
+      "name": "Kamu Orgaron",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "92": {
+      "name": "Nono Orgaron",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "93": {
+      "name": "Laviente",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "94": {
+      "name": "Duragaua",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "95": {
+      "name": "Draguros",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "doragyu_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Doragyurosu\" may not match G1 \"Draguros\"; ranks taken from doragyu_h.htm carve columns."
+      ]
+    },
+    "96": {
+      "name": "Grenzebul",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "guren_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Gurenzeburu\" may not match G1 \"Grenzebul\"; ranks taken from guren_h.htm carve columns."
+      ]
+    },
+    "97": {
+      "name": "Bulluk",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "brook_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Burukku\" may not match G1 \"Bulluk\"; ranks taken from brook_h.htm carve columns."
+      ]
+    },
+    "98": {
+      "name": "Alpelo",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "99": {
+      "name": "Rukodiora",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ruco_h.htm"
+    },
+    "100": {
+      "name": "Unknown",
+      "ranks": {
+        "lr": false,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "ra-ro_h.htm"
+    },
+    "101": {
+      "name": "Gogomoa",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "gogo_h.htm"
+    },
+    "102": {
+      "name": "Kokomoa",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "koko_h.htm"
+    },
+    "103": {
+      "name": "Taikun Zamuza",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "taikun_h.htm"
+    },
+    "104": {
+      "name": "Abiorg",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": false,
+        "hr100": true,
+        "gr": false
+      },
+      "feriasCarvePage": "abio_h.htm",
+      "uncertainty": [
+        "Ferias monsname \"Abiorugu\" may not match G1 \"Abiorg\"; ranks taken from abio_h.htm carve columns."
+      ]
+    },
+    "105": {
+      "name": "Quarzeps",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "106": {
+      "name": "Odibataurus",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "107": {
+      "name": "Vorsphyroa",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "108": {
+      "name": "Levidiora",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "109": {
+      "name": "Anorpatis",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "110": {
+      "name": "Hyujikiki",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "hyuji_h.htm"
+    },
+    "111": {
+      "name": "Midogaron",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "mido_h.htm"
+    },
+    "112": {
+      "name": "Giaorg",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "113": {
+      "name": "Mi Ru",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "mi-ru_h.htm"
+    },
+    "114": {
+      "name": "Falnocatrice",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "115": {
+      "name": "Pokaradon",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "pokaradon_h.htm"
+    },
+    "116": {
+      "name": "Shantien",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "shan_h.htm"
+    },
+    "117": {
+      "name": "Pokara",
+      "ranks": {
+        "lr": false,
+        "hr": false,
+        "arena": false,
+        "hr100": false,
+        "gr": false
+      },
+      "feriasCarvePage": "pokara_h.htm"
+    },
+    "119": {
+      "name": "Aurisioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    },
+    "120": {
+      "name": "Argasioth",
+      "ranks": {
+        "lr": true,
+        "hr": true,
+        "arena": true,
+        "hr100": true,
+        "gr": false
+      },
+      "uncertainty": [
+        "No Ferias carve index entry in mons_h.htm; kept lr/hr/arena/hr100, gr false (G1 scope)."
+      ]
+    }
+  }
+}
