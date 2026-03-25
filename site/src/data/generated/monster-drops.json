@@ -67103,7 +67103,7 @@
   },
   {
     "monsterId": 91,
-    "monsterLabel": "Kamu Orugaron",
+    "monsterLabel": "Kamu Orgaron",
     "totalEntries": 110,
     "dropModes": [
       "capture",
@@ -67119,8 +67119,8 @@
     ],
     "drops": [
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -67130,8 +67130,8 @@
         "itemName": "F.Espinas Acid"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -67141,8 +67141,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -67152,8 +67152,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -67163,8 +67163,8 @@
         "itemName": "Toxin Sac"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67174,8 +67174,8 @@
         "itemName": "F.Espinas Horn+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67185,8 +67185,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67196,8 +67196,8 @@
         "itemName": "F.Espinas Spike+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67207,8 +67207,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67218,8 +67218,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67229,8 +67229,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "lr",
@@ -67240,8 +67240,8 @@
         "itemName": "F.Espinas Spike+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "lr",
@@ -67252,7 +67252,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67263,7 +67263,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67274,7 +67274,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67285,7 +67285,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67296,7 +67296,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67307,7 +67307,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67318,7 +67318,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67329,7 +67329,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -67339,8 +67339,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -67350,8 +67350,8 @@
         "itemName": "Orgaron Claw"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -67361,8 +67361,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -67372,8 +67372,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -67383,8 +67383,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -67394,8 +67394,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67405,8 +67405,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67416,8 +67416,8 @@
         "itemName": "Orgaron Spike+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67427,8 +67427,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67438,8 +67438,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67449,8 +67449,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67460,8 +67460,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67471,8 +67471,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67482,8 +67482,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67493,8 +67493,8 @@
         "itemName": "Orgaron Spike+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67504,8 +67504,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67515,8 +67515,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67526,8 +67526,8 @@
         "itemName": "Orgaron Fang"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67537,8 +67537,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67548,8 +67548,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -67559,8 +67559,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr",
@@ -67571,7 +67571,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67582,7 +67582,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67593,7 +67593,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67604,7 +67604,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67615,7 +67615,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67626,7 +67626,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67637,7 +67637,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -67647,8 +67647,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -67658,8 +67658,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -67669,8 +67669,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -67680,8 +67680,8 @@
         "itemName": "Monster Bone S"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -67691,8 +67691,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67702,8 +67702,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67713,8 +67713,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67724,8 +67724,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67735,8 +67735,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67746,8 +67746,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67757,8 +67757,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67768,8 +67768,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67779,8 +67779,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67790,8 +67790,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67801,8 +67801,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67812,8 +67812,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -67824,7 +67824,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67835,7 +67835,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67846,7 +67846,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67857,7 +67857,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67868,7 +67868,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67879,7 +67879,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67890,7 +67890,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67901,7 +67901,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -67911,8 +67911,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67922,8 +67922,8 @@
         "itemName": "Beast Tail"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67933,8 +67933,8 @@
         "itemName": "Beast Tail+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67944,8 +67944,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67955,8 +67955,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67966,8 +67966,8 @@
         "itemName": "Beast Lash"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67977,8 +67977,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67988,8 +67988,8 @@
         "itemName": "Capture Ticket"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -67999,8 +67999,8 @@
         "itemName": "Monster Oil+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68010,8 +68010,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68021,8 +68021,8 @@
         "itemName": "Beast Tail"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68032,8 +68032,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68043,8 +68043,8 @@
         "itemName": "Beast Tail+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68054,8 +68054,8 @@
         "itemName": "Beast Lash"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68065,8 +68065,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68076,8 +68076,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68087,8 +68087,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68098,8 +68098,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68109,8 +68109,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68120,8 +68120,8 @@
         "itemName": "Beast Spike"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68131,8 +68131,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68142,8 +68142,8 @@
         "itemName": "Beast Fang"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68153,8 +68153,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68164,8 +68164,8 @@
         "itemName": "Beast Fang+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68175,8 +68175,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68186,8 +68186,8 @@
         "itemName": "Beast Hardfang"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68197,8 +68197,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -68208,8 +68208,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Kamu Orugaron",
-        "monsterName": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
@@ -68220,7 +68220,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68231,7 +68231,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68242,7 +68242,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68253,7 +68253,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68264,7 +68264,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68275,7 +68275,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68286,7 +68286,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68297,7 +68297,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68308,7 +68308,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68319,7 +68319,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -68332,7 +68332,7 @@
   },
   {
     "monsterId": 92,
-    "monsterLabel": "Nono Orugaron",
+    "monsterLabel": "Nono Orgaron",
     "totalEntries": 110,
     "dropModes": [
       "capture",
@@ -68348,8 +68348,8 @@
     ],
     "drops": [
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -68359,8 +68359,8 @@
         "itemName": "F.Espinas Acid"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -68370,8 +68370,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -68381,8 +68381,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "lr",
@@ -68392,8 +68392,8 @@
         "itemName": "Toxin Sac"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68403,8 +68403,8 @@
         "itemName": "F.Espinas Horn+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68414,8 +68414,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68425,8 +68425,8 @@
         "itemName": "F.Espinas Spike+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68436,8 +68436,8 @@
         "itemName": "F.Espinas Cpc"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68447,8 +68447,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68458,8 +68458,8 @@
         "itemName": "F.Espinas Scale+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "lr",
@@ -68469,8 +68469,8 @@
         "itemName": "F.Espinas Spike+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "lr",
@@ -68481,7 +68481,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68492,7 +68492,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68503,7 +68503,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68514,7 +68514,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68525,7 +68525,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68536,7 +68536,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68547,7 +68547,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68558,7 +68558,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "lr",
@@ -68568,8 +68568,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -68579,8 +68579,8 @@
         "itemName": "Orgaron Claw"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -68590,8 +68590,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -68601,8 +68601,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -68612,8 +68612,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr",
@@ -68623,8 +68623,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68634,8 +68634,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68645,8 +68645,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68656,8 +68656,8 @@
         "itemName": "Orgaron Spike+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68667,8 +68667,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68678,8 +68678,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68689,8 +68689,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68700,8 +68700,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68711,8 +68711,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68722,8 +68722,8 @@
         "itemName": "Orgaron Spike+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68733,8 +68733,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68744,8 +68744,8 @@
         "itemName": "Orgaron Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68755,8 +68755,8 @@
         "itemName": "Orgaron Mane"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68766,8 +68766,8 @@
         "itemName": "Orgaron Blood"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68777,8 +68777,8 @@
         "itemName": "Orgaron Spike"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr",
@@ -68788,8 +68788,8 @@
         "itemName": "Crimson Pelt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr",
@@ -68800,7 +68800,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68811,7 +68811,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68822,7 +68822,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68833,7 +68833,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68844,7 +68844,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68855,7 +68855,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68866,7 +68866,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr",
@@ -68876,8 +68876,8 @@
         "itemName": "Orgaron Ruby"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -68887,8 +68887,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -68898,8 +68898,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -68909,8 +68909,8 @@
         "itemName": "Monster Bone S"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "arena",
@@ -68920,8 +68920,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68931,8 +68931,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68942,8 +68942,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68953,8 +68953,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68964,8 +68964,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68975,8 +68975,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68986,8 +68986,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -68997,8 +68997,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "arena",
@@ -69008,8 +69008,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -69019,8 +69019,8 @@
         "itemName": "Stone"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -69030,8 +69030,8 @@
         "itemName": "Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -69041,8 +69041,8 @@
         "itemName": "Max Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "arena",
@@ -69053,7 +69053,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69064,7 +69064,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69075,7 +69075,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69086,7 +69086,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69097,7 +69097,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69108,7 +69108,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69119,7 +69119,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69130,7 +69130,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "arena",
@@ -69140,8 +69140,8 @@
         "itemName": "Ancient Potion"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69151,8 +69151,8 @@
         "itemName": "Beast Tail"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69162,8 +69162,8 @@
         "itemName": "Beast Tail+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69173,8 +69173,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69184,8 +69184,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69195,8 +69195,8 @@
         "itemName": "Beast Lash"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69206,8 +69206,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69217,8 +69217,8 @@
         "itemName": "Capture Ticket"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Capture",
         "dropMode": "capture",
         "rank": "hr100",
@@ -69228,8 +69228,8 @@
         "itemName": "Monster Oil+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69239,8 +69239,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69250,8 +69250,8 @@
         "itemName": "Beast Tail"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69261,8 +69261,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69272,8 +69272,8 @@
         "itemName": "Beast Tail+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69283,8 +69283,8 @@
         "itemName": "Beast Lash"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69294,8 +69294,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Back",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69305,8 +69305,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69316,8 +69316,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69327,8 +69327,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69338,8 +69338,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69349,8 +69349,8 @@
         "itemName": "Beast Spike"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Head",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69360,8 +69360,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69371,8 +69371,8 @@
         "itemName": "Beast Fang"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69382,8 +69382,8 @@
         "itemName": "Beast Hide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69393,8 +69393,8 @@
         "itemName": "Beast Fang+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69404,8 +69404,8 @@
         "itemName": "Beast Hide+"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69415,8 +69415,8 @@
         "itemName": "Beast Hardfang"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69426,8 +69426,8 @@
         "itemName": "Beast Thickhide"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "Tail",
         "dropMode": "part_break",
         "rank": "hr100",
@@ -69437,8 +69437,8 @@
         "itemName": "Partbreaker Tkt"
       },
       {
-        "sourceLabel": "Nono Orugaron",
-        "monsterName": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "hardcore_carve",
         "rank": "hr100",
@@ -69449,7 +69449,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69460,7 +69460,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69471,7 +69471,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69482,7 +69482,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69493,7 +69493,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69504,7 +69504,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69515,7 +69515,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69526,7 +69526,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69537,7 +69537,7 @@
       },
       {
         "sourceLabel": "Body Carves (3)",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",
@@ -69548,7 +69548,7 @@
       },
       {
         "sourceLabel": "Shiny Drops",
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "partbreakType": "unknown",
         "dropMode": "carve",
         "rank": "hr100",

@@ -196,11 +196,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Capture"
@@ -232,11 +232,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Capture"
@@ -1108,11 +1108,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Back"
@@ -1120,11 +1120,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Head"
@@ -1132,11 +1132,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Tail"
@@ -1312,11 +1312,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Back"
@@ -1324,11 +1324,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Head"
@@ -1336,11 +1336,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion",
         "partbreakType": "Tail"
@@ -2418,7 +2418,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -2429,7 +2429,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -2539,7 +2539,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -2550,7 +2550,7 @@
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 7,
         "itemName": "Potion"
       },
@@ -3877,11 +3877,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Back"
@@ -3889,11 +3889,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Head"
@@ -3901,11 +3901,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Tail"
@@ -4057,11 +4057,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Back"
@@ -4069,11 +4069,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Head"
@@ -4081,11 +4081,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 27,
         "itemName": "Max Potion",
         "partbreakType": "Tail"
@@ -4719,11 +4719,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Capture"
@@ -4755,11 +4755,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Capture"
@@ -5739,11 +5739,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Back"
@@ -5751,11 +5751,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Head"
@@ -5763,11 +5763,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Tail"
@@ -5943,11 +5943,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Back"
@@ -5955,11 +5955,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Head"
@@ -5967,11 +5967,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion",
         "partbreakType": "Tail"
@@ -7049,7 +7049,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -7060,7 +7060,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -7159,7 +7159,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -7170,7 +7170,7 @@
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 28,
         "itemName": "Ancient Potion"
       },
@@ -9946,11 +9946,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Capture"
@@ -9982,11 +9982,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Capture"
@@ -10882,11 +10882,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Back"
@@ -10894,11 +10894,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Head"
@@ -10906,11 +10906,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Tail"
@@ -11086,11 +11086,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Back"
@@ -11098,11 +11098,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Head"
@@ -11110,11 +11110,11 @@
       {
         "methodType": "part_break",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone",
         "partbreakType": "Tail"
@@ -12257,7 +12257,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -12268,7 +12268,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -12400,7 +12400,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -12411,7 +12411,7 @@
         "chance": 45,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 215,
         "itemName": "Stone"
       },
@@ -16666,11 +16666,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S",
         "partbreakType": "Capture"
@@ -16690,11 +16690,11 @@
       {
         "methodType": "capture",
         "rank": "arena",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S",
         "partbreakType": "Capture"
@@ -17348,7 +17348,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -17359,7 +17359,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -17436,7 +17436,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -17447,7 +17447,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 312,
         "itemName": "Monster Bone S"
       },
@@ -18052,7 +18052,7 @@
         "chance": 18,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 314,
         "itemName": "Monster Bone L"
       },
@@ -18085,7 +18085,7 @@
         "chance": 18,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 314,
         "itemName": "Monster Bone L"
       },
@@ -20413,7 +20413,7 @@
         "chance": 80,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       },
@@ -20424,7 +20424,7 @@
         "chance": 80,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       },
@@ -20479,7 +20479,7 @@
         "chance": 50,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       },
@@ -20490,7 +20490,7 @@
         "chance": 50,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       },
@@ -20545,7 +20545,7 @@
         "chance": 50,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       },
@@ -20556,7 +20556,7 @@
         "chance": 50,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 326,
         "itemName": "Territorial Dung"
       }
@@ -40442,11 +40442,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 950,
         "itemName": "Toxin Sac",
         "partbreakType": "Capture"
@@ -40454,11 +40454,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 950,
         "itemName": "Toxin Sac",
         "partbreakType": "Capture"
@@ -44711,11 +44711,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Capture"
@@ -44723,11 +44723,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Capture"
@@ -44783,11 +44783,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Head"
@@ -44795,11 +44795,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 68,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Tail"
@@ -44807,11 +44807,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Head"
@@ -44819,11 +44819,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 68,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1053,
         "itemName": "F.Espinas Scale+",
         "partbreakType": "Tail"
@@ -45057,11 +45057,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Capture"
@@ -45069,11 +45069,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Capture"
@@ -45117,11 +45117,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 40,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Back"
@@ -45129,11 +45129,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Head"
@@ -45141,11 +45141,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 40,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Back"
@@ -45153,11 +45153,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1054,
         "itemName": "F.Espinas Cpc",
         "partbreakType": "Head"
@@ -45367,11 +45367,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 64,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1055,
         "itemName": "F.Espinas Spike+",
         "partbreakType": "Head"
@@ -45379,11 +45379,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1055,
         "itemName": "F.Espinas Spike+",
         "partbreakType": "Tail"
@@ -45391,11 +45391,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 64,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1055,
         "itemName": "F.Espinas Spike+",
         "partbreakType": "Head"
@@ -45403,11 +45403,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1055,
         "itemName": "F.Espinas Spike+",
         "partbreakType": "Tail"
@@ -45703,11 +45703,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 60,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1059,
         "itemName": "F.Espinas Horn+",
         "partbreakType": "Back"
@@ -45715,11 +45715,11 @@
       {
         "methodType": "part_break",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 60,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1059,
         "itemName": "F.Espinas Horn+",
         "partbreakType": "Back"
@@ -45781,11 +45781,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1060,
         "itemName": "F.Espinas Acid",
         "partbreakType": "Capture"
@@ -45793,11 +45793,11 @@
       {
         "methodType": "capture",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1060,
         "itemName": "F.Espinas Acid",
         "partbreakType": "Capture"
@@ -48436,11 +48436,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 16,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Capture"
@@ -48448,11 +48448,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 16,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Capture"
@@ -48556,11 +48556,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Back"
@@ -48568,11 +48568,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 31,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Head"
@@ -48580,11 +48580,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Tail"
@@ -48592,11 +48592,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Back"
@@ -48604,11 +48604,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 31,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Head"
@@ -48616,11 +48616,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide",
         "partbreakType": "Tail"
@@ -48744,7 +48744,7 @@
         "chance": 16,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide"
       },
@@ -48755,7 +48755,7 @@
         "chance": 16,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1268,
         "itemName": "Beast Hide"
       }
@@ -48792,11 +48792,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 14,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Capture"
@@ -48804,11 +48804,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 14,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Capture"
@@ -48912,11 +48912,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Back"
@@ -48924,11 +48924,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Head"
@@ -48936,11 +48936,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Tail"
@@ -48948,11 +48948,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Back"
@@ -48960,11 +48960,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Head"
@@ -48972,11 +48972,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+",
         "partbreakType": "Tail"
@@ -49100,7 +49100,7 @@
         "chance": 14,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+"
       },
@@ -49111,7 +49111,7 @@
         "chance": 14,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1269,
         "itemName": "Beast Hide+"
       }
@@ -49148,11 +49148,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Capture"
@@ -49160,11 +49160,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Capture"
@@ -49268,11 +49268,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Back"
@@ -49280,11 +49280,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 22,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Head"
@@ -49292,11 +49292,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Tail"
@@ -49304,11 +49304,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Back"
@@ -49316,11 +49316,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 22,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Head"
@@ -49328,11 +49328,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide",
         "partbreakType": "Tail"
@@ -49456,7 +49456,7 @@
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide"
       },
@@ -49467,7 +49467,7 @@
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1270,
         "itemName": "Beast Thickhide"
       }
@@ -49540,11 +49540,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1271,
         "itemName": "Beast Fang",
         "partbreakType": "Tail"
@@ -49552,11 +49552,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1271,
         "itemName": "Beast Fang",
         "partbreakType": "Tail"
@@ -49686,11 +49686,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1272,
         "itemName": "Beast Fang+",
         "partbreakType": "Tail"
@@ -49698,11 +49698,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1272,
         "itemName": "Beast Fang+",
         "partbreakType": "Tail"
@@ -49832,11 +49832,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1273,
         "itemName": "Beast Hardfang",
         "partbreakType": "Tail"
@@ -49844,11 +49844,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1273,
         "itemName": "Beast Hardfang",
         "partbreakType": "Tail"
@@ -50374,11 +50374,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail",
         "partbreakType": "Capture"
@@ -50386,11 +50386,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail",
         "partbreakType": "Capture"
@@ -50434,11 +50434,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail",
         "partbreakType": "Back"
@@ -50446,11 +50446,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 19,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail",
         "partbreakType": "Back"
@@ -50540,7 +50540,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail"
       },
@@ -50551,7 +50551,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1277,
         "itemName": "Beast Tail"
       },
@@ -50599,11 +50599,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+",
         "partbreakType": "Capture"
@@ -50611,11 +50611,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 18,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+",
         "partbreakType": "Capture"
@@ -50659,11 +50659,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+",
         "partbreakType": "Back"
@@ -50671,11 +50671,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+",
         "partbreakType": "Back"
@@ -50765,7 +50765,7 @@
         "chance": 18,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+"
       },
@@ -50776,7 +50776,7 @@
         "chance": 18,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1278,
         "itemName": "Beast Tail+"
       },
@@ -50824,11 +50824,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash",
         "partbreakType": "Capture"
@@ -50836,11 +50836,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash",
         "partbreakType": "Capture"
@@ -50884,11 +50884,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash",
         "partbreakType": "Back"
@@ -50896,11 +50896,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash",
         "partbreakType": "Back"
@@ -50990,7 +50990,7 @@
         "chance": 12,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash"
       },
@@ -51001,7 +51001,7 @@
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1279,
         "itemName": "Beast Lash"
       },
@@ -72977,11 +72977,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1444,
         "itemName": "Monster Oil+",
         "partbreakType": "Capture"
@@ -72989,11 +72989,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1444,
         "itemName": "Monster Oil+",
         "partbreakType": "Capture"
@@ -73347,7 +73347,7 @@
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1444,
         "itemName": "Monster Oil+"
       },
@@ -73413,7 +73413,7 @@
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1444,
         "itemName": "Monster Oil+"
       },
@@ -74061,11 +74061,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1446,
         "itemName": "Capture Ticket",
         "partbreakType": "Capture"
@@ -74109,11 +74109,11 @@
       {
         "methodType": "capture",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 5,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1446,
         "itemName": "Capture Ticket",
         "partbreakType": "Capture"
@@ -74979,11 +74979,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Back"
@@ -74991,11 +74991,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Head"
@@ -75003,11 +75003,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Tail"
@@ -75123,11 +75123,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Back"
@@ -75135,11 +75135,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Head"
@@ -75147,11 +75147,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 4,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1447,
         "itemName": "Partbreaker Tkt",
         "partbreakType": "Tail"
@@ -76384,7 +76384,7 @@
         "chance": 40,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1795,
         "itemName": "Pariapuria Hide"
       },
@@ -76395,7 +76395,7 @@
         "chance": 40,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1795,
         "itemName": "Pariapuria Hide"
       },
@@ -76518,7 +76518,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1796,
         "itemName": "Pariapuria Fang"
       },
@@ -76529,7 +76529,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1796,
         "itemName": "Pariapuria Fang"
       },
@@ -76706,7 +76706,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1798,
         "itemName": "Pariapuria Blood"
       },
@@ -76717,7 +76717,7 @@
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1798,
         "itemName": "Pariapuria Blood"
       },
@@ -76936,7 +76936,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1801,
         "itemName": "Pariapuria Liver"
       },
@@ -76947,7 +76947,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1801,
         "itemName": "Pariapuria Liver"
       },
@@ -77257,11 +77257,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1876,
         "itemName": "Orgaron Claw",
         "partbreakType": "Capture"
@@ -77269,11 +77269,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1876,
         "itemName": "Orgaron Claw",
         "partbreakType": "Capture"
@@ -77285,7 +77285,7 @@
         "chance": 46,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1876,
         "itemName": "Orgaron Claw"
       },
@@ -77296,7 +77296,7 @@
         "chance": 46,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1876,
         "itemName": "Orgaron Claw"
       }
@@ -77313,7 +77313,7 @@
         "chance": 19,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77324,18 +77324,18 @@
         "chance": 19,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Capture"
@@ -77343,11 +77343,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 32,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Capture"
@@ -77355,11 +77355,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Back"
@@ -77367,11 +77367,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 40,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Head"
@@ -77379,11 +77379,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 52,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Tail"
@@ -77391,11 +77391,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 42,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Back"
@@ -77403,11 +77403,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 40,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Head"
@@ -77415,11 +77415,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 50,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt",
         "partbreakType": "Tail"
@@ -77431,7 +77431,7 @@
         "chance": 48,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77442,7 +77442,7 @@
         "chance": 27,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77453,7 +77453,7 @@
         "chance": 48,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77464,7 +77464,7 @@
         "chance": 27,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77475,7 +77475,7 @@
         "chance": 48,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       },
@@ -77486,7 +77486,7 @@
         "chance": 48,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1877,
         "itemName": "Orgaron Pelt"
       }
@@ -77499,11 +77499,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1878,
         "itemName": "Orgaron Fang",
         "partbreakType": "Tail"
@@ -77517,11 +77517,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 20,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1879,
         "itemName": "Orgaron Mane",
         "partbreakType": "Tail"
@@ -77535,11 +77535,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1880,
         "itemName": "Orgaron Spike+",
         "partbreakType": "Back"
@@ -77547,11 +77547,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1880,
         "itemName": "Orgaron Spike+",
         "partbreakType": "Head"
@@ -77559,11 +77559,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1880,
         "itemName": "Orgaron Spike+",
         "partbreakType": "Back"
@@ -77571,11 +77571,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1880,
         "itemName": "Orgaron Spike+",
         "partbreakType": "Head"
@@ -77589,11 +77589,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Back"
@@ -77601,11 +77601,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Head"
@@ -77613,11 +77613,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 8,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Tail"
@@ -77625,11 +77625,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 8,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Back"
@@ -77637,11 +77637,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 30,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Head"
@@ -77649,11 +77649,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 10,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1881,
         "itemName": "Orgaron Spike",
         "partbreakType": "Tail"
@@ -77667,11 +77667,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 24,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Capture"
@@ -77679,11 +77679,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 21,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Capture"
@@ -77691,11 +77691,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 24,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Back"
@@ -77703,11 +77703,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 34,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Head"
@@ -77715,11 +77715,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 14,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Tail"
@@ -77727,11 +77727,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 37,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Back"
@@ -77739,11 +77739,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Head"
@@ -77751,11 +77751,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 17,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood",
         "partbreakType": "Tail"
@@ -77767,7 +77767,7 @@
         "chance": 24,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood"
       },
@@ -77778,7 +77778,7 @@
         "chance": 21,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1882,
         "itemName": "Orgaron Blood"
       }
@@ -77795,7 +77795,7 @@
         "chance": 1,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77806,18 +77806,18 @@
         "chance": 1,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 6,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby",
         "partbreakType": "Capture"
@@ -77825,11 +77825,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 12,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby",
         "partbreakType": "Capture"
@@ -77841,7 +77841,7 @@
         "chance": 3,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77852,7 +77852,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77863,7 +77863,7 @@
         "chance": 6,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77874,7 +77874,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77885,7 +77885,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       },
@@ -77896,7 +77896,7 @@
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1883,
         "itemName": "Orgaron Ruby"
       }
@@ -77909,11 +77909,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 6,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Capture"
@@ -77921,11 +77921,11 @@
       {
         "methodType": "capture",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 3,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Capture"
@@ -77933,11 +77933,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 6,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Back"
@@ -77945,11 +77945,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 6,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Head"
@@ -77957,11 +77957,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 6,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Tail"
@@ -77969,11 +77969,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 3,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Back"
@@ -77981,11 +77981,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 3,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Head"
@@ -77993,11 +77993,11 @@
       {
         "methodType": "part_break",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 3,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 1884,
         "itemName": "Crimson Pelt",
         "partbreakType": "Tail"
@@ -84242,22 +84242,22 @@
       {
         "methodType": "hardcore_carve",
         "rank": "lr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 4323,
         "itemName": "Orgaron Blade"
       },
       {
         "methodType": "hardcore_carve",
         "rank": "hr",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 4323,
         "itemName": "Orgaron Blade"
       }
@@ -84270,11 +84270,11 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 4324,
         "itemName": "Orgaron Ripper"
       }
@@ -84287,22 +84287,22 @@
       {
         "methodType": "hardcore_carve",
         "rank": "lr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 4325,
         "itemName": "Orgaron Purefur"
       },
       {
         "methodType": "hardcore_carve",
         "rank": "hr",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 4325,
         "itemName": "Orgaron Purefur"
       }
@@ -84315,11 +84315,11 @@
       {
         "methodType": "hardcore_carve",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 2,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 4326,
         "itemName": "Orgaron Glowfur"
       }
@@ -88872,11 +88872,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Kamu Orugaron",
+        "sourceLabel": "Kamu Orgaron",
         "chance": 15,
         "quantity": 1,
         "monsterId": 91,
-        "monsterName": "Kamu Orugaron",
+        "monsterName": "Kamu Orgaron",
         "itemId": 5726,
         "itemName": "Beast Spike",
         "partbreakType": "Head"
@@ -88884,11 +88884,11 @@
       {
         "methodType": "part_break",
         "rank": "hr100",
-        "sourceLabel": "Nono Orugaron",
+        "sourceLabel": "Nono Orgaron",
         "chance": 15,
         "quantity": 1,
         "monsterId": 92,
-        "monsterName": "Nono Orugaron",
+        "monsterName": "Nono Orgaron",
         "itemId": 5726,
         "itemName": "Beast Spike",
         "partbreakType": "Head"
