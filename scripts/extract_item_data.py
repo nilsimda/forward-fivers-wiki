@@ -60,7 +60,23 @@ class ItemStructFields:
     buy_price: int
     sell_price: int
     item_type: int
-    isGz: bool
+    is_gz_raw: int
+
+    def __post_init__(self) -> None:
+        """Basic Sanity check of the field ranges after loading the struct."""
+        if self.is_gz_raw not in (0, 1):
+            raise ValueError(f"is_gz_raw must be 0 or 1, got {self.is_gz_raw}")
+        if not self.icon <= 0x5D:
+            raise ValueError(f"icon must be smaller than 0x5D, got {self.icon}")
+        if not self.icon_color <= 0x0A:
+            raise ValueError(
+                f"icon color must be smaller than 0x0A, got {self.icon_color}"
+            )
+        # TODO: check max rarity (what is it?)
+
+    @property
+    def isGz(self) -> bool:
+        return self.is_gz_raw == 1
 
     @classmethod
     def from_unpacked(cls, unpacked: tuple[int, ...]) -> "ItemStructFields":
@@ -72,7 +88,7 @@ class ItemStructFields:
             buy_price=unpacked[10],
             sell_price=unpacked[11],
             item_type=unpacked[12],
-            isGz=unpacked[-2] == 1,
+            is_gz_raw=unpacked[-2],
         )
 
 
