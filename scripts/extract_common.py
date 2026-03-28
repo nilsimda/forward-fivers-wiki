@@ -111,30 +111,22 @@ def default_wiki_hidden_item_ids_path(items_source: Path) -> Path:
 
 
 def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
-    if not path.exists():
-        return frozenset()
     item_ids: list[int] = json.loads(path.read_text(encoding="utf-8"))["itemIds"]
     return frozenset(item_ids)
 
 
 def load_item_names(items_source_path: Path) -> dict[int, str]:
-    if not items_source_path.exists():
-        return {}
     data = json.loads(items_source_path.read_text(encoding="utf-8"))
     return {row["item_index"]: row["name"] for row in data}
 
 
 def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
-    if not monster_names_json_path.exists():
-        return {}
     raw = json.loads(monster_names_json_path.read_text(encoding="utf-8"))
     return {int(mon_id): mon_name for mon_id, mon_name in raw.items()}
 
 
-def load_optional_json_object(path: Path) -> dict[str, Any]:
-    """Load a JSON object; missing file yields {}. Non-object JSON raises."""
-    if not path.exists():
-        return {}
+def load_json_object(path: Path) -> dict[str, Any]:
+    """Load a required JSON object. Missing file or non-object JSON raises."""
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError(f"Expected JSON object in {path}")

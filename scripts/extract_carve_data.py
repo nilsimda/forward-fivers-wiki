@@ -2,13 +2,14 @@
 import argparse
 import struct
 from pathlib import Path
+from typing import Literal, TypedDict, cast
 
 from extract_common import (
     REPO_ROOT,
     default_wiki_hidden_item_ids_path,
     load_item_names,
+    load_json_object,
     load_monster_names,
-    load_optional_json_object,
     load_wiki_hidden_item_ids,
     read_u16,
     read_u32,
@@ -55,6 +56,50 @@ FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID = 116
 FRONTIER_SHARED_CARVE_DEDUPE_RANKS = frozenset({"lr", "hr", "hr100"})
 
 
+CarvePath = Literal["primary", "secondary"]
+
+
+class AssocEntry(TypedDict):
+    association_entry_offset: int
+    primary_ptr: int
+    secondary_ptr: int
+    secondary_count: int
+
+
+class CarveRowBase(TypedDict):
+    monster_id: int
+    monster_name: str
+    path: CarvePath
+    record_index: int
+    rank_slot: int
+    rank_label: str
+    dt_index: int
+    dt_pointer: str
+    record_offset: str
+    entry_offset: str
+    drop_index_in_table: int
+    percentage: int
+    item_id: int
+    item_name: str
+    association_entry_offset: str
+    primary_ptr: str
+    secondary_ptr: str
+    secondary_count: int
+    primary_num_carves: int | None
+
+
+class CarveRow(CarveRowBase):
+    source_label: str
+
+
+class CarveMonsterLabels(TypedDict):
+    primary: dict[str, str]
+    secondary: dict[str, str]
+
+
+CarveLabels = dict[str, CarveMonsterLabels]
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Extract regular carve table data from mhfdat.raw.bin into flat JSON."
@@ -90,7 +135,7 @@ def parse_args() -> argparse.Namespace:
         "--monster-carve-labels",
         type=Path,
         default=MONSTER_CARVE_LABELS_DEFAULT,
-        help="Optional carve labels (primary/secondary record_index -> label); __ignore__ drops rows.",
+        help="Carve labels (primary/secondary record_index -> label); __ignore__ drops rows.",
     )
     return parser.parse_args()
 
@@ -156,7 +201,7 @@ def parse_all_carve_tables(
     return pointers, tables
 
 
-def read_assoc_entry(raw: bytes, assoc_base: int, monster_id: int) -> dict[str, int]:
+def read_assoc_entry(raw: bytes, assoc_base: int, monster_id: int) -> AssocEntry:
     entry_offset = assoc_base + monster_id * ASSOC_ENTRY_SIZE
     if entry_offset < 0 or entry_offset + ASSOC_ENTRY_SIZE > len(raw):
         raise ValueError(
@@ -218,16 +263,16 @@ def flatten_rows(
     assoc_base: int,
     carve_dt_pointers: list[int],
     carve_tables: dict[int, list[dict[str, int]]],
-) -> list[dict[str, int | str | None]]:
-    rows: list[dict[str, int | str | None]] = []
+) -> list[CarveRowBase]:
+    rows: list[CarveRowBase] = []
 
     for monster_id in sorted(monster_names_by_id.keys()):
         monster_name = monster_names_by_id[monster_id]
         assoc = read_assoc_entry(raw, assoc_base, monster_id)
 
-        primary_ptr = int(assoc["primary_ptr"])
-        secondary_ptr = int(assoc["secondary_ptr"])
-        secondary_count = int(assoc["secondary_count"])
+        primary_ptr = assoc["primary_ptr"]
+        secondary_ptr = assoc["secondary_ptr"]
+        secondary_count = assoc["secondary_count"]
 
         # Ignore all-zero/sentinel assoc entries.
         if primary_ptr == 0 and secondary_ptr == 0 and secondary_count == 0:
@@ -272,7 +317,7 @@ def flatten_rows(
                     dt_pointer = carve_dt_pointers[dt_index]
                     drops = carve_tables[dt_index]
                     for drop in drops:
-                        item_id = int(drop["item_id"])
+                        item_id = drop["item_id"]
                         if item_id in wiki_hidden_item_ids:
                             continue
                         rows.append(
@@ -290,10 +335,8 @@ def flatten_rows(
                                 "drop_index_in_table": drop["drop_index_in_table"],
                                 "percentage": drop["percentage"],
                                 "item_id": item_id,
-                                "item_name": item_names_by_id.get(
-                                    item_id, f"Item {item_id}"
-                                ),
-                                "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
+                                "item_name": item_names_by_id[item_id],
+                                "association_entry_offset": f"0x{assoc['association_entry_offset']:08X}",
                                 "primary_ptr": f"0x{primary_ptr:08X}",
                                 "secondary_ptr": f"0x{secondary_ptr:08X}",
                                 "secondary_count": secondary_count,
@@ -331,7 +374,7 @@ def flatten_rows(
                     dt_pointer = carve_dt_pointers[dt_index]
                     drops = carve_tables[dt_index]
                     for drop in drops:
-                        item_id = int(drop["item_id"])
+                        item_id = drop["item_id"]
                         if item_id in wiki_hidden_item_ids:
                             continue
                         rows.append(
@@ -349,10 +392,8 @@ def flatten_rows(
                                 "drop_index_in_table": drop["drop_index_in_table"],
                                 "percentage": drop["percentage"],
                                 "item_id": item_id,
-                                "item_name": item_names_by_id.get(
-                                    item_id, f"Item {item_id}"
-                                ),
-                                "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
+                                "item_name": item_names_by_id[item_id],
+                                "association_entry_offset": f"0x{assoc['association_entry_offset']:08X}",
                                 "primary_ptr": f"0x{primary_ptr:08X}",
                                 "secondary_ptr": f"0x{secondary_ptr:08X}",
                                 "secondary_count": secondary_count,
@@ -364,8 +405,8 @@ def flatten_rows(
 
 
 def filter_frontier_shared_carve_pool_duplicates(
-    rows: list[dict[str, int | str | None]],
-) -> list[dict[str, int | str | None]]:
+    rows: list[CarveRowBase],
+) -> list[CarveRowBase]:
     """
     Drop duplicate references to the shared arena-rank carve pool (DT 801, etc.): same idea as
     Quarzeps partbreak. Anchor monster defines which dt_index values per rank are treated as
@@ -373,24 +414,22 @@ def filter_frontier_shared_carve_pool_duplicates(
     """
     anchor_dt_by_rank: dict[str, set[int]] = {}
     for row in rows:
-        monster_id = _required_int(row.get("monster_id"), field="monster_id")
+        monster_id = row["monster_id"]
         if monster_id != FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID:
             continue
-        rank = str(row.get("rank_label", "")).strip().lower()
+        rank = row["rank_label"]
         if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
             continue
-        anchor_dt_by_rank.setdefault(rank, set()).add(
-            _required_int(row.get("dt_index"), field="dt_index")
-        )
+        anchor_dt_by_rank.setdefault(rank, set()).add(row["dt_index"])
 
     if not anchor_dt_by_rank:
         return rows
 
-    kept: list[dict[str, int | str | None]] = []
+    kept: list[CarveRowBase] = []
     removed = 0
     for row in rows:
-        monster_id = _required_int(row.get("monster_id"), field="monster_id")
-        rank = str(row.get("rank_label", "")).strip().lower()
+        monster_id = row["monster_id"]
+        rank = row["rank_label"]
         if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
             kept.append(row)
             continue
@@ -398,7 +437,7 @@ def filter_frontier_shared_carve_pool_duplicates(
         if not indices:
             kept.append(row)
             continue
-        if _required_int(row.get("dt_index"), field="dt_index") in indices:
+        if row["dt_index"] in indices:
             removed += 1
             continue
         kept.append(row)
@@ -409,101 +448,35 @@ def filter_frontier_shared_carve_pool_duplicates(
     return kept
 
 
-def _coerce_primary_num_carves(value: object) -> int | None:
-    if value is None:
-        return None
-    if isinstance(value, str) and value.strip() == "":
-        return None
-    if isinstance(value, int):
-        return value
-    if isinstance(value, str):
-        try:
-            return int(value)
-        except ValueError:
-            return None
-    return None
-
-
-def _required_int(value: int | str | None, *, field: str) -> int:
-    if isinstance(value, int):
-        return value
-    if isinstance(value, str):
-        try:
-            return int(value)
-        except ValueError as exc:
-            raise ValueError(
-                f"Expected integer-like value for {field}, got {value!r}"
-            ) from exc
-    raise ValueError(f"Missing integer value for {field}")
-
-
 def format_carve_source_label(
-    labels: dict[str, object],
+    labels: CarveLabels,
     monster_id: int,
-    path_label: str,
+    path_label: CarvePath,
     record_index: int,
-    primary_num_carves: int | None,
 ) -> str | None:
-    """Match site/scripts/build-data.mjs formatCarveSourceLabel; None means __ignore__."""
-    path_lower = path_label.strip().lower()
-    suffix = ""
-    if primary_num_carves is not None:
-        suffix = f" ({primary_num_carves})"
-
-    monster_labels = labels.get(str(monster_id))
-    if not isinstance(monster_labels, dict):
-        monster_labels = {}
-
-    if path_lower == "primary":
-        prim = monster_labels.get("primary")
-        if not isinstance(prim, dict):
-            prim = {}
-        raw_manual = prim.get(str(record_index))
-        manual = raw_manual.strip() if isinstance(raw_manual, str) else ""
-        if manual == "__ignore__":
-            return None
-        if manual:
-            return manual
-        if record_index == 0:
-            return f"Body Carves{suffix}"
-        return f"Non Body Carve Primary {record_index}{suffix}"
-
-    if path_lower == "secondary":
-        sec = monster_labels.get("secondary")
-        if not isinstance(sec, dict):
-            sec = {}
-        raw_manual = sec.get(str(record_index))
-        manual = raw_manual.strip() if isinstance(raw_manual, str) else ""
-        if manual == "__ignore__":
-            return None
-        if manual:
-            return manual
-        return f"Secondary Carve {record_index}"
-
-    return f"Carve {record_index}"
+    """Set source label from required labels JSON; None means __ignore__."""
+    manual = labels[str(monster_id)][path_label][str(record_index)]
+    return None if manual == "__ignore__" else manual
 
 
 def apply_carve_source_labels(
-    rows: list[dict[str, int | str | None]],
-    labels: dict[str, object],
-) -> list[dict[str, int | str | None]]:
+    rows: list[CarveRowBase],
+    labels: CarveLabels,
+) -> list[CarveRow]:
     """Set source_label for each row; drop rows marked __ignore__ in labels."""
-    out: list[dict[str, int | str | None]] = []
+    out: list[CarveRow] = []
     ignored = 0
     for row in rows:
-        num_carves = _coerce_primary_num_carves(row.get("primary_num_carves"))
         sl = format_carve_source_label(
             labels,
-            _required_int(row.get("monster_id"), field="monster_id"),
-            str(row.get("path", "")),
-            _required_int(row.get("record_index"), field="record_index"),
-            num_carves,
+            row["monster_id"],
+            row["path"],
+            row["record_index"],
         )
         if sl is None:
             ignored += 1
             continue
-        new_row = dict(row)
-        new_row["source_label"] = sl
+        new_row: CarveRow = {**row, "source_label": sl}
         out.append(new_row)
 
     if ignored > 0:
@@ -513,19 +486,19 @@ def apply_carve_source_labels(
 
 
 def dedupe_carve_rows_for_build(
-    rows: list[dict[str, int | str | None]],
-) -> list[dict[str, int | str | None]]:
+    rows: list[CarveRow],
+) -> list[CarveRow]:
     """Same key as former build-data.mjs buildCarveMethods dedupe."""
     seen: set[tuple[object, ...]] = set()
-    out: list[dict[str, int | str | None]] = []
+    out: list[CarveRow] = []
     for r in rows:
         key = (
             "carve",
-            str(r["rank_label"]).lower(),
-            str(r["source_label"]),
-            _required_int(r.get("monster_id"), field="monster_id"),
-            _required_int(r.get("item_id"), field="item_id"),
-            _required_int(r.get("percentage"), field="percentage"),
+            r["rank_label"],
+            r["source_label"],
+            r["monster_id"],
+            r["item_id"],
+            r["percentage"],
             1,
         )
         if key in seen:
@@ -573,12 +546,12 @@ def main() -> None:
         args.items_source
     )
     wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
-    carve_labels = load_optional_json_object(args.monster_carve_labels)
+    carve_labels = cast(CarveLabels, load_json_object(args.monster_carve_labels))
     carve_dt_pointers, carve_tables = parse_all_carve_tables(
         raw, carve_dt_pointer_array_base, carve_dt_count
     )
 
-    rows = flatten_rows(
+    base_rows = flatten_rows(
         raw=raw,
         monster_names_by_id=monster_names_by_id,
         item_names_by_id=item_names_by_id,
@@ -587,9 +560,9 @@ def main() -> None:
         carve_dt_pointers=carve_dt_pointers,
         carve_tables=carve_tables,
     )
-    rows = filter_frontier_shared_carve_pool_duplicates(rows)
-    rows = apply_carve_source_labels(rows, carve_labels)
-    rows = dedupe_carve_rows_for_build(rows)
+    filtered_rows = filter_frontier_shared_carve_pool_duplicates(base_rows)
+    labeled_rows = apply_carve_source_labels(filtered_rows, carve_labels)
+    rows = dedupe_carve_rows_for_build(labeled_rows)
 
     write_json_output(args.output, rows)
 

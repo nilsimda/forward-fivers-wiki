@@ -3,14 +3,14 @@ import argparse
 import struct
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Literal, TypedDict
+from typing import Literal, TypedDict, cast
 
 from extract_common import (
     REPO_ROOT,
     default_wiki_hidden_item_ids_path,
     load_item_names,
+    load_json_object,
     load_monster_names,
-    load_optional_json_object,
     load_wiki_hidden_item_ids,
     read_pointer_array,
     read_u16,
@@ -159,11 +159,11 @@ def read_pdt_count(raw: bytes) -> int:
 
 
 def monster_name_for(monster_names_by_id: dict[int, str], monster_id: int) -> str:
-    return monster_names_by_id.get(monster_id, f"Monster {monster_id}")
+    return monster_names_by_id[monster_id]
 
 
 def item_name_for(item_names_by_id: dict[int, str], item_id: int) -> str:
-    return item_names_by_id.get(item_id, f"Item {item_id}")
+    return item_names_by_id[item_id]
 
 
 def drop_mode_for(partbreak_type: int) -> str:
@@ -199,13 +199,13 @@ def parse_args() -> argparse.Namespace:
         "--monster-names-json",
         type=Path,
         default=MONSTER_NAMES_JSON_DEFAULT,
-        help="Optional JSON object mapping monster_id keys to display names.",
+        help="JSON object mapping monster_id keys to display names.",
     )
     parser.add_argument(
         "--monster-partbreak-labels",
         type=Path,
         default=MONSTER_PARTBREAK_LABELS_DEFAULT,
-        help="Optional monster_id -> partbreak_type_raw -> display label; __ignore__ drops part_break rows.",
+        help="monster_id -> partbreak_type_raw -> display label; __ignore__ drops part_break rows.",
     )
     return parser.parse_args()
 
@@ -334,49 +334,23 @@ def build_partbreak_rows(
     return rows
 
 
-def resolve_partbreak_label(
-    labels: dict[str, object], monster_id: int, partbreak_type_raw: str
-) -> str | None:
-    entry = labels.get(str(monster_id))
-    if not isinstance(entry, dict):
-        return None
-    val = entry.get(partbreak_type_raw)
-    if not isinstance(val, str):
-        return None
-    trimmed = val.strip()
-    return None if trimmed == "" else trimmed
-
-
 def apply_partbreak_display_labels(
     rows: list[PartbreakRowBase],
-    labels: dict[str, object],
+    labels: dict[str, dict[str, str]],
 ) -> list[PartbreakRow]:
     """Set partbreak_type (wiki display); drop part_break rows labeled __ignore__."""
     out: list[PartbreakRow] = []
     ignored = 0
     for row in rows:
-        raw_type = str(row.get("partbreak_type_raw", "")).strip()
-        manual = resolve_partbreak_label(labels, row["monster_id"], raw_type)
-        drop_mode = str(row.get("drop_mode", "")).strip().lower()
+        raw_type = row["partbreak_type_raw"]
+        manual = labels[str(row["monster_id"])][raw_type]
+        drop_mode = row["drop_mode"]
 
         if drop_mode == "part_break" and manual == "__ignore__":
             ignored += 1
             continue
 
-        if drop_mode == "part_break":
-            partbreak_type: str = (
-                (manual if manual and manual != "__ignore__" else None)
-                or raw_type
-                or "unknown"
-            )
-        elif raw_type:
-            partbreak_type = (
-                manual if manual and manual != "__ignore__" else None
-            ) or raw_type
-        else:
-            partbreak_type = (
-                manual if manual and manual != "__ignore__" else None
-            ) or ""
+        partbreak_type = raw_type if manual == "__ignore__" else manual
 
         new_row: PartbreakRow = {**row, "partbreak_type": partbreak_type}
         out.append(new_row)
@@ -393,7 +367,7 @@ def extract_partbreak_rows(
     item_names_by_id: dict[int, str],
     monster_names_by_id: dict[int, str],
     wiki_hidden_item_ids: frozenset[int],
-    partbreak_labels: dict[str, object],
+    partbreak_labels: dict[str, dict[str, str]],
 ) -> tuple[list[PartbreakRow], int, int]:
     drop_table_pointer_array_base = read_u32(
         raw, DROP_TABLE_POINTER_HEADER_ADDRESS, "drop_table_pointer_header"
@@ -430,7 +404,9 @@ def main() -> None:
 
     item_names_by_id = load_item_names(args.items_source)
     monster_names_by_id = load_monster_names(args.monster_names_json)
-    partbreak_labels = load_optional_json_object(args.monster_partbreak_labels)
+    partbreak_labels = cast(
+        dict[str, dict[str, str]], load_json_object(args.monster_partbreak_labels)
+    )
     hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
         args.items_source
     )

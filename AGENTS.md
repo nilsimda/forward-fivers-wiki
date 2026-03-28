@@ -48,3 +48,9 @@ After changing files in `scripts/`, run:
 
 - `uv run ruff check .`
 - `uv run mypy scripts`
+
+## Extract script data contracts
+
+- Treat JSON sidecar inputs as required and strict across pipelines (`_items-source.json`, `monster_names.json`, carve/partbreak label files, and `_wiki-hidden-item-ids.json`).
+- Do not add fallback behavior for missing files, missing keys, or type coercion in extract loaders; fail loudly instead.
+- Keep binary pointer/bounds/sentinel checks strict (these are safety checks, not optional input handling).
