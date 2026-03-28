@@ -69,6 +69,7 @@ const descriptionColorClassByCode: Record<string, string> = {
 };
 const getDescriptionSegmentClass = (colorCode: string | null) =>
   colorCode ? descriptionColorClassByCode[colorCode] || 'text-slate-300' : 'text-slate-300';
+const currencyUnit = item.isGz ? 'Gz' : 'z';
 
 const groupedMethodsMap = new Map<string, { rank: string; methodType: string; methods: AcquisitionMethod[] }>();
 
@@ -143,8 +144,8 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
       <div class="panel">
         <h2 class="text-lg">Economy</h2>
         <dl class="mt-3 space-y-2 text-sm text-slate-300">
-          <div class="flex justify-between gap-3"><dt>Buy price</dt><dd>{item.buyPrice}</dd></div>
-          <div class="flex justify-between gap-3"><dt>Sell price</dt><dd>{item.sellPrice}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Buy price</dt><dd>{item.buyPrice}{currencyUnit}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Sell price</dt><dd>{item.sellPrice}{currencyUnit}</dd></div>
         </dl>
       </div>
     </section>

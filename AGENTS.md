@@ -41,3 +41,10 @@ available data in the g1_data/ subfolder. Currently available is:
 - extracted item metadata from binary sources
 - extracted monster part break and drop rows from binary sources
 - editable `monster_id -> monster_name` mappings in `g1_data/monster_names.json`
+
+## Python script checks
+
+After changing files in `scripts/`, run:
+
+- `uv run ruff check .`
+- `uv run mypy scripts`

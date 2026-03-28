@@ -101,11 +101,11 @@ def main() -> None:
     records = decode_records(blob)
     hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
     hidden = load_wiki_hidden_item_ids(hidden_path)
-    records = scrub_wiki_hidden_item_slots(records, hidden)
+    scrubbed_records = scrub_wiki_hidden_item_slots(records, hidden)
 
-    write_json_output(args.output, records)
+    write_json_output(args.output, scrubbed_records)
 
-    print(f"Decoded {len(records)} HCC records")
+    print(f"Decoded {len(scrubbed_records)} HCC records")
 
 
 if __name__ == "__main__":

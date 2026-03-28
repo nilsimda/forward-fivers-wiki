@@ -347,13 +347,15 @@ def filter_frontier_shared_carve_pool_duplicates(
     """
     anchor_dt_by_rank: dict[str, set[int]] = {}
     for row in rows:
-        monster_id = int(row["monster_id"])
+        monster_id = _required_int(row.get("monster_id"), field="monster_id")
         if monster_id != FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID:
             continue
         rank = str(row.get("rank_label", "")).strip().lower()
         if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
             continue
-        anchor_dt_by_rank.setdefault(rank, set()).add(int(row["dt_index"]))
+        anchor_dt_by_rank.setdefault(rank, set()).add(
+            _required_int(row.get("dt_index"), field="dt_index")
+        )
 
     if not anchor_dt_by_rank:
         return rows
@@ -361,7 +363,7 @@ def filter_frontier_shared_carve_pool_duplicates(
     kept: list[dict[str, int | str | None]] = []
     removed = 0
     for row in rows:
-        monster_id = int(row["monster_id"])
+        monster_id = _required_int(row.get("monster_id"), field="monster_id")
         rank = str(row.get("rank_label", "")).strip().lower()
         if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
             kept.append(row)
@@ -370,7 +372,7 @@ def filter_frontier_shared_carve_pool_duplicates(
         if not indices:
             kept.append(row)
             continue
-        if int(row["dt_index"]) in indices:
+        if _required_int(row.get("dt_index"), field="dt_index") in indices:
             removed += 1
             continue
         kept.append(row)
@@ -388,10 +390,23 @@ def _coerce_primary_num_carves(value: object) -> int | None:
         return None
     if isinstance(value, int):
         return value
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return None
+    if isinstance(value, str):
+        try:
+            return int(value)
+        except ValueError:
+            return None
+    return None
+
+
+def _required_int(value: int | str | None, *, field: str) -> int:
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str):
+        try:
+            return int(value)
+        except ValueError as exc:
+            raise ValueError(f"Expected integer-like value for {field}, got {value!r}") from exc
+    raise ValueError(f"Missing integer value for {field}")
 
 
 def format_carve_source_label(
@@ -451,9 +466,9 @@ def apply_carve_source_labels(
         num_carves = _coerce_primary_num_carves(row.get("primary_num_carves"))
         sl = format_carve_source_label(
             labels,
-            int(row["monster_id"]),
+            _required_int(row.get("monster_id"), field="monster_id"),
             str(row.get("path", "")),
-            int(row["record_index"]),
+            _required_int(row.get("record_index"), field="record_index"),
             num_carves,
         )
         if sl is None:
@@ -480,9 +495,9 @@ def dedupe_carve_rows_for_build(
             "carve",
             str(r["rank_label"]).lower(),
             str(r["source_label"]),
-            int(r["monster_id"]),
-            int(r["item_id"]),
-            int(r["percentage"]),
+            _required_int(r.get("monster_id"), field="monster_id"),
+            _required_int(r.get("item_id"), field="item_id"),
+            _required_int(r.get("percentage"), field="percentage"),
             1,
         )
         if key in seen:

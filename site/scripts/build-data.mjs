@@ -103,6 +103,8 @@ function buildItems(rows) {
     .map((row, index) => {
       const id = parseNumber(row.item_index, `items row ${index + 1} item_index`);
       const descriptionRaw = (row.description || '').trim();
+      const rarityPlusOne = parseNumber(row.rarity_plus_one, `items row ${index + 1} rarity_plus_one`);
+      const rarityRawSource = row.rarity_raw ?? rarityPlusOne - 1;
       if (row.descriptionPlain === undefined || !Array.isArray(row.descriptionSegments)) {
         throw new Error(
           `items row ${index + 1}: missing descriptionPlain/descriptionSegments — run scripts/extract_item_data.py`
@@ -116,13 +118,14 @@ function buildItems(rows) {
         descriptionRaw,
         descriptionPlain: row.descriptionPlain,
         descriptionSegments: row.descriptionSegments,
-        rarityRaw: parseNumber(row.rarity_raw, `items row ${index + 1} rarity_raw`),
-        rarityPlusOne: parseNumber(row.rarity_plus_one, `items row ${index + 1} rarity_plus_one`),
+        rarityRaw: parseNumber(rarityRawSource, `items row ${index + 1} rarity_raw`),
+        rarityPlusOne,
         maxStack: parseNumber(row.maxStack, `items row ${index + 1} maxStack`),
         icon: parseNumber(row.icon, `items row ${index + 1} icon`),
         iconColor: parseNumber(row.iconColor, `items row ${index + 1} iconColor`),
         buyPrice: parseNumber(row.buyPrice, `items row ${index + 1} buyPrice`),
         sellPrice: parseNumber(row.sellPrice, `items row ${index + 1} sellPrice`),
+        isGz: parseBoolean(row.isGz, `items row ${index + 1} isGz`, false),
         type: parseNumber(row.type, `items row ${index + 1} type`)
       };
     })
@@ -492,6 +495,22 @@ function parseNumber(value, label) {
   }
 
   return parsed;
+}
+
+/**
+ * @param {unknown} value
+ * @param {string} label
+ * @param {boolean} defaultValue
+ */
+function parseBoolean(value, label, defaultValue) {
+  if (typeof value === 'boolean') return value;
+  if (typeof value === 'number') return value !== 0;
+
+  const normalized = String(value ?? '').trim().toLowerCase();
+  if (!normalized) return defaultValue;
+  if (normalized === 'true' || normalized === '1') return true;
+  if (normalized === 'false' || normalized === '0') return false;
+  throw new Error(`Invalid boolean value "${value}" for ${label}`);
 }
 
 /**

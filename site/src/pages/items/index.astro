@@ -10,7 +10,8 @@ const clientItems = sortedItems.map((item) => ({
   description: item.descriptionPlain || item.description || '',
   rarityPlusOne: item.rarityPlusOne,
   buyPrice: item.buyPrice,
-  sellPrice: item.sellPrice
+  sellPrice: item.sellPrice,
+  isGz: item.isGz === true
 }));
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
@@ -108,9 +109,9 @@ const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
         const rarityCell = document.createElement('td');
         rarityCell.textContent = String(item.rarityPlusOne);
         const buyCell = document.createElement('td');
-        buyCell.textContent = String(item.buyPrice);
+        buyCell.textContent = `${item.buyPrice}${item.isGz ? 'Gz' : 'z'}`;
         const sellCell = document.createElement('td');
-        sellCell.textContent = String(item.sellPrice);
+        sellCell.textContent = `${item.sellPrice}${item.isGz ? 'Gz' : 'z'}`;
 
         row.append(idCell, nameCell, rarityCell, buyCell, sellCell);
         fragment.appendChild(row);

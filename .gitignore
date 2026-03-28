@@ -2,3 +2,5 @@ ferias_reference/
 .venv/
 .DS_Store
 .cursor/
+tests/
+**/__pycache__

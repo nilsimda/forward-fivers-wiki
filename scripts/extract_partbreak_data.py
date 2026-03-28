@@ -16,10 +16,16 @@ from extract_common import (
 )
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
-OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_partbreak-source.json"
-ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+OUTPUT_DEFAULT = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "_partbreak-source.json"
+)
+ITEMS_SOURCE_DEFAULT = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+)
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
-MONSTER_PARTBREAK_LABELS_DEFAULT = REPO_ROOT / "g1_data" / "monster_partbreak_labels.json"
+MONSTER_PARTBREAK_LABELS_DEFAULT = (
+    REPO_ROOT / "g1_data" / "monster_partbreak_labels.json"
+)
 
 DROP_TABLE_POINTER_HEADER_ADDRESS = 0x00000128
 MAPPING_POINTER_HEADER_ADDRESS = 0x0000012C
@@ -29,7 +35,7 @@ MAPPING_SIZE = struct.calcsize(MAPPING_FMT)
 DROP_FMT = "<HHH"
 DROP_SIZE = struct.calcsize(DROP_FMT)
 
-MAPPING_TERMINATOR = b"\xFF\xFF"
+MAPPING_TERMINATOR = b"\xff\xff"
 DROP_TERMINATOR = 0xFFFF
 
 RANK_COLUMNS = [
@@ -40,27 +46,22 @@ RANK_COLUMNS = [
     ("gr", "grankPDTIndex"),
 ]
 
-# Quarzeps (id 105): grank monsters' LR/HR/HR100 slots sometimes reuse its PDT indices as fallbacks;
-# drop those rows so only Quarzeps keeps that data
-QUARZEPS_MONSTER_ID = 105
-QUARZEPS_FALLBACK_RANKS = frozenset({"lr", "hr", "hr100"})
 
-
-def should_skip_rank_entry(rank: str, pdt_index: int, monster_id: int, mapping_index: int) -> bool:
-    # Reverse-engineering note: grank index 0x0000 is usually a "no entry" sentinel.
-    # Keep a narrow exception for the first Rathian mapping if it ever uses index 0x0000.
-    if rank == "gr" and pdt_index == 0:
-        if monster_id == 1 and mapping_index == 0:
-            return False
-        return True
-    return False
+def should_skip_rank_entry(
+    rank: str,
+    pdt_index: int,
+) -> bool:
+    # grank index 0x0000 is usually a "no entry" sentinel, not first drop table
+    return rank == "gr" and pdt_index == 0
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Extract partbreak/capture drop data from mhfdat.raw.bin into JSON."
     )
-    parser.add_argument("--input", type=Path, default=INPUT_DEFAULT, help="Path to mhfdat.raw.bin")
+    parser.add_argument(
+        "--input", type=Path, default=INPUT_DEFAULT, help="Path to mhfdat.raw.bin"
+    )
     parser.add_argument(
         "--output",
         type=Path,
@@ -96,7 +97,7 @@ def parse_args() -> argparse.Namespace:
 
 def parse_drop_table_pointer_array(raw: bytes, pointer_array_base: int) -> list[int]:
     pointers: list[int] = []
-    for index in range(0x10000):
+    for index in range(0x1000):
         table_offset = pointer_array_base + index * 4
         if table_offset + 4 > len(raw):
             raise ValueError(
@@ -113,7 +114,9 @@ def parse_drop_table_pointer_array(raw: bytes, pointer_array_base: int) -> list[
     return pointers
 
 
-def parse_single_drop_table(raw: bytes, table_pointer: int, table_index: int) -> list[dict[str, int]]:
+def parse_single_drop_table(
+    raw: bytes, table_pointer: int, table_index: int
+) -> list[dict[str, int]]:
     drops: list[dict[str, int]] = []
     offset = table_pointer
     drop_index = 0
@@ -140,7 +143,9 @@ def parse_single_drop_table(raw: bytes, table_pointer: int, table_index: int) ->
     return drops
 
 
-def parse_all_drop_tables(raw: bytes, pointer_array_base: int) -> tuple[list[int], dict[int, list[dict[str, int]]]]:
+def parse_all_drop_tables(
+    raw: bytes, pointer_array_base: int
+) -> tuple[list[int], dict[int, list[dict[str, int]]]]:
     pointers = parse_drop_table_pointer_array(raw, pointer_array_base)
     tables: dict[int, list[dict[str, int]]] = {}
     for index, pointer in enumerate(pointers):
@@ -160,7 +165,9 @@ def parse_partbreak_mappings(raw: bytes, mapping_base: int) -> list[dict[str, in
         if raw[offset : offset + 2] == MAPPING_TERMINATOR:
             break
         if offset + MAPPING_SIZE > len(raw):
-            raise ValueError(f"Partbreak mapping record at 0x{offset:08X} exceeds file bounds")
+            raise ValueError(
+                f"Partbreak mapping record at 0x{offset:08X} exceeds file bounds"
+            )
 
         (
             mon_id,
@@ -214,8 +221,6 @@ def flatten_rows(
             if should_skip_rank_entry(
                 rank=rank,
                 pdt_index=pdt_index,
-                monster_id=monster_id,
-                mapping_index=int(mapping["mapping_index"]),
             ):
                 continue
             if pdt_index < 0 or pdt_index >= len(drop_table_pointers):
@@ -249,51 +254,6 @@ def flatten_rows(
     return rows
 
 
-def filter_quarzeps_fallback_partbreak_rows(
-    rows: list[dict[str, int | str]],
-) -> list[dict[str, int | str]]:
-    """Remove non-Quarzeps LR/HR/HR100 rows whose PDT index matches a Quarzeps row for that rank."""
-    quarzeps_pdt_by_rank: dict[str, set[int]] = {}
-    for row in rows:
-        monster_id = int(row["monster_id"])
-        if monster_id != QUARZEPS_MONSTER_ID:
-            continue
-        rank = str(row.get("rank", "")).strip().lower()
-        if rank not in QUARZEPS_FALLBACK_RANKS:
-            continue
-        pdt_index = int(row["pdt_index"])
-        quarzeps_pdt_by_rank.setdefault(rank, set()).add(pdt_index)
-
-    if not quarzeps_pdt_by_rank:
-        return rows
-
-    kept: list[dict[str, int | str]] = []
-    removed = 0
-    for row in rows:
-        monster_id = int(row["monster_id"])
-        if monster_id == QUARZEPS_MONSTER_ID:
-            kept.append(row)
-            continue
-        rank = str(row.get("rank", "")).strip().lower()
-        if rank not in QUARZEPS_FALLBACK_RANKS:
-            kept.append(row)
-            continue
-        indices = quarzeps_pdt_by_rank.get(rank)
-        if not indices:
-            kept.append(row)
-            continue
-        pdt_index = int(row["pdt_index"])
-        if pdt_index in indices:
-            removed += 1
-            continue
-        kept.append(row)
-
-    if removed > 0:
-        print(f"Filtered {removed} Quarzeps fallback partbreak rows")
-
-    return kept
-
-
 def resolve_partbreak_label(
     labels: dict[str, object], monster_id: int, partbreak_type_raw: str
 ) -> str | None:
@@ -325,12 +285,18 @@ def apply_partbreak_display_labels(
 
         if drop_mode == "part_break":
             partbreak_type: str = (
-                (manual if manual and manual != "__ignore__" else None) or raw_type or "unknown"
+                (manual if manual and manual != "__ignore__" else None)
+                or raw_type
+                or "unknown"
             )
         elif raw_type:
-            partbreak_type = (manual if manual and manual != "__ignore__" else None) or raw_type
+            partbreak_type = (
+                manual if manual and manual != "__ignore__" else None
+            ) or raw_type
         else:
-            partbreak_type = (manual if manual and manual != "__ignore__" else None) or ""
+            partbreak_type = (
+                manual if manual and manual != "__ignore__" else None
+            ) or ""
 
         new_row = dict(row)
         new_row["partbreak_type"] = partbreak_type
@@ -349,7 +315,9 @@ def main() -> None:
     drop_table_pointer_array_base = read_u32(
         raw, DROP_TABLE_POINTER_HEADER_ADDRESS, "drop_table_pointer_header"
     )
-    mapping_base = read_u32(raw, MAPPING_POINTER_HEADER_ADDRESS, "mapping_pointer_header")
+    mapping_base = read_u32(
+        raw, MAPPING_POINTER_HEADER_ADDRESS, "mapping_pointer_header"
+    )
     if drop_table_pointer_array_base >= len(raw):
         raise ValueError(
             f"Drop table pointer array base 0x{drop_table_pointer_array_base:08X} outside file bounds"
@@ -357,13 +325,17 @@ def main() -> None:
     if mapping_base >= len(raw):
         raise ValueError(f"Mapping base 0x{mapping_base:08X} outside file bounds")
 
-    drop_table_pointers, drop_tables = parse_all_drop_tables(raw, drop_table_pointer_array_base)
+    drop_table_pointers, drop_tables = parse_all_drop_tables(
+        raw, drop_table_pointer_array_base
+    )
     mappings = parse_partbreak_mappings(raw, mapping_base)
 
     item_names_by_id = load_item_names(args.items_source)
     monster_names_by_id = load_monster_names(args.monster_names_json)
     partbreak_labels = load_optional_json_object(args.monster_partbreak_labels)
-    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
+        args.items_source
+    )
     wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
 
     rows = flatten_rows(
@@ -374,12 +346,13 @@ def main() -> None:
         monster_names_by_id=monster_names_by_id,
         wiki_hidden_item_ids=wiki_hidden_item_ids,
     )
-    rows = filter_quarzeps_fallback_partbreak_rows(rows)
     rows = apply_partbreak_display_labels(rows, partbreak_labels)
 
     write_json_output(args.output, rows)
 
-    print(f"Decoded {len(drop_table_pointers)} PDT pointers and {len(mappings)} mappings")
+    print(
+        f"Decoded {len(drop_table_pointers)} PDT pointers and {len(mappings)} mappings"
+    )
     print(f"Wrote {len(rows)} flattened partbreak rows")
 
 
