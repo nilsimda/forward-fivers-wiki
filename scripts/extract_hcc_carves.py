@@ -14,10 +14,12 @@ from extract_common import (
 POINTER_ADDRESS = 0x0000034C
 RECORD_FMT = "<HHHHH"
 RECORD_SIZE = struct.calcsize(RECORD_FMT)
-TERMINATOR = b"\xFF\xFF"
+TERMINATOR = b"\xff\xff"
 FIELDS = ["monster_id", "lr_item_id", "hr_item_id", "hr100_item_id", "gr_item_id"]
 ITEM_ID_COLUMNS = ["lr_item_id", "hr_item_id", "hr100_item_id", "gr_item_id"]
-ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+ITEMS_SOURCE_DEFAULT = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -33,7 +35,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "site" / "src" / "data" / "generated" / "_hcc-carves-source.json",
+        default=REPO_ROOT
+        / "site"
+        / "src"
+        / "data"
+        / "generated"
+        / "_hcc-carves-source.json",
         help="Output JSON path consumed by site/scripts/build-data.mjs.",
     )
     parser.add_argument(
@@ -99,7 +106,9 @@ def main() -> None:
     args = parse_args()
     blob = read_hcc_blob(args.input)
     records = decode_records(blob)
-    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
+        args.items_source
+    )
     hidden = load_wiki_hidden_item_ids(hidden_path)
     scrubbed_records = scrub_wiki_hidden_item_slots(records, hidden)
 

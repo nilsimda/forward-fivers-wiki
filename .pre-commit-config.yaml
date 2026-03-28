@@ -1,0 +1,19 @@
+minimum_pre_commit_version: "4.0.0"
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format
+        language: system
+        types_or: [python, pyi]
+      - id: ruff-check-fix
+        name: ruff check --fix
+        entry: uv run ruff check --fix
+        language: system
+        types_or: [python, pyi]
+      - id: mypy-scripts
+        name: mypy scripts
+        entry: uv run mypy scripts
+        language: system
+        pass_filenames: false

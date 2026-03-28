@@ -1,0 +1,54 @@
+name: Python Quality
+
+on:
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".pre-commit-config.yaml"
+      - ".github/workflows/python-quality.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".pre-commit-config.yaml"
+      - ".github/workflows/python-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Sync dependencies
+        run: uv sync --group dev --frozen
+
+      - name: Ruff format (check)
+        run: uv run ruff format --check scripts tests
+
+      - name: Ruff lint
+        run: uv run ruff check scripts tests
+
+      - name: MyPy
+        run: uv run mypy scripts
+
+      - name: Pytest
+        run: uv run pytest

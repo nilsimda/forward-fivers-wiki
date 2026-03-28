@@ -16,8 +16,12 @@ from extract_common import (
 )
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
-OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
-ITEMS_SOURCE_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+OUTPUT_DEFAULT = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
+)
+ITEMS_SOURCE_DEFAULT = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
+)
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
 MONSTER_CARVE_LABELS_DEFAULT = REPO_ROOT / "g1_data" / "monster_carve_labels.json"
 
@@ -55,7 +59,9 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Extract regular carve table data from mhfdat.raw.bin into flat JSON."
     )
-    parser.add_argument("--input", type=Path, default=INPUT_DEFAULT, help="Path to mhfdat.raw.bin")
+    parser.add_argument(
+        "--input", type=Path, default=INPUT_DEFAULT, help="Path to mhfdat.raw.bin"
+    )
     parser.add_argument(
         "--output",
         type=Path,
@@ -89,7 +95,9 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def parse_carve_dt_pointer_array(raw: bytes, pointer_array_base: int, pointer_count: int) -> list[int]:
+def parse_carve_dt_pointer_array(
+    raw: bytes, pointer_array_base: int, pointer_count: int
+) -> list[int]:
     if pointer_count <= 0:
         raise ValueError(f"Invalid carve DT pointer_count={pointer_count}")
     pointers: list[int] = []
@@ -110,7 +118,9 @@ def parse_carve_dt_pointer_array(raw: bytes, pointer_array_base: int, pointer_co
     return pointers
 
 
-def parse_single_carve_table(raw: bytes, table_pointer: int, table_index: int) -> list[dict[str, int]]:
+def parse_single_carve_table(
+    raw: bytes, table_pointer: int, table_index: int
+) -> list[dict[str, int]]:
     drops: list[dict[str, int]] = []
     offset = table_pointer
     drop_index = 0
@@ -119,7 +129,9 @@ def parse_single_carve_table(raw: bytes, table_pointer: int, table_index: int) -
         if percentage == CARVE_DROP_TERMINATOR:
             break
         if offset + CARVE_DROP_SIZE > len(raw):
-            raise ValueError(f"Carve DT {table_index} record at 0x{offset:08X} exceeds file bounds")
+            raise ValueError(
+                f"Carve DT {table_index} record at 0x{offset:08X} exceeds file bounds"
+            )
         percentage, item_id = struct.unpack_from(CARVE_DROP_FMT, raw, offset)
         drops.append(
             {
@@ -150,7 +162,9 @@ def read_assoc_entry(raw: bytes, assoc_base: int, monster_id: int) -> dict[str, 
         raise ValueError(
             f"Carve assoc entry for monster_id={monster_id} is out of bounds at 0x{entry_offset:08X}"
         )
-    primary_ptr, secondary_ptr, secondary_count = struct.unpack_from(ASSOC_ENTRY_FMT, raw, entry_offset)
+    primary_ptr, secondary_ptr, secondary_count = struct.unpack_from(
+        ASSOC_ENTRY_FMT, raw, entry_offset
+    )
     return {
         "association_entry_offset": entry_offset,
         "primary_ptr": primary_ptr,
@@ -168,7 +182,9 @@ def parse_record_rank_indices(raw: bytes, record_offset: int, label: str) -> lis
         read_u16(raw, record_offset + rank_slot * 2, f"{label} rank_slot {rank_slot}")
         for rank_slot in range(4)
     ]
-    grank_index = read_u16(raw, record_offset + GRANK_DT_INDEX_OFFSET, f"{label} gr_rank_slot")
+    grank_index = read_u16(
+        raw, record_offset + GRANK_DT_INDEX_OFFSET, f"{label} gr_rank_slot"
+    )
     return [*base_rank_indices, grank_index]
 
 
@@ -222,7 +238,9 @@ def flatten_rows(
                 raise ValueError(
                     f"monster_id={monster_id}: primary_ptr 0x{primary_ptr:08X} outside file bounds"
                 )
-            primary_scan_limit = get_primary_record_scan_limit(primary_ptr, secondary_ptr)
+            primary_scan_limit = get_primary_record_scan_limit(
+                primary_ptr, secondary_ptr
+            )
             for record_index in range(primary_scan_limit):
                 record_offset = primary_ptr + record_index * PRIMARY_RECORD_STRIDE
                 if record_offset + PRIMARY_RECORD_STRIDE > len(raw):
@@ -231,7 +249,9 @@ def flatten_rows(
                     )
 
                 rank_indices = parse_record_rank_indices(
-                    raw, record_offset, f"monster_id={monster_id} primary record={record_index}"
+                    raw,
+                    record_offset,
+                    f"monster_id={monster_id} primary record={record_index}",
                 )
                 if is_zero_rank_group(rank_indices):
                     break
@@ -270,7 +290,9 @@ def flatten_rows(
                                 "drop_index_in_table": drop["drop_index_in_table"],
                                 "percentage": drop["percentage"],
                                 "item_id": item_id,
-                                "item_name": item_names_by_id.get(item_id, f"Item {item_id}"),
+                                "item_name": item_names_by_id.get(
+                                    item_id, f"Item {item_id}"
+                                ),
                                 "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
                                 "primary_ptr": f"0x{primary_ptr:08X}",
                                 "secondary_ptr": f"0x{secondary_ptr:08X}",
@@ -292,7 +314,9 @@ def flatten_rows(
                     )
 
                 rank_indices = parse_record_rank_indices(
-                    raw, record_offset, f"monster_id={monster_id} secondary record={record_index}"
+                    raw,
+                    record_offset,
+                    f"monster_id={monster_id} secondary record={record_index}",
                 )
                 if is_zero_rank_group(rank_indices):
                     continue
@@ -325,7 +349,9 @@ def flatten_rows(
                                 "drop_index_in_table": drop["drop_index_in_table"],
                                 "percentage": drop["percentage"],
                                 "item_id": item_id,
-                                "item_name": item_names_by_id.get(item_id, f"Item {item_id}"),
+                                "item_name": item_names_by_id.get(
+                                    item_id, f"Item {item_id}"
+                                ),
                                 "association_entry_offset": f"0x{int(assoc['association_entry_offset']):08X}",
                                 "primary_ptr": f"0x{primary_ptr:08X}",
                                 "secondary_ptr": f"0x{secondary_ptr:08X}",
@@ -405,7 +431,9 @@ def _required_int(value: int | str | None, *, field: str) -> int:
         try:
             return int(value)
         except ValueError as exc:
-            raise ValueError(f"Expected integer-like value for {field}, got {value!r}") from exc
+            raise ValueError(
+                f"Expected integer-like value for {field}, got {value!r}"
+            ) from exc
     raise ValueError(f"Missing integer value for {field}")
 
 
@@ -511,11 +539,15 @@ def main() -> None:
     args = parse_args()
 
     raw = args.input.read_bytes()
-    important_nums_base = read_u32(raw, IMPORTANT_NUMS_POINTER_HEADER_ADDRESS, "important_nums_pointer")
+    important_nums_base = read_u32(
+        raw, IMPORTANT_NUMS_POINTER_HEADER_ADDRESS, "important_nums_pointer"
+    )
     carve_dt_pointer_array_base = read_u32(
         raw, CARVE_DT_POINTER_HEADER_ADDRESS, "carve_dt_pointer_header"
     )
-    carve_assoc_base = read_u32(raw, CARVE_ASSOC_POINTER_HEADER_ADDRESS, "carve_assoc_pointer_header")
+    carve_assoc_base = read_u32(
+        raw, CARVE_ASSOC_POINTER_HEADER_ADDRESS, "carve_assoc_pointer_header"
+    )
     carve_dt_count = read_u16(
         raw,
         important_nums_base + CARVE_DT_COUNT_OFFSET_IN_IMPORTANT_NUMS,
@@ -523,17 +555,23 @@ def main() -> None:
     )
 
     if important_nums_base >= len(raw):
-        raise ValueError(f"important_nums base 0x{important_nums_base:08X} outside file bounds")
+        raise ValueError(
+            f"important_nums base 0x{important_nums_base:08X} outside file bounds"
+        )
     if carve_dt_pointer_array_base >= len(raw):
         raise ValueError(
             f"Carve DT pointer array base 0x{carve_dt_pointer_array_base:08X} outside file bounds"
         )
     if carve_assoc_base >= len(raw):
-        raise ValueError(f"Carve association base 0x{carve_assoc_base:08X} outside file bounds")
+        raise ValueError(
+            f"Carve association base 0x{carve_assoc_base:08X} outside file bounds"
+        )
 
     monster_names_by_id = load_monster_names(args.monster_names_json)
     item_names_by_id = load_item_names(args.items_source)
-    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(args.items_source)
+    hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
+        args.items_source
+    )
     wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
     carve_labels = load_optional_json_object(args.monster_carve_labels)
     carve_dt_pointers, carve_tables = parse_all_carve_tables(

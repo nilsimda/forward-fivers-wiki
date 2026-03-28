@@ -52,6 +52,24 @@ Source note:
 
 Schema and guardrail details are documented in `site/src/data/generated/README.md`.
 
+## Python quality checks
+
+Install Python tooling and hooks once from the repository root:
+
+```bash
+uv sync --group dev
+uv run pre-commit install
+```
+
+Run checks manually:
+
+```bash
+uv run ruff format --check scripts tests
+uv run ruff check scripts tests
+uv run mypy scripts
+uv run pytest
+```
+
 ## Build and deploy
 
 - `npm run build` in `site/` generates static output at `site/dist`.

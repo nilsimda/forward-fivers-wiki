@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import TypedDict
 
 from extract_common import (
-    ColorTagSegment,
     REPO_ROOT,
     WIKI_HIDDEN_ITEM_IDS_FILENAME,
+    ColorTagSegment,
     decode_c_string,
     is_wiki_hidden_item,
     parse_color_tags,
@@ -50,6 +50,7 @@ class ItemRow(TypedDict):
     isGz: bool
     type: int
 
+
 @dataclass(slots=True)
 class ItemStructFields:
     rarity_raw: int
@@ -75,15 +76,6 @@ class ItemStructFields:
         )
 
 
-@dataclass(slots=True)
-class ItemExtractionResult:
-    rows: list[ItemRow]
-    item_count: int
-    item_structs_base: int
-    names_pointer_base: int
-    desc_pointer_base: int
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Extract item table + names/descriptions from mhfdat.raw.bin into JSON."
@@ -105,7 +97,7 @@ def parse_args() -> argparse.Namespace:
 
 def extract_items(
     raw: bytes,
-) -> ItemExtractionResult:
+) -> list[ItemRow]:
     item_count_base_ptr = read_u32(
         raw, ITEM_COUNT_POINTER_ADDRESS, "item_count_pointer"
     )
@@ -165,13 +157,7 @@ def extract_items(
             }
         )
 
-    return ItemExtractionResult(
-        rows=rows,
-        item_count=item_count,
-        item_structs_base=item_structs_base,
-        names_pointer_base=names_pointer_base,
-        desc_pointer_base=desc_pointer_base,
-    )
+    return rows
 
 
 def partition_hidden_items(rows: list[ItemRow]) -> tuple[list[ItemRow], list[int]]:
@@ -190,8 +176,7 @@ def partition_hidden_items(rows: list[ItemRow]) -> tuple[list[ItemRow], list[int
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
-    extraction = extract_items(raw)
-    rows = extraction.rows
+    rows = extract_items(raw)
 
     kept, hidden_ids = partition_hidden_items(rows)
 
