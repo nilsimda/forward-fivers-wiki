@@ -113,60 +113,22 @@ def default_wiki_hidden_item_ids_path(items_source: Path) -> Path:
 def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
     if not path.exists():
         return frozenset()
-    data = json.loads(path.read_text(encoding="utf-8"))
-    if not isinstance(data, dict):
-        raise ValueError(f"Expected JSON object in {path}")
-    raw_ids = data.get("itemIds")
-    if raw_ids is None:
-        return frozenset()
-    if not isinstance(raw_ids, list):
-        raise ValueError(f'Expected "itemIds" list in {path}')
-    out: set[int] = set()
-    for x in raw_ids:
-        if not isinstance(x, int):
-            raise ValueError(f'Expected integer entries in "itemIds" in {path}')
-        out.add(x)
-    return frozenset(out)
+    item_ids: list[int] = json.loads(path.read_text(encoding="utf-8"))["itemIds"]
+    return frozenset(item_ids)
 
 
 def load_item_names(items_source_path: Path) -> dict[int, str]:
     if not items_source_path.exists():
         return {}
     data = json.loads(items_source_path.read_text(encoding="utf-8"))
-    names_by_id: dict[int, str] = {}
-    for row in data:
-        item_id = row.get("item_index")
-        if not isinstance(item_id, int):
-            continue
-        name = str(row.get("name", "")).strip()
-        if name:
-            names_by_id[item_id] = name
-    return names_by_id
+    return {row["item_index"]: row["name"] for row in data}
 
 
 def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
     if not monster_names_json_path.exists():
         return {}
-
     raw = json.loads(monster_names_json_path.read_text(encoding="utf-8"))
-    if not isinstance(raw, dict):
-        raise ValueError(
-            f"Monster names JSON must be an object mapping ids to names: {monster_names_json_path}"
-        )
-
-    names_by_id: dict[int, str] = {}
-    for raw_monster_id, raw_name in raw.items():
-        if raw_monster_id is None:
-            continue
-        try:
-            monster_id = int(str(raw_monster_id).strip(), 0)
-        except ValueError:
-            continue
-        monster_name = str(raw_name or "").strip()
-        if not monster_name:
-            continue
-        names_by_id[monster_id] = monster_name
-    return names_by_id
+    return {int(mon_id): mon_name for mon_id, mon_name in raw.items()}
 
 
 def load_optional_json_object(path: Path) -> dict[str, Any]:
