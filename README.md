@@ -1,17 +1,14 @@
 # Forward Fivers Wiki (MHFG G1)
 
 Static, data-driven wiki for Monster Hunter Frontier G1.
-
-## Project goals
-
-- Build a modern static webapp wiki for G1.
-- Use extracted G1 data as the canonical source.
-- Use Ferias only as structure inspiration, never as game-data truth.
+Specifically the Forward Fivers Client and Quest Files are used,
+including the translations.
 
 ## Repository layout
 
-- `g1_data/`: local-only extracted binary-derived data files and mappings (gitignored)
-- `site/`: Astro + Tailwind static wiki app
+- `scripts/`: python extraction scripts which use game files such as mhfdat,
+mhfinf and quest files to produce formatted json of the game data.
+- `site/`: Astro + Tailwind static wiki app which uses these json files as its source of truth
 
 ## Data ingestion rules
 
