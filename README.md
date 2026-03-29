@@ -10,7 +10,7 @@ Static, data-driven wiki for Monster Hunter Frontier G1.
 
 ## Repository layout
 
-- `g1_data/`: extracted binary-derived data files and manual mappings
+- `g1_data/`: local-only extracted binary-derived data files and mappings (gitignored)
 - `site/`: Astro + Tailwind static wiki app
 
 ## Data ingestion rules
@@ -30,10 +30,10 @@ npm install
 npm run dev
 ```
 
-The dev/build scripts automatically run the data pipeline first:
+Build scripts use committed generated source JSON and then produce Astro-ready JSON:
 
-1. Extract binary-backed source data using Python (`scripts/extract_item_data.py`, `scripts/extract_partbreak_data.py`, `scripts/extract_hcc_carves.py`, `scripts/extract_carve_data.py`)
-2. Build Astro-ready generated JSON (`site/scripts/build-data.mjs`)
+1. Read committed source JSON in `site/src/data/generated` (for example `_items-source.json`, `_quests-source.json`)
+2. Build projections used by pages (`site/scripts/build-data.mjs`)
 
 Generated outputs currently include:
 
@@ -41,14 +41,19 @@ Generated outputs currently include:
 - `site/src/data/generated/monster-drops.json` (monster-centric drop projection)
 - `site/src/data/generated/item-acquisition.json` (item-centric obtain methods)
 
-Source note:
+Extraction note:
 
-- Item source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_items-source.json` as part of the build pipeline.
-- Partbreak source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_partbreak-source.json` as part of the build pipeline.
-- HCC carve source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_hcc-carves-source.json` as part of the build pipeline.
-- Regular carve source rows are now extracted from `g1_data/mhfdat.raw.bin` into `site/src/data/generated/_carves-source.json` as part of the build pipeline.
-- Monster name labels for partbreak extraction are loaded from `g1_data/monster_names.json`.
-- Monster name labels for carve extraction are loaded from `g1_data/monster_names.json`.
+- Extraction is a local maintainer workflow and requires local `g1_data` inputs.
+- The repository commits generated source JSON (for example `_items-source.json`, `_partbreak-source.json`, `_carves-source.json`, `_hcc-carves-source.json`, `_quests-source.json`) rather than raw game binaries/quest files.
+- Normal `npm run dev` and `npm run build` do not run extraction.
+
+To refresh extraction outputs locally from repository root:
+
+```bash
+cd site
+npm run data:extract:all
+npm run data:build
+```
 
 Schema and guardrail details are documented in `site/src/data/generated/README.md`.
 

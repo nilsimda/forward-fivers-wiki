@@ -1,0 +1,85 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import questRewards from '../../data/generated/quest-rewards.json';
+
+const sortedQuests = [...questRewards].sort((a, b) => a.questId - b.questId);
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+---
+
+<WikiLayout title="Quest Rewards | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Quest Reward Tables</h1>
+    <p class="text-slate-300">
+      Rewards use the primary spring/day quest data variant and include quest objectives and reward metadata.
+    </p>
+  </section>
+
+  <section class="panel mt-6 space-y-3">
+    <label class="block text-sm font-medium text-slate-200" for="quest-search">Search quests</label>
+    <input
+      id="quest-search"
+      type="search"
+      placeholder="Quest title, ID, or rank..."
+      class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+    />
+    <p class="text-sm text-slate-400">
+      Showing <span id="visible-quest-count">{sortedQuests.length}</span> of {sortedQuests.length} quests
+    </p>
+  </section>
+
+  <div class="table-wrap mt-6">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Quest</th>
+          <th>Rank</th>
+          <th>Reward groups</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sortedQuests.map((quest) => (
+          <tr
+            data-quest-row
+            data-quest-id={String(quest.questId)}
+            data-quest-title={quest.title.toLowerCase()}
+            data-quest-rank={String(quest.rank).toLowerCase()}
+          >
+            <td>{quest.questId}</td>
+            <td>
+              <a href={withBase(`quests/${quest.slug}/`)}>{quest.title}</a>
+            </td>
+            <td>{quest.rank}</td>
+            <td>{quest.rewardGroups.length}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>('#quest-search');
+    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('[data-quest-row]'));
+    const count = document.querySelector<HTMLElement>('#visible-quest-count');
+
+    const update = () => {
+      const query = (input?.value || '').trim().toLowerCase();
+      let shown = 0;
+
+      for (const row of rows) {
+        const id = row.dataset.questId || '';
+        const title = row.dataset.questTitle || '';
+        const rank = row.dataset.questRank || '';
+        const show = !query || id.includes(query) || title.includes(query) || rank.includes(query);
+        row.style.display = show ? '' : 'none';
+        if (show) shown += 1;
+      }
+
+      if (count) count.textContent = String(shown);
+    };
+
+    input?.addEventListener('input', update);
+  </script>
+</WikiLayout>

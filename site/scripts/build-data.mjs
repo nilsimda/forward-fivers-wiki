@@ -11,16 +11,18 @@ const itemsSourcePath = path.join(generatedDir, '_items-source.json');
 const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
 const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
+const questsSourcePath = path.join(generatedDir, '_quests-source.json');
 const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
+const questRewardsOutPath = path.join(generatedDir, 'quest-rewards.json');
 
 const rankOrder = ['lr', 'hr', 'arena', 'hr100', 'gr'];
 const methodOrder = ['capture', 'part_break', 'hardcore_carve', 'quest_reward', 'carve', 'gather', 'shop'];
 const knownDropModes = new Set(['capture', 'part_break']);
 
 /**
- * @typedef {'capture' | 'part_break' | 'hardcore_carve' | 'carve'} SupportedMethodType
+ * @typedef {'capture' | 'part_break' | 'hardcore_carve' | 'carve' | 'quest_reward'} SupportedMethodType
  *
  * @typedef {{
  *   methodType: SupportedMethodType;
@@ -33,25 +35,36 @@ const knownDropModes = new Set(['capture', 'part_break']);
  *   itemId: number;
  *   itemName: string;
  *   partbreakType?: string;
+ *   questId?: number;
+ *   questSlug?: string;
+ *   questTitle?: string;
+ *   questVariantLabel?: string;
+ *   rewardBoxId?: number;
+ *   rewardBoxNumber?: number;
  * }} AcquisitionMethod
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows] = await Promise.all([
+  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, questsSource] = await Promise.all([
     readJson(itemsSourcePath),
     readJson(partbreakSourcePath),
     readJson(hardcoreCarvesSourcePath),
-    readJson(carvesSourcePath)
+    readJson(carvesSourcePath),
+    readJson(questsSourcePath)
   ]);
 
   const items = buildItems(itemRows);
+  const itemNamesById = new Map(items.map((item) => [item.id, item.name]));
   const validItemIds = new Set(items.map((item) => item.id));
   const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
+  const questRewards = buildQuestRewards(questsSource, itemNamesById, monsterNamesById);
+  const questMethods = buildQuestRewardMethods(questRewards, itemNamesById);
   const methods = dedupePooledDropMethods(
     [
       ...buildAcquisitionMethods(partbreakRows),
       ...buildCarveMethods(carveRows),
-      ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById)
+      ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById),
+      ...questMethods
     ]
       .filter((method) => validItemIds.has(method.itemId))
       .sort(compareMethods)
@@ -66,7 +79,8 @@ async function main() {
   await Promise.all([
     writeJson(itemsOutPath, items),
     writeJson(monsterDropsOutPath, monsterDrops),
-    writeJson(itemAcquisitionOutPath, itemAcquisition)
+    writeJson(itemAcquisitionOutPath, itemAcquisition),
+    writeJson(questRewardsOutPath, questRewards)
   ]);
 
   console.log(
@@ -74,7 +88,8 @@ async function main() {
       `Built ${items.length} items`,
       `Built ${methods.length} acquisition methods`,
       `Built ${monsterDrops.length} monster drop groups`,
-      `Built acquisition entries for ${Object.keys(itemAcquisition).length} items`
+      `Built acquisition entries for ${Object.keys(itemAcquisition).length} items`,
+      `Built ${questRewards.length} quest reward pages`
     ].join('\n')
   );
 }
@@ -272,7 +287,8 @@ function buildCarveMethods(rows) {
     const itemName = (row.item_name || '').trim() || `Item ${itemId}`;
     const rank = normalizeRank(row.rank_label, 'carve source data');
     const chance = parseNumber(row.percentage, `carve row ${index + 1} percentage`);
-    const sourceLabel = String(row.source_label || '').trim();
+    const sourceLabelRaw = String(row.source_label || '').trim();
+    const sourceLabel = formatCarveSourceLabel(sourceLabelRaw, row.primary_num_carves, index + 1);
     if (!sourceLabel) {
       throw new Error(`carve row ${index + 1}: missing source_label — run scripts/extract_carve_data.py`);
     }
@@ -291,6 +307,304 @@ function buildCarveMethods(rows) {
   }
 
   return methods.sort(compareMethods);
+}
+
+/**
+ * @param {unknown} source
+ * @param {Map<number, string>} itemNamesById
+ * @param {Map<number, string>} monsterNamesById
+ */
+function buildQuestRewards(source, itemNamesById, monsterNamesById) {
+  if (!source || typeof source !== 'object' || !Array.isArray(source.quests)) {
+    throw new Error('Quest source missing quests[] — run scripts/extract_quest_data.py');
+  }
+
+  return source.quests.map((quest, questIndex) => {
+    const questId = parseNumber(quest.questId, `quest row ${questIndex + 1} questId`);
+    const title = normalizeQuestTitle(quest.text?.title, questId);
+    const text = normalizeQuestText(quest.text);
+    const rewardVariants = Array.isArray(quest.reward_variants) ? quest.reward_variants : [];
+    const rewardGroups = buildPrimaryQuestRewardGroup(rewardVariants, questId, itemNamesById);
+
+    return {
+      questId,
+      slug: buildQuestSlug(questId, title),
+      title,
+      rank: mapQuestRankToAcquisitionRank(quest),
+      questRank: parseNumber(quest.questRank ?? 0, `quest ${questId} questRank`),
+      joinMinRank: parseNumber(quest.joinMinRank ?? 0, `quest ${questId} joinMinRank`),
+      postMinRank: parseNumber(quest.postMinRank ?? 0, `quest ${questId} postMinRank`),
+      maxPlayers: parseNumber(quest.maxPlayers ?? 0, `quest ${questId} maxPlayers`),
+      questFee: parseNumber(quest.questFee ?? 0, `quest ${questId} questFee`),
+      zennyReward: parseNumber(quest.zennyReward ?? 0, `quest ${questId} zennyReward`),
+      zennyKO: parseNumber(quest.zennyKO ?? 0, `quest ${questId} zennyKO`),
+      zennySubA: parseNumber(quest.zennySubA ?? 0, `quest ${questId} zennySubA`),
+      zennySubB: parseNumber(quest.zennySubB ?? 0, `quest ${questId} zennySubB`),
+      questTimeFrames: parseNumber(quest.questTimeFrames ?? 0, `quest ${questId} questTimeFrames`),
+      mapID: parseNumber(quest.mapID ?? 0, `quest ${questId} mapID`),
+      contractor: text.contractor,
+      description: text.description,
+      mainObjective: text.main,
+      subObjectiveA: text.subA,
+      subObjectiveB: text.subB,
+      successCondition: text.successCondition,
+      failCondition: text.failCondition,
+      mainGoal: normalizeGoal(quest.main_goal, itemNamesById, monsterNamesById),
+      subAGoal: normalizeGoal(quest.sub_a_goal, itemNamesById, monsterNamesById),
+      subBGoal: normalizeGoal(quest.sub_b_goal, itemNamesById, monsterNamesById),
+      rewardGroups
+    };
+  });
+}
+
+/**
+ * @param {Array<Record<string, unknown>>} rewardVariants
+ * @param {number} questId
+ * @param {Map<number, string>} itemNamesById
+ */
+function buildPrimaryQuestRewardGroup(rewardVariants, questId, itemNamesById) {
+  const springDayVariant = rewardVariants.find(
+    (variant) =>
+      variant &&
+      String(variant.day_night || '').trim().toLowerCase() === 'day' &&
+      String(variant.season || '').trim().toLowerCase() === 'spring'
+  );
+  if (!springDayVariant) {
+    throw new Error(`quest ${questId}: missing spring/day reward variant`);
+  }
+
+  const normalizedRewards = normalizeVariantRewards(springDayVariant, questId, itemNamesById);
+  if (normalizedRewards.length === 0) {
+    return [];
+  }
+
+  return [
+    {
+      variantLabel: 'Rewards',
+      variants: [
+        {
+          variantCode: String(springDayVariant.variant_code || '').trim().toLowerCase(),
+          dayNight: 'day',
+          season: 'spring'
+        }
+      ],
+      rewards: normalizedRewards
+    }
+  ];
+}
+
+/**
+ * @param {Record<string, unknown>} variant
+ * @param {number} questId
+ * @param {Map<number, string>} itemNamesById
+ */
+function normalizeVariantRewards(variant, questId, itemNamesById) {
+  const rewards = [];
+  const rewardBoxes = Array.isArray(variant.reward_boxes) ? variant.reward_boxes : [];
+  for (const [boxIndex, rewardBox] of rewardBoxes.entries()) {
+    const rewardBoxId = parseNumber(
+      rewardBox.reward_box_id ?? boxIndex,
+      `quest ${questId} reward box ${boxIndex + 1} reward_box_id`
+    );
+    if (!Array.isArray(rewardBox.rewards)) continue;
+
+    for (const [rewardIndex, reward] of rewardBox.rewards.entries()) {
+      const itemId = parseNumber(
+        reward.item_id,
+        `quest ${questId} reward box ${rewardBoxId} reward ${rewardIndex + 1} item_id`
+      );
+      const percentChance = parseNumber(
+        reward.percent_chance,
+        `quest ${questId} reward box ${rewardBoxId} reward ${rewardIndex + 1} percent_chance`
+      );
+      const itemCount = parseNumber(
+        reward.item_count,
+        `quest ${questId} reward box ${rewardBoxId} reward ${rewardIndex + 1} item_count`
+      );
+      rewards.push({
+        rewardBoxId,
+        rewardBoxNumber: 0,
+        itemId,
+        itemName: itemNamesById.get(itemId) || `Item ${itemId}`,
+        percentChance,
+        itemCount
+      });
+    }
+  }
+
+  const sortedRewards = rewards.sort((a, b) => {
+    if (a.rewardBoxId !== b.rewardBoxId) return a.rewardBoxId - b.rewardBoxId;
+    if (a.itemId !== b.itemId) return a.itemId - b.itemId;
+    if (b.percentChance !== a.percentChance) return b.percentChance - a.percentChance;
+    return b.itemCount - a.itemCount;
+  });
+
+  const uniqueRewardBoxIds = [...new Set(sortedRewards.map((reward) => reward.rewardBoxId))].sort((a, b) => a - b);
+  const rewardBoxNumberById = new Map(uniqueRewardBoxIds.map((rewardBoxId, index) => [rewardBoxId, index + 1]));
+  for (const reward of sortedRewards) {
+    reward.rewardBoxNumber = rewardBoxNumberById.get(reward.rewardBoxId) ?? reward.rewardBoxId;
+  }
+  return sortedRewards;
+}
+
+/**
+ * @param {unknown} rawTitle
+ * @param {number} questId
+ */
+function normalizeQuestTitle(rawTitle, questId) {
+  const title = String(rawTitle || '').replace(/\s+/g, ' ').trim();
+  return title || `Quest ${questId}`;
+}
+
+/**
+ * @param {unknown} rawText
+ */
+function normalizeQuestText(rawText) {
+  const text = rawText && typeof rawText === 'object' ? rawText : {};
+  return {
+    main: normalizeQuestTextField(text.text_main),
+    subA: normalizeQuestTextField(text.text_sub_a),
+    subB: normalizeQuestTextField(text.text_sub_b),
+    successCondition: normalizeQuestTextField(text.success_cond),
+    failCondition: normalizeQuestTextField(text.fail_cond),
+    contractor: normalizeQuestTextField(text.contractor),
+    description: normalizeQuestTextField(text.description)
+  };
+}
+
+/**
+ * @param {unknown} value
+ */
+function normalizeQuestTextField(value) {
+  return String(value || '').trim();
+}
+
+/**
+ * @param {unknown} rawGoal
+ * @param {Map<number, string>} itemNamesById
+ * @param {Map<number, string>} monsterNamesById
+ */
+function normalizeGoal(rawGoal, itemNamesById, monsterNamesById) {
+  if (!rawGoal || typeof rawGoal !== 'object') return null;
+  const target = rawGoal.goal_target ?? null;
+  const targetKind = String(rawGoal.goal_target_kind || '').trim();
+  const targetLabel =
+    typeof target === 'number'
+      ? resolveGoalTargetLabel(targetKind, target, itemNamesById, monsterNamesById)
+      : '';
+  return {
+    typeName: String(rawGoal.goal_type_name || '').trim(),
+    targetKind,
+    target,
+    targetLabel,
+    count: rawGoal.goal_count ?? null,
+    part: rawGoal.goal_part ?? null
+  };
+}
+
+/**
+ * @param {string} targetKind
+ * @param {number} target
+ * @param {Map<number, string>} itemNamesById
+ * @param {Map<number, string>} monsterNamesById
+ */
+function resolveGoalTargetLabel(targetKind, target, itemNamesById, monsterNamesById) {
+  if (targetKind === 'item') {
+    return itemNamesById.get(target) || `Item ${target}`;
+  }
+  if (targetKind === 'monster') {
+    return monsterNamesById.get(target) || `Monster ${target}`;
+  }
+  return `${targetKind || 'target'} ${target}`;
+}
+
+/**
+ * @param {number} questId
+ * @param {string} title
+ */
+function buildQuestSlug(questId, title) {
+  return `${questId}-${slugify(title)}`;
+}
+
+/**
+ * @param {string} value
+ */
+function slugify(value) {
+  const normalized = value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return normalized || 'quest';
+}
+
+/**
+ * @param {Record<string, unknown>} quest
+ */
+function mapQuestRankToAcquisitionRank(quest) {
+  const postMinRank = parseNumber(quest.postMinRank ?? 0, `quest ${quest.questId} postMinRank`);
+  if (postMinRank >= 500) return 'gr';
+  if (postMinRank >= 100) return 'hr100';
+  if (postMinRank >= 31) return 'hr';
+  if (postMinRank <= 0) return 'arena';
+  return 'lr';
+}
+
+/**
+ * @param {ReturnType<typeof buildQuestRewards>} questRewards
+ * @param {Map<number, string>} itemNamesById
+ * @returns {AcquisitionMethod[]}
+ */
+function buildQuestRewardMethods(questRewards, itemNamesById) {
+  const methods = [];
+
+  for (const quest of questRewards) {
+    for (const rewardGroup of quest.rewardGroups) {
+      for (const reward of rewardGroup.rewards) {
+        methods.push({
+          methodType: 'quest_reward',
+          rank: quest.rank,
+          sourceLabel: `${quest.title} - Reward Box ${reward.rewardBoxNumber}`,
+          chance: reward.percentChance,
+          quantity: reward.itemCount,
+          itemId: reward.itemId,
+          itemName: itemNamesById.get(reward.itemId) || `Item ${reward.itemId}`,
+          questId: quest.questId,
+          questSlug: quest.slug,
+          questTitle: quest.title,
+          rewardBoxId: reward.rewardBoxId
+          ,
+          rewardBoxNumber: reward.rewardBoxNumber
+        });
+      }
+    }
+  }
+
+  return methods.sort(compareMethods);
+}
+
+/**
+ * Body carve records include a primary_num_carves value in the source JSON.
+ * Surface it in the UI label so players see expected carve count directly.
+ *
+ * @param {string} sourceLabel
+ * @param {string | number | null | undefined} primaryNumCarvesRaw
+ * @param {number} rowNumber
+ * @returns {string}
+ */
+function formatCarveSourceLabel(sourceLabel, primaryNumCarvesRaw, rowNumber) {
+  if (sourceLabel !== 'Body Carves') {
+    return sourceLabel;
+  }
+
+  if (primaryNumCarvesRaw === undefined || primaryNumCarvesRaw === null || String(primaryNumCarvesRaw).trim() === '') {
+    return sourceLabel;
+  }
+
+  const primaryNumCarves = parseNumber(primaryNumCarvesRaw, `carve row ${rowNumber} primary_num_carves`);
+  if (primaryNumCarves <= 0) {
+    return sourceLabel;
+  }
+  return `${sourceLabel} (${primaryNumCarves})`;
 }
 
 /**
@@ -322,6 +636,9 @@ function buildMonsterDrops(methods) {
   const byMonster = new Map();
 
   for (const method of methods) {
+    if (!Number.isFinite(method.monsterId)) {
+      continue;
+    }
     const key = String(method.monsterId);
     if (!byMonster.has(key)) {
       byMonster.set(key, {
@@ -415,7 +732,18 @@ function compareMethods(a, b) {
   const methodCompare = sortByMethod(a.methodType, b.methodType);
   if (methodCompare !== 0) return methodCompare;
 
-  if (a.monsterName !== b.monsterName) return a.monsterName.localeCompare(b.monsterName);
+  if ((a.monsterName || '') !== (b.monsterName || '')) {
+    return (a.monsterName || '').localeCompare(b.monsterName || '');
+  }
+  if ((a.questTitle || '') !== (b.questTitle || '')) {
+    return (a.questTitle || '').localeCompare(b.questTitle || '');
+  }
+  if ((a.questVariantLabel || '') !== (b.questVariantLabel || '')) {
+    return (a.questVariantLabel || '').localeCompare(b.questVariantLabel || '');
+  }
+  if ((a.rewardBoxId ?? -1) !== (b.rewardBoxId ?? -1)) {
+    return (a.rewardBoxId ?? -1) - (b.rewardBoxId ?? -1);
+  }
   if ((a.partbreakType || '') !== (b.partbreakType || '')) {
     return (a.partbreakType || '').localeCompare(b.partbreakType || '');
   }

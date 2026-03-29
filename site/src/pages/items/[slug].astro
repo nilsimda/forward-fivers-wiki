@@ -42,6 +42,12 @@ type AcquisitionMethod = {
   monsterId?: number;
   monsterName?: string;
   partbreakType?: string;
+  questId?: number;
+  questSlug?: string;
+  questTitle?: string;
+  questVariantLabel?: string;
+  rewardBoxId?: number;
+  rewardBoxNumber?: number;
 };
 
 type ItemAcquisitionEntry = {
@@ -119,7 +125,25 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
     const carveLabel = method.sourceLabel || 'Carve';
     return `${monsterName} - ${carveLabel}`;
   }
+  if (method.methodType === 'quest_reward') {
+    const questTitle = method.questTitle || method.sourceLabel || `Quest ${method.questId || ''}`.trim();
+    const questIdLabel = typeof method.questId === 'number' ? ` (#${method.questId})` : '';
+    const box =
+      typeof method.rewardBoxNumber === 'number'
+        ? ` - Reward Box ${method.rewardBoxNumber}`
+        : typeof method.rewardBoxId === 'number'
+          ? ` - Reward Box ${method.rewardBoxId + 1}`
+        : '';
+    return `${questTitle}${questIdLabel}${box}`;
+  }
   return method.sourceLabel || 'Unknown source';
+};
+
+const getSourceHref = (method: AcquisitionMethod) => {
+  if (method.methodType === 'quest_reward' && method.questSlug) {
+    return withBase(`quests/${method.questSlug}/`);
+  }
+  return null;
 };
 ---
 
@@ -177,7 +201,13 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
               <ul class="list-disc space-y-1 pl-5 text-slate-300">
                 {group.methods.map((method) => (
                   <li>
-                    <span class="text-slate-200">{renderSourceLabel(method)}</span>
+                    {getSourceHref(method) ? (
+                      <a href={getSourceHref(method) || undefined} class="text-slate-200 hover:text-white">
+                        {renderSourceLabel(method)}
+                      </a>
+                    ) : (
+                      <span class="text-slate-200">{renderSourceLabel(method)}</span>
+                    )}
                     {' - '}
                     <span>{typeof method.chance === 'number' ? `${method.chance}%` : 'Unknown chance'}</span>
                     {' x'}

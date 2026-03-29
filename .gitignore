@@ -1,5 +1,7 @@
 ferias_reference/
+PaxMHFZQuestEditor/
 .venv/
 .DS_Store
 .cursor/
 **/__pycache__
+g1_data/

@@ -6,8 +6,10 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "data:extract:bin": "uv run --project .. python ../scripts/extract_item_data.py && uv run --project .. python ../scripts/extract_partbreak_data.py && uv run --project .. python ../scripts/extract_hcc_carves.py && uv run --project .. python ../scripts/extract_carve_data.py",
-    "data:build": "npm run data:extract:bin && node scripts/build-data.mjs",
+    "data:extract:core": "uv run --project .. python ../scripts/extract_item_data.py && uv run --project .. python ../scripts/extract_partbreak_data.py && uv run --project .. python ../scripts/extract_hcc_carves.py && uv run --project .. python ../scripts/extract_carve_data.py",
+    "data:extract:quests": "uv run --project .. python ../scripts/extract_quest_data.py",
+    "data:extract:all": "npm run data:extract:core && npm run data:extract:quests",
+    "data:build": "node scripts/build-data.mjs",
     "dev": "npm run data:build && astro dev",
     "build": "npm run data:build && astro build",
     "preview": "astro preview",
