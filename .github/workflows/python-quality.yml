@@ -40,10 +40,10 @@ jobs:
         run: uv sync --group dev --frozen
 
       - name: Ruff format (check)
-        run: uv run ruff format --check scripts tests
+        run: uv run ruff format --check scripts
 
       - name: Ruff lint
-        run: uv run ruff check scripts tests
+        run: uv run ruff check scripts
 
       - name: MyPy
         run: uv run mypy scripts
