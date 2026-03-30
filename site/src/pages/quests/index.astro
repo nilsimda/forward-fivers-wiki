@@ -2,7 +2,23 @@
 import WikiLayout from '../../layouts/WikiLayout.astro';
 import questRewards from '../../data/generated/quest-rewards.json';
 
-const sortedQuests = [...questRewards].sort((a, b) => a.questId - b.questId);
+type RewardEntry = { rewardBoxId: number };
+type QuestRow = {
+  questId: number;
+  slug: string;
+  title: string;
+  rank: string;
+  questRewards?: RewardEntry[];
+  rewardGroups?: Array<{ rewards?: RewardEntry[] }>;
+};
+
+const getQuestRewards = (quest: QuestRow): RewardEntry[] => {
+  if (Array.isArray(quest.questRewards)) return quest.questRewards;
+  if (!Array.isArray(quest.rewardGroups)) return [];
+  return quest.rewardGroups.flatMap((group) => (Array.isArray(group.rewards) ? group.rewards : []));
+};
+
+const sortedQuests = [...(questRewards as QuestRow[])].sort((a, b) => a.questId - b.questId);
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
@@ -36,7 +52,7 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
           <th>ID</th>
           <th>Quest</th>
           <th>Rank</th>
-          <th>Reward groups</th>
+          <th>Reward boxes</th>
         </tr>
       </thead>
       <tbody>
@@ -52,7 +68,7 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
               <a href={withBase(`quests/${quest.slug}/`)}>{quest.title}</a>
             </td>
             <td>{quest.rank}</td>
-            <td>{quest.rewardGroups.length}</td>
+            <td>{new Set(getQuestRewards(quest).map((reward: RewardEntry) => reward.rewardBoxId)).size}</td>
           </tr>
         ))}
       </tbody>

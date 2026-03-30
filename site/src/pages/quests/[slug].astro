@@ -2,18 +2,53 @@
 import WikiLayout from '../../layouts/WikiLayout.astro';
 import questRewards from '../../data/generated/quest-rewards.json';
 
-type QuestReward = (typeof questRewards)[number];
-type RewardGroup = QuestReward['rewardGroups'][number];
-type RewardEntry = RewardGroup['rewards'][number];
+type RewardEntry = {
+  rewardBoxId: number;
+  rewardBoxNumber?: number;
+  itemId: number;
+  itemName: string;
+  percentChance: number;
+  itemCount: number;
+};
+
+type QuestPage = {
+  questId: number;
+  slug: string;
+  title: string;
+  rank: string;
+  questRank: number;
+  joinMinRank: number;
+  postMinRank: number;
+  maxPlayers: number;
+  questFee: number;
+  zennyReward: number;
+  zennyKO: number;
+  zennySubA: number;
+  zennySubB: number;
+  questTimeFrames: number;
+  mapID: number;
+  contractor: string;
+  description: string;
+  mainObjective: string;
+  subObjectiveA: string;
+  subObjectiveB: string;
+  successCondition: string;
+  failCondition: string;
+  mainGoal: unknown;
+  subAGoal: unknown;
+  subBGoal: unknown;
+  questRewards?: RewardEntry[];
+  rewardGroups?: Array<{ rewards?: RewardEntry[] }>;
+};
 
 export function getStaticPaths() {
-  return questRewards.map((quest) => ({
+  return (questRewards as QuestPage[]).map((quest) => ({
     params: { slug: quest.slug },
     props: { quest }
   }));
 }
 
-const { quest } = Astro.props as { quest: QuestReward };
+const { quest } = Astro.props as { quest: QuestPage };
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
@@ -24,17 +59,21 @@ const formatRewardBoxLabel = (rewardBoxNumber: number) => {
   return `Reward Box ${rewardBoxNumber}`;
 };
 
-const groupedRewardsByBox = (groups: RewardGroup[]) => {
+const getQuestRewards = (value: QuestPage): RewardEntry[] => {
+  if (Array.isArray(value.questRewards)) return value.questRewards;
+  if (!Array.isArray(value.rewardGroups)) return [];
+  return value.rewardGroups.flatMap((group) => (Array.isArray(group.rewards) ? group.rewards : []));
+};
+
+const groupedRewardsByBox = (rewards: RewardEntry[]) => {
   const byBox = new Map<number, { rewardBoxNumber: number; rewards: RewardEntry[] }>();
 
-  for (const group of groups) {
-    for (const reward of group.rewards) {
-      const rewardBoxNumber = typeof reward.rewardBoxNumber === 'number' ? reward.rewardBoxNumber : reward.rewardBoxId + 1;
-      if (!byBox.has(reward.rewardBoxId)) byBox.set(reward.rewardBoxId, { rewardBoxNumber, rewards: [] });
-      const bucket = byBox.get(reward.rewardBoxId);
-      if (!bucket) continue;
-      bucket.rewards.push(reward);
-    }
+  for (const reward of rewards) {
+    const rewardBoxNumber = typeof reward.rewardBoxNumber === 'number' ? reward.rewardBoxNumber : reward.rewardBoxId + 1;
+    if (!byBox.has(reward.rewardBoxId)) byBox.set(reward.rewardBoxId, { rewardBoxNumber, rewards: [] });
+    const bucket = byBox.get(reward.rewardBoxId);
+    if (!bucket) continue;
+    bucket.rewards.push(reward);
   }
 
   return [...byBox.entries()]
@@ -70,6 +109,8 @@ const renderGoal = (goal: unknown) => {
   const partChunk = normalizedGoal.part ? ` (${normalizedGoal.part})` : '';
   return [normalizedGoal.typeName, targetChunk, countChunk].filter(Boolean).join(' ') + partChunk;
 };
+
+const questRewardsRows = getQuestRewards(quest);
 ---
 
 <WikiLayout title={`${quest.title} | Quests | MHFG1 Wiki`}>
@@ -126,14 +167,14 @@ const renderGoal = (goal: unknown) => {
       </ul>
     </section>
 
-    {quest.rewardGroups.length === 0 ? (
+    {questRewardsRows.length === 0 ? (
       <section class="panel">
         <p class="text-slate-300">No reward data available for this quest yet.</p>
       </section>
     ) : (
       <section class="panel space-y-3">
         <h2 class="text-lg">Quest Rewards</h2>
-        {groupedRewardsByBox(quest.rewardGroups).map((boxGroup) => (
+        {groupedRewardsByBox(questRewardsRows).map((boxGroup) => (
           <div class="table-wrap">
             <table class="table-grid">
               <thead>

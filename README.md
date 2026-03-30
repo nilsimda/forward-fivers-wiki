@@ -29,7 +29,7 @@ npm run dev
 
 Build scripts use committed generated JSON and then produce additional projections:
 
-1. Read committed generated JSON in `site/src/data/generated` (for example `items.json`, `_quests-source.json`)
+1. Read committed generated JSON in `site/src/data/generated` (for example `items.json`, `quest-rewards.json`)
 2. Build projections used by pages (`site/scripts/build-data.mjs`)
 
 Generated outputs currently include:
@@ -41,7 +41,7 @@ Generated outputs currently include:
 Extraction note:
 
 - Extraction is a local maintainer workflow and requires local `g1_data` inputs.
-- The repository commits generated JSON (for example `items.json`, `_partbreak-source.json`, `_carves-source.json`, `_hcc-carves-source.json`, `_quests-source.json`) rather than raw game binaries/quest files.
+- The repository commits generated JSON (for example `items.json`, `_partbreak-source.json`, `_carves-source.json`, `_hcc-carves-source.json`, `quest-rewards.json`) rather than raw game binaries/quest files.
 - Normal `npm run dev` and `npm run build` do not run extraction.
 
 To refresh extraction outputs locally from repository root:
