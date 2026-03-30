@@ -14,7 +14,6 @@ const { item } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
-const rankOrder = ['lr', 'hr', 'arena', 'hr100', 'gr'];
 const rankLabels: Record<string, string> = {
   lr: 'LR (Low Rank)',
   hr: 'HR (High Rank)',
@@ -22,103 +21,77 @@ const rankLabels: Record<string, string> = {
   hr100: 'HR 100',
   gr: 'G-Rank'
 };
-const methodOrder = ['capture', 'part_break', 'hardcore_carve', 'quest_reward', 'carve', 'gather', 'shop'];
-const methodLabels: Record<string, string> = {
-  capture: 'Capture',
-  part_break: 'Part Break',
-  hardcore_carve: 'Hardcore Carve',
-  quest_reward: 'Quest Reward',
-  carve: 'Carve',
-  gather: 'Gather',
-  shop: 'Shop'
-};
-
-type AcquisitionMethod = {
-  methodType: string;
-  rank?: string;
-  sourceLabel?: string;
-  chance?: number;
-  quantity?: number;
-  monsterId?: number;
-  monsterName?: string;
-  partbreakType?: string;
-  questId?: number;
-  questSlug?: string;
-  questTitle?: string;
-  questVariantLabel?: string;
-  rewardBoxId?: number;
-  rewardBoxNumber?: number;
-};
-
-type ItemAcquisitionEntry = {
-  itemId: number;
-  itemName: string;
-  methods: AcquisitionMethod[];
-};
-
 type DescriptionSegment = {
   text: string;
   colorCode: string | null;
 };
 
-type QuestRewardGroup = {
-  questKey: string;
-  questTitle: string;
-  questId?: number;
-  questSlug?: string;
-  methods: AcquisitionMethod[];
-};
-
 type MonsterSourceRow = {
-  monsterKey: string;
-  monsterName: string;
-  monsterId?: number;
-  showMonster: boolean;
   methodType: string;
-  methodLabel: string;
-  detail: string;
   chance?: number;
   quantity?: number;
+  methodLabel: string;
+  detail: string;
 };
 
-type QuestRewardRow = {
-  questKey: string;
-  questTitle: string;
-  questId?: number;
-  questSlug?: string;
-  showQuest: boolean;
-  rewardBoxLabel: string;
-  rewardBoxKey: string;
-  showRewardBox: boolean;
+type MonsterSourceGroup = {
+  monsterId?: number;
+  monsterName: string;
+  rows: MonsterSourceRow[];
+};
+
+type QuestRewardSlot = {
   slot: number;
   chance?: number;
   quantity?: number;
 };
 
-type OtherMethodSource = {
+type QuestRewardBox = {
+  rewardBoxNumber: number;
+  label: string;
+  slots: QuestRewardSlot[];
+};
+
+type QuestRewardGroup = {
+  questId?: number;
+  questSlug?: string;
+  questTitle: string;
+  rewardBoxes: QuestRewardBox[];
+};
+
+type OtherSource = {
   label: string;
   chance?: number;
   quantity?: number;
 };
 
 type OtherMethodGroup = {
+  methodType: string;
   methodLabel: string;
-  methods: OtherMethodSource[];
+  sources: OtherSource[];
 };
 
-type RankSection = {
+type AcquisitionRank = {
   rank: string;
+  monsterSources: MonsterSourceGroup[];
+  questRewards: QuestRewardGroup[];
+  otherSources: OtherMethodGroup[];
+};
+
+type ItemAcquisitionEntry = {
+  itemId: number;
+  itemName: string;
+  ranks: AcquisitionRank[];
+};
+
+type RankSection = AcquisitionRank & {
   rankLabel: string;
   rankPanelClass: string;
   rankActivePillClass: string;
-  monsterRows: MonsterSourceRow[];
-  questRows: QuestRewardRow[];
-  questCount: number;
-  otherMethodGroups: OtherMethodGroup[];
 };
 
 const acquisitionEntry = (itemAcquisitionByItemId as Record<string, ItemAcquisitionEntry>)[String(item.id)];
-const acquisitionMethods = acquisitionEntry?.methods || [];
+const acquisitionRanks = Array.isArray(acquisitionEntry?.ranks) ? acquisitionEntry.ranks : [];
 const descriptionSegments: DescriptionSegment[] = Array.isArray(item.descriptionSegments)
   ? item.descriptionSegments
   : [];
@@ -132,64 +105,6 @@ const descriptionColorClassByCode: Record<string, string> = {
 const getDescriptionSegmentClass = (colorCode: string | null) =>
   colorCode ? descriptionColorClassByCode[colorCode] || 'text-slate-300' : 'text-slate-300';
 const currencyUnit = item.isGz ? 'Gz' : 'z';
-const formatRewardBoxLabel = (rewardBoxNumber: number) => {
-  if (rewardBoxNumber === 1) return 'Main Reward';
-  if (rewardBoxNumber === 2) return 'Subquest A';
-  if (rewardBoxNumber === 3) return 'Subquest B';
-  return `Reward Box ${rewardBoxNumber}`;
-};
-
-const getRewardBoxNumber = (method: AcquisitionMethod) => {
-  if (typeof method.rewardBoxNumber === 'number') return method.rewardBoxNumber;
-  if (typeof method.rewardBoxId === 'number') return method.rewardBoxId + 1;
-  return null;
-};
-const getRewardBoxLabel = (method: AcquisitionMethod) => {
-  const rewardBoxNumber = getRewardBoxNumber(method);
-  if (rewardBoxNumber === null) return 'Reward Box';
-  return formatRewardBoxLabel(rewardBoxNumber);
-};
-
-const monsterMethodTypes = new Set(['capture', 'part_break', 'hardcore_carve', 'carve']);
-const getRankSortValue = (rank: string) => {
-  const index = rankOrder.indexOf(rank);
-  return index === -1 ? Number.MAX_SAFE_INTEGER : index;
-};
-
-const getMethodSortValue = (methodType: string) => {
-  const index = methodOrder.indexOf(methodType);
-  return index === -1 ? Number.MAX_SAFE_INTEGER : index;
-};
-
-const compareMethods = (a: AcquisitionMethod, b: AcquisitionMethod) => {
-  const methodA = getMethodSortValue(a.methodType || '');
-  const methodB = getMethodSortValue(b.methodType || '');
-  if (methodA !== methodB) return methodA - methodB;
-  const chanceA = typeof a.chance === 'number' ? a.chance : -1;
-  const chanceB = typeof b.chance === 'number' ? b.chance : -1;
-  if (chanceA !== chanceB) return chanceB - chanceA;
-  return (a.sourceLabel || '').localeCompare(b.sourceLabel || '');
-};
-
-const getMonsterRowParts = (method: AcquisitionMethod) => {
-  if (method.methodType === 'capture') {
-    return { methodLabel: 'Capture', detail: '-' };
-  }
-  if (method.methodType === 'part_break') {
-    return { methodLabel: 'Part Break', detail: method.partbreakType || 'Unknown part' };
-  }
-  if (method.methodType === 'hardcore_carve') {
-    return { methodLabel: 'Hardcore Carve', detail: '-' };
-  }
-  if (method.methodType === 'carve') {
-    return { methodLabel: 'Carve', detail: method.sourceLabel || '-' };
-  }
-  return {
-    methodLabel: methodLabels[method.methodType || ''] || method.methodType || 'Unknown',
-    detail: method.sourceLabel || '-'
-  };
-};
-
 const getRankLabel = (rank: string) => rankLabels[rank] || rank.toUpperCase();
 const getRankPanelClass = (rank: string) => (rankLabels[rank] ? `rank-panel--${rank}` : '');
 const getRankActivePillClass = (rank: string) => (rankLabels[rank] ? `rank-pill--active-${rank}` : 'rank-pill--active');
@@ -198,234 +113,12 @@ const getMethodBadgeClass = (methodType: string) =>
     ? `method-badge--${methodType}`
     : 'method-badge--carve';
 
-const groupQuestRewardsByQuest = (methods: AcquisitionMethod[]): QuestRewardGroup[] => {
-  const questMap = new Map<string, QuestRewardGroup>();
-  for (const method of methods) {
-    const questKey = method.questSlug || `id:${method.questId || 'unknown'}::${method.questTitle || method.sourceLabel || 'unknown'}`;
-    if (!questMap.has(questKey)) {
-      questMap.set(questKey, {
-        questKey,
-        questTitle: method.questTitle || method.sourceLabel || `Quest ${method.questId || 'Unknown'}`,
-        questId: method.questId,
-        questSlug: method.questSlug,
-        methods: []
-      });
-    }
-    const questGroup = questMap.get(questKey);
-    if (!questGroup) continue;
-    questGroup.methods.push(method);
-  }
-
-  return [...questMap.values()]
-    .map((questGroup) => ({
-      ...questGroup,
-      methods: [...questGroup.methods].sort((a, b) => {
-        const boxA = getRewardBoxNumber(a) ?? Number.MAX_SAFE_INTEGER;
-        const boxB = getRewardBoxNumber(b) ?? Number.MAX_SAFE_INTEGER;
-        if (boxA !== boxB) return boxA - boxB;
-        const chanceA = typeof a.chance === 'number' ? a.chance : -1;
-        const chanceB = typeof b.chance === 'number' ? b.chance : -1;
-        if (chanceA !== chanceB) return chanceB - chanceA;
-        const quantityA = typeof a.quantity === 'number' ? a.quantity : -1;
-        const quantityB = typeof b.quantity === 'number' ? b.quantity : -1;
-        if (quantityA !== quantityB) return quantityB - quantityA;
-        return 0;
-      })
-    }))
-    .sort((a, b) => {
-      const idA = typeof a.questId === 'number' ? a.questId : Number.MAX_SAFE_INTEGER;
-      const idB = typeof b.questId === 'number' ? b.questId : Number.MAX_SAFE_INTEGER;
-      if (idA !== idB) return idA - idB;
-      return a.questTitle.localeCompare(b.questTitle);
-    });
-};
-
-const buildMonsterRows = (methods: AcquisitionMethod[]): MonsterSourceRow[] => {
-  const monsterMap = new Map<
-    string,
-    {
-      monsterKey: string;
-      monsterName: string;
-      monsterId?: number;
-      methods: AcquisitionMethod[];
-    }
-  >();
-
-  for (const method of methods) {
-    const monsterName = method.monsterName || method.sourceLabel || 'Unknown monster';
-    const monsterKey = typeof method.monsterId === 'number' ? `id:${method.monsterId}` : monsterName;
-
-    if (!monsterMap.has(monsterKey)) {
-      monsterMap.set(monsterKey, {
-        monsterKey,
-        monsterName,
-        monsterId: method.monsterId,
-        methods: []
-      });
-    }
-
-    const monster = monsterMap.get(monsterKey);
-    if (!monster) continue;
-    monster.methods.push(method);
-  }
-
-  const rows: MonsterSourceRow[] = [];
-  const monsters = [...monsterMap.values()].sort((a, b) => a.monsterName.localeCompare(b.monsterName));
-
-  for (const monster of monsters) {
-    const sortedMethods = [...monster.methods].sort(compareMethods);
-    sortedMethods.forEach((method, index) => {
-      const rowParts = getMonsterRowParts(method);
-      rows.push({
-        monsterKey: monster.monsterKey,
-        monsterName: monster.monsterName,
-        monsterId: monster.monsterId,
-        showMonster: index === 0,
-        methodType: method.methodType || 'unknown',
-        methodLabel: rowParts.methodLabel,
-        detail: rowParts.detail,
-        chance: method.chance,
-        quantity: method.quantity
-      });
-    });
-  }
-
-  return rows;
-};
-
-const buildQuestRows = (methods: AcquisitionMethod[]) => {
-  const questGroups = groupQuestRewardsByQuest(methods);
-  const rows: QuestRewardRow[] = [];
-
-  for (const questGroup of questGroups) {
-    const slotByRewardBox = new Map<string, number>();
-
-    questGroup.methods.forEach((method) => {
-      const rewardBoxNumber = getRewardBoxNumber(method);
-      const rewardBoxKey =
-        rewardBoxNumber === null
-          ? `${questGroup.questKey}::unknown`
-          : `${questGroup.questKey}::${rewardBoxNumber}`;
-      const currentSlot = slotByRewardBox.get(rewardBoxKey) || 0;
-      const nextSlot = currentSlot + 1;
-      slotByRewardBox.set(rewardBoxKey, nextSlot);
-
-      rows.push({
-        questKey: questGroup.questKey,
-        questTitle: questGroup.questTitle,
-        questId: questGroup.questId,
-        questSlug: questGroup.questSlug,
-        showQuest: false,
-        rewardBoxLabel: getRewardBoxLabel(method),
-        rewardBoxKey,
-        showRewardBox: false,
-        slot: nextSlot,
-        chance: method.chance,
-        quantity: method.quantity
-      });
-    });
-  }
-
-  let previousQuestKey = '';
-  let previousRewardBoxKey = '';
-  rows.forEach((row) => {
-    row.showQuest = row.questKey !== previousQuestKey;
-    row.showRewardBox = row.rewardBoxKey !== previousRewardBoxKey;
-    previousQuestKey = row.questKey;
-    previousRewardBoxKey = row.rewardBoxKey;
-  });
-
-  return {
-    rows,
-    questCount: questGroups.length
-  };
-};
-
-const rankBuckets = new Map<
-  string,
-  {
-    monsterMethods: AcquisitionMethod[];
-    questMethods: AcquisitionMethod[];
-    otherMethodsByType: Map<string, AcquisitionMethod[]>;
-  }
->();
-
-for (const method of acquisitionMethods) {
-  const rank = method.rank || 'unknown';
-  if (!rankBuckets.has(rank)) {
-    rankBuckets.set(rank, {
-      monsterMethods: [],
-      questMethods: [],
-      otherMethodsByType: new Map()
-    });
-  }
-
-  const bucket = rankBuckets.get(rank);
-  if (!bucket) continue;
-  const methodType = method.methodType || 'unknown';
-
-  if (monsterMethodTypes.has(methodType)) {
-    bucket.monsterMethods.push(method);
-    continue;
-  }
-
-  if (methodType === 'quest_reward') {
-    bucket.questMethods.push(method);
-    continue;
-  }
-
-  if (!bucket.otherMethodsByType.has(methodType)) {
-    bucket.otherMethodsByType.set(methodType, []);
-  }
-  const groupedMethods = bucket.otherMethodsByType.get(methodType);
-  if (!groupedMethods) continue;
-  groupedMethods.push(method);
-}
-
-const rankSections: RankSection[] = [...rankBuckets.entries()]
-  .sort(([rankA], [rankB]) => {
-    const safeRankA = getRankSortValue(rankA);
-    const safeRankB = getRankSortValue(rankB);
-    if (safeRankA !== safeRankB) return safeRankA - safeRankB;
-    return rankA.localeCompare(rankB);
-  })
-  .map(([rank, bucket]) => {
-    const monsterRows = buildMonsterRows(bucket.monsterMethods);
-    const questData = buildQuestRows(bucket.questMethods);
-    const otherMethodGroups: OtherMethodGroup[] = [...bucket.otherMethodsByType.entries()]
-      .sort(([methodA], [methodB]) => {
-        const safeMethodA = getMethodSortValue(methodA);
-        const safeMethodB = getMethodSortValue(methodB);
-        if (safeMethodA !== safeMethodB) return safeMethodA - safeMethodB;
-        return methodA.localeCompare(methodB);
-      })
-      .map(([methodType, methods]) => ({
-        methodLabel: methodLabels[methodType] || methodType,
-        methods: [...methods]
-          .sort((a, b) => {
-            const chanceA = typeof a.chance === 'number' ? a.chance : -1;
-            const chanceB = typeof b.chance === 'number' ? b.chance : -1;
-            if (chanceA !== chanceB) return chanceB - chanceA;
-            return (a.sourceLabel || '').localeCompare(b.sourceLabel || '');
-          })
-          .map((method) => ({
-            label: method.sourceLabel || 'Unknown source',
-            chance: method.chance,
-            quantity: method.quantity
-          }))
-      }));
-
-    return {
-      rank,
-      rankLabel: getRankLabel(rank),
-      rankPanelClass: getRankPanelClass(rank),
-      rankActivePillClass: getRankActivePillClass(rank),
-      monsterRows,
-      questRows: questData.rows,
-      questCount: questData.questCount,
-      otherMethodGroups
-    };
-  });
+const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
+  ...rankSection,
+  rankLabel: getRankLabel(rankSection.rank),
+  rankPanelClass: getRankPanelClass(rankSection.rank),
+  rankActivePillClass: getRankActivePillClass(rankSection.rank)
+}));
 ---
 
 <WikiLayout title={`${item.name} | Items | MHFG1 Wiki`}>
@@ -496,7 +189,7 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
             >
               <h3 class="text-base text-slate-100">{rankSection.rankLabel}</h3>
               <div class="mt-4 space-y-4">
-                {rankSection.monsterRows.length > 0 && (
+                {rankSection.monsterSources.length > 0 && (
                   <section class="space-y-2">
                     <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">Monster Sources</h4>
                     <div class="table-wrap">
@@ -511,44 +204,46 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                           </tr>
                         </thead>
                         <tbody>
-                          {rankSection.monsterRows.map((row) => (
-                            <tr>
-                              <td>
-                                {row.showMonster ? (
-                                  typeof row.monsterId === 'number' ? (
-                                    <a href={withBase(`monster-drops/${row.monsterId}/`)} class="text-slate-200 hover:text-white">
-                                      {row.monsterName}
-                                    </a>
+                          {rankSection.monsterSources.map((monster) =>
+                            monster.rows.map((row, rowIndex) => (
+                              <tr>
+                                <td>
+                                  {rowIndex === 0 ? (
+                                    typeof monster.monsterId === 'number' ? (
+                                      <a href={withBase(`monster-drops/${monster.monsterId}/`)} class="text-slate-200 hover:text-white">
+                                        {monster.monsterName}
+                                      </a>
+                                    ) : (
+                                      <span class="text-slate-200">{monster.monsterName}</span>
+                                    )
                                   ) : (
-                                    <span class="text-slate-200">{row.monsterName}</span>
-                                  )
-                                ) : (
-                                  <span class="text-slate-500">-</span>
-                                )}
-                              </td>
-                              <td>
-                                <span class={`method-badge ${getMethodBadgeClass(row.methodType)}`.trim()}>
-                                  {row.methodLabel}
-                                </span>
-                              </td>
-                              <td>{row.detail}</td>
-                              <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
-                              <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
-                            </tr>
-                          ))}
+                                    <span class="text-slate-500">-</span>
+                                  )}
+                                </td>
+                                <td>
+                                  <span class={`method-badge ${getMethodBadgeClass(row.methodType)}`.trim()}>
+                                    {row.methodLabel}
+                                  </span>
+                                </td>
+                                <td>{row.detail}</td>
+                                <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
+                                <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
+                              </tr>
+                            ))
+                          )}
                         </tbody>
                       </table>
                     </div>
                   </section>
                 )}
 
-                {rankSection.questRows.length > 0 && (
+                {rankSection.questRewards.length > 0 && (
                   <section class="space-y-2">
                     <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">Quest Rewards</h4>
-                    {rankSection.questCount > 10 ? (
+                    {rankSection.questRewards.length > 10 ? (
                       <details class="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
                         <summary class="cursor-pointer text-sm text-slate-300 hover:text-slate-100">
-                          Show all {rankSection.questCount} quests
+                          Show all {rankSection.questRewards.length} quests
                         </summary>
                         <div class="mt-3 table-wrap">
                           <table class="table-grid">
@@ -562,31 +257,35 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                               </tr>
                             </thead>
                             <tbody>
-                              {rankSection.questRows.map((row) => (
-                                <tr>
-                                  <td>
-                                    {row.showQuest ? (
-                                      row.questSlug ? (
-                                        <a href={withBase(`quests/${row.questSlug}/`)} class="text-slate-200 hover:text-white">
-                                          {row.questTitle}
-                                          {typeof row.questId === 'number' ? ` (#${row.questId})` : ''}
-                                        </a>
-                                      ) : (
-                                        <span class="text-slate-200">
-                                          {row.questTitle}
-                                          {typeof row.questId === 'number' ? ` (#${row.questId})` : ''}
-                                        </span>
-                                      )
-                                    ) : (
-                                      <span class="text-slate-500">-</span>
-                                    )}
-                                  </td>
-                                  <td>{row.showRewardBox ? row.rewardBoxLabel : <span class="text-slate-500">-</span>}</td>
-                                  <td>{row.slot}</td>
-                                  <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
-                                  <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
-                                </tr>
-                              ))}
+                              {rankSection.questRewards.map((quest) =>
+                                quest.rewardBoxes.map((rewardBox, rewardBoxIndex) =>
+                                  rewardBox.slots.map((slot, slotIndex) => (
+                                    <tr>
+                                      <td>
+                                        {rewardBoxIndex === 0 && slotIndex === 0 ? (
+                                          quest.questSlug ? (
+                                            <a href={withBase(`quests/${quest.questSlug}/`)} class="text-slate-200 hover:text-white">
+                                              {quest.questTitle}
+                                              {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                            </a>
+                                          ) : (
+                                            <span class="text-slate-200">
+                                              {quest.questTitle}
+                                              {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                            </span>
+                                          )
+                                        ) : (
+                                          <span class="text-slate-500">-</span>
+                                        )}
+                                      </td>
+                                      <td>{slotIndex === 0 ? rewardBox.label : <span class="text-slate-500">-</span>}</td>
+                                      <td>{slot.slot}</td>
+                                      <td>{typeof slot.chance === 'number' ? `${slot.chance}%` : 'Unknown'}</td>
+                                      <td>{typeof slot.quantity === 'number' ? `x${slot.quantity}` : 'x?'}</td>
+                                    </tr>
+                                  ))
+                                )
+                              )}
                             </tbody>
                           </table>
                         </div>
@@ -604,31 +303,35 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                             </tr>
                           </thead>
                           <tbody>
-                            {rankSection.questRows.map((row) => (
-                              <tr>
-                                <td>
-                                  {row.showQuest ? (
-                                    row.questSlug ? (
-                                      <a href={withBase(`quests/${row.questSlug}/`)} class="text-slate-200 hover:text-white">
-                                        {row.questTitle}
-                                        {typeof row.questId === 'number' ? ` (#${row.questId})` : ''}
-                                      </a>
-                                    ) : (
-                                      <span class="text-slate-200">
-                                        {row.questTitle}
-                                        {typeof row.questId === 'number' ? ` (#${row.questId})` : ''}
-                                      </span>
-                                    )
-                                  ) : (
-                                    <span class="text-slate-500">-</span>
-                                  )}
-                                </td>
-                                <td>{row.showRewardBox ? row.rewardBoxLabel : <span class="text-slate-500">-</span>}</td>
-                                <td>{row.slot}</td>
-                                <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
-                                <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
-                              </tr>
-                            ))}
+                            {rankSection.questRewards.map((quest) =>
+                              quest.rewardBoxes.map((rewardBox, rewardBoxIndex) =>
+                                rewardBox.slots.map((slot, slotIndex) => (
+                                  <tr>
+                                    <td>
+                                      {rewardBoxIndex === 0 && slotIndex === 0 ? (
+                                        quest.questSlug ? (
+                                          <a href={withBase(`quests/${quest.questSlug}/`)} class="text-slate-200 hover:text-white">
+                                            {quest.questTitle}
+                                            {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                          </a>
+                                        ) : (
+                                          <span class="text-slate-200">
+                                            {quest.questTitle}
+                                            {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                          </span>
+                                        )
+                                      ) : (
+                                        <span class="text-slate-500">-</span>
+                                      )}
+                                    </td>
+                                    <td>{slotIndex === 0 ? rewardBox.label : <span class="text-slate-500">-</span>}</td>
+                                    <td>{slot.slot}</td>
+                                    <td>{typeof slot.chance === 'number' ? `${slot.chance}%` : 'Unknown'}</td>
+                                    <td>{typeof slot.quantity === 'number' ? `x${slot.quantity}` : 'x?'}</td>
+                                  </tr>
+                                ))
+                              )
+                            )}
                           </tbody>
                         </table>
                       </div>
@@ -636,7 +339,7 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                   </section>
                 )}
 
-                {rankSection.otherMethodGroups.map((group) => (
+                {rankSection.otherSources.map((group) => (
                   <section class="space-y-2">
                     <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">{group.methodLabel}</h4>
                     <div class="table-wrap">
@@ -649,7 +352,7 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                           </tr>
                         </thead>
                         <tbody>
-                          {group.methods.map((method) => (
+                          {group.sources.map((method) => (
                             <tr>
                               <td>{method.label}</td>
                               <td>{typeof method.chance === 'number' ? `${method.chance}%` : 'Unknown'}</td>
@@ -662,9 +365,9 @@ const rankSections: RankSection[] = [...rankBuckets.entries()]
                   </section>
                 ))}
 
-                {rankSection.monsterRows.length === 0 &&
-                  rankSection.questRows.length === 0 &&
-                  rankSection.otherMethodGroups.length === 0 && (
+                {rankSection.monsterSources.length === 0 &&
+                  rankSection.questRewards.length === 0 &&
+                  rankSection.otherSources.length === 0 && (
                     <p class="text-sm text-slate-300">No sources listed for this rank yet.</p>
                   )}
               </div>

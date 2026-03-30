@@ -7,7 +7,7 @@ import struct
 import subprocess
 import tempfile
 from pathlib import Path
-from typing import Literal, TypedDict
+from typing import Literal, NotRequired, TypedDict
 
 from extract_common import (
     REPO_ROOT,
@@ -149,6 +149,14 @@ class QuestRow(TypedDict):
     subAGoal: QuestGoal
     subBGoal: QuestGoal
     questRewards: list[QuestRewardEntry]
+    questFileDifficulty: NotRequired[int]
+    questFileRequirement: NotRequired[int]
+
+
+class QuestFileData(TypedDict):
+    rewards: list[QuestRewardBox]
+    difficulty: int
+    requirement: int
 
 
 def parse_args() -> argparse.Namespace:
@@ -354,6 +362,18 @@ def parse_reward_boxes_from_quest_file(raw: bytes) -> list[QuestRewardBox]:
     return boxes
 
 
+def map_quest_rank_from_difficulty(difficulty: int) -> str | None:
+    if 1 <= difficulty <= 11:
+        return "lr"
+    if 12 <= difficulty <= 20:
+        return "hr"
+    if difficulty in (26, 31, 42):
+        return "hr100"
+    if difficulty >= 53:
+        return "gr"
+    return None
+
+
 def load_unpacked_quest_file(path: Path, workspace: Path) -> bytes:
     raw = path.read_bytes()
     if not raw.startswith(b"JKR\x1a"):
@@ -388,11 +408,11 @@ def load_unpacked_quest_file(path: Path, workspace: Path) -> bytes:
     return output_file.read_bytes()
 
 
-def extract_selected_reward_boxes_for_quest(
+def extract_selected_quest_file_data(
     quest_id: int,
     quest_files_dir: Path,
     unpack_workspace: Path,
-) -> list[QuestRewardBox]:
+) -> QuestFileData | None:
     selected_path: Path | None = None
     selected_name = ""
     for variant_code in REWARD_VARIANT_CODES:
@@ -403,7 +423,7 @@ def extract_selected_reward_boxes_for_quest(
             selected_name = source_name
             break
     if selected_path is None:
-        return []
+        return None
 
     unpacked = load_unpacked_quest_file(selected_path, unpack_workspace)
     quest_file_id = read_u16(unpacked, 0xEE, "quest_file.questFileId")
@@ -411,7 +431,11 @@ def extract_selected_reward_boxes_for_quest(
         raise ValueError(
             f"Quest variant {selected_name} has questFileId={quest_file_id}, expected {quest_id}"
         )
-    return parse_reward_boxes_from_quest_file(unpacked)
+    return {
+        "rewards": parse_reward_boxes_from_quest_file(unpacked),
+        "difficulty": read_u16(unpacked, 0x48, "quest_file.difficulty"),
+        "requirement": read_u16(unpacked, 0xEC, "quest_file.requirement"),
+    }
 
 
 def normalize_quest_rewards(
@@ -497,19 +521,32 @@ def parse_quest(
     max_players_raw = raw[quest_offset + 0x0B]
     max_players = 4 if max_players_raw == 0 else max_players_raw
 
+    quest_rank = map_quest_rank(post_min_rank)
+    quest_file_difficulty: int | None = None
+    quest_file_requirement: int | None = None
     if quest_files_dir is None or unpack_workspace is None:
         quest_rewards: list[QuestRewardEntry] = []
     else:
-        reward_boxes = extract_selected_reward_boxes_for_quest(
+        quest_file_data = extract_selected_quest_file_data(
             quest_id, quest_files_dir, unpack_workspace
         )
-        quest_rewards = normalize_quest_rewards(reward_boxes, item_names_by_id)
+        if quest_file_data is None:
+            quest_rewards = []
+        else:
+            quest_file_difficulty = quest_file_data["difficulty"]
+            quest_file_requirement = quest_file_data["requirement"]
+            difficulty_rank = map_quest_rank_from_difficulty(quest_file_difficulty)
+            if difficulty_rank is not None:
+                quest_rank = difficulty_rank
+            quest_rewards = normalize_quest_rewards(
+                quest_file_data["rewards"], item_names_by_id
+            )
 
-    return {
+    quest_row: QuestRow = {
         "questId": quest_id,
         "slug": f"{quest_id}-{slugify(title)}",
         "title": title,
-        "rank": map_quest_rank(post_min_rank),
+        "rank": quest_rank,
         "questRank": read_u16(raw, quest_offset + 0x08, "quest.questRank"),
         "joinMinRank": read_u16(raw, quest_offset + 0x4A, "quest.joinMinRank"),
         "postMinRank": post_min_rank,
@@ -551,6 +588,11 @@ def parse_quest(
         ),
         "questRewards": quest_rewards,
     }
+    if quest_file_difficulty is not None:
+        quest_row["questFileDifficulty"] = quest_file_difficulty
+    if quest_file_requirement is not None:
+        quest_row["questFileRequirement"] = quest_file_requirement
+    return quest_row
 
 
 def extract_quests(
