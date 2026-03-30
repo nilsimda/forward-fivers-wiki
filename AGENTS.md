@@ -54,3 +54,9 @@ After changing files in `scripts/`, run:
 - Treat JSON sidecar inputs as required and strict across pipelines (`items.json`, `monster_names.json`, carve/partbreak label files, and `_wiki-hidden-item-ids.json`).
 - Do not add fallback behavior for missing files, missing keys, or type coercion in extract loaders; fail loudly instead.
 - Keep binary pointer/bounds/sentinel checks strict (these are safety checks, not optional input handling).
+
+## Code Style
+
+This is very important. Keep in mind the concept of negative space. We want to be very minimal and efficient with the lines 
+of code we add. If you find yourself adding a bunch of auxiliary functions, validation code etc chances 
+are our data structures are not what we want them be. In that case instead of writing the code suggest data structure or refactoring changes to the pipeline to me to discuss.

@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import struct
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, TypedDict
@@ -158,3 +159,32 @@ def decode_c_string(raw: bytes, pointer: int) -> str:
         except UnicodeDecodeError:
             continue
     return data.decode("latin-1", errors="replace")
+
+
+def validate_acquisition_methods(
+    methods: Sequence[Mapping[str, Any]],
+    *,
+    valid_item_ids: frozenset[int],
+    source_label: str,
+) -> None:
+    """Fail loudly when emitted acquisition method rows are malformed."""
+    for index, method in enumerate(methods):
+        row_label = f"{source_label} method row {index + 1}"
+
+        item_id_raw = method.get("itemId")
+        if not isinstance(item_id_raw, int):
+            raise ValueError(f"{row_label}: itemId must be int")
+        if item_id_raw not in valid_item_ids:
+            raise ValueError(f"{row_label}: unknown itemId {item_id_raw}")
+
+        chance_raw = method.get("chance")
+        if not isinstance(chance_raw, int) or chance_raw < 0:
+            raise ValueError(f"{row_label}: chance must be int >= 0")
+
+        quantity_raw = method.get("quantity")
+        if not isinstance(quantity_raw, int) or quantity_raw < 0:
+            raise ValueError(f"{row_label}: quantity must be int >= 0")
+
+        rank_raw = method.get("rank")
+        if not isinstance(rank_raw, str) or not rank_raw.strip():
+            raise ValueError(f"{row_label}: rank must be non-empty string")

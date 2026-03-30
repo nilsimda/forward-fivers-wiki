@@ -60,18 +60,14 @@ async function main() {
   ]);
   const questRewards = buildQuestRewards(questsSource, itemNamesById, monsterNamesById);
   const questMethods = buildQuestRewardMethods(questRewards, itemNamesById);
-  const methods = dedupePooledDropMethods(
-    [
-      ...partbreakMethods,
-      ...carveMethods,
-      ...hardcoreCarveMethods,
-      ...questMethods
-    ]
-      .filter((method) => validItemIds.has(method.itemId))
-      .sort(compareMethods)
-  );
-
-  validateMethods(methods, items);
+  const methods = [
+    ...partbreakMethods,
+    ...carveMethods,
+    ...hardcoreCarveMethods,
+    ...questMethods
+  ]
+    .filter((method) => validItemIds.has(method.itemId))
+    .sort(compareMethods);
 
   const monsterDrops = buildMonsterDrops(methods);
   const itemAcquisition = buildItemAcquisition(methods);
@@ -417,28 +413,6 @@ function formatRewardBoxLabel(rewardBoxNumber) {
 
 /**
  * @param {AcquisitionMethod[]} methods
- * @param {{ id: number }[]} items
- */
-function validateMethods(methods, items) {
-  const validItemIds = new Set(items.map((item) => item.id));
-  for (const method of methods) {
-    if (!validItemIds.has(method.itemId)) {
-      throw new Error(`Acquisition references unknown item id ${method.itemId}`);
-    }
-    if (!Number.isFinite(method.chance) || method.chance < 0) {
-      throw new Error(`Invalid chance for item ${method.itemId} (${method.chance})`);
-    }
-    if (!Number.isFinite(method.quantity) || method.quantity < 0) {
-      throw new Error(`Invalid quantity for item ${method.itemId} (${method.quantity})`);
-    }
-    if (!method.rank) {
-      throw new Error(`Missing rank for item ${method.itemId}`);
-    }
-  }
-}
-
-/**
- * @param {AcquisitionMethod[]} methods
  */
 function buildMonsterDrops(methods) {
   const byMonster = new Map();
@@ -558,42 +532,6 @@ function compareMethods(a, b) {
   if (b.chance !== a.chance) return b.chance - a.chance;
   if (b.quantity !== a.quantity) return b.quantity - a.quantity;
   return a.itemId - b.itemId;
-}
-
-/**
- * Several raw partbreak slots can share one display label (e.g. "Other") with the same PDT;
- * collapse identical acquisition lines so pooled breaks do not repeat in JSON/UI.
- *
- * @param {AcquisitionMethod[]} methods
- * @returns {AcquisitionMethod[]}
- */
-function dedupePooledDropMethods(methods) {
-  const seen = new Set();
-  /** @type {AcquisitionMethod[]} */
-  const out = [];
-
-  for (const m of methods) {
-    if (m.methodType !== 'part_break' && m.methodType !== 'capture') {
-      out.push(m);
-      continue;
-    }
-
-    const key = [
-      m.monsterId,
-      m.rank,
-      m.methodType,
-      m.partbreakType ?? '',
-      m.itemId,
-      m.chance,
-      m.quantity
-    ].join('|');
-
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push(m);
-  }
-
-  return out;
 }
 
 /**

@@ -228000,7 +228000,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 6,
         "quantity": 1,
         "itemId": 1400,
@@ -228009,7 +228009,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "carve",
@@ -228374,7 +228374,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 7,
         "quantity": 1,
         "itemId": 1401,
@@ -228383,7 +228383,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "carve",
@@ -228728,7 +228728,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 6,
         "quantity": 1,
         "itemId": 1402,
@@ -228737,7 +228737,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "carve",
@@ -228940,7 +228940,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 6,
         "quantity": 1,
         "itemId": 1403,
@@ -228949,7 +228949,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "quest_reward",
@@ -229181,7 +229181,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 7,
         "quantity": 1,
         "itemId": 1404,
@@ -229190,7 +229190,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "quest_reward",
@@ -229408,7 +229408,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 6,
         "quantity": 1,
         "itemId": 1405,
@@ -229417,7 +229417,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "quest_reward",
@@ -230645,7 +230645,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 3,
         "quantity": 1,
         "itemId": 1412,
@@ -230654,7 +230654,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       },
       {
         "methodType": "carve",
@@ -256725,7 +256725,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Reward Box 4",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
         "chance": 26,
         "quantity": 1,
         "itemId": 1885,
@@ -256734,7 +256734,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 47,
-        "rewardBoxNumber": 4
+        "rewardBoxNumber": 3
       }
     ]
   },
@@ -282446,7 +282446,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress - Subquest B Reward",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress - Subquest A Reward",
         "chance": 50,
         "quantity": 1,
         "itemId": 5345,
@@ -282455,12 +282455,12 @@
         "questSlug": "21139-mighty-quest-the-proud-empress",
         "questTitle": "≪Mighty Quest≫ The Proud Empress",
         "rewardBoxId": 5,
-        "rewardBoxNumber": 3
+        "rewardBoxNumber": 2
       },
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest A Reward",
         "chance": 50,
         "quantity": 1,
         "itemId": 5345,
@@ -282469,7 +282469,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 5,
-        "rewardBoxNumber": 3
+        "rewardBoxNumber": 2
       },
       {
         "methodType": "quest_reward",
@@ -282934,7 +282934,7 @@
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress - Subquest B Reward",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress - Subquest A Reward",
         "chance": 50,
         "quantity": 1,
         "itemId": 5347,
@@ -282943,12 +282943,12 @@
         "questSlug": "21139-mighty-quest-the-proud-empress",
         "questTitle": "≪Mighty Quest≫ The Proud Empress",
         "rewardBoxId": 5,
-        "rewardBoxNumber": 3
+        "rewardBoxNumber": 2
       },
       {
         "methodType": "quest_reward",
         "rank": "hr100",
-        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest B Reward",
+        "sourceLabel": "≪Mighty Quest≫ The Proud Empress (Repel) - Subquest A Reward",
         "chance": 50,
         "quantity": 1,
         "itemId": 5347,
@@ -282957,7 +282957,7 @@
         "questSlug": "21140-mighty-quest-the-proud-empress-repel",
         "questTitle": "≪Mighty Quest≫ The Proud Empress (Repel)",
         "rewardBoxId": 5,
-        "rewardBoxNumber": 3
+        "rewardBoxNumber": 2
       },
       {
         "methodType": "quest_reward",
@@ -283784,7 +283784,7 @@
       {
         "methodType": "quest_reward",
         "rank": "lr",
-        "sourceLabel": "≪Arena Battle≫ Hardcore Ticket Exchange - Subquest A Reward",
+        "sourceLabel": "≪Arena Battle≫ Hardcore Ticket Exchange - Main Reward",
         "chance": 100,
         "quantity": 5,
         "itemId": 5606,
@@ -283793,7 +283793,7 @@
         "questSlug": "21494-arena-battle-hardcore-ticket-exchange",
         "questTitle": "≪Arena Battle≫ Hardcore Ticket Exchange",
         "rewardBoxId": 5,
-        "rewardBoxNumber": 2
+        "rewardBoxNumber": 1
       }
     ]
   },

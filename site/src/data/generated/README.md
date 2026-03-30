@@ -83,11 +83,11 @@ Each entry shape:
 
 Future source types should be added as new variants rather than overloading existing ones.
 
-## Build-Time Guardrails
+## Guardrails
 
-`build-data.mjs` validates:
+Method row validation runs in Python extraction scripts before writing source files.
+These checks enforce:
 
 - all acquisition `itemId` values map to existing `items.json` IDs
-- numeric fields parse cleanly (`chance`, `quantity`, IDs)
-
-If a source violates these rules, the build fails fast with an explicit error.
+- numeric fields parse cleanly (`chance`, `quantity`)
+- rank is present and non-empty

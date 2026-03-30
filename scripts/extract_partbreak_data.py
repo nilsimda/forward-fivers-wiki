@@ -15,6 +15,7 @@ from extract_common import (
     read_pointer_array,
     read_u16,
     read_u32,
+    validate_acquisition_methods,
     write_json_output,
 )
 
@@ -411,10 +412,24 @@ def extract_partbreak_rows(
 
 def to_acquisition_methods(rows: list[PartbreakRow]) -> list[AcquisitionMethodRow]:
     methods: list[AcquisitionMethodRow] = []
+    seen: set[tuple[int, RankCode, str, str, int, int, int]] = set()
     for row in rows:
+        method_type = cast(Literal["capture", "part_break"], row["drop_mode"])
+        dedupe_key = (
+            row["monster_id"],
+            row["rank"],
+            method_type,
+            row["partbreak_type"],
+            row["item_id"],
+            row["percentage"],
+            row["quantity"],
+        )
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
         methods.append(
             {
-                "methodType": cast(Literal["capture", "part_break"], row["drop_mode"]),
+                "methodType": method_type,
                 "rank": row["rank"],
                 "sourceLabel": row["monster_name"],
                 "chance": row["percentage"],
@@ -452,6 +467,11 @@ def main() -> None:
     )
 
     methods = to_acquisition_methods(rows)
+    validate_acquisition_methods(
+        methods,
+        valid_item_ids=frozenset(item_names_by_id.keys()),
+        source_label="partbreak source data",
+    )
     write_json_output(args.output, methods)
 
     print(f"Decoded {pdt_count} PDT pointers and {mapping_count} mappings")

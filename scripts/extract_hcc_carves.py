@@ -10,6 +10,7 @@ from extract_common import (
     load_monster_names,
     load_wiki_hidden_item_ids,
     read_u32,
+    validate_acquisition_methods,
     write_json_output,
 )
 
@@ -141,7 +142,7 @@ def to_acquisition_methods(
                     "monsterId": monster_id,
                     "monsterName": monster_name,
                     "itemId": item_id,
-                    "itemName": item_names_by_id.get(item_id, f"Item {item_id}"),
+                    "itemName": item_names_by_id[item_id],
                 }
             )
     return methods
@@ -162,6 +163,11 @@ def main() -> None:
         scrubbed_records,
         item_names_by_id=item_names_by_id,
         monster_names_by_id=monster_names_by_id,
+    )
+    validate_acquisition_methods(
+        methods,
+        valid_item_ids=frozenset(item_names_by_id.keys()),
+        source_label="hardcore carve source data",
     )
 
     write_json_output(args.output, methods)

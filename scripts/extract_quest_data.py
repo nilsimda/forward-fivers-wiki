@@ -356,6 +356,9 @@ def parse_reward_boxes_from_quest_file(raw: bytes) -> tuple[int, list[QuestRewar
                 reward_offset + 4,
                 f"reward_box[{box_index}].item[{item_index}].item_count",
             )
+            # Empty quest reward slots can surface as item_id=0; exclude them from output.
+            if item_id == 0:
+                continue
             rewards.append(
                 {
                     "percent_chance": percent_chance,
@@ -442,36 +445,26 @@ def extract_reward_variants_for_quest(
                 )
                 continue
 
-            was_unpacked = False
-            try:
-                unpacked, was_unpacked = load_unpacked_quest_file(
-                    source_path,
-                    unpack_workspace,
+            unpacked, _was_unpacked = load_unpacked_quest_file(
+                source_path,
+                unpack_workspace,
+            )
+            quest_file_id = read_u16(unpacked, 0xEE, "quest_file.questFileId")
+            if quest_file_id != quest_id:
+                raise ValueError(
+                    f"Quest variant {source_name} has questFileId={quest_file_id}, expected {quest_id}"
                 )
-                _quest_file_id = read_u16(unpacked, 0xEE, "quest_file.questFileId")
-                reward_flag, reward_boxes = parse_reward_boxes_from_quest_file(unpacked)
-                variants.append(
-                    {
-                        "variant_code": variant_code,
-                        "day_night": day_night,
-                        "season": season,
-                        "rewards_available": len(reward_boxes) > 0,
-                        "reward_flag": reward_flag,
-                        "reward_boxes": reward_boxes,
-                    }
-                )
-            except Exception as exc:  # preserve extraction for other variants/quests
-                _ = exc
-                variants.append(
-                    {
-                        "variant_code": variant_code,
-                        "day_night": day_night,
-                        "season": season,
-                        "rewards_available": False,
-                        "reward_flag": None,
-                        "reward_boxes": [],
-                    }
-                )
+            reward_flag, reward_boxes = parse_reward_boxes_from_quest_file(unpacked)
+            variants.append(
+                {
+                    "variant_code": variant_code,
+                    "day_night": day_night,
+                    "season": season,
+                    "rewards_available": len(reward_boxes) > 0,
+                    "reward_flag": reward_flag,
+                    "reward_boxes": reward_boxes,
+                }
+            )
 
     return variants
 

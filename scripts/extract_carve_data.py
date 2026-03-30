@@ -13,6 +13,7 @@ from extract_common import (
     load_wiki_hidden_item_ids,
     read_u16,
     read_u32,
+    validate_acquisition_methods,
     write_json_output,
 )
 
@@ -43,16 +44,6 @@ PRIMARY_RECORD_SCAN_HARD_CAP = 0x100
 
 RANK_LABELS = ["lr", "hr", "arena", "hr100", "gr"]
 GRANK_DT_INDEX_OFFSET = 0x0E
-
-# Carve DT 801 is a *shared* table (generic supplies: potions, bone, stone). In the data it is
-# wired to the **arena** rank slot for monsters 107–117 (Vorsphyroa … Pokara). The same DT is
-# also referenced from LR/HR/HR100 for those IDs (bogus fallbacks) and from all four of those
-# ranks for Shantien (116). It is not “Shantien’s” table—just one global pool reused for arena
-# (and incorrectly for other ranks). We keep one monster’s copy for wiki dedupe: anchor 116
-# (same pattern as Quarzeps partbreak).
-FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID = 116
-FRONTIER_SHARED_CARVE_DEDUPE_RANKS = frozenset({"lr", "hr", "hr100"})
-
 
 CarvePath = Literal["primary", "secondary"]
 
@@ -414,50 +405,6 @@ def flatten_rows(
     return rows
 
 
-def filter_frontier_shared_carve_pool_duplicates(
-    rows: list[CarveRowBase],
-) -> list[CarveRowBase]:
-    """
-    Drop duplicate references to the shared arena-rank carve pool (DT 801, etc.): same idea as
-    Quarzeps partbreak. Anchor monster defines which dt_index values per rank are treated as
-    that pool for deduplication (see FRONTIER_SHARED_CARVE_DEDUPE_* constants).
-    """
-    anchor_dt_by_rank: dict[str, set[int]] = {}
-    for row in rows:
-        monster_id = row["monster_id"]
-        if monster_id != FRONTIER_SHARED_CARVE_DEDUPE_ANCHOR_MONSTER_ID:
-            continue
-        rank = row["rank_label"]
-        if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
-            continue
-        anchor_dt_by_rank.setdefault(rank, set()).add(row["dt_index"])
-
-    if not anchor_dt_by_rank:
-        return rows
-
-    kept: list[CarveRowBase] = []
-    removed = 0
-    for row in rows:
-        monster_id = row["monster_id"]
-        rank = row["rank_label"]
-        if rank not in FRONTIER_SHARED_CARVE_DEDUPE_RANKS:
-            kept.append(row)
-            continue
-        indices = anchor_dt_by_rank.get(rank)
-        if not indices:
-            kept.append(row)
-            continue
-        if row["dt_index"] in indices:
-            removed += 1
-            continue
-        kept.append(row)
-
-    if removed > 0:
-        print(f"Filtered {removed} Frontier shared carve pool duplicate rows")
-
-    return kept
-
-
 def format_carve_source_label(
     labels: CarveLabels,
     monster_id: int,
@@ -498,7 +445,6 @@ def apply_carve_source_labels(
 def dedupe_carve_rows_for_build(
     rows: list[CarveRow],
 ) -> list[CarveRow]:
-    """Same key as former build-data.mjs buildCarveMethods dedupe."""
     seen: set[tuple[object, ...]] = set()
     out: list[CarveRow] = []
     for r in rows:
@@ -589,10 +535,14 @@ def main() -> None:
         carve_dt_pointers=carve_dt_pointers,
         carve_tables=carve_tables,
     )
-    filtered_rows = filter_frontier_shared_carve_pool_duplicates(base_rows)
-    labeled_rows = apply_carve_source_labels(filtered_rows, carve_labels)
+    labeled_rows = apply_carve_source_labels(base_rows, carve_labels)
     rows = dedupe_carve_rows_for_build(labeled_rows)
     methods = to_acquisition_methods(rows)
+    validate_acquisition_methods(
+        methods,
+        valid_item_ids=frozenset(item_names_by_id.keys()),
+        source_label="carve source data",
+    )
 
     write_json_output(args.output, methods)
 

@@ -1846,14 +1846,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 50,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 45,
@@ -1993,14 +1985,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -2154,14 +2138,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 40,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 40,
@@ -2309,14 +2285,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -2478,14 +2446,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 27,
@@ -2633,14 +2593,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -2802,14 +2754,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 8,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 24,
@@ -2965,14 +2909,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 15,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -3142,14 +3078,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 25,
@@ -3316,14 +3244,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 60,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 710,
             "itemName": "Bird Coin",
             "percentChance": 35,
@@ -3463,14 +3383,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 50,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -3616,14 +3528,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 35,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 711,
             "itemName": "Flying Coin",
             "percentChance": 50,
@@ -3763,14 +3667,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -3916,14 +3812,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 40,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 715,
             "itemName": "Dragon Coin",
             "percentChance": 55,
@@ -4063,14 +3951,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 50,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -4224,14 +4104,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 50,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 30,
@@ -4379,14 +4251,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 35,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -4540,14 +4404,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 35,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 10,
@@ -4695,14 +4551,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -4864,14 +4712,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 11,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 32,
@@ -5030,14 +4870,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 707,
             "itemName": "White Belt Coin",
             "percentChance": 15,
@@ -5193,14 +5025,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 22,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -5552,14 +5376,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 65,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 710,
             "itemName": "Bird Coin",
             "percentChance": 30,
@@ -5699,14 +5515,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 50,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -5852,14 +5660,6 @@
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
             "itemId": 711,
             "itemName": "Flying Coin",
             "percentChance": 65,
@@ -5999,14 +5799,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -54525,16 +54317,8 @@
             "itemCount": 1
           },
           {
-            "rewardBoxId": 4,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          },
-          {
             "rewardBoxId": 5,
-            "rewardBoxNumber": 3,
+            "rewardBoxNumber": 2,
             "itemId": 5345,
             "itemName": "Wild Artisoul",
             "percentChance": 50,
@@ -54542,7 +54326,7 @@
           },
           {
             "rewardBoxId": 5,
-            "rewardBoxNumber": 3,
+            "rewardBoxNumber": 2,
             "itemId": 5347,
             "itemName": "Joyful Artisoul",
             "percentChance": 50,
@@ -54739,16 +54523,8 @@
             "itemCount": 1
           },
           {
-            "rewardBoxId": 4,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          },
-          {
             "rewardBoxId": 5,
-            "rewardBoxNumber": 3,
+            "rewardBoxNumber": 2,
             "itemId": 5345,
             "itemName": "Wild Artisoul",
             "percentChance": 50,
@@ -54756,7 +54532,7 @@
           },
           {
             "rewardBoxId": 5,
-            "rewardBoxNumber": 3,
+            "rewardBoxNumber": 2,
             "itemId": 5347,
             "itemName": "Joyful Artisoul",
             "percentChance": 50,
@@ -54764,7 +54540,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1400,
             "itemName": "E.Dragon Shell",
             "percentChance": 6,
@@ -54772,7 +54548,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1401,
             "itemName": "E.Drgn Carapace",
             "percentChance": 7,
@@ -54780,7 +54556,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1402,
             "itemName": "E.Dragon Cortex",
             "percentChance": 6,
@@ -54788,7 +54564,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1403,
             "itemName": "E.Dragon Pelt",
             "percentChance": 6,
@@ -54796,7 +54572,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1404,
             "itemName": "E.Dragon Pelt+",
             "percentChance": 7,
@@ -54804,7 +54580,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1405,
             "itemName": "E.Dragon Fur",
             "percentChance": 6,
@@ -54812,7 +54588,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1412,
             "itemName": "E.Dragon Tail",
             "percentChance": 3,
@@ -54820,7 +54596,7 @@
           },
           {
             "rewardBoxId": 47,
-            "rewardBoxNumber": 4,
+            "rewardBoxNumber": 3,
             "itemId": 1885,
             "itemName": "Lunastra Cert.",
             "percentChance": 26,
@@ -77981,25 +77757,9 @@
           {
             "rewardBoxId": 4,
             "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 4,
-            "rewardBoxNumber": 3,
             "itemId": 4780,
             "itemName": "Tyrannical Horn",
             "percentChance": 15,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 5,
-            "rewardBoxNumber": 4,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -78389,14 +78149,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 6050,
             "itemName": "N545 Ore",
             "percentChance": 1,
@@ -78464,14 +78216,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -91792,14 +91536,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 49,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 149,
             "itemName": "Mega Fishing Fly",
             "percentChance": 30,
@@ -91883,14 +91619,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92001,14 +91729,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 51,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92248,14 +91968,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2075,
             "itemName": "Gathering Coin 1",
             "percentChance": 1,
@@ -92323,14 +92035,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92404,14 +92108,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2077,
             "itemName": "Gathering Coin 3",
             "percentChance": 1,
@@ -92479,14 +92175,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92560,14 +92248,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2081,
             "itemName": "Gathering Coin H",
             "percentChance": 1,
@@ -92635,14 +92315,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92716,14 +92388,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3971,
             "itemName": "Fertility Coin",
             "percentChance": 1,
@@ -92791,14 +92455,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -92872,14 +92528,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 5621,
             "itemName": "Flourishing Coin",
             "percentChance": 1,
@@ -92950,14 +92598,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 5621,
             "itemName": "Flourishing Coin",
             "percentChance": 1,
@@ -93025,14 +92665,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -93313,14 +92945,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -93856,14 +93480,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2618,
             "itemName": "Amber Fluid",
             "percentChance": 1,
@@ -93934,14 +93550,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2621,
             "itemName": "Jade Fluid",
             "percentChance": 1,
@@ -94009,14 +93617,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -94160,14 +93760,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3670,
             "itemName": "Kubiki Essence",
             "percentChance": 1,
@@ -94238,14 +93830,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4466,
             "itemName": "Pure Dawnstone",
             "percentChance": 1,
@@ -94313,14 +93897,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -94464,14 +94040,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2631,
             "itemName": "Purple Volva",
             "percentChance": 1,
@@ -94539,14 +94107,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -94620,14 +94180,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 5614,
             "itemName": "Mezeporta Flower",
             "percentChance": 1,
@@ -94695,14 +94247,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -94776,14 +94320,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2641,
             "itemName": "Gold Pot",
             "percentChance": 1,
@@ -94854,14 +94390,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2606,
             "itemName": "Reel Design",
             "percentChance": 1,
@@ -94929,14 +94457,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -95039,14 +94559,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -95176,14 +94688,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 277,
             "itemName": "Silver Ricegrass",
             "percentChance": 20,
@@ -95278,14 +94782,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1001,
             "itemName": "Hypno Pelt",
             "percentChance": 27,
@@ -95377,14 +94873,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -95495,14 +94983,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -95632,14 +95112,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 283,
             "itemName": "Dragon Tail",
             "percentChance": 7,
@@ -95766,14 +95238,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 101,
             "itemName": "Bone Husk L",
             "percentChance": 8,
@@ -95892,14 +95356,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 306,
             "itemName": "Sleep Sac",
             "percentChance": 5,
@@ -96007,14 +95463,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -96144,14 +95592,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 322,
             "itemName": "Wyvern Fang",
             "percentChance": 9,
@@ -96278,14 +95718,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 314,
             "itemName": "Monster Bone L",
             "percentChance": 13,
@@ -96377,14 +95809,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -96487,14 +95911,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -96605,14 +96021,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -96734,14 +96142,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
@@ -96750,25 +96150,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
             "itemCount": 1
           },
           {
@@ -96844,14 +96228,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
@@ -96860,25 +96236,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
             "itemCount": 1
           },
           {
@@ -96954,14 +96314,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
@@ -96970,25 +96322,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
             "itemCount": 1
           },
           {
@@ -97064,14 +96400,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
@@ -97080,25 +96408,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 3998,
             "itemName": "Pawprint Medal",
             "percentChance": 1,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
             "itemCount": 1
           },
           {
@@ -100504,16 +99816,8 @@
         ],
         "rewards": [
           {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          },
-          {
             "rewardBoxId": 5,
-            "rewardBoxNumber": 2,
+            "rewardBoxNumber": 1,
             "itemId": 5606,
             "itemName": "HC Crafting Tkt",
             "percentChance": 100,
@@ -100584,14 +99888,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 49,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2156,
             "itemName": "Power Gem",
             "percentChance": 50,
@@ -100608,14 +99904,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 49,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 2157,
             "itemName": "Power Gem+",
             "percentChance": 50,
@@ -100628,14 +99916,6 @@
             "itemName": "Power Gem+",
             "percentChance": 1,
             "itemCount": 10
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 49,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 3,
@@ -110959,14 +110239,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 7224,
             "itemName": "Caravan Treasure",
             "percentChance": 1,
@@ -115836,14 +115108,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 0,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 38,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 0,
             "rewardBoxNumber": 1,
@@ -133899,14 +133163,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 985,
             "itemName": "Tigrex Scale",
             "percentChance": 16,
@@ -133990,14 +133246,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 4,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -140519,14 +139767,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 48,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 30,
             "itemName": "Energy Drink",
             "percentChance": 18,
@@ -140618,22 +139858,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 54,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -140758,14 +139982,6 @@
             "itemId": 346,
             "itemName": "Velocidrome Claw",
             "percentChance": 2,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 40,
             "itemCount": 1
           },
           {
@@ -141489,14 +140705,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 515,
             "itemName": "Vibrant Pelt",
             "percentChance": 10,
@@ -141647,14 +140855,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 314,
             "itemName": "Monster Bone L",
             "percentChance": 6,
@@ -141793,14 +140993,6 @@
             "itemName": "Monster Bone M",
             "percentChance": 27,
             "itemCount": 2
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 10,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -142137,14 +141329,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 277,
             "itemName": "Silver Ricegrass",
             "percentChance": 35,
@@ -142311,14 +141495,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 315,
             "itemName": "Monster Hardbone",
             "percentChance": 15,
@@ -142448,14 +141624,6 @@
             "itemId": 541,
             "itemName": "Ceanataur Claw+",
             "percentChance": 8,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 35,
             "itemCount": 1
           },
           {
@@ -142615,14 +141783,6 @@
             "itemName": "Blos Fang",
             "percentChance": 5,
             "itemCount": 2
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -142954,14 +142114,6 @@
             "itemId": 439,
             "itemName": "Gravios Carapace",
             "percentChance": 1,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
             "itemCount": 1
           },
           {
@@ -143315,14 +142467,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 32,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 598,
             "itemName": "Garuga Scale",
             "percentChance": 20,
@@ -143444,14 +142588,6 @@
             "itemId": 744,
             "itemName": "Commendation",
             "percentChance": 18,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 30,
             "itemCount": 1
           },
           {
@@ -144151,28 +143287,7 @@
       "count": null,
       "part": null
     },
-    "rewardGroups": [
-      {
-        "variantLabel": "Rewards",
-        "variants": [
-          {
-            "variantCode": "d0",
-            "dayNight": "day",
-            "season": "spring"
-          }
-        ],
-        "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          }
-        ]
-      }
-    ]
+    "rewardGroups": []
   },
   {
     "questId": 26235,
@@ -144221,28 +143336,7 @@
       "count": null,
       "part": null
     },
-    "rewardGroups": [
-      {
-        "variantLabel": "Rewards",
-        "variants": [
-          {
-            "variantCode": "d0",
-            "dayNight": "day",
-            "season": "spring"
-          }
-        ],
-        "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          }
-        ]
-      }
-    ]
+    "rewardGroups": []
   },
   {
     "questId": 26236,
@@ -144291,28 +143385,7 @@
       "count": null,
       "part": null
     },
-    "rewardGroups": [
-      {
-        "variantLabel": "Rewards",
-        "variants": [
-          {
-            "variantCode": "d0",
-            "dayNight": "day",
-            "season": "spring"
-          }
-        ],
-        "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          }
-        ]
-      }
-    ]
+    "rewardGroups": []
   },
   {
     "questId": 26237,
@@ -144361,28 +143434,7 @@
       "count": null,
       "part": null
     },
-    "rewardGroups": [
-      {
-        "variantLabel": "Rewards",
-        "variants": [
-          {
-            "variantCode": "d0",
-            "dayNight": "day",
-            "season": "spring"
-          }
-        ],
-        "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 100,
-            "itemCount": 1
-          }
-        ]
-      }
-    ]
+    "rewardGroups": []
   },
   {
     "questId": 26238,
@@ -144442,14 +143494,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -146617,14 +145661,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 25,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 380,
             "itemName": "Piscine Fang",
             "percentChance": 18,
@@ -147217,14 +146253,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -147607,14 +146635,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 10
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -148005,14 +147025,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -148395,14 +147407,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 12
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -148793,14 +147797,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -149183,14 +148179,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 15
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -149881,14 +148869,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -150514,14 +149494,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -152731,14 +151703,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -153121,14 +152085,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 12
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -153519,14 +152475,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -153909,14 +152857,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 12
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -154307,14 +153247,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -154697,14 +153629,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 12
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -155283,14 +154207,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1451,
             "itemName": "Ult Armor Sphere",
             "percentChance": 1,
@@ -155625,14 +154541,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 5
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -156023,14 +154931,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -156413,14 +155313,6 @@
             "itemName": "Guild Cheque",
             "percentChance": 5,
             "itemCount": 10
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
           },
           {
             "rewardBoxId": 2,
@@ -156811,14 +155703,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -157205,14 +156089,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -157586,14 +156462,6 @@
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
             "itemCount": 1
           },
           {
@@ -158881,14 +157749,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -159173,14 +158033,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -159310,14 +158162,6 @@
             "itemId": 1468,
             "itemName": "Guild Cheque",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
             "itemCount": 1
           },
           {
@@ -170539,14 +169383,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1731,
             "itemName": "Golden Pawcoin",
             "percentChance": 1,
@@ -170617,14 +169453,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1730,
             "itemName": "Silver Pawcoin",
             "percentChance": 1,
@@ -170692,14 +169520,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -170899,14 +169719,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 443,
             "itemName": "B.Gravios Scalp",
             "percentChance": 1,
@@ -170974,14 +169786,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -171055,14 +169859,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 486,
             "itemName": "Lao-Shan Ruby",
             "percentChance": 1,
@@ -171133,14 +169929,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 926,
             "itemName": "Great Hornfly",
             "percentChance": 1,
@@ -171208,14 +169996,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -173511,14 +172291,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1731,
             "itemName": "Golden Pawcoin",
             "percentChance": 1,
@@ -173589,14 +172361,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1730,
             "itemName": "Silver Pawcoin",
             "percentChance": 1,
@@ -173664,14 +172428,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -176599,14 +175355,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1303,
             "itemName": "F.Wyv Hardfang",
             "percentChance": 1,
@@ -176722,14 +175470,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -176851,14 +175591,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1306,
             "itemName": "F.Wyv Hardclaw",
             "percentChance": 1,
@@ -176974,14 +175706,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -177103,14 +175827,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1276,
             "itemName": "Beast Hardclaw",
             "percentChance": 1,
@@ -177226,14 +175942,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -177355,14 +176063,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1638,
             "itemName": "Winner's Coin",
             "percentChance": 1,
@@ -177430,14 +176130,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 20,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -177548,14 +176240,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 51,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -177725,14 +176409,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2075,
             "itemName": "Gathering Coin 1",
             "percentChance": 1,
@@ -177800,14 +176476,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -177881,14 +176549,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2077,
             "itemName": "Gathering Coin 3",
             "percentChance": 1,
@@ -177956,14 +176616,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -178037,14 +176689,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2081,
             "itemName": "Gathering Coin H",
             "percentChance": 1,
@@ -178115,14 +176759,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2082,
             "itemName": "Gathering Coin V",
             "percentChance": 1,
@@ -178190,14 +176826,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -180253,14 +178881,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 49,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 149,
             "itemName": "Mega Fishing Fly",
             "percentChance": 30,
@@ -180347,14 +178967,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1731,
             "itemName": "Golden Pawcoin",
             "percentChance": 1,
@@ -180422,14 +179034,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -180503,14 +179107,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1729,
             "itemName": "Bronze Pawcoin",
             "percentChance": 1,
@@ -180578,14 +179174,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -180659,14 +179247,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1730,
             "itemName": "Silver Pawcoin",
             "percentChance": 1,
@@ -180734,14 +179314,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -180815,14 +179387,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2141,
             "itemName": "Leaden Pawcoin",
             "percentChance": 1,
@@ -180890,14 +179454,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -180971,14 +179527,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2139,
             "itemName": "Steel Pawcoin",
             "percentChance": 1,
@@ -181046,14 +179594,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -181127,14 +179667,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2140,
             "itemName": "Iron Pawcoin",
             "percentChance": 1,
@@ -181202,14 +179734,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -182779,14 +181303,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1300,
             "itemName": "F.Wyvern Cortex",
             "percentChance": 1,
@@ -182902,14 +181418,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -184079,14 +182587,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1082,
             "itemName": "Gratitude Ticket",
             "percentChance": 1,
@@ -184154,14 +182654,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -184235,14 +182727,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1858,
             "itemName": "Gratitude Tkt II",
             "percentChance": 1,
@@ -184310,14 +182794,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -184871,14 +183347,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1731,
             "itemName": "Golden Pawcoin",
             "percentChance": 1,
@@ -184946,14 +183414,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -185027,14 +183487,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1729,
             "itemName": "Bronze Pawcoin",
             "percentChance": 1,
@@ -185102,14 +183554,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -185183,14 +183627,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1730,
             "itemName": "Silver Pawcoin",
             "percentChance": 1,
@@ -185258,14 +183694,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -185339,14 +183767,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2141,
             "itemName": "Leaden Pawcoin",
             "percentChance": 1,
@@ -185414,14 +183834,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -185495,14 +183907,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2139,
             "itemName": "Steel Pawcoin",
             "percentChance": 1,
@@ -185570,14 +183974,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -185651,14 +184047,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 2140,
             "itemName": "Iron Pawcoin",
             "percentChance": 1,
@@ -185726,14 +184114,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -186771,14 +185151,6 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 1448,
             "itemName": "Sphere Fragment",
             "percentChance": 100,
@@ -186908,14 +185280,6 @@
             "itemId": 1468,
             "itemName": "Guild Cheque",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 0,
             "itemCount": 1
           },
           {
@@ -187351,14 +185715,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4336,
             "itemName": "Normal Design 1",
             "percentChance": 1,
@@ -187429,14 +185785,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4337,
             "itemName": "Normal Design 2",
             "percentChance": 1,
@@ -187504,14 +185852,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -189065,14 +187405,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189140,14 +187472,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -189221,14 +187545,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189245,25 +187561,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 95,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -189347,14 +187647,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189422,14 +187714,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -189503,14 +187787,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189527,25 +187803,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 95,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -189629,14 +187889,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189704,14 +187956,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -189785,14 +188029,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189809,25 +188045,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 95,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -189911,14 +188131,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -189986,14 +188198,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -190067,14 +188271,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -190091,25 +188287,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 95,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -190193,14 +188373,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -190268,14 +188440,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 90,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
@@ -190349,14 +188513,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 10,
@@ -190373,25 +188529,9 @@
           {
             "rewardBoxId": 2,
             "rewardBoxNumber": 2,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 95,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 2,
-            "rewardBoxNumber": 2,
             "itemId": 4485,
             "itemName": "??? Scale",
             "percentChance": 5,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 3,
-            "rewardBoxNumber": 3,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 85,
             "itemCount": 1
           },
           {
@@ -205823,14 +203963,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 1858,
             "itemName": "Gratitude Tkt II",
             "percentChance": 1,
@@ -205901,14 +204033,6 @@
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
             "itemId": 3041,
             "itemName": "Gratitude Tkt III",
             "percentChance": 1,
@@ -205976,14 +204100,6 @@
           }
         ],
         "rewards": [
-          {
-            "rewardBoxId": 1,
-            "rewardBoxNumber": 1,
-            "itemId": 0,
-            "itemName": "Item 0",
-            "percentChance": 99,
-            "itemCount": 1
-          },
           {
             "rewardBoxId": 1,
             "rewardBoxNumber": 1,
