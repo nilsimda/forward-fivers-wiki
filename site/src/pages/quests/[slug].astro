@@ -17,6 +17,12 @@ const { quest } = Astro.props as { quest: QuestReward };
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+const formatRewardBoxLabel = (rewardBoxNumber: number) => {
+  if (rewardBoxNumber === 1) return 'Main Reward';
+  if (rewardBoxNumber === 2) return 'Subquest A Reward';
+  if (rewardBoxNumber === 3) return 'Subquest B Reward';
+  return `Reward Box ${rewardBoxNumber}`;
+};
 
 const groupedRewardsByBox = (groups: RewardGroup[]) => {
   const byBox = new Map<number, { rewardBoxNumber: number; rewards: RewardEntry[] }>();
@@ -126,13 +132,13 @@ const renderGoal = (goal: unknown) => {
       </section>
     ) : (
       <section class="panel space-y-3">
-        <h2 class="text-lg">Reward Boxes</h2>
+        <h2 class="text-lg">Quest Rewards</h2>
         {groupedRewardsByBox(quest.rewardGroups).map((boxGroup) => (
           <div class="table-wrap">
             <table class="table-grid">
               <thead>
                 <tr>
-                  <th colspan={3}>Reward Box {boxGroup.rewardBoxNumber}</th>
+                  <th colspan={3}>{formatRewardBoxLabel(boxGroup.rewardBoxNumber)}</th>
                 </tr>
                 <tr>
                   <th>Item</th>

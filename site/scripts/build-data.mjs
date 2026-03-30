@@ -563,7 +563,7 @@ function buildQuestRewardMethods(questRewards, itemNamesById) {
         methods.push({
           methodType: 'quest_reward',
           rank: quest.rank,
-          sourceLabel: `${quest.title} - Reward Box ${reward.rewardBoxNumber}`,
+          sourceLabel: `${quest.title} - ${formatRewardBoxLabel(reward.rewardBoxNumber)}`,
           chance: reward.percentChance,
           quantity: reward.itemCount,
           itemId: reward.itemId,
@@ -580,6 +580,17 @@ function buildQuestRewardMethods(questRewards, itemNamesById) {
   }
 
   return methods.sort(compareMethods);
+}
+
+/**
+ * @param {number} rewardBoxNumber
+ * @returns {string}
+ */
+function formatRewardBoxLabel(rewardBoxNumber) {
+  if (rewardBoxNumber === 1) return 'Main Reward';
+  if (rewardBoxNumber === 2) return 'Subquest A Reward';
+  if (rewardBoxNumber === 3) return 'Subquest B Reward';
+  return `Reward Box ${rewardBoxNumber}`;
 }
 
 /**

@@ -76,6 +76,12 @@ const descriptionColorClassByCode: Record<string, string> = {
 const getDescriptionSegmentClass = (colorCode: string | null) =>
   colorCode ? descriptionColorClassByCode[colorCode] || 'text-slate-300' : 'text-slate-300';
 const currencyUnit = item.isGz ? 'Gz' : 'z';
+const formatRewardBoxLabel = (rewardBoxNumber: number) => {
+  if (rewardBoxNumber === 1) return 'Main Reward';
+  if (rewardBoxNumber === 2) return 'Subquest A Reward';
+  if (rewardBoxNumber === 3) return 'Subquest B Reward';
+  return `Reward Box ${rewardBoxNumber}`;
+};
 
 const groupedMethodsMap = new Map<string, { rank: string; methodType: string; methods: AcquisitionMethod[] }>();
 
@@ -130,9 +136,9 @@ const renderSourceLabel = (method: AcquisitionMethod) => {
     const questIdLabel = typeof method.questId === 'number' ? ` (#${method.questId})` : '';
     const box =
       typeof method.rewardBoxNumber === 'number'
-        ? ` - Reward Box ${method.rewardBoxNumber}`
+        ? ` - ${formatRewardBoxLabel(method.rewardBoxNumber)}`
         : typeof method.rewardBoxId === 'number'
-          ? ` - Reward Box ${method.rewardBoxId + 1}`
+          ? ` - ${formatRewardBoxLabel(method.rewardBoxId + 1)}`
         : '';
     return `${questTitle}${questIdLabel}${box}`;
   }
