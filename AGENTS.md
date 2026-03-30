@@ -51,6 +51,6 @@ After changing files in `scripts/`, run:
 
 ## Extract script data contracts
 
-- Treat JSON sidecar inputs as required and strict across pipelines (`_items-source.json`, `monster_names.json`, carve/partbreak label files, and `_wiki-hidden-item-ids.json`).
+- Treat JSON sidecar inputs as required and strict across pipelines (`items.json`, `monster_names.json`, carve/partbreak label files, and `_wiki-hidden-item-ids.json`).
 - Do not add fallback behavior for missing files, missing keys, or type coercion in extract loaders; fail loudly instead.
 - Keep binary pointer/bounds/sentinel checks strict (these are safety checks, not optional input handling).

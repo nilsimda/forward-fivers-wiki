@@ -62,4 +62,52 @@
   .rank-panel--gr {
     @apply border-l-rose-500;
   }
+
+  .rank-pill {
+    @apply rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-300 transition-colors hover:border-slate-600 hover:text-white;
+  }
+
+  .rank-pill--active {
+    @apply border-cyan-500 bg-cyan-950/60 text-cyan-200;
+  }
+
+  .rank-pill--active-lr {
+    @apply border-emerald-500 bg-emerald-950/60 text-emerald-200;
+  }
+
+  .rank-pill--active-hr {
+    @apply border-sky-500 bg-sky-950/60 text-sky-200;
+  }
+
+  .rank-pill--active-arena {
+    @apply border-amber-500 bg-amber-950/60 text-amber-200;
+  }
+
+  .rank-pill--active-hr100 {
+    @apply border-violet-500 bg-violet-950/60 text-violet-200;
+  }
+
+  .rank-pill--active-gr {
+    @apply border-rose-500 bg-rose-950/60 text-rose-200;
+  }
+
+  .method-badge {
+    @apply inline-flex rounded-full border px-2 py-0.5 text-xs font-medium uppercase tracking-wide;
+  }
+
+  .method-badge--capture {
+    @apply border-emerald-500/40 bg-emerald-900/30 text-emerald-200;
+  }
+
+  .method-badge--part_break {
+    @apply border-amber-500/40 bg-amber-900/30 text-amber-200;
+  }
+
+  .method-badge--carve {
+    @apply border-slate-500/40 bg-slate-800/60 text-slate-200;
+  }
+
+  .method-badge--hardcore_carve {
+    @apply border-violet-500/40 bg-violet-900/30 text-violet-200;
+  }
 }

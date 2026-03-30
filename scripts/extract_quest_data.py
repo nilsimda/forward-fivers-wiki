@@ -187,26 +187,6 @@ def ensure_slice_in_bounds(raw: bytes, offset: int, size: int, label: str) -> No
         )
 
 
-def bytes_as_u16_words(blob: bytes) -> list[int]:
-    if len(blob) % 2 != 0:
-        raise ValueError(f"Blob length {len(blob)} is not divisible by 2")
-    out: list[int] = []
-    for offset in range(0, len(blob), 2):
-        (value,) = struct.unpack_from("<H", blob, offset)
-        out.append(value)
-    return out
-
-
-def bytes_as_u32_words(blob: bytes) -> list[int]:
-    if len(blob) % 4 != 0:
-        raise ValueError(f"Blob length {len(blob)} is not divisible by 4")
-    out: list[int] = []
-    for offset in range(0, len(blob), 4):
-        (value,) = struct.unpack_from("<I", blob, offset)
-        out.append(value)
-    return out
-
-
 def read_u8(raw: bytes, offset: int, label: str) -> int:
     if offset < 0 or offset >= len(raw):
         raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")

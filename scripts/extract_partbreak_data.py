@@ -22,9 +22,7 @@ INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = (
     REPO_ROOT / "site" / "src" / "data" / "generated" / "_partbreak-source.json"
 )
-ITEMS_SOURCE_DEFAULT = (
-    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
-)
+ITEMS_JSON_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "items.json"
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
 MONSTER_PARTBREAK_LABELS_DEFAULT = (
     REPO_ROOT / "g1_data" / "monster_partbreak_labels.json"
@@ -100,6 +98,19 @@ class PartbreakRowBase(TypedDict):
 
 class PartbreakRow(PartbreakRowBase):
     partbreak_type: str
+
+
+class AcquisitionMethodRow(TypedDict):
+    methodType: Literal["capture", "part_break"]
+    rank: RankCode
+    sourceLabel: str
+    chance: int
+    quantity: int
+    monsterId: int
+    monsterName: str
+    itemId: int
+    itemName: str
+    partbreakType: str
 
 
 @dataclass(slots=True)
@@ -181,19 +192,19 @@ def parse_args() -> argparse.Namespace:
         "--output",
         type=Path,
         default=OUTPUT_DEFAULT,
-        help="Output JSON path consumed by site/scripts/build-data.mjs",
+        help="Output acquisition-method rows consumed by site/scripts/build-data.mjs",
     )
     parser.add_argument(
-        "--items-source",
+        "--items-json",
         type=Path,
-        default=ITEMS_SOURCE_DEFAULT,
-        help="Path to generated _items-source.json (for item names).",
+        default=ITEMS_JSON_DEFAULT,
+        help="Path to generated items.json (for item names).",
     )
     parser.add_argument(
         "--wiki-hidden-item-ids",
         type=Path,
         default=None,
-        help="JSON with itemIds to omit from drops (default: sibling of --items-source).",
+        help="JSON with itemIds to omit from drops (default: sibling of --items-json).",
     )
     parser.add_argument(
         "--monster-names-json",
@@ -398,17 +409,37 @@ def extract_partbreak_rows(
     return labeled_rows, len(drop_table_pointers), len(mappings)
 
 
+def to_acquisition_methods(rows: list[PartbreakRow]) -> list[AcquisitionMethodRow]:
+    methods: list[AcquisitionMethodRow] = []
+    for row in rows:
+        methods.append(
+            {
+                "methodType": cast(Literal["capture", "part_break"], row["drop_mode"]),
+                "rank": row["rank"],
+                "sourceLabel": row["monster_name"],
+                "chance": row["percentage"],
+                "quantity": row["quantity"],
+                "monsterId": row["monster_id"],
+                "monsterName": row["monster_name"],
+                "itemId": row["item_id"],
+                "itemName": row["item_name"],
+                "partbreakType": row["partbreak_type"],
+            }
+        )
+    return methods
+
+
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
 
-    item_names_by_id = load_item_names(args.items_source)
+    item_names_by_id = load_item_names(args.items_json)
     monster_names_by_id = load_monster_names(args.monster_names_json)
     partbreak_labels = cast(
         dict[str, dict[str, str]], load_json_object(args.monster_partbreak_labels)
     )
     hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
-        args.items_source
+        args.items_json
     )
     wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
 
@@ -420,10 +451,11 @@ def main() -> None:
         partbreak_labels=partbreak_labels,
     )
 
-    write_json_output(args.output, rows)
+    methods = to_acquisition_methods(rows)
+    write_json_output(args.output, methods)
 
     print(f"Decoded {pdt_count} PDT pointers and {mapping_count} mappings")
-    print(f"Wrote {len(rows)} flattened partbreak rows")
+    print(f"Wrote {len(methods)} partbreak acquisition methods")
 
 
 if __name__ == "__main__":

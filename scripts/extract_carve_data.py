@@ -20,9 +20,7 @@ INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
 OUTPUT_DEFAULT = (
     REPO_ROOT / "site" / "src" / "data" / "generated" / "_carves-source.json"
 )
-ITEMS_SOURCE_DEFAULT = (
-    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
-)
+ITEMS_JSON_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "items.json"
 MONSTER_NAMES_JSON_DEFAULT = REPO_ROOT / "g1_data" / "monster_names.json"
 MONSTER_CARVE_LABELS_DEFAULT = REPO_ROOT / "g1_data" / "monster_carve_labels.json"
 
@@ -92,6 +90,18 @@ class CarveRow(CarveRowBase):
     source_label: str
 
 
+class AcquisitionMethodRow(TypedDict):
+    methodType: Literal["carve"]
+    rank: str
+    sourceLabel: str
+    chance: int
+    quantity: int
+    monsterId: int
+    monsterName: str
+    itemId: int
+    itemName: str
+
+
 class CarveMonsterLabels(TypedDict):
     primary: dict[str, str]
     secondary: dict[str, str]
@@ -111,19 +121,19 @@ def parse_args() -> argparse.Namespace:
         "--output",
         type=Path,
         default=OUTPUT_DEFAULT,
-        help="Output JSON path consumed by downstream scripts/docs.",
+        help="Output carve acquisition-method rows consumed by site/scripts/build-data.mjs.",
     )
     parser.add_argument(
-        "--items-source",
+        "--items-json",
         type=Path,
-        default=ITEMS_SOURCE_DEFAULT,
-        help="Path to generated _items-source.json (for item names).",
+        default=ITEMS_JSON_DEFAULT,
+        help="Path to generated items.json (for item names).",
     )
     parser.add_argument(
         "--wiki-hidden-item-ids",
         type=Path,
         default=None,
-        help="JSON with itemIds to omit from drops (default: sibling of --items-source).",
+        help="JSON with itemIds to omit from drops (default: sibling of --items-json).",
     )
     parser.add_argument(
         "--monster-names-json",
@@ -508,6 +518,25 @@ def dedupe_carve_rows_for_build(
     return out
 
 
+def to_acquisition_methods(rows: list[CarveRow]) -> list[AcquisitionMethodRow]:
+    methods: list[AcquisitionMethodRow] = []
+    for row in rows:
+        methods.append(
+            {
+                "methodType": "carve",
+                "rank": row["rank_label"],
+                "sourceLabel": row["source_label"],
+                "chance": row["percentage"],
+                "quantity": 1,
+                "monsterId": row["monster_id"],
+                "monsterName": row["monster_name"],
+                "itemId": row["item_id"],
+                "itemName": row["item_name"],
+            }
+        )
+    return methods
+
+
 def main() -> None:
     args = parse_args()
 
@@ -541,9 +570,9 @@ def main() -> None:
         )
 
     monster_names_by_id = load_monster_names(args.monster_names_json)
-    item_names_by_id = load_item_names(args.items_source)
+    item_names_by_id = load_item_names(args.items_json)
     hidden_path = args.wiki_hidden_item_ids or default_wiki_hidden_item_ids_path(
-        args.items_source
+        args.items_json
     )
     wiki_hidden_item_ids = load_wiki_hidden_item_ids(hidden_path)
     carve_labels = cast(CarveLabels, load_json_object(args.monster_carve_labels))
@@ -563,11 +592,12 @@ def main() -> None:
     filtered_rows = filter_frontier_shared_carve_pool_duplicates(base_rows)
     labeled_rows = apply_carve_source_labels(filtered_rows, carve_labels)
     rows = dedupe_carve_rows_for_build(labeled_rows)
+    methods = to_acquisition_methods(rows)
 
-    write_json_output(args.output, rows)
+    write_json_output(args.output, methods)
 
     print(f"Decoded {len(carve_dt_pointers)} carve DT pointers")
-    print(f"Decoded carve rows: {len(rows)}")
+    print(f"Decoded carve methods: {len(methods)}")
 
 
 if __name__ == "__main__":

@@ -7,19 +7,17 @@ const __dirname = path.dirname(__filename);
 const siteRoot = path.resolve(__dirname, '..');
 const generatedDir = path.join(siteRoot, 'src', 'data', 'generated');
 
-const itemsSourcePath = path.join(generatedDir, '_items-source.json');
+const itemsPath = path.join(generatedDir, 'items.json');
 const partbreakSourcePath = path.join(generatedDir, '_partbreak-source.json');
 const hardcoreCarvesSourcePath = path.join(generatedDir, '_hcc-carves-source.json');
 const carvesSourcePath = path.join(generatedDir, '_carves-source.json');
 const questsSourcePath = path.join(generatedDir, '_quests-source.json');
-const itemsOutPath = path.join(generatedDir, 'items.json');
 const monsterDropsOutPath = path.join(generatedDir, 'monster-drops.json');
 const itemAcquisitionOutPath = path.join(generatedDir, 'item-acquisition.json');
 const questRewardsOutPath = path.join(generatedDir, 'quest-rewards.json');
 
 const rankOrder = ['lr', 'hr', 'arena', 'hr100', 'gr'];
 const methodOrder = ['capture', 'part_break', 'hardcore_carve', 'quest_reward', 'carve', 'gather', 'shop'];
-const knownDropModes = new Set(['capture', 'part_break']);
 
 /**
  * @typedef {'capture' | 'part_break' | 'hardcore_carve' | 'carve' | 'quest_reward'} SupportedMethodType
@@ -45,25 +43,28 @@ const knownDropModes = new Set(['capture', 'part_break']);
  */
 
 async function main() {
-  const [itemRows, partbreakRows, hardcoreCarveRows, carveRows, questsSource] = await Promise.all([
-    readJson(itemsSourcePath),
+  const [items, partbreakMethods, hardcoreCarveMethods, carveMethods, questsSource] = await Promise.all([
+    readJson(itemsPath),
     readJson(partbreakSourcePath),
     readJson(hardcoreCarvesSourcePath),
     readJson(carvesSourcePath),
     readJson(questsSourcePath)
   ]);
 
-  const items = buildItems(itemRows);
   const itemNamesById = new Map(items.map((item) => [item.id, item.name]));
   const validItemIds = new Set(items.map((item) => item.id));
-  const monsterNamesById = buildMonsterNamesById([...partbreakRows, ...carveRows]);
+  const monsterNamesById = buildMonsterNamesById([
+    ...partbreakMethods,
+    ...carveMethods,
+    ...hardcoreCarveMethods
+  ]);
   const questRewards = buildQuestRewards(questsSource, itemNamesById, monsterNamesById);
   const questMethods = buildQuestRewardMethods(questRewards, itemNamesById);
   const methods = dedupePooledDropMethods(
     [
-      ...buildAcquisitionMethods(partbreakRows),
-      ...buildCarveMethods(carveRows),
-      ...buildHardcoreCarveMethods(hardcoreCarveRows, items, monsterNamesById),
+      ...partbreakMethods,
+      ...carveMethods,
+      ...hardcoreCarveMethods,
       ...questMethods
     ]
       .filter((method) => validItemIds.has(method.itemId))
@@ -77,7 +78,6 @@ async function main() {
 
   await mkdir(generatedDir, { recursive: true });
   await Promise.all([
-    writeJson(itemsOutPath, items),
     writeJson(monsterDropsOutPath, monsterDrops),
     writeJson(itemAcquisitionOutPath, itemAcquisition),
     writeJson(questRewardsOutPath, questRewards)
@@ -85,7 +85,6 @@ async function main() {
 
   console.log(
     [
-      `Built ${items.length} items`,
       `Built ${methods.length} acquisition methods`,
       `Built ${monsterDrops.length} monster drop groups`,
       `Built acquisition entries for ${Object.keys(itemAcquisition).length} items`,
@@ -111,114 +110,18 @@ async function writeJson(outputPath, value) {
 }
 
 /**
- * @param {Record<string, string>[]} rows
- */
-function buildItems(rows) {
-  const items = rows
-    .map((row, index) => {
-      const id = parseNumber(row.item_index, `items row ${index + 1} item_index`);
-      const descriptionRaw = (row.description || '').trim();
-      const rarityPlusOne = parseNumber(row.rarity_plus_one, `items row ${index + 1} rarity_plus_one`);
-      const rarityRawSource = row.rarity_raw ?? rarityPlusOne - 1;
-      if (row.descriptionPlain === undefined || !Array.isArray(row.descriptionSegments)) {
-        throw new Error(
-          `items row ${index + 1}: missing descriptionPlain/descriptionSegments — run scripts/extract_item_data.py`
-        );
-      }
-      return {
-        id,
-        slug: String(id),
-        name: (row.name || '').trim(),
-        description: row.descriptionPlain,
-        descriptionRaw,
-        descriptionPlain: row.descriptionPlain,
-        descriptionSegments: row.descriptionSegments,
-        rarityRaw: parseNumber(rarityRawSource, `items row ${index + 1} rarity_raw`),
-        rarityPlusOne,
-        maxStack: parseNumber(row.maxStack, `items row ${index + 1} maxStack`),
-        icon: parseNumber(row.icon, `items row ${index + 1} icon`),
-        iconColor: parseNumber(row.iconColor, `items row ${index + 1} iconColor`),
-        buyPrice: parseNumber(row.buyPrice, `items row ${index + 1} buyPrice`),
-        sellPrice: parseNumber(row.sellPrice, `items row ${index + 1} sellPrice`),
-        isGz: parseBoolean(row.isGz, `items row ${index + 1} isGz`, false),
-        type: parseNumber(row.type, `items row ${index + 1} type`)
-      };
-    })
-    .sort((a, b) => a.id - b.id);
-
-  const seen = new Set();
-  for (const item of items) {
-    if (seen.has(item.id)) {
-      throw new Error(`Duplicate item id detected: ${item.id}`);
-    }
-    seen.add(item.id);
-  }
-
-  return items;
-}
-
-/**
- * @param {Record<string, string | number>[]} rows
- * @returns {AcquisitionMethod[]}
- */
-function buildAcquisitionMethods(rows) {
-  /** @type {AcquisitionMethod[]} */
-  const methods = [];
-
-  for (const [index, row] of rows.entries()) {
-    const dropMode = (row.drop_mode || '').trim().toLowerCase();
-    if (!knownDropModes.has(dropMode)) {
-      throw new Error(`Unknown drop_mode "${row.drop_mode}" at partbreak row ${index + 1}`);
-    }
-
-    const methodType = /** @type {SupportedMethodType} */ (dropMode);
-    const monsterId = parseNumber(row.monster_id, `partbreak row ${index + 1} monster_id`);
-    const monsterName = (row.monster_name || '').trim() || `Monster ${monsterId}`;
-    const itemId = parseNumber(row.item_id, `partbreak row ${index + 1} item_id`);
-    const itemName = (row.item_name || '').trim() || `Item ${itemId}`;
-    const rank = normalizeRank(row.rank);
-    const chance = parseNumber(row.percentage, `partbreak row ${index + 1} percentage`);
-    const quantity = parseNumber(row.quantity, `partbreak row ${index + 1} quantity`);
-
-    if (row.partbreak_type === undefined || row.partbreak_type === null) {
-      throw new Error(
-        `partbreak row ${index + 1}: missing partbreak_type — run scripts/extract_partbreak_data.py`
-      );
-    }
-
-    /** @type {AcquisitionMethod} */
-    const method = {
-      methodType,
-      rank,
-      sourceLabel: monsterName,
-      chance,
-      quantity,
-      monsterId,
-      monsterName,
-      itemId,
-      itemName,
-      partbreakType: String(row.partbreak_type)
-    };
-
-    methods.push(method);
-  }
-
-  return methods.sort(compareMethods);
-}
-
-/**
  * @param {Record<string, string | number>[]} rows
  */
 function buildMonsterNamesById(rows) {
   const namesById = new Map();
 
   for (const row of rows) {
-    const monsterIdRaw = row.monster_id;
+    const monsterIdRaw = row.monster_id ?? row.monsterId;
     const monsterId =
       typeof monsterIdRaw === 'number'
         ? Math.trunc(monsterIdRaw)
         : Number.parseInt(String(monsterIdRaw ?? '').trim(), 10);
-    const monsterName = (row.monster_name || '').trim();
+    const monsterName = String(row.monster_name ?? row.monsterName ?? '').trim();
     if (!Number.isFinite(monsterId) || !monsterName) continue;
     if (!namesById.has(monsterId)) {
       namesById.set(monsterId, monsterName);
@@ -226,87 +129,6 @@ function buildMonsterNamesById(rows) {
   }
 
   return namesById;
-}
-
-/**
- * @param {Record<string, string>[]} rows
- * @param {{ id: number; name: string }[]} items
- * @param {Map<number, string>} monsterNamesById
- * @returns {AcquisitionMethod[]}
- */
-function buildHardcoreCarveMethods(rows, items, monsterNamesById) {
-  const itemNamesById = new Map(items.map((item) => [item.id, item.name]));
-  const rankItemColumns = [
-    { rank: 'lr', column: 'lr_item_id' },
-    { rank: 'hr', column: 'hr_item_id' },
-    { rank: 'hr100', column: 'hr100_item_id' }
-  ];
-
-  const methods = [];
-
-  for (const [rowIndex, row] of rows.entries()) {
-    const monsterId = parseNumber(row.monster_id, `hardcore carve row ${rowIndex + 1} monster_id`);
-    const monsterName = monsterNamesById.get(monsterId) || `Monster ${monsterId}`;
-
-    for (const { rank, column } of rankItemColumns) {
-      const rawItemId = row[column];
-      if (rawItemId === undefined || rawItemId === null || String(rawItemId).trim() === '') {
-        continue;
-      }
-
-      const itemId = parseNumber(rawItemId, `hardcore carve row ${rowIndex + 1} ${column}`);
-      methods.push({
-        methodType: 'hardcore_carve',
-        rank,
-        sourceLabel: monsterName,
-        chance: 2,
-        quantity: 1,
-        monsterId,
-        monsterName,
-        itemId,
-        itemName: itemNamesById.get(itemId) || `Item ${itemId}`
-      });
-    }
-  }
-
-  return methods;
-}
-
-/**
- * @param {Record<string, string | number | null>[]} rows
- * @returns {AcquisitionMethod[]}
- */
-function buildCarveMethods(rows) {
-  /** @type {AcquisitionMethod[]} */
-  const methods = [];
-
-  for (const [index, row] of rows.entries()) {
-    const monsterId = parseNumber(row.monster_id, `carve row ${index + 1} monster_id`);
-    const monsterName = (row.monster_name || '').trim() || `Monster ${monsterId}`;
-    const itemId = parseNumber(row.item_id, `carve row ${index + 1} item_id`);
-    const itemName = (row.item_name || '').trim() || `Item ${itemId}`;
-    const rank = normalizeRank(row.rank_label, 'carve source data');
-    const chance = parseNumber(row.percentage, `carve row ${index + 1} percentage`);
-    const sourceLabelRaw = String(row.source_label || '').trim();
-    const sourceLabel = formatCarveSourceLabel(sourceLabelRaw, row.primary_num_carves, index + 1);
-    if (!sourceLabel) {
-      throw new Error(`carve row ${index + 1}: missing source_label — run scripts/extract_carve_data.py`);
-    }
-
-    methods.push({
-      methodType: 'carve',
-      rank,
-      sourceLabel,
-      chance,
-      quantity: 1,
-      monsterId,
-      monsterName,
-      itemId,
-      itemName
-    });
-  }
-
-  return methods.sort(compareMethods);
 }
 
 /**
@@ -594,31 +416,6 @@ function formatRewardBoxLabel(rewardBoxNumber) {
 }
 
 /**
- * Body carve records include a primary_num_carves value in the source JSON.
- * Surface it in the UI label so players see expected carve count directly.
- *
- * @param {string} sourceLabel
- * @param {string | number | null | undefined} primaryNumCarvesRaw
- * @param {number} rowNumber
- * @returns {string}
- */
-function formatCarveSourceLabel(sourceLabel, primaryNumCarvesRaw, rowNumber) {
-  if (sourceLabel !== 'Body Carves') {
-    return sourceLabel;
-  }
-
-  if (primaryNumCarvesRaw === undefined || primaryNumCarvesRaw === null || String(primaryNumCarvesRaw).trim() === '') {
-    return sourceLabel;
-  }
-
-  const primaryNumCarves = parseNumber(primaryNumCarvesRaw, `carve row ${rowNumber} primary_num_carves`);
-  if (primaryNumCarves <= 0) {
-    return sourceLabel;
-  }
-  return `${sourceLabel} (${primaryNumCarves})`;
-}
-
-/**
  * @param {AcquisitionMethod[]} methods
  * @param {{ id: number }[]} items
  */
@@ -801,18 +598,6 @@ function dedupePooledDropMethods(methods) {
 
 /**
  * @param {string} value
- * @param {string} [sourceLabel]
- */
-function normalizeRank(value, sourceLabel = 'partbreak source data') {
-  const rank = (value || '').trim().toLowerCase();
-  if (!rank) {
-    throw new Error(`Encountered empty rank in ${sourceLabel}`);
-  }
-  return rank;
-}
-
-/**
- * @param {string} value
  * @param {string} label
  */
 function parseNumber(value, label) {
@@ -834,22 +619,6 @@ function parseNumber(value, label) {
   }
 
   return parsed;
-}
-
-/**
- * @param {unknown} value
- * @param {string} label
- * @param {boolean} defaultValue
- */
-function parseBoolean(value, label, defaultValue) {
-  if (typeof value === 'boolean') return value;
-  if (typeof value === 'number') return value !== 0;
-
-  const normalized = String(value ?? '').trim().toLowerCase();
-  if (!normalized) return defaultValue;
-  if (normalized === 'true' || normalized === '1') return true;
-  if (normalized === 'false' || normalized === '0') return false;
-  throw new Error(`Invalid boolean value "${value}" for ${label}`);
 }
 
 /**

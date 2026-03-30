@@ -106,8 +106,8 @@ def is_wiki_hidden_item(*, name: str, description_plain: str) -> bool:
     ) or name_contains_dummy_marker(name)
 
 
-def default_wiki_hidden_item_ids_path(items_source: Path) -> Path:
-    return items_source.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
+def default_wiki_hidden_item_ids_path(items_json: Path) -> Path:
+    return items_json.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
 
 
 def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
@@ -115,9 +115,9 @@ def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
     return frozenset(item_ids)
 
 
-def load_item_names(items_source_path: Path) -> dict[int, str]:
-    data = json.loads(items_source_path.read_text(encoding="utf-8"))
-    return {row["item_index"]: row["name"] for row in data}
+def load_item_names(items_json_path: Path) -> dict[int, str]:
+    data = json.loads(items_json_path.read_text(encoding="utf-8"))
+    return {row["id"]: row["name"] for row in data}
 
 
 def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:

@@ -19,9 +19,7 @@ from extract_common import (
 )
 
 INPUT_DEFAULT = REPO_ROOT / "g1_data" / "mhfdat.raw.bin"
-OUTPUT_DEFAULT = (
-    REPO_ROOT / "site" / "src" / "data" / "generated" / "_items-source.json"
-)
+OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "items.json"
 
 ITEMS_HEADER_POINTER_ADDRESS = 0x00000100
 ITEM_NAMES_HEADER_POINTER_ADDRESS = 0x00000104
@@ -35,13 +33,13 @@ ITEM_STRUCT_FMT = "<BBBBBBBBHHIIHHHBBHBB"
 ITEM_STRUCT_SIZE = struct.calcsize(ITEM_STRUCT_FMT)
 
 
-class ItemRow(TypedDict):
-    item_index: int
+class ItemRecord(TypedDict):
+    id: int
+    slug: str
     name: str
     description: str
-    descriptionPlain: str
     descriptionSegments: list[ColorTagSegment]
-    rarity_plus_one: int
+    rarityPlusOne: int
     maxStack: int
     icon: int
     iconColor: int
@@ -106,14 +104,14 @@ def parse_args() -> argparse.Namespace:
         "--output",
         type=Path,
         default=OUTPUT_DEFAULT,
-        help="Output JSON path consumed by site/scripts/build-data.mjs",
+        help="Output frontend-ready items JSON path.",
     )
     return parser.parse_args()
 
 
 def extract_items(
     raw: bytes,
-) -> list[ItemRow]:
+) -> list[ItemRecord]:
     item_count_base_ptr = read_u32(
         raw, ITEM_COUNT_POINTER_ADDRESS, "item_count_pointer"
     )
@@ -139,7 +137,8 @@ def extract_items(
         raw, desc_pointer_base, item_count, "desc_pointer"
     )
 
-    rows: list[ItemRow] = []
+    items: list[ItemRecord] = []
+    seen: set[int] = set()
     for item_index in range(item_count):
         offset = item_structs_base + item_index * ITEM_STRUCT_SIZE
         if offset + ITEM_STRUCT_SIZE > len(raw):
@@ -151,18 +150,21 @@ def extract_items(
             struct.unpack_from(ITEM_STRUCT_FMT, raw, offset)
         )
 
-        description = decode_c_string(raw, desc_pointers[item_index])
-        description_stripped = description.strip()
-        parsed_description = parse_color_tags(description_stripped)
+        description = decode_c_string(raw, desc_pointers[item_index]).strip()
+        parsed_description = parse_color_tags(description)
+        name = decode_c_string(raw, name_pointers[item_index]).strip()
+        if item_index in seen:
+            raise ValueError(f"Duplicate item id detected: {item_index}")
+        seen.add(item_index)
 
-        rows.append(
+        items.append(
             {
-                "item_index": item_index,
-                "name": decode_c_string(raw, name_pointers[item_index]),
-                "description": description,
-                "descriptionPlain": parsed_description.plain,
+                "id": item_index,
+                "slug": str(item_index),
+                "name": name,
+                "description": parsed_description.plain,
                 "descriptionSegments": parsed_description.segments,
-                "rarity_plus_one": fields.rarity_raw + 1,
+                "rarityPlusOne": fields.rarity_raw + 1,
                 "maxStack": fields.max_stack,
                 "icon": fields.icon,
                 "iconColor": fields.icon_color,
@@ -173,35 +175,37 @@ def extract_items(
             }
         )
 
-    return rows
+    return items
 
 
-def partition_hidden_items(rows: list[ItemRow]) -> tuple[list[ItemRow], list[int]]:
-    kept_rows: list[ItemRow] = []
+def partition_hidden_items(
+    items: list[ItemRecord],
+) -> tuple[list[ItemRecord], list[int]]:
+    kept_items: list[ItemRecord] = []
     hidden_ids: list[int] = []
-    for row in rows:
+    for item in items:
         if is_wiki_hidden_item(
-            name=row["name"], description_plain=row["descriptionPlain"]
+            name=item["name"], description_plain=item["description"]
         ):
-            hidden_ids.append(row["item_index"])
+            hidden_ids.append(item["id"])
         else:
-            kept_rows.append(row)
-    return kept_rows, hidden_ids
+            kept_items.append(item)
+    return kept_items, hidden_ids
 
 
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
-    rows = extract_items(raw)
+    items = extract_items(raw)
 
-    kept, hidden_ids = partition_hidden_items(rows)
+    kept_items, hidden_ids = partition_hidden_items(items)
 
     hidden_path = args.output.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
     write_json_output(hidden_path, {"itemIds": hidden_ids})
-    write_json_output(args.output, kept)
+    write_json_output(args.output, kept_items)
 
     print(
-        f"Extracted {len(kept)} items into wiki source ({len(hidden_ids)} wiki-hidden rows)"
+        f"Extracted {len(kept_items)} items into {args.output.name} ({len(hidden_ids)} wiki-hidden rows)"
     )
 
 
