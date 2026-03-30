@@ -108,10 +108,6 @@ const currencyUnit = item.isGz ? 'Gz' : 'z';
 const getRankLabel = (rank: string) => rankLabels[rank] || rank.toUpperCase();
 const getRankPanelClass = (rank: string) => (rankLabels[rank] ? `rank-panel--${rank}` : '');
 const getRankActivePillClass = (rank: string) => (rankLabels[rank] ? `rank-pill--active-${rank}` : 'rank-pill--active');
-const getMethodBadgeClass = (methodType: string) =>
-  ['capture', 'part_break', 'hardcore_carve', 'carve'].includes(methodType)
-    ? `method-badge--${methodType}`
-    : 'method-badge--carve';
 
 const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
   ...rankSection,
@@ -197,8 +193,7 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                         <thead>
                           <tr>
                             <th>Monster</th>
-                            <th>Method</th>
-                            <th>Detail</th>
+                            <th>Source</th>
                             <th>Chance</th>
                             <th>Qty</th>
                           </tr>
@@ -221,11 +216,8 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                   )}
                                 </td>
                                 <td>
-                                  <span class={`method-badge ${getMethodBadgeClass(row.methodType)}`.trim()}>
-                                    {row.methodLabel}
-                                  </span>
+                                  {[row.methodLabel, row.detail].filter(Boolean).join(': ')}
                                 </td>
-                                <td>{row.detail}</td>
                                 <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
                                 <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
                               </tr>
