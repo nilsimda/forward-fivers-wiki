@@ -56,6 +56,7 @@ type QuestRewardGroup = {
   questId?: number;
   questSlug?: string;
   questTitle: string;
+  questMainObjective?: string;
   rewardBoxes: QuestRewardBox[];
 };
 
@@ -257,7 +258,6 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                               <tr>
                                 <th>Quest</th>
                                 <th>Reward Box</th>
-                                <th>Slot</th>
                                 <th>Chance</th>
                                 <th>Qty</th>
                               </tr>
@@ -271,13 +271,15 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                         {rewardBoxIndex === 0 && slotIndex === 0 ? (
                                           quest.questSlug ? (
                                             <a href={withBase(`quests/${quest.questSlug}/`)} class="text-slate-200 hover:text-white">
-                                              {quest.questTitle}
+                                                {quest.questTitle}
                                               {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                              {quest.questMainObjective ? ` - ${quest.questMainObjective}` : ''}
                                             </a>
                                           ) : (
                                             <span class="text-slate-200">
                                               {quest.questTitle}
                                               {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                              {quest.questMainObjective ? ` - ${quest.questMainObjective}` : ''}
                                             </span>
                                           )
                                         ) : (
@@ -285,7 +287,6 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                         )}
                                       </td>
                                       <td>{slotIndex === 0 ? rewardBox.label : <span class="text-slate-500">-</span>}</td>
-                                      <td>{slot.slot}</td>
                                       <td>{typeof slot.chance === 'number' ? `${slot.chance}%` : 'Unknown'}</td>
                                       <td>{typeof slot.quantity === 'number' ? `x${slot.quantity}` : 'x?'}</td>
                                     </tr>
@@ -319,11 +320,13 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                           <a href={withBase(`quests/${quest.questSlug}/`)} class="text-slate-200 hover:text-white">
                                             {quest.questTitle}
                                             {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                            {quest.questMainObjective ? ` - ${quest.questMainObjective}` : ''}
                                           </a>
                                         ) : (
                                           <span class="text-slate-200">
                                             {quest.questTitle}
                                             {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
+                                            {quest.questMainObjective ? ` - ${quest.questMainObjective}` : ''}
                                           </span>
                                         )
                                       ) : (
