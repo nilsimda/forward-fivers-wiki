@@ -108,6 +108,20 @@ const currencyUnit = item.isGz ? 'Gz' : 'z';
 const getRankLabel = (rank: string) => rankLabels[rank] || rank.toUpperCase();
 const getRankPanelClass = (rank: string) => (rankLabels[rank] ? `rank-panel--${rank}` : '');
 const getRankActivePillClass = (rank: string) => (rankLabels[rank] ? `rank-pill--active-${rank}` : 'rank-pill--active');
+const isPresentDetail = (detail: string) => detail.trim() !== '' && detail.trim() !== '-';
+const getMonsterSourceLabel = (row: MonsterSourceRow) => {
+  const detail = row.detail || '';
+  if (row.methodType === 'carve') {
+    return isPresentDetail(detail) ? detail : row.methodLabel;
+  }
+  if (row.methodType === 'capture') {
+    return row.methodLabel;
+  }
+  if (row.methodType === 'part_break') {
+    return isPresentDetail(detail) ? `${row.methodLabel}: ${detail}` : row.methodLabel;
+  }
+  return isPresentDetail(detail) ? `${row.methodLabel}: ${detail}` : row.methodLabel;
+};
 
 const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
   ...rankSection,
@@ -216,7 +230,7 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                   )}
                                 </td>
                                 <td>
-                                  {[row.methodLabel, row.detail].filter(Boolean).join(': ')}
+                                  {getMonsterSourceLabel(row)}
                                 </td>
                                 <td>{typeof row.chance === 'number' ? `${row.chance}%` : 'Unknown'}</td>
                                 <td>{typeof row.quantity === 'number' ? `x${row.quantity}` : 'x?'}</td>
