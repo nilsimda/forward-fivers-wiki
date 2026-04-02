@@ -36,5 +36,10 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
       <p class="mt-3 text-2xl font-semibold text-cyan-200">{questRewards.length}</p>
       <a class="mt-4 inline-block" href={withBase('quests/')}>Open quest rewards</a>
     </article>
+    <article class="panel">
+      <h2 class="text-lg">Docs</h2>
+      <p class="mt-2 text-slate-400">Read about how data was extracted for this wiki.</p>
+      <a class="mt-4 inline-block" href={withBase('docs/')}>Open documentation</a>
+    </article>
   </section>
 </WikiLayout>

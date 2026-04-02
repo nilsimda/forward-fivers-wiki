@@ -101,7 +101,7 @@ if (descriptionSegments.length === 0 && fallbackDescription) {
   descriptionSegments.push({ text: fallbackDescription, colorCode: null });
 }
 const descriptionColorClassByCode: Record<string, string> = {
-  '05': 'text-amber-300'
+  '05': 'text-amber-200'
 };
 const getDescriptionSegmentClass = (colorCode: string | null) =>
   colorCode ? descriptionColorClassByCode[colorCode] || 'text-slate-300' : 'text-slate-300';
@@ -318,8 +318,8 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                         quest.questSlug ? (
                                           <a href={withBase(`quests/${quest.questSlug}/`)} class="text-slate-200 hover:text-white">
                                             {quest.questTitle}
-                                            {typeof quest.questId === 'number' ? ` (#${quest.questId})` : ''}
-                                            {quest.questMainObjective ? ` - ${quest.questMainObjective}` : ''}
+                                            {`(#${quest.questId})`}
+                                            {` - ${quest.questMainObjective}`}
                                           </a>
                                         ) : (
                                           <span class="text-slate-200">
@@ -333,8 +333,8 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                                       )}
                                     </td>
                                     <td>{slotIndex === 0 ? rewardBox.label : <span class="text-slate-500">-</span>}</td>
-                                    <td>{typeof slot.chance === 'number' ? `${slot.chance}%` : 'Unknown'}</td>
-                                    <td>{typeof slot.quantity === 'number' ? `x${slot.quantity}` : 'x?'}</td>
+                                    <td>{slot.chance}%</td>
+                                    <td>{slot.quantity}</td>
                                   </tr>
                                 ))
                               )
@@ -362,8 +362,8 @@ const rankSections: RankSection[] = acquisitionRanks.map((rankSection) => ({
                           {group.sources.map((method) => (
                             <tr>
                               <td>{method.label}</td>
-                              <td>{typeof method.chance === 'number' ? `${method.chance}%` : 'Unknown'}</td>
-                              <td>{typeof method.quantity === 'number' ? `x${method.quantity}` : 'x?'}</td>
+                              <td>{method.chance}%</td>
+                              <td>{method.quantity}</td>
                             </tr>
                           ))}
                         </tbody>

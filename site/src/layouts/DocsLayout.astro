@@ -6,7 +6,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'Monster Hunter Frontier G1 community wiki.' } = Astro.props;
+const { title, description = 'Documentation for the MHFG1 Wiki.' } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
@@ -35,7 +35,9 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
       </div>
     </header>
     <main class="mx-auto w-full max-w-6xl px-4 py-8">
+    <article class="prose prose-invert prose-cyan max-w-none">
       <slot />
+      </article>
     </main>
   </body>
 </html>
