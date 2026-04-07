@@ -24,23 +24,27 @@ const formatRank = (rank: QuestData["rank"]) => {
   return rank.toUpperCase();
 };
 
-const hasSubAObjective = quest.quest_text.sub_a.trim().toLowerCase() !== "none";
-const hasSubBObjective = quest.quest_text.sub_b.trim().toLowerCase() !== "none";
+const REWARD_BOX_LABELS: Record<number, string> = {
+  0: "Main Reward",
+  1: "Main Reward",
+  2: "Sub A Reward",
+  3: "Sub B Reward",
+  4: "Additional Reward",
+  5: "Special Reward",
+};
+
+const rewardBoxLabel = (id: number): string => {
+  if (id >= 41 && id <= 47) return `Training Tier ${id - 40}`;
+  return REWARD_BOX_LABELS[id] ?? `Reward Box ${id}`;
+};
 
 const rewardBoxEntries = Object.entries(quest.reward_boxes)
   .map(([rewardBoxId, rewards]) => ({
     rewardBoxId: Number(rewardBoxId),
     rewards: rewards.slice().sort((a, b) => a.item_id - b.item_id),
+    label: rewardBoxLabel(Number(rewardBoxId)),
   }))
-  .sort((a, b) => a.rewardBoxId - b.rewardBoxId)
-  .map((entry, pos) => {
-    let label: string;
-    if (pos === 0) label = "Main Reward";
-    else if (pos === 1 && hasSubAObjective) label = "Subquest A Reward";
-    else if (pos === 2 && hasSubBObjective) label = "Subquest B Reward";
-    else label = `Reward Box ${pos + 1}`;
-    return { ...entry, label };
-  });
+  .sort((a, b) => a.rewardBoxId - b.rewardBoxId);
 ---
 
 <WikiLayout title={`${quest.quest_text.title} | Quests | MHFG1 Wiki`}>

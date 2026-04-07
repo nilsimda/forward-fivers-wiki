@@ -205,31 +205,28 @@ def build_partbreak_acquisitions(
     return index
 
 
-def _reward_box_labels(quest: dict[str, Any]) -> list[str]:
-    sorted_keys = sorted(quest["reward_boxes"], key=int)
-    has_sub_a = quest["quest_text"]["sub_a"].strip().lower() != "none"
-    has_sub_b = quest["quest_text"]["sub_b"].strip().lower() != "none"
-    labels: list[str] = []
-    for pos, _key in enumerate(sorted_keys):
-        if pos == 0:
-            labels.append("Main Reward")
-        elif pos == 1 and has_sub_a:
-            labels.append("Sub A Reward")
-        elif pos == 2 and has_sub_b:
-            labels.append("Sub B Reward")
-        else:
-            labels.append(f"Reward Box {pos + 1}")
-    return labels
+REWARD_BOX_LABELS: dict[int, str] = {
+    0: "Main Reward",
+    1: "Main Reward",
+    2: "Sub A Reward",
+    3: "Sub B Reward",
+    4: "Additional Reward",
+    5: "Special Reward",
+}
+
+
+def _reward_box_label(table_id: int) -> str:
+    if 41 <= table_id <= 47:
+        return f"Training Tier {table_id - 40}"
+    return REWARD_BOX_LABELS.get(table_id, f"Reward Box {table_id}")
 
 
 def build_quest_aquisitions(quests_path: Path) -> dict[int, list[QuestAquisition]]:
     quests: list[dict[str, Any]] = json.loads(quests_path.read_text(encoding="utf-8"))
     index: dict[int, list[QuestAquisition]] = {}
     for quest in quests:
-        sorted_keys = sorted(quest["reward_boxes"], key=int)
-        labels = _reward_box_labels(quest)
-        for label, box_key in zip(labels, sorted_keys):
-            reward_box = quest["reward_boxes"][box_key]
+        for box_key, reward_box in quest["reward_boxes"].items():
+            label = _reward_box_label(int(box_key))
             for drop in reward_box:
                 index.setdefault(drop["item_id"], []).append(
                     QuestAquisition(
