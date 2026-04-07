@@ -24,6 +24,7 @@ DEFAULT_DATA_PATHS = {
     "monster_names": BASE_DATA_PATH / "labels" / "monster_names.json",
     "carve_labels": BASE_DATA_PATH / "labels" / "monster_carve_labels.json",
     "partbreak_labels": BASE_DATA_PATH / "labels" / "monster_partbreak_labels.json",
+    "small_monsters": BASE_DATA_PATH / "labels" / "small_monsters.json",
     # generated
     "hidden_item_ids": BASE_DATA_PATH / "generated" / "wiki-hidden-item-ids.json",
     "item_names": BASE_DATA_PATH / "generated" / "item-labels.json",
@@ -186,10 +187,17 @@ def decode_c_string(raw: bytes, pointer: int) -> str:
     return data.decode("latin-1", errors="replace")
 
 
+def load_small_monster_ids() -> frozenset[int]:
+    raw = json.loads(DEFAULT_DATA_PATHS["small_monsters"].read_text(encoding="utf-8"))
+    return frozenset(int(k) for k in raw)
+
+
 def load_valid_monster_ranks() -> dict[int, set[Rank]]:
     quest_rewards = json.loads(
         (REPO_ROOT / "site" / "src" / "data" / "generated" / "quests.json").read_text()
     )
+    small_monster_ids = load_small_monster_ids()
+    all_ranks: set[Rank] = {"lr", "hr", "er", "gr"}
 
     monster_target_types = frozenset(
         {
@@ -205,18 +213,24 @@ def load_valid_monster_ranks() -> dict[int, set[Rank]]:
     )
 
     monsterranks: dict[int, set[Rank]] = defaultdict(set)
+    for mon_id in small_monster_ids:
+        monsterranks[mon_id] = set(all_ranks)
+
     for quest in quest_rewards:
         mainGoal = quest["main_goal"]
         subGoalA = quest["subA_goal"]
         subGoalB = quest["subB_goal"]
         if mainGoal["target_kind"] in monster_target_types:
             mon_id = mainGoal["target"]
-            monsterranks[mon_id].add(quest["rank"])
+            if mon_id not in small_monster_ids:
+                monsterranks[mon_id].add(quest["rank"])
         if subGoalA["target_kind"] in monster_target_types:
             mon_id = subGoalA["target"]
-            monsterranks[mon_id].add(quest["rank"])
+            if mon_id not in small_monster_ids:
+                monsterranks[mon_id].add(quest["rank"])
         if subGoalB["target_kind"] in monster_target_types:
             mon_id = subGoalB["target"]
-            monsterranks[mon_id].add(quest["rank"])
+            if mon_id not in small_monster_ids:
+                monsterranks[mon_id].add(quest["rank"])
 
     return monsterranks

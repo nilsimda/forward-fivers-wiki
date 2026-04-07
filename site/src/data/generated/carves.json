@@ -532,9 +532,108 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
-    "gr_cts": []
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 8,
+            "item_id": 40,
+            "item_name": "Raw Meat"
+          },
+          {
+            "percentage": 40,
+            "item_id": 337,
+            "item_name": "Kelbi Horn"
+          },
+          {
+            "percentage": 26,
+            "item_id": 338,
+            "item_name": "Kelbi Hide"
+          },
+          {
+            "percentage": 18,
+            "item_id": 958,
+            "item_name": "HighQualityPelt"
+          },
+          {
+            "percentage": 8,
+            "item_id": 279,
+            "item_name": "White Liver"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1250,
+            "item_name": "Herbivore Horn"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1251,
+            "item_name": "Herbivore Horn+"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1252,
+            "item_name": "Herbvr Hardhorn"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1259,
+            "item_name": "Herbivore Hoof"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1260,
+            "item_name": "Herbivore Hoof+"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1261,
+            "item_name": "Herbvr Hardhoof"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 6795,
+            "item_name": "Lovely Pelt"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6796,
+            "item_name": "VividHerbvrShell"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6794,
+            "item_name": "Marbled Steak"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -607,7 +706,50 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1253,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1254,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1255,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1256,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1257,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1258,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -1515,8 +1657,84 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 44,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 28,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5758,
+            "item_name": "Hairy Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5757,
+            "item_name": "Shiny Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5759,
+            "item_name": "Gritty Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5760,
+            "item_name": "Rough Things"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 44,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 28,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5758,
+            "item_name": "Hairy Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5757,
+            "item_name": "Shiny Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5759,
+            "item_name": "Gritty Things"
+          },
+          {
+            "percentage": 7,
+            "item_id": 5760,
+            "item_name": "Rough Things"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   },
   {
@@ -1981,8 +2199,69 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 25,
+            "item_id": 312,
+            "item_name": "Monster Bone S"
+          },
+          {
+            "percentage": 75,
+            "item_id": 40,
+            "item_name": "Raw Meat"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 1253,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1254,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1255,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1256,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1257,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1258,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -4470,9 +4749,204 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
-    "gr_cts": []
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 58,
+            "item_id": 233,
+            "item_name": "Secret Stash"
+          },
+          {
+            "percentage": 20,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 5,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 12,
+            "item_id": 248,
+            "item_name": "Gastronome Tuna"
+          },
+          {
+            "percentage": 5,
+            "item_id": 956,
+            "item_name": "unkown"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 58,
+            "item_id": 233,
+            "item_name": "Secret Stash"
+          },
+          {
+            "percentage": 20,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 5,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 12,
+            "item_id": 248,
+            "item_name": "Gastronome Tuna"
+          },
+          {
+            "percentage": 5,
+            "item_id": 956,
+            "item_name": "unkown"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 1244,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1245,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1246,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1247,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1248,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1249,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 1244,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1245,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1246,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1247,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1248,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1249,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 6807,
+            "item_name": "Nptrn Toxspike"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6806,
+            "item_name": "Nptrn Bladeshell"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6808,
+            "item_name": "Neopteron Balm"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 45,
+            "item_id": 6811,
+            "item_name": "Lynian Gunpowder"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6810,
+            "item_name": "Clean Junk"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6809,
+            "item_name": "Top Secret Stash"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 24,
@@ -4665,7 +5139,50 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1262,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1263,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1264,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1265,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1266,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1267,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -5545,7 +6062,50 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 34,
+            "item_id": 1352,
+            "item_name": "P.Wyvern Scale"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1353,
+            "item_name": "P.Wyvern Scale+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1354,
+            "item_name": "P.Wyvern Shard"
+          },
+          {
+            "percentage": 34,
+            "item_id": 1361,
+            "item_name": "P.Wyvern Fang"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1362,
+            "item_name": "P.Wyvern Fang+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1363,
+            "item_name": "P.Wyv Hardfang"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -10180,9 +10740,88 @@
   {
     "id": 56,
     "monster_name": "Great Thunderbug",
-    "lr_cts": [],
-    "hr_cts": [],
-    "er_cts": [],
+    "lr_cts": [
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 262,
+            "item_name": "Thunderbug"
+          },
+          {
+            "percentage": 25,
+            "item_id": 255,
+            "item_name": "Insect Husk"
+          }
+        ]
+      }
+    ],
+    "hr_cts": [
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 262,
+            "item_name": "Thunderbug"
+          },
+          {
+            "percentage": 25,
+            "item_id": 255,
+            "item_name": "Insect Husk"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 1283,
+            "item_name": "Neopteron Needle"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1284,
+            "item_name": "Nptron Needle+"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1285,
+            "item_name": "Nptron Stinger"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1286,
+            "item_name": "Neopteron Fluid"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1287,
+            "item_name": "Neopteron Fluid+"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1288,
+            "item_name": "Neopteron Broth"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Shiny Drops",
@@ -10323,7 +10962,92 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1244,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1245,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1246,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1247,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1248,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1249,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      },
+      {
+        "label": "KingBody Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1244,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1245,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1246,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1247,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1248,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1249,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -11380,7 +12104,30 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 6798,
+            "item_name": "Bristly Fur"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6799,
+            "item_name": "Beast Wildblood"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6797,
+            "item_name": "Beast Rarebone"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 62,
@@ -11568,8 +12315,74 @@
         ]
       }
     ],
-    "er_cts": [],
-    "gr_cts": []
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 34,
+            "item_id": 1310,
+            "item_name": "F.Wyvern Hide"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1311,
+            "item_name": "F.Wyvern Hide+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1312,
+            "item_name": "F.Wyvern Piel"
+          },
+          {
+            "percentage": 34,
+            "item_id": 1334,
+            "item_name": "F.Wyvern Scalp"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1335,
+            "item_name": "F.Wyvern Scalp+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1336,
+            "item_name": "F.Wyvern Crown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 6800,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6801,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6802,
+            "item_name": "unkown"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 64,
@@ -12717,7 +13530,40 @@
         ]
       }
     ],
-    "hr_cts": [],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 18,
+            "item_id": 40,
+            "item_name": "Raw Meat"
+          },
+          {
+            "percentage": 12,
+            "item_id": 339,
+            "item_name": "Anteka Pelt"
+          },
+          {
+            "percentage": 30,
+            "item_id": 340,
+            "item_name": "Anteka Antler"
+          },
+          {
+            "percentage": 22,
+            "item_id": 958,
+            "item_name": "HighQualityPelt"
+          },
+          {
+            "percentage": 18,
+            "item_id": 279,
+            "item_name": "White Liver"
+          }
+        ]
+      }
+    ],
     "er_cts": [
       {
         "label": "Body Carves",
@@ -12762,7 +13608,30 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 6796,
+            "item_name": "VividHerbvrShell"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6795,
+            "item_name": "Lovely Pelt"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6794,
+            "item_name": "Marbled Steak"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 70,
@@ -12815,7 +13684,50 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 1262,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1263,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1264,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1265,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1266,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1267,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -12956,7 +13868,50 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 34,
+            "item_id": 1295,
+            "item_name": "Carapaceon Blade"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1296,
+            "item_name": "Cpceon Blade+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1297,
+            "item_name": "Cpceon Direblade"
+          },
+          {
+            "percentage": 34,
+            "item_id": 1088,
+            "item_name": "Carapaceolite"
+          },
+          {
+            "percentage": 9,
+            "item_id": 1089,
+            "item_name": "Carapaceolite+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1090,
+            "item_name": "Pure Cpceolite"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -17295,8 +18250,84 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 30,
+            "item_id": 3575,
+            "item_name": "Bulluk Horn"
+          },
+          {
+            "percentage": 23,
+            "item_id": 3576,
+            "item_name": "Bulluk Hide"
+          },
+          {
+            "percentage": 25,
+            "item_id": 320,
+            "item_name": "Bone"
+          },
+          {
+            "percentage": 15,
+            "item_id": 313,
+            "item_name": "Monster Bone M"
+          },
+          {
+            "percentage": 7,
+            "item_id": 3577,
+            "item_name": "Bulluk Head"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1256,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1257,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1258,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1265,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1266,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1267,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",
@@ -17325,10 +18356,147 @@
   {
     "id": 98,
     "monster_name": "Alpelo",
-    "lr_cts": [],
-    "hr_cts": [],
-    "er_cts": [],
-    "gr_cts": []
+    "lr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 25,
+            "item_id": 3578,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 45,
+            "item_id": 3579,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 320,
+            "item_name": "Bone"
+          },
+          {
+            "percentage": 7,
+            "item_id": 3580,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 3,
+            "item_id": 3561,
+            "item_name": "Arcstone"
+          }
+        ]
+      }
+    ],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 30,
+            "item_id": 3578,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 26,
+            "item_id": 3579,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 17,
+            "item_id": 320,
+            "item_name": "Bone"
+          },
+          {
+            "percentage": 14,
+            "item_id": 3580,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 10,
+            "item_id": 3561,
+            "item_name": "Arcstone"
+          },
+          {
+            "percentage": 3,
+            "item_id": 3562,
+            "item_name": "unkown"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 16,
+            "item_id": 1253,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 18,
+            "item_id": 1254,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 16,
+            "item_id": 1255,
+            "item_name": "unkown"
+          },
+          {
+            "percentage": 20,
+            "item_id": 1259,
+            "item_name": "Herbivore Hoof"
+          },
+          {
+            "percentage": 12,
+            "item_id": 1260,
+            "item_name": "Herbivore Hoof+"
+          },
+          {
+            "percentage": 8,
+            "item_id": 1261,
+            "item_name": "Herbvr Hardhoof"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1443,
+            "item_name": "Monster Oil"
+          }
+        ]
+      }
+    ],
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 6796,
+            "item_name": "VividHerbvrShell"
+          },
+          {
+            "percentage": 30,
+            "item_id": 6795,
+            "item_name": "Lovely Pelt"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6794,
+            "item_name": "Marbled Steak"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 99,
@@ -19024,9 +20192,93 @@
   {
     "id": 117,
     "monster_name": "Pokara",
-    "lr_cts": [],
-    "hr_cts": [],
-    "er_cts": [],
+    "lr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 28,
+            "item_name": "Ancient Potion"
+          },
+          {
+            "percentage": 20,
+            "item_id": 312,
+            "item_name": "Monster Bone S"
+          },
+          {
+            "percentage": 30,
+            "item_id": 7,
+            "item_name": "Potion"
+          },
+          {
+            "percentage": 45,
+            "item_id": 215,
+            "item_name": "Stone"
+          }
+        ]
+      }
+    ],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 28,
+            "item_name": "Ancient Potion"
+          },
+          {
+            "percentage": 20,
+            "item_id": 312,
+            "item_name": "Monster Bone S"
+          },
+          {
+            "percentage": 30,
+            "item_id": 7,
+            "item_name": "Potion"
+          },
+          {
+            "percentage": 45,
+            "item_id": 215,
+            "item_name": "Stone"
+          }
+        ]
+      }
+    ],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 2,
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 28,
+            "item_name": "Ancient Potion"
+          },
+          {
+            "percentage": 20,
+            "item_id": 312,
+            "item_name": "Monster Bone S"
+          },
+          {
+            "percentage": 30,
+            "item_id": 7,
+            "item_name": "Potion"
+          },
+          {
+            "percentage": 45,
+            "item_id": 215,
+            "item_name": "Stone"
+          }
+        ]
+      }
+    ],
     "gr_cts": [
       {
         "label": "Body Carves",

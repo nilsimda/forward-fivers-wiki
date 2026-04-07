@@ -149,7 +149,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 30
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -2729,7 +2751,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 5
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 5
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 5
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -3255,6 +3299,13 @@
         "percentage": 8
       },
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
         "monster_id": 4,
         "monster_name": "Mosswine",
         "rank": "lr",
@@ -3286,6 +3337,13 @@
         "monster_id": 12,
         "monster_name": "Aptonoth",
         "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 75
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "hr",
         "label": "Body Carves",
         "percentage": 75
       },
@@ -3337,6 +3395,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 24
+      },
+      {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 18
       },
       {
         "monster_id": 70,
@@ -13674,6 +13739,20 @@
         "percentage": 44
       },
       {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 44
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 44
+      },
+      {
         "monster_id": 23,
         "monster_name": "Melynx",
         "rank": "lr",
@@ -13686,6 +13765,20 @@
         "rank": "lr",
         "label": "Shiny Drops",
         "percentage": 10
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],
@@ -17758,7 +17851,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 45
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 45
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 45
+      }
+    ],
     "partbreak_aquisitions": [
       {
         "monster_id": 20,
@@ -22300,6 +22415,20 @@
         "rank": "lr",
         "label": "Shiny Drops",
         "percentage": 72
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 58
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 58
       }
     ],
     "partbreak_aquisitions": [],
@@ -24114,7 +24243,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 12
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -24538,7 +24682,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 25
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 25
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -25490,7 +25649,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -27332,11 +27506,25 @@
         "percentage": 10
       },
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 24
+      },
+      {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 18
       }
     ],
     "partbreak_aquisitions": [],
@@ -34559,6 +34747,13 @@
         "percentage": 25
       },
       {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 25
+      },
+      {
         "monster_id": 16,
         "monster_name": "Velociprey",
         "rank": "lr",
@@ -34613,6 +34808,27 @@
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 34
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 117,
+        "monster_name": "Pokara",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],
@@ -35720,6 +35936,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 7
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 15
       }
     ],
     "partbreak_aquisitions": [
@@ -42608,6 +42831,27 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 25
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 25
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 17
       }
     ],
     "partbreak_aquisitions": [
@@ -53341,6 +53585,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 50
+      },
+      {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 40
       }
     ],
     "partbreak_aquisitions": [],
@@ -53435,6 +53686,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 32
+      },
+      {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 26
       }
     ],
     "partbreak_aquisitions": [],
@@ -53465,6 +53723,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 14
+      },
+      {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 12
       }
     ],
     "partbreak_aquisitions": [],
@@ -53550,6 +53815,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 38
+      },
+      {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 30
       }
     ],
     "partbreak_aquisitions": [],
@@ -105972,6 +106244,20 @@
         "percentage": 28
       },
       {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 28
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 28
+      },
+      {
         "monster_id": 23,
         "monster_name": "Melynx",
         "rank": "lr",
@@ -105984,6 +106270,20 @@
         "rank": "lr",
         "label": "Shiny Drops",
         "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 5
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 5
       }
     ],
     "partbreak_aquisitions": [
@@ -112836,7 +113136,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 5
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 5
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -112995,7 +113310,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 22
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -124200,6 +124530,13 @@
         "percentage": 25
       },
       {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
+      },
+      {
         "monster_id": 83,
         "monster_name": "Aqra Vashim",
         "rank": "er",
@@ -124471,6 +124808,13 @@
         "percentage": 15
       },
       {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
+      },
+      {
         "monster_id": 83,
         "monster_name": "Aqra Vashim",
         "rank": "er",
@@ -124731,6 +125075,13 @@
         "rank": "er",
         "label": "Back Carves",
         "percentage": 10
+      },
+      {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 2
       },
       {
         "monster_id": 83,
@@ -128138,7 +128489,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 20
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128160,7 +128540,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 12
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 18
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128182,7 +128591,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 8
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128204,7 +128642,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 16
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 20
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128226,7 +128693,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 18
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 12
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128248,7 +128744,36 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 16
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
+        "percentage": 8
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128271,6 +128796,13 @@
       }
     ],
     "carve_aquisitions": [
+      {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
       {
         "monster_id": 69,
         "monster_name": "Anteka",
@@ -128302,6 +128834,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "er",
@@ -128332,6 +128871,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "er",
@@ -128360,7 +128906,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128382,7 +128950,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128404,7 +128994,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128426,7 +129038,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128448,7 +129082,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128470,7 +129126,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128494,11 +129172,25 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 16
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],
@@ -128524,11 +129216,25 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 18
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
       }
     ],
     "partbreak_aquisitions": [],
@@ -128554,11 +129260,25 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
         "monster_id": 69,
         "monster_name": "Anteka",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 16
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
       }
     ],
     "partbreak_aquisitions": [],
@@ -128582,7 +129302,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128604,7 +129339,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128626,7 +129376,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128648,7 +129413,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 20
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128670,7 +129457,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 18
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 12
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -128692,7 +129501,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      },
+      {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 16
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 8
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -133677,6 +134508,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 16
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],
@@ -133726,6 +134564,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 18
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 12
       }
     ],
     "partbreak_aquisitions": [],
@@ -133775,6 +134620,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 16
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 8
       }
     ],
     "partbreak_aquisitions": [],
@@ -133815,6 +134667,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 16
       }
     ],
     "partbreak_aquisitions": [],
@@ -133873,6 +134732,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 12
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 18
       }
     ],
     "partbreak_aquisitions": [],
@@ -133931,6 +134797,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 8
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 16
       }
     ],
     "partbreak_aquisitions": [],
@@ -135904,6 +136777,13 @@
         "percentage": 38
       },
       {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
+      },
+      {
         "monster_id": 83,
         "monster_name": "Aqra Vashim",
         "rank": "er",
@@ -136279,6 +137159,13 @@
         "rank": "er",
         "label": "Shiny Drops",
         "percentage": 10
+      },
+      {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
       },
       {
         "monster_id": 83,
@@ -136664,6 +137551,13 @@
         "monster_name": "Shogun Ceanataur",
         "rank": "er",
         "label": "Shiny Drops",
+        "percentage": 2
+      },
+      {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
         "percentage": 2
       },
       {
@@ -140984,6 +141878,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 23
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
       }
     ],
     "partbreak_aquisitions": [
@@ -141218,6 +142119,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
       }
     ],
     "partbreak_aquisitions": [
@@ -141443,6 +142351,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 7
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 2
       }
     ],
     "partbreak_aquisitions": [
@@ -149802,6 +150717,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
       }
     ],
     "partbreak_aquisitions": [
@@ -150187,6 +151109,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 17
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
       }
     ],
     "partbreak_aquisitions": [
@@ -150518,6 +151447,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 3
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 2
       }
     ],
     "partbreak_aquisitions": [
@@ -154711,6 +155647,13 @@
         "percentage": 20
       },
       {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
+      },
+      {
         "monster_id": 46,
         "monster_name": "Green Plesioth",
         "rank": "er",
@@ -155043,6 +155986,13 @@
         "percentage": 12
       },
       {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
+      },
+      {
         "monster_id": 46,
         "monster_name": "Green Plesioth",
         "rank": "er",
@@ -155355,6 +156305,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 8
+      },
+      {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 2
       },
       {
         "monster_id": 46,
@@ -157021,6 +157978,13 @@
         "percentage": 20
       },
       {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 34
+      },
+      {
         "monster_id": 46,
         "monster_name": "Green Plesioth",
         "rank": "er",
@@ -157378,6 +158342,13 @@
         "percentage": 18
       },
       {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 9
+      },
+      {
         "monster_id": 46,
         "monster_name": "Green Plesioth",
         "rank": "er",
@@ -157715,6 +158686,13 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 12
+      },
+      {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 2
       },
       {
         "monster_id": 46,
@@ -171128,8 +172106,29 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 4,
+        "monster_name": "Mosswine",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
         "monster_id": 5,
         "monster_name": "Bullfango",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 12,
+        "monster_name": "Aptonoth",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 10
@@ -171156,8 +172155,29 @@
         "percentage": 10
       },
       {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 10
+      },
+      {
         "monster_id": 24,
         "monster_name": "Hornetaur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 25,
+        "monster_name": "Apceros",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 10
@@ -171170,10 +172190,38 @@
         "percentage": 10
       },
       {
+        "monster_id": 34,
+        "monster_name": "Cephalos",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
         "monster_id": 35,
         "monster_name": "Giaprey",
         "rank": "er",
         "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 56,
+        "monster_name": "Great Thunderbug",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 10
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 57,
+        "monster_name": "Shakalaka",
+        "rank": "er",
+        "label": "KingBody Carves",
         "percentage": 10
       },
       {
@@ -171186,6 +172234,13 @@
       {
         "monster_id": 62,
         "monster_name": "Conga",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 10
@@ -171205,6 +172260,20 @@
         "percentage": 10
       },
       {
+        "monster_id": 70,
+        "monster_name": "Popo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 73,
+        "monster_name": "Ceanataur",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
         "monster_id": 94,
         "monster_name": "Duragaua",
         "rank": "er",
@@ -171217,6 +172286,20 @@
         "rank": "er",
         "label": "__ignore__",
         "percentage": 15
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 10
       }
     ],
     "partbreak_aquisitions": [],
@@ -232051,7 +233134,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 3
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 10
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -232092,7 +233190,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 3
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -232529,6 +233635,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 30
       }
     ],
     "partbreak_aquisitions": [],
@@ -232578,6 +233691,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 45
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 23
       }
     ],
     "partbreak_aquisitions": [],
@@ -232627,6 +233747,13 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 3
+      },
+      {
+        "monster_id": 97,
+        "monster_name": "Bulluk",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 7
       }
     ],
     "partbreak_aquisitions": [],
@@ -232669,7 +233796,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 25
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 30
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -232691,7 +233833,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 45
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 26
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -232713,7 +233870,22 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 14
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -291810,6 +292982,20 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 7
       }
     ],
     "partbreak_aquisitions": [],
@@ -291838,6 +293024,20 @@
         "monster_id": 9,
         "monster_name": "Felyne",
         "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
         "label": "Body Carves",
         "percentage": 7
       }
@@ -291870,6 +293070,20 @@
         "rank": "lr",
         "label": "Body Carves",
         "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
+        "label": "Body Carves",
+        "percentage": 7
       }
     ],
     "partbreak_aquisitions": [],
@@ -291898,6 +293112,20 @@
         "monster_id": 9,
         "monster_name": "Felyne",
         "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "hr",
+        "label": "Body Carves",
+        "percentage": 7
+      },
+      {
+        "monster_id": 9,
+        "monster_name": "Felyne",
+        "rank": "er",
         "label": "Body Carves",
         "percentage": 7
       }
@@ -316575,6 +317803,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 4,
         "monster_name": "Mosswine",
         "rank": "gr",
@@ -316596,6 +317831,13 @@
         "percentage": 30
       },
       {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 70,
         "monster_name": "Popo",
         "rank": "gr",
@@ -316608,6 +317850,13 @@
         "rank": "gr",
         "label": "Body Carves",
         "percentage": 50
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],
@@ -316724,6 +317973,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 50
+      },
+      {
         "monster_id": 4,
         "monster_name": "Mosswine",
         "rank": "gr",
@@ -316738,11 +317994,25 @@
         "percentage": 20
       },
       {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
         "monster_id": 70,
         "monster_name": "Popo",
         "rank": "gr",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
       }
     ],
     "partbreak_aquisitions": [],
@@ -316823,6 +318093,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 3,
+        "monster_name": "Kelbi",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
         "monster_id": 4,
         "monster_name": "Mosswine",
         "rank": "gr",
@@ -316837,11 +318114,25 @@
         "percentage": 20
       },
       {
+        "monster_id": 69,
+        "monster_name": "Anteka",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 50
+      },
+      {
         "monster_id": 97,
         "monster_name": "Bulluk",
         "rank": "gr",
         "label": "Body Carves",
         "percentage": 20
+      },
+      {
+        "monster_id": 98,
+        "monster_name": "Alpelo",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 50
       }
     ],
     "partbreak_aquisitions": [],
@@ -316929,6 +318220,13 @@
         "percentage": 50
       },
       {
+        "monster_id": 61,
+        "monster_name": "Blango",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 62,
         "monster_name": "Conga",
         "rank": "gr",
@@ -316992,6 +318290,13 @@
         "rank": "gr",
         "label": "Body Carves",
         "percentage": 30
+      },
+      {
+        "monster_id": 61,
+        "monster_name": "Blango",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 50
       },
       {
         "monster_id": 62,
@@ -317059,6 +318364,13 @@
         "percentage": 20
       },
       {
+        "monster_id": 61,
+        "monster_name": "Blango",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
         "monster_id": 62,
         "monster_name": "Conga",
         "rank": "gr",
@@ -317115,7 +318427,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -317137,7 +318457,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -317159,7 +318487,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 63,
+        "monster_name": "Remobra",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -317310,6 +318646,13 @@
         "percentage": 20
       },
       {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 30
+      },
+      {
         "monster_id": 24,
         "monster_name": "Hornetaur",
         "rank": "gr",
@@ -317398,6 +318741,13 @@
         "rank": "gr",
         "label": "Body Carves",
         "percentage": 30
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 50
       },
       {
         "monster_id": 24,
@@ -317490,6 +318840,13 @@
         "percentage": 50
       },
       {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 24,
         "monster_name": "Hornetaur",
         "rank": "gr",
@@ -317573,6 +318930,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 20
+      },
+      {
         "monster_id": 57,
         "monster_name": "Shakalaka",
         "rank": "gr",
@@ -317612,6 +318976,13 @@
       }
     ],
     "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 35
+      },
       {
         "monster_id": 57,
         "monster_name": "Shakalaka",
@@ -317659,6 +319030,13 @@
       }
     ],
     "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 45
+      },
       {
         "monster_id": 57,
         "monster_name": "Shakalaka",
