@@ -8,7 +8,7 @@
     "scripts": {
         "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_items.py",
         "dev": "npm run data:extract && astro dev",
-        "build": "npm run data:extract && astro build",
+        "build": "astro build",
         "preview": "astro preview",
         "astro": "astro"
     },
