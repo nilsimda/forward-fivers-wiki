@@ -149,29 +149,7 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "lr",
-        "label": "Body Carves",
-        "percentage": 30
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "hr",
-        "label": "Body Carves",
-        "percentage": 30
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "er",
-        "label": "Body Carves",
-        "percentage": 30
-      }
-    ],
+    "carve_aquisitions": [],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -2751,29 +2729,7 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "lr",
-        "label": "Body Carves",
-        "percentage": 5
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "hr",
-        "label": "Body Carves",
-        "percentage": 5
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "er",
-        "label": "Body Carves",
-        "percentage": 5
-      }
-    ],
+    "carve_aquisitions": [],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [
       {
@@ -17851,29 +17807,7 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "lr",
-        "label": "Body Carves",
-        "percentage": 45
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "hr",
-        "label": "Body Carves",
-        "percentage": 45
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "er",
-        "label": "Body Carves",
-        "percentage": 45
-      }
-    ],
+    "carve_aquisitions": [],
     "partbreak_aquisitions": [
       {
         "monster_id": 20,
@@ -34808,27 +34742,6 @@
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 34
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "lr",
-        "label": "Body Carves",
-        "percentage": 20
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "hr",
-        "label": "Body Carves",
-        "percentage": 20
-      },
-      {
-        "monster_id": 117,
-        "monster_name": "Pokara",
-        "rank": "er",
-        "label": "Body Carves",
-        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [],

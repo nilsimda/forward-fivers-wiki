@@ -20192,93 +20192,9 @@
   {
     "id": 117,
     "monster_name": "Pokara",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 2,
-        "drops": [
-          {
-            "percentage": 5,
-            "item_id": 28,
-            "item_name": "Ancient Potion"
-          },
-          {
-            "percentage": 20,
-            "item_id": 312,
-            "item_name": "Monster Bone S"
-          },
-          {
-            "percentage": 30,
-            "item_id": 7,
-            "item_name": "Potion"
-          },
-          {
-            "percentage": 45,
-            "item_id": 215,
-            "item_name": "Stone"
-          }
-        ]
-      }
-    ],
-    "hr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 2,
-        "drops": [
-          {
-            "percentage": 5,
-            "item_id": 28,
-            "item_name": "Ancient Potion"
-          },
-          {
-            "percentage": 20,
-            "item_id": 312,
-            "item_name": "Monster Bone S"
-          },
-          {
-            "percentage": 30,
-            "item_id": 7,
-            "item_name": "Potion"
-          },
-          {
-            "percentage": 45,
-            "item_id": 215,
-            "item_name": "Stone"
-          }
-        ]
-      }
-    ],
-    "er_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 2,
-        "drops": [
-          {
-            "percentage": 5,
-            "item_id": 28,
-            "item_name": "Ancient Potion"
-          },
-          {
-            "percentage": 20,
-            "item_id": 312,
-            "item_name": "Monster Bone S"
-          },
-          {
-            "percentage": 30,
-            "item_id": 7,
-            "item_name": "Potion"
-          },
-          {
-            "percentage": 45,
-            "item_id": 215,
-            "item_name": "Stone"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
+    "hr_cts": [],
+    "er_cts": [],
     "gr_cts": [
       {
         "label": "Body Carves",
