@@ -1,0 +1,93 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type MonsterCarves = CollectionEntry<"monsterCarves">;
+type MonsterPartbreaks = CollectionEntry<"monsterPartbreaks">;
+
+interface Props {
+  rank: "lr" | "hr" | "er" | "gr";
+  rankLabel: string;
+  carves: MonsterCarves;
+  partbreaks: MonsterPartbreaks | undefined;
+  withBase: (targetPath: string) => string;
+}
+
+const { rank, rankLabel, carves, partbreaks, withBase } = Astro.props as Props;
+
+const carveKey = `${rank}_cts` as const;
+const partbreakKey = `${rank}_pts` as const;
+
+const carveTables = carves.data[carveKey];
+const partbreakTables = partbreaks?.data[partbreakKey] ?? [];
+---
+
+<section class={`panel rank-panel rank-panel--${rank}`}>
+  <header class="mb-3 flex items-center justify-between gap-3">
+    <h2 class="text-lg">{rankLabel}</h2>
+  </header>
+  <div class="table-wrap">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>Drop origin</th>
+          <th>Drops</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          carveTables.map((ct) => (
+            <tr>
+              <td>
+                {ct.label}
+                {ct.label !== "HC Carve" &&
+                  ` x ${ct.num_carves ?? `${ct.trigger_chance}%`}`}
+              </td>
+              <td>
+                {ct.drops.map((drop) => (
+                  <ul class="list-disk space-y-1 pl-5">
+                    <li>
+                      <a
+                        href={withBase(`items/${drop.item_id}/`)}
+                        class="font-medium text-slate-200 hover:text-white"
+                      >
+                        {drop.item_name}
+                      </a>
+                      <span class="text-slate-300"> - {drop.percentage}%</span>
+                    </li>
+                  </ul>
+                ))}
+              </td>
+            </tr>
+          ))
+        }
+        {
+          partbreakTables.map((pt) => (
+            <tr>
+              <td>
+                {pt.partbreak_label === "Capture"
+                  ? pt.partbreak_label
+                  : "Part Break:" + pt.partbreak_label}
+              </td>
+              <td>
+                {pt.drops.map((drop) => (
+                  <ul class="list-disk space-y-1 pl-5">
+                    <li>
+                      <a
+                        href={withBase(`items/${drop.item_id}/`)}
+                        class="font-medium text-slate-200 hover:text-white"
+                      >
+                        {drop.item_name}
+                      </a>
+                      <span class="text-slate-300"> - {drop.percentage}%</span>{" "}
+                      x {drop.quantity}
+                    </li>
+                  </ul>
+                ))}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</section>

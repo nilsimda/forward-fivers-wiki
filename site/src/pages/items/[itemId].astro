@@ -1,0 +1,325 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type ItemData = CollectionEntry<"items">["data"];
+
+export async function getStaticPaths() {
+  const items = await getCollection("items");
+  return items.map((entry) => ({
+    params: { itemId: String(entry.data.id) },
+    props: { item: entry.data },
+  }));
+}
+
+const { item } = Astro.props as { item: ItemData };
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const currencyUnit = item.is_gz ? "Gz" : "z";
+
+const descColorClasses: Record<string, string> = { "05": "text-amber-200" };
+const segmentClass = (code: string | null) =>
+  code && descColorClasses[code] ? descColorClasses[code] : "text-slate-300";
+
+const rankMeta = {
+  lr: { label: "LR (Low Rank)", panel: "rank-panel--lr", pill: "rank-pill--active-lr" },
+  hr: { label: "HR (High Rank)", panel: "rank-panel--hr", pill: "rank-pill--active-hr" },
+  er: { label: "ER (Elite Rank)", panel: "rank-panel--er", pill: "rank-pill--active-er" },
+  gr: { label: "GR (G-Rank)", panel: "rank-panel--gr", pill: "rank-pill--active-gr" },
+} as const;
+
+type MonsterEntry = {
+  id: number;
+  name: string;
+  rows: { source: string; pct: number; qty: number | null }[];
+};
+
+type QuestEntry = {
+  id: number;
+  title: string;
+  main_objective: string;
+  drops: { reward_box_label: string; pct: number; qty: number }[];
+};
+
+const rankSections = (["lr", "hr", "er", "gr"] as const)
+  .map((rank) => {
+    const monsterMap = new Map<number, MonsterEntry>();
+    const getM = (mid: number, mname: string) => {
+      if (!monsterMap.has(mid))
+        monsterMap.set(mid, { id: mid, name: mname, rows: [] });
+      return monsterMap.get(mid)!;
+    };
+
+    for (const c of item.carve_aquisitions.filter((a) => a.rank === rank))
+      getM(c.monster_id, c.monster_name).rows.push({
+        source: c.label, pct: c.percentage, qty: null,
+      });
+
+    for (const p of item.partbreak_aquisitions.filter((a) => a.rank === rank))
+      getM(p.monster_id, p.monster_name).rows.push({
+        source: p.label, pct: p.percentage, qty: p.quantity,
+      });
+
+    const questMap = new Map<number, QuestEntry>();
+    for (const q of item.quest_aquisitions.filter((a) => a.rank === rank)) {
+      if (!questMap.has(q.quest_id))
+        questMap.set(q.quest_id, {
+          id: q.quest_id, title: q.title,
+          main_objective: q.main_objective, drops: [],
+        });
+      questMap.get(q.quest_id)!.drops.push({
+        reward_box_label: q.reward_box_label,
+        pct: q.percentage, qty: q.quantity,
+      });
+    }
+
+    return {
+      rank,
+      ...rankMeta[rank],
+      monsters: Array.from(monsterMap.values()),
+      quests: Array.from(questMap.values()),
+    };
+  })
+  .filter((s) => s.monsters.length > 0 || s.quests.length > 0);
+---
+
+<WikiLayout title={`${item.name} | Items | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase("items/")} class="text-sm">Back to item index</a>
+      <h1>{item.name}</h1>
+      <p class="text-slate-300">Item ID {item.id}</p>
+    </header>
+
+    <section class="grid gap-4 md:grid-cols-2">
+      <div class="panel">
+        <h2 class="text-lg">Core Stats</h2>
+        <dl class="mt-3 space-y-2 text-sm text-slate-300">
+          <div class="flex justify-between gap-3"><dt>Rarity</dt><dd>{item.rarity + 1}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Max stack</dt><dd>{item.max_stack}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Buy price</dt><dd>{item.buy_price}{currencyUnit}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Sell price</dt><dd>{item.sell_price}{currencyUnit}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Icon</dt><dd>{item.icon_id}</dd></div>
+          <div class="flex justify-between gap-3"><dt>Icon color</dt><dd>{item.icon_color}</dd></div>
+        </dl>
+      </div>
+      <div class="panel">
+        <h2 class="text-lg">Description</h2>
+        <p class="mt-3 whitespace-pre-line">
+          {item.descriptionSegments.length > 0
+            ? item.descriptionSegments.map((seg) => (
+                <span class={segmentClass(seg.colorCode)}>{seg.text}</span>
+              ))
+            : "No description available."}
+        </p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="text-lg">How to Obtain</h2>
+      {rankSections.length === 0 ? (
+        <p class="mt-3 text-slate-300">No acquisition data available yet.</p>
+      ) : (
+        <div class="mt-4 space-y-5">
+          <div id="item-rank-filter" class="flex flex-wrap gap-2" data-default-rank="all">
+            <button
+              type="button"
+              class="rank-pill rank-pill--active"
+              data-rank-filter="all"
+              data-rank-active-class="rank-pill--active"
+            >
+              All
+            </button>
+            {rankSections.map((s) => (
+              <button
+                type="button"
+                class="rank-pill"
+                data-rank-filter={s.rank}
+                data-rank-active-class={s.pill}
+              >
+                {s.label}
+              </button>
+            ))}
+          </div>
+
+          {rankSections.map((s) => (
+            <section
+              class={`panel rank-panel ${s.panel}`}
+              data-rank-section={s.rank}
+            >
+              <h3 class="text-base text-slate-100">{s.label}</h3>
+              <div class="mt-4 space-y-4">
+                {s.monsters.length > 0 && (
+                  <section class="space-y-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">
+                      Monster Sources
+                    </h4>
+                    <div class="table-wrap">
+                      <table class="table-grid">
+                        <thead>
+                          <tr>
+                            <th>Monster</th>
+                            <th>Source</th>
+                            <th>Chance</th>
+                            <th>Qty</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {s.monsters.map((m) =>
+                            m.rows.map((row, i) => (
+                              <tr>
+                                <td>
+                                  {i === 0 ? (
+                                    <a
+                                      href={withBase(`monster-drops/${m.id}/`)}
+                                      class="text-slate-200 hover:text-white"
+                                    >
+                                      {m.name}
+                                    </a>
+                                  ) : (
+                                    <span class="text-slate-500">-</span>
+                                  )}
+                                </td>
+                                <td>{row.source}</td>
+                                <td>{row.pct}%</td>
+                                <td>{row.qty !== null ? `x${row.qty}` : "-"}</td>
+                              </tr>
+                            ))
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                )}
+
+                {s.quests.length > 0 && (
+                  <section class="space-y-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">
+                      Quest Rewards
+                    </h4>
+                    {s.quests.length > 10 ? (
+                      <details class="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
+                        <summary class="cursor-pointer text-sm text-slate-300 hover:text-slate-100">
+                          Show all {s.quests.length} quests
+                        </summary>
+                        <div class="mt-3 table-wrap">
+                          <table class="table-grid">
+                            <thead>
+                              <tr>
+                                <th>Quest</th>
+                                <th>Reward</th>
+                                <th>Chance</th>
+                                <th>Qty</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {s.quests.map((q) =>
+                                q.drops.map((d, i) => (
+                                  <tr>
+                                    <td>
+                                      {i === 0 ? (
+                                        <a
+                                          href={withBase(`quests/${q.id}/`)}
+                                          class="text-slate-200 hover:text-white"
+                                        >
+                                          {q.title}
+                                          {q.main_objective ? ` - ${q.main_objective}` : ""}
+                                        </a>
+                                      ) : (
+                                        <span class="text-slate-500">-</span>
+                                      )}
+                                    </td>
+                                    <td>{d.reward_box_label}</td>
+                                    <td>{d.pct}%</td>
+                                    <td>x{d.qty}</td>
+                                  </tr>
+                                ))
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      </details>
+                    ) : (
+                      <div class="table-wrap">
+                        <table class="table-grid">
+                          <thead>
+                            <tr>
+                              <th>Quest</th>
+                              <th>Reward</th>
+                              <th>Chance</th>
+                              <th>Qty</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {s.quests.map((q) =>
+                              q.drops.map((d, i) => (
+                                <tr>
+                                  <td>
+                                    {i === 0 ? (
+                                      <a
+                                        href={withBase(`quests/${q.id}/`)}
+                                        class="text-slate-200 hover:text-white"
+                                      >
+                                        {q.title}
+                                        {q.main_objective ? ` - ${q.main_objective}` : ""}
+                                      </a>
+                                    ) : (
+                                      <span class="text-slate-500">-</span>
+                                    )}
+                                  </td>
+                                  <td>{d.reward_box_label}</td>
+                                  <td>{d.pct}%</td>
+                                  <td>x{d.qty}</td>
+                                </tr>
+                              ))
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
+                  </section>
+                )}
+              </div>
+            </section>
+          ))}
+        </div>
+      )}
+    </section>
+  </article>
+</WikiLayout>
+
+<script>
+  (() => {
+    const filterRoot = document.getElementById("item-rank-filter");
+    if (!filterRoot) return;
+
+    const buttons = Array.from(
+      filterRoot.querySelectorAll("[data-rank-filter]"),
+    ) as HTMLElement[];
+    const sections = Array.from(
+      document.querySelectorAll("[data-rank-section]"),
+    ) as HTMLElement[];
+
+    const apply = (rank: string) => {
+      sections.forEach((s) => {
+        s.classList.toggle(
+          "hidden",
+          rank !== "all" && s.dataset.rankSection !== rank,
+        );
+      });
+      buttons.forEach((b) => {
+        const isActive = b.dataset.rankFilter === rank;
+        const cls = b.dataset.rankActiveClass || "rank-pill--active";
+        b.classList.toggle(cls, isActive);
+      });
+    };
+
+    buttons.forEach((b) =>
+      b.addEventListener("click", () => apply(b.dataset.rankFilter || "all")),
+    );
+    apply(filterRoot.dataset.defaultRank || "all");
+  })();
+</script>

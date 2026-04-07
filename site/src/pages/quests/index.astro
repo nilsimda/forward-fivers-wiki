@@ -1,27 +1,23 @@
 ---
-import WikiLayout from '../../layouts/WikiLayout.astro';
-import questRewards from '../../data/generated/quest-rewards.json';
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
 
-type RewardEntry = { rewardBoxId: number };
-type QuestRow = {
-  questId: number;
-  slug: string;
-  title: string;
-  rank: string;
-  questRewards?: RewardEntry[];
-  rewardGroups?: Array<{ rewards?: RewardEntry[] }>;
-};
-
-const getQuestRewards = (quest: QuestRow): RewardEntry[] => {
-  if (Array.isArray(quest.questRewards)) return quest.questRewards;
-  if (!Array.isArray(quest.rewardGroups)) return [];
-  return quest.rewardGroups.flatMap((group) => (Array.isArray(group.rewards) ? group.rewards : []));
-};
-
-const sortedQuests = [...(questRewards as QuestRow[])].sort((a, b) => a.questId - b.questId);
 const baseUrl = import.meta.env.BASE_URL;
-const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+type QuestData = CollectionEntry<"quests">["data"];
+
+const formatRank = (rank: QuestData["rank"]) => {
+  if (!rank) return "Unknown";
+  return rank.toUpperCase();
+};
+
+const quests = await getCollection("quests");
+const sortedQuests = quests
+  .map((quest) => quest.data)
+  .sort((a, b) => a.id - b.id);
 ---
 
 <WikiLayout title="Quest Rewards | MHFG1 Wiki">
@@ -33,7 +29,9 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
   </section>
 
   <section class="panel mt-6 space-y-3">
-    <label class="block text-sm font-medium text-slate-200" for="quest-search">Search quests</label>
+    <label class="block text-sm font-medium text-slate-200" for="quest-search"
+      >Search quests</label
+    >
     <input
       id="quest-search"
       type="search"
@@ -41,7 +39,9 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
       class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
     />
     <p class="text-sm text-slate-400">
-      Showing <span id="visible-quest-count">{sortedQuests.length}</span> of {sortedQuests.length} quests
+      Showing <span id="visible-quest-count">{sortedQuests.length}</span> of {
+        sortedQuests.length
+      } quests
     </p>
   </section>
 
@@ -52,50 +52,60 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
           <th>ID</th>
           <th>Quest</th>
           <th>Rank</th>
-          <th>Reward boxes</th>
+          <th>Main goal</th>
         </tr>
       </thead>
       <tbody>
-        {sortedQuests.map((quest) => (
-          <tr
-            data-quest-row
-            data-quest-id={String(quest.questId)}
-            data-quest-title={quest.title.toLowerCase()}
-            data-quest-rank={String(quest.rank).toLowerCase()}
-          >
-            <td>{quest.questId}</td>
-            <td>
-              <a href={withBase(`quests/${quest.slug}/`)}>{quest.title}</a>
-            </td>
-            <td>{quest.rank}</td>
-            <td>{new Set(getQuestRewards(quest).map((reward: RewardEntry) => reward.rewardBoxId)).size}</td>
-          </tr>
-        ))}
+        {
+          sortedQuests.map((quest) => (
+            <tr
+              data-quest-row
+              data-quest-id={String(quest.id)}
+              data-quest-title={quest.quest_text.title.toLowerCase()}
+              data-quest-rank={String(quest.rank).toLowerCase()}
+            >
+              <td>{quest.id}</td>
+              <td>
+                <a href={withBase(`quests/${quest.id}/`)}>
+                  {quest.quest_text.title}
+                </a>
+              </td>
+              <td>{formatRank(quest.rank)}</td>
+              <td>{quest.quest_text.main || "None"}</td>
+            </tr>
+          ))
+        }
       </tbody>
     </table>
   </div>
 
   <script>
-    const input = document.querySelector<HTMLInputElement>('#quest-search');
-    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('[data-quest-row]'));
-    const count = document.querySelector<HTMLElement>('#visible-quest-count');
+    const input = document.querySelector<HTMLInputElement>("#quest-search");
+    const rows = Array.from(
+      document.querySelectorAll<HTMLTableRowElement>("[data-quest-row]"),
+    );
+    const count = document.querySelector<HTMLElement>("#visible-quest-count");
 
     const update = () => {
-      const query = (input?.value || '').trim().toLowerCase();
+      const query = (input?.value || "").trim().toLowerCase();
       let shown = 0;
 
       for (const row of rows) {
-        const id = row.dataset.questId || '';
-        const title = row.dataset.questTitle || '';
-        const rank = row.dataset.questRank || '';
-        const show = !query || id.includes(query) || title.includes(query) || rank.includes(query);
-        row.style.display = show ? '' : 'none';
+        const id = row.dataset.questId || "";
+        const title = row.dataset.questTitle || "";
+        const rank = row.dataset.questRank || "";
+        const show =
+          !query ||
+          id.includes(query) ||
+          title.includes(query) ||
+          rank.includes(query);
+        row.style.display = show ? "" : "none";
         if (show) shown += 1;
       }
 
       if (count) count.textContent = String(shown);
     };
 
-    input?.addEventListener('input', update);
+    input?.addEventListener("input", update);
   </script>
 </WikiLayout>

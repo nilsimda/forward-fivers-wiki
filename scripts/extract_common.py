@@ -2,21 +2,55 @@
 
 from __future__ import annotations
 
+import dataclasses
 import json
 import re
 import struct
-from collections.abc import Mapping, Sequence
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, TypedDict
+from typing import Any, Literal, TypedDict
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+BASE_DATA_PATH = REPO_ROOT / "g1_data"
 
-WIKI_HIDDEN_ITEM_IDS_FILENAME = "_wiki-hidden-item-ids.json"
+
+DEFAULT_DATA_PATHS = {
+    # orginal game data
+    "mhfdat": BASE_DATA_PATH / "game" / "mhfdat.raw.bin",
+    "mhfinf": BASE_DATA_PATH / "game" / "mhfinf.raw.bin",
+    "quests": BASE_DATA_PATH / "game" / "unpacked_quests",
+    # manual labels
+    "monster_names": BASE_DATA_PATH / "labels" / "monster_names.json",
+    "carve_labels": BASE_DATA_PATH / "labels" / "monster_carve_labels.json",
+    "partbreak_labels": BASE_DATA_PATH / "labels" / "monster_partbreak_labels.json",
+    # generated
+    "hidden_item_ids": BASE_DATA_PATH / "generated" / "wiki-hidden-item-ids.json",
+    "item_names": BASE_DATA_PATH / "generated" / "item-labels.json",
+}
+
+
+HEADER_POINTERS = {
+    # mhfdat pointers
+    "mhfdat_counts": 0x00000010,
+    "carve_table_indices": 0x0015B8FC,
+    "carve_tables": 0x004D93F4,
+    "hcc_table": 0x0000034C,
+    "items": 0x00000100,
+    "item_names": 0x00000104,
+    "item_descriptions": 0x00000130,
+    # mhfinf pointers
+    "mhfinf_counts": 0x00000010,
+    "quests": 0x00000014,
+    # quest file pointers
+    "quest_rewards": 0x0000000C,
+}
 
 U16_FMT = "<H"
 U32_FMT = "<I"
 _COLOR_TAG_RE = re.compile(r"~C([0-9A-Fa-f]{2})")
+
+Rank = Literal["lr", "hr", "er", "gr"]
 
 
 class ColorTagSegment(TypedDict):
@@ -30,7 +64,14 @@ class ParsedColorTaggedText:
     segments: list[ColorTagSegment]
 
 
-def read_u32(raw: bytes, offset: int, label: str) -> int:
+class DataclassEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if dataclasses.is_dataclass(obj) and not isinstance(obj, type):
+            return dataclasses.asdict(obj)
+        return super().default(obj)
+
+
+def read_u32(raw: bytes, offset: int, label: str | None = None) -> int:
     size = struct.calcsize(U32_FMT)
     if offset < 0 or offset + size > len(raw):
         raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
@@ -38,7 +79,7 @@ def read_u32(raw: bytes, offset: int, label: str) -> int:
     return value
 
 
-def read_u16(raw: bytes, offset: int, label: str) -> int:
+def read_u16(raw: bytes, offset: int, label: str | None = None) -> int:
     size = struct.calcsize(U16_FMT)
     if offset < 0 or offset + size > len(raw):
         raise ValueError(f"{label}: offset 0x{offset:08X} out of bounds")
@@ -90,25 +131,8 @@ def parse_color_tags(raw_text: str) -> ParsedColorTaggedText:
     return ParsedColorTaggedText(plain=plain, segments=merged)
 
 
-def is_dummy_placeholder_description(description_plain: str) -> bool:
-    """True when the item's plain description is dummy (wiki-hidden)."""
-    return str(description_plain or "").strip().casefold() == "dummy"
-
-
-def name_contains_dummy_marker(name: str) -> bool:
-    """True when the item name includes the Japanese placeholder substring ダミー (wiki-hidden)."""
-    return "ダミー" in str(name or "")
-
-
-def is_wiki_hidden_item(*, name: str, description_plain: str) -> bool:
-    """True when this item should be omitted from the wiki (items list and drop tables)."""
-    return is_dummy_placeholder_description(
-        description_plain
-    ) or name_contains_dummy_marker(name)
-
-
-def default_wiki_hidden_item_ids_path(items_json: Path) -> Path:
-    return items_json.parent / WIKI_HIDDEN_ITEM_IDS_FILENAME
+def is_wiki_hidden_item(name: str, description_plain: str) -> bool:
+    return "ダミー" in name or description_plain.strip() == "dummy"
 
 
 def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
@@ -117,8 +141,8 @@ def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
 
 
 def load_item_names(items_json_path: Path) -> dict[int, str]:
-    data = json.loads(items_json_path.read_text(encoding="utf-8"))
-    return {row["id"]: row["name"] for row in data}
+    raw = json.loads(items_json_path.read_text(encoding="utf-8"))
+    return {int(item_id): item_name for item_id, item_name in raw.items()}
 
 
 def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:
@@ -137,7 +161,8 @@ def load_json_object(path: Path) -> dict[str, Any]:
 def write_json_output(path: Path, data: object, *, ensure_ascii: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=ensure_ascii) + "\n",
+        json.dumps(data, indent=2, cls=DataclassEncoder, ensure_ascii=ensure_ascii)
+        + "\n",
         encoding="utf-8",
     )
 
@@ -161,30 +186,37 @@ def decode_c_string(raw: bytes, pointer: int) -> str:
     return data.decode("latin-1", errors="replace")
 
 
-def validate_acquisition_methods(
-    methods: Sequence[Mapping[str, Any]],
-    *,
-    valid_item_ids: frozenset[int],
-    source_label: str,
-) -> None:
-    """Fail loudly when emitted acquisition method rows are malformed."""
-    for index, method in enumerate(methods):
-        row_label = f"{source_label} method row {index + 1}"
+def load_valid_monster_ranks() -> dict[int, set[Rank]]:
+    quest_rewards = json.loads(
+        (REPO_ROOT / "site" / "src" / "data" / "generated" / "quests.json").read_text()
+    )
 
-        item_id_raw = method.get("itemId")
-        if not isinstance(item_id_raw, int):
-            raise ValueError(f"{row_label}: itemId must be int")
-        if item_id_raw not in valid_item_ids:
-            raise ValueError(f"{row_label}: unknown itemId {item_id_raw}")
+    monster_target_types = frozenset(
+        {
+            "Hunt",
+            "Capture",
+            "Slay",
+            "Damage",
+            "Slay or Damage",
+            "Slay All",
+            "Slay Total",
+            "Break Part",
+        }
+    )
 
-        chance_raw = method.get("chance")
-        if not isinstance(chance_raw, int) or chance_raw < 0:
-            raise ValueError(f"{row_label}: chance must be int >= 0")
+    monsterranks: dict[int, set[Rank]] = defaultdict(set)
+    for quest in quest_rewards:
+        mainGoal = quest["main_goal"]
+        subGoalA = quest["subA_goal"]
+        subGoalB = quest["subB_goal"]
+        if mainGoal["target_kind"] in monster_target_types:
+            mon_id = mainGoal["target"]
+            monsterranks[mon_id].add(quest["rank"])
+        if subGoalA["target_kind"] in monster_target_types:
+            mon_id = subGoalA["target"]
+            monsterranks[mon_id].add(quest["rank"])
+        if subGoalB["target_kind"] in monster_target_types:
+            mon_id = subGoalB["target"]
+            monsterranks[mon_id].add(quest["rank"])
 
-        quantity_raw = method.get("quantity")
-        if not isinstance(quantity_raw, int) or quantity_raw < 0:
-            raise ValueError(f"{row_label}: quantity must be int >= 0")
-
-        rank_raw = method.get("rank")
-        if not isinstance(rank_raw, str) or not rank_raw.strip():
-            raise ValueError(f"{row_label}: rank must be non-empty string")
+    return monsterranks

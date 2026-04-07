@@ -1,27 +1,24 @@
 {
-  "name": "site",
-  "type": "module",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "scripts": {
-    "data:extract:core": "uv run --project .. python ../scripts/extract_item_data.py && uv run --project .. python ../scripts/extract_partbreak_data.py && uv run --project .. python ../scripts/extract_hcc_carves.py && uv run --project .. python ../scripts/extract_carve_data.py",
-    "data:extract:quests": "uv run --project .. python ../scripts/extract_quest_data.py",
-    "data:extract:all": "npm run data:extract:core && npm run data:extract:quests",
-    "data:build": "node scripts/build-data.mjs",
-    "dev": "npm run data:build && astro dev",
-    "build": "npm run data:build && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.2.1",
-    "astro": "^6.0.4",
-    "csv-parse": "^6.1.0",
-    "tailwindcss": "^4.2.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.19"
-  }
+    "name": "site",
+    "type": "module",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=22.12.0"
+    },
+    "scripts": {
+        "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_items.py",
+        "dev": "npm run data:extract && astro dev",
+        "build": "npm run data:extract && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.2.1",
+        "astro": "^6.0.4",
+        "csv-parse": "^6.1.0",
+        "tailwindcss": "^4.2.1"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.19"
+    }
 }

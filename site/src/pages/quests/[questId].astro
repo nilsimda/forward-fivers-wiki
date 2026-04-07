@@ -1,0 +1,225 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type QuestData = CollectionEntry<"quests">["data"];
+
+export async function getStaticPaths() {
+  const quests = await getCollection("quests");
+
+  return quests.map((quest) => ({
+    params: { questId: String(quest.data.id) },
+    props: { quest: quest.data },
+  }));
+}
+
+const { quest } = Astro.props as { quest: QuestData };
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const formatRank = (rank: QuestData["rank"]) => {
+  if (!rank) return "Unknown";
+  return rank.toUpperCase();
+};
+
+const hasSubAObjective = quest.quest_text.sub_a.trim().toLowerCase() !== "none";
+const hasSubBObjective = quest.quest_text.sub_b.trim().toLowerCase() !== "none";
+
+const rewardBoxEntries = Object.entries(quest.reward_boxes)
+  .map(([rewardBoxId, rewards]) => ({
+    rewardBoxId: Number(rewardBoxId),
+    rewards: rewards.slice().sort((a, b) => a.item_id - b.item_id),
+  }))
+  .sort((a, b) => a.rewardBoxId - b.rewardBoxId)
+  .map((entry, pos) => {
+    let label: string;
+    if (pos === 0) label = "Main Reward";
+    else if (pos === 1 && hasSubAObjective) label = "Subquest A Reward";
+    else if (pos === 2 && hasSubBObjective) label = "Subquest B Reward";
+    else label = `Reward Box ${pos + 1}`;
+    return { ...entry, label };
+  });
+---
+
+<WikiLayout title={`${quest.quest_text.title} | Quests | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase("quests/")} class="text-sm">Back to quests</a>
+      <h1 class="whitespace-pre-line">{quest.quest_text.title}</h1>
+      <p class="text-slate-300">
+        Quest ID {quest.id} | Rank {formatRank(quest.rank)}
+      </p>
+    </header>
+
+    <section class="grid gap-4 md:grid-cols-2">
+      <div class="panel">
+        <h2 class="text-lg">Quest Details</h2>
+        <dl class="mt-3 space-y-2 text-sm text-slate-300">
+          <div class="flex justify-between gap-3">
+            <dt>Join HR</dt><dd>{quest.join_min_rank}</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Post HR</dt><dd>{quest.post_min_rank}</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Max players</dt><dd>{quest.max_players}</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Map</dt><dd>{quest.map}</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Time limit</dt><dd>
+              {Math.floor(quest.quest_time / (60 * 30))} Minutes
+            </dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Restriction flags</dt><dd>{quest.restriction_flags}</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="panel">
+        <h2 class="text-lg">Rewards and Fees</h2>
+        <dl class="mt-3 space-y-2 text-sm text-slate-300">
+          <div class="flex justify-between gap-3">
+            <dt>Quest fee</dt><dd>{quest.quest_fee}z</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Main reward</dt><dd>{quest.zenny_reward}z</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>KO penalty</dt><dd>-{quest.zenny_ko}z</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Sub A reward</dt><dd>{quest.zenny_sub_a}z</dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt>Sub B reward</dt><dd>{quest.zenny_sub_b}z</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="grid gap-4 md:grid-cols-2">
+      <div class="panel space-y-3">
+        <h2 class="text-lg">Description</h2>
+        <dl class="space-y-3 text-sm text-slate-300">
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Contractor
+            </dt><dd>
+              {quest.quest_text.contractor || "Unknown"}
+            </dd>
+          </div>
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Description
+            </dt><dd class="whitespace-pre-line">
+              {quest.quest_text.description || "None"}
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div class="panel space-y-3">
+        <h2 class="text-lg">Objectives</h2>
+        <dl class="space-y-3 text-sm text-slate-300">
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Main objective
+            </dt><dd>
+              {quest.quest_text.main || "None"}
+            </dd>
+          </div>
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Sub A objective
+            </dt><dd>
+              {quest.quest_text.sub_a || "None"}
+            </dd>
+          </div>
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Sub B objective
+            </dt><dd>
+              {quest.quest_text.sub_b || "None"}
+            </dd>
+          </div>
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Success condition
+            </dt><dd class="whitespace-pre-line">
+              {quest.quest_text.success_cond || "None"}
+            </dd>
+          </div>
+          <div class="grid gap-1">
+            <dt
+              class="text-xs font-semibold uppercase tracking-wide text-slate-100"
+            >
+              Fail condition
+            </dt><dd class="whitespace-pre-line">
+              {quest.quest_text.fail_cond || "None"}
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    {
+      rewardBoxEntries.length === 0 ? (
+        <section class="panel">
+          <p class="text-slate-300">
+            No reward data available for this quest yet.
+          </p>
+        </section>
+      ) : (
+        <section class="panel space-y-3">
+          <h2 class="text-lg">Quest Rewards</h2>
+          {rewardBoxEntries.map((boxGroup) => (
+            <div class="table-wrap">
+              <table class="table-grid">
+                <thead>
+                  <tr>
+                    <th colspan={3}>
+                      {boxGroup.label}
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>Item</th>
+                    <th>Chance</th>
+                    <th>Qty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {boxGroup.rewards.map((reward) => (
+                    <tr>
+                      <td>
+                        <a href={withBase(`items/${reward.item_id}/`)}>
+                          {reward.item_name}
+                        </a>
+                      </td>
+                      <td>{reward.percentage}%</td>
+                      <td>x{reward.quantity}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ))}
+        </section>
+      )
+    }
+  </article>
+</WikiLayout>

@@ -1,39 +1,42 @@
 ---
-import WikiLayout from '../../layouts/WikiLayout.astro';
-import items from '../../data/generated/items.json';
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection } from "astro:content";
 
-const sortedItems = [...items].sort((a, b) => a.id - b.id);
-const clientItems = sortedItems.map((item) => ({
-  id: item.id,
-  slug: item.slug,
-  name: item.name,
-  description: item.description || '',
-  rarityPlusOne: item.rarityPlusOne,
-  buyPrice: item.buyPrice,
-  sellPrice: item.sellPrice,
-  isGz: item.isGz === true
-}));
 const baseUrl = import.meta.env.BASE_URL;
-const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const allItems = await getCollection("items");
+const sortedItems = allItems
+  .map((entry) => entry.data)
+  .sort((a, b) => a.id - b.id);
 ---
 
 <WikiLayout title="Items | MHFG1 Wiki">
   <section class="space-y-2">
     <h1>Item Index</h1>
-    <p class="text-slate-300">Search and filter extracted item records from the G1 game data files.</p>
+    <p class="text-slate-300">
+      {sortedItems.length} extracted item records from the G1 game data files.
+    </p>
   </section>
 
   <section class="panel mt-6 space-y-3">
-    <label class="block text-sm font-medium text-slate-200" for="item-search">Search items</label>
+    <label class="block text-sm font-medium text-slate-200" for="item-search">
+      Search items
+    </label>
     <input
       id="item-search"
       type="search"
       placeholder="Name, description, or item ID..."
       class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
     />
-    <p class="text-sm text-slate-400">
-      Showing <span id="visible-count">{sortedItems.length}</span> of {sortedItems.length} items
-    </p>
+    <div class="flex items-center justify-between text-sm text-slate-400">
+      <span>
+        Showing <span id="match-count">{sortedItems.length}</span> of {sortedItems.length} items
+      </span>
+      <span id="page-info"></span>
+    </div>
   </section>
 
   <div class="table-wrap mt-6">
@@ -47,120 +50,106 @@ const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
           <th>Sell</th>
         </tr>
       </thead>
-      <tbody id="items-table-body"></tbody>
+      <tbody>
+        {
+          sortedItems.map((item) => (
+            <tr
+              data-item-row
+              data-item-id={String(item.id)}
+              data-item-name={item.name.toLowerCase()}
+              data-item-desc={item.description.toLowerCase()}
+            >
+              <td>{item.id}</td>
+              <td>
+                <a href={withBase(`items/${item.id}/`)}>{item.name}</a>
+              </td>
+              <td>{item.rarity + 1}</td>
+              <td>
+                {item.buy_price}{item.is_gz ? "Gz" : "z"}
+              </td>
+              <td>
+                {item.sell_price}{item.is_gz ? "Gz" : "z"}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
     </table>
   </div>
 
-  <div class="mt-4 flex items-center justify-between gap-3">
-    <button
-      id="prev-page"
-      class="rounded border border-slate-700 px-3 py-1 text-sm text-slate-200 disabled:opacity-40"
-      type="button"
-    >
-      Previous
-    </button>
-    <p class="text-sm text-slate-400">
-      Page <span id="current-page">1</span> of <span id="total-pages">1</span>
-    </p>
-    <button
-      id="next-page"
-      class="rounded border border-slate-700 px-3 py-1 text-sm text-slate-200 disabled:opacity-40"
-      type="button"
-    >
-      Next
-    </button>
-  </div>
+  <nav class="mt-6 flex items-center justify-between text-sm" aria-label="Pagination">
+    <div class="flex gap-2">
+      <button id="page-first" type="button" class="pagination-btn" disabled>&laquo; First</button>
+      <button id="page-prev" type="button" class="pagination-btn" disabled>&lsaquo; Prev</button>
+    </div>
+    <span id="page-nav-info" class="text-slate-400"></span>
+    <div class="flex gap-2">
+      <button id="page-next" type="button" class="pagination-btn">Next &rsaquo;</button>
+      <button id="page-last" type="button" class="pagination-btn">Last &raquo;</button>
+    </div>
+  </nav>
 
-  <script define:vars={{ clientItems, basePath }}>
-    const searchInput = document.querySelector('#item-search');
-    const tableBody = document.querySelector('#items-table-body');
-    const visibleCount = document.querySelector('#visible-count');
-    const prevPageButton = document.querySelector('#prev-page');
-    const nextPageButton = document.querySelector('#next-page');
-    const currentPageLabel = document.querySelector('#current-page');
-    const totalPagesLabel = document.querySelector('#total-pages');
-    const perPage = 100;
+  <script>
+    const PAGE_SIZE = 100;
+    const input = document.querySelector<HTMLInputElement>("#item-search");
+    const rows = Array.from(
+      document.querySelectorAll<HTMLTableRowElement>("[data-item-row]"),
+    );
+    const matchCount = document.querySelector<HTMLElement>("#match-count");
+    const pageInfo = document.querySelector<HTMLElement>("#page-info");
+    const pageNavInfo = document.querySelector<HTMLElement>("#page-nav-info");
+    const firstBtn = document.querySelector<HTMLButtonElement>("#page-first");
+    const prevBtn = document.querySelector<HTMLButtonElement>("#page-prev");
+    const nextBtn = document.querySelector<HTMLButtonElement>("#page-next");
+    const lastBtn = document.querySelector<HTMLButtonElement>("#page-last");
+
     let currentPage = 1;
 
-    const toSearchRecord = (item) => ({
-      ...item,
-      idText: String(item.id),
-      nameText: item.name.toLowerCase(),
-      descriptionText: (item.description || '').toLowerCase()
-    });
-
-    const searchItems = clientItems.map(toSearchRecord);
-
-    const renderRows = (rows) => {
-      if (!tableBody) return;
-      tableBody.innerHTML = '';
-      const fragment = document.createDocumentFragment();
-      for (const item of rows) {
-        const row = document.createElement('tr');
-        const idCell = document.createElement('td');
-        idCell.textContent = String(item.id);
-
-        const nameCell = document.createElement('td');
-        const link = document.createElement('a');
-        link.href = `${basePath}items/${item.slug}`;
-        link.textContent = item.name;
-        nameCell.appendChild(link);
-
-        const rarityCell = document.createElement('td');
-        rarityCell.textContent = String(item.rarityPlusOne);
-        const buyCell = document.createElement('td');
-        buyCell.textContent = `${item.buyPrice}${item.isGz ? 'Gz' : 'z'}`;
-        const sellCell = document.createElement('td');
-        sellCell.textContent = `${item.sellPrice}${item.isGz ? 'Gz' : 'z'}`;
-
-        row.append(idCell, nameCell, rarityCell, buyCell, sellCell);
-        fragment.appendChild(row);
-      }
-      tableBody.appendChild(fragment);
-    };
-
-    const getFilteredItems = () => {
-      const query = (searchInput?.value || '').trim().toLowerCase();
-      return searchItems.filter((item) => {
-        const matchesQuery =
-          !query ||
-          item.nameText.includes(query) ||
-          item.descriptionText.includes(query) ||
-          item.idText.includes(query);
-        return matchesQuery;
+    function getFiltered(): HTMLTableRowElement[] {
+      const q = (input?.value || "").trim().toLowerCase();
+      if (!q) return rows;
+      return rows.filter((r) => {
+        const id = r.dataset.itemId || "";
+        const name = r.dataset.itemName || "";
+        const desc = r.dataset.itemDesc || "";
+        return id.includes(q) || name.includes(q) || desc.includes(q);
       });
-    };
+    }
 
-    const update = () => {
-      const filteredItems = getFilteredItems();
-      const totalPages = Math.max(1, Math.ceil(filteredItems.length / perPage));
-      currentPage = Math.min(currentPage, totalPages);
-      const start = (currentPage - 1) * perPage;
-      const end = start + perPage;
-      const pageItems = filteredItems.slice(start, end);
+    function update() {
+      const filtered = getFiltered();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+      if (currentPage > totalPages) currentPage = totalPages;
 
-      renderRows(pageItems);
-      if (visibleCount) visibleCount.textContent = String(filteredItems.length);
-      if (currentPageLabel) currentPageLabel.textContent = String(currentPage);
-      if (totalPagesLabel) totalPagesLabel.textContent = String(totalPages);
-      if (prevPageButton) prevPageButton.disabled = currentPage <= 1;
-      if (nextPageButton) nextPageButton.disabled = currentPage >= totalPages;
-    };
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const visible = new Set(filtered.slice(start, start + PAGE_SIZE));
 
-    const resetToFirstPageAndUpdate = () => {
+      for (const row of rows) row.style.display = visible.has(row) ? "" : "none";
+
+      if (matchCount) matchCount.textContent = String(filtered.length);
+      const label = `Page ${currentPage} of ${totalPages}`;
+      if (pageInfo) pageInfo.textContent = label;
+      if (pageNavInfo) pageNavInfo.textContent = label;
+
+      if (firstBtn) firstBtn.disabled = currentPage <= 1;
+      if (prevBtn) prevBtn.disabled = currentPage <= 1;
+      if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
+      if (lastBtn) lastBtn.disabled = currentPage >= totalPages;
+    }
+
+    input?.addEventListener("input", () => {
       currentPage = 1;
       update();
-    };
+    });
+    firstBtn?.addEventListener("click", () => { currentPage = 1; update(); });
+    prevBtn?.addEventListener("click", () => { currentPage--; update(); });
+    nextBtn?.addEventListener("click", () => { currentPage++; update(); });
+    lastBtn?.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(getFiltered().length / PAGE_SIZE));
+      currentPage = totalPages;
+      update();
+    });
 
-    searchInput?.addEventListener('input', resetToFirstPageAndUpdate);
-    prevPageButton?.addEventListener('click', () => {
-      currentPage = Math.max(1, currentPage - 1);
-      update();
-    });
-    nextPageButton?.addEventListener('click', () => {
-      currentPage += 1;
-      update();
-    });
     update();
   </script>
 </WikiLayout>

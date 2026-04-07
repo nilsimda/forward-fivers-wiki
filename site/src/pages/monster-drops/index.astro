@@ -1,23 +1,51 @@
 ---
-import WikiLayout from '../../layouts/WikiLayout.astro';
-import monsterDrops from '../../data/generated/monster-drops.json';
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection } from "astro:content";
 
-const sortedMonsters = [...monsterDrops].sort((a, b) => a.monsterId - b.monsterId);
+const allCarves = await getCollection("monsterCarves");
+
+const carves = allCarves
+  .filter(
+    (entry) =>
+      entry.data.lr_cts.length > 0 ||
+      entry.data.hr_cts.length > 0 ||
+      entry.data.er_cts.length > 0 ||
+      entry.data.gr_cts.length > 0,
+  )
+  .sort((a, b) => a.data.id - b.data.id);
+
+const rankLabels: Record<string, string> = {
+  lr_cts: "Low Rank",
+  hr_cts: "High Rank",
+  er_cts: "Elite Rank",
+  gr_cts: "G Rank",
+};
+
+const getAvailableRanks = (entry: (typeof carves)[0]["data"]) => {
+  const ranks: string[] = [];
+  if (entry.lr_cts.length > 0) ranks.push(rankLabels.lr_cts);
+  if (entry.hr_cts.length > 0) ranks.push(rankLabels.hr_cts);
+  if (entry.er_cts.length > 0) ranks.push(rankLabels.er_cts);
+  if (entry.gr_cts.length > 0) ranks.push(rankLabels.gr_cts);
+  return ranks;
+};
+
 const baseUrl = import.meta.env.BASE_URL;
-const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
 ---
 
 <WikiLayout title="Monster Drops | MHFG1 Wiki">
   <section class="space-y-2">
     <h1>Monster Drop Tables</h1>
-    <p class="text-slate-300">
-      Generated from extracted capture, part break, carve, and hardcore carve data. Search by monster name, ID, rank, or drop mode.
-    </p>
+    <p class="text-slate-300">Search by monster name or ID.</p>
   </section>
 
   <section class="panel mt-6 space-y-3">
-    <label class="block text-sm font-medium text-slate-200" for="monster-search">Search monsters</label>
+    <label class="block text-sm font-medium text-slate-200" for="monster-search"
+      >Search monsters</label
+    >
     <input
       id="monster-search"
       type="search"
@@ -25,7 +53,9 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
       class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
     />
     <p class="text-sm text-slate-400">
-      Showing <span id="visible-monster-count">{sortedMonsters.length}</span> of {sortedMonsters.length} monsters
+      Showing <span id="visible-monster-count">{carves.length}</span> of {
+        carves.length
+      } monsters
     </p>
   </section>
 
@@ -33,56 +63,52 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
     <table class="table-grid">
       <thead>
         <tr>
+          <th>ID</th>
           <th>Monster</th>
-          <th>Drop entries</th>
-          <th>Drop modes</th>
           <th>Ranks</th>
         </tr>
       </thead>
       <tbody>
-        {sortedMonsters.map((monster) => (
-          <tr
-            data-monster-row
-            data-monster-id={String(monster.monsterId)}
-            data-monster-name={monster.monsterLabel.toLowerCase()}
-            data-drop-modes={monster.dropModes.join(' ').toLowerCase()}
-            data-ranks={monster.ranks.join(' ').toLowerCase()}
-          >
-            <td>
-              <a href={withBase(`monster-drops/${monster.monsterId}/`)}>
-                {monster.monsterLabel}
-              </a>
-            </td>
-            <td>{monster.totalEntries}</td>
-            <td>{monster.dropModes.join(', ')}</td>
-            <td>{monster.ranks.join(', ')}</td>
-          </tr>
-        ))}
+        {
+          carves.map((entry) => {
+            const ranks = getAvailableRanks(entry.data);
+            return (
+              <tr
+                data-monster-row
+                data-monster-id={String(entry.data.id)}
+                data-monster-name={entry.data.monster_name.toLowerCase()}
+              >
+                <td>{entry.data.id}</td>
+                <td>
+                  <a href={withBase(`monster-drops/${entry.data.id}/`)}>
+                    {entry.data.monster_name}
+                  </a>
+                </td>
+                <td>{ranks.join(", ")}</td>
+              </tr>
+            );
+          })
+        }
       </tbody>
     </table>
   </div>
 
   <script>
-    const input = document.querySelector<HTMLInputElement>('#monster-search');
-    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('[data-monster-row]'));
-    const count = document.querySelector<HTMLElement>('#visible-monster-count');
+    const input = document.querySelector<HTMLInputElement>("#monster-search");
+    const rows = Array.from(
+      document.querySelectorAll<HTMLTableRowElement>("[data-monster-row]"),
+    );
+    const count = document.querySelector<HTMLElement>("#visible-monster-count");
 
     const update = () => {
-      const query = (input?.value || '').trim().toLowerCase();
+      const query = (input?.value || "").trim().toLowerCase();
       let shown = 0;
 
       for (const row of rows) {
-        const id = row.dataset.monsterId || '';
-        const name = row.dataset.monsterName || '';
-        const modes = row.dataset.dropModes || '';
-        const ranks = row.dataset.ranks || '';
-        const show =
-          !query ||
-          id.includes(query) ||
-          name.includes(query) ||
-          modes.includes(query) ||
-          ranks.includes(query);
-        row.style.display = show ? '' : 'none';
+        const id = row.dataset.monsterId || "";
+        const name = row.dataset.monsterName || "";
+        const show = !query || id.includes(query) || name.includes(query);
+        row.style.display = show ? "" : "none";
         if (show) shown += 1;
       }
 
@@ -91,6 +117,6 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
       }
     };
 
-    input?.addEventListener('input', update);
+    input?.addEventListener("input", update);
   </script>
 </WikiLayout>

@@ -1,45 +1,68 @@
 ---
-import WikiLayout from '../layouts/WikiLayout.astro';
-import items from '../data/generated/items.json';
-import monsterDrops from '../data/generated/monster-drops.json';
-import questRewards from '../data/generated/quest-rewards.json';
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { getCollection } from "astro:content";
+
+const allItems = await getCollection("items");
+const allCarves = await getCollection("monsterCarves");
+const allQuests = await getCollection("quests");
+
 const baseUrl = import.meta.env.BASE_URL;
-const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//, '')}`;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
 ---
 
 <WikiLayout title="MHFG1 Wiki">
   <section class="space-y-4">
     <h1>Monster Hunter Frontier G1 Wiki</h1>
     <p class="max-w-3xl text-slate-300">
-      Data-first static wiki for MHFG G1. This site is generated directly from extracted G1 game data.
-      Labels for carve and partbreak sources are manually curated and may not be 100% accurate.
+      Data-first static wiki for MHFG G1. This site is generated directly from
+      extracted G1 game data. Labels for carve and partbreak sources are
+      manually curated and may not be 100% accurate.
     </p>
   </section>
 
   <section class="mt-8 grid gap-4 md:grid-cols-3">
     <article class="panel">
       <h2 class="text-lg">Items</h2>
-      <p class="mt-2 text-slate-400">Browse all extracted in-game items with details and pricing.</p>
-      <p class="mt-3 text-2xl font-semibold text-cyan-200">{items.length}</p>
-      <a class="mt-4 inline-block" href={withBase('items/')}>Open item index</a>
+      <p class="mt-2 text-slate-400">
+        Browse all extracted in-game items with details and pricing.
+      </p>
+      <p class="mt-3 text-2xl font-semibold text-cyan-200">{allItems.length}</p>
+      <a class="mt-4 inline-block" href={withBase("items/")}>Open item index</a>
     </article>
     <article class="panel">
       <h2 class="text-lg">Monster Drops</h2>
-      <p class="mt-2 text-slate-400">Explore part break, capture, and rank-specific drop entries.</p>
-      <p class="mt-3 text-2xl font-semibold text-cyan-200">{monsterDrops.length}</p>
-      <a class="mt-4 inline-block" href={withBase('monster-drops/')}>Open monster drops</a>
+      <p class="mt-2 text-slate-400">
+        Explore part break, capture, and rank-specific drop entries.
+      </p>
+      <p class="mt-3 text-2xl font-semibold text-cyan-200">
+        {allCarves.length}
+      </p>
+      <a class="mt-4 inline-block" href={withBase("monster-drops/")}
+        >Open monster drops</a
+      >
     </article>
     <article class="panel">
       <h2 class="text-lg">Quests</h2>
-      <p class="mt-2 text-slate-400">Browse extracted quest rewards and quest objectives.</p>
-      <p class="mt-3 text-2xl font-semibold text-cyan-200">{questRewards.length}</p>
-      <a class="mt-4 inline-block" href={withBase('quests/')}>Open quest rewards</a>
+      <p class="mt-2 text-slate-400">
+        Browse extracted quest rewards and quest objectives.
+      </p>
+      <p class="mt-3 text-2xl font-semibold text-cyan-200">
+        {allQuests.length}
+      </p>
+      <a class="mt-4 inline-block" href={withBase("quests/")}
+        >Open quest rewards</a
+      >
     </article>
     <article class="panel">
       <h2 class="text-lg">Docs</h2>
-      <p class="mt-2 text-slate-400">Read about how data was extracted for this wiki.</p>
-      <a class="mt-4 inline-block" href={withBase('docs/')}>Open documentation</a>
+      <p class="mt-2 text-slate-400">
+        Read about how data was extracted for this wiki.
+      </p>
+      <a class="mt-4 inline-block" href={withBase("docs/")}
+        >Open documentation</a
+      >
     </article>
   </section>
 </WikiLayout>
