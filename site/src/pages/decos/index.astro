@@ -42,6 +42,8 @@ const sortedDecos = allDecos
         <tr>
           <th>ID</th>
           <th>Name</th>
+          <th>Slots</th>
+          <th>Skills</th>
           <th>Recipes</th>
         </tr>
       </thead>
@@ -52,12 +54,23 @@ const sortedDecos = allDecos
               data-deco-row
               data-deco-id={String(deco.id)}
               data-deco-name={deco.name.toLowerCase()}
+              data-deco-skills={deco.stats.skills.map(s => s.name.toLowerCase()).join(" ")}
             >
               <td>{deco.id}</td>
               <td>
                 <a href={withBase(`decos/${deco.id}/`)}>{deco.name}</a>
               </td>
-              <td class="text-slate-400">{deco.craft_recipes.length}</td>
+              <td class="text-center">{deco.stats.n_slots}</td>
+              <td>
+                <div class="flex flex-wrap gap-x-3 gap-y-0.5">
+                  {deco.stats.skills.map((s) => (
+                    <span class={s.points > 0 ? "text-emerald-400" : "text-red-400"}>
+                      {s.name} {s.points > 0 ? `+${s.points}` : s.points}
+                    </span>
+                  ))}
+                </div>
+              </td>
+              <td class="text-slate-400 text-center">{deco.craft_recipes.length}</td>
             </tr>
           ))
         }
@@ -79,7 +92,8 @@ const sortedDecos = allDecos
         const match =
           !q ||
           (r.dataset.decoId || "").includes(q) ||
-          (r.dataset.decoName || "").includes(q);
+          (r.dataset.decoName || "").includes(q) ||
+          (r.dataset.decoSkills || "").includes(q);
         r.style.display = match ? "" : "none";
         if (match) count++;
       }

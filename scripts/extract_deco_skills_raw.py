@@ -1,21 +1,19 @@
 #! /usr/bin/env python3
-import argparse
-import struct
-from dataclasses import dataclass
-from itertools import batched
-from pathlib import Path
-from typing import ClassVar, TypedDict
+"""Dump the deco-skill table from mhfdat.raw.bin to CSV for analysis."""
 
-from extract_common import (
-    DEFAULT_DATA_PATHS,
-    HEADER_POINTERS,
-    REPO_ROOT,
-    load_item_names,
-    read_u16,
-    read_u32,
-    write_json_output,
-)
-from extract_items import Item
+import csv
+import struct
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+MHFDAT = REPO_ROOT / "g1_data" / "game" / "mhfdat.raw.bin"
+OUTPUT = REPO_ROOT / "g1_data" / "generated" / "deco_skills_raw.csv"
+
+TABLE_OFFSET = 0x0048616C
+ENTRY_COUNT = 2468
+ENTRY_FMT = "<BHBHHBbBbBbBbHH"
+ENTRY_SIZE = struct.calcsize(ENTRY_FMT)
 
 SKILL_NAMES: dict[int, str] = {
     0x00: "None",
@@ -59,6 +57,9 @@ SKILL_NAMES: dict[int, str] = {
     0x26: "Normal S.Up",
     0x27: "Normal S.Add",
     0x28: "Fish",
+    0x29: "------",
+    0x2A: "------",
+    0x2B: "------",
     0x2C: "Throwing",
     0x2D: "Sharpening",
     0x2E: "Poison",
@@ -97,16 +98,32 @@ SKILL_NAMES: dict[int, str] = {
     0x4F: "Vocal Chords",
     0x50: "Cooking",
     0x51: "Gunnery",
+    0x52: "------",
+    0x53: "------",
+    0x54: "------",
     0x55: "Flute Expert",
+    0x56: "------",
+    0x57: "------",
+    0x58: "------",
+    0x59: "------",
     0x5A: "Breakout",
     0x5B: "Taijutsu",
     0x5C: "Strong Arm",
+    0x5D: "------",
     0x5E: "Inspiration",
     0x5F: "Passive",
+    0x60: "------",
+    0x61: "------",
+    0x62: "------",
+    0x63: "------",
     0x64: "Bond",
+    0x65: "------",
     0x66: "Guts",
+    0x67: "------",
     0x68: "Pressure",
     0x69: "Capture Pro.",
+    0x6A: "------",
+    0x6B: "------",
     0x6C: "Poison C.Add",
     0x6D: "Para C.Add",
     0x6E: "Sleep C.Add",
@@ -116,6 +133,7 @@ SKILL_NAMES: dict[int, str] = {
     0x72: "Ice Attack",
     0x73: "Dragon Attack",
     0x74: "Fasting",
+    0x75: "----",
     0x76: "Bomb Sword",
     0x77: "Strong Attack Sword",
     0x78: "Poison Sword",
@@ -226,162 +244,92 @@ SKILL_NAMES: dict[int, str] = {
 }
 
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument("--input", type=Path, default=DEFAULT_DATA_PATHS["mhfdat"])
-    parser.add_argument(
-        "--item-names", type=Path, default=DEFAULT_DATA_PATHS["item_names"]
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        default=REPO_ROOT / "site" / "src" / "data" / "generated" / "decos.json",
-    )
-
-    return parser.parse_args()
-
-
-class Skill(TypedDict):
-    id: int
-    name: str
-    points: int
-
-
-@dataclass(slots=True)
-class DecoStats:
-    n_slots: int
-    price: int
-    skills: list[Skill]
-
-    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BHBHHBbBbBbBbHH")
-
-    @classmethod
-    def unpack_from(cls, raw: bytes, offset: int) -> "DecoStats":
-        unpacked = cls._STRUCT.unpack_from(raw, offset)
-        skills: list[Skill] = []
-        for unpacked_skill in batched(unpacked[5:-2], 2):
-            sid, pts = unpacked_skill
-            if sid == 0 and pts == 0:
-                continue
-            skills.append(
-                Skill(
-                    id=sid,
-                    name=SKILL_NAMES.get(sid, f"Unknown ({sid})"),
-                    points=pts,
-                )
-            )
-
-        return cls(
-            n_slots=unpacked[0],
-            price=unpacked[3],
-            skills=skills,
-        )
-
-    @classmethod
-    def size(cls) -> int:
-        return cls._STRUCT.size
-
-
-class DecoCraftItem(TypedDict):
-    item_id: int
-    name: str
-    quantity: int
-    needed_for_unlock: bool
-
-
-@dataclass(slots=True)
-class Deco:
-    id: int
-    name: str
-    receipt_category: int
-    craft_recipes: list[list[DecoCraftItem]]
-    stats: DecoStats
-
-    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HHHBBHBBHBBHBB")
-
-    @staticmethod
-    def _get_stats_table_offset(raw: bytes, item_id: int) -> int:
-        item_data_base = read_u32(raw, HEADER_POINTERS["items"])
-        item_data_offset = item_data_base + item_id * Item.size()
-        return read_u16(raw, item_data_offset + 22)
-
-    @staticmethod
-    def _extract_stats_table(raw: bytes, item_id) -> DecoStats:
-        st_offset = Deco._get_stats_table_offset(raw, item_id)
-        stats_table_base = read_u32(raw, DECO_STATS_TABLE_HEADER_POINTER)
-        return DecoStats.unpack_from(
-            raw, stats_table_base + st_offset * DecoStats.size()
-        )
-
-    @classmethod
-    def _parse_craft_items(
-        cls, unpacked: tuple[int, ...], item_names_by_id: dict[int, str]
-    ) -> list[DecoCraftItem]:
-        craft_items: list[DecoCraftItem] = []
-        for item in batched(unpacked[2:], 3):
-            craft_item = DecoCraftItem(
-                item_id=item[0],
-                name=item_names_by_id.get(item[0], ""),
-                quantity=item[1],
-                needed_for_unlock=bool(item[2]),
-            )
-            if craft_item["quantity"] != 0:
-                craft_items.append(craft_item)
-        return craft_items
-
-    @classmethod
-    def unpack_from(
-        cls, raw: bytes, offset: int, item_names_by_id: dict[int, str]
-    ) -> "Deco":
-        unpacked = cls._STRUCT.unpack_from(raw, offset)
-        return cls(
-            id=unpacked[0],
-            name=item_names_by_id.get(unpacked[0], ""),
-            receipt_category=unpacked[1],
-            craft_recipes=[cls._parse_craft_items(unpacked, item_names_by_id)],
-            stats=cls._extract_stats_table(raw, unpacked[0]),
-        )
-
-    def add_recipe(self, recipe: list[DecoCraftItem]) -> None:
-        self.craft_recipes.append(recipe)
-
-    @classmethod
-    def size(cls) -> int:
-        return cls._STRUCT.size
-
-
-DECO_SHOP_HEADER_POINTER = 0x00000044
-DECO_STATS_TABLE_HEADER_POINTER = 0x000000FC
-
-
-def extract_decos(
-    raw: bytes,
-    item_names_by_id: dict[int, str],
-) -> list[Deco]:
-    decoshop_table_base = read_u32(raw, DECO_SHOP_HEADER_POINTER)
-    by_id: dict[int, Deco] = {}
-    while True:
-        deco = Deco.unpack_from(raw, decoshop_table_base, item_names_by_id)
-        decoshop_table_base += Deco.size()
-        if deco.id == 0 and deco.receipt_category == 0:
-            break
-        if deco.id in by_id:
-            by_id[deco.id].add_recipe(deco.craft_recipes[0])
-        else:
-            by_id[deco.id] = deco
-
-    return sorted(by_id.values(), key=lambda d: d.id)
+def skill_name(skill_id: int) -> str:
+    return SKILL_NAMES.get(skill_id, f"!!Unknown(0x{skill_id:02X})!!")
 
 
 def main() -> None:
-    args = parse_args()
-    item_names = load_item_names(args.item_names)
-    decos = extract_decos(
-        args.input.read_bytes(),
-        item_names,
-    )
-    write_json_output(args.output, decos)
+    raw = MHFDAT.read_bytes()
+    end = TABLE_OFFSET + ENTRY_COUNT * ENTRY_SIZE
+    if end > len(raw):
+        print(
+            f"ERROR: table extends past EOF (need {end}, have {len(raw)})",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with OUTPUT.open("w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [
+                "index",
+                "slot_nb",
+                "flags",
+                "unk1",
+                "price",
+                "unk2",
+                "skill1_id",
+                "skill1_name",
+                "skill1_pts",
+                "skill2_id",
+                "skill2_name",
+                "skill2_pts",
+                "skill3_id",
+                "skill3_name",
+                "skill3_pts",
+                "skill4_id",
+                "skill4_name",
+                "skill4_pts",
+                "special_flags",
+                "unk3",
+            ]
+        )
+        for i in range(ENTRY_COUNT):
+            offset = TABLE_OFFSET + i * ENTRY_SIZE
+            (
+                slot_nb,
+                flags,
+                unk1,
+                price,
+                unk2,
+                sk1,
+                pts1,
+                sk2,
+                pts2,
+                sk3,
+                pts3,
+                sk4,
+                pts4,
+                special_flags,
+                unk3,
+            ) = struct.unpack_from(ENTRY_FMT, raw, offset)
+            writer.writerow(
+                [
+                    i,
+                    slot_nb,
+                    f"0x{flags:04X}",
+                    unk1,
+                    price,
+                    unk2,
+                    f"0x{sk1:02X}",
+                    skill_name(sk1),
+                    pts1,
+                    f"0x{sk2:02X}",
+                    skill_name(sk2),
+                    pts2,
+                    f"0x{sk3:02X}",
+                    skill_name(sk3),
+                    pts3,
+                    f"0x{sk4:02X}",
+                    skill_name(sk4),
+                    pts4,
+                    f"0x{special_flags:04X}",
+                    unk3,
+                ]
+            )
+
+    print(f"Wrote {ENTRY_COUNT} entries to {OUTPUT}")
 
 
 if __name__ == "__main__":

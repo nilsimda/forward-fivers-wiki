@@ -180,6 +180,18 @@ const decoCraftItemSchema = z.object({
     needed_for_unlock: z.boolean(),
 });
 
+const decoSkillSchema = z.object({
+    id: z.number().int().min(0),
+    name: z.string(),
+    points: z.number().int(),
+});
+
+const decoStatsSchema = z.object({
+    n_slots: z.number().int().min(0),
+    price: z.number().int().min(0),
+    skills: z.array(decoSkillSchema),
+});
+
 const decos = defineCollection({
     loader: file("src/data/generated/decos.json"),
     schema: z.object({
@@ -187,6 +199,7 @@ const decos = defineCollection({
         name: z.string(),
         receipt_category: z.number().int().min(0),
         craft_recipes: z.array(z.array(decoCraftItemSchema)),
+        stats: decoStatsSchema,
     }),
 });
 
