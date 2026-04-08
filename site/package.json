@@ -6,7 +6,7 @@
         "node": ">=22.12.0"
     },
     "scripts": {
-        "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_items.py",
+        "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_items.py && uv run --project .. python ../scripts/extract_decos.py",
         "dev": "npm run data:extract && astro dev",
         "build": "astro build",
         "preview": "astro preview",

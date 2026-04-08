@@ -1,0 +1,89 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection } from "astro:content";
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const allDecos = await getCollection("decos");
+const sortedDecos = allDecos
+  .map((entry) => entry.data)
+  .sort((a, b) => a.id - b.id);
+---
+
+<WikiLayout title="Decorations | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Decoration Index</h1>
+    <p class="text-slate-300">
+      {sortedDecos.length} decoration recipes extracted from the G1 game data files.
+    </p>
+  </section>
+
+  <section class="panel mt-6 space-y-3">
+    <label class="block text-sm font-medium text-slate-200" for="deco-search">
+      Search decorations
+    </label>
+    <input
+      id="deco-search"
+      type="search"
+      placeholder="Name or item ID..."
+      class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+    />
+    <div class="text-sm text-slate-400">
+      Showing <span id="match-count">{sortedDecos.length}</span> of {sortedDecos.length} decorations
+    </div>
+  </section>
+
+  <div class="table-wrap mt-6">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Recipes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          sortedDecos.map((deco) => (
+            <tr
+              data-deco-row
+              data-deco-id={String(deco.id)}
+              data-deco-name={deco.name.toLowerCase()}
+            >
+              <td>{deco.id}</td>
+              <td>
+                <a href={withBase(`decos/${deco.id}/`)}>{deco.name}</a>
+              </td>
+              <td class="text-slate-400">{deco.craft_recipes.length}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>("#deco-search");
+    const rows = Array.from(
+      document.querySelectorAll<HTMLTableRowElement>("[data-deco-row]"),
+    );
+    const matchCount = document.querySelector<HTMLElement>("#match-count");
+
+    input?.addEventListener("input", () => {
+      const q = (input.value || "").trim().toLowerCase();
+      let count = 0;
+      for (const r of rows) {
+        const match =
+          !q ||
+          (r.dataset.decoId || "").includes(q) ||
+          (r.dataset.decoName || "").includes(q);
+        r.style.display = match ? "" : "none";
+        if (match) count++;
+      }
+      if (matchCount) matchCount.textContent = String(count);
+    });
+  </script>
+</WikiLayout>

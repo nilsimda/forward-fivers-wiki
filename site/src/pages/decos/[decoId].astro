@@ -1,0 +1,70 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type DecoData = CollectionEntry<"decos">["data"];
+
+export async function getStaticPaths() {
+  const decos = await getCollection("decos");
+  return decos.map((entry) => ({
+    params: { decoId: String(entry.data.id) },
+    props: { deco: entry.data },
+  }));
+}
+
+const { deco } = Astro.props as { deco: DecoData };
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+---
+
+<WikiLayout title={`${deco.name} | Decorations | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase("decos/")} class="text-sm">Back to decoration index</a>
+      <h1>{deco.name}</h1>
+      <p class="text-slate-300">Item ID {deco.id}</p>
+    </header>
+
+    {deco.craft_recipes.map((recipe, idx) => (
+      <section class="panel">
+        <h2 class="text-lg">
+          {deco.craft_recipes.length > 1 ? `Recipe ${idx + 1}` : "Crafting Materials"}
+        </h2>
+        {recipe.length === 0 ? (
+          <p class="mt-3 text-slate-300">No crafting data available.</p>
+        ) : (
+          <div class="mt-3 table-wrap">
+            <table class="table-grid">
+              <thead>
+                <tr>
+                  <th>Material</th>
+                  <th>Qty</th>
+                  <th>Unlock</th>
+                </tr>
+              </thead>
+              <tbody>
+                {recipe.map((mat) => (
+                  <tr>
+                    <td>
+                      <a href={withBase(`items/${mat.item_id}/`)}>{mat.name || `Item ${mat.item_id}`}</a>
+                    </td>
+                    <td>x{mat.quantity}</td>
+                    <td>
+                      {mat.needed_for_unlock ? (
+                        <span class="text-amber-300">Key</span>
+                      ) : (
+                        <span class="text-slate-500">-</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+    ))}
+  </article>
+</WikiLayout>

@@ -172,4 +172,22 @@ const items = defineCollection({
     })
 })
 
-export const collections = { monsterCarves, monsterPartbreaks, quests, items };
+// DECOS
+const decoCraftItemSchema = z.object({
+    item_id: itemIdSchema,
+    name: z.string(),
+    quantity: z.number().int().min(1),
+    needed_for_unlock: z.boolean(),
+});
+
+const decos = defineCollection({
+    loader: file("src/data/generated/decos.json"),
+    schema: z.object({
+        id: itemIdSchema,
+        name: z.string(),
+        receipt_category: z.number().int().min(0),
+        craft_recipes: z.array(z.array(decoCraftItemSchema)),
+    }),
+});
+
+export const collections = { monsterCarves, monsterPartbreaks, quests, items, decos };
