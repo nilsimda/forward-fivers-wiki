@@ -20,7 +20,7 @@ from extract_common import (
 )
 
 HIDDEN_ITEM_IDS = load_wiki_hidden_item_ids(DEFAULT_DATA_PATHS["hidden_item_ids"])
-ITEM_NAMES = load_item_names(DEFAULT_DATA_PATHS["item_names"])
+ITEM_NAMES = load_item_names()
 
 GoalTargetKind = Literal[
     "Hunt",

@@ -28,7 +28,7 @@ DEFAULT_DATA_PATHS = {
     "small_monsters": BASE_DATA_PATH / "labels" / "small_monsters.json",
     # generated
     "hidden_item_ids": BASE_DATA_PATH / "generated" / "wiki-hidden-item-ids.json",
-    "item_names": BASE_DATA_PATH / "generated" / "item-labels.json",
+    "items": REPO_ROOT / "site" / "src" / "data" / "generated" / "items.json",
 }
 
 
@@ -145,9 +145,11 @@ def load_wiki_hidden_item_ids(path: Path) -> frozenset[int]:
     return frozenset(item_ids)
 
 
-def load_item_names(items_json_path: Path) -> dict[int, str]:
-    raw = json.loads(items_json_path.read_text(encoding="utf-8"))
-    return {int(item_id): item_name for item_id, item_name in raw.items()}
+def load_item_names() -> dict[int, str]:
+    raw: list[dict[str, Any]] = json.loads(
+        DEFAULT_DATA_PATHS["items"].read_text(encoding="utf-8")
+    )
+    return {item["id"]: item["name"] for item in raw}
 
 
 def load_monster_names(monster_names_json_path: Path) -> dict[int, str]:

@@ -21,7 +21,7 @@ from extract_common import (
     write_json_output,
 )
 
-ITEM_NAMES = load_item_names(DEFAULT_DATA_PATHS["item_names"])
+ITEM_NAMES = load_item_names()
 
 CarveType = Literal["primary", "secondary"]
 

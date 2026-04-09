@@ -2667,7 +2667,7 @@
         },
         {
           "item_id": 739,
-          "name": "Friendship Ticket",
+          "name": "Friendship Tkt",
           "quantity": 1,
           "needed_for_unlock": false
         }
@@ -3914,7 +3914,7 @@
         },
         {
           "item_id": 569,
-          "name": "Fire Dragon Scl",
+          "name": "FireDragonScale",
           "quantity": 2,
           "needed_for_unlock": true
         },
@@ -6011,7 +6011,7 @@
   },
   {
     "id": 1125,
-    "name": "Maestro Jewel+",
+    "name": "Sonorous Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -9878,7 +9878,7 @@
   },
   {
     "id": 5411,
-    "name": "Tectonic Jewel+",
+    "name": "Firm Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -10461,7 +10461,7 @@
   },
   {
     "id": 5425,
-    "name": "Mindful Jwl 1",
+    "name": "Mindful Jewel 1",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15084,7 +15084,7 @@
   },
   {
     "id": 6245,
-    "name": "Mindful Jewel 2+",
+    "name": "Control Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15192,7 +15192,7 @@
   },
   {
     "id": 6247,
-    "name": "Throwing Jwl 2+",
+    "name": "Throwing Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15246,7 +15246,7 @@
   },
   {
     "id": 6248,
-    "name": "Ironwall Jwl 2+",
+    "name": "Barrier Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15354,7 +15354,7 @@
   },
   {
     "id": 6250,
-    "name": "Psychic Jewel 2+",
+    "name": "Insight Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15408,7 +15408,7 @@
   },
   {
     "id": 6251,
-    "name": "Fasting Jewel 2+",
+    "name": "Discipline Jwl+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15516,7 +15516,7 @@
   },
   {
     "id": 6253,
-    "name": "Evasion Jewel 2+",
+    "name": "Celerity Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -15570,7 +15570,7 @@
   },
   {
     "id": 6254,
-    "name": "Tectonic Jwl 2+",
+    "name": "Unshakeable Jwl+",
     "receipt_category": 0,
     "craft_recipes": [
       [

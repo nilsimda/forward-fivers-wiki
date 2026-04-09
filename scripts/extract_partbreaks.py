@@ -29,7 +29,7 @@ OFFSET_FROM_COUNTS_POINTER = 0x24
 
 DROP_TERMINATOR = 0xFFFF
 
-ITEM_NAMES = load_item_names(DEFAULT_DATA_PATHS["item_names"])
+ITEM_NAMES = load_item_names()
 
 
 @dataclass(slots=True)

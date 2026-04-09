@@ -747,7 +747,7 @@
           {
             "percentage": 35,
             "item_id": 6987,
-            "item_name": "Kut-Ku Primescl",
+            "item_name": "Kut-KuPrimescale",
             "quantity": 1
           },
           {
@@ -782,7 +782,7 @@
           {
             "percentage": 39,
             "item_id": 6987,
-            "item_name": "Kut-Ku Primescl",
+            "item_name": "Kut-KuPrimescale",
             "quantity": 1
           },
           {
@@ -1852,7 +1852,7 @@
           {
             "percentage": 25,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -1875,7 +1875,7 @@
           {
             "percentage": 35,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -2310,7 +2310,7 @@
           {
             "percentage": 50,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -2584,7 +2584,7 @@
           {
             "percentage": 35,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -2805,7 +2805,7 @@
           {
             "percentage": 55,
             "item_id": 6656,
-            "item_name": "Gyp Magnapelt",
+            "item_name": "Gyp Magnahide",
             "quantity": 1
           },
           {
@@ -2840,7 +2840,7 @@
           {
             "percentage": 38,
             "item_id": 6656,
-            "item_name": "Gyp Magnapelt",
+            "item_name": "Gyp Magnahide",
             "quantity": 1
           },
           {
@@ -3276,7 +3276,7 @@
           {
             "percentage": 4,
             "item_id": 6670,
-            "item_name": "Basarios Grndwng",
+            "item_name": "Basa Grandwing",
             "quantity": 1
           },
           {
@@ -3293,7 +3293,7 @@
           {
             "percentage": 5,
             "item_id": 6670,
-            "item_name": "Basarios Grndwng",
+            "item_name": "Basa Grandwing",
             "quantity": 1
           },
           {
@@ -3922,7 +3922,7 @@
           {
             "percentage": 33,
             "item_id": 403,
-            "item_name": "P.Rathian Cpc",
+            "item_name": "P.Rath Carapace",
             "quantity": 1
           },
           {
@@ -3951,7 +3951,7 @@
           {
             "percentage": 75,
             "item_id": 403,
-            "item_name": "P.Rathian Cpc",
+            "item_name": "P.Rath Carapace",
             "quantity": 1
           },
           {
@@ -4871,7 +4871,7 @@
           {
             "percentage": 65,
             "item_id": 423,
-            "item_name": "S.Rathalos Scl+",
+            "item_name": "S.Rath Scale+",
             "quantity": 1
           },
           {
@@ -5044,7 +5044,7 @@
           {
             "percentage": 36,
             "item_id": 405,
-            "item_name": "G.Rathian Cpc",
+            "item_name": "G.Rath Carapace",
             "quantity": 2
           },
           {
@@ -5073,7 +5073,7 @@
           {
             "percentage": 75,
             "item_id": 405,
-            "item_name": "G.Rathian Cpc",
+            "item_name": "G.Rath Carapace",
             "quantity": 1
           },
           {
@@ -7177,7 +7177,7 @@
           {
             "percentage": 35,
             "item_id": 6994,
-            "item_name": "Blango Valorfang",
+            "item_name": "Blan Valorfang",
             "quantity": 1
           },
           {
@@ -7212,13 +7212,13 @@
           {
             "percentage": 15,
             "item_id": 6994,
-            "item_name": "Blango Valorfang",
+            "item_name": "Blan Valorfang",
             "quantity": 1
           },
           {
             "percentage": 25,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -7247,7 +7247,7 @@
           {
             "percentage": 49,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -9850,7 +9850,7 @@
           {
             "percentage": 28,
             "item_id": 1017,
-            "item_name": "Lavasioth Cpc",
+            "item_name": "Lavasio Carapace",
             "quantity": 1
           },
           {
@@ -9873,7 +9873,7 @@
           {
             "percentage": 80,
             "item_id": 1017,
-            "item_name": "Lavasioth Cpc",
+            "item_name": "Lavasio Carapace",
             "quantity": 1
           },
           {
@@ -10046,7 +10046,7 @@
           {
             "percentage": 4,
             "item_id": 6709,
-            "item_name": "Lavasio Acefang",
+            "item_name": "Lavasio Fluxfang",
             "quantity": 1
           },
           {
@@ -10063,7 +10063,7 @@
           {
             "percentage": 5,
             "item_id": 6709,
-            "item_name": "Lavasio Acefang",
+            "item_name": "Lavasio Fluxfang",
             "quantity": 1
           },
           {
@@ -10864,7 +10864,7 @@
           {
             "percentage": 26,
             "item_id": 1017,
-            "item_name": "Lavasioth Cpc",
+            "item_name": "Lavasio Carapace",
             "quantity": 2
           }
         ]
@@ -11560,7 +11560,7 @@
           {
             "percentage": 32,
             "item_id": 1054,
-            "item_name": "F.Espinas Cpc",
+            "item_name": "F.Espi Carapace",
             "quantity": 1
           },
           {
@@ -11589,7 +11589,7 @@
           {
             "percentage": 40,
             "item_id": 1054,
-            "item_name": "F.Espinas Cpc",
+            "item_name": "F.Espi Carapace",
             "quantity": 1
           }
         ]
@@ -11623,7 +11623,7 @@
           {
             "percentage": 18,
             "item_id": 1054,
-            "item_name": "F.Espinas Cpc",
+            "item_name": "F.Espi Carapace",
             "quantity": 1
           },
           {
@@ -15222,7 +15222,7 @@
           {
             "percentage": 40,
             "item_id": 2954,
-            "item_name": "Draguros Cpc",
+            "item_name": "Draguros Carpace",
             "quantity": 1
           },
           {
@@ -15262,7 +15262,7 @@
           {
             "percentage": 85,
             "item_id": 2954,
-            "item_name": "Draguros Cpc",
+            "item_name": "Draguros Carpace",
             "quantity": 1
           },
           {
@@ -15325,7 +15325,7 @@
           {
             "percentage": 15,
             "item_id": 2954,
-            "item_name": "Draguros Cpc",
+            "item_name": "Draguros Carpace",
             "quantity": 1
           },
           {
@@ -15354,7 +15354,7 @@
           {
             "percentage": 15,
             "item_id": 2954,
-            "item_name": "Draguros Cpc",
+            "item_name": "Draguros Carpace",
             "quantity": 1
           },
           {
@@ -15860,7 +15860,7 @@
           {
             "percentage": 10,
             "item_id": 3544,
-            "item_name": "Grenzebul Scl+",
+            "item_name": "Grenzebul Scale+",
             "quantity": 1
           },
           {
@@ -15895,7 +15895,7 @@
           {
             "percentage": 20,
             "item_id": 3544,
-            "item_name": "Grenzebul Scl+",
+            "item_name": "Grenzebul Scale+",
             "quantity": 1
           },
           {
@@ -15982,7 +15982,7 @@
           {
             "percentage": 10,
             "item_id": 3544,
-            "item_name": "Grenzebul Scl+",
+            "item_name": "Grenzebul Scale+",
             "quantity": 1
           },
           {
@@ -16011,7 +16011,7 @@
           {
             "percentage": 20,
             "item_id": 3544,
-            "item_name": "Grenzebul Scl+",
+            "item_name": "Grenzebul Scale+",
             "quantity": 1
           },
           {
@@ -16040,7 +16040,7 @@
           {
             "percentage": 20,
             "item_id": 3544,
-            "item_name": "Grenzebul Scl+",
+            "item_name": "Grenzebul Scale+",
             "quantity": 1
           },
           {
@@ -19025,7 +19025,7 @@
           {
             "percentage": 20,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -19048,7 +19048,7 @@
           {
             "percentage": 20,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]
@@ -19077,7 +19077,7 @@
           {
             "percentage": 30,
             "item_id": 6704,
-            "item_name": "Valiant Gem",
+            "item_name": "Valorous Gem",
             "quantity": 1
           }
         ]

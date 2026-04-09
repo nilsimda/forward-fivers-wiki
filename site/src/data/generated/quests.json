@@ -20160,7 +20160,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -20261,7 +20261,7 @@
         {
           "percentage": 15,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -20273,7 +20273,7 @@
         {
           "percentage": 25,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -20723,7 +20723,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -20824,7 +20824,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -20842,7 +20842,7 @@
         {
           "percentage": 28,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -21546,7 +21546,7 @@
         {
           "percentage": 30,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -21627,7 +21627,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -21657,7 +21657,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -21960,7 +21960,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -22061,7 +22061,7 @@
         {
           "percentage": 15,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -22073,7 +22073,7 @@
         {
           "percentage": 25,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -22192,7 +22192,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -22293,7 +22293,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -22311,7 +22311,7 @@
         {
           "percentage": 28,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -22654,7 +22654,7 @@
         {
           "percentage": 30,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -22735,7 +22735,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -22765,7 +22765,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -23068,7 +23068,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -23187,7 +23187,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -23318,7 +23318,7 @@
         {
           "percentage": 30,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -33983,7 +33983,7 @@
         {
           "percentage": 20,
           "item_id": 971,
-          "item_name": "G.Plesioth Scl+",
+          "item_name": "G.PlesiothScale+",
           "quantity": 1
         },
         {
@@ -34367,7 +34367,7 @@
         {
           "percentage": 20,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         },
         {
@@ -35189,7 +35189,7 @@
         {
           "percentage": 20,
           "item_id": 971,
-          "item_name": "G.Plesioth Scl+",
+          "item_name": "G.PlesiothScale+",
           "quantity": 1
         },
         {
@@ -35553,7 +35553,7 @@
         {
           "percentage": 20,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         },
         {
@@ -53477,7 +53477,7 @@
         {
           "percentage": 25,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         },
         {
@@ -53503,7 +53503,7 @@
         {
           "percentage": 25,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         },
         {
@@ -54043,7 +54043,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -54901,7 +54901,7 @@
         {
           "percentage": 13,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         },
         {
@@ -55469,7 +55469,7 @@
         {
           "percentage": 10,
           "item_id": 3544,
-          "item_name": "Grenzebul Scl+",
+          "item_name": "Grenzebul Scale+",
           "quantity": 1
         },
         {
@@ -56037,7 +56037,7 @@
         {
           "percentage": 50,
           "item_id": 2954,
-          "item_name": "Draguros Cpc",
+          "item_name": "Draguros Carpace",
           "quantity": 1
         },
         {
@@ -56063,7 +56063,7 @@
         {
           "percentage": 25,
           "item_id": 2954,
-          "item_name": "Draguros Cpc",
+          "item_name": "Draguros Carpace",
           "quantity": 1
         },
         {
@@ -56089,7 +56089,7 @@
         {
           "percentage": 25,
           "item_id": 2954,
-          "item_name": "Draguros Cpc",
+          "item_name": "Draguros Carpace",
           "quantity": 1
         },
         {
@@ -60869,7 +60869,7 @@
         {
           "percentage": 25,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -62965,7 +62965,7 @@
         {
           "percentage": 20,
           "item_id": 405,
-          "item_name": "G.Rathian Cpc",
+          "item_name": "G.Rath Carapace",
           "quantity": 1
         },
         {
@@ -63058,7 +63058,7 @@
         {
           "percentage": 24,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -63481,7 +63481,7 @@
         {
           "percentage": 36,
           "item_id": 971,
-          "item_name": "G.Plesioth Scl+",
+          "item_name": "G.PlesiothScale+",
           "quantity": 1
         },
         {
@@ -64217,7 +64217,7 @@
         {
           "percentage": 2,
           "item_id": 3326,
-          "item_name": "Tough Heavyscl",
+          "item_name": "Tough Heavyscale",
           "quantity": 1
         },
         {
@@ -64229,7 +64229,7 @@
         {
           "percentage": 10,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         },
         {
@@ -64334,7 +64334,7 @@
         {
           "percentage": 3,
           "item_id": 3326,
-          "item_name": "Tough Heavyscl",
+          "item_name": "Tough Heavyscale",
           "quantity": 1
         },
         {
@@ -64619,7 +64619,7 @@
         {
           "percentage": 11,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         },
         {
@@ -65189,7 +65189,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -73592,7 +73592,7 @@
         {
           "percentage": 27,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -74186,19 +74186,19 @@
         {
           "percentage": 10,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 5
         },
         {
@@ -74291,19 +74291,19 @@
         {
           "percentage": 10,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 5
         },
         {
@@ -74396,19 +74396,19 @@
         {
           "percentage": 10,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 5
         },
         {
@@ -74924,19 +74924,19 @@
         {
           "percentage": 30,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 1
         },
         {
           "percentage": 20,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 1
         },
         {
           "percentage": 10,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 1
         },
         {
@@ -74974,13 +74974,13 @@
         {
           "percentage": 30,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 1
         },
         {
           "percentage": 40,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 1
         },
         {
@@ -91402,7 +91402,7 @@
         {
           "percentage": 2,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -92949,7 +92949,7 @@
         {
           "percentage": 1,
           "item_id": 6987,
-          "item_name": "Kut-Ku Primescl",
+          "item_name": "Kut-KuPrimescale",
           "quantity": 1
         },
         {
@@ -93030,7 +93030,7 @@
         {
           "percentage": 12,
           "item_id": 6987,
-          "item_name": "Kut-Ku Primescl",
+          "item_name": "Kut-KuPrimescale",
           "quantity": 1
         },
         {
@@ -93905,7 +93905,7 @@
         {
           "percentage": 12,
           "item_id": 6656,
-          "item_name": "Gyp Magnapelt",
+          "item_name": "Gyp Magnahide",
           "quantity": 1
         },
         {
@@ -93974,7 +93974,7 @@
         {
           "percentage": 1,
           "item_id": 6656,
-          "item_name": "Gyp Magnapelt",
+          "item_name": "Gyp Magnahide",
           "quantity": 1
         },
         {
@@ -95665,7 +95665,7 @@
         {
           "percentage": 1,
           "item_id": 6994,
-          "item_name": "Blango Valorfang",
+          "item_name": "Blan Valorfang",
           "quantity": 1
         },
         {
@@ -95746,7 +95746,7 @@
         {
           "percentage": 12,
           "item_id": 6994,
-          "item_name": "Blango Valorfang",
+          "item_name": "Blan Valorfang",
           "quantity": 1
         },
         {
@@ -97814,7 +97814,7 @@
         {
           "percentage": 1,
           "item_id": 6994,
-          "item_name": "Blango Valorfang",
+          "item_name": "Blan Valorfang",
           "quantity": 1
         },
         {
@@ -97895,7 +97895,7 @@
         {
           "percentage": 12,
           "item_id": 6994,
-          "item_name": "Blango Valorfang",
+          "item_name": "Blan Valorfang",
           "quantity": 1
         },
         {
@@ -99411,7 +99411,7 @@
         {
           "percentage": 12,
           "item_id": 6709,
-          "item_name": "Lavasio Acefang",
+          "item_name": "Lavasio Fluxfang",
           "quantity": 1
         },
         {
@@ -99480,7 +99480,7 @@
         {
           "percentage": 1,
           "item_id": 6709,
-          "item_name": "Lavasio Acefang",
+          "item_name": "Lavasio Fluxfang",
           "quantity": 1
         },
         {
@@ -101692,7 +101692,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -101831,7 +101831,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -105012,7 +105012,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -105111,7 +105111,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -108372,7 +108372,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108453,7 +108453,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108534,7 +108534,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108615,7 +108615,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108696,7 +108696,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108777,7 +108777,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108846,7 +108846,7 @@
         {
           "percentage": 17,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -108858,7 +108858,7 @@
         {
           "percentage": 33,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -108927,7 +108927,7 @@
         {
           "percentage": 17,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -108939,7 +108939,7 @@
         {
           "percentage": 33,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109020,7 +109020,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109113,7 +109113,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109194,7 +109194,7 @@
         {
           "percentage": 20,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -109206,7 +109206,7 @@
         {
           "percentage": 10,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109293,7 +109293,7 @@
         {
           "percentage": 20,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -109305,7 +109305,7 @@
         {
           "percentage": 10,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109588,7 +109588,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109614,7 +109614,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 2
         },
         {
@@ -109689,7 +109689,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109715,7 +109715,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 2
         },
         {
@@ -109778,7 +109778,7 @@
         {
           "percentage": 17,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -109790,7 +109790,7 @@
         {
           "percentage": 33,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109828,7 +109828,7 @@
         {
           "percentage": 37,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -109879,7 +109879,7 @@
         {
           "percentage": 17,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -109891,7 +109891,7 @@
         {
           "percentage": 33,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -109929,7 +109929,7 @@
         {
           "percentage": 37,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -112755,7 +112755,7 @@
         {
           "percentage": 30,
           "item_id": 405,
-          "item_name": "G.Rathian Cpc",
+          "item_name": "G.Rath Carapace",
           "quantity": 2
         },
         {
@@ -112829,7 +112829,7 @@
         {
           "percentage": 41,
           "item_id": 405,
-          "item_name": "G.Rathian Cpc",
+          "item_name": "G.Rath Carapace",
           "quantity": 1
         },
         {
@@ -112916,7 +112916,7 @@
         {
           "percentage": 20,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -112978,7 +112978,7 @@
         {
           "percentage": 37,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -116780,7 +116780,7 @@
         {
           "percentage": 20,
           "item_id": 405,
-          "item_name": "G.Rathian Cpc",
+          "item_name": "G.Rath Carapace",
           "quantity": 1
         },
         {
@@ -116873,7 +116873,7 @@
         {
           "percentage": 24,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -117296,7 +117296,7 @@
         {
           "percentage": 36,
           "item_id": 971,
-          "item_name": "G.Plesioth Scl+",
+          "item_name": "G.PlesiothScale+",
           "quantity": 1
         },
         {
@@ -121486,7 +121486,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121498,7 +121498,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -121518,7 +121518,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121605,7 +121605,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121617,7 +121617,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -121637,7 +121637,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121724,7 +121724,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121736,7 +121736,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -121756,7 +121756,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121843,7 +121843,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121855,7 +121855,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -121875,7 +121875,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121962,7 +121962,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -121974,7 +121974,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -121994,7 +121994,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122081,7 +122081,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122093,7 +122093,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -122113,7 +122113,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122200,7 +122200,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122212,7 +122212,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -122232,7 +122232,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122319,7 +122319,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122331,7 +122331,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -122351,7 +122351,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122438,7 +122438,7 @@
         {
           "percentage": 26,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -122450,7 +122450,7 @@
         {
           "percentage": 52,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -122470,7 +122470,7 @@
         {
           "percentage": 10,
           "item_id": 569,
-          "item_name": "Fire Dragon Scl",
+          "item_name": "FireDragonScale",
           "quantity": 1
         },
         {
@@ -125961,7 +125961,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126054,7 +126054,7 @@
         {
           "percentage": 34,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126135,7 +126135,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126210,7 +126210,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -126228,7 +126228,7 @@
         {
           "percentage": 30,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126315,7 +126315,7 @@
         {
           "percentage": 10,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126408,7 +126408,7 @@
         {
           "percentage": 17,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -126426,7 +126426,7 @@
         {
           "percentage": 2,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126644,7 +126644,7 @@
         {
           "percentage": 20,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126676,7 +126676,7 @@
         {
           "percentage": 36,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 2
         },
         {
@@ -126739,7 +126739,7 @@
         {
           "percentage": 5,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -126757,7 +126757,7 @@
         {
           "percentage": 30,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126795,7 +126795,7 @@
         {
           "percentage": 37,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -126864,7 +126864,7 @@
         {
           "percentage": 10,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -126926,7 +126926,7 @@
         {
           "percentage": 64,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -131014,7 +131014,7 @@
         {
           "percentage": 13,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         },
         {
@@ -133744,7 +133744,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -135444,7 +135444,7 @@
         {
           "percentage": 20,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -141069,7 +141069,7 @@
         {
           "percentage": 9,
           "item_id": 739,
-          "item_name": "Friendship Ticket",
+          "item_name": "Friendship Tkt",
           "quantity": 1
         }
       ]
@@ -141162,7 +141162,7 @@
         {
           "percentage": 13,
           "item_id": 739,
-          "item_name": "Friendship Ticket",
+          "item_name": "Friendship Tkt",
           "quantity": 1
         }
       ]
@@ -147181,7 +147181,7 @@
         {
           "percentage": 17,
           "item_id": 405,
-          "item_name": "G.Rathian Cpc",
+          "item_name": "G.Rath Carapace",
           "quantity": 1
         },
         {
@@ -147217,7 +147217,7 @@
         {
           "percentage": 10,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         },
         {
@@ -147298,7 +147298,7 @@
         {
           "percentage": 27,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -147865,7 +147865,7 @@
         {
           "percentage": 2,
           "item_id": 403,
-          "item_name": "P.Rathian Cpc",
+          "item_name": "P.Rath Carapace",
           "quantity": 1
         }
       ],
@@ -148516,7 +148516,7 @@
         {
           "percentage": 40,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         }
       ],
@@ -148530,7 +148530,7 @@
         {
           "percentage": 36,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         }
       ]
@@ -150404,7 +150404,7 @@
         {
           "percentage": 30,
           "item_id": 2954,
-          "item_name": "Draguros Cpc",
+          "item_name": "Draguros Carpace",
           "quantity": 1
         },
         {
@@ -150772,7 +150772,7 @@
         {
           "percentage": 20,
           "item_id": 3544,
-          "item_name": "Grenzebul Scl+",
+          "item_name": "Grenzebul Scale+",
           "quantity": 1
         },
         {
@@ -152643,7 +152643,7 @@
         {
           "percentage": 34,
           "item_id": 3972,
-          "item_name": "Transcendent Seal 1",
+          "item_name": "Trnscndnt Seal 1",
           "quantity": 1
         },
         {
@@ -152706,7 +152706,7 @@
         {
           "percentage": 34,
           "item_id": 3973,
-          "item_name": "Transcendent Seal 2",
+          "item_name": "Trnscndnt Seal 2",
           "quantity": 1
         },
         {
@@ -152769,7 +152769,7 @@
         {
           "percentage": 34,
           "item_id": 3974,
-          "item_name": "Transcendent Seal 3",
+          "item_name": "Trnscndnt Seal 3",
           "quantity": 1
         },
         {
@@ -152832,7 +152832,7 @@
         {
           "percentage": 34,
           "item_id": 3975,
-          "item_name": "Transcendent Seal 4",
+          "item_name": "Trnscndnt Seal 4",
           "quantity": 1
         },
         {
@@ -152895,7 +152895,7 @@
         {
           "percentage": 70,
           "item_id": 3976,
-          "item_name": "Transcendent Seal 5",
+          "item_name": "Trnscndnt Seal 5",
           "quantity": 1
         },
         {
@@ -152964,7 +152964,7 @@
         {
           "percentage": 50,
           "item_id": 3977,
-          "item_name": "Transcendent Seal 6",
+          "item_name": "Trnscndnt Seal 6",
           "quantity": 1
         },
         {
@@ -153027,7 +153027,7 @@
         {
           "percentage": 50,
           "item_id": 3978,
-          "item_name": "Transcendent Seal 7",
+          "item_name": "Trnscndnt Seal 7",
           "quantity": 1
         },
         {
@@ -153090,7 +153090,7 @@
         {
           "percentage": 25,
           "item_id": 3979,
-          "item_name": "Transcendent Seal 8",
+          "item_name": "Trnscndnt Seal 8",
           "quantity": 1
         },
         {
@@ -153159,7 +153159,7 @@
         {
           "percentage": 25,
           "item_id": 3980,
-          "item_name": "Transcendent Seal 9",
+          "item_name": "Trnscndnt Seal 9",
           "quantity": 1
         },
         {
@@ -153228,7 +153228,7 @@
         {
           "percentage": 20,
           "item_id": 3981,
-          "item_name": "Transcendent Seal 10",
+          "item_name": "Trnscndnt Seal 10",
           "quantity": 1
         },
         {
@@ -157452,7 +157452,7 @@
         {
           "percentage": 27,
           "item_id": 423,
-          "item_name": "S.Rathalos Scl+",
+          "item_name": "S.Rath Scale+",
           "quantity": 1
         },
         {
@@ -158046,19 +158046,19 @@
         {
           "percentage": 10,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3705,
-          "item_name": "Chitose Base",
+          "item_name": "Evergreen Base",
           "quantity": 5
         },
         {
@@ -158151,19 +158151,19 @@
         {
           "percentage": 10,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3708,
-          "item_name": "Tsuyukusa Base",
+          "item_name": "Dew Base",
           "quantity": 5
         },
         {
@@ -158256,19 +158256,19 @@
         {
           "percentage": 10,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 1
         },
         {
           "percentage": 5,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 3
         },
         {
           "percentage": 1,
           "item_id": 3710,
-          "item_name": "Evergreen Base",
+          "item_name": "B.Green Base",
           "quantity": 5
         },
         {
@@ -164273,7 +164273,7 @@
         {
           "percentage": 11,
           "item_id": 1054,
-          "item_name": "F.Espinas Cpc",
+          "item_name": "F.Espi Carapace",
           "quantity": 1
         },
         {
@@ -164843,7 +164843,7 @@
         {
           "percentage": 13,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -167873,7 +167873,7 @@
         {
           "percentage": 5,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168170,7 +168170,7 @@
         {
           "percentage": 2,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168287,7 +168287,7 @@
         {
           "percentage": 5,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168356,7 +168356,7 @@
         {
           "percentage": 25,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -168398,7 +168398,7 @@
         {
           "percentage": 4,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168521,7 +168521,7 @@
         {
           "percentage": 5,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168590,7 +168590,7 @@
         {
           "percentage": 25,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -168632,7 +168632,7 @@
         {
           "percentage": 4,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168842,7 +168842,7 @@
         {
           "percentage": 2,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -168917,7 +168917,7 @@
         {
           "percentage": 25,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -168959,7 +168959,7 @@
         {
           "percentage": 4,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -169040,7 +169040,7 @@
         {
           "percentage": 22,
           "item_id": 574,
-          "item_name": "Fire Dragon Scl+",
+          "item_name": "FireDragonScale+",
           "quantity": 1
         },
         {
@@ -169082,7 +169082,7 @@
         {
           "percentage": 5,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -169175,7 +169175,7 @@
         {
           "percentage": 5,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -169268,7 +169268,7 @@
         {
           "percentage": 10,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         }
       ]
@@ -170838,7 +170838,7 @@
         {
           "percentage": 18,
           "item_id": 1017,
-          "item_name": "Lavasioth Cpc",
+          "item_name": "Lavasio Carapace",
           "quantity": 1
         },
         {
@@ -172393,7 +172393,7 @@
         {
           "percentage": 26,
           "item_id": 316,
-          "item_name": "Elder Drgn Bone",
+          "item_name": "ElderDragonBone",
           "quantity": 1
         },
         {
@@ -172538,7 +172538,7 @@
         {
           "percentage": 16,
           "item_id": 958,
-          "item_name": "HighQualityPelt",
+          "item_name": "High-qualty Pelt",
           "quantity": 1
         },
         {
@@ -172552,7 +172552,7 @@
         {
           "percentage": 30,
           "item_id": 958,
-          "item_name": "HighQualityPelt",
+          "item_name": "High-qualty Pelt",
           "quantity": 1
         },
         {
@@ -172572,7 +172572,7 @@
         {
           "percentage": 10,
           "item_id": 958,
-          "item_name": "HighQualityPelt",
+          "item_name": "High-qualty Pelt",
           "quantity": 1
         },
         {

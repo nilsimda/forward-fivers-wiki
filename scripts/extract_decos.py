@@ -40,9 +40,6 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--input", type=Path, default=DEFAULT_DATA_PATHS["mhfdat"])
-    parser.add_argument(
-        "--item-names", type=Path, default=DEFAULT_DATA_PATHS["item_names"]
-    )
     parser.add_argument("--mhfpac", type=Path, default=DEFAULT_DATA_PATHS["mhfpac"])
     parser.add_argument(
         "--output",
@@ -202,7 +199,7 @@ def extract_decos(
 
 def main() -> None:
     args = parse_args()
-    item_names = load_item_names(args.item_names)
+    item_names = load_item_names()
     skill_point_names = _extract_skill_point_names(args.mhfpac.read_bytes())
     decos = extract_decos(
         args.input.read_bytes(),
