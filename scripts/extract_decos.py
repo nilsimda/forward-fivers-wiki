@@ -173,6 +173,7 @@ class Deco:
 
 DECO_SHOP_HEADER_POINTER = 0x00000044
 DECO_STATS_TABLE_HEADER_POINTER = 0x000000FC
+GRANK_DECO_IDS = range(6892, 6960)
 
 
 def extract_decos(
@@ -193,6 +194,17 @@ def extract_decos(
             by_id[deco.id].add_recipe(deco.craft_recipes[0])
         else:
             by_id[deco.id] = deco
+
+    for item_id in GRANK_DECO_IDS:
+        if item_id in by_id:
+            continue
+        by_id[item_id] = Deco(
+            id=item_id,
+            name=item_names_by_id.get(item_id, ""),
+            receipt_category=0,
+            craft_recipes=[],
+            stats=Deco._extract_stats_table(raw, item_id, skill_point_names_by_id),
+        )
 
     return sorted(by_id.values(), key=lambda d: d.id)
 

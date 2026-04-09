@@ -15621,5 +15621,1831 @@
         }
       ]
     }
+  },
+  {
+    "id": 6892,
+    "name": "Hope B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 175,
+          "name": "Ranger",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6893,
+    "name": "Hope B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 175,
+          "name": "Ranger",
+          "points": 3
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 3
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6894,
+    "name": "Hope G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 175,
+          "name": "Ranger",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6895,
+    "name": "Hope G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 175,
+          "name": "Ranger",
+          "points": 3
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 3
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6896,
+    "name": "Pietra B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 167,
+          "name": "Breeder",
+          "points": 2
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 2
+        },
+        {
+          "id": 67,
+          "name": "Stamina",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6897,
+    "name": "Pietra B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 167,
+          "name": "Breeder",
+          "points": 3
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 3
+        },
+        {
+          "id": 67,
+          "name": "Stamina",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6898,
+    "name": "Pietra G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 167,
+          "name": "Breeder",
+          "points": 2
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 2
+        },
+        {
+          "id": 68,
+          "name": "Loading",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6899,
+    "name": "Pietra G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 167,
+          "name": "Breeder",
+          "points": 3
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 3
+        },
+        {
+          "id": 68,
+          "name": "Loading",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6900,
+    "name": "Kut-Ku B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 152,
+          "name": "Vigilance",
+          "points": 3
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6901,
+    "name": "Kut-Ku B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 152,
+          "name": "Vigilance",
+          "points": 4
+        },
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 1
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6902,
+    "name": "Kut-Ku G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 152,
+          "name": "Vigilance",
+          "points": 3
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6903,
+    "name": "Kut-Ku G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 152,
+          "name": "Vigilance",
+          "points": 4
+        },
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 1
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6904,
+    "name": "Hermitaur B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 5,
+          "name": "Guard",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6905,
+    "name": "Hermitaur B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 3
+        },
+        {
+          "id": 5,
+          "name": "Guard",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6906,
+    "name": "Hermitaur G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6907,
+    "name": "Hermitaur G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 3
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6908,
+    "name": "Pokara B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 162,
+          "name": "Rally",
+          "points": 1
+        },
+        {
+          "id": 141,
+          "name": "Handling",
+          "points": 1
+        },
+        {
+          "id": 78,
+          "name": "Wide-Range",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6909,
+    "name": "Pokara B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 162,
+          "name": "Rally",
+          "points": 2
+        },
+        {
+          "id": 141,
+          "name": "Handling",
+          "points": 2
+        },
+        {
+          "id": 78,
+          "name": "Wide-Range",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6910,
+    "name": "Pokara G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 162,
+          "name": "Rally",
+          "points": 1
+        },
+        {
+          "id": 38,
+          "name": "Normal Up",
+          "points": 1
+        },
+        {
+          "id": 78,
+          "name": "Wide-Range",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6911,
+    "name": "Pokara G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 162,
+          "name": "Rally",
+          "points": 2
+        },
+        {
+          "id": 38,
+          "name": "Normal Up",
+          "points": 2
+        },
+        {
+          "id": 78,
+          "name": "Wide-Range",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6912,
+    "name": "Conga B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 174,
+          "name": "Combiner",
+          "points": 3
+        },
+        {
+          "id": 32,
+          "name": "Handicraft",
+          "points": 1
+        },
+        {
+          "id": 77,
+          "name": "Tremor Res",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6913,
+    "name": "Conga B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 174,
+          "name": "Combiner",
+          "points": 4
+        },
+        {
+          "id": 32,
+          "name": "Handicraft",
+          "points": 1
+        },
+        {
+          "id": 77,
+          "name": "Tremor Res",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6914,
+    "name": "Conga G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 174,
+          "name": "Combiner",
+          "points": 3
+        },
+        {
+          "id": 68,
+          "name": "Loading",
+          "points": 3
+        },
+        {
+          "id": 77,
+          "name": "Tremor Res",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6915,
+    "name": "Conga G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 174,
+          "name": "Combiner",
+          "points": 4
+        },
+        {
+          "id": 68,
+          "name": "Loading",
+          "points": 4
+        },
+        {
+          "id": 77,
+          "name": "Tremor Res",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6916,
+    "name": "Gypceros B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 1
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 3
+        },
+        {
+          "id": 143,
+          "name": "Stam Recov",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6917,
+    "name": "Gypceros B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 2
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 4
+        },
+        {
+          "id": 143,
+          "name": "Stam Recov",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6918,
+    "name": "Gypceros G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 1
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 3
+        },
+        {
+          "id": 143,
+          "name": "Stam Recov",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6919,
+    "name": "Gypceros G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 2
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 4
+        },
+        {
+          "id": 143,
+          "name": "Stam Recov",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6920,
+    "name": "Falno B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 164,
+          "name": "Vitality",
+          "points": 2
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 64,
+          "name": "Evasion",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6921,
+    "name": "Falno B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 164,
+          "name": "Vitality",
+          "points": 3
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 64,
+          "name": "Evasion",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6922,
+    "name": "Falno G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 164,
+          "name": "Vitality",
+          "points": 2
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 91,
+          "name": "Kickboxer",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6923,
+    "name": "Falno G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 164,
+          "name": "Vitality",
+          "points": 3
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 91,
+          "name": "Kickboxer",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6924,
+    "name": "Basarios B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 153,
+          "name": "Rescue",
+          "points": 2
+        },
+        {
+          "id": 102,
+          "name": "Guts",
+          "points": 1
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6925,
+    "name": "Basarios B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 153,
+          "name": "Rescue",
+          "points": 3
+        },
+        {
+          "id": 102,
+          "name": "Guts",
+          "points": 2
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6926,
+    "name": "Basarios G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 153,
+          "name": "Rescue",
+          "points": 3
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 2
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6927,
+    "name": "Basarios G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 153,
+          "name": "Rescue",
+          "points": 4
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 3
+        },
+        {
+          "id": 21,
+          "name": "Attack",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6928,
+    "name": "Rathian B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 170,
+          "name": "Survivor",
+          "points": 1
+        },
+        {
+          "id": 147,
+          "name": "Fencing",
+          "points": 1
+        },
+        {
+          "id": 5,
+          "name": "Guard",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6929,
+    "name": "Rathian B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 170,
+          "name": "Survivor",
+          "points": 2
+        },
+        {
+          "id": 147,
+          "name": "Fencing",
+          "points": 2
+        },
+        {
+          "id": 5,
+          "name": "Guard",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6930,
+    "name": "Rathian G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 170,
+          "name": "Survivor",
+          "points": 1
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 3
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6931,
+    "name": "Rathian G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 170,
+          "name": "Survivor",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 4
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6932,
+    "name": "Ceanataur B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 1
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": 2
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6933,
+    "name": "Ceanataur B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 2
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": 3
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6934,
+    "name": "Ceanataur G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 1
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": 2
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6935,
+    "name": "Ceanataur G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 169,
+          "name": "Critical",
+          "points": 2
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": 3
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6936,
+    "name": "Hyujikiki B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 157,
+          "name": "Reflect",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 1
+        },
+        {
+          "id": 54,
+          "name": "Wind Res",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6937,
+    "name": "Hyujikiki B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 157,
+          "name": "Reflect",
+          "points": 3
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 54,
+          "name": "Wind Res",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6938,
+    "name": "Hyujikiki G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 160,
+          "name": "Rapid Up",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 1
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6939,
+    "name": "Hyujikiki G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 160,
+          "name": "Rapid Up",
+          "points": 3
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6940,
+    "name": "Blangonga B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 166,
+          "name": "Strongarm",
+          "points": 3
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6941,
+    "name": "Blangonga B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 166,
+          "name": "Strongarm",
+          "points": 4
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 18,
+          "name": "Expert",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6942,
+    "name": "Blangonga G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 166,
+          "name": "Strongarm",
+          "points": 3
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 1
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6943,
+    "name": "Blangonga G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 166,
+          "name": "Strongarm",
+          "points": 4
+        },
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 28,
+          "name": "Reload Spd",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6944,
+    "name": "Rathalos B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 165,
+          "name": "Fury",
+          "points": 1
+        },
+        {
+          "id": 142,
+          "name": "Elemental",
+          "points": 2
+        },
+        {
+          "id": 15,
+          "name": "Sharpness",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6945,
+    "name": "Rathalos B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 165,
+          "name": "Fury",
+          "points": 2
+        },
+        {
+          "id": 142,
+          "name": "Elemental",
+          "points": 3
+        },
+        {
+          "id": 15,
+          "name": "Sharpness",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6946,
+    "name": "Rathalos G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 165,
+          "name": "Fury",
+          "points": 1
+        },
+        {
+          "id": 142,
+          "name": "Elemental",
+          "points": 2
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6947,
+    "name": "Rathalos G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 165,
+          "name": "Fury",
+          "points": 2
+        },
+        {
+          "id": 142,
+          "name": "Elemental",
+          "points": 3
+        },
+        {
+          "id": 62,
+          "name": "Rapid Fire",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6948,
+    "name": "Khezu B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 1
+        },
+        {
+          "id": 116,
+          "name": "Fasting",
+          "points": 1
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6949,
+    "name": "Khezu B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 2
+        },
+        {
+          "id": 116,
+          "name": "Fasting",
+          "points": 2
+        },
+        {
+          "id": 45,
+          "name": "Sharpener",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6950,
+    "name": "Khezu G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 172,
+          "name": "Speedloader",
+          "points": 1
+        },
+        {
+          "id": 116,
+          "name": "Fasting",
+          "points": 1
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6951,
+    "name": "Khezu G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 172,
+          "name": "Speedloader",
+          "points": 2
+        },
+        {
+          "id": 116,
+          "name": "Fasting",
+          "points": 2
+        },
+        {
+          "id": 52,
+          "name": "Recoil",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6952,
+    "name": "Mikagura B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 155,
+          "name": "Lone Wolf",
+          "points": 2
+        },
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 1
+        },
+        {
+          "id": 32,
+          "name": "Handicraft",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6953,
+    "name": "Mikagura B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 155,
+          "name": "Lone Wolf",
+          "points": 3
+        },
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 2
+        },
+        {
+          "id": 32,
+          "name": "Handicraft",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6954,
+    "name": "Satokagura G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 155,
+          "name": "Lone Wolf",
+          "points": 2
+        },
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 1
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6955,
+    "name": "Satokagura G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 155,
+          "name": "Lone Wolf",
+          "points": 3
+        },
+        {
+          "id": 173,
+          "name": "Tenderizer",
+          "points": 2
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 6956,
+    "name": "Roses B G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 15,
+          "name": "Sharpness",
+          "points": 1
+        },
+        {
+          "id": 54,
+          "name": "Wind Res",
+          "points": -1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6957,
+    "name": "Roses B GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 3
+        },
+        {
+          "id": 15,
+          "name": "Sharpness",
+          "points": 2
+        },
+        {
+          "id": 54,
+          "name": "Wind Res",
+          "points": -1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6958,
+    "name": "Roses G G",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 5000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 2
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 1
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": -1
+        }
+      ]
+    }
+  },
+  {
+    "id": 6959,
+    "name": "Roses G GF",
+    "receipt_category": 0,
+    "craft_recipes": [],
+    "stats": {
+      "n_slots": 1,
+      "price": 9000,
+      "skills": [
+        {
+          "id": 161,
+          "name": "Brutality",
+          "points": 3
+        },
+        {
+          "id": 69,
+          "name": "Precision",
+          "points": 2
+        },
+        {
+          "id": 36,
+          "name": "Hearing",
+          "points": -1
+        }
+      ]
+    }
   }
 ]

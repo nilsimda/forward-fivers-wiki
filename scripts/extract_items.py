@@ -65,6 +65,7 @@ class Item:
     buy_price: int
     sell_price: int
     item_type: int
+    deco_id: int
     is_gz: bool
     name: str
     description: str
@@ -100,6 +101,7 @@ class Item:
             buy_price=unpacked[10],
             sell_price=unpacked[11],
             item_type=unpacked[12],
+            deco_id=unpacked[13],
             is_gz=bool(unpacked[-2]),
             name=name,
             description=parsed_description.plain,
