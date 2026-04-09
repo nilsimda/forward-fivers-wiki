@@ -23282,8 +23282,77 @@
       "contractor": "Public Tavern",
       "description": "We've received an urgent\nwire from the Dragonwatch!\nA Kushala Daora has intruded\nupon Mezeportan territory!\nWe have to stop it before\nit's too late! Make use of\nthe weapons around the base\nto neutralize the threat!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 550,
+          "item_name": "Daora Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 573,
+          "item_name": "Elder Drgn Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 557,
+          "item_name": "Decayed Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 559,
+          "item_name": "Decayed Webbing+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 556,
+          "item_name": "Daora Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 316,
+          "item_name": "Elder Drgn Bone",
+          "quantity": 1
+        },
+        {
+          "percentage": 21,
+          "item_id": 554,
+          "item_name": "Daora Claw",
+          "quantity": 2
+        },
+        {
+          "percentage": 5,
+          "item_id": 558,
+          "item_name": "Decayed Webbing",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 329,
+          "item_name": "Decayed Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 608,
+          "item_name": "Broken Dragonator",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 724,
+          "item_name": "Tome of Demise",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -45053,8 +45122,117 @@
       "contractor": "Clan Association",
       "description": "According to a new report,\nthe fearsome Abiorg has been\nspotted in the Jungle. One\nof the witnesses reported\nseeing numerous tracks and\nhearing roars from multiple\ndirections. There may be\nmore than one in the area.\nExercise caution."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 5128,
+          "item_name": "Abiorg Cert. D",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 5326,
+          "item_name": "B.Wyvern Horn",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 2
+        },
+        {
+          "percentage": 15,
+          "item_id": 5328,
+          "item_name": "B.Wyv Hardhorn",
+          "quantity": 2
+        },
+        {
+          "percentage": 17,
+          "item_id": 5323,
+          "item_name": "B.Wyvern Scale",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 2
+        },
+        {
+          "percentage": 19,
+          "item_id": 5325,
+          "item_name": "B.Wyvern Shard",
+          "quantity": 2
+        }
+      ],
+      "4": [
+        {
+          "percentage": 20,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 5328,
+          "item_name": "B.Wyv Hardhorn",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 5325,
+          "item_name": "B.Wyvern Shard",
+          "quantity": 1
+        }
+      ],
+      "5": [
+        {
+          "percentage": 30,
+          "item_id": 5347,
+          "item_name": "Joyful Artisoul",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 5346,
+          "item_name": "Calm Artisoul",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 5326,
+          "item_name": "B.Wyvern Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 5323,
+          "item_name": "B.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -52766,7 +52944,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": null,
+    "rank": "hr",
     "reward_boxes": {}
   },
   {
@@ -55672,7 +55850,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": null,
+    "rank": "hr",
     "reward_boxes": {}
   },
   {
@@ -55853,8 +56031,87 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 2954,
+          "item_name": "Draguros Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 2955,
+          "item_name": "Draguros Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 2957,
+          "item_name": "Draguros Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 2960,
+          "item_name": "Draguros Marrow",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 25,
+          "item_id": 2954,
+          "item_name": "Draguros Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 1610,
+          "item_name": "Completion Ticket",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 4752,
+          "item_name": "Tracker's Drink",
+          "quantity": 3
+        },
+        {
+          "percentage": 25,
+          "item_id": 4755,
+          "item_name": "Ultra Hot Drink",
+          "quantity": 5
+        }
+      ],
+      "5": [
+        {
+          "percentage": 25,
+          "item_id": 2954,
+          "item_name": "Draguros Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 1610,
+          "item_name": "Completion Ticket",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 4752,
+          "item_name": "Tracker's Drink",
+          "quantity": 3
+        },
+        {
+          "percentage": 25,
+          "item_id": 4755,
+          "item_name": "Ultra Hot Drink",
+          "quantity": 5
+        }
+      ]
+    }
   },
   {
     "max_players": 2,
@@ -55895,8 +56152,111 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 6,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1270,
+          "item_name": "Beast Thickhide",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1272,
+          "item_name": "Beast Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1273,
+          "item_name": "Beast Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 5
+        }
+      ],
+      "4": [
+        {
+          "percentage": 20,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1610,
+          "item_name": "Completion Ticket",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 4753,
+          "item_name": "Marking Ball",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 27,
+          "item_name": "Max Potion",
+          "quantity": 1
+        }
+      ],
+      "5": [
+        {
+          "percentage": 20,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1610,
+          "item_name": "Completion Ticket",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 4753,
+          "item_name": "Marking Ball",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 27,
+          "item_name": "Max Potion",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 2,
@@ -59296,8 +59656,87 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 30,
+          "item_id": 3537,
+          "item_name": "Grenzebul Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 3538,
+          "item_name": "Grenzebul Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 60,
+          "item_id": 3539,
+          "item_name": "Grenzebul Claw",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        }
+      ],
+      "5": [
+        {
+          "percentage": 33,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 34,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 33,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59338,8 +59777,93 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 30,
+          "item_id": 3537,
+          "item_name": "Grenzebul Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 3538,
+          "item_name": "Grenzebul Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 60,
+          "item_id": 3539,
+          "item_name": "Grenzebul Claw",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        }
+      ],
+      "5": [
+        {
+          "percentage": 75,
+          "item_id": 5384,
+          "item_name": "Secret Ticket 1",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59380,8 +59904,123 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 8,
+          "item_id": 448,
+          "item_name": "Diablos Ridge",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 2
+        },
+        {
+          "percentage": 28,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 23,
+          "item_id": 446,
+          "item_name": "Diablos Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 446,
+          "item_name": "Diablos Shell",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        }
+      ],
+      "5": [
+        {
+          "percentage": 75,
+          "item_id": 5384,
+          "item_name": "Secret Ticket 1",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59422,8 +60061,93 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 40,
+          "item_id": 1795,
+          "item_name": "Pariapuria Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1796,
+          "item_name": "Pariapuria Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 1659,
+          "item_name": "Prickly Eel",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 5
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        }
+      ],
+      "5": [
+        {
+          "percentage": 34,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 33,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 33,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59464,8 +60188,99 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 18,
+          "item_id": 4958,
+          "item_name": "Gogomoa Pelt",
+          "quantity": 1
+        },
+        {
+          "percentage": 23,
+          "item_id": 4964,
+          "item_name": "Gogomoa Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 27,
+          "item_id": 4959,
+          "item_name": "Gogomoa Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 32,
+          "item_id": 4965,
+          "item_name": "Gogomoa Fang+",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 15,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 5
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        }
+      ],
+      "5": [
+        {
+          "percentage": 50,
+          "item_id": 5385,
+          "item_name": "Secret Ticket 2",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 16,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 17,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59506,8 +60321,135 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 19,
+          "item_id": 382,
+          "item_name": "Plesioth Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        },
+        {
+          "percentage": 10,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 5
+        },
+        {
+          "percentage": 6,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 383,
+          "item_name": "Plesioth Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 241,
+          "item_name": "Bomb Arowana",
+          "quantity": 3
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 4
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 6
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 4
+        }
+      ],
+      "5": [
+        {
+          "percentage": 55,
+          "item_id": 5385,
+          "item_name": "Secret Ticket 2",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 15,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 2
+        },
+        {
+          "percentage": 15,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59548,8 +60490,123 @@
       "contractor": "Veteran Hunter",
       "description": "You there, youngster. How\nabout a little hunt? Your\ntarget will be slightly\nlarger, and maybe a little\nstronger than usual. What's\nthe reward? Not much, but it\nshould be a good learning\nexperience."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1342,
+          "item_name": "F.Wyvern Bile",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1343,
+          "item_name": "F.Wyvern Jaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1344,
+          "item_name": "F.Wyvern Jaw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1345,
+          "item_name": "F.Wyvern Maw",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 12
+        }
+      ],
+      "4": [
+        {
+          "percentage": 22,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 14,
+          "item_id": 655,
+          "item_name": "Silver Egg",
+          "quantity": 5
+        },
+        {
+          "percentage": 20,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 2
+        },
+        {
+          "percentage": 14,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 3
+        },
+        {
+          "percentage": 10,
+          "item_id": 656,
+          "item_name": "Golden Egg",
+          "quantity": 5
+        }
+      ],
+      "5": [
+        {
+          "percentage": 50,
+          "item_id": 5386,
+          "item_name": "Secret Ticket 3",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 2600,
+          "item_name": "Red Codex",
+          "quantity": 3
+        },
+        {
+          "percentage": 17,
+          "item_id": 2601,
+          "item_name": "Blue Codex",
+          "quantity": 3
+        },
+        {
+          "percentage": 16,
+          "item_id": 2602,
+          "item_name": "Yellow Codex",
+          "quantity": 3
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59590,8 +60647,65 @@
       "contractor": "Hunter's Guild",
       "description": "Your target this time is a\nfearsome Black Diablos. It\nwon't be easy, but if you\nprevail, you'll receive a\nhefty sum of Zenny and a\ngood deal of HRP!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 16,
+          "item_id": 454,
+          "item_name": "B.Diablos Ridge",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 100,
+          "item_name": "Bone Husk S",
+          "quantity": 18
+        },
+        {
+          "percentage": 4,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 453,
+          "item_name": "B.Diablos Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 100,
+          "item_name": "Bone Husk S",
+          "quantity": 26
+        },
+        {
+          "percentage": 1,
+          "item_id": 101,
+          "item_name": "Bone Husk L",
+          "quantity": 12
+        },
+        {
+          "percentage": 8,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -59632,8 +60746,53 @@
       "contractor": "Hunter's Guild",
       "description": "Your target this time is a\nfearsome Lavasioth. It won't\nbe easy, but if you prevail,\nyou'll receive a hefty sum\nof Zenny and a good deal of\nHRP!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 24,
+          "item_id": 1012,
+          "item_name": "Lavasioth Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1013,
+          "item_name": "Lavasioth Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 17,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        },
+        {
+          "percentage": 10,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 5
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60315,8 +61474,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 372,
+          "item_name": "B.Kut-Ku Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 4911,
+          "item_name": "Boron Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 312,
+          "item_name": "Monster Bone S",
+          "quantity": 2
+        },
+        {
+          "percentage": 13,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 371,
+          "item_name": "B.Kut-Ku Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60357,8 +61561,59 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 20,
+          "item_id": 4912,
+          "item_name": "Sodium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 100,
+          "item_name": "Bone Husk S",
+          "quantity": 16
+        },
+        {
+          "percentage": 21,
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "percentage": 17,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 4,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 1,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 4
+        },
+        {
+          "percentage": 7,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60399,8 +61654,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 15,
+          "item_id": 536,
+          "item_name": "Ceanataur Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 4913,
+          "item_name": "Chlorine Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 536,
+          "item_name": "Ceanataur Shell",
+          "quantity": 2
+        },
+        {
+          "percentage": 12,
+          "item_id": 538,
+          "item_name": "Ceanataur Leg",
+          "quantity": 1
+        },
+        {
+          "percentage": 23,
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 540,
+          "item_name": "Ceanataur Claw",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60441,8 +61741,77 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 17,
+          "item_id": 412,
+          "item_name": "Rathalos Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 4914,
+          "item_name": "Titanium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        },
+        {
+          "percentage": 10,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 5
+        },
+        {
+          "percentage": 5,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 5,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 408,
+          "item_name": "Rathalos Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 415,
+          "item_name": "Rathalos Webbing",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 407,
+          "item_name": "Rath Marrow",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 416,
+          "item_name": "Rathalos Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 3
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60483,8 +61852,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 20,
+          "item_id": 532,
+          "item_name": "Hermitaur Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 4915,
+          "item_name": "Gallium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 530,
+          "item_name": "Hermitaur Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 529,
+          "item_name": "Sm Hermitaur Shl",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 531,
+          "item_name": "Hermitaur Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 247,
+          "item_name": "Glutton Tuna",
+          "quantity": 3
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60525,8 +61939,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 377,
+          "item_name": "Rubbery Prp Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 4916,
+          "item_name": "Niobium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 3
+        },
+        {
+          "percentage": 24,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 378,
+          "item_name": "P.Gypceros Wing",
+          "quantity": 8
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60567,8 +62026,65 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 429,
+          "item_name": "Pearl Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 4917,
+          "item_name": "Antimony Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        },
+        {
+          "percentage": 8,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 5
+        },
+        {
+          "percentage": 10,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 311,
+          "item_name": "Pale Extract",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60609,8 +62125,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 1006,
+          "item_name": "Hypno Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 1,
+          "item_id": 1009,
+          "item_name": "Hypno Bezoar+",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 1005,
+          "item_name": "Hypno Bezoar",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 35,
+          "item_id": 1003,
+          "item_name": "Rainbow Quill",
+          "quantity": 1
+        },
+        {
+          "percentage": 45,
+          "item_id": 1008,
+          "item_name": "Hypno Claw+",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60651,8 +62206,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 432,
+          "item_name": "Alluring Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 433,
+          "item_name": "Alluring Webbing",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 311,
+          "item_name": "Pale Extract",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60693,8 +62293,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 439,
+          "item_name": "Gravios Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 32,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 4
+        },
+        {
+          "percentage": 12,
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 101,
+          "item_name": "Bone Husk L",
+          "quantity": 16
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60735,8 +62380,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 449,
+          "item_name": "Diablos Ridge+",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 447,
+          "item_name": "Diablos Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 2
+        },
+        {
+          "percentage": 32,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60777,8 +62467,35 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 511,
+          "item_name": "Blangonga Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 54,
+          "item_id": 277,
+          "item_name": "Silver Ricegrass",
+          "quantity": 3
+        },
+        {
+          "percentage": 8,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 28,
+          "item_id": 512,
+          "item_name": "Blango Whisker",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60819,8 +62536,41 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 15,
+          "item_id": 518,
+          "item_name": "Congalala Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 515,
+          "item_name": "Vibrant Pelt",
+          "quantity": 1
+        },
+        {
+          "percentage": 35,
+          "item_id": 517,
+          "item_name": "Congalala Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 36,
+          "item_id": 320,
+          "item_name": "Bone",
+          "quantity": 4
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60861,8 +62611,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 382,
+          "item_name": "Plesioth Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 970,
+          "item_name": "Plesioth Fin+",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 383,
+          "item_name": "Plesioth Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 46,
+          "item_id": 381,
+          "item_name": "Plesioth Scale",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60903,8 +62692,41 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 365,
+          "item_name": "Kut-Ku Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 363,
+          "item_name": "Kut-Ku Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 1,
+          "item_id": 1024,
+          "item_name": "Neodymium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 50,
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60945,8 +62767,83 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 14,
+          "item_id": 420,
+          "item_name": "A.Rathalos Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 4918,
+          "item_name": "Lutetium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 419,
+          "item_name": "A.Rathalos Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 5
+        },
+        {
+          "percentage": 8,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 5
+        },
+        {
+          "percentage": 5,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 415,
+          "item_name": "Rathalos Webbing",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 407,
+          "item_name": "Rath Marrow",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 422,
+          "item_name": "A.Rathalos Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -60987,8 +62884,41 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 15,
+          "item_id": 986,
+          "item_name": "Tigrex Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 990,
+          "item_name": "Tigrex Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 992,
+          "item_name": "Tigrex Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 42,
+          "item_id": 988,
+          "item_name": "Tigrex Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61029,8 +62959,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 20,
+          "item_id": 405,
+          "item_name": "G.Rathian Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 404,
+          "item_name": "G.Rathian Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 399,
+          "item_name": "Rathian Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 395,
+          "item_name": "Rathian Ruby",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 4
+        },
+        {
+          "percentage": 16,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 2
+        },
+        {
+          "percentage": 5,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61071,8 +63046,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 15,
+          "item_id": 424,
+          "item_name": "S.Rathalos Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 423,
+          "item_name": "S.Rathalos Scl+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 427,
+          "item_name": "S.Rathalos Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 411,
+          "item_name": "Rathalos Ruby",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 4
+        },
+        {
+          "percentage": 18,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 2
+        },
+        {
+          "percentage": 8,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61113,8 +63133,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 22,
+          "item_id": 598,
+          "item_name": "Garuga Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 602,
+          "item_name": "Garuga Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 603,
+          "item_name": "Garuga Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 604,
+          "item_name": "Garuga Mane",
+          "quantity": 1
+        },
+        {
+          "percentage": 34,
+          "item_id": 599,
+          "item_name": "Garuga Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61155,8 +63214,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 12,
+          "item_id": 442,
+          "item_name": "B.Gravios Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 30,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 4
+        },
+        {
+          "percentage": 34,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "percentage": 4,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61197,8 +63295,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 15,
+          "item_id": 454,
+          "item_name": "B.Diablos Ridge",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 38,
+          "item_id": 456,
+          "item_name": "B.Diablos Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 101,
+          "item_name": "Bone Husk L",
+          "quantity": 12
+        },
+        {
+          "percentage": 4,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61239,8 +63376,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 27,
+          "item_name": "Max Potion",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 725,
+          "item_name": "Tome of Legends",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 744,
+          "item_name": "Commendation",
+          "quantity": 1
+        },
+        {
+          "percentage": 28,
+          "item_id": 524,
+          "item_name": "Rajang Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 45,
+          "item_id": 523,
+          "item_name": "Rajang Blackfur",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61281,8 +63457,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 384,
+          "item_name": "G.Plesioth Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 972,
+          "item_name": "G.Plesioth Fin+",
+          "quantity": 1
+        },
+        {
+          "percentage": 36,
+          "item_id": 971,
+          "item_name": "G.Plesioth Scl+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 40,
+          "item_id": 385,
+          "item_name": "G.Plesioth Fin",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61323,8 +63538,47 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 12,
+          "item_id": 375,
+          "item_name": "Rubbery Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 950,
+          "item_name": "Toxin Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 323,
+          "item_name": "Wyvern Claw",
+          "quantity": 2
+        },
+        {
+          "percentage": 1,
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 322,
+          "item_name": "Wyvern Fang",
+          "quantity": 4
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61365,8 +63619,71 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 401,
+          "item_name": "P.Rathian Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 4919,
+          "item_name": "Protactinium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 21,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 393,
+          "item_name": "Rathian Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 21,
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 399,
+          "item_name": "Rathian Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 3
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61407,8 +63724,59 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 4920,
+          "item_name": "Fermium Note",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1358,
+          "item_name": "P.Wyvern Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1359,
+          "item_name": "P.Wyvern Blood+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1364,
+          "item_name": "P.Wyvern Gills",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1365,
+          "item_name": "P.Wyvern Gills+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1366,
+          "item_name": "P.Wyv Grandgills",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -61449,8 +63817,53 @@
       "contractor": "Smithy",
       "description": "Ancient notes about crafting\ntechniques, believed to have\nbeen lost to time, have been\nfound on monsters in various\nlocales! If you happen to\nget your hands on one, bring\nit to me at once! I'll show\nyou what a real man can do!"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "0": [
+        {
+          "percentage": 20,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1297,
+          "item_name": "Cpceon Direblade",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1088,
+          "item_name": "Carapaceolite",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1089,
+          "item_name": "Carapaceolite+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1090,
+          "item_name": "Pure Cpceolite",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4920,
+          "item_name": "Fermium Note",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -64106,8 +66519,59 @@
       "contractor": "Guild Painter",
       "description": "Ah, right, that painting the\nGuild ordered... Yes, yes,\nof course. All that's left\nis the Velocipreys. Oh, if\nonly anyone was willing to\nhelp me capture their raw\nferocity... I'm sure the\nGuild would reward them\nhandsomely..."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 2142,
+          "item_name": "Guild Seal",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1376,
+          "item_name": "Avian Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 1377,
+          "item_name": "Avian Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1378,
+          "item_name": "Avian Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1394,
+          "item_name": "Avian Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 1395,
+          "item_name": "Avian Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1396,
+          "item_name": "Avian Lash",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1444,
+          "item_name": "Monster Oil+",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -67842,8 +70306,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Fasting Jewel+\n- Focus Jewel+\n- Trapmaster Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 8,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1343,
+          "item_name": "F.Wyvern Jaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1344,
+          "item_name": "F.Wyvern Jaw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 3940,
+          "item_name": "Sage Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3941,
+          "item_name": "Oxhorn Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3943,
+          "item_name": "Rabbit Ear Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1346,
+          "item_name": "F.Wyvern Tear",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1347,
+          "item_name": "F.Wyvern Tear+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3940,
+          "item_name": "Sage Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3941,
+          "item_name": "Oxhorn Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -67884,8 +70419,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Guts Jewel+\n- Bolt Jewel+\n- Dragon Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 8,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1278,
+          "item_name": "Beast Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 3942,
+          "item_name": "Tigrine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3946,
+          "item_name": "Equine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3948,
+          "item_name": "Simian Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3946,
+          "item_name": "Equine Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3948,
+          "item_name": "Simian Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -67926,8 +70532,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Blaze Jewel+\n- Stream Jewel+\n- BombCryst Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 8,
+          "item_id": 1358,
+          "item_name": "P.Wyvern Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1359,
+          "item_name": "P.Wyvern Blood+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 3944,
+          "item_name": "Longan Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3945,
+          "item_name": "Ophidian Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3949,
+          "item_name": "Gallus Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1355,
+          "item_name": "P.Wyvern Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1356,
+          "item_name": "P.Wyvern Fin+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3944,
+          "item_name": "Longan Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3945,
+          "item_name": "Ophidian Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -67968,8 +70645,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Frost Jewel+\n- DragonCryst Jewel+\n- Poisoncoat Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 8,
+          "item_id": 1322,
+          "item_name": "F.Wyvern Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1323,
+          "item_name": "F.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 3947,
+          "item_name": "White Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 3950,
+          "item_name": "Canine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 22,
+          "item_id": 4108,
+          "item_name": "Suilline Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1328,
+          "item_name": "F.Wyvern Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1329,
+          "item_name": "F.Wyvern Blood+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3947,
+          "item_name": "White Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 3950,
+          "item_name": "Canine Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68010,8 +70758,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Paracoat Jewel+\n- ParaCryst Jewel+\n- FireCryst Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1088,
+          "item_name": "Carapaceolite",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1089,
+          "item_name": "Carapaceolite+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 4109,
+          "item_name": "Mastodon Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 4112,
+          "item_name": "Rhinoceros Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 4114,
+          "item_name": "Panthera Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4112,
+          "item_name": "Rhinoceros Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4114,
+          "item_name": "Panthera Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68052,8 +70871,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Sleepcoat Jewel+\n- WaterCryst Jewel+\n- ThndrCryst Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1379,
+          "item_name": "Avian Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1380,
+          "item_name": "Avian Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1391,
+          "item_name": "Avian Pelt",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1392,
+          "item_name": "Avian Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 4110,
+          "item_name": "Leonine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 4115,
+          "item_name": "Alligator Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 4116,
+          "item_name": "Foxtail Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1388,
+          "item_name": "Avian Beak",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1389,
+          "item_name": "Avian Beak+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4110,
+          "item_name": "Leonine Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4115,
+          "item_name": "Alligator Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68094,8 +70984,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- PoisonCryst Jewel+\n- SleepCryst Jewel+\n- IceCryst Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 1367,
+          "item_name": "Avian Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1368,
+          "item_name": "Avian Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1379,
+          "item_name": "Avian Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1380,
+          "item_name": "Avian Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 4111,
+          "item_name": "Ursine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4113,
+          "item_name": "Tanuki Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4117,
+          "item_name": "Lupine Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1379,
+          "item_name": "Avian Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1380,
+          "item_name": "Avian Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4113,
+          "item_name": "Tanuki Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4117,
+          "item_name": "Lupine Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68136,8 +71097,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Ironwall Jewel+\n- Rapidfire Jewel+\n- Bombardier Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 1298,
+          "item_name": "F.Wyvern Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1299,
+          "item_name": "F.Wyvern Carpace",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 4704,
+          "item_name": "Surge Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4706,
+          "item_name": "Crowbill Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4707,
+          "item_name": "Aquiline Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 26,
+          "item_id": 1298,
+          "item_name": "F.Wyvern Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 56,
+          "item_id": 1299,
+          "item_name": "F.Wyvern Carpace",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4706,
+          "item_name": "Crowbill Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4707,
+          "item_name": "Aquiline Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68178,8 +71210,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Quickload Jewel+\n- Wind Res Jewel+\n- Artillery Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 1319,
+          "item_name": "F.Wyvern Spike",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1320,
+          "item_name": "F.Wyvern Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1322,
+          "item_name": "F.Wyvern Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1323,
+          "item_name": "F.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 4705,
+          "item_name": "Musteline Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4709,
+          "item_name": "Porcine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4713,
+          "item_name": "Selachian Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1316,
+          "item_name": "F.Wyvern Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1317,
+          "item_name": "F.Wyvern Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4709,
+          "item_name": "Porcine Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4713,
+          "item_name": "Selachian Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68220,8 +71323,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Protection Jewel+\n- Evasion Jewel+\n- Precision Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 10,
+          "item_id": 1313,
+          "item_name": "F.Wyvern Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1314,
+          "item_name": "F.Wyvern Wing+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1325,
+          "item_name": "F.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1326,
+          "item_name": "F.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 4708,
+          "item_name": "Strigine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4710,
+          "item_name": "Swallowtail Jwl",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 4712,
+          "item_name": "Sparrowdance Jwl",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1316,
+          "item_name": "F.Wyvern Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1317,
+          "item_name": "F.Wyvern Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4708,
+          "item_name": "Strigine Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4710,
+          "item_name": "Swallowtail Jwl",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68262,8 +71436,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Sprinter Jewel+\n- Attack Jewel+\n- Gobbler Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 4711,
+          "item_name": "Cervine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5110,
+          "item_name": "Crane Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5111,
+          "item_name": "Cat's Eye Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1355,
+          "item_name": "P.Wyvern Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1356,
+          "item_name": "P.Wyvern Fin+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 4711,
+          "item_name": "Cervine Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5110,
+          "item_name": "Crane Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68304,8 +71549,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Grinder Jewel+\n- Fate Jewel+\n- PiercePlus Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 5112,
+          "item_name": "Testudine Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5402,
+          "item_name": "Iris Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5407,
+          "item_name": "Sienna Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5402,
+          "item_name": "Iris Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5407,
+          "item_name": "Sienna Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68346,8 +71662,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Firm Jewel+\n- Capacity Jewel+\n- PelletPlus Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1310,
+          "item_name": "F.Wyvern Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1311,
+          "item_name": "F.Wyvern Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 5401,
+          "item_name": "Iron Black Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5403,
+          "item_name": "Horsetail Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5408,
+          "item_name": "Buttermilk Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1349,
+          "item_name": "F.Wyvern Fluid",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1350,
+          "item_name": "F.Wyvern Fluid+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5401,
+          "item_name": "Iron Black Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5403,
+          "item_name": "Horsetail Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68388,8 +71775,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Resistance Jewel+\n- Sloth Jewel+\n- Frailty Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1272,
+          "item_name": "Beast Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 5404,
+          "item_name": "Argent Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5409,
+          "item_name": "Dusky Blue Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5410,
+          "item_name": "Light Purple Jwl",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5409,
+          "item_name": "Dusky Blue Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5410,
+          "item_name": "Light Purple Jwl",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68430,8 +71888,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Friendship Jewel+\n- ShotPlus Jewel+\n- Safety Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 5405,
+          "item_name": "Pale Orange Jwl",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 5406,
+          "item_name": "Vermillion Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6007,
+          "item_name": "Willow Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 5406,
+          "item_name": "Vermillion Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6007,
+          "item_name": "Willow Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68472,8 +72001,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Mindful Jewel+\n- Def Lock Jewel+\n- Element Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1278,
+          "item_name": "Beast Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6000,
+          "item_name": "Pink Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6003,
+          "item_name": "Alabaster Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6008,
+          "item_name": "Light Indigo Jwl",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6003,
+          "item_name": "Alabaster Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6008,
+          "item_name": "Light Indigo Jwl",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68514,8 +72114,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Willpower Jewel+\n- Pierce Jewel+\n- Disabler Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1370,
+          "item_name": "Avian Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1371,
+          "item_name": "Avian Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1385,
+          "item_name": "Avian Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1386,
+          "item_name": "Avian Gem+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6001,
+          "item_name": "Light Brown Jwl",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6005,
+          "item_name": "Slate Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6009,
+          "item_name": "Chatreuse Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1385,
+          "item_name": "Avian Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1386,
+          "item_name": "Avian Gem+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6005,
+          "item_name": "Slate Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6009,
+          "item_name": "Chatreuse Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68556,8 +72227,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Dragon Res Jewel+\n- Forceshot Jewel+\n- Pellet Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1325,
+          "item_name": "F.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1326,
+          "item_name": "F.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1331,
+          "item_name": "F.Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1332,
+          "item_name": "F.Wyvern Gem+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6002,
+          "item_name": "Tawny Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6004,
+          "item_name": "Amber Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6006,
+          "item_name": "Flax Jewel",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1316,
+          "item_name": "F.Wyvern Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1317,
+          "item_name": "F.Wyvern Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6002,
+          "item_name": "Tawny Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6004,
+          "item_name": "Amber Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68598,8 +72340,47 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Control Jewel+\n- Sheathe Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 22,
+          "item_id": 1358,
+          "item_name": "P.Wyvern Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1359,
+          "item_name": "P.Wyvern Blood+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 1364,
+          "item_name": "P.Wyvern Gills",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1365,
+          "item_name": "P.Wyvern Gills+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6130,
+          "item_name": "Steel Blue Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6131,
+          "item_name": "Dark Blue Jewel",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68640,8 +72421,47 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Throwing Jewel+\n- Discipline Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 22,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 22,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1272,
+          "item_name": "Beast Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6132,
+          "item_name": "Rust Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6136,
+          "item_name": "Purple Jewel",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68682,8 +72502,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Barrier Jewel+\n- Insight Jewel+\n- Unshakeable Jewel+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1367,
+          "item_name": "Avian Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1368,
+          "item_name": "Avian Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1382,
+          "item_name": "Avian Bone",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1383,
+          "item_name": "Avian Bone+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6133,
+          "item_name": "Yellow Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6135,
+          "item_name": "Scarlet Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6139,
+          "item_name": "Spring Green Jwl",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1370,
+          "item_name": "Avian Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1371,
+          "item_name": "Avian Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6135,
+          "item_name": "Scarlet Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6139,
+          "item_name": "Spring Green Jwl",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -68724,8 +72615,79 @@
       "contractor": "Hunter's Guild",
       "description": "I've found some priceless\ndecorations while looking\nthrough a Guild warehouse.\nThey can all be yours if\nyou complete the Quest!\nBreak the monster's part\nto earn a few extra!\n- Focus Jewel 2+\n- Celerity Jewel+\n- Artillery Jewel 2+"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 1313,
+          "item_name": "F.Wyvern Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1314,
+          "item_name": "F.Wyvern Wing+",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 6134,
+          "item_name": "Jet-Black Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6137,
+          "item_name": "Orpiment Jewel",
+          "quantity": 2
+        },
+        {
+          "percentage": 18,
+          "item_id": 6138,
+          "item_name": "Moss Brown Jwl",
+          "quantity": 2
+        }
+      ],
+      "2": [
+        {
+          "percentage": 56,
+          "item_id": 1328,
+          "item_name": "F.Wyvern Blood",
+          "quantity": 1
+        },
+        {
+          "percentage": 26,
+          "item_id": 1329,
+          "item_name": "F.Wyvern Blood+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6134,
+          "item_name": "Jet-Black Jewel",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 6137,
+          "item_name": "Orpiment Jewel",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72227,8 +76189,53 @@
       "contractor": "Coated Explorer",
       "description": "「冠婚つらら」をご存じか？\n男女が結ばれて子供が生まれ、\n世代が一巡するほどの長い\n時間をかけてできあがった、\nロマンあふれるつららなんだ。\n知る者の少ない貴重品だが、\n俺の依頼をこなしてくれたら、\n少しくらいは分けてやれるぞ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 3294,
+          "item_name": "Icicle Tiara",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 3294,
+          "item_name": "Icicle Tiara",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 432,
+          "item_name": "Alluring Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 12,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "percentage": 25,
+          "item_id": 311,
+          "item_name": "Pale Extract",
+          "quantity": 1
+        },
+        {
+          "percentage": 17,
+          "item_id": 309,
+          "item_name": "Electro Sac",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72269,8 +76276,65 @@
       "contractor": "Coated Explorer",
       "description": "見なれた密林であっても、\n俺のようなプロにかかれば、\n希少素材を見つけ出すことが\n可能なのさ。あの辺に徘徊\nする邪魔なモンスターさえ\n片付けてくれれば、希少素材\n「千年雪」を見つけてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 20,
+          "item_id": 3295,
+          "item_name": "Millenial Snow",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 401,
+          "item_name": "P.Rathian Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 384,
+          "item_name": "G.Plesioth Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 385,
+          "item_name": "G.Plesioth Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 399,
+          "item_name": "Rathian Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72311,8 +76375,59 @@
       "contractor": "Coated Explorer",
       "description": "塔は実に謎の多い場所だな。\nだが、極寒の地で育った俺の\n直感が、ここに眠る希少素材\nの存在を告げているんだ……。\nハンターさんにはいつも通り\n邪魔なモンスターの狩猟を\nお願いしたい。俺はその間に\n素材探しをさせてもらおう！"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 3296,
+          "item_name": "Permafrost Piece",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 2647,
+          "item_name": "Duragaua Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 2648,
+          "item_name": "Duragaua Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 32,
+          "item_id": 2651,
+          "item_name": "Duragaua Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 28,
+          "item_id": 2652,
+          "item_name": "Duragaua Carpace",
+          "quantity": 1
+        },
+        {
+          "percentage": 1,
+          "item_id": 2650,
+          "item_name": "Duragaua Spike",
+          "quantity": 1
+        },
+        {
+          "percentage": 1,
+          "item_id": 2656,
+          "item_name": "Duragaua Spike+",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72353,8 +76468,115 @@
       "contractor": "毛皮の服の探検家",
       "description": "知っての通り、俺は探検家だ。\nどんな苦労も恐れはしない。\nそしてハンターさんよ、同じ\n匂いをあんたからも感じるぜ。\n高難度の仕事が、大願成就の\nための氷山の一角でしかない\nとわかっていても、それでも\n情熱を失わずに歩み続ける！\nお互いやっかいな性分だな！"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 3297,
+          "item_name": "Iceberg Tip",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1276,
+          "item_name": "Beast Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1278,
+          "item_name": "Beast Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1279,
+          "item_name": "Beast Lash",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 15
+        }
+      ],
+      "2": [
+        {
+          "percentage": 5,
+          "item_id": 3297,
+          "item_name": "Iceberg Tip",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1272,
+          "item_name": "Beast Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1273,
+          "item_name": "Beast Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1276,
+          "item_name": "Beast Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72395,8 +76617,65 @@
       "contractor": "白黒の髭の老人",
       "description": "どんなものにも、本当の姿と\n偽りの姿があります。まずは、\n私からの依頼をこなすことで、\n本物を見抜く目を鍛えなさい。\n上手くいったら、私が集めた\n奇妙な石を差し上げましょう。\n特殊構造のガンランスを生産\nすることができるはずですよ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 3298,
+          "item_name": "Reversible Stone",
+          "quantity": 2
+        },
+        {
+          "percentage": 20,
+          "item_id": 3298,
+          "item_name": "Reversible Stone",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 100,
+          "item_name": "Bone Husk S",
+          "quantity": 16
+        },
+        {
+          "percentage": 10,
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "percentage": 27,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "percentage": 4,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 1,
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "quantity": 4
+        },
+        {
+          "percentage": 7,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72437,8 +76716,91 @@
       "contractor": "白黒の髭の老人",
       "description": "目標に向かって進むことは\n大切ですが、時には脇道に\nそれることも必要なのです。\n「ネコかぶり」は道草を食う\nことでしか手に入れることが\nできない特殊な植物です。\nあなたのペースでじっくりと\n集めるのがよいでしょう。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 20,
+          "item_id": 3299,
+          "item_name": "Felyne Herb",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 442,
+          "item_name": "B.Gravios Cpc",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "percentage": 15,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 101,
+          "item_name": "Bone Husk L",
+          "quantity": 16
+        },
+        {
+          "percentage": 9,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 4
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 3299,
+          "item_name": "Felyne Herb",
+          "quantity": 1
+        },
+        {
+          "percentage": 54,
+          "item_id": 196,
+          "item_name": "Blue Mushroom",
+          "quantity": 1
+        },
+        {
+          "percentage": 24,
+          "item_id": 197,
+          "item_name": "Nitroshroom",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 198,
+          "item_name": "Parashroom",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72479,8 +76841,83 @@
       "contractor": "白黒の髭の老人",
       "description": "嘘をつくことは悪でしょうか。\n時には、善意の嘘が人を救う\n場合もあります。必要以上に\n偽りを恐れてはなりません。\nモンスターの狩猟を通して、\nあなた自身が変わっていく\nことを願っております。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "hr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 13,
+          "item_id": 3300,
+          "item_name": "False Whetstone",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 950,
+          "item_name": "Toxin Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1055,
+          "item_name": "F.Espinas Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1056,
+          "item_name": "F.Espinas Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1057,
+          "item_name": "F.Espinas Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1058,
+          "item_name": "F.Espinas Ruby",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1059,
+          "item_name": "F.Espinas Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1060,
+          "item_name": "F.Espinas Acid",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 393,
+          "item_name": "Rathian Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 951,
+          "item_name": "Inferno Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 399,
+          "item_name": "Rathian Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -72521,8 +76958,65 @@
       "contractor": "白黒の髭の老人",
       "description": "白い紙に白い文字を書いても\n読むことができませんよね。\n黒い紙に黒い文字を書いても\n同じことです。白と黒とが\n組み合わさることで、初めて\n新たな価値が生まれるのです。\n相反するもの、その両方を\n認めることで更なる価値を\n生むこと、それが止揚です。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 1,
+          "item_id": 3301,
+          "item_name": "Black Platinum",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1342,
+          "item_name": "F.Wyvern Bile",
+          "quantity": 1
+        },
+        {
+          "percentage": 20,
+          "item_id": 1343,
+          "item_name": "F.Wyvern Jaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1344,
+          "item_name": "F.Wyvern Jaw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1345,
+          "item_name": "F.Wyvern Maw",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 12
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -77423,8 +81917,165 @@
       "contractor": "Older? Hunter",
       "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 12,
+          "item_id": 1351,
+          "item_name": "F.Wyvern Broth",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1316,
+          "item_name": "F.Wyvern Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1457,
+          "item_name": "Black Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1313,
+          "item_name": "F.Wyvern Wing",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1314,
+          "item_name": "F.Wyvern Wing+",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 1315,
+          "item_name": "F.Wyv Fellwing",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1336,
+          "item_name": "F.Wyvern Crown",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1297,
+          "item_name": "Cpceon Direblade",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1088,
+          "item_name": "Carapaceolite",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1089,
+          "item_name": "Carapaceolite+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1090,
+          "item_name": "Pure Cpceolite",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1376,
+          "item_name": "Avian Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 1377,
+          "item_name": "Avian Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1378,
+          "item_name": "Avian Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1394,
+          "item_name": "Avian Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1395,
+          "item_name": "Avian Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1396,
+          "item_name": "Avian Lash",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77465,8 +82116,165 @@
       "contractor": "Older? Hunter",
       "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1351,
+          "item_name": "F.Wyvern Broth",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1301,
+          "item_name": "F.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1454,
+          "item_name": "Yellow Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 1322,
+          "item_name": "F.Wyvern Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1323,
+          "item_name": "F.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1324,
+          "item_name": "F.Wyv Hardhorn",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 1340,
+          "item_name": "F.Wyvern Liver",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1341,
+          "item_name": "F.Wyvern Liver+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1342,
+          "item_name": "F.Wyvern Bile",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 941,
+          "item_name": "Aminotite",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1291,
+          "item_name": "Cpceon Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1318,
+          "item_name": "F.Wyvern Lash",
+          "quantity": 1
+        },
+        {
+          "percentage": 39,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77507,8 +82315,171 @@
       "contractor": "Older? Hunter",
       "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 232,
+          "item_name": "Anbar Ore",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1297,
+          "item_name": "Cpceon Direblade",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 941,
+          "item_name": "Aminotite",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1454,
+          "item_name": "Yellow Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1297,
+          "item_name": "Cpceon Direblade",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1310,
+          "item_name": "F.Wyvern Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1393,
+          "item_name": "Avian Piel",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1316,
+          "item_name": "F.Wyvern Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1310,
+          "item_name": "F.Wyvern Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1311,
+          "item_name": "F.Wyvern Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1312,
+          "item_name": "F.Wyvern Piel",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1336,
+          "item_name": "F.Wyvern Crown",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77549,8 +82520,177 @@
       "contractor": "Older? Hunter",
       "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 1372,
+          "item_name": "Avian Finehide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1396,
+          "item_name": "Avian Lash",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1346,
+          "item_name": "F.Wyvern Tear",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1458,
+          "item_name": "White Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1379,
+          "item_name": "Avian Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1380,
+          "item_name": "Avian Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1381,
+          "item_name": "Avian Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1391,
+          "item_name": "Avian Pelt",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1392,
+          "item_name": "Avian Pelt+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1393,
+          "item_name": "Avian Piel",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1440,
+          "item_name": "Coma Sac",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1304,
+          "item_name": "F.Wyvern Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1291,
+          "item_name": "Cpceon Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1291,
+          "item_name": "Cpceon Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77591,8 +82731,159 @@
       "contractor": "Older? Hunter",
       "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 16,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1306,
+          "item_name": "F.Wyv Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1355,
+          "item_name": "P.Wyvern Fin",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1454,
+          "item_name": "Yellow Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1295,
+          "item_name": "Carapaceon Blade",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1296,
+          "item_name": "Cpceon Blade+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1297,
+          "item_name": "Cpceon Direblade",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 13,
+          "item_id": 595,
+          "item_name": "Remobra Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 32,
+          "item_id": 1310,
+          "item_name": "F.Wyvern Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1312,
+          "item_name": "F.Wyvern Piel",
+          "quantity": 1
+        },
+        {
+          "percentage": 32,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1336,
+          "item_name": "F.Wyvern Crown",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 12,
+          "item_id": 1270,
+          "item_name": "Beast Thickhide",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1268,
+          "item_name": "Beast Hide",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1269,
+          "item_name": "Beast Hide+",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1271,
+          "item_name": "Beast Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1272,
+          "item_name": "Beast Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1273,
+          "item_name": "Beast Hardfang",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77633,8 +82924,171 @@
       "contractor": "Older? Hunter",
       "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 550,
+          "item_name": "Daora Scale",
+          "quantity": 2
+        },
+        {
+          "percentage": 10,
+          "item_id": 1306,
+          "item_name": "F.Wyv Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1458,
+          "item_name": "White Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1319,
+          "item_name": "F.Wyvern Spike",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1320,
+          "item_name": "F.Wyvern Spike+",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1321,
+          "item_name": "F.Wyv Surspike",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1322,
+          "item_name": "F.Wyvern Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1323,
+          "item_name": "F.Wyvern Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1324,
+          "item_name": "F.Wyv Hardhorn",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1437,
+          "item_name": "Scorch Sac",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 549,
+          "item_name": "Daora Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1393,
+          "item_name": "Avian Piel",
+          "quantity": 1
+        },
+        {
+          "percentage": 40,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1291,
+          "item_name": "Cpceon Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 28,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77675,8 +83129,171 @@
       "contractor": "Older? Hunter",
       "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 1001,
+          "item_name": "Hypno Pelt",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1351,
+          "item_name": "F.Wyvern Broth",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1008,
+          "item_name": "Hypno Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1454,
+          "item_name": "Yellow Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 6,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1438,
+          "item_name": "Tidal Sac",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1306,
+          "item_name": "F.Wyv Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1276,
+          "item_name": "Beast Hardclaw",
+          "quantity": 1
+        },
+        {
+          "percentage": 39,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1278,
+          "item_name": "Beast Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1279,
+          "item_name": "Beast Lash",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1005,
+          "item_name": "Hypno Bezoar",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1289,
+          "item_name": "Carapaceon Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1291,
+          "item_name": "Cpceon Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -77717,8 +83334,171 @@
       "contractor": "Older? Hunter",
       "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 232,
+          "item_name": "Anbar Ore",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1345,
+          "item_name": "F.Wyvern Maw",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1330,
+          "item_name": "ThickF.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1331,
+          "item_name": "F.Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1455,
+          "item_name": "Green Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1298,
+          "item_name": "F.Wyvern Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1299,
+          "item_name": "F.Wyvern Carpace",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1300,
+          "item_name": "F.Wyvern Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1334,
+          "item_name": "F.Wyvern Scalp",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1335,
+          "item_name": "F.Wyvern Scalp+",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1336,
+          "item_name": "F.Wyvern Crown",
+          "quantity": 1
+        },
+        {
+          "percentage": 4,
+          "item_id": 1437,
+          "item_name": "Scorch Sac",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 21,
+          "item_id": 1280,
+          "item_name": "Neopteron Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1281,
+          "item_name": "Nptron Carapace",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1282,
+          "item_name": "Neopteron Cortex",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 1286,
+          "item_name": "Neopteron Fluid",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1287,
+          "item_name": "Neopteron Fluid+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1288,
+          "item_name": "Neopteron Broth",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1331,
+          "item_name": "F.Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 11,
+          "item_id": 1250,
+          "item_name": "Herbivore Horn",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1251,
+          "item_name": "Herbivore Horn+",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1252,
+          "item_name": "Herbvr Hardhorn",
+          "quantity": 1
+        },
+        {
+          "percentage": 15,
+          "item_id": 1259,
+          "item_name": "Herbivore Hoof",
+          "quantity": 1
+        },
+        {
+          "percentage": 12,
+          "item_id": 1260,
+          "item_name": "Herbivore Hoof+",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1261,
+          "item_name": "Herbvr Hardhoof",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -84524,8 +90304,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nRed Voucher I. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7144,
+          "item_name": "Red Voucher 1",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84566,8 +90355,23 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nRed Voucher II. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 7007,
+          "item_name": "G Weapon Kit",
+          "quantity": 1
+        },
+        {
+          "percentage": 50,
+          "item_id": 7008,
+          "item_name": "G Armor Kit",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84608,8 +90412,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher I. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7145,
+          "item_name": "Red Voucher 2",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84650,8 +90463,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher II. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7146,
+          "item_name": "Red Voucher 3",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84692,8 +90514,23 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher III. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 7007,
+          "item_name": "G Weapon Kit",
+          "quantity": 2
+        },
+        {
+          "percentage": 50,
+          "item_id": 7008,
+          "item_name": "G Armor Kit",
+          "quantity": 2
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84734,8 +90571,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher I. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7147,
+          "item_name": "Yellow Voucher 1",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84776,8 +90622,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher II. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7148,
+          "item_name": "Yellow Voucher 2",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84818,8 +90673,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher III. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7149,
+          "item_name": "Yellow Voucher 3",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84860,8 +90724,23 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher IV. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 7007,
+          "item_name": "G Weapon Kit",
+          "quantity": 3
+        },
+        {
+          "percentage": 50,
+          "item_id": 7008,
+          "item_name": "G Armor Kit",
+          "quantity": 3
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84902,8 +90781,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher I. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7150,
+          "item_name": "White Voucher 1",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84944,8 +90832,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher II. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7151,
+          "item_name": "White Voucher 2",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -84986,8 +90883,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher III. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7152,
+          "item_name": "White Voucher 3",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85028,8 +90934,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher IV. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7153,
+          "item_name": "White Voucher 4",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85070,8 +90985,23 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher V. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 7007,
+          "item_name": "G Weapon Kit",
+          "quantity": 4
+        },
+        {
+          "percentage": 50,
+          "item_id": 7008,
+          "item_name": "G Armor Kit",
+          "quantity": 4
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85112,8 +91042,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher I. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7154,
+          "item_name": "Green Voucher 1",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85154,8 +91093,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher II. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7155,
+          "item_name": "Green Voucher 2",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85196,8 +91144,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher III. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7156,
+          "item_name": "Green Voucher 3",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85238,8 +91195,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher IV. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7157,
+          "item_name": "Green Voucher 4",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85280,8 +91246,17 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher V. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 100,
+          "item_id": 7158,
+          "item_name": "Green Voucher 5",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 1,
@@ -85322,8 +91297,23 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher VI. We look\nforward to your exploits."
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "lr",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 50,
+          "item_id": 7007,
+          "item_name": "G Weapon Kit",
+          "quantity": 5
+        },
+        {
+          "percentage": 50,
+          "item_id": 7008,
+          "item_name": "G Armor Kit",
+          "quantity": 5
+        }
+      ]
+    }
   },
   {
     "max_players": 4,
@@ -85481,8 +91471,177 @@
       "contractor": "Older? Hunter",
       "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
     },
-    "rank": null,
-    "reward_boxes": {}
+    "rank": "er",
+    "reward_boxes": {
+      "1": [
+        {
+          "percentage": 5,
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 12,
+          "item_id": 1318,
+          "item_name": "F.Wyvern Lash",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1351,
+          "item_name": "F.Wyvern Broth",
+          "quantity": 1
+        },
+        {
+          "percentage": 16,
+          "item_id": 1301,
+          "item_name": "F.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 3,
+          "item_id": 1457,
+          "item_name": "Black Dyegrass",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1325,
+          "item_name": "F.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 7,
+          "item_id": 1326,
+          "item_name": "F.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 5,
+          "item_id": 1327,
+          "item_name": "F.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1331,
+          "item_name": "F.Wyvern Gem",
+          "quantity": 1
+        },
+        {
+          "percentage": 13,
+          "item_id": 1332,
+          "item_name": "F.Wyvern Gem+",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1333,
+          "item_name": "Rare F.Wyv Gem",
+          "quantity": 1
+        }
+      ],
+      "2": [
+        {
+          "percentage": 10,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "percentage": 29,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1
+        }
+      ],
+      "3": [
+        {
+          "percentage": 10,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1
+        },
+        {
+          "percentage": 10,
+          "item_id": 1367,
+          "item_name": "Avian Shell",
+          "quantity": 1
+        },
+        {
+          "percentage": 29,
+          "item_id": 1376,
+          "item_name": "Avian Fang",
+          "quantity": 1
+        },
+        {
+          "percentage": 9,
+          "item_id": 1377,
+          "item_name": "Avian Fang+",
+          "quantity": 1
+        },
+        {
+          "percentage": 2,
+          "item_id": 1378,
+          "item_name": "Avian Hardfang",
+          "quantity": 1
+        },
+        {
+          "percentage": 18,
+          "item_id": 1394,
+          "item_name": "Avian Tail",
+          "quantity": 1
+        },
+        {
+          "percentage": 14,
+          "item_id": 1395,
+          "item_name": "Avian Tail+",
+          "quantity": 1
+        },
+        {
+          "percentage": 8,
+          "item_id": 1396,
+          "item_name": "Avian Lash",
+          "quantity": 1
+        }
+      ]
+    }
   },
   {
     "max_players": 4,

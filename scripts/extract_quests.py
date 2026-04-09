@@ -283,6 +283,8 @@ class Quest:
         raw = path.read_bytes()
         rewards_pointer = read_u32(raw, HEADER_POINTERS["quest_rewards"])
         rank = Quest._rank_from_difficulty(read_u16(raw, 0x48))
+        if rewards_pointer >= len(raw):
+            return rank, []
         reward_boxes = []
         while True:
             reward_box = QuestRewardBox.unpack_from(raw, rewards_pointer)
