@@ -350,7 +350,8 @@
   {
     "id": 2,
     "monster_name": "Fatalis",
-    "lr_pts": [
+    "lr_pts": [],
+    "hr_pts": [
       {
         "partbreak_label": "Eye",
         "drops": [
@@ -413,7 +414,6 @@
         ]
       }
     ],
-    "hr_pts": [],
     "er_pts": [
       {
         "partbreak_label": "Eye",
@@ -3780,7 +3780,8 @@
   {
     "id": 36,
     "monster_name": "Crimson Fatalis",
-    "lr_pts": [
+    "lr_pts": [],
+    "hr_pts": [
       {
         "partbreak_label": "Eye",
         "drops": [
@@ -3843,7 +3844,6 @@
         ]
       }
     ],
-    "hr_pts": [],
     "er_pts": [],
     "gr_pts": []
   },
@@ -7599,65 +7599,7 @@
   {
     "id": 53,
     "monster_name": "Rajang",
-    "lr_pts": [
-      {
-        "partbreak_label": "Capture",
-        "drops": [
-          {
-            "percentage": 54,
-            "item_id": 523,
-            "item_name": "Rajang Blackfur",
-            "quantity": 1
-          },
-          {
-            "percentage": 28,
-            "item_id": 522,
-            "item_name": "Rajang Fang",
-            "quantity": 1
-          },
-          {
-            "percentage": 16,
-            "item_id": 524,
-            "item_name": "Rajang Claw",
-            "quantity": 1
-          },
-          {
-            "percentage": 2,
-            "item_id": 526,
-            "item_name": "Gold Rajang Pelt",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Head",
-        "drops": [
-          {
-            "percentage": 100,
-            "item_id": 521,
-            "item_name": "Rajang Horn",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Tail",
-        "drops": [
-          {
-            "percentage": 92,
-            "item_id": 525,
-            "item_name": "Rajang Tail",
-            "quantity": 1
-          },
-          {
-            "percentage": 8,
-            "item_id": 526,
-            "item_name": "Gold Rajang Pelt",
-            "quantity": 1
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -8217,25 +8159,7 @@
   {
     "id": 58,
     "monster_name": "Yama Tsukami",
-    "lr_pts": [
-      {
-        "partbreak_label": "Fin",
-        "drops": [
-          {
-            "percentage": 65,
-            "item_id": 588,
-            "item_name": "Tsukami Fin",
-            "quantity": 1
-          },
-          {
-            "percentage": 35,
-            "item_id": 589,
-            "item_name": "Tsukami Hide",
-            "quantity": 1
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Fin",
@@ -9569,7 +9493,8 @@
   {
     "id": 71,
     "monster_name": "Old Fatalis",
-    "lr_pts": [
+    "lr_pts": [],
+    "hr_pts": [
       {
         "partbreak_label": "Eye",
         "drops": [
@@ -9632,7 +9557,6 @@
         ]
       }
     ],
-    "hr_pts": [],
     "er_pts": [],
     "gr_pts": []
   },
@@ -10184,83 +10108,7 @@
   {
     "id": 76,
     "monster_name": "Tigrex",
-    "lr_pts": [
-      {
-        "partbreak_label": "Capture",
-        "drops": [
-          {
-            "percentage": 35,
-            "item_id": 987,
-            "item_name": "Tigrex Shell",
-            "quantity": 1
-          },
-          {
-            "percentage": 30,
-            "item_id": 992,
-            "item_name": "Tigrex Fang",
-            "quantity": 2
-          },
-          {
-            "percentage": 20,
-            "item_id": 985,
-            "item_name": "Tigrex Scale",
-            "quantity": 2
-          },
-          {
-            "percentage": 10,
-            "item_id": 989,
-            "item_name": "Tigrex Tail",
-            "quantity": 1
-          },
-          {
-            "percentage": 5,
-            "item_id": 994,
-            "item_name": "Tigrex Scalp",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Claws",
-        "drops": [
-          {
-            "percentage": 80,
-            "item_id": 990,
-            "item_name": "Tigrex Claw",
-            "quantity": 2
-          },
-          {
-            "percentage": 20,
-            "item_id": 990,
-            "item_name": "Tigrex Claw",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Head",
-        "drops": [
-          {
-            "percentage": 50,
-            "item_id": 992,
-            "item_name": "Tigrex Fang",
-            "quantity": 2
-          },
-          {
-            "percentage": 42,
-            "item_id": 987,
-            "item_name": "Tigrex Shell",
-            "quantity": 1
-          },
-          {
-            "percentage": 8,
-            "item_id": 994,
-            "item_name": "Tigrex Scalp",
-            "quantity": 1
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -10828,60 +10676,7 @@
   {
     "id": 78,
     "monster_name": "Vivid Hypnocatrice",
-    "lr_pts": [
-      {
-        "partbreak_label": "Capture",
-        "drops": [
-          {
-            "percentage": 28,
-            "item_id": 1010,
-            "item_name": "Blue Hypno Pelt",
-            "quantity": 2
-          },
-          {
-            "percentage": 32,
-            "item_id": 1003,
-            "item_name": "Rainbow Quill",
-            "quantity": 1
-          },
-          {
-            "percentage": 2,
-            "item_id": 1005,
-            "item_name": "Hypno Bezoar",
-            "quantity": 1
-          },
-          {
-            "percentage": 26,
-            "item_id": 306,
-            "item_name": "Sleep Sac",
-            "quantity": 2
-          },
-          {
-            "percentage": 12,
-            "item_id": 236,
-            "item_name": "Sleepyfish",
-            "quantity": 2
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Beak",
-        "drops": [
-          {
-            "percentage": 90,
-            "item_id": 1004,
-            "item_name": "Hypno Beak",
-            "quantity": 1
-          },
-          {
-            "percentage": 10,
-            "item_id": 306,
-            "item_name": "Sleep Sac",
-            "quantity": 2
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -11037,77 +10832,7 @@
   {
     "id": 79,
     "monster_name": "Red Lavasioth",
-    "lr_pts": [
-      {
-        "partbreak_label": "Capture",
-        "drops": [
-          {
-            "percentage": 32,
-            "item_id": 1037,
-            "item_name": "R.Lavasioth Shl",
-            "quantity": 1
-          },
-          {
-            "percentage": 14,
-            "item_id": 1016,
-            "item_name": "Lavasioth Scale+",
-            "quantity": 2
-          },
-          {
-            "percentage": 16,
-            "item_id": 1038,
-            "item_name": "R.Lavasioth Fang",
-            "quantity": 1
-          },
-          {
-            "percentage": 12,
-            "item_id": 1039,
-            "item_name": "R.Lavasioth Fin",
-            "quantity": 1
-          },
-          {
-            "percentage": 26,
-            "item_id": 1017,
-            "item_name": "Lavasioth Cpc",
-            "quantity": 2
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Head",
-        "drops": [
-          {
-            "percentage": 82,
-            "item_id": 1038,
-            "item_name": "R.Lavasioth Fang",
-            "quantity": 1
-          },
-          {
-            "percentage": 18,
-            "item_id": 1037,
-            "item_name": "R.Lavasioth Shl",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Fin",
-        "drops": [
-          {
-            "percentage": 82,
-            "item_id": 1039,
-            "item_name": "R.Lavasioth Fin",
-            "quantity": 1
-          },
-          {
-            "percentage": 18,
-            "item_id": 1037,
-            "item_name": "R.Lavasioth Shl",
-            "quantity": 1
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -11309,129 +11034,7 @@
   {
     "id": 80,
     "monster_name": "Espinas",
-    "lr_pts": [
-      {
-        "partbreak_label": "Capture",
-        "drops": [
-          {
-            "percentage": 35,
-            "item_id": 1047,
-            "item_name": "Espinas Carapace",
-            "quantity": 1
-          },
-          {
-            "percentage": 50,
-            "item_id": 1046,
-            "item_name": "Espinas Scale",
-            "quantity": 1
-          },
-          {
-            "percentage": 10,
-            "item_id": 1049,
-            "item_name": "Espinas Scalp",
-            "quantity": 1
-          },
-          {
-            "percentage": 5,
-            "item_id": 1048,
-            "item_name": "Espinas Spike",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Horn",
-        "drops": [
-          {
-            "percentage": 15,
-            "item_id": 1052,
-            "item_name": "Espinas Horn",
-            "quantity": 1
-          },
-          {
-            "percentage": 25,
-            "item_id": 1046,
-            "item_name": "Espinas Scale",
-            "quantity": 1
-          },
-          {
-            "percentage": 60,
-            "item_id": 1047,
-            "item_name": "Espinas Carapace",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Wingtalons",
-        "drops": [
-          {
-            "percentage": 10,
-            "item_id": 1048,
-            "item_name": "Espinas Spike",
-            "quantity": 1
-          },
-          {
-            "percentage": 60,
-            "item_id": 1046,
-            "item_name": "Espinas Scale",
-            "quantity": 1
-          },
-          {
-            "percentage": 30,
-            "item_id": 323,
-            "item_name": "Wyvern Claw",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Back",
-        "drops": [
-          {
-            "percentage": 10,
-            "item_id": 1048,
-            "item_name": "Espinas Spike",
-            "quantity": 1
-          },
-          {
-            "percentage": 60,
-            "item_id": 1047,
-            "item_name": "Espinas Carapace",
-            "quantity": 1
-          },
-          {
-            "percentage": 30,
-            "item_id": 1046,
-            "item_name": "Espinas Scale",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "partbreak_label": "Belly",
-        "drops": [
-          {
-            "percentage": 60,
-            "item_id": 1046,
-            "item_name": "Espinas Scale",
-            "quantity": 1
-          },
-          {
-            "percentage": 30,
-            "item_id": 950,
-            "item_name": "Toxin Sac",
-            "quantity": 2
-          },
-          {
-            "percentage": 10,
-            "item_id": 1051,
-            "item_name": "Espinas Ruby",
-            "quantity": 1
-          }
-        ]
-      }
-    ],
+    "lr_pts": [],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -17126,7 +16729,8 @@
   {
     "id": 100,
     "monster_name": "Unknown",
-    "lr_pts": [
+    "lr_pts": [],
+    "hr_pts": [
       {
         "partbreak_label": "Head",
         "drops": [
@@ -17215,8 +16819,95 @@
         ]
       }
     ],
-    "hr_pts": [],
-    "er_pts": [],
+    "er_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 17,
+            "item_id": 4486,
+            "item_name": "??? Webbing",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4487,
+            "item_name": "??? Fang",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4488,
+            "item_name": "??? Jaw",
+            "quantity": 1
+          },
+          {
+            "percentage": 3,
+            "item_id": 4352,
+            "item_name": "F.Wyvern Jewel",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Left Wing",
+        "drops": [
+          {
+            "percentage": 17,
+            "item_id": 4486,
+            "item_name": "??? Webbing",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4489,
+            "item_name": "??? Claw",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4490,
+            "item_name": "??? Wing",
+            "quantity": 1
+          },
+          {
+            "percentage": 3,
+            "item_id": 4352,
+            "item_name": "F.Wyvern Jewel",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Right Wing",
+        "drops": [
+          {
+            "percentage": 17,
+            "item_id": 4486,
+            "item_name": "??? Webbing",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4489,
+            "item_name": "??? Claw",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 4490,
+            "item_name": "??? Wing",
+            "quantity": 1
+          },
+          {
+            "percentage": 3,
+            "item_id": 4352,
+            "item_name": "F.Wyvern Jewel",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "gr_pts": []
   },
   {

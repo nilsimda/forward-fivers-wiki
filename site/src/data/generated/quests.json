@@ -19855,7 +19855,7 @@
       "contractor": "Elder Hall",
       "description": "謎多き狩猟地≪古塔≫にて、\n山が動くとの奇妙な話が届い\nておる…。ワシの推測が的中\nすれば、ちと厄介な事態にな\nりそうなのじゃ。事態が暗転\nする前にその真実を確かめ、\n話が誠ならば討伐を頼むぞ！"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "0": [
         {
@@ -52140,7 +52140,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -52267,7 +52267,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -52551,7 +52551,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've got the perfect Quest\nfor any rookie hunter! We\nhave confirmed reports of\na relatively weak monster\nin the area. Grab a partner\nif you need to, head out,\nand hunt the target!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -61321,7 +61321,7 @@
       "contractor": "Guild Angler",
       "description": "「釣り」\nそれは魚と静かに向き合う\n孤独な狩り。\n以前に渡した設計図を工房の\n親方に手渡してハンマーを\n作ったと思うが、実はさらに\n強化することができるのじゃ！\n改良したければ、白銀の秘壺\n３３個を持ってくるがよい。"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -61372,7 +61372,7 @@
       "contractor": "Mining Master",
       "description": "ほう、ワシの依頼を\n受けてくれるというのか。\n採掘名人への道は険しいぞ？\nそれでは、貴重な鉱石２種を\n大量に集めてもらおうかの。\nそうすれば交換で、秘蔵の\n鉱石をくれてやろう。\n秘蔵の鉱石を集めれば\n集めるほど、オヌシは\n採掘名人に近づくじゃろう。"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -64508,7 +64508,7 @@
       "contractor": "Smithy",
       "description": "Looking for a one-handed\nSword? I've got you! Ever\nheard of Argenite? Just one\nthing... The ore used to\nmake it is incredibly rare,\nand its usually surrounded\nby some nasty monsters.\nDo your best and I'll take\nit from there!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -65276,7 +65276,7 @@
       "contractor": "Smithy",
       "description": "Looking for a Light Bowgun?\nI've got you! Ever heard of\nArgenite? Just one thing...\nThe ore used to make it is\nincredibly rare, and is\nusually surrounded by some\nnasty monsters. Do your best\nand I'll take it from there!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -73988,7 +73988,7 @@
       "contractor": "Crafty Artisan",
       "description": "Skill Cuffs? What's that?\nPoogie Decorations!? To\nthink that we've reached\nthe point where even they\nget decorations... What?\nYou want me to make them\nfor you? A tall order...\nAlright, you do a job for\nme, and I'll craft them\nwhile you're busy. Deal?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -75199,7 +75199,7 @@
       "contractor": "Guild Angler",
       "description": "釣り、それは魚と静かに向き\n合う孤独な狩り。報酬は、\n釣師の証になる、ある素材だ。\n今までの集大成を見せてくれ！\n釣りが目的だから、ガノトト\nス亜種は今回も絶対に狩らな\nいように！"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -75679,7 +75679,7 @@
       "contractor": "Guild Gal in White",
       "description": "Hey, it's you! Thanks for\ngetting me that salt the\nother day! ...Just kidding.\nIt's YOU! You're the Master\nGatherer! It must be fate\nfor us to meet again like\nthis. Bring me the coins\nagain, and I'll give you\na new set!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -75730,7 +75730,7 @@
       "contractor": "Guild Gal in White",
       "description": "Hey, it's you! Thanks for\ngetting me that salt the\nother day! ...Just kidding.\nIt's YOU! You're the Master\nGatherer! It must be fate\nfor us to meet again like\nthis. Bring me the coins\nagain, and I'll give you\na new set!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -77312,7 +77312,7 @@
       "contractor": "Female Researcher",
       "description": "モンスターの自由を奪う快感、\n存分に味わっているかしら？\nもしも、高みへ至った自信が\nあるのなら、次のステップを\n教えてあげてもいいのよ…。\n爆発力を抑制する代わりに、\n神をも縛ると言い伝えられる\n≪テュライト純晶石≫…。\nちょっと試してみたくない？"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -78605,7 +78605,7 @@
       "contractor": "Hunter's Guild",
       "description": "Hear ye, hunters! Who among\nyou would slay the fearsome\nEspinas? It'll be you, the\nmonster, and the arena. No\nholds barred! You're not in\nit for the reward, right?\nThink of the glory! Stand\ntall with your comrades and\nhone your hunting skills!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -79010,7 +79010,7 @@
       "contractor": "Troubled Hunter",
       "description": "I wanted to fix my weapon,\nbut I'm short on materials.\nI can't go hunt like this!\nHow about a trade? Give me\nsome Duragaua Scales+, and\nI'll give you a Pawprint\nMedal in return. Please!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -79077,7 +79077,7 @@
       "contractor": "Troubled Hunter",
       "description": "I wanted to fix my weapon,\nbut I'm short on materials.\nI can't go hunt like this!\nHow about a trade? Give me\nsome Draguros Carapaces, and\nI'll give you a Pawprint\nMedal in return. Please!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -79144,7 +79144,7 @@
       "contractor": "Troubled Hunter",
       "description": "I wanted to fix my weapon,\nbut I'm short on materials.\nI can't go hunt like this!\nHow about a trade? Give me\nsome Lavasioth Scales+, and\nI'll give you a Pawprint\nMedal in return. Please!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -79211,7 +79211,7 @@
       "contractor": "Troubled Hunter",
       "description": "I wanted to fix my weapon,\nbut I'm short on materials.\nI can't go hunt like this!\nHow about a trade? Give me\nsome Grenzebul Scales+, and\nI'll give you a Pawprint\nMedal in return. Please!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -90304,7 +90304,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nRed Voucher I. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90355,7 +90355,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nRed Voucher II. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90412,7 +90412,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher I. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90463,7 +90463,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher II. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90514,7 +90514,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nBlue Voucher III. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90571,7 +90571,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher I. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90622,7 +90622,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher II. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90673,7 +90673,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher III. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90724,7 +90724,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nYellow Voucher IV. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90781,7 +90781,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher I. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90832,7 +90832,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher II. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90883,7 +90883,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher III. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90934,7 +90934,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher IV. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -90985,7 +90985,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nWhite Voucher V. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91042,7 +91042,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher I. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91093,7 +91093,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher II. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91144,7 +91144,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher III. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91195,7 +91195,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher IV. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91246,7 +91246,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher V. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -91297,7 +91297,7 @@
       "contractor": "Hunter's Guild",
       "description": "There seems to be no end to\nthe recent Supreme monster\nattacks on Mezeporta. Thus\nthe Guild shall now award\nany hunter who slays one of\nthese beasts and obtains a\npiece of Supreme equipment\nwith a special item - the\nGreen Voucher VI. We look\nforward to your exploits."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -115442,7 +115442,7 @@
       "contractor": "Public Tavern",
       "description": "A dazzling reward awaits all\naficionados of the fine art\nof bowmanship. High-ranking\nhunters can now get their\nhands on a fine collection\nof Gunner Equipment. It's\na nice, easy Quest, so why\nnot form a party and take\nit on?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -115687,7 +115687,7 @@
       "contractor": "Weary Adventurer",
       "description": "Listen to my tale! I found a\nvast forest in an unexplored\nregion. No sooner did I set\nfoot in it than I faced a\nhuge swarm of Vespoids. I \nescaped with my life, but I\nleft my precious belongings.\nWon't someone chase that\nhideous herd away for me?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -115782,7 +115782,7 @@
       "contractor": "Weary Adventurer",
       "description": "No sooner had that wretched\nswarm disappeared than I was\nup to my eyes in a horrible\nhorde of Hornetaurs. My\nprecious belongings are\nstill there. Won't someone\nget rid of those beasts?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -115889,7 +115889,7 @@
       "contractor": "Elder Hall",
       "description": "The Tower appears to have\nbeen overrun by Remobra.\nThese beasts are known as\nharbingers of calamity, so\nthe Guild cannot sit idly\nby. Investigate the\nsituation, and slay 8\nRemobra while you're at it!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -120629,7 +120629,7 @@
       "contractor": "Wounded Hunter",
       "description": "This afternoon I decided to\npay a sly visit to the lair\nof the Lavasioth. I nearly\ndropped my weapons in shock\nwhen I saw a Lavasioth of a\nshade I'd never seen before.\nI got roughed up bad before\nI escaped. I'd reward anyone\nwho hunted that thing down."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "0": [
         {
@@ -120884,7 +120884,7 @@
       "contractor": "Clan Association",
       "description": "The Dyegrass is a rare plant\nthat only seasoned experts,\nwell-versed in nature, can\ntell apart from its many\nimitations. For this reason,\nwe have prepared a special\nQuest tailored to HR100\nhunters."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": []
     }
@@ -120928,7 +120928,7 @@
       "contractor": "Clan Association",
       "description": "The Dyegrass is a rare plant\nthat only seasoned experts,\nwell-versed in nature, can\ntell apart from its many\nimitations. For this reason,\nwe have prepared a special\nQuest tailored to HR100\nhunters."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": []
     }
@@ -120972,7 +120972,7 @@
       "contractor": "Clan Association",
       "description": "The Dyegrass is a rare plant\nthat only seasoned experts,\nwell-versed in nature, can\ntell apart from its many\nimitations. For this reason,\nwe have prepared a special\nQuest tailored to HR100\nhunters."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": []
     }
@@ -121016,7 +121016,7 @@
       "contractor": "Clan Association",
       "description": "The Dyegrass is a rare plant\nthat only seasoned experts,\nwell-versed in nature, can\ntell apart from its many\nimitations. For this reason,\nwe have prepared a special\nQuest tailored to HR100\nhunters."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": []
     }
@@ -121060,7 +121060,7 @@
       "contractor": "Sphere Workshop",
       "description": "Tis' a fine thing to have a\nnew way to improve armor,\nbut it's going to require\nArmor Spheres. When it comes\nto making them, I'm your\nman. There are a few types,\nbut let's focus on the Large\nArmor Spheres for now. Bring\nme those fragments!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -124953,7 +124953,7 @@
       "contractor": "Clan Association",
       "description": "We've had an order from\nthe Public Tavern for 8\nPowderstones. That's too\nmuch for a solo hunter to\nhandle, so we recommend\ntaking another one along.\nBe aware that you won't\nget any Supply Items for\nclearing the Subquest."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -125592,7 +125592,7 @@
       "contractor": "Sphere Workshop",
       "description": "So, how are things in the\nworld of monster hunting?\nMaking Armor Spheres is\nmore my cup of mead. They\ncome in various forms, but\nfor now, let's focus on\nputting together a Super\nArmor Sphere. Go get those\nfragments!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -129091,7 +129091,7 @@
       "contractor": "Sphere Workshop",
       "description": "So, how are things in the\nworld of monster hunting?\nMaking Armor Spheres is\nmore my cup of mead. They\ncome in various forms, but\nfor now, let's focus on\nputting together an Ultra\nArmor Sphere. Go get those\nfragments!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -131769,7 +131769,7 @@
       "contractor": "Travelling Bard",
       "description": "Once upon a time, in a land\nfar, far away, I'd heard a\nmost wonderful melody. I've\nbeen a performer for a very\nlong time, but that melody\nstirred my very soul. If\nyou manage to complete the\nQuest with what I provide,\nI will award you with its\nscore..."
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -132331,7 +132331,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132430,7 +132430,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132505,7 +132505,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132592,7 +132592,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132685,7 +132685,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132760,7 +132760,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132871,7 +132871,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -132970,7 +132970,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -133831,7 +133831,7 @@
       "contractor": "Weary Adventurer",
       "description": "Listen to my tale! I found a\nvast forest in an unexplored\nregion. No sooner did I set\nfoot in it than I faced a\nhuge swarm of Vespoids. I \nescaped with my life, but I\nleft my precious belongings.\nWon't someone chase that\nhideous herd away for me?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -133926,7 +133926,7 @@
       "contractor": "Weary Adventurer",
       "description": "No sooner had that wretched\nswarm disappeared than I was\nup to my eyes in a horrible\nhorde of Hornetaurs. My\nprecious belongings are\nstill there. Won't someone\nget rid of those beasts?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -134033,7 +134033,7 @@
       "contractor": "Elder Hall",
       "description": "The Tower appears to have\nbeen overrun by Remobra.\nThese beasts are known as\nharbingers of calamity, so\nthe Guild cannot sit idly\nby. Investigate the\nsituation, and slay 8\nRemobra while you're at it!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -134483,7 +134483,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nLow Rank monster to obtain\nspecial rewards. Do keep in\nmind that this Quest forbids\nthe usage of certain weapon\ntypes."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -134582,7 +134582,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nLow Rank monster to obtain\nspecial rewards. Do keep in\nmind that this Quest forbids\nthe usage of certain weapon\ntypes."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -134669,7 +134669,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nAberrant monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -134832,7 +134832,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nAberrant monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -134995,7 +134995,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nAberrant monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -135158,7 +135158,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nAberrant monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -138693,7 +138693,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -138862,7 +138862,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -139037,7 +139037,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -139168,7 +139168,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -139299,7 +139299,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -139480,7 +139480,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Slay the specified\nAberrant monster to obtain\nspecial rewards."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -140934,7 +140934,7 @@
       "contractor": "Dragonwatch",
       "description": "The mythical black dragon\nhas been spotted in Castle\nSchrade. Legends say that\nthis beast will bring\ncalamity and chaos to the\nentire world. You must\nmake a stand to prevent\nthis prophecy from being\nfulfilled."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -141021,7 +141021,7 @@
       "contractor": "Dragonwatch",
       "description": "Fatalis, the black dragon of\nlegend, is holed up deep in\na volcanic lair where no man\nhas ever set foot. We cannot\nafford to leave it to its\nnefarious devices or it will\nsurely spell disaster for\nthe entire world. You must\nmake a stand against it."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -141114,7 +141114,7 @@
       "contractor": "Dragonwatch",
       "description": "A beast that is not referred\nto in any of our official\nliterature has been sighted\nin the mysterious Tower.\nCould this really be the\nAncestral Dragon whose name\nhas been fearfully whispered\nthrough the ages?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -142291,7 +142291,7 @@
       "contractor": "Village Chief",
       "description": "For eons the Rathalos and\nRathian have ruled land and\nair respectively. No one who\ntakes on these regal beasts\nshould do it without being\naware that it could be their\nlast battle. Be aware that\nyou can only lay one Shock\nTrap and one Pitfall Trap."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -146695,7 +146695,7 @@
       "contractor": "Guild Angler",
       "description": "Fishing is a solitary\npursuit that requires\npatience and dedication.\nAs a reward, you will\nreceive materials that\nserve as proof of your\nmastery. Be sure to reel\nin the Green Plesioth\nwithout capturing it."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -149800,7 +149800,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nLow Rank monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -149956,7 +149956,7 @@
       "contractor": "Public Tavern",
       "description": "We've prepared the following\nQuest for a party of 1 to 2\nhunters. Hunt the specified\nAberrant monster to obtain a\nlarge amount of HRP, as well\nas Porta Tickets."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -151263,7 +151263,7 @@
       "contractor": "Guild Informant",
       "description": "There's nothing quite like\nhunting in an unexplored\nland, right? Which is why\nI'd like to task you with\nconducting an ecological\nsurvey of the Highlands.\nThe area is currently free\nof large monsters, so we'd\nbetter strike while the\niron is hot!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -151364,7 +151364,7 @@
       "contractor": "Guild Informant",
       "description": "There's nothing quite like\nhunting in an unexplored\nland, right? Which is why\nI'd like to task you with\nconducting an ecological\nsurvey of the Highlands.\nThe area is currently free\nof large monsters, so we'd\nbetter strike while the\niron is hot!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -152637,7 +152637,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 100! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -152700,7 +152700,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 200! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -152763,7 +152763,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 300! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -152826,7 +152826,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 400! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -152889,7 +152889,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 500! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -152958,7 +152958,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 600! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -153021,7 +153021,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 700! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -153084,7 +153084,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 800! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -153153,7 +153153,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 900! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -153222,7 +153222,7 @@
       "contractor": "Hunter's Guild",
       "description": "Congratulations on reaching\nHunter Rank 999! Deliver a\nMap to complete the Quest\nand receive your rewards!"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -155008,7 +155008,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155059,7 +155059,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155110,7 +155110,7 @@
       "contractor": "Hunter's Guilld",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -155189,7 +155189,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155240,7 +155240,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155291,7 +155291,7 @@
       "contractor": "Hunter's Guilld",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -155370,7 +155370,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155421,7 +155421,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155472,7 +155472,7 @@
       "contractor": "Hunter's Guilld",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -155551,7 +155551,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155602,7 +155602,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155653,7 +155653,7 @@
       "contractor": "Hunter's Guilld",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -155732,7 +155732,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155783,7 +155783,7 @@
       "contractor": "Hunter's Guild",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -155834,7 +155834,7 @@
       "contractor": "Hunter's Guilld",
       "description": "We've received reports of\nhunters being ambushed by\nan unidentified monster\nwhile out on Quests. The\nGuild is offering a reward\nfor any information about\nthe matter. Proceed with\ncaution."
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -157848,7 +157848,7 @@
       "contractor": "Crafty Artisan",
       "description": "Skill Cuffs? What's that?\nPoogie Decorations!? To\nthink that we've reached\nthe point where even they\nget decorations... What?\nYou want me to make them\nfor you? A tall order...\nAlright, you do a job for\nme, and I'll craft them\nwhile you're busy. Deal?"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -161140,7 +161140,7 @@
       "contractor": "Hunter's Guild",
       "description": "熱帯の≪潮島≫。\nギルドでも現在調査中の、\n未開の地ですが、ハンター\nさんも、採取、調査のために\n一度行ってみてはいかがで\nしょうか？\n帰りたくなったら地図を\n納品してください！\n"
     },
-    "rank": "hr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -161386,7 +161386,7 @@
       "contractor": "Arena Proprietors",
       "description": "公式狩猟大会で優秀な成績を\n収めたハンター専用の\nクエストだ！\n「剛種チケット」が、\n手に入るぞ。\n公式狩猟大会で活躍して\n「ハーフチケット白」を\n入手したら、ぜひ来てくれ！"
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -161437,7 +161437,7 @@
       "contractor": "Arena Proprietors",
       "description": "公式狩猟大会で優秀な成績を\n収めたハンター専用の\nクエストだ！\n「ＨＣチケット」が、\n手に入るぞ。\n公式狩猟大会で活躍して\n「ハーフチケット白」を\n入手したら、ぜひ来てくれ！"
     },
-    "rank": "lr",
+    "rank": "er",
     "reward_boxes": {
       "1": [
         {
@@ -164162,7 +164162,7 @@
       "contractor": "Smithy",
       "description": "Looking for a one-handed\nSword? I've got you! Ever\nheard of Argenite? Just one\nthing... The ore used to\nmake it is incredibly rare,\nand is usually surrounded\nby some nasty monsters.\nDo your best and I'll take\nit from there!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -164930,7 +164930,7 @@
       "contractor": "Smithy",
       "description": "Looking for a Light Bowgun?\nI've got you! Ever heard of\nArgenite? Just one thing...\nThe ore used to make it is\nincredibly rare, and is\nusually surrounded by some\nnasty monsters. Do your best\nand I'll take it from there!"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {
@@ -169402,7 +169402,7 @@
       "contractor": "Injured Adventurer",
       "description": "アイツに会ったのは、公式狩\n猟試験以来だったかな。しば\nらく、ぬるま湯の生活に慣れ\nちまったオレもダメなんだが、\nアイツは半端なしに強いぜ。\nあんたも、腕試しのつもりで\n行ってみたらどうだい？\nま、その腕が鈍っていなけれ\nばの話だがな。"
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "0": [
         {
@@ -172514,7 +172514,7 @@
       "contractor": "Freezing Hunter",
       "description": "I know I shouldn't be asking\nfor this, but I need you to\ngo to the Arctic Ridge and\nget me a few items, alright?\nYou probably need the pelts\nanyway. Why don't I do it\nmyself...? Are you sure you\nwanna know? Well..."
     },
-    "rank": "lr",
+    "rank": "hr",
     "reward_boxes": {
       "1": [
         {

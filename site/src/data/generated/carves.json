@@ -429,7 +429,8 @@
   {
     "id": 2,
     "monster_name": "Fatalis",
-    "lr_cts": [
+    "lr_cts": [],
+    "hr_cts": [
       {
         "label": "Body Carves",
         "trigger_chance": null,
@@ -453,7 +454,6 @@
         ]
       }
     ],
-    "hr_cts": [],
     "er_cts": [
       {
         "label": "Body Carves",
@@ -6452,7 +6452,8 @@
   {
     "id": 36,
     "monster_name": "Crimson Fatalis",
-    "lr_cts": [
+    "lr_cts": [],
+    "hr_cts": [
       {
         "label": "Body Carves",
         "trigger_chance": null,
@@ -6491,7 +6492,6 @@
         ]
       }
     ],
-    "hr_cts": [],
     "er_cts": [],
     "gr_cts": []
   },
@@ -10590,47 +10590,7 @@
   {
     "id": 53,
     "monster_name": "Rajang",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 3,
-        "drops": [
-          {
-            "percentage": 47,
-            "item_id": 523,
-            "item_name": "Rajang Blackfur"
-          },
-          {
-            "percentage": 32,
-            "item_id": 522,
-            "item_name": "Rajang Fang"
-          },
-          {
-            "percentage": 19,
-            "item_id": 524,
-            "item_name": "Rajang Claw"
-          },
-          {
-            "percentage": 2,
-            "item_id": 526,
-            "item_name": "Gold Rajang Pelt"
-          }
-        ]
-      },
-      {
-        "label": "HC Carve",
-        "trigger_chance": null,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 2,
-            "item_id": 3728,
-            "item_name": "Rajang Brutefang"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -11584,84 +11544,7 @@
   {
     "id": 58,
     "monster_name": "Yama Tsukami",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 5,
-        "drops": [
-          {
-            "percentage": 34,
-            "item_id": 590,
-            "item_name": "Tsukami Fluid"
-          },
-          {
-            "percentage": 20,
-            "item_id": 589,
-            "item_name": "Tsukami Hide"
-          },
-          {
-            "percentage": 8,
-            "item_id": 591,
-            "item_name": "Dragonmoss"
-          },
-          {
-            "percentage": 27,
-            "item_id": 592,
-            "item_name": "Dragonwood"
-          },
-          {
-            "percentage": 11,
-            "item_id": 573,
-            "item_name": "Elder Drgn Blood"
-          }
-        ]
-      },
-      {
-        "label": "Back Carves",
-        "trigger_chance": null,
-        "num_carves": 3,
-        "drops": [
-          {
-            "percentage": 51,
-            "item_id": 591,
-            "item_name": "Dragonmoss"
-          },
-          {
-            "percentage": 28,
-            "item_id": 592,
-            "item_name": "Dragonwood"
-          },
-          {
-            "percentage": 21,
-            "item_id": 200,
-            "item_name": "Exciteshroom"
-          }
-        ]
-      },
-      {
-        "label": "Shiny Drops",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 85,
-            "item_id": 328,
-            "item_name": "Dragon Treasure"
-          },
-          {
-            "percentage": 10,
-            "item_id": 590,
-            "item_name": "Tsukami Fluid"
-          },
-          {
-            "percentage": 5,
-            "item_id": 573,
-            "item_name": "Elder Drgn Blood"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -14242,7 +14125,8 @@
   {
     "id": 71,
     "monster_name": "Old Fatalis",
-    "lr_cts": [
+    "lr_cts": [],
+    "hr_cts": [
       {
         "label": "Body Carves",
         "trigger_chance": null,
@@ -14281,7 +14165,6 @@
         ]
       }
     ],
-    "hr_cts": [],
     "er_cts": [],
     "gr_cts": []
   },
@@ -14949,98 +14832,7 @@
   {
     "id": 76,
     "monster_name": "Tigrex",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 3,
-        "drops": [
-          {
-            "percentage": 40,
-            "item_id": 985,
-            "item_name": "Tigrex Scale"
-          },
-          {
-            "percentage": 37,
-            "item_id": 987,
-            "item_name": "Tigrex Shell"
-          },
-          {
-            "percentage": 20,
-            "item_id": 990,
-            "item_name": "Tigrex Claw"
-          },
-          {
-            "percentage": 3,
-            "item_id": 994,
-            "item_name": "Tigrex Scalp"
-          }
-        ]
-      },
-      {
-        "label": "Tail Carves",
-        "trigger_chance": null,
-        "num_carves": 1,
-        "drops": [
-          {
-            "percentage": 80,
-            "item_id": 989,
-            "item_name": "Tigrex Tail"
-          },
-          {
-            "percentage": 20,
-            "item_id": 985,
-            "item_name": "Tigrex Scale"
-          }
-        ]
-      },
-      {
-        "label": "Shiny Drops",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 75,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
-          },
-          {
-            "percentage": 20,
-            "item_id": 985,
-            "item_name": "Tigrex Scale"
-          },
-          {
-            "percentage": 5,
-            "item_id": 992,
-            "item_name": "Tigrex Fang"
-          }
-        ]
-      },
-      {
-        "label": "Goocoo Quest - Shiny Drops",
-        "trigger_chance": 32,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 100,
-            "item_id": 4334,
-            "item_name": "Herbivore Egg?"
-          }
-        ]
-      },
-      {
-        "label": "HC Carve",
-        "trigger_chance": null,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 2,
-            "item_id": 3526,
-            "item_name": "Tigrex Gouger"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -15563,74 +15355,7 @@
   {
     "id": 78,
     "monster_name": "Vivid Hypnocatrice",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 3,
-        "drops": [
-          {
-            "percentage": 32,
-            "item_id": 1010,
-            "item_name": "Blue Hypno Pelt"
-          },
-          {
-            "percentage": 28,
-            "item_id": 1002,
-            "item_name": "Hypno Claw"
-          },
-          {
-            "percentage": 4,
-            "item_id": 1005,
-            "item_name": "Hypno Bezoar"
-          },
-          {
-            "percentage": 26,
-            "item_id": 306,
-            "item_name": "Sleep Sac"
-          },
-          {
-            "percentage": 10,
-            "item_id": 187,
-            "item_name": "Sleep Herb"
-          }
-        ]
-      },
-      {
-        "label": "Shiny Drops",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 38,
-            "item_id": 1010,
-            "item_name": "Blue Hypno Pelt"
-          },
-          {
-            "percentage": 2,
-            "item_id": 1005,
-            "item_name": "Hypno Bezoar"
-          },
-          {
-            "percentage": 60,
-            "item_id": 187,
-            "item_name": "Sleep Herb"
-          }
-        ]
-      },
-      {
-        "label": "HC Carve",
-        "trigger_chance": null,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 2,
-            "item_id": 4331,
-            "item_name": "Azure Hypno Pelt"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -15812,52 +15537,7 @@
   {
     "id": 79,
     "monster_name": "Red Lavasioth",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 4,
-        "drops": [
-          {
-            "percentage": 26,
-            "item_id": 1016,
-            "item_name": "Lavasioth Scale+"
-          },
-          {
-            "percentage": 46,
-            "item_id": 1037,
-            "item_name": "R.Lavasioth Shl"
-          },
-          {
-            "percentage": 16,
-            "item_id": 1038,
-            "item_name": "R.Lavasioth Fang"
-          },
-          {
-            "percentage": 12,
-            "item_id": 1039,
-            "item_name": "R.Lavasioth Fin"
-          }
-        ]
-      },
-      {
-        "label": "Shiny Drops",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 84,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
-          },
-          {
-            "percentage": 16,
-            "item_id": 1037,
-            "item_name": "R.Lavasioth Shl"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -16000,101 +15680,7 @@
   {
     "id": 80,
     "monster_name": "Espinas",
-    "lr_cts": [
-      {
-        "label": "Body Carves",
-        "trigger_chance": null,
-        "num_carves": 3,
-        "drops": [
-          {
-            "percentage": 45,
-            "item_id": 1046,
-            "item_name": "Espinas Scale"
-          },
-          {
-            "percentage": 25,
-            "item_id": 1047,
-            "item_name": "Espinas Carapace"
-          },
-          {
-            "percentage": 14,
-            "item_id": 950,
-            "item_name": "Toxin Sac"
-          },
-          {
-            "percentage": 4,
-            "item_id": 1048,
-            "item_name": "Espinas Spike"
-          },
-          {
-            "percentage": 4,
-            "item_id": 1049,
-            "item_name": "Espinas Scalp"
-          },
-          {
-            "percentage": 8,
-            "item_id": 322,
-            "item_name": "Wyvern Fang"
-          }
-        ]
-      },
-      {
-        "label": "Tail Carves",
-        "trigger_chance": null,
-        "num_carves": 1,
-        "drops": [
-          {
-            "percentage": 50,
-            "item_id": 1050,
-            "item_name": "Espinas Tail"
-          },
-          {
-            "percentage": 35,
-            "item_id": 1046,
-            "item_name": "Espinas Scale"
-          },
-          {
-            "percentage": 15,
-            "item_id": 1047,
-            "item_name": "Espinas Carapace"
-          }
-        ]
-      },
-      {
-        "label": "Shiny Drops",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 75,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
-          },
-          {
-            "percentage": 23,
-            "item_id": 1046,
-            "item_name": "Espinas Scale"
-          },
-          {
-            "percentage": 2,
-            "item_id": 1051,
-            "item_name": "Espinas Ruby"
-          }
-        ]
-      },
-      {
-        "label": "HC Carve",
-        "trigger_chance": null,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 2,
-            "item_id": 3720,
-            "item_name": "Espi Grandspike"
-          }
-        ]
-      }
-    ],
+    "lr_cts": [],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -19096,7 +18682,8 @@
   {
     "id": 100,
     "monster_name": "Unknown",
-    "lr_cts": [
+    "lr_cts": [],
+    "hr_cts": [
       {
         "label": "Body Carves",
         "trigger_chance": null,
@@ -19177,8 +18764,87 @@
         ]
       }
     ],
-    "hr_cts": [],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 4,
+        "drops": [
+          {
+            "percentage": 30,
+            "item_id": 4485,
+            "item_name": "??? Scale"
+          },
+          {
+            "percentage": 30,
+            "item_id": 4486,
+            "item_name": "??? Webbing"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4487,
+            "item_name": "??? Fang"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4488,
+            "item_name": "??? Jaw"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4489,
+            "item_name": "??? Claw"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4490,
+            "item_name": "??? Wing"
+          },
+          {
+            "percentage": 34,
+            "item_id": 4491,
+            "item_name": "??? Marrow"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4492,
+            "item_name": "??? Tail"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4493,
+            "item_name": "??? Spike"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 33,
+            "item_id": 4485,
+            "item_name": "??? Scale"
+          },
+          {
+            "percentage": 33,
+            "item_id": 4492,
+            "item_name": "??? Tail"
+          },
+          {
+            "percentage": 33,
+            "item_id": 4493,
+            "item_name": "??? Spike"
+          },
+          {
+            "percentage": 1,
+            "item_id": 4352,
+            "item_name": "F.Wyvern Jewel"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   },
   {

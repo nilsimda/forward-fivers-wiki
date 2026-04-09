@@ -277,14 +277,21 @@ class Quest:
             return "gr"
 
     @staticmethod
-    def _extract_quest_file(path: Path) -> tuple[Rank | None, list[QuestRewardBox]]:
-        if not path.exists():
-            return None, []
+    def _rank_from_min_hr(min_hr: int) -> Rank:
+        if min_hr <= 30:
+            return "lr"
+        elif min_hr <= 99:
+            return "hr"
+        else:
+            return "er"
+
+    @staticmethod
+    def _extract_quest_file(path: Path) -> tuple[int, list[QuestRewardBox]]:
         raw = path.read_bytes()
         rewards_pointer = read_u32(raw, HEADER_POINTERS["quest_rewards"])
-        rank = Quest._rank_from_difficulty(read_u16(raw, 0x48))
+        difficulty = read_u16(raw, 0x48)
         if rewards_pointer >= len(raw):
-            return rank, []
+            return difficulty, []
         reward_boxes = []
         while True:
             reward_box = QuestRewardBox.unpack_from(raw, rewards_pointer)
@@ -293,15 +300,24 @@ class Quest:
             reward_boxes.append(reward_box)
             rewards_pointer += QuestRewardBox.size()
 
-        return rank, reward_boxes
+        return difficulty, reward_boxes
+
+    _RANK_ORDER: ClassVar[dict[Rank, int]] = {"lr": 0, "hr": 1, "er": 2, "gr": 3}
+
+    @staticmethod
+    def _get_quest_rank(difficulty: int, post_min_hr: int) -> Rank:
+        difficulty_rank = Quest._rank_from_difficulty(difficulty)
+        post_min_hr_rank = Quest._rank_from_min_hr(post_min_hr)
+        return max(difficulty_rank, post_min_hr_rank, key=Quest._RANK_ORDER.__getitem__)
 
     @classmethod
     def unpack_from(cls, raw: bytes, offset: int, quest_files_dir: Path) -> "Quest":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         quest_id = unpacked[14]
-        rank, reward_boxes = cls._extract_quest_file(
+        difficulty, reward_boxes = cls._extract_quest_file(
             quest_files_dir / f"{quest_id:05}d0.bin"
         )
+        post_min_rank = unpacked[27]
 
         reward_boxes_by_id = {box.table_id: box.rewards for box in reward_boxes}
 
@@ -325,6 +341,8 @@ class Quest:
             count=unpacked[23],
         )
 
+        rank = cls._get_quest_rank(difficulty, post_min_rank)
+
         quest = cls(
             max_players=4 if unpacked[4] == 0 else unpacked[4],
             quest_fee=unpacked[5],
@@ -341,7 +359,7 @@ class Quest:
             subA_goal=subA_goal,
             subB_goal=subB_goal,
             join_min_rank=unpacked[25],
-            post_min_rank=unpacked[27],
+            post_min_rank=post_min_rank,
             quest_text=quest_text,
             rank=rank,
             reward_boxes=reward_boxes_by_id,
