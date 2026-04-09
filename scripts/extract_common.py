@@ -47,7 +47,8 @@ HEADER_POINTERS = {
     # quest file pointers
     "quest_rewards": 0x0000000C,
     # mhfpac pointers
-    "map_names": 0x000B9D40,  # 0x00154641,
+    "map_names": 0x000B9D40,
+    "skill_point_names": 0x000C09D4,
 }
 
 U16_FMT = "<H"

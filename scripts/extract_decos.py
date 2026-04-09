@@ -10,6 +10,7 @@ from extract_common import (
     DEFAULT_DATA_PATHS,
     HEADER_POINTERS,
     REPO_ROOT,
+    decode_c_string,
     load_item_names,
     read_u16,
     read_u32,
@@ -17,213 +18,22 @@ from extract_common import (
 )
 from extract_items import Item
 
-SKILL_NAMES: dict[int, str] = {
-    0x00: "None",
-    0x01: "Passive",
-    0x02: "Fate",
-    0x03: "Backpacking",
-    0x04: "Auto-Guard",
-    0x05: "Guard",
-    0x06: "Recover",
-    0x07: "Recover Speed",
-    0x08: "Clust S.Add",
-    0x09: "Protection",
-    0x0A: "Thunder Res",
-    0x0B: "Pierce S.Up",
-    0x0C: "Pierce S.Add",
-    0x0D: "Stun",
-    0x0E: "Whim",
-    0x0F: "Sharpness",
-    0x10: "Gluttony",
-    0x11: "Stealth",
-    0x12: "Expert",
-    0x13: "Wide-Area Recovery",
-    0x14: "Wide-Area Antidote",
-    0x15: "Attack",
-    0x16: "Gather",
-    0x17: "Pellet S.Up",
-    0x18: "Pellet S.Add",
-    0x19: "Sleep",
-    0x1A: "All Res Up",
-    0x1B: "Psychic",
-    0x1C: "Reload",
-    0x1D: "Cold Res",
-    0x1E: "Heat Res",
-    0x1F: "Health",
-    0x20: "Artisan",
-    0x21: "Wide-Area Seeds",
-    0x22: "Ammo Combiner",
-    0x23: "Map",
-    0x24: "Hearing",
-    0x25: "Combining",
-    0x26: "Normal S.Up",
-    0x27: "Normal S.Add",
-    0x28: "Fish",
-    0x2C: "Throwing",
-    0x2D: "Sharpening",
-    0x2E: "Poison",
-    0x2F: "Status Attack",
-    0x30: "Meat",
-    0x31: "Anti-Theft",
-    0x32: "Bomb Boost",
-    0x33: "Hunger",
-    0x34: "Recoil",
-    0x35: "Fire Res",
-    0x36: "Wind Pressure",
-    0x37: "Horn",
-    0x38: "Defense",
-    0x39: "Paralysis",
-    0x3A: "Water Res",
-    0x3B: "Dragon Res",
-    0x3C: "Crag S.Add",
-    0x3D: "Alchemy",
-    0x3E: "Auto-Reload",
-    0x3F: "Gather Speed",
-    0x40: "Evasion",
-    0x41: "Adrenaline",
-    0x42: "Everlasting",
-    0x43: "Stamina",
-    0x44: "Loading",
-    0x45: "Precision",
-    0x46: "Monster",
-    0x47: "Eating",
-    0x48: "Carving",
-    0x49: "Terrain",
-    0x4A: "Deoderant",
-    0x4B: "Snowball Res",
-    0x4C: "Ice Res",
-    0x4D: "Quake Res",
-    0x4E: "Wide-Area",
-    0x4F: "Vocal Chords",
-    0x50: "Cooking",
-    0x51: "Gunnery",
-    0x55: "Flute Expert",
-    0x5A: "Breakout",
-    0x5B: "Taijutsu",
-    0x5C: "Strong Arm",
-    0x5E: "Inspiration",
-    0x5F: "Passive",
-    0x64: "Bond",
-    0x66: "Guts",
-    0x68: "Pressure",
-    0x69: "Capture Pro.",
-    0x6C: "Poison C.Add",
-    0x6D: "Para C.Add",
-    0x6E: "Sleep C.Add",
-    0x6F: "Fire Attack",
-    0x70: "Water Attack",
-    0x71: "Thunder Attack",
-    0x72: "Ice Attack",
-    0x73: "Dragon Attack",
-    0x74: "Fasting",
-    0x76: "Bomb Sword",
-    0x77: "Strong Attack Sword",
-    0x78: "Poison Sword",
-    0x79: "Para Sword",
-    0x7A: "Sleep Sword",
-    0x7B: "Fire Sword",
-    0x7C: "Water Sword",
-    0x7D: "Thunder Sword",
-    0x7E: "Ice Sword",
-    0x7F: "Dragon Sword",
-    0x80: "Focus",
-    0x81: "SnS Tech",
-    0x82: "DS Tech",
-    0x83: "GS Tech",
-    0x84: "LS Tech",
-    0x85: "Hammer Tech",
-    0x86: "HH Tech",
-    0x87: "Lance Tech",
-    0x88: "GL Tech",
-    0x89: "HBG Tech",
-    0x8A: "LBG Tech",
-    0x8B: "Bow Tech",
-    0x8C: "Speed Setup",
-    0x8D: "Wpn Handling",
-    0x8E: "Element Attack",
-    0x8F: "Stamina Recov",
-    0x90: "Knife Throwing",
-    0x91: "Caring",
-    0x92: "Def Lock",
-    0x93: "Fencing",
-    0x94: "Status Res",
-    0x95: "Sobriety",
-    0x96: "Crystal Res",
-    0x97: "Magnetic Res",
-    0x98: "Light Tread",
-    0x99: "Relief",
-    0x9A: "Shiriagari",
-    0x9B: "Lone Wolf",
-    0x9C: "Three Worlds",
-    0x9D: "Reflect",
-    0x9E: "Compensation",
-    0x9F: "Edgemaster",
-    0xA0: "Rapid Fire",
-    0xA1: "Strong Attack",
-    0xA2: "Encourage",
-    0xA3: "Grace",
-    0xA4: "Vitality",
-    0xA5: "Rage",
-    0xA6: "Iron Arm",
-    0xA7: "Breeder",
-    0xA8: "Mutual Strike",
-    0xA9: "Issen",
-    0xAA: "Survivor",
-    0xAB: "Steady Hand",
-    0xAC: "Mounting",
-    0xAD: "Tenderizer",
-    0xAE: "Combo Expert",
-    0xAF: "Hunter",
-    0xB0: "Critical Shot",
-    0xB1: "Continuous Strike (Deleted)",
-    0xB2: "Evade Distance",
-    0xB3: "Charge Atk Up",
-    0xB4: "Bullet Saver",
-    0xB5: "Movement Speed",
-    0xB6: "Reinforcement",
-    0xB7: "Vampirism",
-    0xB8: "Adaptation",
-    0xB9: "Dark Pulse",
-    0xBA: "Herbal Science",
-    0xBB: "Tonfa Tech",
-    0xBC: "Incitement",
-    0xBD: "Blazing Grace",
-    0xBE: "Drug Knowledge",
-    0xBF: "Absolute Def.",
-    0xC0: "Mindfulness",
-    0xC1: "Gathering Mastery",
-    0xC2: "Stylish",
-    0xC3: "Assistance",
-    0xC4: "Gentle Shot",
-    0xC5: "Dissolver",
-    0xC6: "Combat Supremacy",
-    0xC7: "Vigorous",
-    0xC8: "Sword God",
-    0xC9: "Thunder Clad",
-    0xCA: "Status Assault",
-    0xCB: "Drawing Arts",
-    0xCC: "Blast Res",
-    0xCD: "Crit Conversion",
-    0xCE: "Determination",
-    0xCF: "Stylish Assault",
-    0xD0: "Freeze Res",
-    0xD1: "Ice Age",
-    0xD2: "Lavish Attack",
-    0xD3: "AS F Tech",
-    0xD4: "Fortification",
-    0xD5: "Sniper",
-    0xD6: "Obscurity",
-    0xD7: "Evasion Boost",
-    0xD8: "Rush",
-    0xD9: "Skilled",
-    0xDA: "Ceaseless",
-    0xDB: "Breaking Point",
-    0xDC: "Abnormality",
-    0xDD: "Spacing",
-    0xDE: "Trained",
-    0xDF: "Furious",
-    0xE0: "MS Tech",
-}
+
+def _extract_skill_point_names(mhfpac_raw: bytes) -> dict[int, str]:
+    skill_point_names_base = HEADER_POINTERS["skill_point_names"]
+
+    result: dict[int, str] = {}
+    skill_id = 0
+    while True:
+        skill_point_name_pointer = read_u32(mhfpac_raw, skill_point_names_base)
+        if skill_point_name_pointer == 0:
+            break
+        skill_point_name = decode_c_string(mhfpac_raw, skill_point_name_pointer)
+        result[skill_id] = skill_point_name
+        skill_id += 1
+        skill_point_names_base += 4
+
+    return result
 
 
 def parse_args() -> argparse.Namespace:
@@ -233,6 +43,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--item-names", type=Path, default=DEFAULT_DATA_PATHS["item_names"]
     )
+    parser.add_argument("--mhfpac", type=Path, default=DEFAULT_DATA_PATHS["mhfpac"])
     parser.add_argument(
         "--output",
         type=Path,
@@ -257,7 +68,9 @@ class DecoStats:
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BHBHHBbBbBbBbHH")
 
     @classmethod
-    def unpack_from(cls, raw: bytes, offset: int) -> "DecoStats":
+    def unpack_from(
+        cls, raw: bytes, offset: int, skill_point_names_by_id: dict[int, str]
+    ) -> "DecoStats":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         skills: list[Skill] = []
         for unpacked_skill in batched(unpacked[5:-2], 2):
@@ -267,7 +80,7 @@ class DecoStats:
             skills.append(
                 Skill(
                     id=sid,
-                    name=SKILL_NAMES.get(sid, f"Unknown ({sid})"),
+                    name=skill_point_names_by_id.get(sid, f"Unknown ({sid})"),
                     points=pts,
                 )
             )
@@ -307,16 +120,22 @@ class Deco:
         return read_u16(raw, item_data_offset + 22)
 
     @staticmethod
-    def _extract_stats_table(raw: bytes, item_id) -> DecoStats:
+    def _extract_stats_table(
+        raw: bytes, item_id: int, skill_point_names_by_id: dict[int, str]
+    ) -> DecoStats:
         st_offset = Deco._get_stats_table_offset(raw, item_id)
         stats_table_base = read_u32(raw, DECO_STATS_TABLE_HEADER_POINTER)
         return DecoStats.unpack_from(
-            raw, stats_table_base + st_offset * DecoStats.size()
+            raw,
+            stats_table_base + st_offset * DecoStats.size(),
+            skill_point_names_by_id,
         )
 
     @classmethod
     def _parse_craft_items(
-        cls, unpacked: tuple[int, ...], item_names_by_id: dict[int, str]
+        cls,
+        unpacked: tuple[int, ...],
+        item_names_by_id: dict[int, str],
     ) -> list[DecoCraftItem]:
         craft_items: list[DecoCraftItem] = []
         for item in batched(unpacked[2:], 3):
@@ -332,7 +151,11 @@ class Deco:
 
     @classmethod
     def unpack_from(
-        cls, raw: bytes, offset: int, item_names_by_id: dict[int, str]
+        cls,
+        raw: bytes,
+        offset: int,
+        item_names_by_id: dict[int, str],
+        skill_point_names_by_id: dict[int, str],
     ) -> "Deco":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         return cls(
@@ -340,7 +163,7 @@ class Deco:
             name=item_names_by_id.get(unpacked[0], ""),
             receipt_category=unpacked[1],
             craft_recipes=[cls._parse_craft_items(unpacked, item_names_by_id)],
-            stats=cls._extract_stats_table(raw, unpacked[0]),
+            stats=cls._extract_stats_table(raw, unpacked[0], skill_point_names_by_id),
         )
 
     def add_recipe(self, recipe: list[DecoCraftItem]) -> None:
@@ -358,11 +181,14 @@ DECO_STATS_TABLE_HEADER_POINTER = 0x000000FC
 def extract_decos(
     raw: bytes,
     item_names_by_id: dict[int, str],
+    skill_point_names_by_id: dict[int, str],
 ) -> list[Deco]:
     decoshop_table_base = read_u32(raw, DECO_SHOP_HEADER_POINTER)
     by_id: dict[int, Deco] = {}
     while True:
-        deco = Deco.unpack_from(raw, decoshop_table_base, item_names_by_id)
+        deco = Deco.unpack_from(
+            raw, decoshop_table_base, item_names_by_id, skill_point_names_by_id
+        )
         decoshop_table_base += Deco.size()
         if deco.id == 0 and deco.receipt_category == 0:
             break
@@ -377,9 +203,11 @@ def extract_decos(
 def main() -> None:
     args = parse_args()
     item_names = load_item_names(args.item_names)
+    skill_point_names = _extract_skill_point_names(args.mhfpac.read_bytes())
     decos = extract_decos(
         args.input.read_bytes(),
         item_names,
+        skill_point_names,
     )
     write_json_output(args.output, decos)
 
