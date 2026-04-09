@@ -330,12 +330,13 @@ def _extract_carve_tables_per_rank(
 
 
 def _should_skip_ct_entry(
-    ct_ids: BaseMonsterCTIndices, carve_labels: CarveTypeLabels, label_idx: int
+    ct_ids: BaseMonsterCTIndices,
+    carve_labels: CarveTypeLabels,
+    label_idx: int,
+    carve_type: CarveType,
 ) -> bool:
-    primary = carve_labels.get("primary", {})
-    invalid_key = (
-        str(label_idx) not in primary or primary[str(label_idx)] == "__ignore__"
-    )
+    labels = carve_labels.get(carve_type, {})
+    invalid_key = str(label_idx) not in labels or labels[str(label_idx)] == "__ignore__"
 
     return invalid_key or (
         ct_ids.lr_index == 0
@@ -359,7 +360,7 @@ def _process_ct_entries(
     if ct_pointer != 0:
         for i in range(count):
             ct_indices = ct_indices_cls.unpack_from(raw, ct_pointer)
-            if not _should_skip_ct_entry(ct_indices, carve_labels, i):
+            if not _should_skip_ct_entry(ct_indices, carve_labels, i, carve_type):
                 trigger_chance = getattr(ct_indices, "trigger_chance", None)
                 num_carves = getattr(ct_indices, "num_carves", None)
                 tables = _extract_carve_tables_per_rank(

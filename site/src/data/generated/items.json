@@ -4533,7 +4533,7 @@
     "sell_price": 40,
     "item_type": 4,
     "is_gz": false,
-    "name": "Well-done Fish",
+    "name": "Gourmet Fish",
     "description": "A crispy grilled fish that\nimproves natural healing\nand restores Stamina.",
     "descriptionSegments": [
       {
@@ -4555,7 +4555,7 @@
     "sell_price": 60,
     "item_type": 4,
     "is_gz": false,
-    "name": "Well-done Fish+",
+    "name": "Lrg Gourmet Fish",
     "description": "High-quality grilled fish.\nBoosts natural recovery and \nStamina.",
     "descriptionSegments": [
       {
@@ -4577,7 +4577,7 @@
     "sell_price": 58,
     "item_type": 4,
     "is_gz": false,
-    "name": "Gourmet Fish",
+    "name": "Gourmet Fish+",
     "description": "Fish grilled to perfection.\nBoosts natural recovery and\nStamina.",
     "descriptionSegments": [
       {
@@ -4599,7 +4599,7 @@
     "sell_price": 70,
     "item_type": 4,
     "is_gz": false,
-    "name": "Gourmet Fish+",
+    "name": "Lrg Gourmet Fish+",
     "description": "A large fish grilled to\nperfection. Boosts natural\nrecovery and Stamina.",
     "descriptionSegments": [
       {
@@ -13725,6 +13725,20 @@
       {
         "monster_id": 23,
         "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 22
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 22
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 20
@@ -13735,6 +13749,34 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 20
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 22
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 22
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 22
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 22
       }
     ],
     "partbreak_aquisitions": [],
@@ -16021,6 +16063,20 @@
       }
     ],
     "carve_aquisitions": [
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 5
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 5
+      },
       {
         "monster_id": 58,
         "monster_name": "Yama Tsukami",
@@ -19269,6 +19325,13 @@
         "rank": "hr",
         "label": "Tail Carves",
         "percentage": 10
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 39
       }
     ],
     "partbreak_aquisitions": [
@@ -20020,6 +20083,13 @@
       }
     ],
     "carve_aquisitions": [
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 29
+      },
       {
         "monster_id": 59,
         "monster_name": "Chameleos",
@@ -21198,6 +21268,13 @@
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 6
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 1
       }
     ],
     "partbreak_aquisitions": [
@@ -21634,6 +21711,13 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 6
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 1
       },
       {
         "monster_id": 83,
@@ -23755,6 +23839,48 @@
         "monster_id": 23,
         "monster_name": "Melynx",
         "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 15
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
         "label": "Shiny Drops",
         "percentage": 15
       }
@@ -26740,6 +26866,20 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 15
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 15
+      },
+      {
         "monster_id": 57,
         "monster_name": "Shakalaka",
         "rank": "hr",
@@ -28640,7 +28780,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 10,
@@ -32804,7 +32944,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 5,
@@ -40951,7 +41091,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 27,
@@ -41933,7 +42073,7 @@
     "sell_price": 880,
     "item_type": 1,
     "is_gz": false,
-    "name": "Elder Drgn Bone",
+    "name": "ElderDragonBone",
     "description": "A bone from an elder dragon.\nIt exudes the great majesty\nof the beast.",
     "descriptionSegments": [
       {
@@ -46586,7 +46726,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 20,
@@ -50051,7 +50191,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 5,
@@ -51411,27 +51551,6 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 50
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "lr",
-        "label": "__ignore__",
-        "percentage": 65
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "hr",
-        "label": "__ignore__",
-        "percentage": 50
-      },
-      {
-        "monster_id": 100,
-        "monster_name": "Unknown",
-        "rank": "lr",
-        "label": "__ignore__",
-        "percentage": 100
       }
     ],
     "partbreak_aquisitions": [],
@@ -51484,9 +51603,37 @@
       {
         "monster_id": 52,
         "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 80
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 60
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
         "rank": "hr",
         "label": "Shiny Drops:Bones",
         "percentage": 60
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 80
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 70
       },
       {
         "monster_id": 91,
@@ -64402,7 +64549,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 15,
@@ -65964,7 +66111,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 2,
@@ -66621,7 +66768,7 @@
     "sell_price": 3250,
     "item_type": 1,
     "is_gz": false,
-    "name": "P.Rathian Cpc",
+    "name": "P.Rath Carapace",
     "description": "A superior Pink Rathian\nshell. Vivid and beautiful,\nused for various equipment.",
     "descriptionSegments": [
       {
@@ -66828,7 +66975,7 @@
     "sell_price": 3900,
     "item_type": 1,
     "is_gz": false,
-    "name": "G.Rathian Cpc",
+    "name": "G.Rath Carapace",
     "description": "A hard shell covered in\nshining gold scales. As\ngorgeous as a gold bar.",
     "descriptionSegments": [
       {
@@ -70862,7 +71009,7 @@
     "sell_price": 2200,
     "item_type": 1,
     "is_gz": false,
-    "name": "S.Rathalos Scl+",
+    "name": "S.Rath Scale+",
     "description": "Quality scale carved from a\nSilver Rathalos. It has a\nmoon-like shine.",
     "descriptionSegments": [
       {
@@ -90401,7 +90548,7 @@
     "sell_price": 1050,
     "item_type": 1,
     "is_gz": false,
-    "name": "Fire Dragon Scl",
+    "name": "FireDragonScale",
     "description": "A scalding hot scale. It'll\ntake your fingerprints right\noff.",
     "descriptionSegments": [
       {
@@ -92136,7 +92283,7 @@
     "sell_price": 1800,
     "item_type": 1,
     "is_gz": false,
-    "name": "Fire Dragon Scl+",
+    "name": "FireDragonScale+",
     "description": "A scale from a majestic fire\ndragon. It burns with hot\nfire from within.",
     "descriptionSegments": [
       {
@@ -104641,7 +104788,7 @@
     "sell_price": 5000,
     "item_type": 6,
     "is_gz": false,
-    "name": "Friendship Ticket",
+    "name": "Friendship Tkt",
     "description": "Awarded for completing an\nUrgent Quest and advancing\nup the ranks as a hunter.",
     "descriptionSegments": [
       {
@@ -106187,6 +106334,20 @@
       {
         "monster_id": 23,
         "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 5
@@ -106197,6 +106358,34 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 5
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 3
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 3
       }
     ],
     "partbreak_aquisitions": [
@@ -111345,7 +111534,7 @@
     "sell_price": 0,
     "item_type": 6,
     "is_gz": false,
-    "name": "Furniture Tkt G",
+    "name": "FurnitureTicket+",
     "description": "A ticket awarded for taking\npart in the Grand Decor\nDerby. Try collecting them!",
     "descriptionSegments": [
       {
@@ -112151,7 +112340,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 5,
@@ -113215,7 +113404,7 @@
     "sell_price": 105,
     "item_type": 1,
     "is_gz": false,
-    "name": "HighQualityPelt",
+    "name": "High-qualty Pelt",
     "description": "Feels wonderful to the\ntouch. Difficult to carve\nbut valued by the Guild.",
     "descriptionSegments": [
       {
@@ -113748,7 +113937,7 @@
     "sell_price": 3840,
     "item_type": 1,
     "is_gz": false,
-    "name": "G.Plesioth Scl+",
+    "name": "G.PlesiothScale+",
     "description": "A quality Green Plesioth\nscale. Its hue enthralls\nall who see it.",
     "descriptionSegments": [
       {
@@ -116908,7 +117097,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 12,
@@ -117220,7 +117409,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 16,
@@ -117512,7 +117701,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 16,
@@ -117984,7 +118173,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 5,
@@ -118292,7 +118481,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 17,
@@ -118585,7 +118774,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 17,
@@ -118811,7 +119000,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 1,
@@ -119793,7 +119982,7 @@
     "sell_price": 2650,
     "item_type": 1,
     "is_gz": false,
-    "name": "Lavasioth Cpc",
+    "name": "Lavasio Carapace",
     "description": "A shell encrusted with rare,\nhardened ore. Even wyverns\nstruggle to scratch it.",
     "descriptionSegments": [
       {
@@ -120752,10 +120941,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "BlackMarketCoin",
-    "description": "A coin sold sold at a fixed\nprice on the black market.\nAlso known as \"The Goods\".",
+    "description": "A coin sold at a fixed price\non the black market. Also\nknown as \"The Goods\".",
     "descriptionSegments": [
       {
-        "text": "A coin sold sold at a fixed\nprice on the black market.\nAlso known as \"The Goods\".",
+        "text": "A coin sold at a fixed price\non the black market. Also\nknown as \"The Goods\".",
         "colorCode": null
       }
     ],
@@ -120774,10 +120963,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "RuggedWhtFabric",
-    "description": "肌触りも良く、吸収性も高い\n白い布地。ジャンルを問わず、\nいろいろな服に利用が可能。",
+    "description": "A piece of soft, white,\nabsorbent fabric. Used to\nmake various costumes.",
     "descriptionSegments": [
       {
-        "text": "肌触りも良く、吸収性も高い\n白い布地。ジャンルを問わず、\nいろいろな服に利用が可能。",
+        "text": "A piece of soft, white,\nabsorbent fabric. Used to\nmake various costumes.",
         "colorCode": null
       }
     ],
@@ -120840,10 +121029,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "Green Fabric",
-    "description": "深い緑をした布地。祭に参加\nした者でないと作ってもらえ\nない、こだわりの限定品。",
+    "description": "A piece of fabric with a\ndeep green hue. Limited to\nHunter Fest participants.",
     "descriptionSegments": [
       {
-        "text": "深い緑をした布地。祭に参加\nした者でないと作ってもらえ\nない、こだわりの限定品。",
+        "text": "A piece of fabric with a\ndeep green hue. Limited to\nHunter Fest participants.",
         "colorCode": null
       }
     ],
@@ -120862,10 +121051,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "Fluffing Liquid",
-    "description": "特殊な技法により、布地をフワ\nフワのモフモフにする。\n爆発で行っているとの噂が。",
+    "description": "A fluid rumored to make\nmaterials fluffier by...\nexploding!?",
     "descriptionSegments": [
       {
-        "text": "特殊な技法により、布地をフワ\nフワのモフモフにする。\n爆発で行っているとの噂が。",
+        "text": "A fluid rumored to make\nmaterials fluffier by...\nexploding!?",
         "colorCode": null
       }
     ],
@@ -120928,10 +121117,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "Pink Fabric",
-    "description": "優しい桃色をした布地。簡単\nな必要素材ではないが、幅広い\n年齢層から支持のある布地。",
+    "description": "Fabric with a soft pink hue.\nThough hard to make, it's\npopular among all ages.",
     "descriptionSegments": [
       {
-        "text": "優しい桃色をした布地。簡単\nな必要素材ではないが、幅広い\n年齢層から支持のある布地。",
+        "text": "Fabric with a soft pink hue.\nThough hard to make, it's\npopular among all ages.",
         "colorCode": null
       }
     ],
@@ -122737,7 +122926,7 @@
     "sell_price": 2400,
     "item_type": 1,
     "is_gz": false,
-    "name": "F.Espinas Cpc",
+    "name": "F.Espi Carapace",
     "description": "A tough shell with a deep\nhue. Its color evokes the\nimage of an ancient tree.",
     "descriptionSegments": [
       {
@@ -124678,7 +124867,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 10,
@@ -124947,7 +125136,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 9,
@@ -125225,7 +125414,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 8,
@@ -125234,7 +125423,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 25,
@@ -126001,7 +126190,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Maestro Jewel+",
+    "name": "Sonorous Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -128152,7 +128341,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "1stAnniTkt: Head",
+    "name": "1stAnni Ticket H",
     "description": "Instructions on forging 1st\nAnniversary-themed armor.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -128174,7 +128363,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "1stAnniTkt: Chest",
+    "name": "1stAnni Ticket C",
     "description": "Instructions on forging 1st\nAnniversary-themed armor.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -128196,7 +128385,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "1stAnniTkt: Arms",
+    "name": "1stAnni Ticket A",
     "description": "Instructions on forging 1st\nAnniversary-themed armor.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -128218,7 +128407,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "1stAnniTkt: Waist",
+    "name": "1stAnni Ticket W",
     "description": "Instructions on forging 1st\nAnniversary-themed armor.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -128240,7 +128429,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "1stAnniTkt: Legs",
+    "name": "1stAnni Ticket L",
     "description": "Instructions on forging 1st\nAnniversary-themed armor.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -128372,7 +128561,7 @@
     "sell_price": 95,
     "item_type": 5,
     "is_gz": false,
-    "name": "Mega Barrel Bomb",
+    "name": "Barrel Bomb XL",
     "description": "爆発威力の高さを恐れ発売を\n禁じた大タル爆弾Ｇの強化版。\nとあるネコが仕入れてきた。",
     "descriptionSegments": [
       {
@@ -129481,6 +129670,20 @@
         "percentage": 38
       },
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 38
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
+        "percentage": 38
+      },
+      {
         "monster_id": 68,
         "monster_name": "Bulldrome",
         "rank": "er",
@@ -129920,6 +130123,20 @@
         "percentage": 10
       },
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 10
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
+        "percentage": 10
+      },
+      {
         "monster_id": 68,
         "monster_name": "Bulldrome",
         "rank": "er",
@@ -130338,6 +130555,20 @@
         "monster_name": "Congalala",
         "rank": "er",
         "label": "Shiny Drops:Bones",
+        "percentage": 2
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 2
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
         "percentage": 2
       },
       {
@@ -132882,6 +133113,20 @@
         "percentage": 38
       },
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 38
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
+        "percentage": 38
+      },
+      {
         "monster_id": 53,
         "monster_name": "Rajang",
         "rank": "er",
@@ -133333,6 +133578,20 @@
         "percentage": 10
       },
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 10
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
+        "percentage": 10
+      },
+      {
         "monster_id": 53,
         "monster_name": "Rajang",
         "rank": "er",
@@ -133754,6 +134013,20 @@
         "monster_name": "Congalala",
         "rank": "er",
         "label": "Shiny Drops:Bones",
+        "percentage": 2
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 2
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Shiny Drops:Ore",
         "percentage": 2
       },
       {
@@ -137027,7 +137300,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 10,
@@ -137420,7 +137693,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 8,
@@ -137813,7 +138086,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 7,
@@ -137822,7 +138095,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 25,
@@ -142508,13 +142781,6 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 20
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [
@@ -143004,13 +143270,6 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 12
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 12
       }
     ],
     "partbreak_aquisitions": [
@@ -143499,13 +143758,6 @@
         "monster_name": "Draguros",
         "rank": "er",
         "label": "Body Carves",
-        "percentage": 8
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
         "percentage": 8
       }
     ],
@@ -151712,13 +151964,6 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 22
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 22
       }
     ],
     "partbreak_aquisitions": [
@@ -151952,13 +152197,6 @@
         "rank": "er",
         "label": "Body Carves",
         "percentage": 19
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 19
       }
     ],
     "partbreak_aquisitions": [
@@ -152164,13 +152402,6 @@
         "monster_name": "Draguros",
         "rank": "er",
         "label": "Body Carves",
-        "percentage": 14
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
         "percentage": 14
       }
     ],
@@ -154345,13 +154576,6 @@
         "rank": "er",
         "label": "Shiny Drops",
         "percentage": 35
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 35
       }
     ],
     "partbreak_aquisitions": [
@@ -154555,13 +154779,6 @@
         "rank": "er",
         "label": "Shiny Drops",
         "percentage": 20
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 20
       }
     ],
     "partbreak_aquisitions": [
@@ -154764,13 +154981,6 @@
         "monster_name": "Duragaua",
         "rank": "er",
         "label": "Shiny Drops",
-        "percentage": 15
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
         "percentage": 15
       }
     ],
@@ -161104,7 +161314,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 9,
@@ -161319,7 +161529,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 8,
@@ -161543,7 +161753,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 5,
@@ -161552,7 +161762,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 25,
@@ -165361,7 +165571,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 9,
@@ -165576,7 +165786,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 8,
@@ -165800,7 +166010,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 8,
@@ -165809,7 +166019,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 25,
@@ -172194,13 +172404,6 @@
         "percentage": 15
       },
       {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 15
-      },
-      {
         "monster_id": 97,
         "monster_name": "Bulluk",
         "rank": "er",
@@ -172651,25 +172854,11 @@
         "percentage": 5
       },
       {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 5
-      },
-      {
         "monster_id": 96,
         "monster_name": "Grenzebul",
         "rank": "er",
         "label": "Body Carves",
         "percentage": 5
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
-        "percentage": 10
       }
     ],
     "partbreak_aquisitions": [
@@ -172837,13 +173026,6 @@
         "monster_name": "Duragaua",
         "rank": "er",
         "label": "Shiny Drops",
-        "percentage": 5
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "er",
-        "label": "__ignore__",
         "percentage": 5
       }
     ],
@@ -176812,7 +176994,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Cryst Lance Tkt",
+    "name": "C.Lance Ticket",
     "description": "Instructions on forging the\nCrystal Lance. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -179375,7 +179557,7 @@
     "sell_price": 556,
     "item_type": 8,
     "is_gz": false,
-    "name": "Maiden's Health",
+    "name": "Maiden Heart (H)",
     "description": "Rarely restores Health when\nhit by an attack. May break\nupon use.",
     "descriptionSegments": [
       {
@@ -179397,7 +179579,7 @@
     "sell_price": 556,
     "item_type": 8,
     "is_gz": false,
-    "name": "Maiden's Shelter",
+    "name": "Maiden Heart (E)",
     "description": "Rarely reduces damage taken\nwhen hit by an attack. May\nbreak upon use.",
     "descriptionSegments": [
       {
@@ -179419,7 +179601,7 @@
     "sell_price": 556,
     "item_type": 8,
     "is_gz": false,
-    "name": "Maiden's Spirit",
+    "name": "Maiden Heart (S)",
     "description": "Rarely restores and boosts\nyour Stamina when hit by an\nattack. May break upon use.",
     "descriptionSegments": [
       {
@@ -179508,10 +179690,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Boiled Silver Egg",
-    "description": "口にすることで、体力を中量\n回復し、一定時間皮膚を硬質\n化させる。",
+    "description": "Restores a moderate amount\nof Stamina and temporarily\nturns your skin rock hard.",
     "descriptionSegments": [
       {
-        "text": "口にすることで、体力を中量\n回復し、一定時間皮膚を硬質\n化させる。",
+        "text": "Restores a moderate amount\nof Stamina and temporarily\nturns your skin rock hard.",
         "colorCode": null
       }
     ],
@@ -179530,10 +179712,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Boiled Gold Egg",
-    "description": "口にすることで、体力の上限\nを最大まで上昇し、完全回復\nし、一定時間硬質化させる。",
+    "description": "Restores all Health, boosts\nDefense, and maximizes the\nsize of your Health Gauge.",
     "descriptionSegments": [
       {
-        "text": "口にすることで、体力の上限\nを最大まで上昇し、完全回復\nし、一定時間硬質化させる。",
+        "text": "Restores all Health, boosts\nDefense, and maximizes the\nsize of your Health Gauge.",
         "colorCode": null
       }
     ],
@@ -180132,14 +180314,14 @@
     "item_type": 5,
     "is_gz": false,
     "name": "EZ Throwing Bomb",
-    "description": "支給品専用の投げタル爆弾。\n性能は全く同じ。\n（支給品専用）",
+    "description": "A supply-only Throwing Bomb.\nAs powerful as its normal\ncounterpart. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "支給品専用の投げタル爆弾。\n性能は全く同じ。\n",
+        "text": "A supply-only Throwing Bomb.\nAs powerful as its normal\ncounterpart. ",
         "colorCode": null
       },
       {
-        "text": "（支給品専用）",
+        "text": "(Supply Item)",
         "colorCode": "05"
       }
     ],
@@ -180157,15 +180339,15 @@
     "sell_price": 0,
     "item_type": 5,
     "is_gz": false,
-    "name": "EZ MegaBarrelBomb",
-    "description": "支給品専用の大タル爆弾Ｇ２。\n性能は全く同じ。\n（支給品専用）",
+    "name": "EZ Barrel Bomb XL",
+    "description": "Supply-only Barrel Bomb XL.\nAs powerful as its normal\ncounterpart. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "支給品専用の大タル爆弾Ｇ２。\n性能は全く同じ。\n",
+        "text": "Supply-only Barrel Bomb XL.\nAs powerful as its normal\ncounterpart. ",
         "colorCode": null
       },
       {
-        "text": "（支給品専用）",
+        "text": "(Supply Item)",
         "colorCode": "05"
       }
     ],
@@ -180250,10 +180432,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "White Lump",
-    "description": "薄汚れたガラクタに見える。\nこれだけでは使い道がないが、\n武器の素材になるかも…。",
+    "description": "Seemingly a piece of junk,\nbut maybe it could be used\nas a weapon material...?",
     "descriptionSegments": [
       {
-        "text": "薄汚れたガラクタに見える。\nこれだけでは使い道がないが、\n武器の素材になるかも…。",
+        "text": "Seemingly a piece of junk,\nbut maybe it could be used\nas a weapon material...?",
         "colorCode": null
       }
     ],
@@ -180272,10 +180454,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "White Chunk",
-    "description": "薄汚れたガラクタに見える。\nこれだけでは使い道がないが、\n武器の素材になるかも…。",
+    "description": "Seemingly a piece of junk,\nbut maybe it could be used\nas a weapon material...?",
     "descriptionSegments": [
       {
-        "text": "薄汚れたガラクタに見える。\nこれだけでは使い道がないが、\n武器の素材になるかも…。",
+        "text": "Seemingly a piece of junk,\nbut maybe it could be used\nas a weapon material...?",
         "colorCode": null
       }
     ],
@@ -180720,7 +180902,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Stellar Ticket",
+    "name": "Tanabata Ticket",
     "description": "Instructions on forging the\nStar armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -180764,7 +180946,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Noir Tkt: Head",
+    "name": "Noir Ticket H",
     "description": "Instructions on forging the\nNoir Headgear. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -180812,7 +180994,7 @@
     "sell_price": 50,
     "item_type": 0,
     "is_gz": false,
-    "name": "Nearcaster",
+    "name": "Battlecaster",
     "description": "A mysterious grenade that\ninstantly transports you\nto another hunter.",
     "descriptionSegments": [
       {
@@ -187818,7 +188000,7 @@
     "sell_price": 556,
     "item_type": 0,
     "is_gz": false,
-    "name": "Maiden's Health",
+    "name": "Maiden Wish (H)",
     "description": "An upgraded Maiden Heart.\nRarely restores Health when\nhit. May break upon use.",
     "descriptionSegments": [
       {
@@ -187840,7 +188022,7 @@
     "sell_price": 556,
     "item_type": 0,
     "is_gz": false,
-    "name": "Maiden's Evasion",
+    "name": "Maiden Wish (E)",
     "description": "An upgraded Maiden Heart.\nRarely reduces damage taken.\nMay break upon use.",
     "descriptionSegments": [
       {
@@ -187862,7 +188044,7 @@
     "sell_price": 556,
     "item_type": 0,
     "is_gz": false,
-    "name": "Maiden's Stamina",
+    "name": "Maiden Wish (S)",
     "description": "An upgraded Maiden Heart.\nRarely restores Stamina when\nhit. May break upon use.",
     "descriptionSegments": [
       {
@@ -187884,7 +188066,7 @@
     "sell_price": 556,
     "item_type": 0,
     "is_gz": false,
-    "name": "Maiden's Soul",
+    "name": "Maiden Soul",
     "description": "A fusion of the three most\npowerful Maiden Wishes. And\nyet, it may still break.",
     "descriptionSegments": [
       {
@@ -188368,7 +188550,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Khezu Lance Tkt",
+    "name": "KhezuLanceTicket",
     "description": "Instructions on forging the\nKhezu Lance. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -188390,7 +188572,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Kriegsmonat Tkt",
+    "name": "Kriegs Ticket",
     "description": "Instructions on forging the\nKriegsmonat. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -188412,7 +188594,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Brass March Tkt",
+    "name": "Brass Ticket",
     "description": "Instructions on forging the\nBrass March. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -188456,7 +188638,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Cryst Sword Tkt",
+    "name": "CrystSwordTicket",
     "description": "Instructions on forging the\nCrystal Greatsword. Bring\nthem to the Smithy!",
     "descriptionSegments": [
       {
@@ -188698,7 +188880,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "WhtCat Ticket H",
+    "name": "W.Cat Ticket H",
     "description": "Instructions on forging the\nWhite Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -188720,7 +188902,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "WhtCat Ticket C",
+    "name": "W.Cat Ticket C",
     "description": "Instructions on forging the\nWhite Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -188742,7 +188924,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "WhtCat Ticket A",
+    "name": "W.Cat Ticket A",
     "description": "Instructions on forging the\nWhite Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -188764,7 +188946,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "WhtCat Ticket W",
+    "name": "W.Cat Ticket W",
     "description": "Instructions on forging the\nWhite Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -188786,7 +188968,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "WhtCat Ticket L",
+    "name": "W.Cat Ticket L",
     "description": "Instructions on forging the\nWhite Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -190220,11 +190402,11 @@
     "sell_price": 10,
     "item_type": 5,
     "is_gz": false,
-    "name": "Giga Barrel Bomb",
-    "description": "A bomb even more potent\nthan the Mega Barrel Bomb.\n(Caravan Quests Only)",
+    "name": "Barrel Bomb XL+",
+    "description": "A bomb even more potent\nthan the Barrel Bomb XL.\n(Caravan Quests Only)",
     "descriptionSegments": [
       {
-        "text": "A bomb even more potent\nthan the Mega Barrel Bomb.\n",
+        "text": "A bomb even more potent\nthan the Barrel Bomb XL.\n",
         "colorCode": null
       },
       {
@@ -191517,7 +191699,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Felyne Kukri Tkt",
+    "name": "F.Kukri Ticket",
     "description": "Instructions on forging the\nFelyne Kukri. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191539,7 +191721,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Melynx Kukri Tkt",
+    "name": "M.Kukri Ticket",
     "description": "Instructions on forging the\nMelynx Kukri. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191847,7 +192029,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chaton Tkt: Head",
+    "name": "Chaton Ticket H",
     "description": "Instructions on forging the\nChaton armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191869,7 +192051,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chaton Tkt: Chest",
+    "name": "Chaton Ticket C",
     "description": "Instructions on forging the\nChaton armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191891,7 +192073,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chaton Tkt: Arms",
+    "name": "Chaton Ticket A",
     "description": "Instructions on forging the\nChaton armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191913,7 +192095,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chaton Tkt: Waist",
+    "name": "Chaton Ticket W",
     "description": "Instructions on forging the\nChaton armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191935,7 +192117,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chaton Tkt: Legs",
+    "name": "Chaton Ticket L",
     "description": "Instructions on forging the\nChaton armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191957,7 +192139,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Real Tkt: Head",
+    "name": "Real Ticket H",
     "description": "Instructions on forging the\nReal armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -191979,7 +192161,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Real Tkt: Chest",
+    "name": "Real Ticket C",
     "description": "Instructions on forging the\nReal armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -192001,7 +192183,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Real Tkt: Arms",
+    "name": "Real Ticket A",
     "description": "Instructions on forging the\nReal armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -192023,7 +192205,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Real Tkt: Waist",
+    "name": "Real Ticket W",
     "description": "Instructions on forging the\nReal armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -192045,7 +192227,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Real Tkt: Legs",
+    "name": "Real Ticket L",
     "description": "Instructions on forging the\nReal armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -194428,14 +194610,14 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Carving Charm",
-    "description": "Increases all carving\nattempts by one. (Consumed\nat the start of the Quest)",
+    "description": "Increases carving attempts\nby one. (Consumed at the\nstart of the Quest.)",
     "descriptionSegments": [
       {
-        "text": "Increases all carving\nattempts by one. ",
+        "text": "Increases carving attempts\nby one. ",
         "colorCode": null
       },
       {
-        "text": "(Consumed\nat the start of the Quest)",
+        "text": "(Consumed at the\nstart of the Quest.)",
         "colorCode": "05"
       }
     ],
@@ -194871,7 +195053,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Aqua P Tkt",
+    "name": "Aqualance Ticket",
     "description": "Instructions on forging the\nProven Aqualance. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -194893,7 +195075,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Grom P Tkt",
+    "name": "Boltlance Ticket",
     "description": "Instructions on forging the\nProven Boltlance. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -194915,7 +195097,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Frost F Tkt",
+    "name": "Frost F Ticket",
     "description": "Instructions on forging the\nFrost Falchion. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -194937,7 +195119,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Kamu F Tkt",
+    "name": "Calm F Ticket",
     "description": "Instructions on forging the\nCalm Falchion. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -194959,7 +195141,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Snow F Tkt",
+    "name": "S.Falx Ticket",
     "description": "Instructions on forging the\nSnow Falx. Bring them to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -194981,7 +195163,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Grand F Tkt",
+    "name": "G.Falx Ticket",
     "description": "Instructions on forging the\nGrand Falx. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195003,7 +195185,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "F.Cannon Tkt",
+    "name": "F.Cannon Ticket",
     "description": "Instructions on forging the\nFrigid Cannon. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195025,7 +195207,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "D.Cannon Tkt",
+    "name": "D.Cannon Ticket",
     "description": "Instructions on forging the\nDormire Cannon. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -195091,7 +195273,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Ferrum Tkt: Head",
+    "name": "Ferrum Ticket H",
     "description": "Instructions on forging the\nFerrum armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195113,7 +195295,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Ferrum Tkt: Chest",
+    "name": "Ferrum Ticket C",
     "description": "Instructions on forging the\nFerrum armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195135,7 +195317,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Ferrum Tkt: Arms",
+    "name": "Ferrum Ticket A",
     "description": "Instructions on forging the\nFerrum armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195157,7 +195339,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Ferrum Tkt: Waist",
+    "name": "Ferrum Ticket W",
     "description": "Instructions on forging the\nFerrum armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195179,7 +195361,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Ferrum Tkt: Legs",
+    "name": "Ferrum Ticket L",
     "description": "Instructions on forging the\nFerrum armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195201,7 +195383,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Craille Tkt: Head",
+    "name": "Craille Ticket H",
     "description": "Instructions on forging the\nCraille armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195223,7 +195405,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Craille Tkt: Chest",
+    "name": "Craille Ticket C",
     "description": "Instructions on forging the\nCraille armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195245,7 +195427,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Craille Tkt: Arms",
+    "name": "Craille Ticket A",
     "description": "Instructions on forging the\nCraille armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195267,7 +195449,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Craille Tkt: Waist",
+    "name": "Craille Ticket W",
     "description": "Instructions on forging the\nCraille armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195289,7 +195471,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Craille Tkt: Legs",
+    "name": "Craille Ticket L",
     "description": "Instructions on forging the\nCraille armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -195514,10 +195696,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Shakalaka Seeds",
-    "description": "奇面族により栽培されていた\nとされる不思議な種。工房で\n武具の素材として使用可能。",
+    "description": "A curious seed cultivated\nby the Shakalaka. Can be\nused as a weapon material.",
     "descriptionSegments": [
       {
-        "text": "奇面族により栽培されていた\nとされる不思議な種。工房で\n武具の素材として使用可能。",
+        "text": "A curious seed cultivated\nby the Shakalaka. Can be\nused as a weapon material.",
         "colorCode": null
       }
     ],
@@ -195624,10 +195806,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "First-aid Med+",
-    "description": "A drink that recovers just\nas much Health as a Mega\nPotion. (Supply Item)",
+    "description": "Restores just as much\nHealth as a Mega Potion.\n(Supply Item)",
     "descriptionSegments": [
       {
-        "text": "A drink that recovers just\nas much Health as a Mega\nPotion. ",
+        "text": "Restores just as much\nHealth as a Mega Potion.\n",
         "colorCode": null
       },
       {
@@ -196118,14 +196300,14 @@
     "item_type": 0,
     "is_gz": false,
     "name": "EZ Dash Juice",
-    "description": "一定時間疲れることなく走り\n続けることができる薬。\n（支給品専用）",
+    "description": "Lets you run without tiring\nfor a short period of time.\n(Supply Item)",
     "descriptionSegments": [
       {
-        "text": "一定時間疲れることなく走り\n続けることができる薬。\n",
+        "text": "Lets you run without tiring\nfor a short period of time.\n",
         "colorCode": null
       },
       {
-        "text": "（支給品専用）",
+        "text": "(Supply Item)",
         "colorCode": "05"
       }
     ],
@@ -196144,14 +196326,14 @@
     "item_type": 0,
     "is_gz": false,
     "name": "EZ Mega Dash Juice",
-    "description": "強走薬よりも、更に長い時間\n走り続けることができる薬。\n（支給品専用）",
+    "description": "Lets you run without tiring\nfor even longer than regular\nDash Juice. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "強走薬よりも、更に長い時間\n走り続けることができる薬。\n",
+        "text": "Lets you run without tiring\nfor even longer than regular\nDash Juice. ",
         "colorCode": null
       },
       {
-        "text": "（支給品専用）",
+        "text": "(Supply Item)",
         "colorCode": "05"
       }
     ],
@@ -196378,10 +196560,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Anc. Frostbranch",
-    "description": "氷に閉ざされた地方にある、\n古くより氷の中で育った\n樹木の希少な枝。",
+    "description": "A rare branch from a tree\nsaid to have grown in ice\nfor centuries.",
     "descriptionSegments": [
       {
-        "text": "氷に閉ざされた地方にある、\n古くより氷の中で育った\n樹木の希少な枝。",
+        "text": "A rare branch from a tree\nsaid to have grown in ice\nfor centuries.",
         "colorCode": null
       }
     ],
@@ -196488,7 +196670,7 @@
       {
         "quest_id": 26509,
         "title": "≪Canyon Survey≫\nAnd Thus, The Harvest Begins",
-        "main_objective": "Deliver a Mining Coin",
+        "main_objective": "Deliver a Gathering Coin H",
         "rank": "hr",
         "percentage": 1,
         "quantity": 5,
@@ -196728,7 +196910,7 @@
       {
         "quest_id": 21419,
         "title": "≪Long-Term Event Quest≫\nHarvest Mining - Finale",
-        "main_objective": "Deliver a Gathering Coin 1",
+        "main_objective": "Deliver 10 Gathering Coin 1",
         "rank": "hr",
         "percentage": 1,
         "quantity": 1,
@@ -196769,7 +196951,7 @@
       {
         "quest_id": 21420,
         "title": "≪Long-Term Event Quest≫\nHarvest Gathering - Finale",
-        "main_objective": "Deliver a Gathering Coin 3",
+        "main_objective": "Deliver 10 Gathering Coin 3",
         "rank": "hr",
         "percentage": 1,
         "quantity": 1,
@@ -197124,7 +197306,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Lightsword Tkt",
+    "name": "Solar S Ticket",
     "description": "Instructions on forging the\nSolar Sword. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -197146,7 +197328,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Dimsword Tkt",
+    "name": "Lunar S Ticket",
     "description": "Instructions on forging the\nLunar Sword. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -197168,7 +197350,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Blitz Ticket",
+    "name": "Blitz T Ticket",
     "description": "Instructions on forging the\nBlitz Twins. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -197190,7 +197372,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Pearl Ticket",
+    "name": "Pearl T Ticket",
     "description": "Instructions on forging the\nPearl Twins. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -197212,7 +197394,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Paralyze Ticket",
+    "name": "Parastamp Ticket",
     "description": "Instructions on forging the\nParalyzing Stamper. Bring\nthem to the Smithy!",
     "descriptionSegments": [
       {
@@ -197234,7 +197416,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Reve Ticket",
+    "name": "Revestamp Ticket",
     "description": "Instructions on forging the\nReve Stamper. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -197256,7 +197438,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Asta Ticket",
+    "name": "Astro Ticket",
     "description": "Instructions on forging\nAstro the Third. Bring\nthem to the Smithy!",
     "descriptionSegments": [
       {
@@ -198350,7 +198532,7 @@
     "sell_price": 2300,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Blood",
+    "name": "Laviente Blood",
     "description": "Blood with a thick, syrupy\ntexture. Highly coveted as\na research material.",
     "descriptionSegments": [
       {
@@ -198372,11 +198554,11 @@
     "sell_price": 2500,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Ruby",
-    "description": "A Raviente ruby. Its sheer\nsize is a sight to behold.",
+    "name": "Laviente Ruby",
+    "description": "A Laviente ruby. Its sheer\nsize is a sight to behold.",
     "descriptionSegments": [
       {
-        "text": "A Raviente ruby. Its sheer\nsize is a sight to behold.",
+        "text": "A Laviente ruby. Its sheer\nsize is a sight to behold.",
         "colorCode": null
       }
     ],
@@ -198394,11 +198576,11 @@
     "sell_price": 1200,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Hide",
-    "description": "The hide of a Raviente.\nDespite its thinness, it\nis surprisingly tough.",
+    "name": "Laviente Hide",
+    "description": "The hide of a Laviente.\nDespite its thinness, it\nis surprisingly tough.",
     "descriptionSegments": [
       {
-        "text": "The hide of a Raviente.\nDespite its thinness, it\nis surprisingly tough.",
+        "text": "The hide of a Laviente.\nDespite its thinness, it\nis surprisingly tough.",
         "colorCode": null
       }
     ],
@@ -198416,11 +198598,11 @@
     "sell_price": 800,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Scale",
-    "description": "A Raviente scale that grows\nstronger with use. Beloved\nby hunters.",
+    "name": "Laviente Scale",
+    "description": "A Laviente scale that grows\nstronger with use. Beloved\nby hunters.",
     "descriptionSegments": [
       {
-        "text": "A Raviente scale that grows\nstronger with use. Beloved\nby hunters.",
+        "text": "A Laviente scale that grows\nstronger with use. Beloved\nby hunters.",
         "colorCode": null
       }
     ],
@@ -198438,7 +198620,7 @@
     "sell_price": 1900,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Wing",
+    "name": "Laviente Wing",
     "description": "Though shaped like a fin,\nits sheer size makes it a\nwing.",
     "descriptionSegments": [
       {
@@ -198460,7 +198642,7 @@
     "sell_price": 4200,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Marrow",
+    "name": "Laviente Marrow",
     "description": "A hard-to-extract marrow\nhidden beneath a layer of\nextremely thick bones.",
     "descriptionSegments": [
       {
@@ -198482,11 +198664,11 @@
     "sell_price": 2100,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Horn",
-    "description": "The horn of a Raviente.\nIts immense gravitas defies\ndescription.",
+    "name": "Laviente Horn",
+    "description": "The horn of a Laviente.\nIts immense gravitas defies\ndescription.",
     "descriptionSegments": [
       {
-        "text": "The horn of a Raviente.\nIts immense gravitas defies\ndescription.",
+        "text": "The horn of a Laviente.\nIts immense gravitas defies\ndescription.",
         "colorCode": null
       }
     ],
@@ -198504,11 +198686,11 @@
     "sell_price": 3800,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Fang",
-    "description": "A Raviente fang. Equal in\nsize to a horn and tougher\nthan most known ores.",
+    "name": "Laviente Fang",
+    "description": "A Laviente fang. Equal in\nsize to a horn and tougher\nthan most known ores.",
     "descriptionSegments": [
       {
-        "text": "A Raviente fang. Equal in\nsize to a horn and tougher\nthan most known ores.",
+        "text": "A Laviente fang. Equal in\nsize to a horn and tougher\nthan most known ores.",
         "colorCode": null
       }
     ],
@@ -198526,11 +198708,11 @@
     "sell_price": 1600,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Tail",
-    "description": "A Raviente tail. As heavy\nas lead, but exceptionally\nflexible.",
+    "name": "Laviente Tail",
+    "description": "A Laviente tail. As heavy\nas lead, but exceptionally\nflexible.",
     "descriptionSegments": [
       {
-        "text": "A Raviente tail. As heavy\nas lead, but exceptionally\nflexible.",
+        "text": "A Laviente tail. As heavy\nas lead, but exceptionally\nflexible.",
         "colorCode": null
       }
     ],
@@ -198548,11 +198730,11 @@
     "sell_price": 5600,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Spike",
-    "description": "The spike of a Raviente.\nA giant rugged mass that is\nundeserving of its name.",
+    "name": "Laviente Spike",
+    "description": "The spike of a Laviente.\nA giant rugged mass that is\nundeserving of its name.",
     "descriptionSegments": [
       {
-        "text": "The spike of a Raviente.\nA giant rugged mass that is\nundeserving of its name.",
+        "text": "The spike of a Laviente.\nA giant rugged mass that is\nundeserving of its name.",
         "colorCode": null
       }
     ],
@@ -199001,7 +199183,7 @@
     "sell_price": 100,
     "item_type": 0,
     "is_gz": false,
-    "name": "Velocibutterfly",
+    "name": "Vprey Monarch",
     "description": "A butterfly named for the\nVelociprey-like pattern on\nits wings.",
     "descriptionSegments": [
       {
@@ -207778,10 +207960,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "EZ Yellow Elixir",
-    "description": "Drinking it drastically\ndecreases your Stamina.\n(Supply Item)",
+    "description": "Drastically decreases your\nStamina. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "Drinking it drastically\ndecreases your Stamina.\n",
+        "text": "Drastically decreases your\nStamina. ",
         "colorCode": null
       },
       {
@@ -207847,7 +208029,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Grom Baron Tkt",
+    "name": "T.Baron Ticket",
     "description": "Instructions on forging the\nThundering Baron. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -207869,7 +208051,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Paryze Baron Tkt",
+    "name": "P.Baron Ticket",
     "description": "Instructions on forging the\nParalyzing Baron. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -207891,7 +208073,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Blitz Equa Tkt",
+    "name": "B.Equine Ticket",
     "description": "Instructions on forging the\nBlitz Equine. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -207913,7 +208095,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Hail Equa Tkt",
+    "name": "H.Equine Ticket",
     "description": "Instructions on forging the\nHail Equine. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -207935,7 +208117,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Frost Plaid Tkt",
+    "name": "F.Foal Ticket",
     "description": "Instructions on forging the\nFrost Foal. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -207957,7 +208139,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Sleep Plaid Tkt",
+    "name": "S.Foal Ticket",
     "description": "Instructions on forging the\nSleep Foal. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -207979,7 +208161,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SparkCraneTkt",
+    "name": "S.Crane Ticket",
     "description": "Instructions on forging the\nSpark Crane. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -208001,7 +208183,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Arma Crane Tkt",
+    "name": "F.Crane Ticket",
     "description": "Instructions on forging the\nFeather Crane. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -208023,7 +208205,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "TankBishopTkt",
+    "name": "T.Bishop Ticket",
     "description": "Instructions on forging the\nTank Bishop. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -208045,7 +208227,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "BastionBishopTkt",
+    "name": "B.Bishop Ticket",
     "description": "Instructions on forging the\nBastion Bishop. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -208067,7 +208249,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Fort Bishop Tkt",
+    "name": "F.Bishop Ticket",
     "description": "Instructions on forging the\nFort Bishop. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -208089,7 +208271,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "TankWitchTkt",
+    "name": "T.Witch Ticket",
     "description": "Instructions on forging the\nTank Witch. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -208111,7 +208293,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "BastionWitchTkt",
+    "name": "B.Witch Ticket",
     "description": "Instructions on forging the\nBastion Witch. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -209773,10 +209955,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Armorer's Secret",
-    "description": "防具の限界を超える強化方法\nについて記された本の切れ端。\n並の腕では実現不可能。",
+    "description": "Part of book describing how\nto upgrade armor beyond its\nlimits. Not for amateurs.",
     "descriptionSegments": [
       {
-        "text": "防具の限界を超える強化方法\nについて記された本の切れ端。\n並の腕では実現不可能。",
+        "text": "Part of book describing how\nto upgrade armor beyond its\nlimits. Not for amateurs.",
         "colorCode": null
       }
     ],
@@ -209859,20 +210041,6 @@
         "monster_name": "Duragaua",
         "rank": "hr",
         "label": "Shiny Drops",
-        "percentage": 30
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "lr",
-        "label": "__ignore__",
-        "percentage": 30
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "hr",
-        "label": "__ignore__",
         "percentage": 30
       }
     ],
@@ -210162,7 +210330,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 15,
@@ -210296,7 +210464,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 10,
@@ -210421,20 +210589,6 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 15
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "lr",
-        "label": "__ignore__",
-        "percentage": 5
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "hr",
-        "label": "__ignore__",
-        "percentage": 15
       }
     ],
     "partbreak_aquisitions": [
@@ -210492,7 +210646,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 1,
@@ -210586,7 +210740,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 30,
@@ -210696,7 +210850,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 22,
@@ -210886,13 +211040,6 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 5
-      },
-      {
-        "monster_id": 96,
-        "monster_name": "Grenzebul",
-        "rank": "hr",
-        "label": "__ignore__",
-        "percentage": 5
       }
     ],
     "partbreak_aquisitions": [
@@ -210925,7 +211072,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 1,
@@ -212353,7 +212500,7 @@
     "sell_price": 30000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathalos Direscl",
+    "name": "Rath Direscale",
     "description": "A sturdier Rathalos scale.\nHighly sought after as a\ncrafting material.",
     "descriptionSegments": [
       {
@@ -212383,7 +212530,7 @@
     "sell_price": 40000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathalos Hellscl",
+    "name": "Rath Hellscale",
     "description": "Top-quality Rathalos scale.\nA faint warmth can be felt\nupon touch...",
     "descriptionSegments": [
       {
@@ -212413,7 +212560,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathalos Kingscl",
+    "name": "Rath Kingscale",
     "description": "A scale whose magnificence\nrenders everyone speechless.\nBefitting of its name.",
     "descriptionSegments": [
       {
@@ -212443,7 +212590,7 @@
     "sell_price": 30000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathian Steelshl",
+    "name": "Rath Steelshell",
     "description": "A patch of sturdy Rathian\nscales. As tough as solid\nsteel.",
     "descriptionSegments": [
       {
@@ -212473,7 +212620,7 @@
     "sell_price": 40000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathian Gleamshl",
+    "name": "Rath Gleamshell",
     "description": "The stout outer shell of a\nRathian. Even tougher than\nthe Steelshell.",
     "descriptionSegments": [
       {
@@ -212503,7 +212650,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Rathian Graceshl",
+    "name": "Rath Graceshell",
     "description": "A sublime, rare outer shell.\nStrong, with a remarkably\nbeautiful luster.",
     "descriptionSegments": [
       {
@@ -217890,7 +218037,7 @@
     "sell_price": 3000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Draguros Cpc",
+    "name": "Draguros Carpace",
     "description": "A sturdy Draguros shell.\nCharacterized by its snow\nwhite hue.",
     "descriptionSegments": [
       {
@@ -217904,13 +218051,6 @@
         "monster_name": "Draguros",
         "rank": "hr",
         "label": "Body Carves",
-        "percentage": 50
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "hr",
-        "label": "__ignore__",
         "percentage": 50
       }
     ],
@@ -217984,13 +218124,6 @@
         "monster_name": "Draguros",
         "rank": "hr",
         "label": "Body Carves",
-        "percentage": 30
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "hr",
-        "label": "__ignore__",
         "percentage": 30
       }
     ],
@@ -218113,13 +218246,6 @@
         "monster_name": "Draguros",
         "rank": "hr",
         "label": "Body Carves",
-        "percentage": 15
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "hr",
-        "label": "__ignore__",
         "percentage": 15
       }
     ],
@@ -218267,13 +218393,6 @@
         "monster_name": "Draguros",
         "rank": "hr",
         "label": "Body Carves",
-        "percentage": 5
-      },
-      {
-        "monster_id": 95,
-        "monster_name": "Draguros",
-        "rank": "hr",
-        "label": "__ignore__",
         "percentage": 5
       }
     ],
@@ -218690,7 +218809,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Crimson Fang Tkt",
+    "name": "C.Fang Ticket",
     "description": "Instructions on forging the\nCrimson Fang. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -218712,7 +218831,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Torment Fang Tkt",
+    "name": "T.Fang Ticket",
     "description": "Instructions on forging the\nTorment Fang. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -218998,7 +219117,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Espi Mask Tkt",
+    "name": "Espi Mask Ticket",
     "description": "Instructions on forging the\nEspinas Mask. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -219020,7 +219139,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "F.Espi Mask Tkt",
+    "name": "FlameMaskTicket",
     "description": "Instructions on forging the\nFlaming Espinas Mask. Bring\nthem to the Smithy!",
     "descriptionSegments": [
       {
@@ -219042,7 +219161,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "P.Espi Mask Tkt",
+    "name": "PearlMaskTicket",
     "description": "Instructions on forging\nthe Pearl Espinas Mask.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -219614,7 +219733,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Slvr Cat Tkt H",
+    "name": "Silver Cat Tkt H",
     "description": "Instructions on forging the\nSilver Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -219636,7 +219755,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Slvr Cat Tkt C",
+    "name": "Silver Cat Tkt C",
     "description": "Instructions on forging the\nSilver Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -219658,7 +219777,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Slvr Cat Tkt A",
+    "name": "Silver Cat Tkt A",
     "description": "Instructions on forging the\nSilver Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -219680,7 +219799,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Slvr Cat Tkt W",
+    "name": "Silver Cat Tkt W",
     "description": "Instructions on forging the\nSilver Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -219702,7 +219821,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Slvr Cat Tkt L",
+    "name": "Silver Cat Tkt L",
     "description": "Instructions on forging the\nSilver Cat armor. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -219813,10 +219932,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Blk P.Lance Tkt",
-    "description": "充実した狩猟生活をおくる\nハンターの証。工房で特別な\n品と引き換え可能。",
+    "description": "Proof of living the hunter\nlife to the fullest. Can be\nexchanged at the Workshop.",
     "descriptionSegments": [
       {
-        "text": "充実した狩猟生活をおくる\nハンターの証。工房で特別な\n品と引き換え可能。",
+        "text": "Proof of living the hunter\nlife to the fullest. Can be\nexchanged at the Workshop.",
         "colorCode": null
       }
     ],
@@ -219835,10 +219954,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Wht P.Lance Tkt",
-    "description": "充実した狩猟生活をおくる\nハンターの証。工房で特別な\n品と引き換え可能。",
+    "description": "Proof of living the hunter\nlife to the fullest. Can be\nexchanged at the Workshop.",
     "descriptionSegments": [
       {
-        "text": "充実した狩猟生活をおくる\nハンターの証。工房で特別な\n品と引き換え可能。",
+        "text": "Proof of living the hunter\nlife to the fullest. Can be\nexchanged at the Workshop.",
         "colorCode": null
       }
     ],
@@ -224797,7 +224916,7 @@
     "sell_price": 50,
     "item_type": 7,
     "is_gz": false,
-    "name": "Lure SC1",
+    "name": "Monster SC1",
     "description": "A Haven Poogie Decoration.\nCompatible with all outfits.",
     "descriptionSegments": [
       {
@@ -224819,7 +224938,7 @@
     "sell_price": 50,
     "item_type": 7,
     "is_gz": false,
-    "name": "Lure SC2",
+    "name": "Monster SC2",
     "description": "A Haven Poogie Decoration.\nCompatible with all outfits.",
     "descriptionSegments": [
       {
@@ -224841,7 +224960,7 @@
     "sell_price": 50,
     "item_type": 7,
     "is_gz": false,
-    "name": "Lure SC3",
+    "name": "Monster SC3",
     "description": "A Haven Poogie Decoration.\nCompatible with all outfits.",
     "descriptionSegments": [
       {
@@ -224863,7 +224982,7 @@
     "sell_price": 50,
     "item_type": 7,
     "is_gz": false,
-    "name": "Lure SC4",
+    "name": "Monster SC4",
     "description": "A Haven Poogie Decoration.\nCompatible with all outfits.",
     "descriptionSegments": [
       {
@@ -224885,7 +225004,7 @@
     "sell_price": 50,
     "item_type": 7,
     "is_gz": false,
-    "name": "Lure SC5",
+    "name": "Monster SC5",
     "description": "A Haven Poogie Decoration.\nCompatible with all outfits.",
     "descriptionSegments": [
       {
@@ -224929,7 +225048,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Hailphonia Ticket",
+    "name": "H.Poniard Ticket",
     "description": "Instructions on forging the\nHail Poniards. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -224951,7 +225070,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toxiphonia Ticket",
+    "name": "T.Poniard Ticket",
     "description": "Instructions on forging the\nToxic Poniards. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -225017,7 +225136,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Venomsol Ticket",
+    "name": "V.Parasol Ticket",
     "description": "Instructions on forging the\nVenom Parasol. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -225039,7 +225158,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Electrosol Ticket",
+    "name": "E.Parasol Ticket",
     "description": "Instructions on forging the\nElectro Parasol. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -225127,7 +225246,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "N.Launcher Tkt",
+    "name": "G.Launcher Tkt",
     "description": "Instructions on forging\nthe Big Grenade Launcher.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -225149,7 +225268,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "U.Launcher Tkt",
+    "name": "A.Launcher Tkt",
     "description": "Instructions on forging\nthe Artillery Launcher.\nBring them to the Smithy!",
     "descriptionSegments": [
       {
@@ -225897,11 +226016,11 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "D.Scythe Ticket",
-    "description": "A ticket used to forge the\nWyvern Scythe. Bring it to\nto the Smithy!",
+    "name": "Dragonsbane Tkt",
+    "description": "A ticket used to forge the\nDragonsbane Scythe. Bring\nit to the Smithy!",
     "descriptionSegments": [
       {
-        "text": "A ticket used to forge the\nWyvern Scythe. Bring it to\nto the Smithy!",
+        "text": "A ticket used to forge the\nDragonsbane Scythe. Bring\nit to the Smithy!",
         "colorCode": null
       }
     ],
@@ -225986,10 +226105,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Iceberg Tip",
-    "description": "世界の果てにあると言われる\n巨大な氷山のごくごく一部。\nたくさん集めよう！",
+    "description": "The tip of an iceberg said\nto lie at the end of the\nworld. Try collecting them!",
     "descriptionSegments": [
       {
-        "text": "世界の果てにあると言われる\n巨大な氷山のごくごく一部。\nたくさん集めよう！",
+        "text": "The tip of an iceberg said\nto lie at the end of the\nworld. Try collecting them!",
         "colorCode": null
       }
     ],
@@ -226118,10 +226237,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Shaka Fragment",
-    "description": "奇面族の奇妙な面のカケラ。\n見たこともない素材らしく、\n詳しいことは分からない。",
+    "description": "Part of a Shakalaka's mask.\nA never-before-seen material\nshrouded in mystery...",
     "descriptionSegments": [
       {
-        "text": "奇面族の奇妙な面のカケラ。\n見たこともない素材らしく、\n詳しいことは分からない。",
+        "text": "Part of a Shakalaka's mask.\nA never-before-seen material\nshrouded in mystery...",
         "colorCode": null
       }
     ],
@@ -226140,10 +226259,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "Crimson Melody",
-    "description": "ある音を出すための楽譜。\n音を視ることができる者曰く、\nその音色は紅色らしい。",
+    "description": "A musical score, claimed\nby some to have a crimson\ntimbre.",
     "descriptionSegments": [
       {
-        "text": "ある音を出すための楽譜。\n音を視ることができる者曰く、\nその音色は紅色らしい。",
+        "text": "A musical score, claimed\nby some to have a crimson\ntimbre.",
         "colorCode": null
       }
     ],
@@ -226162,10 +226281,10 @@
     "item_type": 8,
     "is_gz": false,
     "name": "Azure Melody",
-    "description": "ある音を出すための楽譜。\n音を視ることができる者曰く、\nその音色は蒼色らしい。",
+    "description": "A musical score, claimed\nby some to have an azure\ntimbre.",
     "descriptionSegments": [
       {
-        "text": "ある音を出すための楽譜。\n音を視ることができる者曰く、\nその音色は蒼色らしい。",
+        "text": "A musical score, claimed\nby some to have an azure\ntimbre.",
         "colorCode": null
       }
     ],
@@ -226183,7 +226302,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "親愛なる仲間の力",
+    "name": "CamaraderieStone",
     "description": "深い絆で結ばれている仲間達\nが過ごした時間だけチカラに\nなる！",
     "descriptionSegments": [
       {
@@ -226272,10 +226391,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Large Stockings",
-    "description": "履く用途で使われることのな\nい靴下。ベッドに吊るすとい\nいことがあるらしい。",
+    "description": "A pair of unworn stockings.\nHanging them above your bed\nis said to bring good luck.",
     "descriptionSegments": [
       {
-        "text": "履く用途で使われることのな\nい靴下。ベッドに吊るすとい\nいことがあるらしい。",
+        "text": "A pair of unworn stockings.\nHanging them above your bed\nis said to bring good luck.",
         "colorCode": null
       }
     ],
@@ -226337,7 +226456,7 @@
     "sell_price": 0,
     "item_type": 6,
     "is_gz": false,
-    "name": "親愛なる仲間の印",
+    "name": "Camaraderie Seal",
     "description": "深い絆で結ばれている仲間達\nへ贈られた印。\n決して消えることはない。",
     "descriptionSegments": [
       {
@@ -226470,10 +226589,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Frozen Fur",
-    "description": "凍てつくような冷たさを\n感じさせる毛皮。\n武具工房で加工してもらえる。",
+    "description": "A bitterly cold monster\npelt. The Workshop might\nbe able to process it.",
     "descriptionSegments": [
       {
-        "text": "凍てつくような冷たさを\n感じさせる毛皮。\n武具工房で加工してもらえる。",
+        "text": "A bitterly cold monster\npelt. The Workshop might\nbe able to process it.",
         "colorCode": null
       }
     ],
@@ -226491,11 +226610,11 @@
     "sell_price": 0,
     "item_type": 3,
     "is_gz": false,
-    "name": "Steel Ore",
-    "description": "硬度の非常に高い石。\n熟練の職人でないと加工は\n難しい。",
+    "name": "Steelstone",
+    "description": "An extremely tough stone.\nOnly a skilled artisan\ncould work with it.",
     "descriptionSegments": [
       {
-        "text": "硬度の非常に高い石。\n熟練の職人でないと加工は\n難しい。",
+        "text": "An extremely tough stone.\nOnly a skilled artisan\ncould work with it.",
         "colorCode": null
       }
     ],
@@ -226514,10 +226633,10 @@
     "item_type": 1,
     "is_gz": false,
     "name": "Beastly Claw",
-    "description": "とても獰猛なモンスターから\n剥ぎ取った爪。触ることが\nできないほど冷たい。",
+    "description": "A claw carved from a\nferocious monster. Too\ncold to be touched.",
     "descriptionSegments": [
       {
-        "text": "とても獰猛なモンスターから\n剥ぎ取った爪。触ることが\nできないほど冷たい。",
+        "text": "A claw carved from a\nferocious monster. Too\ncold to be touched.",
         "colorCode": null
       }
     ],
@@ -226536,10 +226655,10 @@
     "item_type": 1,
     "is_gz": false,
     "name": "Beastly Fang",
-    "description": "とても獰猛なモンスターから\n剥ぎ取った牙。触ることが\nできないほど鋭い。",
+    "description": "A fang carved from a\nferocious monster. Too\nsharp to be touched.",
     "descriptionSegments": [
       {
-        "text": "とても獰猛なモンスターから\n剥ぎ取った牙。触ることが\nできないほど鋭い。",
+        "text": "A fang carved from a\nferocious monster. Too\nsharp to be touched.",
         "colorCode": null
       }
     ],
@@ -226558,10 +226677,10 @@
     "item_type": 1,
     "is_gz": false,
     "name": "Pure White Fang",
-    "description": "状態の良い棘竜の牙。\n高い硬度を活かし、\n高性能な武具素材となる。",
+    "description": "A pristine Espinas fang.\nRobust and an excellent\nequipment crafting material.",
     "descriptionSegments": [
       {
-        "text": "状態の良い棘竜の牙。\n高い硬度を活かし、\n高性能な武具素材となる。",
+        "text": "A pristine Espinas fang.\nRobust and an excellent\nequipment crafting material.",
         "colorCode": null
       }
     ],
@@ -226590,10 +226709,10 @@
     "item_type": 1,
     "is_gz": false,
     "name": "Tough Surspike",
-    "description": "状態の良い棘竜の棘。\n高い強度を活かし、\n高性能な武具素材となる。",
+    "description": "A pristine Espinas spike.\nRobust and an excellent\nequipment crafting material.",
     "descriptionSegments": [
       {
-        "text": "状態の良い棘竜の棘。\n高い強度を活かし、\n高性能な武具素材となる。",
+        "text": "A pristine Espinas spike.\nRobust and an excellent\nequipment crafting material.",
         "colorCode": null
       }
     ],
@@ -226622,10 +226741,10 @@
     "item_type": 1,
     "is_gz": false,
     "name": "Tough Red Horn",
-    "description": "状態の良い棘竜の角。\n非常に強靭なため\n高性能な武具素材となる。",
+    "description": "A pristine Espinas horn.\nExtremely tough and well-\nsuited for crafting gear.",
     "descriptionSegments": [
       {
-        "text": "状態の良い棘竜の角。\n非常に強靭なため\n高性能な武具素材となる。",
+        "text": "A pristine Espinas horn.\nExtremely tough and well-\nsuited for crafting gear.",
         "colorCode": null
       }
     ],
@@ -226662,11 +226781,11 @@
     "sell_price": 0,
     "item_type": 1,
     "is_gz": false,
-    "name": "Tough Heavyscl",
-    "description": "非常に珍しい形をした棘竜の\n逆鱗。鋭い外縁を利用し、\n高性能な武具素材となる。",
+    "name": "Tough Heavyscale",
+    "description": "A rare, reversed Espinas\nscale. Its sharp edges make\nit an excellent material.",
     "descriptionSegments": [
       {
-        "text": "非常に珍しい形をした棘竜の\n逆鱗。鋭い外縁を利用し、\n高性能な武具素材となる。",
+        "text": "A rare, reversed Espinas\nscale. Its sharp edges make\nit an excellent material.",
         "colorCode": null
       }
     ],
@@ -230963,7 +231082,7 @@
     "sell_price": 30000,
     "item_type": 1,
     "is_gz": false,
-    "name": "Basarios Rockshl",
+    "name": "Basa Rockshell",
     "description": "A rugged Basarios shell.\nRare ores are sometimes\nfound within.",
     "descriptionSegments": [
       {
@@ -230993,7 +231112,7 @@
     "sell_price": 40000,
     "item_type": 1,
     "is_gz": false,
-    "name": "Basarios Firmshl",
+    "name": "Basa Firmshell",
     "description": "A quality Basarios shell\nwhose toughness exceeds\nthat of a Steelshell.",
     "descriptionSegments": [
       {
@@ -231023,7 +231142,7 @@
     "sell_price": 50000,
     "item_type": 1,
     "is_gz": false,
-    "name": "Basarios Cragshl",
+    "name": "Basa Cragshell",
     "description": "An immensely heavy shell\nwith a dignified air. Its\ntoughness is top-class.",
     "descriptionSegments": [
       {
@@ -232330,7 +232449,7 @@
     "sell_price": 2500,
     "item_type": 1,
     "is_gz": false,
-    "name": "Grenzebul Scl+",
+    "name": "Grenzebul Scale+",
     "description": "A quality Grenzebul scale.\nIts pellucid blue hue has\nan indescribable charm.",
     "descriptionSegments": [
       {
@@ -233922,7 +234041,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Head",
+    "name": "SSFW Ticket H",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -233944,7 +234063,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Chest",
+    "name": "SSFW Ticket C",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -233966,7 +234085,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Arms",
+    "name": "SSFW Ticket A",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -233988,7 +234107,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Waist",
+    "name": "SSFW Ticket W",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -234010,7 +234129,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Legs",
+    "name": "SSFW Ticket L",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -234517,10 +234636,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "White Sugar",
-    "description": "A sweet condiment made and\nused in Mezeporta Square.\nIts originator is unknown.",
+    "description": "A sweet condiment used by\ncooks in Mezeporta Square.\nIts maker is unknown.",
     "descriptionSegments": [
       {
-        "text": "A sweet condiment made and\nused in Mezeporta Square.\nIts originator is unknown.",
+        "text": "A sweet condiment used by\ncooks in Mezeporta Square.\nIts maker is unknown.",
         "colorCode": null
       }
     ],
@@ -236198,7 +236317,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Garde Sword Tkt",
+    "name": "Vanguard Ticket",
     "description": "Instructions on forging the\nVanguard Sword. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -236220,7 +236339,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Agita Sword Tkt",
+    "name": "Agita Ticket",
     "description": "Instructions on forging the\nAgita Sword. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -236242,7 +236361,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Digs Sword Tkt",
+    "name": "Diggs Ticket",
     "description": "Instructions on forging the\nDiggs Sword. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -236264,7 +236383,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Elkie Ticket",
+    "name": "Noble's Ticket",
     "description": "Instructions on forging the\nNoble's Lance. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -236286,7 +236405,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Iski Ticket",
+    "name": "Officer's Ticket",
     "description": "Instructions on forging the\nOfficer's Lance. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -236308,7 +236427,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "C.Lance Ticket",
+    "name": "Cleansing Ticket",
     "description": "Instructions on forging the\nCleansing Lance. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -236609,7 +236728,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Chitose Base",
+    "name": "Evergreen Base",
     "description": "Used to craft various Poogie\nDecorations. Bring it to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -236622,7 +236741,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 10,
@@ -236631,7 +236750,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 5,
@@ -236640,7 +236759,7 @@
       },
       {
         "quest_id": 21404,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Chitose",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Evergreen",
         "main_objective": "Hunt a Hypnocatrice",
         "rank": "hr",
         "percentage": 1,
@@ -236695,7 +236814,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Suou Base",
+    "name": "Sappan Base",
     "description": "Used to craft various Poogie\nDecorations. Bring it to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -236739,7 +236858,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Tsuyukusa Base",
+    "name": "Dew Base",
     "description": "Used to craft various Poogie\nDecorations. Bring it to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -236752,7 +236871,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 10,
@@ -236761,7 +236880,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 5,
@@ -236770,7 +236889,7 @@
       },
       {
         "quest_id": 21405,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tsuyukusa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Dew",
         "main_objective": "Hunt a Duragaua",
         "rank": "hr",
         "percentage": 1,
@@ -236834,7 +236953,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Usugaki Base",
+    "name": "Pale Base",
     "description": "Used to craft various Poogie\nDecorations. Bring it to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -236856,7 +236975,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Evergreen Base",
+    "name": "B.Green Base",
     "description": "Used to craft various Poogie\nDecorations. Bring it to the\nSmithy!",
     "descriptionSegments": [
       {
@@ -236869,7 +236988,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 10,
@@ -236878,7 +236997,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 5,
@@ -236887,7 +237006,7 @@
       },
       {
         "quest_id": 21406,
-        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: Tokiwa",
+        "title": "≪Skill Cuff Quest≫\nCuff Porkfolio: B.Green",
         "main_objective": "Hunt a Rathian",
         "rank": "hr",
         "percentage": 1,
@@ -237639,7 +237758,7 @@
     "sell_price": 30000,
     "item_type": 1,
     "is_gz": false,
-    "name": "Monoblos Hardshl",
+    "name": "Mono Hardshell",
     "description": "An exceedingly rare Monoblos\nshell. Its toughness defies\nall expectations.",
     "descriptionSegments": [
       {
@@ -237669,7 +237788,7 @@
     "sell_price": 30000,
     "item_type": 1,
     "is_gz": false,
-    "name": "A.Rath Direscale",
+    "name": "Azure Direscale",
     "description": "A precious scale carved\nfrom one of the strongest\nof Azure Rathalos.",
     "descriptionSegments": [
       {
@@ -237699,7 +237818,7 @@
     "sell_price": 40000,
     "item_type": 1,
     "is_gz": false,
-    "name": "A.Rath Hellscale",
+    "name": "Azure Hellscale",
     "description": "A scale from a fierce Azure\nRathalos. Its deep, unique\nhue cannot be replicated.",
     "descriptionSegments": [
       {
@@ -242967,7 +243086,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 1",
+    "name": "Trnscndnt Seal 1",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -242999,7 +243118,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 2",
+    "name": "Trnscndnt Seal 2",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243031,7 +243150,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 3",
+    "name": "Trnscndnt Seal 3",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243063,7 +243182,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 4",
+    "name": "Trnscndnt Seal 4",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243095,7 +243214,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 5",
+    "name": "Trnscndnt Seal 5",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243127,7 +243246,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 6",
+    "name": "Trnscndnt Seal 6",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243159,7 +243278,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 7",
+    "name": "Trnscndnt Seal 7",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243191,7 +243310,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 8",
+    "name": "Trnscndnt Seal 8",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243223,7 +243342,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 9",
+    "name": "Trnscndnt Seal 9",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243255,7 +243374,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Transcendent Seal 10",
+    "name": "Trnscndnt Seal 10",
     "description": "A medal of honor awarded for\nconquering adversities. Used\nto craft a special earring.",
     "descriptionSegments": [
       {
@@ -243287,7 +243406,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Moldeno P Tkt",
+    "name": "A.Piercer Ticket",
     "description": "見知らぬ文明の文字で書かれた\n設計図。ただならぬ雰囲気が\n技術の高さを物語っている。",
     "descriptionSegments": [
       {
@@ -243309,7 +243428,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Stenolexis Tkt",
+    "name": "G.Piercer Ticket",
     "description": "見知らぬ文明の文字で書かれた\n設計図。ただならぬ雰囲気が\n技術の高さを物語っている。",
     "descriptionSegments": [
       {
@@ -244888,7 +245007,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Nost Force Tkt",
+    "name": "E.Force Ticket",
     "description": "Instructions on forging the\nEminent Force. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -244910,7 +245029,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Nost Baum Tkt",
+    "name": "E.Tree Ticket",
     "description": "Instructions on forging the\nEminent Tree. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -244932,7 +245051,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "J.Wisdom Ticket",
+    "name": "W.Jewel Ticket",
     "description": "Instructions on forging the\nWise Jewel. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -244954,7 +245073,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "C.Wisdom Ticket",
+    "name": "W.Crystal Ticket",
     "description": "Instructions on forging the\nWise Crystal. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -244976,7 +245095,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Azuma Leaf Tkt",
+    "name": "Azuma L Ticket",
     "description": "Instructions on forging the\nAzuma Leaf. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -244998,7 +245117,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Azuma Derife Tkt",
+    "name": "Azuma L+ Ticket",
     "description": "Instructions on forging the\nAzuma Leaf+. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -245042,7 +245161,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Azuma Rose Tkt",
+    "name": "Azuma R Ticket",
     "description": "Instructions on forging the\nAzuma Rose. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -245064,7 +245183,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Azuma Derose Tkt",
+    "name": "Azuma R+ Ticket",
     "description": "Instructions on forging the\nAzuma Rose+. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -245404,7 +245523,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Drgnstriker Tkt",
+    "name": "Drgstriker Study",
     "description": "最新型撃龍鎚【壊貫】の研究\n結果をまとめた書類。\nその内容を親方に報告だ！",
     "descriptionSegments": [
       {
@@ -246350,7 +246469,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Randa Tkt: Head",
+    "name": "Randa Ticket H",
     "description": "Instructions on forging the\nRanda armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -246372,7 +246491,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Randa Tkt: Chest",
+    "name": "Randa Ticket C",
     "description": "Instructions on forging the\nRanda armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -246394,7 +246513,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Randa Tkt: Arms",
+    "name": "Randa Ticket A",
     "description": "Instructions on forging the\nRanda armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -246416,7 +246535,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Randa Tkt: Waist",
+    "name": "Randa Ticket W",
     "description": "Instructions on forging the\nRanda armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -246438,7 +246557,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Randa Tkt: Legs",
+    "name": "Randa Ticket L",
     "description": "Instructions on forging the\nRanda armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -251890,7 +252009,7 @@
     "sell_price": 30000,
     "item_type": 0,
     "is_gz": false,
-    "name": "P.Rath Steelshl",
+    "name": "Pink Steelshell",
     "description": "A hardened Pink Rathian\nShell that requires special\ntools to be processed.",
     "descriptionSegments": [
       {
@@ -251920,7 +252039,7 @@
     "sell_price": 40000,
     "item_type": 0,
     "is_gz": false,
-    "name": "P.Rath Gleamshl",
+    "name": "Pink Gleamshell",
     "description": "A gorgeously colored Pink\nRathian shell. A delicate\nand extremely fragile item.",
     "descriptionSegments": [
       {
@@ -252087,6 +252206,27 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 6,
+        "monster_name": "Yian Kut-Ku",
+        "rank": "lr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 6,
+        "monster_name": "Yian Kut-Ku",
+        "rank": "hr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 6,
+        "monster_name": "Yian Kut-Ku",
+        "rank": "er",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
         "monster_id": 22,
         "monster_name": "Basarios",
         "rank": "lr",
@@ -252131,6 +252271,27 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "lr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "hr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "er",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
         "monster_id": 76,
         "monster_name": "Tigrex",
         "rank": "lr",
@@ -252173,7 +252334,29 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 48,
+        "monster_name": "Daimyo Hermitaur",
+        "rank": "lr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 48,
+        "monster_name": "Daimyo Hermitaur",
+        "rank": "hr",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 48,
+        "monster_name": "Daimyo Hermitaur",
+        "rank": "er",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -252439,7 +252622,29 @@
         "colorCode": "05"
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 60
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 60
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 60
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -252465,7 +252670,29 @@
         "colorCode": "05"
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 60
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 60
+      },
+      {
+        "monster_id": 23,
+        "monster_name": "Melynx",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 60
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -253706,10 +253933,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "UG Sonic Bomb",
-    "description": "Use this while the Raviente\nis underground to force it\nto surface! (Supply Item)",
+    "description": "Use this while the Laviente\nis underground to force it\nto surface! (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "Use this while the Raviente\nis underground to force it\nto surface! ",
+        "text": "Use this while the Laviente\nis underground to force it\nto surface! ",
         "colorCode": null
       },
       {
@@ -253732,10 +253959,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Signal Flare",
-    "description": "A flare used to drop rocks\non the Raviente's head. May\ninduce stun. (Supply Item)",
+    "description": "A flare used to drop rocks\non the Laviente's head. May\ninduce stun. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "A flare used to drop rocks\non the Raviente's head. May\ninduce stun. ",
+        "text": "A flare used to drop rocks\non the Laviente's head. May\ninduce stun. ",
         "colorCode": null
       },
       {
@@ -253758,10 +253985,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Geyser Bomb",
-    "description": "A bomb that flies towards\nRaviente when placed on a\ngeyser. (Supply Item)",
+    "description": "A bomb that flies towards\nLaviente when placed on a\ngeyser. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "A bomb that flies towards\nRaviente when placed on a\ngeyser. ",
+        "text": "A bomb that flies towards\nLaviente when placed on a\ngeyser. ",
         "colorCode": null
       },
       {
@@ -253783,11 +254010,11 @@
     "sell_price": 60000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Raviente Blood+",
-    "description": "Dark red Violent Raviente\nblood. Capable of curing\nvarious status ailments.",
+    "name": "Laviente Blood+",
+    "description": "Dark red Violent Laviente\nblood. Capable of curing\nvarious status ailments.",
     "descriptionSegments": [
       {
-        "text": "Dark red Violent Raviente\nblood. Capable of curing\nvarious status ailments.",
+        "text": "Dark red Violent Laviente\nblood. Capable of curing\nvarious status ailments.",
         "colorCode": null
       }
     ],
@@ -255288,7 +255515,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Friendship Ticket",
+    "name": "BFF Ticket",
     "description": "時の流れによって失われない\nものがたった１つだけあると\nすれば、それは仲間との絆。",
     "descriptionSegments": [
       {
@@ -255310,7 +255537,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Power of Friendship",
+    "name": "BFF Stone",
     "description": "時の流れによって失われない\nものがたった１つだけあると\nすれば、それは仲間との絆。",
     "descriptionSegments": [
       {
@@ -255332,7 +255559,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Friendship Seal",
+    "name": "BFF Seal",
     "description": "時の流れによって失われない\nものがたった１つだけあると\nすれば、それは仲間との絆。",
     "descriptionSegments": [
       {
@@ -255430,11 +255657,11 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "High-Grade Steel",
-    "description": "極めて純度の高い堅い鋼石。\n加工が困難のため、一部の武\n具職人しか取り扱っていない。",
+    "name": "Pure Steelstone",
+    "description": "A highly pure Steelstone.\nSo tough, only a select\nfew artisans can handle it.",
     "descriptionSegments": [
       {
-        "text": "極めて純度の高い堅い鋼石。\n加工が困難のため、一部の武\n具職人しか取り扱っていない。",
+        "text": "A highly pure Steelstone.\nSo tough, only a select\nfew artisans can handle it.",
         "colorCode": null
       }
     ],
@@ -260943,10 +261170,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Corrosive Knife",
-    "description": "Inflicts corrosion upon\nstriking the Raviente's\nhead. (Supply Item)",
+    "description": "Inflicts corrosion upon\nstriking the Laviente's\nhead. (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "Inflicts corrosion upon\nstriking the Raviente's\nhead. ",
+        "text": "Inflicts corrosion upon\nstriking the Laviente's\nhead. ",
         "colorCode": null
       },
       {
@@ -260995,10 +261222,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Stench Bomb",
-    "description": "A foul-smelling grenade.\nUse it when Raviente starts\nto inhale... (Supply Item)",
+    "description": "A foul-smelling grenade.\nUse it when Laviente starts\nto inhale... (Supply Item)",
     "descriptionSegments": [
       {
-        "text": "A foul-smelling grenade.\nUse it when Raviente starts\nto inhale... ",
+        "text": "A foul-smelling grenade.\nUse it when Laviente starts\nto inhale... ",
         "colorCode": null
       },
       {
@@ -261371,10 +261598,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Resistance Info",
-    "description": "Buy this to learn what\ndamage type Raviente is\ncurrently resistant to.",
+    "description": "Buy this to learn what\ndamage type Laviente is\ncurrently resistant to.",
     "descriptionSegments": [
       {
-        "text": "Buy this to learn what\ndamage type Raviente is\ncurrently resistant to.",
+        "text": "Buy this to learn what\ndamage type Laviente is\ncurrently resistant to.",
         "colorCode": null
       }
     ],
@@ -261393,10 +261620,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Weakness Info",
-    "description": "Buy this to learn what\ndamage type Raviente is\ncurrently susceptible to.",
+    "description": "Buy this to learn what\ndamage type Laviente is\ncurrently susceptible to.",
     "descriptionSegments": [
       {
-        "text": "Buy this to learn what\ndamage type Raviente is\ncurrently susceptible to.",
+        "text": "Buy this to learn what\ndamage type Laviente is\ncurrently susceptible to.",
         "colorCode": null
       }
     ],
@@ -261415,10 +261642,10 @@
     "item_type": 5,
     "is_gz": false,
     "name": "Elemental Info",
-    "description": "Buy this to learn what\ntype of element Raviente is\ncurrently susceptible to.",
+    "description": "Buy this to learn what\ntype of element Laviente is\ncurrently susceptible to.",
     "descriptionSegments": [
       {
-        "text": "Buy this to learn what\ntype of element Raviente is\ncurrently susceptible to.",
+        "text": "Buy this to learn what\ntype of element Laviente is\ncurrently susceptible to.",
         "colorCode": null
       }
     ],
@@ -261617,14 +261844,14 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Luring Arowana",
-    "description": "持っているだけでグークをお\nびき寄せることができる不思\n議な魚。（精算アイテム）",
+    "description": "A curious fish said to be\nable to attract Goocoos...\n(Account Item)",
     "descriptionSegments": [
       {
-        "text": "持っているだけでグークをお\nびき寄せることができる不思\n議な魚。",
+        "text": "A curious fish said to be\nable to attract Goocoos...\n",
         "colorCode": null
       },
       {
-        "text": "（精算アイテム）",
+        "text": "(Account Item)",
         "colorCode": "05"
       }
     ],
@@ -261643,10 +261870,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Blissberry",
-    "description": "噛めば噛むほど美味しくなる\n小粒の実。子供たちの間では\nおやつとして大人気。",
+    "description": "A berry that tastes better\nwith each bite. Beloved by\nchildren as a snack.",
     "descriptionSegments": [
       {
-        "text": "噛めば噛むほど美味しくなる\n小粒の実。子供たちの間では\nおやつとして大人気。",
+        "text": "A berry that tastes better\nwith each bite. Beloved by\nchildren as a snack.",
         "colorCode": null
       }
     ],
@@ -261665,10 +261892,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Inspiroshroom",
-    "description": "食べると頭が冴えると言われ\nる食用キノコ。食べ過ぎると\n眠れなくなるので要注意。",
+    "description": "A mushroom said to sharpen\none's mind. Overconsumption\nmay lead to insomnia...",
     "descriptionSegments": [
       {
-        "text": "食べると頭が冴えると言われ\nる食用キノコ。食べ過ぎると\n眠れなくなるので要注意。",
+        "text": "A mushroom said to sharpen\none's mind. Overconsumption\nmay lead to insomnia...",
         "colorCode": null
       }
     ],
@@ -261687,10 +261914,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Aurafern",
-    "description": "葉を占いに使用していたと\n言われる草。すり潰して飲む\nと美容に効くとの噂もある。",
+    "description": "A plant used for divination.\nSaid to be good for the skin\nwhen mashed up and drunk.",
     "descriptionSegments": [
       {
-        "text": "葉を占いに使用していたと\n言われる草。すり潰して飲む\nと美容に効くとの噂もある。",
+        "text": "A plant used for divination.\nSaid to be good for the skin\nwhen mashed up and drunk.",
         "colorCode": null
       }
     ],
@@ -269258,7 +269485,7 @@
     "sell_price": 40000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gravios Charshl",
+    "name": "Grav Charshell",
     "description": "A resilient Gravios shell.\nForging it requires a great\ndeal of time and labor.",
     "descriptionSegments": [
       {
@@ -269288,7 +269515,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gravios Heatshl",
+    "name": "Grav Heatshell",
     "description": "A Gravios shell reminiscent\nof a giant boulder. It still\nfeels warm to the touch...",
     "descriptionSegments": [
       {
@@ -269318,7 +269545,7 @@
     "sell_price": 60000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gravios Blazeshl",
+    "name": "Grav Blazeshell",
     "description": "A shell carved from a rare\nGravios. Named for its lava\nrock-like appearance.",
     "descriptionSegments": [
       {
@@ -269438,7 +269665,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Akantor Deathscl",
+    "name": "Akan Deathscale",
     "description": "A superior Akantor scale.\nSimilar to lava in both\ntexture and appearance.",
     "descriptionSegments": [
       {
@@ -276364,7 +276591,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Omet Tkt: Head",
+    "name": "Omet Ticket H",
     "description": "Instructions on forging the\nOmet armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -276386,7 +276613,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Omet Tkt: Chest",
+    "name": "Omet Ticket C",
     "description": "Instructions on forging the\nOmet armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -276408,7 +276635,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Omet Tkt: Arms",
+    "name": "Omet Ticket A",
     "description": "Instructions on forging the\nOmet armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -276430,7 +276657,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Omet Tkt: Waist",
+    "name": "Omet Ticket W",
     "description": "Instructions on forging the\nOmet armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -276452,7 +276679,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Omet Tkt: Legs",
+    "name": "Omet Ticket L",
     "description": "Instructions on forging the\nOmet armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -282608,10 +282835,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Wavestone",
-    "description": "ほとんど摩擦を感じない\n滑らかな石。たくさん集めて\n袋に詰めると、よく動き回る。",
+    "description": "A frictionless stone. When\nstuffed together in a bag,\nthey move quite a bit.",
     "descriptionSegments": [
       {
-        "text": "ほとんど摩擦を感じない\n滑らかな石。たくさん集めて\n袋に詰めると、よく動き回る。",
+        "text": "A frictionless stone. When\nstuffed together in a bag,\nthey move quite a bit.",
         "colorCode": null
       }
     ],
@@ -282891,7 +283118,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 1,
@@ -282954,7 +283181,7 @@
       },
       {
         "quest_id": 26741,
-        "title": "≪Desert Survey≫\nDesert Crown",
+        "title": "≪Desert Survey≫\nDesert Clown",
         "main_objective": "1 Aberrant Aqra Vashim",
         "rank": "er",
         "percentage": 100,
@@ -283773,7 +284000,7 @@
     "sell_price": 100,
     "item_type": 0,
     "is_gz": false,
-    "name": "Tectonic Jewel+",
+    "name": "Firm Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -284081,7 +284308,7 @@
     "sell_price": 240,
     "item_type": 7,
     "is_gz": false,
-    "name": "Mindful Jwl 1",
+    "name": "Mindful Jewel 1",
     "description": "A Decoration that boosts\nShock Absorber skills.",
     "descriptionSegments": [
       {
@@ -287293,7 +287520,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Caesius Tkt: Head",
+    "name": "Caesius Ticket H",
     "description": "Instructions on forging the\nCaesius armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -287315,7 +287542,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Caesius Tkt: Chest",
+    "name": "Caesius Ticket C",
     "description": "Instructions on forging the\nCaesius armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -287337,7 +287564,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Caesius Tkt: Arms",
+    "name": "Caesius Ticket A",
     "description": "Instructions on forging the\nCaesius armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -287359,7 +287586,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Caesius Tkt: Waist",
+    "name": "Caesius Ticket W",
     "description": "Instructions on forging the\nCaesius armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -287381,7 +287608,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Caesius Tkt: Legs",
+    "name": "Caesius Ticket L",
     "description": "Instructions on forging the\nCaesius armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -287646,10 +287873,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Corum Steel",
-    "description": "電流を通すと発熱する鋼石。\n高電圧をかければ肉も焼け\nるほど。",
+    "description": "A stone that generates heat\nwhen exposed to electricity.\nIt could work as a grill.",
     "descriptionSegments": [
       {
-        "text": "電流を通すと発熱する鋼石。\n高電圧をかければ肉も焼け\nるほど。",
+        "text": "A stone that generates heat\nwhen exposed to electricity.\nIt could work as a grill.",
         "colorCode": null
       }
     ],
@@ -288830,7 +289057,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Siena Tkt: Head",
+    "name": "Siena Ticket H",
     "description": "Instructions on forging the\nSiena armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -288852,7 +289079,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Siena Tkt: Chest",
+    "name": "Siena Ticket C",
     "description": "Instructions on forging the\nSiena armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -288874,7 +289101,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Siena Tkt: Arms",
+    "name": "Siena Ticket A",
     "description": "Instructions on forging the\nSiena armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -288896,7 +289123,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Siena Tkt: Waist",
+    "name": "Siena Ticket W",
     "description": "Instructions on forging the\nSiena armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -288918,7 +289145,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Siena Tkt: Legs",
+    "name": "Siena Ticket L",
     "description": "Instructions on forging the\nSiena armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289416,7 +289643,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gauss Tkt: Head",
+    "name": "Gauss Ticket H",
     "description": "Instructions on forging the\nGauss armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289438,7 +289665,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gauss Tkt: Chest",
+    "name": "Gauss Ticket C",
     "description": "Instructions on forging the\nGauss armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289460,7 +289687,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gauss Tkt: Arms",
+    "name": "Gauss Ticket A",
     "description": "Instructions on forging the\nGauss armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289482,7 +289709,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gauss Tkt: Waist",
+    "name": "Gauss Ticket W",
     "description": "Instructions on forging the\nGauss armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289504,7 +289731,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gauss Tkt: Legs",
+    "name": "Gauss Ticket L",
     "description": "Instructions on forging the\nGauss armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289526,7 +289753,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Weber Tkt: Head",
+    "name": "Weber Ticket H",
     "description": "Instructions on forging the\nWeber armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289548,7 +289775,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Weber Tkt: Chest",
+    "name": "Weber Ticket C",
     "description": "Instructions on forging the\nWeber armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289570,7 +289797,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Weber Tkt: Arms",
+    "name": "Weber Ticket A",
     "description": "Instructions on forging the\nWeber armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289592,7 +289819,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Weber Tkt: Waist",
+    "name": "Weber Ticket W",
     "description": "Instructions on forging the\nWeber armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289614,7 +289841,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Weber Tkt: Legs",
+    "name": "Weber Ticket L",
     "description": "Instructions on forging the\nWeber armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289636,7 +289863,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gilbert Tkt: Head",
+    "name": "Gilbert Ticket H",
     "description": "Instructions on forging the\nGilbert armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289658,7 +289885,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gilbert Tkt: Chest",
+    "name": "Gilbert Ticket C",
     "description": "Instructions on forging the\nGilbert armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289680,7 +289907,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gilbert Tkt: Arms",
+    "name": "Gilbert Ticket A",
     "description": "Instructions on forging the\nGilbert armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289702,7 +289929,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gilbert Tkt: Waist",
+    "name": "Gilbert Ticket W",
     "description": "Instructions on forging the\nGilbert armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289724,7 +289951,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Gilbert Tkt: Legs",
+    "name": "Gilbert Ticket L",
     "description": "Instructions on forging the\nGilbert armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289746,7 +289973,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 1",
+    "name": "Triad Ticket 1",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289768,7 +289995,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 2",
+    "name": "Triad Ticket 2",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289790,7 +290017,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 3",
+    "name": "Triad Ticket 3",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289812,7 +290039,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 4",
+    "name": "Triad Ticket 4",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289834,7 +290061,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 5",
+    "name": "Triad Ticket 5",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289856,7 +290083,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 6",
+    "name": "Triad Ticket 6",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289878,7 +290105,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 7",
+    "name": "Triad Ticket 7",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -289900,7 +290127,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Toria Ticket 8",
+    "name": "Triad Ticket 8",
     "description": "Instructions on forging the\nTriad Earring. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -290120,7 +290347,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Fire Blade Tkt",
+    "name": "Fiery B Ticket",
     "description": "Instructions on forging the\nFiery Blade I. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -290142,7 +290369,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Dragoon Swrd Tkt",
+    "name": "Dragoon S Ticket",
     "description": "Instructions on forging the\nDragoon Sword I. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -290623,7 +290850,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Lost Ball",
+    "name": "Straycaster",
     "description": "Where am I? If you're lost,\ntry throwing it to find your\nplace to be.",
     "descriptionSegments": [
       {
@@ -290733,7 +290960,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Healing Ball",
+    "name": "EZ Soothing Seed",
     "description": "Bury this to create your\nown safe space. Why not\nrest a while? (Supply Item)",
     "descriptionSegments": [
       {
@@ -290759,7 +290986,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Goocoo Whistle",
+    "name": "EZ Goocoo Flute",
     "description": "A flute said to be able\nto calm monsters down.\n(Supply Item)",
     "descriptionSegments": [
       {
@@ -290811,7 +291038,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Goocoo Lost Ball",
+    "name": "EZ Straycaster",
     "description": "Where am I? If you're lost,\ntry throwing it to find your\nplace to be. (Supply Item)",
     "descriptionSegments": [
       {
@@ -290837,7 +291064,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Pickaxe+",
+    "name": "EZ Goocoo Pickaxe",
     "description": "Rarely increases the amount\nof items obtained while\nmining. (Supply Item)",
     "descriptionSegments": [
       {
@@ -290863,7 +291090,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Bait+",
+    "name": "EZ Goocoo Bait",
     "description": "A lure that rarely increases\nthe amount of fish caught.\n(Supply Item)",
     "descriptionSegments": [
       {
@@ -290889,7 +291116,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Bug Net+",
+    "name": "EZ Goocoo Bug Net",
     "description": "A net that rarely increases\nthe amount of bugs caught.\n(Supply Item)",
     "descriptionSegments": [
       {
@@ -290915,7 +291142,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "EZ Glove+",
+    "name": "EZ Goocoo Gloves",
     "description": "A pair of gloves that rarely\nincrease the amount of items\ngathered. (Supply Item)",
     "descriptionSegments": [
       {
@@ -291231,7 +291458,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "A.Rath Kingscl",
+    "name": "Azure Kingscale",
     "description": "A scale found on the oldest\nAzure Rathalos. Supremely\ntough and beautiful.",
     "descriptionSegments": [
       {
@@ -291261,7 +291488,7 @@
     "sell_price": 50000,
     "item_type": 0,
     "is_gz": false,
-    "name": "P.Rath Graceshl",
+    "name": "Pink Graceshell",
     "description": "A sublime, rare outer shell.\nIts flawless surface holds\na beautiful luster.",
     "descriptionSegments": [
       {
@@ -298769,10 +298996,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Quarzeps Cert. S",
-    "description": "悪天候の中、狩猟を達成した\n者だけが得ることのできる\n屈強なハンターの証。",
+    "description": "A certificate awarded for\nhunting a powerful monster\nin bad weather.",
     "descriptionSegments": [
       {
-        "text": "悪天候の中、狩猟を達成した\n者だけが得ることのできる\n屈強なハンターの証。",
+        "text": "A certificate awarded for\nhunting a powerful monster\nin bad weather.",
         "colorCode": null
       }
     ],
@@ -298801,10 +299028,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Quarzeps Cert. D",
-    "description": "苛烈な狩猟を達成した者だけ\nが得ることのできる、不屈の\nハンターの証。",
+    "description": "A certificate awarded for\nenduring the most brutal\nof hunts.",
     "descriptionSegments": [
       {
-        "text": "苛烈な狩猟を達成した者だけ\nが得ることのできる、不屈の\nハンターの証。",
+        "text": "A certificate awarded for\nenduring the most brutal\nof hunts.",
         "colorCode": null
       }
     ],
@@ -298833,10 +299060,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Speedrun Coin G",
-    "description": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【金】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【金】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -298855,10 +299082,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Speedrun Coin S",
-    "description": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【銀】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【銀】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -298877,10 +299104,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Speedrun Coin B",
-    "description": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【銅】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "韋駄天杯で優秀な成績を収め\nた狩人に送られる証。「公式\nのしるし【銅】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Speedrun Cup. Can be\nexchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -298899,10 +299126,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Kingfisher Coin G",
-    "description": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【金】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【金】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -298921,10 +299148,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Kingfisher Coin S",
-    "description": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【銀】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【銀】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -298943,10 +299170,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Kingfisher Coin B",
-    "description": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【銅】」と交換可能。",
+    "description": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
     "descriptionSegments": [
       {
-        "text": "巨大魚杯で優秀な成績を収め\nた狩人に送られる証。「魚杯\nのしるし【銅】」と交換可能。",
+        "text": "Proof of one's achievements\nin the Kingfisher Cup. Can\nbe exchanged for a trophy.",
         "colorCode": null
       }
     ],
@@ -299097,10 +299324,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Fluffberry",
-    "description": "氷の国で珍重されている\nという謎の木の実。\nとってもパリふわ。",
+    "description": "A berry prized in a certain\nicy land. Crispy AND fluffy.",
     "descriptionSegments": [
       {
-        "text": "氷の国で珍重されている\nという謎の木の実。\nとってもパリふわ。",
+        "text": "A berry prized in a certain\nicy land. Crispy AND fluffy.",
         "colorCode": null
       }
     ],
@@ -299119,10 +299346,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Crispberry",
-    "description": "氷の国で珍重されている\nという謎の木の実。\nとってもサクサク。",
+    "description": "A crunchy berry prized in a\ncertain icy land.",
     "descriptionSegments": [
       {
-        "text": "氷の国で珍重されている\nという謎の木の実。\nとってもサクサク。",
+        "text": "A crunchy berry prized in a\ncertain icy land.",
         "colorCode": null
       }
     ],
@@ -301814,7 +302041,7 @@
     "sell_price": 10000,
     "item_type": 0,
     "is_gz": false,
-    "name": "Scarred Odi Scl",
+    "name": "Odiba Scarscale",
     "description": "A supreme Odibataurus scale.\nIts surface is covered with\na myriad of scars.",
     "descriptionSegments": [
       {
@@ -304014,7 +304241,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Mindful Jewel 2+",
+    "name": "Control Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304058,7 +304285,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Throwing Jwl 2+",
+    "name": "Throwing Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304080,7 +304307,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Ironwall Jwl 2+",
+    "name": "Barrier Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304124,7 +304351,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Psychic Jewel 2+",
+    "name": "Insight Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304146,7 +304373,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Fasting Jewel 2+",
+    "name": "Discipline Jwl+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304190,7 +304417,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Evasion Jewel 2+",
+    "name": "Celerity Jewel+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -304212,7 +304439,7 @@
     "sell_price": 100,
     "item_type": 7,
     "is_gz": false,
-    "name": "Tectonic Jwl 2+",
+    "name": "Unshakeable Jwl+",
     "description": "A Decoration for experts\nenchanted by rich skill\ncombinations.",
     "descriptionSegments": [
       {
@@ -309444,7 +309671,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 2
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -309582,6 +309817,13 @@
         "monster_name": "Gypceros",
         "rank": "gr",
         "label": "Shiny Drops",
+        "percentage": 2
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Ore",
         "percentage": 2
       }
     ],
@@ -309763,11 +310005,11 @@
     "sell_price": 8,
     "item_type": 0,
     "is_gz": true,
-    "name": "Twin Firefly",
-    "description": "Named after two faintly\nglowing lanterns found\non the body.",
+    "name": "Lanternfly",
+    "description": "An insect named for the two\nfaintly glowing lanterns\nfound on its body.",
     "descriptionSegments": [
       {
-        "text": "Named after two faintly\nglowing lanterns found\non the body.",
+        "text": "An insect named for the two\nfaintly glowing lanterns\nfound on its body.",
         "colorCode": null
       }
     ],
@@ -310171,7 +310413,15 @@
         "colorCode": "05"
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 75
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -310197,7 +310447,15 @@
         "colorCode": "05"
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 75
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -310835,10 +311093,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Pokaradon Claw",
-    "description": "When the monster strikes its\nforelimbs, these metallic\nclaws resound with a clang.",
+    "description": "When struck together, these\nmetallic claws resound with\na clang.",
     "descriptionSegments": [
       {
-        "text": "When the monster strikes its\nforelimbs, these metallic\nclaws resound with a clang.",
+        "text": "When struck together, these\nmetallic claws resound with\na clang.",
         "colorCode": null
       }
     ],
@@ -311118,7 +311376,7 @@
     "sell_price": 32,
     "item_type": 0,
     "is_gz": true,
-    "name": "Gyp Magnapelt",
+    "name": "Gyp Magnahide",
     "description": "Tempered Gypceros hide.\nA timeless material that\ndoes not weather with age.",
     "descriptionSegments": [
       {
@@ -311311,6 +311569,20 @@
         "rank": "gr",
         "label": "Shiny Drops:Bones",
         "percentage": 22
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 22
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Ore",
+        "percentage": 22
       }
     ],
     "partbreak_aquisitions": [
@@ -311383,6 +311655,20 @@
         "monster_name": "Congalala",
         "rank": "gr",
         "label": "Shiny Drops:Bones",
+        "percentage": 1
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Mushroom",
+        "percentage": 1
+      },
+      {
+        "monster_id": 52,
+        "monster_name": "Congalala",
+        "rank": "gr",
+        "label": "Shiny Drops:Ore",
         "percentage": 1
       }
     ],
@@ -311879,7 +312165,7 @@
     "sell_price": 480,
     "item_type": 0,
     "is_gz": true,
-    "name": "Basarios Grndwng",
+    "name": "Basa Grandwing",
     "description": "A strong wing capable of\nlifting the Basarios's\ngiant body.",
     "descriptionSegments": [
       {
@@ -312786,10 +313072,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Rath Valorscale",
-    "description": "A fine Rathalos scale.\nBears the scars of many\nhard-fought battles.",
+    "description": "A fine Rathalos scale.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Rathalos scale.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Rathalos scale.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -312942,10 +313228,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Blan Valorpelt",
-    "description": "A fine Blangonga hide.\nBears the scars of many\nhard-fought battles.",
+    "description": "A fine Blangonga pelt.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Blangonga hide.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Blangonga pelt.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -313141,10 +313427,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Pearl Valorhide",
-    "description": "A fine Khezu hide.\nBears the scars of many\nhard-fought battles.",
+    "description": "A fine Khezu hide.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Khezu hide.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Khezu hide.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -313761,7 +314047,7 @@
     "sell_price": 130,
     "item_type": 0,
     "is_gz": true,
-    "name": "Valiant Gem",
+    "name": "Valorous Gem",
     "description": "A crystal formed inside a\nmonster's body. Used as a\ncrafting material.",
     "descriptionSegments": [
       {
@@ -314136,7 +314422,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Lavasio Acefang",
+    "name": "Lavasio Fluxfang",
     "description": "ダミー",
     "descriptionSegments": [
       {
@@ -314209,7 +314495,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Lavasio Slagshl",
+    "name": "Lava Slagshell",
     "description": "ダミー",
     "descriptionSegments": [
       {
@@ -321685,7 +321971,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Sp. Exchange Tkt",
+    "name": "Special Voucher",
     "description": "A special ticket that can\nbe exchanged for various\nitems at the Combinery.",
     "descriptionSegments": [
       {
@@ -321751,7 +322037,7 @@
     "sell_price": 26,
     "item_type": 0,
     "is_gz": true,
-    "name": "Kut-Ku Primescl",
+    "name": "Kut-KuPrimescale",
     "description": "A superior Kut-Ku scale.\nIt holds both power and\nrefined elegance.",
     "descriptionSegments": [
       {
@@ -322318,11 +322604,11 @@
     "sell_price": 39,
     "item_type": 0,
     "is_gz": true,
-    "name": "Blango Valorfang",
-    "description": "A fine Blangonga fang.\nBears the scars of many\nhard-fought battles.",
+    "name": "Blan Valorfang",
+    "description": "A fine Blangonga fang.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Blangonga fang.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Blangonga fang.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -322410,10 +322696,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Pearl Valorweave",
-    "description": "A fine Khezu webbing.\nBears the scars of many\nhard-fought battles.",
+    "description": "A fine Khezu wing membrane.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Khezu webbing.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Khezu wing membrane.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -322530,10 +322816,10 @@
     "item_type": 0,
     "is_gz": true,
     "name": "Rath Valorshell",
-    "description": "A fine Rathalos shell.\nBears the scars of many\nhard-fought battles.",
+    "description": "A fine Rathalos shell.\nIts surface bears the scars\nof many hard-fought battles.",
     "descriptionSegments": [
       {
-        "text": "A fine Rathalos shell.\nBears the scars of many\nhard-fought battles.",
+        "text": "A fine Rathalos shell.\nIts surface bears the scars\nof many hard-fought battles.",
         "colorCode": null
       }
     ],
@@ -323341,7 +323627,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Celestite Frgmnt",
+    "name": "Celestite Shard",
     "description": "小さな青水晶の欠片。\n光の加減でさまざまな色に\n見えるため、女性人気が高い。",
     "descriptionSegments": [
       {
@@ -323584,10 +323870,10 @@
     "item_type": 0,
     "is_gz": false,
     "name": "Luminous Scale",
-    "description": "翠の淡い光を放つ鱗。\n加工することで、誰もが振り\n向く防具を作ることができる。",
+    "description": "A scale with a faint, jade\nglow. Armor crafted with it\nis sure to turn heads.",
     "descriptionSegments": [
       {
-        "text": "翠の淡い光を放つ鱗。\n加工することで、誰もが振り\n向く防具を作ることができる。",
+        "text": "A scale with a faint, jade\nglow. Armor crafted with it\nis sure to turn heads.",
         "colorCode": null
       }
     ],
@@ -323781,7 +324067,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Yell Rygo Tkt",
+    "name": "Stalwart Ticket",
     "description": "Instructions on forging the\nStalwart Union. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -323803,7 +324089,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Kalet Rygo Tkt",
+    "name": "Sturdy Ticket",
     "description": "Instructions on forging the\nSturdy Union. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -323825,7 +324111,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Giar Rygo Tkt",
+    "name": "E.Harmony Ticket",
     "description": "Instructions on forging the\nEnlightened Harmony. Bring\nthem to the Smithy!",
     "descriptionSegments": [
       {
@@ -323847,7 +324133,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Bull Rygo Tkt",
+    "name": "B.Harmony Ticket",
     "description": "Instructions on forging the\nBlue Harmony. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -323869,7 +324155,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Kirino Turris Tkt",
+    "name": "L.Turris Ticket",
     "description": "Instructions on forging the\nLightning Turris. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
@@ -323891,7 +324177,7 @@
     "sell_price": 0,
     "item_type": 0,
     "is_gz": false,
-    "name": "Vure Turris Tkt",
+    "name": "F.Turris Ticket",
     "description": "Instructions on forging the\nFoggy Turris. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {

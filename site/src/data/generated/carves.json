@@ -959,6 +959,18 @@
         ]
       },
       {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4333,
+            "item_name": "Wyvern Egg?"
+          }
+        ]
+      },
+      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -1033,6 +1045,18 @@
             "percentage": 3,
             "item_id": 366,
             "item_name": "Kut-Ku Ear"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4333,
+            "item_name": "Wyvern Egg?"
           }
         ]
       },
@@ -1131,6 +1155,18 @@
             "percentage": 2,
             "item_id": 1387,
             "item_name": "Rare Avian Gem"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4333,
+            "item_name": "Wyvern Egg?"
           }
         ]
       },
@@ -4747,6 +4783,60 @@
             "item_name": "Glutton Tuna"
           }
         ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4348,
+            "item_name": "Tattered Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4349,
+            "item_name": "Worn-out Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
+          }
+        ]
       }
     ],
     "hr_cts": [
@@ -4811,6 +4901,60 @@
             "percentage": 5,
             "item_id": 956,
             "item_name": "Felyne Fur Ruby"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4348,
+            "item_name": "Tattered Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4349,
+            "item_name": "Worn-out Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
           }
         ]
       }
@@ -4897,6 +5041,60 @@
             "percentage": 10,
             "item_id": 1443,
             "item_name": "Monster Oil"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4348,
+            "item_name": "Tattered Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 4349,
+            "item_name": "Worn-out Design"
+          },
+          {
+            "percentage": 22,
+            "item_id": 189,
+            "item_name": "Felvine"
+          },
+          {
+            "percentage": 3,
+            "item_id": 754,
+            "item_name": "Pawprint Stamp"
+          },
+          {
+            "percentage": 15,
+            "item_id": 247,
+            "item_name": "Glutton Tuna"
           }
         ]
       }
@@ -8890,6 +9088,18 @@
         ]
       },
       {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4335,
+            "item_name": "Carnivore Egg?"
+          }
+        ]
+      },
+      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -8944,6 +9154,18 @@
             "percentage": 25,
             "item_id": 213,
             "item_name": "Black Pearl"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4335,
+            "item_name": "Carnivore Egg?"
           }
         ]
       },
@@ -9042,6 +9264,18 @@
             "percentage": 2,
             "item_id": 1090,
             "item_name": "Pure Cpceolite"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4335,
+            "item_name": "Carnivore Egg?"
           }
         ]
       },
@@ -9876,6 +10110,62 @@
         ]
       },
       {
+        "label": "Shiny Drops:Mushroom",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 326,
+            "item_name": "Territorial Dung"
+          },
+          {
+            "percentage": 15,
+            "item_id": 273,
+            "item_name": "Demon Mushroom"
+          },
+          {
+            "percentage": 5,
+            "item_id": 200,
+            "item_name": "Exciteshroom"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Ore",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 326,
+            "item_name": "Territorial Dung"
+          },
+          {
+            "percentage": 39,
+            "item_id": 218,
+            "item_name": "Machalite Ore"
+          },
+          {
+            "percentage": 1,
+            "item_id": 225,
+            "item_name": "Lightcrystal"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4334,
+            "item_name": "Herbivore Egg?"
+          }
+        ]
+      },
+      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -9935,6 +10225,62 @@
             "percentage": 10,
             "item_id": 315,
             "item_name": "Monster Hardbone"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Mushroom",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 326,
+            "item_name": "Territorial Dung"
+          },
+          {
+            "percentage": 15,
+            "item_id": 273,
+            "item_name": "Demon Mushroom"
+          },
+          {
+            "percentage": 5,
+            "item_id": 200,
+            "item_name": "Exciteshroom"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Ore",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 70,
+            "item_id": 326,
+            "item_name": "Territorial Dung"
+          },
+          {
+            "percentage": 29,
+            "item_id": 219,
+            "item_name": "Dragonite Ore"
+          },
+          {
+            "percentage": 1,
+            "item_id": 226,
+            "item_name": "Novacrystal"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4334,
+            "item_name": "Herbivore Egg?"
           }
         ]
       },
@@ -10032,6 +10378,92 @@
         ]
       },
       {
+        "label": "Shiny Drops:Mushroom",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 38,
+            "item_id": 1268,
+            "item_name": "Beast Hide"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1269,
+            "item_name": "Beast Hide+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1270,
+            "item_name": "Beast Thickhide"
+          },
+          {
+            "percentage": 38,
+            "item_id": 1277,
+            "item_name": "Beast Tail"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1278,
+            "item_name": "Beast Tail+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1279,
+            "item_name": "Beast Lash"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Ore",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 38,
+            "item_id": 1268,
+            "item_name": "Beast Hide"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1269,
+            "item_name": "Beast Hide+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1270,
+            "item_name": "Beast Thickhide"
+          },
+          {
+            "percentage": 38,
+            "item_id": 1277,
+            "item_name": "Beast Tail"
+          },
+          {
+            "percentage": 10,
+            "item_id": 1278,
+            "item_name": "Beast Tail+"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1279,
+            "item_name": "Beast Lash"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4334,
+            "item_name": "Herbivore Egg?"
+          }
+        ]
+      },
+      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -10091,6 +10523,60 @@
             "percentage": 2,
             "item_id": 6613,
             "item_name": "Ephemeral Mayfly"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6660,
+            "item_name": "Vivid Pelt"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Mushroom",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 6633,
+            "item_name": "Special Mushroom"
+          },
+          {
+            "percentage": 22,
+            "item_id": 6659,
+            "item_name": "Conga Magnapelt"
+          },
+          {
+            "percentage": 2,
+            "item_id": 6601,
+            "item_name": "Pebblefruit"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6660,
+            "item_name": "Vivid Pelt"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops:Ore",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 6632,
+            "item_name": "Soapstone"
+          },
+          {
+            "percentage": 22,
+            "item_id": 6659,
+            "item_name": "Conga Magnapelt"
+          },
+          {
+            "percentage": 2,
+            "item_id": 6607,
+            "item_name": "Galena"
           },
           {
             "percentage": 1,
@@ -17712,33 +18198,6 @@
         ]
       },
       {
-        "label": "__ignore__",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 50,
-            "item_id": 2954,
-            "item_name": "Draguros Cpc"
-          },
-          {
-            "percentage": 30,
-            "item_id": 2955,
-            "item_name": "Draguros Scale+"
-          },
-          {
-            "percentage": 15,
-            "item_id": 2957,
-            "item_name": "Draguros Claw+"
-          },
-          {
-            "percentage": 5,
-            "item_id": 2960,
-            "item_name": "Draguros Marrow"
-          }
-        ]
-      },
-      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -17837,48 +18296,6 @@
         ]
       },
       {
-        "label": "__ignore__",
-        "trigger_chance": 16,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 22,
-            "item_id": 1337,
-            "item_name": "F.Wyvern Marrow"
-          },
-          {
-            "percentage": 19,
-            "item_id": 1338,
-            "item_name": "F.Wyvern Medulla"
-          },
-          {
-            "percentage": 14,
-            "item_id": 1339,
-            "item_name": "F.Wyvern Myeloid"
-          },
-          {
-            "percentage": 20,
-            "item_id": 1313,
-            "item_name": "F.Wyvern Wing"
-          },
-          {
-            "percentage": 12,
-            "item_id": 1314,
-            "item_name": "F.Wyvern Wing+"
-          },
-          {
-            "percentage": 8,
-            "item_id": 1315,
-            "item_name": "F.Wyv Fellwing"
-          },
-          {
-            "percentage": 5,
-            "item_id": 1444,
-            "item_name": "Monster Oil+"
-          }
-        ]
-      },
-      {
         "label": "HC Carve",
         "trigger_chance": null,
         "num_carves": null,
@@ -17933,28 +18350,6 @@
             "percentage": 15,
             "item_id": 3542,
             "item_name": "Grenzebul Tail"
-          }
-        ]
-      },
-      {
-        "label": "__ignore__",
-        "trigger_chance": 32,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 65,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
-          },
-          {
-            "percentage": 30,
-            "item_id": 2645,
-            "item_name": "Duragaua Scale"
-          },
-          {
-            "percentage": 5,
-            "item_id": 2650,
-            "item_name": "Duragaua Spike"
           }
         ]
       },
@@ -18033,33 +18428,6 @@
             "percentage": 10,
             "item_id": 3549,
             "item_name": "Grenzebul Tail+"
-          }
-        ]
-      },
-      {
-        "label": "__ignore__",
-        "trigger_chance": 32,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 50,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
-          },
-          {
-            "percentage": 30,
-            "item_id": 2645,
-            "item_name": "Duragaua Scale"
-          },
-          {
-            "percentage": 15,
-            "item_id": 2650,
-            "item_name": "Duragaua Spike"
-          },
-          {
-            "percentage": 5,
-            "item_id": 2656,
-            "item_name": "Duragaua Spike+"
           }
         ]
       },
@@ -18158,43 +18526,6 @@
             "percentage": 5,
             "item_id": 4351,
             "item_name": "F.Wyvern Plate"
-          }
-        ]
-      },
-      {
-        "label": "__ignore__",
-        "trigger_chance": 32,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 35,
-            "item_id": 1346,
-            "item_name": "F.Wyvern Tear"
-          },
-          {
-            "percentage": 20,
-            "item_id": 1347,
-            "item_name": "F.Wyvern Tear+"
-          },
-          {
-            "percentage": 15,
-            "item_id": 1348,
-            "item_name": "Rare F.Wyv Tear"
-          },
-          {
-            "percentage": 15,
-            "item_id": 1443,
-            "item_name": "Monster Oil"
-          },
-          {
-            "percentage": 10,
-            "item_id": 1444,
-            "item_name": "Monster Oil+"
-          },
-          {
-            "percentage": 5,
-            "item_id": 1445,
-            "item_name": "ThickMonsterOil"
           }
         ]
       },
@@ -18842,18 +19173,6 @@
             "percentage": 1,
             "item_id": 4352,
             "item_name": "F.Wyvern Jewel"
-          }
-        ]
-      },
-      {
-        "label": "__ignore__",
-        "trigger_chance": 32,
-        "num_carves": null,
-        "drops": [
-          {
-            "percentage": 100,
-            "item_id": 325,
-            "item_name": "Wyvern Tear"
           }
         ]
       }
