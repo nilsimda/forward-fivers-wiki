@@ -1,0 +1,63 @@
+砦,Fortress
+森丘,Verdant Hills
+砂漠,Desert
+沼地,Marshlands
+火山,Volcano
+密林,Jungle
+シュレイド城,Castle Schrade
+決戦場,Battlefield
+大闘技場,Great Arena
+闘技場,Arena
+雪山,Arctic Ridge
+戦闘街,Battlequarters
+塔,Tower
+塔,Tower
+塔,Tower
+森丘,Verdant Hills
+砂漠,Desert
+沼地,Marshlands
+火山,Volcano
+密林,Jungle
+雪山,Arctic Ridge
+戦闘街,Battlequarters
+砦,Fortress
+大闘技場,Great Arena
+闘技場,Arena
+樹海,Great Forest
+樹海,Great Forest
+火山,Volcano
+火山,Volcano
+夢の中,Dreamland
+峡谷,Canyon
+峡谷,Canyon
+洞窟,Caverns
+洞窟,Caverns
+決戦場,Battlefield
+大闘技場,Great Arena
+大闘技場,Great Arena
+闘技場,Arena
+闘技場,Arena
+地底湖闘技場,Moat Arena
+地底湖闘技場,Moat Arena
+湿原,Wetlands
+湿原,Wetlands
+樹海頂部,G.Forest Canopy
+気球,Balloon
+気球,Balloon
+絶島,Solitary Isles
+絶島,Solitary Isles
+絶島,Solitary Isles
+高地,Highlands
+高地,Highlands
+塔,Tower
+新大闘技場,New Great Arena
+新大闘技場,New Great Arena
+迎撃拠点,Interception Base
+迎撃拠点,Interception Base
+潮島,Tidal Island
+潮島,Tidal Island
+潮島,Tidal Island
+極海,Polar Sea
+極海,Polar Sea
+最果ての地,World's End
+大型探査船,Exploration Vessel

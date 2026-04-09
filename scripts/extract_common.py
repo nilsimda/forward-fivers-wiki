@@ -20,6 +20,7 @@ DEFAULT_DATA_PATHS = {
     "mhfdat": BASE_DATA_PATH / "game" / "mhfdat.raw.bin",
     "mhfinf": BASE_DATA_PATH / "game" / "mhfinf.raw.bin",
     "quests": BASE_DATA_PATH / "game" / "unpacked_quests",
+    "mhfpac": BASE_DATA_PATH / "game" / "mhfpac.raw.bin",
     # manual labels
     "monster_names": BASE_DATA_PATH / "labels" / "monster_names.json",
     "carve_labels": BASE_DATA_PATH / "labels" / "monster_carve_labels.json",
@@ -45,6 +46,8 @@ HEADER_POINTERS = {
     "quests": 0x00000014,
     # quest file pointers
     "quest_rewards": 0x0000000C,
+    # mhfpac pointers
+    "map_names": 0x000B9D40,  # 0x00154641,
 }
 
 U16_FMT = "<H"

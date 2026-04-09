@@ -22,95 +22,6 @@ from extract_common import (
 HIDDEN_ITEM_IDS = load_wiki_hidden_item_ids(DEFAULT_DATA_PATHS["hidden_item_ids"])
 ITEM_NAMES = load_item_names(DEFAULT_DATA_PATHS["item_names"])
 
-MAP_ID_NAMES: dict[int, str] = {
-    1: "Siege Fortress Day",
-    2: "Forest and Hills Day",
-    3: "Desert Day",
-    4: "Swamp Day",
-    5: "Volcano Day",
-    6: "Jungle Day",
-    7: "Castle Schrade",
-    8: "Crimson Battleground",
-    9: "Arena with Ledge Day",
-    10: "Arena with Pillar Day",
-    11: "Snowy Mountains Day",
-    12: "Town Siege Day",
-    13: "Tower 1",
-    14: "Tower 2",
-    15: "Tower 3",
-    16: "Forest and Hills Night",
-    17: "Desert Night",
-    18: "Swamp Night",
-    19: "Volcano Night",
-    20: "Jungle Night",
-    21: "Snowy Mountains Night",
-    22: "Town Siege night",
-    23: "Siege Fortress Night",
-    24: "Arena with Ledge Night",
-    25: "Arena with Pillar Night",
-    26: "Great Forest Day",
-    27: "Great Forest Night",
-    28: "Volcano 2 Day",
-    29: "Volcano 2 Night",
-    30: "Jungle Dream",
-    31: "Canyon Day",
-    32: "Canyon Night",
-    35: "Battlefield Day",
-    44: "Top of Great Forest",
-    45: "Caravan Balloon Day",
-    46: "Caravan Balloon Night",
-    47: "Solitude Isle 1",
-    48: "Solitude Isle 2",
-    49: "Solitude Isle 3",
-    50: "Highlands Day",
-    51: "Highlands Night",
-    52: "Tower with Nesthole",
-    53: "Arena with Moat Day",
-    54: "Arena with Moat Night",
-    55: "Fortress Day",
-    56: "Fortress Night",
-    57: "Tidal Island Day",
-    58: "Tidal Island Night",
-    60: "Polar Sea Day",
-    61: "Polar Sea Night",
-    62: "World's End",
-    63: "Large Airship",
-    64: "Flower Field Day",
-    65: "Flower Field Night",
-    66: "Deep Crater",
-    67: "Bamboo Forest Day",
-    68: "Bamboo Forest Night",
-    69: "Battlefield 2 Day",
-    70: "Unimplemented map",
-    71: "1st Dist Tower 1",
-    72: "1st Dist Tower 2",
-    73: "2nd Dist Tower 1",
-    74: "2nd Dist Tower 2",
-    75: "Urgent Tower",
-    76: "3rd Dist Tower",
-    77: "3rd Dist Tower 2?",
-    78: "4th Dist Tower",
-    79: "White Lake Day",
-    80: "White Lake Night",
-    81: "Solitude Depths Slay 1",
-    82: "Solitude Depths Slay 2",
-    83: "Solitude Depths Slay 3",
-    84: "Solitude Depths Slay 4",
-    85: "Solitude Depths Slay 5",
-    86: "Solitude Depths Support 1",
-    87: "Solitude Depths Support 2",
-    88: "Solitude Depths Support 3",
-    89: "Solitude Depths Support 4",
-    90: "Solitude Depths Support 5",
-    91: "Cloud Viewing Fortress",
-    92: "Painted Falls Day",
-    93: "Painted Falls Night",
-    94: "Sanctuary",
-    95: "Hunter's Road",
-    96: "Sacred Pinnacle",
-    97: "Historic Site",
-}
-
 GoalTargetKind = Literal[
     "Hunt",
     "Capture",
@@ -264,6 +175,7 @@ class Quest:
     reward_boxes: dict[int, list[QuestReward]]
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<IIHBB8IHHIHHIHHIHH4H")
+    _RANK_ORDER: ClassVar[dict[Rank, int]] = {"lr": 0, "hr": 1, "er": 2, "gr": 3}
 
     @staticmethod
     def _rank_from_difficulty(difficulty: int) -> Rank:
@@ -302,8 +214,6 @@ class Quest:
 
         return difficulty, reward_boxes
 
-    _RANK_ORDER: ClassVar[dict[Rank, int]] = {"lr": 0, "hr": 1, "er": 2, "gr": 3}
-
     @staticmethod
     def _get_quest_rank(difficulty: int, post_min_hr: int) -> Rank:
         difficulty_rank = Quest._rank_from_difficulty(difficulty)
@@ -311,7 +221,9 @@ class Quest:
         return max(difficulty_rank, post_min_hr_rank, key=Quest._RANK_ORDER.__getitem__)
 
     @classmethod
-    def unpack_from(cls, raw: bytes, offset: int, quest_files_dir: Path) -> "Quest":
+    def unpack_from(
+        cls, raw: bytes, offset: int, quest_files_dir: Path, map_names: dict[int, str]
+    ) -> "Quest":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         quest_id = unpacked[14]
         difficulty, reward_boxes = cls._extract_quest_file(
@@ -352,7 +264,7 @@ class Quest:
             zenny_sub_b=unpacked[9],
             quest_time=unpacked[10],
             map_id=unpacked[11],
-            map=MAP_ID_NAMES[unpacked[11]],
+            map=map_names[unpacked[11]],
             restriction_flags=unpacked[13],
             id=quest_id,
             main_goal=main_goal,
@@ -377,14 +289,16 @@ class QuestTable:
 
     @classmethod
     def unpack_from(
-        cls, raw: bytes, offset: int, quest_files_dir: Path
+        cls, raw: bytes, offset: int, quest_files_dir: Path, map_names: dict[int, str]
     ) -> "QuestTable":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         quest_table = cls(quest_count=unpacked[1], pointer_base=unpacked[2])
         for quest_index in range(quest_table.quest_count):
             quest_pointer = read_u32(raw, quest_table.pointer_base + quest_index * 4)
             if not quest_pointer == 0:
-                quest = Quest.unpack_from(raw, quest_pointer, quest_files_dir)
+                quest = Quest.unpack_from(
+                    raw, quest_pointer, quest_files_dir, map_names
+                )
                 quest_table.quests.append(quest)
 
         return quest_table
@@ -411,6 +325,12 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing the quest files.",
     )
     parser.add_argument(
+        "--mhfpac",
+        type=Path,
+        default=DEFAULT_DATA_PATHS["mhfpac"],
+        help="Path to mhfpac.raw.bin",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=REPO_ROOT / "site" / "src" / "data" / "generated" / "quests.json",
@@ -419,11 +339,31 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def _extract_map_names(mhfpac_raw: bytes) -> dict[int, str]:
+    map_names_base = HEADER_POINTERS["map_names"]
+
+    result: dict[int, str] = {}
+    map_id = 1
+    while True:
+        map_name_pointer = read_u32(mhfpac_raw, map_names_base)
+        if map_name_pointer == 0:
+            break
+        map_name = decode_c_string(mhfpac_raw, map_name_pointer)
+        result[map_id] = map_name
+        map_id += 1
+        map_names_base += 4
+
+    return result
+
+
 def main() -> None:
     args = parse_args()
 
     mhfinf_raw = args.input.read_bytes()
     quest_files_dir = args.quest_files_dir
+    mhfpac_raw = args.mhfpac.read_bytes()
+
+    map_names = _extract_map_names(mhfpac_raw)
 
     qt_offset = read_u32(mhfinf_raw, HEADER_POINTERS["quests"])
     counts_offset = read_u32(mhfinf_raw, HEADER_POINTERS["mhfinf_counts"])
@@ -431,7 +371,7 @@ def main() -> None:
 
     result: list[Quest] = []
     for _ in range(qt_count):
-        qt = QuestTable.unpack_from(mhfinf_raw, qt_offset, quest_files_dir)
+        qt = QuestTable.unpack_from(mhfinf_raw, qt_offset, quest_files_dir, map_names)
         result += qt.quests
         qt_offset += QuestTable.size()
 
