@@ -84,6 +84,7 @@ const rewardItemSchema = z.object({
     item_id: itemIdSchema,
     item_name: z.string(),
     quantity: z.number().min(0).max(99),
+    guaranteed: z.boolean(),
 });
 
 const rewardBoxesSchema = z.record(
@@ -112,7 +113,8 @@ const quests = defineCollection({
         post_min_rank: z.number().int().min(0).max(999),
         quest_text: questTextSchema,
         rank: z.nullable(z.enum(["lr", "hr", "er", "gr"])),
-        reward_boxes: rewardBoxesSchema
+        reward_boxes: rewardBoxesSchema,
+        reward_variant: z.number().int().min(0),
 
     })
 })
@@ -149,6 +151,7 @@ const questAquisitionSchema = z.object({
     percentage: percentageSchema,
     quantity: z.number().int().min(0).max(99),
     reward_box_label: z.string(),
+    guaranteed: z.boolean(),
 });
 
 const items = defineCollection({

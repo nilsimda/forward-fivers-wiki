@@ -74,17 +74,38 @@ class QuestReward:
     item_id: int
     item_name: str
     quantity: int
+    guaranteed: bool
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<3H")
 
+    @staticmethod
+    def _is_guaranteed(reward_variant: int, box_id: int, index_in_table: int) -> bool:
+        if reward_variant == 4:
+            return False
+        if reward_variant in (2, 3):
+            return True
+        if reward_variant == 0:
+            return index_in_table == 0 and box_id in (0, 1)
+        if reward_variant == 1:
+            return index_in_table == 0 and box_id in (0, 1, 2, 3)
+        return False
+
     @classmethod
-    def unpack_from(cls, raw: bytes, offset: int) -> "QuestReward":
+    def unpack_from(
+        cls,
+        raw: bytes,
+        offset: int,
+        reward_variant: int,
+        box_id: int,
+        index_in_table: int,
+    ) -> "QuestReward":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         return cls(
             percentage=unpacked[0],
             item_id=unpacked[1],
             item_name=ITEM_NAMES.get(unpacked[1], "unkown"),
             quantity=unpacked[2],
+            guaranteed=cls._is_guaranteed(reward_variant, box_id, index_in_table),
         )
 
     @classmethod
@@ -122,17 +143,23 @@ class QuestRewardBox:
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BBHI")
 
     @classmethod
-    def unpack_from(cls, raw: bytes, offset: int) -> "QuestRewardBox":
+    def unpack_from(
+        cls, raw: bytes, offset: int, reward_variant: int
+    ) -> "QuestRewardBox":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         table_offset = unpacked[3]
         rewards = []
+        index_in_table = 0
         while True:
-            reward = QuestReward.unpack_from(raw, table_offset)
+            reward = QuestReward.unpack_from(
+                raw, table_offset, reward_variant, unpacked[0], index_in_table
+            )
             if reward.percentage == 0xFFFF:
                 break
             if reward.item_id not in HIDDEN_ITEM_IDS:
                 rewards.append(reward)
             table_offset += QuestReward.size()
+            index_in_table += 1
 
         return cls(
             table_id=unpacked[0],
@@ -150,6 +177,11 @@ class QuestGoal(TypedDict):
     target_kind: GoalTargetKind | None
     target: int | None
     count: int | None
+
+
+class PreviewItem(TypedDict):
+    item_id: int
+    item_name: str
 
 
 @dataclass(slots=True)
@@ -173,6 +205,8 @@ class Quest:
     quest_text: QuestText
     rank: Rank | None
     reward_boxes: dict[int, list[QuestReward]]
+    reward_variant: int
+    preview_items: list[PreviewItem]
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<IIHBB8IHHIHHIHHIHH4H")
     _RANK_ORDER: ClassVar[dict[Rank, int]] = {"lr": 0, "hr": 1, "er": 2, "gr": 3}
@@ -198,21 +232,36 @@ class Quest:
             return "er"
 
     @staticmethod
-    def _extract_quest_file(path: Path) -> tuple[int, list[QuestRewardBox]]:
+    def _extract_quest_file(
+        path: Path,
+    ) -> tuple[int, list[QuestRewardBox], int, list[PreviewItem]]:
         raw = path.read_bytes()
         rewards_pointer = read_u32(raw, HEADER_POINTERS["quest_rewards"])
         difficulty = read_u16(raw, 0x48)
+        reward_variant = raw[0x150]
+        preview_items: list[PreviewItem] = []
+        for off in (0x170, 0x172, 0x174):
+            item_id = read_u16(raw, off)
+            if item_id != 0:
+                preview_items.append(
+                    PreviewItem(
+                        item_id=item_id, item_name=ITEM_NAMES.get(item_id, "unknown")
+                    )
+                )
+
         if rewards_pointer >= len(raw):
-            return difficulty, []
+            return difficulty, [], reward_variant, preview_items
         reward_boxes = []
         while True:
-            reward_box = QuestRewardBox.unpack_from(raw, rewards_pointer)
+            reward_box = QuestRewardBox.unpack_from(
+                raw, rewards_pointer, reward_variant
+            )
             if reward_box.table_id == 0xFF and reward_box.sentinel == 0xFF:
                 break
             reward_boxes.append(reward_box)
             rewards_pointer += QuestRewardBox.size()
 
-        return difficulty, reward_boxes
+        return difficulty, reward_boxes, reward_variant, preview_items
 
     @staticmethod
     def _get_quest_rank(difficulty: int, post_min_hr: int) -> Rank:
@@ -226,8 +275,8 @@ class Quest:
     ) -> "Quest":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         quest_id = unpacked[14]
-        difficulty, reward_boxes = cls._extract_quest_file(
-            quest_files_dir / f"{quest_id:05}d0.bin"
+        difficulty, reward_boxes, reward_variant, preview_items = (
+            cls._extract_quest_file(quest_files_dir / f"{quest_id:05}d0.bin")
         )
         post_min_rank = unpacked[27]
 
@@ -275,6 +324,8 @@ class Quest:
             quest_text=quest_text,
             rank=rank,
             reward_boxes=reward_boxes_by_id,
+            reward_variant=reward_variant,
+            preview_items=preview_items,
         )
         return quest
 

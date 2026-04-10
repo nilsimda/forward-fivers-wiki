@@ -53,6 +53,7 @@ class QuestAquisition(TypedDict):
     percentage: int
     quantity: int
     reward_box_label: str
+    guaranteed: bool
 
 
 @dataclass(slots=True)
@@ -219,7 +220,7 @@ REWARD_BOX_LABELS: dict[int, str] = {
 
 def _reward_box_label(table_id: int) -> str:
     if 41 <= table_id <= 47:
-        return f"Training Tier {table_id - 40}"
+        return f"Bonus Reward {table_id - 40}"
     return REWARD_BOX_LABELS.get(table_id, f"Reward Box {table_id}")
 
 
@@ -239,6 +240,7 @@ def build_quest_aquisitions(quests_path: Path) -> dict[int, list[QuestAquisition
                         percentage=drop["percentage"],
                         quantity=drop["quantity"],
                         reward_box_label=label,
+                        guaranteed=drop["guaranteed"],
                     )
                 )
     return index

@@ -41,7 +41,7 @@ type QuestEntry = {
   id: number;
   title: string;
   main_objective: string;
-  drops: { reward_box_label: string; pct: number; qty: number }[];
+  drops: { reward_box_label: string; pct: number; qty: number; guaranteed: boolean }[];
 };
 
 const rankSections = (["lr", "hr", "er", "gr"] as const)
@@ -73,6 +73,7 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
       questMap.get(q.quest_id)!.drops.push({
         reward_box_label: q.reward_box_label,
         pct: q.percentage, qty: q.quantity,
+        guaranteed: q.guaranteed,
       });
     }
 
@@ -270,7 +271,12 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
                                       <span class="text-slate-500">-</span>
                                     )}
                                   </td>
-                                  <td>{d.reward_box_label}</td>
+                                  <td>
+                                    {d.reward_box_label}
+                                    {d.guaranteed && (
+                                      <span class="ml-2 rounded bg-amber-700/50 px-1.5 py-0.5 text-xs text-amber-200">Guaranteed</span>
+                                    )}
+                                  </td>
                                   <td>{d.pct}%</td>
                                   <td>x{d.qty}</td>
                                 </tr>

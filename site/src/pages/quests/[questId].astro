@@ -34,14 +34,14 @@ const REWARD_BOX_LABELS: Record<number, string> = {
 };
 
 const rewardBoxLabel = (id: number): string => {
-  if (id >= 41 && id <= 47) return `Training Tier ${id - 40}`;
+  if (id >= 41 && id <= 47) return `Bonus Reward ${id - 40}`;
   return REWARD_BOX_LABELS[id] ?? `Reward Box ${id}`;
 };
 
 const rewardBoxEntries = Object.entries(quest.reward_boxes)
   .map(([rewardBoxId, rewards]) => ({
     rewardBoxId: Number(rewardBoxId),
-    rewards: rewards.slice().sort((a, b) => a.item_id - b.item_id),
+    rewards: rewards,
     label: rewardBoxLabel(Number(rewardBoxId)),
   }))
   .sort((a, b) => a.rewardBoxId - b.rewardBoxId);
@@ -213,6 +213,9 @@ const rewardBoxEntries = Object.entries(quest.reward_boxes)
                         <a href={withBase(`items/${reward.item_id}/`)}>
                           {reward.item_name}
                         </a>
+                        {reward.guaranteed && (
+                          <span class="ml-2 rounded bg-amber-700/50 px-1.5 py-0.5 text-xs text-amber-200">Guaranteed</span>
+                        )}
                       </td>
                       <td>{reward.percentage}%</td>
                       <td>x{reward.quantity}</td>
