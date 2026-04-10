@@ -16,6 +16,7 @@ from extract_common import (
     load_wiki_hidden_item_ids,
     read_u16,
     read_u32,
+    reward_box_label,
     write_json_output,
 )
 
@@ -204,7 +205,7 @@ class Quest:
     post_min_rank: int
     quest_text: QuestText
     rank: Rank | None
-    reward_boxes: dict[int, list[QuestReward]]
+    reward_boxes: dict[str, list[QuestReward]]
     reward_variant: int
     preview_items: list[PreviewItem]
 
@@ -280,7 +281,9 @@ class Quest:
         )
         post_min_rank = unpacked[27]
 
-        reward_boxes_by_id = {box.table_id: box.rewards for box in reward_boxes}
+        reward_boxes_by_label = {
+            reward_box_label(box.table_id): box.rewards for box in reward_boxes
+        }
 
         quest_text = QuestText.unpack_from(raw, unpacked[12])
 
@@ -323,7 +326,7 @@ class Quest:
             post_min_rank=post_min_rank,
             quest_text=quest_text,
             rank=rank,
-            reward_boxes=reward_boxes_by_id,
+            reward_boxes=reward_boxes_by_label,
             reward_variant=reward_variant,
             preview_items=preview_items,
         )

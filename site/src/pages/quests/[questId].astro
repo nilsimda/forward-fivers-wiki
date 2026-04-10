@@ -24,27 +24,8 @@ const formatRank = (rank: QuestData["rank"]) => {
   return rank.toUpperCase();
 };
 
-const REWARD_BOX_LABELS: Record<number, string> = {
-  0: "Main Reward",
-  1: "Main Reward",
-  2: "Sub A Reward",
-  3: "Sub B Reward",
-  4: "Additional Reward",
-  5: "Special Reward",
-};
-
-const rewardBoxLabel = (id: number): string => {
-  if (id >= 41 && id <= 47) return `Bonus Reward ${id - 40}`;
-  return REWARD_BOX_LABELS[id] ?? `Reward Box ${id}`;
-};
-
 const rewardBoxEntries = Object.entries(quest.reward_boxes)
-  .map(([rewardBoxId, rewards]) => ({
-    rewardBoxId: Number(rewardBoxId),
-    rewards: rewards,
-    label: rewardBoxLabel(Number(rewardBoxId)),
-  }))
-  .sort((a, b) => a.rewardBoxId - b.rewardBoxId);
+  .map(([label, rewards]) => ({ label, rewards }));
 ---
 
 <WikiLayout title={`${quest.quest_text.title} | Quests | MHFG1 Wiki`}>

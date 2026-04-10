@@ -208,28 +208,11 @@ def build_partbreak_acquisitions(
     return index
 
 
-REWARD_BOX_LABELS: dict[int, str] = {
-    0: "Main Reward",
-    1: "Main Reward",
-    2: "Sub A Reward",
-    3: "Sub B Reward",
-    4: "Additional Reward",
-    5: "Special Reward",
-}
-
-
-def _reward_box_label(table_id: int) -> str:
-    if 41 <= table_id <= 47:
-        return f"Bonus Reward {table_id - 40}"
-    return REWARD_BOX_LABELS.get(table_id, f"Reward Box {table_id}")
-
-
 def build_quest_aquisitions(quests_path: Path) -> dict[int, list[QuestAquisition]]:
     quests: list[dict[str, Any]] = json.loads(quests_path.read_text(encoding="utf-8"))
     index: dict[int, list[QuestAquisition]] = {}
     for quest in quests:
-        for box_key, reward_box in quest["reward_boxes"].items():
-            label = _reward_box_label(int(box_key))
+        for label, reward_box in quest["reward_boxes"].items():
             for drop in reward_box:
                 index.setdefault(drop["item_id"], []).append(
                     QuestAquisition(

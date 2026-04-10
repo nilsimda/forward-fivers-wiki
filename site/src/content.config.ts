@@ -88,7 +88,7 @@ const rewardItemSchema = z.object({
 });
 
 const rewardBoxesSchema = z.record(
-    z.string().regex(/^\d+$/),
+    z.string(),
     z.array(rewardItemSchema)
 );
 

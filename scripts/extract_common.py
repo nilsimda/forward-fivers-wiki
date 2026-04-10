@@ -193,6 +193,22 @@ def decode_c_string(raw: bytes, pointer: int) -> str:
     return data.decode("latin-1", errors="replace")
 
 
+REWARD_BOX_LABELS: dict[int, str] = {
+    0: "Main Reward",
+    1: "Main Reward",
+    2: "Sub A Reward",
+    3: "Sub B Reward",
+    4: "Additional Reward",
+    5: "Special Reward",
+}
+
+
+def reward_box_label(table_id: int) -> str:
+    if 41 <= table_id <= 47:
+        return f"Bonus Reward {table_id - 40}"
+    return REWARD_BOX_LABELS.get(table_id, f"Reward Box {table_id}")
+
+
 def load_small_monster_ids() -> frozenset[int]:
     raw = json.loads(DEFAULT_DATA_PATHS["small_monsters"].read_text(encoding="utf-8"))
     return frozenset(int(k) for k in raw)
