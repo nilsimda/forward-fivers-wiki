@@ -185,7 +185,7 @@ def decode_c_string(raw: bytes, pointer: int) -> str:
         end = len(raw)
     data = raw[pointer:end]
 
-    for encoding in ("utf-8", "shift_jis", "latin-1"):
+    for encoding in ("utf-8", "shift_jis", "cp932", "latin-1"):
         try:
             return data.decode(encoding)
         except UnicodeDecodeError:
