@@ -340246,6 +340246,13 @@
         "percentage": 75
       },
       {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      },
+      {
         "monster_id": 75,
         "monster_name": "Lavasioth",
         "rank": "gr",
@@ -340262,6 +340269,13 @@
       {
         "monster_id": 80,
         "monster_name": "Espinas",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
         "rank": "gr",
         "label": "Shiny Drops",
         "percentage": 75
@@ -340346,6 +340360,13 @@
       {
         "monster_id": 67,
         "monster_name": "Shogun Ceanataur",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
         "rank": "gr",
         "label": "Shiny Drops",
         "percentage": 75
@@ -345193,9 +345214,45 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 55,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 15,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65085,
+        "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+        "main_objective": "Hunt a Rajang",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ]
   },
   {
     "id": 6725,
@@ -345216,9 +345273,45 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 3
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 4,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 5,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65085,
+        "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+        "main_objective": "Hunt a Rajang",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6726,
@@ -345239,7 +345332,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 1
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345263,7 +345364,16 @@
       }
     ],
     "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 60,
+        "quantity": 1
+      }
+    ],
     "quest_aquisitions": []
   },
   {
@@ -345285,7 +345395,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 1
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345308,9 +345426,52 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 3
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 1
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 4,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 4,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65092,
+        "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+        "main_objective": "Slay an Aqra Vashim",
+        "rank": "gr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6730,
@@ -345331,9 +345492,91 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 100
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 24
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 16,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 17,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Slay (White Blood)",
+        "percentage": 100,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Slay (Yellow Blood)",
+        "percentage": 100,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Slay (Blue Blood)",
+        "percentage": 100,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Slay (Red Blood)",
+        "percentage": 100,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65092,
+        "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+        "main_objective": "Slay an Aqra Vashim",
+        "rank": "gr",
+        "percentage": 46,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6731,
@@ -345354,7 +345597,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 80
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345377,9 +345628,68 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 25
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 30,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Ear",
+        "percentage": 50,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 40,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65091,
+        "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+        "main_objective": "Hunt a Yian Garuga",
+        "rank": "gr",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6733,
@@ -345400,8 +345710,40 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 3
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 1
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 4,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Wing",
+        "percentage": 5,
+        "quantity": 1
+      }
+    ],
     "quest_aquisitions": []
   },
   {
@@ -345423,7 +345765,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 1
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345446,9 +345796,69 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 55,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Belly",
+        "percentage": 25,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 25,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Left Wing",
+        "percentage": 30,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Right Wing",
+        "percentage": 39,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65093,
+        "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+        "main_objective": "Hunt a Grenzebul",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ]
   },
   {
     "id": 6736,
@@ -345469,8 +345879,33 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 3
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 4,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Horn",
+        "percentage": 5,
+        "quantity": 1
+      }
+    ],
     "quest_aquisitions": []
   },
   {
@@ -345492,7 +345927,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 80
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345515,7 +345958,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 1
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345538,9 +345989,77 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 55
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 69,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 30,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 30,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 54,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 20,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65094,
+        "title": "≪GR7 Ancient Tower Survey≫\nFrozen Dance",
+        "main_objective": "Hunt a Duragaua",
+        "rank": "gr",
+        "percentage": 45,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ]
   },
   {
     "id": 6740,
@@ -345561,9 +346080,52 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 3
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 1
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 4,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 5,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65094,
+        "title": "≪GR7 Ancient Tower Survey≫\nFrozen Dance",
+        "main_objective": "Hunt a Duragaua",
+        "rank": "gr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6741,
@@ -345584,7 +346146,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 1
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -345638,6 +346208,16 @@
       {
         "quest_id": 23007,
         "title": "≪Guild Order≫\nSea-Sawing Sovereign",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 23,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
         "main_objective": "Hunt an Anorpatis",
         "rank": "gr",
         "percentage": 23,
@@ -345704,6 +346284,16 @@
       {
         "quest_id": 23007,
         "title": "≪Guild Order≫\nSea-Sawing Sovereign",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 23,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
         "main_objective": "Hunt an Anorpatis",
         "rank": "gr",
         "percentage": 23,
@@ -345876,6 +346466,27 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 20
+      },
+      {
         "monster_id": 109,
         "monster_name": "Anorpatis",
         "rank": "gr",
@@ -345884,6 +346495,166 @@
       }
     ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 20,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Ear",
+        "percentage": 20,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 20,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Wing",
+        "percentage": 19,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 25,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 45,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 40,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 40,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 20,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 25,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 25,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 15,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Horn",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Belly",
+        "percentage": 5,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 5,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Left Wing",
+        "percentage": 20,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Right Wing",
+        "percentage": 10,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 20,
+        "quantity": 1
+      },
       {
         "monster_id": 109,
         "monster_name": "Anorpatis",
@@ -346101,6 +346872,13 @@
         "percentage": 6
       },
       {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 6
+      },
+      {
         "monster_id": 109,
         "monster_name": "Anorpatis",
         "rank": "gr",
@@ -346181,6 +346959,30 @@
         "quantity": 1
       },
       {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 6,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Left Wing",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Right Wing",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
         "monster_id": 115,
         "monster_name": "Pokaradon",
         "rank": "gr",
@@ -346251,6 +347053,13 @@
         "percentage": 6
       },
       {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 6
+      },
+      {
         "monster_id": 114,
         "monster_name": "Falnocatrice",
         "rank": "gr",
@@ -346272,6 +347081,22 @@
         "monster_name": "Khezu",
         "rank": "gr",
         "label": "Body",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 6,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Tail",
         "percentage": 11,
         "quantity": 1
       },
@@ -346371,6 +347196,14 @@
         "quantity": 1
       },
       {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
         "monster_id": 112,
         "monster_name": "Giaorg",
         "rank": "gr",
@@ -346424,6 +347257,13 @@
         "percentage": 6
       },
       {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 6
+      },
+      {
         "monster_id": 80,
         "monster_name": "Espinas",
         "rank": "gr",
@@ -346459,6 +347299,22 @@
         "monster_name": "Gypceros",
         "rank": "gr",
         "label": "Head",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 6,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Wing",
         "percentage": 11,
         "quantity": 1
       },
@@ -346510,6 +347366,20 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 6
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 10
+      },
+      {
         "monster_id": 110,
         "monster_name": "Hyujikiki",
         "rank": "gr",
@@ -346535,6 +347405,14 @@
         "quantity": 1
       },
       {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
         "monster_id": 110,
         "monster_name": "Hyujikiki",
         "rank": "gr",
@@ -346551,7 +347429,18 @@
         "quantity": 1
       }
     ],
-    "quest_aquisitions": []
+    "quest_aquisitions": [
+      {
+        "quest_id": 65092,
+        "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+        "main_objective": "Slay an Aqra Vashim",
+        "rank": "gr",
+        "percentage": 6,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6755,
@@ -346595,6 +347484,13 @@
         "percentage": 11
       },
       {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 6
+      },
+      {
         "monster_id": 110,
         "monster_name": "Hyujikiki",
         "rank": "gr",
@@ -346628,6 +347524,22 @@
         "quantity": 1
       },
       {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 6,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 11,
+        "quantity": 1
+      },
+      {
         "monster_id": 110,
         "monster_name": "Hyujikiki",
         "rank": "gr",
@@ -346652,7 +347564,18 @@
         "quantity": 1
       }
     ],
-    "quest_aquisitions": []
+    "quest_aquisitions": [
+      {
+        "quest_id": 65094,
+        "title": "≪GR7 Ancient Tower Survey≫\nFrozen Dance",
+        "main_objective": "Hunt a Duragaua",
+        "rank": "gr",
+        "percentage": 6,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6756,
@@ -346767,6 +347690,13 @@
     ],
     "carve_aquisitions": [
       {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Tail Carves",
+        "percentage": 55
+      },
+      {
         "monster_id": 76,
         "monster_name": "Tigrex",
         "rank": "gr",
@@ -346788,6 +347718,22 @@
         "rank": "gr",
         "label": "Tailfin",
         "percentage": 54,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 60,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 60,
         "quantity": 1
       }
     ],
@@ -346815,6 +347761,14 @@
     "carve_aquisitions": [],
     "partbreak_aquisitions": [
       {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Wing",
+        "percentage": 65,
+        "quantity": 1
+      },
+      {
         "monster_id": 76,
         "monster_name": "Tigrex",
         "rank": "gr",
@@ -346828,6 +347782,22 @@
         "rank": "gr",
         "label": "Wingtalons",
         "percentage": 50,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Belly",
+        "percentage": 70,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 70,
         "quantity": 1
       }
     ],
@@ -347042,6 +348012,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65095,
+        "title": "≪GR7 Base Defense≫\nElectromagnetic Assault",
+        "main_objective": "Slay a Levidiora",
+        "rank": "gr",
+        "percentage": 48,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
       }
     ]
   },
@@ -347108,6 +348088,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65095,
+        "title": "≪GR7 Base Defense≫\nElectromagnetic Assault",
+        "main_objective": "Slay a Levidiora",
+        "rank": "gr",
+        "percentage": 49,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ]
   },
@@ -347149,7 +348139,18 @@
         "quantity": 1
       }
     ],
-    "quest_aquisitions": []
+    "quest_aquisitions": [
+      {
+        "quest_id": 65095,
+        "title": "≪GR7 Base Defense≫\nElectromagnetic Assault",
+        "main_objective": "Slay a Levidiora",
+        "rank": "gr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 6769,
@@ -347235,6 +348236,16 @@
         "main_objective": "Slay a Levidiora",
         "rank": "gr",
         "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65095,
+        "title": "≪GR7 Base Defense≫\nElectromagnetic Assault",
+        "main_objective": "Slay a Levidiora",
+        "rank": "gr",
+        "percentage": 1,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -347556,6 +348567,14 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 11,
+        "quantity": 1
+      },
       {
         "monster_id": 116,
         "monster_name": "Shantien",
@@ -353320,9 +354339,45 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 55
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 53,
+        "monster_name": "Rajang",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 34,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65085,
+        "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+        "main_objective": "Hunt a Rajang",
+        "rank": "gr",
+        "percentage": 33,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 7003,
@@ -353343,9 +354398,68 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 55
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 24
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 55,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 50,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Ear",
+        "percentage": 30,
+        "quantity": 1
+      },
+      {
+        "monster_id": 40,
+        "monster_name": "Yian Garuga",
+        "rank": "gr",
+        "label": "Back",
+        "percentage": 40,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65091,
+        "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+        "main_objective": "Hunt a Yian Garuga",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ]
   },
   {
     "id": 7004,
@@ -353366,9 +354480,60 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 35
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Shiny Drops",
+        "percentage": 24
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 55,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 45,
+        "quantity": 1
+      },
+      {
+        "monster_id": 94,
+        "monster_name": "Duragaua",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 45,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65094,
+        "title": "≪GR7 Ancient Tower Survey≫\nFrozen Dance",
+        "main_objective": "Hunt a Duragaua",
+        "rank": "gr",
+        "percentage": 47,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 7005,
@@ -353389,9 +354554,63 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 55
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Head",
+        "percentage": 54,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Right Claw",
+        "percentage": 39,
+        "quantity": 1
+      },
+      {
+        "monster_id": 83,
+        "monster_name": "Aqra Vashim",
+        "rank": "gr",
+        "label": "Left Claw",
+        "percentage": 39,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65092,
+        "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+        "main_objective": "Slay an Aqra Vashim",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65092,
+        "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+        "main_objective": "Slay an Aqra Vashim",
+        "rank": "gr",
+        "percentage": 45,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 7006,
@@ -353412,9 +354631,69 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
-    "partbreak_aquisitions": [],
-    "quest_aquisitions": []
+    "carve_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Body Carves",
+        "percentage": 55
+      }
+    ],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Horn",
+        "percentage": 60,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Left Wing",
+        "percentage": 39,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Right Wing",
+        "percentage": 40,
+        "quantity": 1
+      },
+      {
+        "monster_id": 96,
+        "monster_name": "Grenzebul",
+        "rank": "gr",
+        "label": "Tail",
+        "percentage": 20,
+        "quantity": 1
+      }
+    ],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65093,
+        "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+        "main_objective": "Hunt a Grenzebul",
+        "rank": "gr",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ]
   },
   {
     "id": 7007,
@@ -356091,6 +357370,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 15,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ]
   },
@@ -356343,6 +357632,36 @@
         "rank": "gr",
         "percentage": 16,
         "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65091,
+        "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+        "main_objective": "Hunt a Yian Garuga",
+        "rank": "gr",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65085,
+        "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+        "main_objective": "Hunt a Rajang",
+        "rank": "gr",
+        "percentage": 20,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 15,
+        "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
       }
@@ -356619,6 +357938,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65093,
+        "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+        "main_objective": "Hunt a Grenzebul",
+        "rank": "gr",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ]
   },
@@ -356801,6 +358130,16 @@
         "rank": "gr",
         "percentage": 18,
         "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 12,
+        "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
       }
@@ -357055,6 +358394,36 @@
         "rank": "gr",
         "percentage": 18,
         "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65091,
+        "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+        "main_objective": "Hunt a Yian Garuga",
+        "rank": "gr",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65085,
+        "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+        "main_objective": "Hunt a Rajang",
+        "rank": "gr",
+        "percentage": 45,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65086,
+        "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+        "main_objective": "Hunt an Anorpatis",
+        "rank": "gr",
+        "percentage": 12,
+        "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
       }
@@ -357326,6 +358695,16 @@
         "quest_id": 23099,
         "title": "≪GR6 Ancient Tower Survey≫\nThorn-ridden Tower",
         "main_objective": "Hunt an Espinas",
+        "rank": "gr",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65093,
+        "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+        "main_objective": "Hunt a Grenzebul",
         "rank": "gr",
         "percentage": 18,
         "quantity": 1,
@@ -357679,6 +359058,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65091,
+        "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+        "main_objective": "Hunt a Yian Garuga",
+        "rank": "gr",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ]
   },
@@ -357898,6 +359287,16 @@
         "quest_id": 23099,
         "title": "≪GR6 Ancient Tower Survey≫\nThorn-ridden Tower",
         "main_objective": "Hunt an Espinas",
+        "rank": "gr",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65093,
+        "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+        "main_objective": "Hunt a Grenzebul",
         "rank": "gr",
         "percentage": 16,
         "quantity": 1,

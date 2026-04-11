@@ -4835,7 +4835,135 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 55,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 35,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 4,
+            "item_id": 6733,
+            "item_name": "Garuga Greatwing",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 6753,
+            "item_name": "Noxious Sac",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Beak",
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Ear",
+        "drops": [
+          {
+            "percentage": 30,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 50,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back",
+        "drops": [
+          {
+            "percentage": 40,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Wing",
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 6733,
+            "item_name": "Garuga Greatwing",
+            "quantity": 1
+          },
+          {
+            "percentage": 65,
+            "item_id": 6759,
+            "item_name": "Wyvern Wing+",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6753,
+            "item_name": "Noxious Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 19,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 41,
@@ -7808,7 +7936,89 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 7002,
+            "item_name": "Rajang Acepelt",
+            "quantity": 1
+          },
+          {
+            "percentage": 55,
+            "item_id": 6724,
+            "item_name": "Rajang Acefang",
+            "quantity": 1
+          },
+          {
+            "percentage": 4,
+            "item_id": 6725,
+            "item_name": "Pure Gold Pelt",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 6751,
+            "item_name": "Lightning Sac",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 60,
+            "item_id": 6727,
+            "item_name": "Rajang Acehorn",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6724,
+            "item_name": "Rajang Acefang",
+            "quantity": 1
+          },
+          {
+            "percentage": 25,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Tail",
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 6725,
+            "item_name": "Pure Gold Pelt",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 7002,
+            "item_name": "Rajang Acepelt",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6751,
+            "item_name": "Lightning Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 45,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 54,
@@ -12205,7 +12415,139 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 54,
+            "item_id": 7005,
+            "item_name": "Vashim Cortex",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6754,
+            "item_name": "Ultraplegia Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6778,
+            "item_name": "Shantien Wing",
+            "quantity": 1
+          },
+          {
+            "percentage": 35,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Right Claw",
+        "drops": [
+          {
+            "percentage": 4,
+            "item_id": 6729,
+            "item_name": "Vashim Pincer",
+            "quantity": 1
+          },
+          {
+            "percentage": 16,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          },
+          {
+            "percentage": 39,
+            "item_id": 7005,
+            "item_name": "Vashim Cortex",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Left Claw",
+        "drops": [
+          {
+            "percentage": 4,
+            "item_id": 6729,
+            "item_name": "Vashim Pincer",
+            "quantity": 1
+          },
+          {
+            "percentage": 17,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          },
+          {
+            "percentage": 39,
+            "item_id": 7005,
+            "item_name": "Vashim Cortex",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Slay (White Blood)",
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Slay (Yellow Blood)",
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Slay (Blue Blood)",
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Slay (Red Blood)",
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 6730,
+            "item_name": "Vashim Essence",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 84,
@@ -15209,7 +15551,158 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 55,
+            "item_id": 7004,
+            "item_name": "Dura Apexclaw",
+            "quantity": 1
+          },
+          {
+            "percentage": 4,
+            "item_id": 6740,
+            "item_name": "Dura Frigidshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 6755,
+            "item_name": "Torpor Sac",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 69,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6755,
+            "item_name": "Torpor Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Left Claw",
+        "drops": [
+          {
+            "percentage": 45,
+            "item_id": 7004,
+            "item_name": "Dura Apexclaw",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 25,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Right Claw",
+        "drops": [
+          {
+            "percentage": 45,
+            "item_id": 7004,
+            "item_name": "Dura Apexclaw",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 25,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back",
+        "drops": [
+          {
+            "percentage": 54,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6752,
+            "item_name": "Cryo Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 35,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Tail",
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 6740,
+            "item_name": "Dura Frigidshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 60,
+            "item_id": 6758,
+            "item_name": "Wyvern Tail+",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 95,
@@ -16389,7 +16882,187 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 55,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 4,
+            "item_id": 6736,
+            "item_name": "Grenze Furyhorn",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 6750,
+            "item_name": "Foaming Sac",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Horn",
+        "drops": [
+          {
+            "percentage": 5,
+            "item_id": 6736,
+            "item_name": "Grenze Furyhorn",
+            "quantity": 1
+          },
+          {
+            "percentage": 60,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 35,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Belly",
+        "drops": [
+          {
+            "percentage": 25,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 70,
+            "item_id": 6759,
+            "item_name": "Wyvern Wing+",
+            "quantity": 1
+          },
+          {
+            "percentage": 5,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back",
+        "drops": [
+          {
+            "percentage": 25,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 70,
+            "item_id": 6759,
+            "item_name": "Wyvern Wing+",
+            "quantity": 1
+          },
+          {
+            "percentage": 5,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Left Wing",
+        "drops": [
+          {
+            "percentage": 39,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6750,
+            "item_name": "Foaming Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Right Wing",
+        "drops": [
+          {
+            "percentage": 40,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 39,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell",
+            "quantity": 1
+          },
+          {
+            "percentage": 11,
+            "item_id": 6750,
+            "item_name": "Foaming Sac",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Tail",
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale",
+            "quantity": 1
+          },
+          {
+            "percentage": 60,
+            "item_id": 6758,
+            "item_name": "Wyvern Tail+",
+            "quantity": 1
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 99,

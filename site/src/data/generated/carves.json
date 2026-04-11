@@ -7562,7 +7562,84 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 55,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell"
+          },
+          {
+            "percentage": 3,
+            "item_id": 6733,
+            "item_name": "Garuga Greatwing"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6734,
+            "item_name": "Garuga Talon"
+          },
+          {
+            "percentage": 6,
+            "item_id": 6753,
+            "item_name": "Noxious Sac"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem"
+          },
+          {
+            "percentage": 55,
+            "item_id": 6758,
+            "item_name": "Wyvern Tail+"
+          },
+          {
+            "percentage": 25,
+            "item_id": 6732,
+            "item_name": "Garuga Apexshell"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 6635,
+            "item_name": "Wyvern Prismtear"
+          },
+          {
+            "percentage": 24,
+            "item_id": 7003,
+            "item_name": "Garuga Apexscale"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6733,
+            "item_name": "Garuga Greatwing"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 41,
@@ -10693,7 +10770,40 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 55,
+            "item_id": 7002,
+            "item_name": "Rajang Acepelt"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6724,
+            "item_name": "Rajang Acefang"
+          },
+          {
+            "percentage": 3,
+            "item_id": 6725,
+            "item_name": "Pure Gold Pelt"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6726,
+            "item_name": "Rajang Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 6751,
+            "item_name": "Lightning Sac"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 54,
@@ -16433,7 +16543,96 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 55,
+            "item_id": 7005,
+            "item_name": "Vashim Cortex"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6730,
+            "item_name": "Vashim Essence"
+          },
+          {
+            "percentage": 3,
+            "item_id": 6729,
+            "item_name": "Vashim Pincer"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6728,
+            "item_name": "Vashim Apexcryst"
+          },
+          {
+            "percentage": 6,
+            "item_id": 6754,
+            "item_name": "Ultraplegia Sac"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 6731,
+            "item_name": "Vashim Apextail"
+          },
+          {
+            "percentage": 10,
+            "item_id": 6748,
+            "item_name": "Ace Gem"
+          },
+          {
+            "percentage": 10,
+            "item_id": 6754,
+            "item_name": "Ultraplegia Sac"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 6730,
+            "item_name": "Vashim Essence"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 6637,
+            "item_name": "Rare Large Pearl"
+          },
+          {
+            "percentage": 24,
+            "item_id": 6730,
+            "item_name": "Vashim Essence"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6729,
+            "item_name": "Vashim Pincer"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 84,
@@ -17737,7 +17936,62 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 7004,
+            "item_name": "Dura Apexclaw"
+          },
+          {
+            "percentage": 55,
+            "item_id": 6739,
+            "item_name": "Dura Apexscale"
+          },
+          {
+            "percentage": 3,
+            "item_id": 6740,
+            "item_name": "Dura Frigidshell"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6741,
+            "item_name": "Dura Glacespike"
+          },
+          {
+            "percentage": 6,
+            "item_id": 6755,
+            "item_name": "Torpor Sac"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 6635,
+            "item_name": "Wyvern Prismtear"
+          },
+          {
+            "percentage": 24,
+            "item_id": 7004,
+            "item_name": "Dura Apexclaw"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6740,
+            "item_name": "Dura Frigidshell"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 95,
@@ -18128,7 +18382,57 @@
         ]
       }
     ],
-    "gr_cts": []
+    "gr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 55,
+            "item_id": 7006,
+            "item_name": "Grenze Apexscale"
+          },
+          {
+            "percentage": 35,
+            "item_id": 6735,
+            "item_name": "Grenze Apexshell"
+          },
+          {
+            "percentage": 3,
+            "item_id": 6736,
+            "item_name": "Grenze Furyhorn"
+          },
+          {
+            "percentage": 1,
+            "item_id": 6738,
+            "item_name": "Grenze Grndspike"
+          },
+          {
+            "percentage": 6,
+            "item_id": 6750,
+            "item_name": "Foaming Sac"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 6737,
+            "item_name": "Gren Tempertail"
+          },
+          {
+            "percentage": 20,
+            "item_id": 6748,
+            "item_name": "Ace Gem"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 97,

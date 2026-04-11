@@ -203035,5 +203035,572 @@
         "item_name": "Monster Egg"
       }
     ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1300,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 65091,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 40,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 7,
+    "post_min_rank": 7,
+    "quest_text": {
+      "title": "≪GR7 Jungle Survey≫\nPoison-stained Sunset",
+      "main": "Hunt a Yian Garuga",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "A researcher stationed in\nthe Jungle has spotted an\nabnormally ferocious Yian\nGaruga. We need you to hunt\nit and secure the area.\nPlease prepare accordingly."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7003,
+          "item_name": "Garuga Apexscale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 12,
+          "item_id": 6732,
+          "item_name": "Garuga Apexshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 65092,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 83,
+      "count": 0
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 7,
+    "post_min_rank": 7,
+    "quest_text": {
+      "title": "≪GR7 Desert Survey≫\nCrystal Bloom",
+      "main": "Slay an Aqra Vashim",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Gossiping Hunter",
+      "description": "There's this rumor about a\ncrystalline flower blooming\nin the Desert... It is said\nto be so beautiful, that it\nsteals the soul of whoever\ngets close. If you ever see\nit, be sure to stay away..."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7005,
+          "item_name": "Vashim Cortex",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 45,
+          "item_id": 7005,
+          "item_name": "Vashim Cortex",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 46,
+          "item_id": 6730,
+          "item_name": "Vashim Essence",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6754,
+          "item_name": "Ultraplegia Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 6729,
+          "item_name": "Vashim Pincer",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1650,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 50,
+    "map": "Highlands",
+    "restriction_flags": 0,
+    "id": 65093,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 96,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 7,
+    "post_min_rank": 7,
+    "quest_text": {
+      "title": "≪GR7 Highlands Survey≫\nFury of the Storm",
+      "main": "Hunt a Grenzebul",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've received reports of a\nferocious Grenzebul in the\nHighlands. We cannot carry\non with our investigation\nlike this. We are looking\nfor elite hunters to secure\nthe area. Is there anyone\nup to the task?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6735,
+          "item_name": "Grenze Apexshell",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 12,
+          "item_id": 7006,
+          "item_name": "Grenze Apexscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 52,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 65094,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 94,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 7,
+    "post_min_rank": 7,
+    "quest_text": {
+      "title": "≪GR7 Ancient Tower Survey≫\nFrozen Dance",
+      "main": "Hunt a Duragaua",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Ecologist",
+      "description": "I was out exploring the\nAncient Tower, but then...\nI slipped. I slipped and\nI fell down. Thankfully\nmy injuries were minor,\nbut I ended up in a very\nunusual place. It wasn't\ncold, but... it was all\nfrozen! This needs to be\ninvestigated."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 45,
+          "item_id": 6739,
+          "item_name": "Dura Apexscale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 47,
+          "item_id": 7004,
+          "item_name": "Dura Apexclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6755,
+          "item_name": "Torpor Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 6740,
+          "item_name": "Dura Frigidshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 700,
+    "zenny_reward": 2000,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 55,
+    "map": "Interception Base",
+    "restriction_flags": 0,
+    "id": 65095,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 108,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 7,
+    "post_min_rank": 7,
+    "quest_text": {
+      "title": "≪GR7 Base Defense≫\nElectromagnetic Assault",
+      "main": "Slay a Levidiora",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've confirmed reports of\na Levidiora heading towards\nMezeporta Square. The fort\nis armed and ready. Still,\nwe must not let our guard\ndown. Your job is to slay\nthe target. Failure is not\nan option."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 48,
+          "item_id": 6766,
+          "item_name": "Levidiora Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 49,
+          "item_id": 6767,
+          "item_name": "Levidiora Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 6768,
+          "item_name": "Levidiora Weave",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6770,
+          "item_name": "Levidiora Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1350,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 65085,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 53,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 6,
+    "post_min_rank": 6,
+    "quest_text": {
+      "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+      "main": "Hunt a Rajang",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Mountaineer",
+      "description": "I was having the time of my\nlife, climbing mountains, as\nI usually do, but then...\neverything started shaking!\nAn earthquake? A tremor?\nHard to say. Though now that\nI think of it, I did hear a\nbeast-like roar right after.\nMaybe there's something near\nthe summit, after all?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6724,
+          "item_name": "Rajang Acefang",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 7002,
+          "item_name": "Rajang Acepelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 45,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6725,
+          "item_name": "Pure Gold Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 1650,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 60,
+    "map": "Polar Sea",
+    "restriction_flags": 0,
+    "id": 65086,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 109,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 6,
+    "post_min_rank": 6,
+    "quest_text": {
+      "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+      "main": "Hunt an Anorpatis",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "The Anorpatis is a brutal,\nskilled fighter -- capable\nnot only of moving freely\nabove and below ground, but\nalso of soaring through the\nair. This Quest is extremely\ndangerous, but we need you\nto do your best and hunt it\ndown. Good luck."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 23,
+          "item_id": 6743,
+          "item_name": "Anorpatis Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 6742,
+          "item_name": "Anorpatis Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
   }
 ]

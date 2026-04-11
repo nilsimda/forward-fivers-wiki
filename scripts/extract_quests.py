@@ -185,6 +185,31 @@ class PreviewItem(TypedDict):
     item_name: str
 
 
+SERVER_SIDE_QUEST_IDS = {
+    65085,
+    65086,
+    65091,
+    65092,
+    65093,
+    65094,
+    65095,
+}
+
+
+def extract_server_side_quests(
+    quest_files_dir: Path, map_names: dict[int, str]
+) -> list[Quest]:
+    result: list[Quest] = []
+    for quest_id in SERVER_SIDE_QUEST_IDS:
+        quest_raw = quest_files_dir / f"{quest_id:05}d0.bin"
+        quest = Quest.unpack_from(
+            quest_raw.read_bytes(), 0xC0, quest_files_dir, map_names
+        )
+        result.append(quest)
+
+    return result
+
+
 @dataclass(slots=True)
 class Quest:
     max_players: int
@@ -428,6 +453,8 @@ def main() -> None:
         qt = QuestTable.unpack_from(mhfinf_raw, qt_offset, quest_files_dir, map_names)
         result += qt.quests
         qt_offset += QuestTable.size()
+
+    result += extract_server_side_quests(quest_files_dir, map_names)
 
     write_json_output(args.output, result)
 
