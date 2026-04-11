@@ -151912,14 +151912,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Carapaceon Blade",
-    "description": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\niÌFbkíÌnTj",
+    "description": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n（旧称：甲殻種の刃Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\n",
+        "text": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFbkíÌnTj",
+        "text": "（旧称：甲殻種の刃Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -152383,14 +152383,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Cpceon Blade+",
-    "description": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\niÌFbkíÌnUj",
+    "description": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n（旧称：甲殻種の刃Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\n",
+        "text": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFbkíÌnUj",
+        "text": "（旧称：甲殻種の刃Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -152864,14 +152864,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Cpceon Direblade",
-    "description": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\niÌFbkíÌnVj",
+    "description": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n（旧称：甲殻種の刃Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ÎÛðeÍÈ­ØèÞ\nbkíÁLÌsÈÊB\n",
+        "text": "対象を容赦なく切り刻む\n甲殻種特有の鋭利な部位。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFbkíÌnVj",
+        "text": "（旧称：甲殻種の刃Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -154868,14 +154868,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Fang",
-    "description": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\niÌFò³íÌåTj",
+    "description": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n（旧称：飛竜種の牙Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\n",
+        "text": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌåTj",
+        "text": "（旧称：飛竜種の牙Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -155173,14 +155173,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Fang+",
-    "description": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\niÌFò³íÌåUj",
+    "description": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n（旧称：飛竜種の牙Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\n",
+        "text": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌåUj",
+        "text": "（旧称：飛竜種の牙Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -155448,14 +155448,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Hardfang",
-    "description": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\niÌFò³íÌåVj",
+    "description": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n（旧称：飛竜種の牙Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "l¨ðßç¦Äú³È¢A¶Ì\næ¤Èò³íÌåB\n",
+        "text": "獲物を捕らえて放さない、楔の\nような飛竜種の牙。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌåVj",
+        "text": "（旧称：飛竜種の牙Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -155733,14 +155733,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Claw",
-    "description": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\niÌFò³íÌÜTj",
+    "description": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n（旧称：飛竜種の爪Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\n",
+        "text": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜTj",
+        "text": "（旧称：飛竜種の爪Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -155984,14 +155984,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Claw+",
-    "description": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\niÌFò³íÌÜUj",
+    "description": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n（旧称：飛竜種の爪Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\n",
+        "text": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜUj",
+        "text": "（旧称：飛竜種の爪Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -156231,14 +156231,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Hardclaw",
-    "description": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\niÌFò³íÌÜVj",
+    "description": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n（旧称：飛竜種の爪Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "Î³µ½GðeÍÈ­ø«ô­\nò³íÌÜB\n",
+        "text": "対峙した敵を容赦なく引き裂く\n飛竜種の爪。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜVj",
+        "text": "（旧称：飛竜種の爪Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -156510,14 +156510,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Bone",
-    "description": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\niÌFò³íÌTj",
+    "description": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n（旧称：飛竜種の骨Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\n",
+        "text": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌTj",
+        "text": "（旧称：飛竜種の骨Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -156885,14 +156885,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Bone+",
-    "description": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\niÌFò³íÌUj",
+    "description": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n（旧称：飛竜種の骨Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\n",
+        "text": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌUj",
+        "text": "（旧称：飛竜種の骨Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -157260,14 +157260,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Hardbone",
-    "description": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\niÌFò³íÌVj",
+    "description": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n（旧称：飛竜種の骨Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "v¢ÌOAy¢ªAÁ­×«\n­xðõ¦½ò³íÌB\n",
+        "text": "思いの外、軽いが、驚くべき\n強度を備えた飛竜種の骨。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌVj",
+        "text": "（旧称：飛竜種の骨Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -157685,14 +157685,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Hide",
-    "description": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\niÌFò³íÌçTj",
+    "description": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n（旧称：飛竜種の皮Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\n",
+        "text": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌçTj",
+        "text": "（旧称：飛竜種の皮Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -157982,14 +157982,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Hide+",
-    "description": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\niÌFò³íÌçUj",
+    "description": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n（旧称：飛竜種の皮Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\n",
+        "text": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌçUj",
+        "text": "（旧称：飛竜種の皮Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -158249,14 +158249,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Piel",
-    "description": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\niÌFò³íÌçVj",
+    "description": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n（旧称：飛竜種の皮Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ôdàÌØÌº©çæêé\n­xÈò³íÌçB\n",
+        "text": "幾重もの鱗の下から取れる\n強靭な飛竜種の皮。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌçVj",
+        "text": "（旧称：飛竜種の皮Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -158506,14 +158506,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Wing",
-    "description": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\niÌFò³íÌTj",
+    "description": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n（旧称：飛竜種の翼Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\n",
+        "text": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌTj",
+        "text": "（旧称：飛竜種の翼Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -159059,14 +159059,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Wing+",
-    "description": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\niÌFò³íÌUj",
+    "description": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n（旧称：飛竜種の翼Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\n",
+        "text": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌUj",
+        "text": "（旧称：飛竜種の翼Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -159612,14 +159612,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Fellwing",
-    "description": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\niÌFò³íÌVj",
+    "description": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n（旧称：飛竜種の翼Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÛ¥Æà¾¤×«B\nåóð¤ô®üªhéB\n",
+        "text": "飛竜種の象徴とも言うべき翼。\n大空を舞う躍動美が宿る。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌVj",
+        "text": "（旧称：飛竜種の翼Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -160145,14 +160145,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Tail",
-    "description": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\niÌFò³íÌöTj",
+    "description": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n（旧称：飛竜種の尾Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\n",
+        "text": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌöTj",
+        "text": "（旧称：飛竜種の尾Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -160528,14 +160528,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Tail+",
-    "description": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\niÌFò³íÌöUj",
+    "description": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n（旧称：飛竜種の尾Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\n",
+        "text": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌöUj",
+        "text": "（旧称：飛竜種の尾Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -160861,14 +160861,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Lash",
-    "description": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\niÌFò³íÌöVj",
+    "description": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n（旧称：飛竜種の尾Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "­xÈH®¨àAêÌº\nÉ@«·ò³íÌöB\n",
+        "text": "強靭な草食動物も、一撃の下\nに叩き伏す飛竜種の尾。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌöVj",
+        "text": "（旧称：飛竜種の尾Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -161194,14 +161194,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Spike",
-    "description": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\niÌFò³íÌTj",
+    "description": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n（旧称：飛竜種の棘Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\n",
+        "text": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌTj",
+        "text": "（旧称：飛竜種の棘Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -161549,14 +161549,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Spike+",
-    "description": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\niÌFò³íÌUj",
+    "description": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n（旧称：飛竜種の棘Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\n",
+        "text": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌUj",
+        "text": "（旧称：飛竜種の棘Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -161884,14 +161884,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Surspike",
-    "description": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\niÌFò³íÌVj",
+    "description": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n（旧称：飛竜種の棘Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌð¢¤B\nOGÌUÌêØðâ·éB\n",
+        "text": "飛竜種の体を覆う棘。\n外敵の攻撃の一切を拒絶する。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌVj",
+        "text": "（旧称：飛竜種の棘Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -162209,14 +162209,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Horn",
-    "description": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\niÌFò³íÌpTj",
+    "description": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n（旧称：飛竜種の角Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\n",
+        "text": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌpTj",
+        "text": "（旧称：飛竜種の角Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -162659,14 +162659,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Horn+",
-    "description": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\niÌFò³íÌpUj",
+    "description": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n（旧称：飛竜種の角Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\n",
+        "text": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌpUj",
+        "text": "（旧称：飛竜種の角Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -163079,14 +163079,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyv Hardhorn",
-    "description": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\niÌFò³íÌpVj",
+    "description": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n（旧称：飛竜種の角Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "»ÌëÌ¿ÊÆ¤ÉÚWð\nÑ­ò³íÌpB\n",
+        "text": "その巨躯の質量と共に目標を\n貫く飛竜種の角。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌpVj",
+        "text": "（旧称：飛竜種の角Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -163479,14 +163479,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Scale",
-    "description": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\niÌFò³íÌØTj",
+    "description": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n（旧称：飛竜種の鱗Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\n",
+        "text": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌØTj",
+        "text": "（旧称：飛竜種の鱗Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -164129,14 +164129,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Scale+",
-    "description": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\niÌFò³íÌØUj",
+    "description": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n（旧称：飛竜種の鱗Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\n",
+        "text": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌØUj",
+        "text": "（旧称：飛竜種の鱗Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -164749,14 +164749,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Shard",
-    "description": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\niÌFò³íÌØVj",
+    "description": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n（旧称：飛竜種の鱗Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "NÖÌæ¤ÈälªAdËÄ\n«½îðzí¹éò³íÌØB\n",
+        "text": "年輪のような紋様が、重ねて\nきた齢を想わせる飛竜種の鱗。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌØVj",
+        "text": "（旧称：飛竜種の鱗Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -165349,14 +165349,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Blood",
-    "description": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\niÌFò³íÌTj",
+    "description": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n（旧称：飛竜種の血Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\n",
+        "text": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌTj",
+        "text": "（旧称：飛竜種の血Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -165671,14 +165671,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Blood+",
-    "description": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\niÌFò³íÌUj",
+    "description": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n（旧称：飛竜種の血Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\n",
+        "text": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌUj",
+        "text": "（旧称：飛竜種の血Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -165993,14 +165993,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "ThickF.WyvBlood",
-    "description": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\niÌFò³íÌVj",
+    "description": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n（旧称：飛竜種の血Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "Ìðì¯èAò³íÌµ\n¢^®ðx¦éB\n",
+        "text": "体中を駆け巡り、飛竜種の激し\nい運動を支える血。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌVj",
+        "text": "（旧称：飛竜種の血Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -166305,14 +166305,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Gem",
-    "description": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\niÌFò³íÌìTj",
+    "description": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n（旧称：飛竜種の珠Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\n",
+        "text": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌìTj",
+        "text": "（旧称：飛竜種の珠Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -166788,14 +166788,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Gem+",
-    "description": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\niÌFò³íÌìUj",
+    "description": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n（旧称：飛竜種の珠Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\n",
+        "text": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌìUj",
+        "text": "（旧称：飛竜種の珠Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -167231,14 +167231,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Rare F.Wyv Gem",
-    "description": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\niÌFò³íÌìVj",
+    "description": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n（旧称：飛竜種の珠Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌàÉÅ«½ÎB\nüµ¢F`ÌàÌðìÆÄÔB\n",
+        "text": "飛竜種の体内にできた結石。\n美しい色形のものを珠と呼ぶ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌìVj",
+        "text": "（旧称：飛竜種の珠Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -167684,14 +167684,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Scalp",
-    "description": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\niÌFò³íÌªTj",
+    "description": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n（旧称：飛竜種の頭Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\n",
+        "text": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌªTj",
+        "text": "（旧称：飛竜種の頭Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -168168,14 +168168,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Scalp+",
-    "description": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\niÌFò³íÌªUj",
+    "description": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n（旧称：飛竜種の頭Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\n",
+        "text": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌªUj",
+        "text": "（旧称：飛竜種の頭Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -168592,14 +168592,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Crown",
-    "description": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\niÌFò³íÌªVj",
+    "description": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n（旧称：飛竜種の頭Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ª¾¯ÉÈÁÄA®A­¢¶\nÝ´ðú¿±¯éò³íÌªB\n",
+        "text": "頭だけになって、尚、強い存\n在感を放ち続ける飛竜種の頭。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌªVj",
+        "text": "（旧称：飛竜種の頭Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -168996,14 +168996,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Marrow",
-    "description": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\niÌFò³íÌTj",
+    "description": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n（旧称：飛竜種の髄Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\n",
+        "text": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌTj",
+        "text": "（旧称：飛竜種の髄Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -169247,14 +169247,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Medulla",
-    "description": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\niÌFò³íÌUj",
+    "description": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n（旧称：飛竜種の髄Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\n",
+        "text": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌUj",
+        "text": "（旧称：飛竜種の髄Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -169468,14 +169468,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Myeloid",
-    "description": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\niÌFò³íÌVj",
+    "description": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n（旧称：飛竜種の髄Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌÌc©çØè¾·\nGlM[ÌòÌæ¤ÈB\n",
+        "text": "飛竜種の骨の芯から切りだす\nエネルギーの塊のような髄。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌVj",
+        "text": "（旧称：飛竜種の髄Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -169709,14 +169709,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Liver",
-    "description": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\niÌFò³íÌÌTj",
+    "description": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n（旧称：飛竜種の肝Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\n",
+        "text": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÌTj",
+        "text": "（旧称：飛竜種の肝Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -170197,14 +170197,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Liver+",
-    "description": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\niÌFò³íÌÌUj",
+    "description": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n（旧称：飛竜種の肝Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\n",
+        "text": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÌUj",
+        "text": "（旧称：飛竜種の肝Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -170685,14 +170685,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Bile",
-    "description": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\niÌFò³íÌÌVj",
+    "description": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n（旧称：飛竜種の肝Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "Í­¢¬®ÌÕª´¶çêé\nò³íÌÍí¯B\n",
+        "text": "力強い脈動の跡が感じられる\n飛竜種の活力器官。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÌVj",
+        "text": "（旧称：飛竜種の肝Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -171143,14 +171143,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Jaw",
-    "description": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\niÌFò³íÌ{Tj",
+    "description": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n（旧称：飛竜種の顎Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\n",
+        "text": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌ{Tj",
+        "text": "（旧称：飛竜種の顎Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -171416,14 +171416,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Jaw+",
-    "description": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\niÌFò³íÌ{Uj",
+    "description": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n（旧称：飛竜種の顎Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\n",
+        "text": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌ{Uj",
+        "text": "（旧称：飛竜種の顎Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -171689,14 +171689,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Maw",
-    "description": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\niÌFò³íÌ{Vj",
+    "description": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n（旧称：飛竜種の顎Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "»Ì³ÊÉ§Â¾¯ÅA°|\nÉgªâÞò³íÌ{B\n",
+        "text": "その正面に立つだけで、恐怖\nに身が竦む飛竜種の顎。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌ{Vj",
+        "text": "（旧称：飛竜種の顎Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -171962,14 +171962,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Tear",
-    "description": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\niÌFò³íÌÜTj",
+    "description": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n（旧称：飛竜種の涙Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\n",
+        "text": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜTj",
+        "text": "（旧称：飛竜種の涙Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -172192,14 +172192,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Tear+",
-    "description": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\niÌFò³íÌÜUj",
+    "description": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n（旧称：飛竜種の涙Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\n",
+        "text": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜUj",
+        "text": "（旧称：飛竜種の涙Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -172412,14 +172412,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Rare F.Wyv Tear",
-    "description": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\niÌFò³íÌÜVj",
+    "description": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n（旧称：飛竜種の涙Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ò³íÌátß©çÌªå\n¨ªz¨óÉÅÜÁ½àÌB\n",
+        "text": "飛竜種の眼球付近からの分泌\n物が鉱物状に固まったもの。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌÜVj",
+        "text": "（旧称：飛竜種の涙Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -172642,14 +172642,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Fluid",
-    "description": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\niÌFò³íÌtTj",
+    "description": "一説には消化液とも言われる\n飛竜種の謎の液体。\n（旧称：飛竜種の液Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\n",
+        "text": "一説には消化液とも言われる\n飛竜種の謎の液体。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌtTj",
+        "text": "（旧称：飛竜種の液Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -172875,14 +172875,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Fluid+",
-    "description": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\niÌFò³íÌtUj",
+    "description": "一説には消化液とも言われる\n飛竜種の謎の液体。\n（旧称：飛竜種の液Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\n",
+        "text": "一説には消化液とも言われる\n飛竜種の謎の液体。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌtUj",
+        "text": "（旧称：飛竜種の液Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -173124,14 +173124,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "F.Wyvern Broth",
-    "description": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\niÌFò³íÌtVj",
+    "description": "一説には消化液とも言われる\n飛竜種の謎の液体。\n（旧称：飛竜種の液Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "êàÉÍÁ»tÆà¾íêé\nò³íÌäÌtÌB\n",
+        "text": "一説には消化液とも言われる\n飛竜種の謎の液体。\n",
         "colorCode": null
       },
       {
-        "text": "iÌFò³íÌtVj",
+        "text": "（旧称：飛竜種の液Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -173395,14 +173395,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Scale",
-    "description": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\niÌF³íÌØTj",
+    "description": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n（旧称：魚竜種の鱗Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\n",
+        "text": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌØTj",
+        "text": "（旧称：魚竜種の鱗Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -173853,14 +173853,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Scale+",
-    "description": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\niÌF³íÌØUj",
+    "description": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n（旧称：魚竜種の鱗Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\n",
+        "text": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌØUj",
+        "text": "（旧称：魚竜種の鱗Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -174271,14 +174271,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Shard",
-    "description": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\niÌF³íÌØVj",
+    "description": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n（旧称：魚竜種の鱗Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "Âââ©È³íÌØBt\nÅ·êÎwª¿éÙÇsB\n",
+        "text": "つややかな魚竜種の鱗。逆撫\nですれば指が落ちるほど鋭利。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌØVj",
+        "text": "（旧称：魚竜種の鱗Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -174679,14 +174679,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Fin",
-    "description": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\niÌF³íÌqTj",
+    "description": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n（旧称：魚竜種のヒレⅠ）",
     "descriptionSegments": [
       {
-        "text": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\n",
+        "text": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌqTj",
+        "text": "（旧称：魚竜種のヒレⅠ）",
         "colorCode": "05"
       }
     ],
@@ -174914,14 +174914,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Fin+",
-    "description": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\niÌF³íÌqUj",
+    "description": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n（旧称：魚竜種のヒレⅡ）",
     "descriptionSegments": [
       {
-        "text": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\n",
+        "text": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌqUj",
+        "text": "（旧称：魚竜種のヒレⅡ）",
         "colorCode": "05"
       }
     ],
@@ -175139,14 +175139,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Grndfin",
-    "description": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\niÌF³íÌqVj",
+    "description": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n（旧称：魚竜種のヒレⅢ）",
     "descriptionSegments": [
       {
-        "text": "³íÌÌðp¨§ä·éA\nÍ­­àüµ¢qB\n",
+        "text": "魚竜種の巨体を姿勢制御する、\n力強くも美しいヒレ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌqVj",
+        "text": "（旧称：魚竜種のヒレⅢ）",
         "colorCode": "05"
       }
     ],
@@ -175344,14 +175344,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Blood",
-    "description": "ÁÙIÈvÍðÖé³í\nÌtB\niÌF³íÌTj",
+    "description": "驚異的な持久力を誇る魚竜種\nの血液。\n（旧称：魚竜種の血Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "ÁÙIÈvÍðÖé³í\nÌtB\n",
+        "text": "驚異的な持久力を誇る魚竜種\nの血液。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌTj",
+        "text": "（旧称：魚竜種の血Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -175651,14 +175651,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Blood+",
-    "description": "ÁÙIÈvÍðÖé³í\nÌtB\niÌF³íÌUj",
+    "description": "驚異的な持久力を誇る魚竜種\nの血液。\n（旧称：魚竜種の血Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "ÁÙIÈvÍðÖé³í\nÌtB\n",
+        "text": "驚異的な持久力を誇る魚竜種\nの血液。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌUj",
+        "text": "（旧称：魚竜種の血Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -175958,14 +175958,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "ThickP.WyvBlood",
-    "description": "ÁÙIÈvÍðÖé³í\nÌtB\niÌF³íÌVj",
+    "description": "驚異的な持久力を誇る魚竜種\nの血液。\n（旧称：魚竜種の血Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "ÁÙIÈvÍðÖé³í\nÌtB\n",
+        "text": "驚異的な持久力を誇る魚竜種\nの血液。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌVj",
+        "text": "（旧称：魚竜種の血Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -176295,14 +176295,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Fang",
-    "description": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\niÌF³íÌåTj",
+    "description": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n（旧称：魚竜種の牙Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\n",
+        "text": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌåTj",
+        "text": "（旧称：魚竜種の牙Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -176769,14 +176769,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Fang+",
-    "description": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\niÌF³íÌåUj",
+    "description": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n（旧称：魚竜種の牙Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\n",
+        "text": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌåUj",
+        "text": "（旧称：魚竜種の牙Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -177223,14 +177223,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyv Hardfang",
-    "description": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\niÌF³íÌåVj",
+    "description": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n（旧称：魚竜種の牙Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "{àÉÔ³­¶¦Ä¢é\n³íÌ³ÌåÌÐÆÂB\n",
+        "text": "顎内に隙間無く生えている\n魚竜種の無数の牙のひとつ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌåVj",
+        "text": "（旧称：魚竜種の牙Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -177657,14 +177657,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Gills",
-    "description": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\niÌF³íÌGTj",
+    "description": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n（旧称：魚竜種のエラⅠ）",
     "descriptionSegments": [
       {
-        "text": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\n",
+        "text": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌGTj",
+        "text": "（旧称：魚竜種のエラⅠ）",
         "colorCode": "05"
       }
     ],
@@ -177840,14 +177840,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyvern Gills+",
-    "description": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\niÌF³íÌGUj",
+    "description": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n（旧称：魚竜種のエラⅡ）",
     "descriptionSegments": [
       {
-        "text": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\n",
+        "text": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌGUj",
+        "text": "（旧称：魚竜種のエラⅡ）",
         "colorCode": "05"
       }
     ],
@@ -178023,14 +178023,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "P.Wyv Grandgills",
-    "description": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\niÌF³íÌGVj",
+    "description": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n（旧称：魚竜種のエラⅢ）",
     "descriptionSegments": [
       {
-        "text": "ßÈÂ«É¨¢ÄàAÄz\nðs¦é­xÈ³íÌGB\n",
+        "text": "過酷な環境においても、呼吸\nを行える強靭な魚竜種のエラ。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF³íÌGVj",
+        "text": "（旧称：魚竜種のエラⅢ）",
         "colorCode": "05"
       }
     ],
@@ -178196,14 +178196,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Avian Shell",
-    "description": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\niÌF¹³íÌkTj",
+    "description": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n（旧称：鳥竜種の殻Ⅰ）",
     "descriptionSegments": [
       {
-        "text": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\n",
+        "text": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF¹³íÌkTj",
+        "text": "（旧称：鳥竜種の殻Ⅰ）",
         "colorCode": "05"
       }
     ],
@@ -178600,14 +178600,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Avian Carapace",
-    "description": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\niÌF¹³íÌkUj",
+    "description": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n（旧称：鳥竜種の殻Ⅱ）",
     "descriptionSegments": [
       {
-        "text": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\n",
+        "text": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF¹³íÌkUj",
+        "text": "（旧称：鳥竜種の殻Ⅱ）",
         "colorCode": "05"
       }
     ],
@@ -178964,14 +178964,14 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Avian Cortex",
-    "description": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\niÌF¹³íÌkVj",
+    "description": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n（旧称：鳥竜種の殻Ⅲ）",
     "descriptionSegments": [
       {
-        "text": "yÊÈªçAKxÈ­xð\nÂ¹³íÌkB\n",
+        "text": "軽量ながら、適度な強度を持\nつ鳥竜種の殻。\n",
         "colorCode": null
       },
       {
-        "text": "iÌF¹³íÌkVj",
+        "text": "（旧称：鳥竜種の殻Ⅲ）",
         "colorCode": "05"
       }
     ],
@@ -205168,10 +205168,10 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Para Ticket III",
-    "description": "Instructions on forging the\nParachan Gun V. Bring them\nto the Smithy!",
+    "description": "Instructions on forging the\nParachan Gun Ⅲ. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
-        "text": "Instructions on forging the\nParachan Gun V. Bring them\nto the Smithy!",
+        "text": "Instructions on forging the\nParachan Gun Ⅲ. Bring them\nto the Smithy!",
         "colorCode": null
       }
     ],
@@ -258214,7 +258214,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Ticket H",
+    "name": "SSFⅣ Ticket H",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -258237,7 +258237,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Ticket C",
+    "name": "SSFⅣ Ticket C",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -258260,7 +258260,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Ticket A",
+    "name": "SSFⅣ Ticket A",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -258283,7 +258283,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Ticket W",
+    "name": "SSFⅣ Ticket W",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -258306,7 +258306,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Ticket L",
+    "name": "SSFⅣ Ticket L",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270559,7 +270559,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Head 2",
+    "name": "SSFⅣ Tkt: Head 2",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270582,7 +270582,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Chest 2",
+    "name": "SSFⅣ Tkt: Chest 2",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270605,7 +270605,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Arms 2",
+    "name": "SSFⅣ Tkt: Arms 2",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270628,7 +270628,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Waist 2",
+    "name": "SSFⅣ Tkt: Waist 2",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270651,7 +270651,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Legs 2",
+    "name": "SSFⅣ Tkt: Legs 2",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270674,7 +270674,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Head X",
+    "name": "SSFⅣ Tkt: Head X",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270697,7 +270697,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Chest X",
+    "name": "SSFⅣ Tkt: Chest X",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270720,7 +270720,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Arms X",
+    "name": "SSFⅣ Tkt: Arms X",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270743,7 +270743,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Waist X",
+    "name": "SSFⅣ Tkt: Waist X",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270766,7 +270766,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Legs X",
+    "name": "SSFⅣ Tkt: Legs X",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270789,7 +270789,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Head F",
+    "name": "SSFⅣ Tkt: Head F",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270812,7 +270812,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Chest F",
+    "name": "SSFⅣ Tkt: Chest F",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270835,7 +270835,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Arms F",
+    "name": "SSFⅣ Tkt: Arms F",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270858,7 +270858,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Waist F",
+    "name": "SSFⅣ Tkt: Waist F",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -270881,7 +270881,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "SSFW Tkt: Legs F",
+    "name": "SSFⅣ Tkt: Legs F",
     "description": "Instructions on forging the\nSSFIV armor. Bring them to\nthe Smithy!",
     "descriptionSegments": [
       {
@@ -279032,10 +279032,10 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Ena Ticket 3",
-    "description": "Instructions on forging the\nEna Piercing V. Bring them\nto the Smithy!",
+    "description": "Instructions on forging the\nEna Piercing Ⅲ. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
-        "text": "Instructions on forging the\nEna Piercing V. Bring them\nto the Smithy!",
+        "text": "Instructions on forging the\nEna Piercing Ⅲ. Bring them\nto the Smithy!",
         "colorCode": null
       }
     ],
@@ -279124,10 +279124,10 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Ena Ticket 7",
-    "description": "Instructions on forging the\nEna Piercing Z. Bring them\nto the Smithy!",
+    "description": "Instructions on forging the\nEna Piercing Ⅶ. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
-        "text": "Instructions on forging the\nEna Piercing Z. Bring them\nto the Smithy!",
+        "text": "Instructions on forging the\nEna Piercing Ⅶ. Bring them\nto the Smithy!",
         "colorCode": null
       }
     ],
@@ -279147,10 +279147,10 @@
     "deco_id": 0,
     "is_gz": false,
     "name": "Ena Ticket 8",
-    "description": "Instructions on forging the\nEna Piercing [. Bring them\nto the Smithy!",
+    "description": "Instructions on forging the\nEna Piercing Ⅷ. Bring them\nto the Smithy!",
     "descriptionSegments": [
       {
-        "text": "Instructions on forging the\nEna Piercing [. Bring them\nto the Smithy!",
+        "text": "Instructions on forging the\nEna Piercing Ⅷ. Bring them\nto the Smithy!",
         "colorCode": null
       }
     ],
@@ -318866,7 +318866,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "Lucius's Plea T",
+    "name": "Lucius's Plea Ⅰ",
     "description": "Proof that Lucius accepted\nyou as a competent hunter.\nUsed to initiate a Quest.",
     "descriptionSegments": [
       {
@@ -318889,7 +318889,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "Lucius's Plea U",
+    "name": "Lucius's Plea Ⅱ",
     "description": "Proof that Lucius accepted\nyou as a competent hunter.\nUsed to initiate a Quest.",
     "descriptionSegments": [
       {
@@ -318912,7 +318912,7 @@
     "item_type": 0,
     "deco_id": 0,
     "is_gz": false,
-    "name": "Lucius's Plea V",
+    "name": "Lucius's Plea Ⅲ",
     "description": "Proof that Lucius accepted\nyou as a competent hunter.\nUsed to initiate a Quest.",
     "descriptionSegments": [
       {
@@ -353440,7 +353440,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21551,
-        "title": "áMaterial Questâ\nSupreme Showdown: Red U",
+        "title": "≪Material Quest≫\nSupreme Showdown: Red Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353450,7 +353450,7 @@
       },
       {
         "quest_id": 21554,
-        "title": "áMaterial Questâ\nSupreme Showdown: Blue V",
+        "title": "≪Material Quest≫\nSupreme Showdown: Blue Ⅲ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353460,7 +353460,7 @@
       },
       {
         "quest_id": 21559,
-        "title": "áMaterial Questâ\nSupreme Showdown: Yellow W",
+        "title": "≪Material Quest≫\nSupreme Showdown: Yellow Ⅳ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353470,7 +353470,7 @@
       },
       {
         "quest_id": 21564,
-        "title": "áMaterial Questâ\nSupreme Showdown: White X",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅴ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353480,7 +353480,7 @@
       },
       {
         "quest_id": 21570,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green Y",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅵ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353514,7 +353514,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21551,
-        "title": "áMaterial Questâ\nSupreme Showdown: Red U",
+        "title": "≪Material Quest≫\nSupreme Showdown: Red Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353524,7 +353524,7 @@
       },
       {
         "quest_id": 21554,
-        "title": "áMaterial Questâ\nSupreme Showdown: Blue V",
+        "title": "≪Material Quest≫\nSupreme Showdown: Blue Ⅲ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353534,7 +353534,7 @@
       },
       {
         "quest_id": 21559,
-        "title": "áMaterial Questâ\nSupreme Showdown: Yellow W",
+        "title": "≪Material Quest≫\nSupreme Showdown: Yellow Ⅳ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353544,7 +353544,7 @@
       },
       {
         "quest_id": 21564,
-        "title": "áMaterial Questâ\nSupreme Showdown: White X",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅴ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -353554,7 +353554,7 @@
       },
       {
         "quest_id": 21570,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green Y",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅵ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 50,
@@ -358045,7 +358045,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21550,
-        "title": "áMaterial Questâ\nSupreme Showdown: Red T",
+        "title": "≪Material Quest≫\nSupreme Showdown: Red Ⅰ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358079,7 +358079,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21552,
-        "title": "áMaterial Questâ\nSupreme Showdown: Blue T",
+        "title": "≪Material Quest≫\nSupreme Showdown: Blue Ⅰ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358113,7 +358113,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21553,
-        "title": "áMaterial Questâ\nSupreme Showdown: Blue U",
+        "title": "≪Material Quest≫\nSupreme Showdown: Blue Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358147,7 +358147,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21556,
-        "title": "áMaterial Questâ\nSupreme Showdown: Yellow T",
+        "title": "≪Material Quest≫\nSupreme Showdown: Yellow Ⅰ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358181,7 +358181,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21557,
-        "title": "áMaterial Questâ\nSupreme Showdown: Yellow U",
+        "title": "≪Material Quest≫\nSupreme Showdown: Yellow Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358215,7 +358215,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21558,
-        "title": "áMaterial Questâ\nSupreme Showdown: Yellow V",
+        "title": "≪Material Quest≫\nSupreme Showdown: Yellow Ⅲ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358249,7 +358249,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21560,
-        "title": "áMaterial Questâ\nSupreme Showdown: White T",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅰ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358283,7 +358283,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21561,
-        "title": "áMaterial Questâ\nSupreme Showdown: White U",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358317,7 +358317,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21562,
-        "title": "áMaterial Questâ\nSupreme Showdown: White V",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅲ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358351,7 +358351,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21563,
-        "title": "áMaterial Questâ\nSupreme Showdown: White W",
+        "title": "≪Material Quest≫\nSupreme Showdown: White Ⅳ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358385,7 +358385,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21565,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green T",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅰ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358419,7 +358419,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21566,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green U",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅱ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358453,7 +358453,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21567,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green V",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅲ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358487,7 +358487,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21568,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green W",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅳ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
@@ -358521,7 +358521,7 @@
     "quest_aquisitions": [
       {
         "quest_id": 21569,
-        "title": "áMaterial Questâ\nSupreme Showdown: Green X",
+        "title": "≪Material Quest≫\nSupreme Showdown: Green Ⅴ",
         "main_objective": "Deliver a Map",
         "rank": "er",
         "percentage": 100,
