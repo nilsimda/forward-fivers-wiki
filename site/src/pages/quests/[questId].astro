@@ -24,6 +24,8 @@ const formatRank = (rank: QuestData["rank"]) => {
   return rank.toUpperCase();
 };
 
+const joinPostRankLabel = quest.rank === "gr" ? "GR" : "HR";
+
 const rewardBoxEntries = Object.entries(quest.reward_boxes)
   .map(([label, rewards]) => ({ label, rewards }));
 ---
@@ -43,10 +45,10 @@ const rewardBoxEntries = Object.entries(quest.reward_boxes)
         <h2 class="text-lg">Quest Details</h2>
         <dl class="mt-3 space-y-2 text-sm text-slate-300">
           <div class="flex justify-between gap-3">
-            <dt>Join HR</dt><dd>{quest.join_min_rank}</dd>
+            <dt>Join {joinPostRankLabel}</dt><dd>{quest.join_min_rank}</dd>
           </div>
           <div class="flex justify-between gap-3">
-            <dt>Post HR</dt><dd>{quest.post_min_rank}</dd>
+            <dt>Post {joinPostRankLabel}</dt><dd>{quest.post_min_rank}</dd>
           </div>
           <div class="flex justify-between gap-3">
             <dt>Max players</dt><dd>{quest.max_players}</dd>
