@@ -10318,7 +10318,83 @@
   {
     "id": 76,
     "monster_name": "Tigrex",
-    "lr_pts": [],
+    "lr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 35,
+            "item_id": 987,
+            "item_name": "Tigrex Shell",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 992,
+            "item_name": "Tigrex Fang",
+            "quantity": 2
+          },
+          {
+            "percentage": 20,
+            "item_id": 985,
+            "item_name": "Tigrex Scale",
+            "quantity": 2
+          },
+          {
+            "percentage": 10,
+            "item_id": 989,
+            "item_name": "Tigrex Tail",
+            "quantity": 1
+          },
+          {
+            "percentage": 5,
+            "item_id": 994,
+            "item_name": "Tigrex Scalp",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Claws",
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 990,
+            "item_name": "Tigrex Claw",
+            "quantity": 2
+          },
+          {
+            "percentage": 20,
+            "item_id": 990,
+            "item_name": "Tigrex Claw",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 992,
+            "item_name": "Tigrex Fang",
+            "quantity": 2
+          },
+          {
+            "percentage": 42,
+            "item_id": 987,
+            "item_name": "Tigrex Shell",
+            "quantity": 1
+          },
+          {
+            "percentage": 8,
+            "item_id": 994,
+            "item_name": "Tigrex Scalp",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -10886,7 +10962,60 @@
   {
     "id": 78,
     "monster_name": "Vivid Hypnocatrice",
-    "lr_pts": [],
+    "lr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 28,
+            "item_id": 1010,
+            "item_name": "Blue Hypno Pelt",
+            "quantity": 2
+          },
+          {
+            "percentage": 32,
+            "item_id": 1003,
+            "item_name": "Rainbow Quill",
+            "quantity": 1
+          },
+          {
+            "percentage": 2,
+            "item_id": 1005,
+            "item_name": "Hypno Bezoar",
+            "quantity": 1
+          },
+          {
+            "percentage": 26,
+            "item_id": 306,
+            "item_name": "Sleep Sac",
+            "quantity": 2
+          },
+          {
+            "percentage": 12,
+            "item_id": 236,
+            "item_name": "Sleepyfish",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Beak",
+        "drops": [
+          {
+            "percentage": 90,
+            "item_id": 1004,
+            "item_name": "Hypno Beak",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 306,
+            "item_name": "Sleep Sac",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
     "hr_pts": [
       {
         "partbreak_label": "Capture",
@@ -11037,7 +11166,66 @@
         ]
       }
     ],
-    "gr_pts": []
+    "gr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 36,
+            "item_id": 396,
+            "item_name": "Rathian Shell",
+            "quantity": 1
+          },
+          {
+            "percentage": 52,
+            "item_id": 392,
+            "item_name": "Rathian Scale",
+            "quantity": 2
+          },
+          {
+            "percentage": 10,
+            "item_id": 407,
+            "item_name": "Rath Marrow",
+            "quantity": 1
+          },
+          {
+            "percentage": 2,
+            "item_id": 394,
+            "item_name": "Rathian Plate",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Beak",
+        "drops": [
+          {
+            "percentage": 36,
+            "item_id": 396,
+            "item_name": "Rathian Shell",
+            "quantity": 1
+          },
+          {
+            "percentage": 52,
+            "item_id": 392,
+            "item_name": "Rathian Scale",
+            "quantity": 2
+          },
+          {
+            "percentage": 10,
+            "item_id": 407,
+            "item_name": "Rath Marrow",
+            "quantity": 1
+          },
+          {
+            "percentage": 2,
+            "item_id": 394,
+            "item_name": "Rathian Plate",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 79,

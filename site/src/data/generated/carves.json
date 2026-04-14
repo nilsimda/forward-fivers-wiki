@@ -7071,8 +7071,8 @@
         "drops": [
           {
             "percentage": 2,
-            "item_id": 4933,
-            "item_name": "Pompous Beak"
+            "item_id": 6154,
+            "item_name": "Gaudy Beak"
           }
         ]
       }
@@ -8322,8 +8322,8 @@
         "drops": [
           {
             "percentage": 2,
-            "item_id": 4936,
-            "item_name": "Contorted Horn"
+            "item_id": 6156,
+            "item_name": "Violent Horn"
           }
         ]
       }
@@ -8626,8 +8626,8 @@
         "drops": [
           {
             "percentage": 2,
-            "item_id": 4330,
-            "item_name": "Crimson Hide"
+            "item_id": 6155,
+            "item_name": "Crimson Belly"
           }
         ]
       }
@@ -14942,7 +14942,98 @@
   {
     "id": 76,
     "monster_name": "Tigrex",
-    "lr_cts": [],
+    "lr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 40,
+            "item_id": 985,
+            "item_name": "Tigrex Scale"
+          },
+          {
+            "percentage": 37,
+            "item_id": 987,
+            "item_name": "Tigrex Shell"
+          },
+          {
+            "percentage": 20,
+            "item_id": 990,
+            "item_name": "Tigrex Claw"
+          },
+          {
+            "percentage": 3,
+            "item_id": 994,
+            "item_name": "Tigrex Scalp"
+          }
+        ]
+      },
+      {
+        "label": "Tail Carves",
+        "trigger_chance": null,
+        "num_carves": 1,
+        "drops": [
+          {
+            "percentage": 80,
+            "item_id": 989,
+            "item_name": "Tigrex Tail"
+          },
+          {
+            "percentage": 20,
+            "item_id": 985,
+            "item_name": "Tigrex Scale"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 325,
+            "item_name": "Wyvern Tear"
+          },
+          {
+            "percentage": 20,
+            "item_id": 985,
+            "item_name": "Tigrex Scale"
+          },
+          {
+            "percentage": 5,
+            "item_id": 992,
+            "item_name": "Tigrex Fang"
+          }
+        ]
+      },
+      {
+        "label": "Goocoo Quest - Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 4334,
+            "item_name": "Herbivore Egg?"
+          }
+        ]
+      },
+      {
+        "label": "HC Carve",
+        "trigger_chance": null,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 2,
+            "item_id": 3526,
+            "item_name": "Tigrex Gouger"
+          }
+        ]
+      }
+    ],
     "hr_cts": [
       {
         "label": "Body Carves",
@@ -15465,7 +15556,74 @@
   {
     "id": 78,
     "monster_name": "Vivid Hypnocatrice",
-    "lr_cts": [],
+    "lr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 32,
+            "item_id": 1010,
+            "item_name": "Blue Hypno Pelt"
+          },
+          {
+            "percentage": 28,
+            "item_id": 1002,
+            "item_name": "Hypno Claw"
+          },
+          {
+            "percentage": 4,
+            "item_id": 1005,
+            "item_name": "Hypno Bezoar"
+          },
+          {
+            "percentage": 26,
+            "item_id": 306,
+            "item_name": "Sleep Sac"
+          },
+          {
+            "percentage": 10,
+            "item_id": 187,
+            "item_name": "Sleep Herb"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 38,
+            "item_id": 1010,
+            "item_name": "Blue Hypno Pelt"
+          },
+          {
+            "percentage": 2,
+            "item_id": 1005,
+            "item_name": "Hypno Bezoar"
+          },
+          {
+            "percentage": 60,
+            "item_id": 187,
+            "item_name": "Sleep Herb"
+          }
+        ]
+      },
+      {
+        "label": "HC Carve",
+        "trigger_chance": null,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 2,
+            "item_id": 4331,
+            "item_name": "Azure Hypno Pelt"
+          }
+        ]
+      }
+    ],
     "hr_cts": [
       {
         "label": "Body Carves",

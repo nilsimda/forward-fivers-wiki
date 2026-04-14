@@ -156,6 +156,7 @@ class HccRecord:
     lr_item_id: int
     hr_item_id: int
     er_item_id: int
+    unkown_item_id: int
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HHHHH")
 
@@ -166,7 +167,8 @@ class HccRecord:
             monster_id=unpacked[0],
             lr_item_id=unpacked[1],
             hr_item_id=unpacked[2],
-            er_item_id=unpacked[4],
+            er_item_id=unpacked[3],
+            unkown_item_id=unpacked[4],
         )
 
     @classmethod

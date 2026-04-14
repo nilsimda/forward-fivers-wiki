@@ -7,13 +7,39 @@ type MonsterPartbreaks = CollectionEntry<"monsterPartbreaks">;
 interface Props {
   rank: "lr" | "hr" | "er" | "gr";
   rankLabel: string;
+  monsterId: string;
   carves: MonsterCarves;
   partbreaks: MonsterPartbreaks | undefined;
   withBase: (targetPath: string) => string;
 }
 
-const { rank, rankLabel, carves, partbreaks, withBase } = Astro.props as Props;
+const { rank, rankLabel, monsterId, carves, partbreaks, withBase } = Astro.props as Props;
 
+const availabilityWarnings: Record<
+  string,
+  {
+    monsterName: string;
+    hrRequirementByRank: Partial<Record<Props["rank"], number>>;
+  }
+> = {
+  "76": {
+    monsterName: "Tigrex",
+    hrRequirementByRank: { lr: 51, hr: 71 },
+  },
+  "78": {
+    monsterName: "Vivid Hypnocatrice",
+    hrRequirementByRank: { lr: 31, hr: 51 },
+  },
+};
+
+const warningConfig = availabilityWarnings[monsterId];
+const requiredHr = warningConfig?.hrRequirementByRank[rank];
+const inaccessibleTierLabelByRank: Record<Props["rank"], string> = {
+  lr: "Low Rank",
+  hr: "High Rank",
+  er: "Elite Rank",
+  gr: "G-Rank",
+};
 const carveKey = `${rank}_cts` as const;
 const partbreakKey = `${rank}_pts` as const;
 
@@ -25,6 +51,12 @@ const partbreakTables = partbreaks?.data[partbreakKey] ?? [];
   <header class="mb-3 flex items-center justify-between gap-3">
     <h2 class="text-lg">{rankLabel}</h2>
   </header>
+  {warningConfig && requiredHr && (
+    <p class="mb-3 rounded border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-300">
+      ⚠️ {warningConfig.monsterName} is only available from HR {requiredHr} onwards
+      — these drops are not accessible in standard {inaccessibleTierLabelByRank[rank]}.
+    </p>
+  )}
   <div class="table-wrap">
     <table class="table-grid">
       <thead>

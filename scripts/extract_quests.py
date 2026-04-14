@@ -185,31 +185,6 @@ class PreviewItem(TypedDict):
     item_name: str
 
 
-SERVER_SIDE_QUEST_IDS = {
-    65085,
-    65086,
-    65091,
-    65092,
-    65093,
-    65094,
-    65095,
-}
-
-
-def extract_server_side_quests(
-    quest_files_dir: Path, map_names: dict[int, str]
-) -> list[Quest]:
-    result: list[Quest] = []
-    for quest_id in SERVER_SIDE_QUEST_IDS:
-        quest_raw = quest_files_dir / f"{quest_id:05}d0.bin"
-        quest = Quest.unpack_from(
-            quest_raw.read_bytes(), 0xC0, quest_files_dir, map_names
-        )
-        result.append(quest)
-
-    return result
-
-
 @dataclass(slots=True)
 class Quest:
     max_players: int
@@ -435,6 +410,121 @@ def _extract_map_names(mhfpac_raw: bytes) -> dict[int, str]:
     return result
 
 
+# TODO: get all ids and load from file
+SERVER_SIDE_QUEST_IDS = {
+    65085,
+    65086,
+    65091,
+    65092,
+    65093,
+    65094,
+    65095,
+}
+
+
+def extract_server_side_quests(
+    quest_files_dir: Path, map_names: dict[int, str]
+) -> list[Quest]:
+    result: list[Quest] = []
+    for quest_id in SERVER_SIDE_QUEST_IDS:
+        quest_raw = (quest_files_dir / f"{quest_id:05}d0.bin").read_bytes()
+        quest = Quest.unpack_from(quest_raw, 0xC0, quest_files_dir, map_names)
+        result.append(quest)
+
+    return result
+
+
+@dataclass(slots=True)
+class GatheringItemDrop:
+    percentage: int
+    item_id: int
+    item_name: str
+
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<2H")
+
+    @classmethod
+    def unpack_from(cls, raw: bytes, offset: int) -> "GatheringItemDrop":
+        unpacked = cls._STRUCT.unpack_from(raw, offset)
+        return cls(
+            percentage=unpacked[0],
+            item_id=unpacked[1],
+            item_name=ITEM_NAMES.get(unpacked[1], "unkown"),
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls._STRUCT.size
+
+
+@dataclass(slots=True)
+class GatheringPoint:
+    x_pos: float
+    y_pos: float
+    z_pos: float
+    range: int
+    table_offset: int
+    drops: list[GatheringItemDrop]
+    max_count: int
+    min_count: int
+
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<3fI4H")
+
+    @staticmethod
+    def _extract_drops(raw: bytes, id: int) -> list[GatheringItemDrop]:
+        offset = read_u32(raw, 0x38) + 4 * id
+        drops_pointer = read_u32(raw, offset)
+        drops = []
+        while True:
+            item_drop = GatheringItemDrop.unpack_from(raw, drops_pointer)
+            if item_drop.percentage == 0xFFFF:
+                break
+            drops.append(item_drop)
+            drops_pointer += GatheringItemDrop.size()
+        return drops
+
+    @classmethod
+    def unpack_from(cls, raw: bytes, offset: int) -> "GatheringPoint":
+        unpacked = cls._STRUCT.unpack_from(raw, offset)
+        return cls(
+            x_pos=unpacked[0],
+            y_pos=unpacked[1],
+            z_pos=unpacked[2],
+            range=unpacked[3],
+            table_offset=unpacked[4],
+            drops=cls._extract_drops(raw, unpacked[4]),
+            max_count=unpacked[5],
+            min_count=unpacked[7],
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls._STRUCT.size
+
+
+def _extract_gathering_points_per_area(raw, offset) -> list[GatheringPoint]:
+    result = []
+    while True:
+        gp = GatheringPoint.unpack_from(raw, offset)
+        if gp.x_pos == -1:
+            break
+        result.append(gp)
+        offset += GatheringPoint.size()
+    return result
+
+
+def extract_gathering_tables(quest_files_dir: Path, quest_ids: frozenset[int]):
+    for quest_id in quest_ids:
+        quest_raw = (quest_files_dir / f"{quest_id:05}d0.bin").read_bytes()
+        base_pointer = read_u32(quest_raw, 0x28)
+
+        area_count = struct.unpack_from("<B", quest_raw, 0x7C)[0]
+
+        for i in range(area_count):
+            current_pointer = read_u32(quest_raw, base_pointer + i * 4)
+            if not current_pointer == 0:
+                _extract_gathering_points_per_area(quest_raw, current_pointer)
+
+
 def main() -> None:
     args = parse_args()
 
@@ -455,6 +545,9 @@ def main() -> None:
         qt_offset += QuestTable.size()
 
     result += extract_server_side_quests(quest_files_dir, map_names)
+
+    # quest_ids = frozenset({quest.id for quest in result})
+    # extract_gathering_tables(quest_files_dir, quest_ids)
 
     write_json_output(args.output, result)
 

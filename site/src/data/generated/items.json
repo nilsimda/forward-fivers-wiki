@@ -14189,6 +14189,20 @@
         "rank": "lr",
         "label": "Shiny Drops",
         "percentage": 60
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 10
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 60
       }
     ],
     "partbreak_aquisitions": [],
@@ -24969,6 +24983,14 @@
       {
         "monster_id": 74,
         "monster_name": "Hypnocatrice",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 12,
+        "quantity": 2
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "lr",
         "label": "Capture",
         "percentage": 12,
@@ -36061,6 +36083,13 @@
       {
         "monster_id": 78,
         "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 26
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 18
@@ -36165,6 +36194,22 @@
         "monster_id": 74,
         "monster_name": "Hypnocatrice",
         "rank": "hr",
+        "label": "Beak",
+        "percentage": 10,
+        "quantity": 2
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 26,
+        "quantity": 2
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
         "label": "Beak",
         "percentage": 10,
         "quantity": 2
@@ -57559,6 +57604,13 @@
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 75
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 75
@@ -71448,6 +71500,22 @@
         "quantity": 1
       },
       {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 52,
+        "quantity": 2
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 52,
+        "quantity": 2
+      },
+      {
         "monster_id": 89,
         "monster_name": "Pariapuria",
         "rank": "gr",
@@ -72184,6 +72252,22 @@
         "quantity": 1
       },
       {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 2,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 2,
+        "quantity": 1
+      },
+      {
         "monster_id": 89,
         "monster_name": "Pariapuria",
         "rank": "er",
@@ -72727,6 +72811,22 @@
         "rank": "lr",
         "label": "Head",
         "percentage": 75,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 36,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 36,
         "quantity": 1
       },
       {
@@ -75228,6 +75328,22 @@
         "label": "Capture",
         "percentage": 8,
         "quantity": 3
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Capture",
+        "percentage": 10,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "gr",
+        "label": "Beak",
+        "percentage": 10,
+        "quantity": 1
       },
       {
         "monster_id": 89,
@@ -127457,12 +127573,42 @@
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 40
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Tail Carves",
+        "percentage": 20
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 20
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 10
       }
     ],
-    "partbreak_aquisitions": [],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 20,
+        "quantity": 2
+      }
+    ],
     "quest_aquisitions": [
       {
         "quest_id": 21212,
@@ -127848,8 +127994,32 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 37
+      }
+    ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 35,
+        "quantity": 1
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Head",
+        "percentage": 42,
+        "quantity": 1
+      },
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
@@ -128264,12 +128434,28 @@
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Tail Carves",
+        "percentage": 80
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
         "rank": "hr",
         "label": "Tail Carves",
         "percentage": 60
       }
     ],
-    "partbreak_aquisitions": [],
+    "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 10,
+        "quantity": 1
+      }
+    ],
     "quest_aquisitions": [
       {
         "quest_id": 26512,
@@ -128312,8 +128498,32 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 20
+      }
+    ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Claws",
+        "percentage": 80,
+        "quantity": 2
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Claws",
+        "percentage": 20,
+        "quantity": 1
+      },
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
@@ -128636,8 +128846,32 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 5
+      }
+    ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 30,
+        "quantity": 2
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Head",
+        "percentage": 50,
+        "quantity": 2
+      },
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
@@ -128982,12 +129216,35 @@
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 3
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 5
       }
     ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 5,
+        "quantity": 1
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "Head",
+        "percentage": 8,
+        "quantity": 1
+      },
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
@@ -129921,6 +130178,13 @@
       {
         "monster_id": 78,
         "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 28
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 5
@@ -130261,6 +130525,14 @@
       {
         "monster_id": 74,
         "monster_name": "Hypnocatrice",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 32,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "lr",
         "label": "Capture",
         "percentage": 32,
@@ -130618,6 +130890,14 @@
         "label": "Beak",
         "percentage": 90,
         "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Beak",
+        "percentage": 90,
+        "quantity": 1
       }
     ],
     "quest_aquisitions": [
@@ -130727,6 +131007,20 @@
       {
         "monster_id": 78,
         "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 4
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 2
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 8
@@ -130747,6 +131041,14 @@
         "rank": "hr",
         "label": "Capture",
         "percentage": 24,
+        "quantity": 1
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 2,
         "quantity": 1
       },
       {
@@ -131965,12 +132267,34 @@
       {
         "monster_id": 78,
         "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Body Carves",
+        "percentage": 32
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Shiny Drops",
+        "percentage": 38
+      },
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
         "rank": "hr",
         "label": "Body Carves",
         "percentage": 8
       }
     ],
     "partbreak_aquisitions": [
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "Capture",
+        "percentage": 28,
+        "quantity": 2
+      },
       {
         "monster_id": 78,
         "monster_name": "Vivid Hypnocatrice",
@@ -255547,6 +255871,13 @@
       {
         "monster_id": 76,
         "monster_name": "Tigrex",
+        "rank": "lr",
+        "label": "HC Carve",
+        "percentage": 2
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
         "rank": "hr",
         "label": "HC Carve",
         "percentage": 2
@@ -277503,13 +277834,6 @@
         "rank": "hr",
         "label": "HC Carve",
         "percentage": 2
-      },
-      {
-        "monster_id": 45,
-        "monster_name": "Red Khezu",
-        "rank": "er",
-        "label": "HC Carve",
-        "percentage": 2
       }
     ],
     "partbreak_aquisitions": [],
@@ -277534,7 +277858,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 78,
+        "monster_name": "Vivid Hypnocatrice",
+        "rank": "lr",
+        "label": "HC Carve",
+        "percentage": 2
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -277673,6 +278005,13 @@
         "monster_id": 52,
         "monster_name": "Congalala",
         "rank": "er",
+        "label": "Goocoo Quest - Shiny Drops",
+        "percentage": 100
+      },
+      {
+        "monster_id": 76,
+        "monster_name": "Tigrex",
+        "rank": "lr",
         "label": "Goocoo Quest - Shiny Drops",
         "percentage": 100
       },
@@ -296697,13 +297036,6 @@
         "rank": "hr",
         "label": "HC Carve",
         "percentage": 2
-      },
-      {
-        "monster_id": 38,
-        "monster_name": "Blue Yian Kut-Ku",
-        "rank": "er",
-        "label": "HC Carve",
-        "percentage": 2
       }
     ],
     "partbreak_aquisitions": [],
@@ -296764,13 +297096,6 @@
         "monster_id": 43,
         "monster_name": "Black Diablos",
         "rank": "hr",
-        "label": "HC Carve",
-        "percentage": 2
-      },
-      {
-        "monster_id": 43,
-        "monster_name": "Black Diablos",
-        "rank": "er",
         "label": "HC Carve",
         "percentage": 2
       }
@@ -331530,7 +331855,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 38,
+        "monster_name": "Blue Yian Kut-Ku",
+        "rank": "er",
+        "label": "HC Carve",
+        "percentage": 2
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -331553,7 +331886,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 45,
+        "monster_name": "Red Khezu",
+        "rank": "er",
+        "label": "HC Carve",
+        "percentage": 2
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
@@ -331576,7 +331917,15 @@
         "colorCode": null
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 43,
+        "monster_name": "Black Diablos",
+        "rank": "er",
+        "label": "HC Carve",
+        "percentage": 2
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": []
   },
