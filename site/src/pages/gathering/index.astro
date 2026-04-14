@@ -28,9 +28,10 @@ const withBase = (targetPath: string) =>
   `${basePath}${targetPath.replace(/^\//, "")}`;
 
 const getRankKeys = (ranks: GatheringData["ranks"]) =>
-  (Object.keys(ranks) as GatheringRankKey[]).filter(
-    (rank) => (ranks[rank]?.length || 0) > 0,
-  );
+  (Object.keys(ranks) as GatheringRankKey[]).filter((rank) => {
+    const slots = ranks[rank];
+    return slots && (slots.day.length > 0 || slots.night.length > 0);
+  });
 ---
 
 <WikiLayout title="Gathering Maps | MHFG1 Wiki">

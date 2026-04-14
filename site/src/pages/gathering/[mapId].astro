@@ -2,6 +2,7 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import GatheringRankTable from "../../components/GatheringRankTable.astro";
+import fs from "node:fs";
 
 type GatheringMapData = CollectionEntry<"gathering">["data"];
 type GatheringRankKey = keyof GatheringMapData["ranks"];
@@ -52,6 +53,9 @@ export async function getStaticPaths() {
 }
 
 const { mapData } = Astro.props as { mapData: GatheringMapData };
+const mapSlug = Astro.params.mapId!;
+const overviewPath = `public/img/gathering/${mapSlug}/overview.png`;
+const hasOverview = fs.existsSync(overviewPath);
 const rankSections = (Object.keys(rankMeta) as GatheringRankKey[])
   .map((rank) => {
     const slots = mapData.ranks[rank];
@@ -79,11 +83,23 @@ const totalPoints = rankSections.reduce(
   <article class="space-y-6">
     <header class="space-y-2">
       <a href={withBase("gathering/")} class="text-sm">Back to gathering maps</a>
-      <h1>{mapData.id}</h1>
-      <p class="text-slate-300">
-        {totalPoints} gathering point{totalPoints === 1 ? "" : "s"} across all
-        extracted rank tables.
-      </p>
+      <div class="flex items-start gap-6">
+        <div class="flex-1">
+          <h1>{mapData.id}</h1>
+          <p class="text-slate-300">
+            {totalPoints} gathering point{totalPoints === 1 ? "" : "s"} across all
+            extracted rank tables.
+          </p>
+        </div>
+        {hasOverview && (
+          <img
+            src={withBase(`img/gathering/${mapSlug}/overview.png`)}
+            alt={`${mapData.id} map overview`}
+            class="w-48 rounded border border-slate-700"
+            loading="lazy"
+          />
+        )}
+      </div>
     </header>
 
     {rankSections.length === 0 ? (
@@ -137,6 +153,8 @@ const totalPoints = rankSections.reduce(
                     rank={section.rank}
                     rankLabel={section.label}
                     areas={section.day}
+                    mapSlug={mapSlug}
+                    time="day"
                     withBase={withBase}
                   />
                 </div>
@@ -147,6 +165,8 @@ const totalPoints = rankSections.reduce(
                     rank={section.rank}
                     rankLabel={section.label}
                     areas={section.night}
+                    mapSlug={mapSlug}
+                    time="night"
                     withBase={withBase}
                   />
                 </div>
@@ -228,4 +248,5 @@ const totalPoints = rankSections.reduce(
     if (initialRank) applyRank(initialRank);
     applyTime("day");
   })();
+
 </script>
