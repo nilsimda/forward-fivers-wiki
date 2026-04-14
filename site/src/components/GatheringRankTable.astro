@@ -74,7 +74,7 @@ const grouped = areas.map((area, i) => ({
               <tbody>
                 {group.points.map(({ pointNumber, point }) => (
                   <tr>
-                    <td>#{pointNumber}</td>
+                    <td><span class="inline-flex size-7 items-center justify-center rounded-full border border-slate-400 text-sm font-semibold text-slate-200">{pointNumber}</span></td>
                     <td>{formatCountRange(point)}x</td>
                     <td>
                       <ul class="list-disc space-y-1 pl-5">
