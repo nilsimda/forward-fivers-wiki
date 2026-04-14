@@ -6,6 +6,7 @@ const allItems = await getCollection("items");
 const allCarves = await getCollection("monsterCarves");
 const allQuests = await getCollection("quests");
 const allDecos = await getCollection("decos");
+const allGatheringMaps = await getCollection("gathering");
 
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
@@ -54,6 +55,18 @@ const withBase = (targetPath: string) =>
       </p>
       <a class="mt-4 inline-block" href={withBase("quests/")}
         >Open quest rewards</a
+      >
+    </article>
+    <article class="panel">
+      <h2 class="text-lg">Gathering</h2>
+      <p class="mt-2 text-slate-400">
+        Browse gathering drops by map.
+      </p>
+      <p class="mt-3 text-2xl font-semibold text-cyan-200">
+        {allGatheringMaps.length}
+      </p>
+      <a class="mt-4 inline-block" href={withBase("gathering/")}
+        >Open gathering maps</a
       >
     </article>
     <article class="panel">

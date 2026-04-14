@@ -77,14 +77,33 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
       });
     }
 
+    const gathering = item.gathering_aquisitions
+      .filter((a) => a.rank === rank)
+      .map((a) => ({
+        map_id: a.map_id,
+        area: a.area,
+        point_id: a.point_id,
+        pct: a.percentage,
+        min_count: a.min_count,
+        max_count: a.max_count,
+        time: a.time,
+      }))
+      .sort(
+        (a, b) =>
+          a.map_id.localeCompare(b.map_id) ||
+          a.area - b.area ||
+          a.pct - b.pct,
+      );
+
     return {
       rank,
       ...rankMeta[rank],
       monsters: Array.from(monsterMap.values()),
       quests: Array.from(questMap.values()),
+      gathering,
     };
   })
-  .filter((s) => s.monsters.length > 0 || s.quests.length > 0);
+  .filter((s) => s.monsters.length > 0 || s.quests.length > 0 || s.gathering.length > 0);
 ---
 
 <WikiLayout title={`${item.name} | Items | MHFG1 Wiki`}>
@@ -286,6 +305,63 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
                         </table>
                       </div>
                     )}
+                  </section>
+                )}
+
+                {s.gathering.length > 0 && (
+                  <section class="space-y-2">
+                    <h4 class="text-sm font-semibold uppercase tracking-wide text-slate-200">
+                      Gathering
+                    </h4>
+                    <div class="table-wrap">
+                      <table class="table-grid">
+                        <thead>
+                          <tr>
+                            <th>Map</th>
+                            <th>Area</th>
+                            <th>Node</th>
+                            <th>Time</th>
+                            <th>Chance</th>
+                            <th>Node Health</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {s.gathering.map((g, i) => (
+                            <tr>
+                              <td>
+                                {i === 0 || s.gathering[i - 1].map_id !== g.map_id ? (
+                                  <a
+                                    href={withBase(`gathering/${g.map_id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}/`)}
+                                    class="text-slate-200 hover:text-white"
+                                  >
+                                    {g.map_id}
+                                  </a>
+                                ) : (
+                                  <span class="text-slate-500">-</span>
+                                )}
+                              </td>
+                              <td>{g.area}</td>
+                              <td>{g.point_id}</td>
+                              <td>
+                                {g.time === "both" ? (
+                                  <span class="text-slate-300">Day & Night</span>
+                                ) : g.time === "day" ? (
+                                  <span class="text-amber-300">Day</span>
+                                ) : (
+                                  <span class="text-indigo-300">Night</span>
+                                )}
+                              </td>
+                              <td>{g.pct}%</td>
+                              <td>
+                                {g.min_count === g.max_count
+                                  ? `${g.min_count}`
+                                  : `${g.min_count}-${g.max_count}`}x
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
                   </section>
                 )}
               </div>

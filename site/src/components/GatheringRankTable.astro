@@ -1,0 +1,81 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type GatheringMapData = CollectionEntry<"gathering">["data"];
+type GatheringRankKey = keyof GatheringMapData["ranks"];
+type GatheringAreaData = NonNullable<GatheringMapData["ranks"][GatheringRankKey]>[number];
+type GatheringPointData = GatheringAreaData["gps"][number];
+
+interface Props {
+  rank: GatheringRankKey;
+  rankLabel: string;
+  areas: GatheringAreaData[];
+  withBase: (targetPath: string) => string;
+}
+
+const { rank, rankLabel, areas, withBase } = Astro.props as Props;
+
+const formatCountRange = (point: GatheringPointData) =>
+  point.min_count === point.max_count
+    ? String(point.min_count)
+    : `${point.min_count}-${point.max_count}`;
+
+const rows = areas.flatMap((area) =>
+  area.gps.map((point, pointIndex) => ({
+    area: area.area,
+    pointNumber: pointIndex + 1,
+    point,
+  })),
+)
+
+const grouped = areas.map((area) => ({
+  area: area.area,
+  points: area.gps.map((point, i) => ({ pointNumber: i + 1, point })),
+}));;
+---
+<table class="table-grid">
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>Node</th>
+      <th>Node Health</th>
+      <th>Drops</th>
+    </tr>
+  </thead>
+  <tbody>
+    {grouped.map((group) => (
+      <>
+        {group.points.map(({ pointNumber, point }, i) => (
+          <tr class={i === 0 ? "border-t-2 border-slate-600" : ""}>
+            {i === 0 && (
+              <td
+                class="align-top font-medium"
+                rowspan={group.points.length + 1}
+              >
+                {group.area}
+              </td>
+            )}
+            <td>#{pointNumber}</td>
+            <td>{formatCountRange(point)}x</td>
+            <td>
+              <ul class="list-disc space-y-1 pl-5">
+                {point.drops.map((drop) => (
+                  <li>
+                    {drop.item_id === 65535 ? (
+                      drop.item_name
+                    ) : (
+                      <a href={withBase(`items/${drop.item_id}/`)}>{drop.item_name}</a>
+                    )}
+                    <span class="text-slate-300"> - {drop.percentage}%</span>
+                  </li>
+                ))}
+              </ul>
+            </td>
+          </tr>
+        ))}
+        <tr class="border-b-2 border-slate-600">
+        </tr>
+      </>
+    ))}
+  </tbody>
+</table>

@@ -92,6 +92,49 @@ const rewardBoxesSchema = z.record(
     z.array(rewardItemSchema)
 );
 
+// GATHERING
+const gatheringDropSchema = z.object({
+    percentage: percentageSchema,
+    item_id: z.number().int().min(1).max(65535),
+    item_name: z.string(),
+});
+
+const gatheringPointSchema = z.object({
+    x_pos: z.number(),
+    y_pos: z.number(),
+    z_pos: z.number(),
+    range: z.number().min(0),
+    table_offset: z.number().int().min(0),
+    drops: z.array(gatheringDropSchema),
+    max_count: z.number().int().min(0).max(255),
+    min_count: z.number().int().min(0).max(255),
+});
+
+const gatheringAreaSchema = z.object({
+    area: z.number().int().min(0),
+    gps: z.array(gatheringPointSchema),
+});
+
+const gatheringTimeSlotsSchema = z.object({
+    day: z.array(gatheringAreaSchema),
+    night: z.array(gatheringAreaSchema),
+});
+
+const gatheringRanksSchema = z.object({
+    lr: gatheringTimeSlotsSchema.optional(),
+    hr: gatheringTimeSlotsSchema.optional(),
+    er: gatheringTimeSlotsSchema.optional(),
+    gr: gatheringTimeSlotsSchema.optional(),
+});
+
+const gathering = defineCollection({
+    loader: file("src/data/generated/gathering.json"),
+    schema: z.object({
+        id: z.string(),
+        ranks: gatheringRanksSchema,
+    }),
+});
+
 const quests = defineCollection({
     loader: file("src/data/generated/quests.json"),
     schema: z.object({
@@ -154,6 +197,17 @@ const questAquisitionSchema = z.object({
     guaranteed: z.boolean(),
 });
 
+const gatheringAquisitionSchema = z.object({
+    map_id: z.string(),
+    rank: z.enum(["lr", "hr", "er", "gr"]),
+    area: z.number().int().min(0),
+    point_id: z.number().int().min(0),
+    percentage: percentageSchema,
+    min_count: z.number().int().min(0).max(255),
+    max_count: z.number().int().min(0).max(255),
+    time: z.enum(["day", "night", "both"]),
+});
+
 const items = defineCollection({
     loader: file("src/data/generated/items.json"),
     schema: z.object({
@@ -172,6 +226,7 @@ const items = defineCollection({
         carve_aquisitions: z.array(carveAquisitionSchema),
         partbreak_aquisitions: z.array(partbreakAquisitionSchema),
         quest_aquisitions: z.array(questAquisitionSchema),
+        gathering_aquisitions: z.array(gatheringAquisitionSchema).default([]),
     })
 })
 
@@ -206,4 +261,4 @@ const decos = defineCollection({
     }),
 });
 
-export const collections = { monsterCarves, monsterPartbreaks, quests, items, decos };
+export const collections = { monsterCarves, monsterPartbreaks, gathering, quests, items, decos };

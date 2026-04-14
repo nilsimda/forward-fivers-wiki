@@ -1,0 +1,118 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type GatheringData = CollectionEntry<"gathering">["data"];
+type GatheringRankKey = keyof GatheringData["ranks"];
+
+const rankLabel: Record<GatheringRankKey, string> = {
+  lr: "Low Rank",
+  hr: "High Rank",
+  er: "Elite Rank",
+  gr: "G Rank",
+};
+
+const gatheringMaps = (await getCollection("gathering"))
+  .map((entry) => entry.data)
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const mapToSlug = (mapId: string) =>
+  mapId
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const getRankKeys = (ranks: GatheringData["ranks"]) =>
+  (Object.keys(ranks) as GatheringRankKey[]).filter(
+    (rank) => (ranks[rank]?.length || 0) > 0,
+  );
+---
+
+<WikiLayout title="Gathering Maps | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Gathering Maps</h1>
+    <p class="text-slate-300">
+      Browse extracted gathering points grouped by map and available rank.
+    </p>
+  </section>
+
+  <section class="panel mt-6 space-y-3">
+    <label class="block text-sm font-medium text-slate-200" for="map-search"
+      >Search maps</label
+    >
+    <input
+      id="map-search"
+      type="search"
+      placeholder="Map name or rank..."
+      class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+    />
+    <p class="text-sm text-slate-400">
+      Showing <span id="visible-map-count">{gatheringMaps.length}</span> of {
+        gatheringMaps.length
+      } maps
+    </p>
+  </section>
+
+  <div class="table-wrap mt-6">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>Map</th>
+          <th>Ranks</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          gatheringMaps.map((mapEntry) => {
+            const rankKeys = getRankKeys(mapEntry.ranks);
+            const rankText = rankKeys.map((rank) => rankLabel[rank]).join(", ");
+            return (
+              <tr
+                data-map-row
+                data-map-name={mapEntry.id.toLowerCase()}
+                data-map-ranks={rankKeys.join(" ").toLowerCase()}
+              >
+                <td>
+                  <a href={withBase(`gathering/${mapToSlug(mapEntry.id)}/`)}>
+                    {mapEntry.id}
+                  </a>
+                </td>
+                <td>{rankText || "None"}</td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>("#map-search");
+    const rows = Array.from(
+      document.querySelectorAll<HTMLTableRowElement>("[data-map-row]"),
+    );
+    const count = document.querySelector<HTMLElement>("#visible-map-count");
+
+    const update = () => {
+      const query = (input?.value || "").trim().toLowerCase();
+      let shown = 0;
+
+      for (const row of rows) {
+        const name = row.dataset.mapName || "";
+        const ranks = row.dataset.mapRanks || "";
+        const show = !query || name.includes(query) || ranks.includes(query);
+        row.style.display = show ? "" : "none";
+        if (show) shown += 1;
+      }
+
+      if (count) count.textContent = String(shown);
+    };
+
+    input?.addEventListener("input", update);
+  </script>
+</WikiLayout>

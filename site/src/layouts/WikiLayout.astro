@@ -27,10 +27,12 @@ const withBase = (targetPath: string) => `${basePath}${targetPath.replace(/^\//,
         <a href={withBase('')} class="text-lg font-semibold tracking-wide text-cyan-300">MHFG1 Wiki</a>
         <nav class="flex gap-4 text-sm">
           <a class="nav-link" href={withBase('')}>Home</a>
+          <a class="nav-link" href={withBase('decos/')}>Decos</a>
+          <a class="nav-link" href={withBase('gathering/')}>Gathering</a>
           <a class="nav-link" href={withBase('items/')}>Items</a>
           <a class="nav-link" href={withBase('monster-drops/')}>Monster Drops</a>
           <a class="nav-link" href={withBase('quests/')}>Quests</a>
-          <a class="nav-link" href={withBase('decos/')}>Decos</a>
+          |
           <a class="nav-link" href={withBase('docs/')}>Docs</a>
         </nav>
       </div>

@@ -204,7 +204,7 @@ class Quest:
     join_min_rank: int
     post_min_rank: int
     quest_text: QuestText
-    rank: Rank | None
+    rank: Rank
     reward_boxes: dict[str, list[QuestReward]]
     reward_variant: int
     preview_items: list[PreviewItem]
@@ -388,6 +388,12 @@ def parse_args() -> argparse.Namespace:
         help="Path to mhfpac.raw.bin",
     )
     parser.add_argument(
+        "--gathering-output",
+        type=Path,
+        default=REPO_ROOT / "site" / "src" / "data" / "generated" / "gathering.json",
+        help="Output gps JSON path.",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=REPO_ROOT / "site" / "src" / "data" / "generated" / "quests.json",
@@ -431,14 +437,24 @@ class GatheringItemDrop:
     item_name: str
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<2H")
+    # remap armor spheres like erupe
+    _ARMOR_SPHERES_ID_MAP: ClassVar[dict[int, int]] = {
+        0x3301: 0xD7,  # armor sphere -> stone
+        0x3302: 0xD8,  # armor sphere+ -> iron ore
+        0x3303: 0xD7,  # adv armor sphere -> stone
+        0x3304: 0xDB,  # hard armor sphere -> draonite ore
+        0x3305: 0xD9,  # heaven armor sphere -> earth crystal
+        0x3306: 0xDB,  # true armor sphere -> draonite ore
+    }
 
     @classmethod
     def unpack_from(cls, raw: bytes, offset: int) -> "GatheringItemDrop":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
+        item_id = cls._ARMOR_SPHERES_ID_MAP.get(unpacked[1], unpacked[1])
         return cls(
             percentage=unpacked[0],
-            item_id=unpacked[1],
-            item_name=ITEM_NAMES.get(unpacked[1], "unkown"),
+            item_id=item_id,
+            item_name=ITEM_NAMES.get(item_id, "Nothing"),
         )
 
     @classmethod
@@ -457,7 +473,7 @@ class GatheringPoint:
     max_count: int
     min_count: int
 
-    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<3fI4H")
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<4f4H")
 
     @staticmethod
     def _extract_drops(raw: bytes, id: int) -> list[GatheringItemDrop]:
@@ -468,7 +484,8 @@ class GatheringPoint:
             item_drop = GatheringItemDrop.unpack_from(raw, drops_pointer)
             if item_drop.percentage == 0xFFFF:
                 break
-            drops.append(item_drop)
+            if not item_drop.percentage == 0:
+                drops.append(item_drop)
             drops_pointer += GatheringItemDrop.size()
         return drops
 
@@ -491,28 +508,106 @@ class GatheringPoint:
         return cls._STRUCT.size
 
 
-def _extract_gathering_points_per_area(raw, offset) -> list[GatheringPoint]:
-    result = []
+def _extract_gathering_points_per_area(
+    raw: bytes, offset: int, area: int
+) -> GatheringArea:
+    gps = []
     while True:
         gp = GatheringPoint.unpack_from(raw, offset)
         if gp.x_pos == -1:
             break
-        result.append(gp)
+        gps.append(gp)
         offset += GatheringPoint.size()
-    return result
+    return GatheringArea(area=area, gps=gps)
 
 
-def extract_gathering_tables(quest_files_dir: Path, quest_ids: frozenset[int]):
-    for quest_id in quest_ids:
-        quest_raw = (quest_files_dir / f"{quest_id:05}d0.bin").read_bytes()
-        base_pointer = read_u32(quest_raw, 0x28)
+class GatheringArea(TypedDict):
+    area: int
+    gps: list[GatheringPoint]
 
-        area_count = struct.unpack_from("<B", quest_raw, 0x7C)[0]
 
-        for i in range(area_count):
-            current_pointer = read_u32(quest_raw, base_pointer + i * 4)
-            if not current_pointer == 0:
-                _extract_gathering_points_per_area(quest_raw, current_pointer)
+class GatheringTimeSlots(TypedDict):
+    day: list[GatheringArea]
+    night: list[GatheringArea]
+
+
+@dataclass(slots=True)
+class MapGatheringPoints:
+    id: str
+    ranks: dict[Rank, GatheringTimeSlots] = field(default_factory=dict)
+
+
+def _extract_areas_from_quest_file(quest_raw: bytes) -> list[GatheringArea]:
+    base_pointer = read_u32(quest_raw, 0x28)
+    if base_pointer > len(quest_raw):
+        return []
+    area_count = struct.unpack_from("<B", quest_raw, 0x7C)[0]
+    areas: list[GatheringArea] = []
+    for i in range(area_count):
+        current_pointer = read_u32(quest_raw, base_pointer + i * 4)
+        if current_pointer != 0:
+            areas.append(
+                _extract_gathering_points_per_area(quest_raw, current_pointer, i)
+            )
+    return [a for a in areas if any(gp.drops for gp in a["gps"])]
+
+
+def extract_gathering_tables(
+    quest_files_dir: Path, quests: list[Quest]
+) -> list[MapGatheringPoints]:
+    by_map: dict[str, MapGatheringPoints] = {}
+    for quest in quests:
+        day_raw = (quest_files_dir / f"{quest.id:05}d0.bin").read_bytes()
+        night_raw = (quest_files_dir / f"{quest.id:05}n0.bin").read_bytes()
+        day_areas = _extract_areas_from_quest_file(day_raw)
+        night_areas = _extract_areas_from_quest_file(night_raw)
+
+        if not day_areas and not night_areas:
+            continue
+
+        if quest.map not in by_map:
+            by_map[quest.map] = MapGatheringPoints(id=quest.map)
+
+        by_map[quest.map].ranks[quest.rank] = GatheringTimeSlots(
+            day=day_areas, night=night_areas
+        )
+
+    filtered: list[MapGatheringPoints] = []
+    for mgp in by_map.values():
+        mgp.ranks = {
+            rank: slots
+            for rank, slots in mgp.ranks.items()
+            if slots["day"] or slots["night"]
+        }
+        if mgp.ranks:
+            filtered.append(mgp)
+
+    return filtered
+
+
+def _one_quest_per_map_and_rank(quests: list[Quest]) -> list[Quest]:
+    seen: dict[tuple[str, Rank], Quest] = {}
+    for quest in quests:
+        key = (quest.map, quest.rank)
+        if (
+            key not in seen
+            and "Training" not in quest.quest_text.title
+            and "Note" not in quest.quest_text.title
+            and quest.map != "New Great Arena"
+        ):
+            if (
+                quest.map != "Volcano"
+                or "Ruler of the Fiery Sea"
+                in quest.quest_text.title  # lr volcano quest with all areas
+                or "The Red Magma Wyvern"
+                in quest.quest_text.title  # hr volcano quest with all areas
+                or "Lavasioth of the Volcano"
+                in quest.quest_text.title  # er volcano quest with all areas
+                or quest.rank == "gr"
+            ):
+                seen[key] = quest
+
+    return list(seen.values())
 
 
 def main() -> None:
@@ -537,10 +632,11 @@ def main() -> None:
 
     result += extract_server_side_quests(event_quests_dir, map_names)
 
-    # quest_ids = frozenset({quest.id for quest in result})
-    # extract_gathering_tables(quest_files_dir, quest_ids)
+    gathering_quests = _one_quest_per_map_and_rank(result)
+    gps = extract_gathering_tables(quest_files_dir, gathering_quests)
 
     write_json_output(args.output, result)
+    write_json_output(args.gathering_output, gps)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,231 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import GatheringRankTable from "../../components/GatheringRankTable.astro";
+
+type GatheringMapData = CollectionEntry<"gathering">["data"];
+type GatheringRankKey = keyof GatheringMapData["ranks"];
+
+const rankMeta: Record<
+  GatheringRankKey,
+  { label: string; panel: string; pill: string }
+> = {
+  lr: {
+    label: "LR (Low Rank)",
+    panel: "rank-panel--lr",
+    pill: "rank-pill--active-lr",
+  },
+  hr: {
+    label: "HR (High Rank)",
+    panel: "rank-panel--hr",
+    pill: "rank-pill--active-hr",
+  },
+  er: {
+    label: "ER (Elite Rank)",
+    panel: "rank-panel--er",
+    pill: "rank-pill--active-er",
+  },
+  gr: {
+    label: "GR (G Rank)",
+    panel: "rank-panel--gr",
+    pill: "rank-pill--active-gr",
+  },
+};
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+export async function getStaticPaths() {
+  const gatheringMaps = await getCollection("gathering");
+  const slugForMap = (mapId: string) =>
+    mapId
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+
+  return gatheringMaps.map((mapEntry) => ({
+    params: { mapId: slugForMap(mapEntry.data.id) },
+    props: { mapData: mapEntry.data },
+  }));
+}
+
+const { mapData } = Astro.props as { mapData: GatheringMapData };
+const rankSections = (Object.keys(rankMeta) as GatheringRankKey[])
+  .map((rank) => {
+    const slots = mapData.ranks[rank];
+    return {
+      rank,
+      ...rankMeta[rank],
+      day: slots?.day ?? [],
+      night: slots?.night ?? [],
+    };
+  })
+  .filter((s) => s.day.length > 0 || s.night.length > 0);
+const defaultRank = rankSections.some((s) => s.rank === "lr")
+  ? "lr"
+  : rankSections[0]?.rank;
+
+const countGps = (areas: typeof rankSections[0]["day"]) =>
+  areas.reduce((sum, a) => sum + a.gps.length, 0);
+const totalPoints = rankSections.reduce(
+  (sum, s) => sum + Math.max(countGps(s.day), countGps(s.night)),
+  0,
+);
+---
+
+<WikiLayout title={`${mapData.id} | Gathering | MHFG1 Wiki`}>
+  <article class="space-y-6">
+    <header class="space-y-2">
+      <a href={withBase("gathering/")} class="text-sm">Back to gathering maps</a>
+      <h1>{mapData.id}</h1>
+      <p class="text-slate-300">
+        {totalPoints} gathering point{totalPoints === 1 ? "" : "s"} across all
+        extracted rank tables.
+      </p>
+    </header>
+
+    {rankSections.length === 0 ? (
+      <section class="panel">
+        <p class="text-slate-300">No gathering points found for this map.</p>
+      </section>
+    ) : (
+      <section class="panel">
+        <h2 class="text-lg">Gathering Nodes</h2>
+        <div class="mt-4 space-y-4">
+          <div class="flex flex-wrap items-center gap-4">
+            <div
+              id="gathering-rank-filter"
+              class="flex flex-wrap gap-2"
+              data-default-rank={defaultRank}
+            >
+              {rankSections.map((section) => (
+                <button
+                  type="button"
+                  class={`rank-pill ${section.rank === defaultRank ? section.pill : ""}`}
+                  data-rank-filter={section.rank}
+                  data-rank-active-class={section.pill}
+                >
+                  {section.label}
+                </button>
+              ))}
+            </div>
+
+            <div id="gathering-time-filter" class="flex gap-1 rounded-lg bg-slate-800 p-1">
+              <button
+                type="button"
+                class="rounded-md px-3 py-1 text-sm bg-slate-600 text-white"
+                data-time-filter="day"
+              >Day</button>
+              <button
+                type="button"
+                class="rounded-md px-3 py-1 text-sm text-slate-400"
+                data-time-filter="night"
+              >Night</button>
+            </div>
+          </div>
+
+          {rankSections.map((section) => (
+            <section
+              class={`rank-panel ${section.panel} ${section.rank === defaultRank ? "" : "hidden"}`}
+              data-rank-section={section.rank}
+            >
+              {section.day.length > 0 && (
+                <div data-time-section="day">
+                  <GatheringRankTable
+                    rank={section.rank}
+                    rankLabel={section.label}
+                    areas={section.day}
+                    withBase={withBase}
+                  />
+                </div>
+              )}
+              {section.night.length > 0 && (
+                <div data-time-section="night" class="hidden">
+                  <GatheringRankTable
+                    rank={section.rank}
+                    rankLabel={section.label}
+                    areas={section.night}
+                    withBase={withBase}
+                  />
+                </div>
+              )}
+              {section.day.length === 0 && (
+                <div data-time-section="day">
+                  <p class="text-slate-400 text-sm py-4">No daytime gathering data for this rank.</p>
+                </div>
+              )}
+              {section.night.length === 0 && (
+                <div data-time-section="night" class="hidden">
+                  <p class="text-slate-400 text-sm py-4">No nighttime gathering data for this rank.</p>
+                </div>
+              )}
+            </section>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</WikiLayout>
+
+<script>
+  (() => {
+    const rankRoot = document.getElementById("gathering-rank-filter");
+    const timeRoot = document.getElementById("gathering-time-filter");
+    if (!rankRoot) return;
+
+    const rankButtons = Array.from(
+      rankRoot.querySelectorAll("[data-rank-filter]"),
+    ) as HTMLElement[];
+    const rankSections = Array.from(
+      document.querySelectorAll("[data-rank-section]"),
+    ) as HTMLElement[];
+    const timeButtons = timeRoot
+      ? (Array.from(timeRoot.querySelectorAll("[data-time-filter]")) as HTMLElement[])
+      : [];
+
+    let activeTime = "day";
+
+    const applyRank = (rank: string) => {
+      rankSections.forEach((s) =>
+        s.classList.toggle("hidden", s.dataset.rankSection !== rank),
+      );
+      rankButtons.forEach((b) => {
+        const cls = b.dataset.rankActiveClass;
+        if (cls) b.classList.toggle(cls, b.dataset.rankFilter === rank);
+      });
+    };
+
+    const applyTime = (time: string) => {
+      activeTime = time;
+      document.querySelectorAll("[data-time-section]").forEach((el) => {
+        (el as HTMLElement).classList.toggle(
+          "hidden",
+          el.getAttribute("data-time-section") !== time,
+        );
+      });
+      timeButtons.forEach((b) => {
+        const active = b.dataset.timeFilter === time;
+        b.classList.toggle("bg-slate-600", active);
+        b.classList.toggle("text-white", active);
+        b.classList.toggle("text-slate-400", !active);
+      });
+    };
+
+    rankButtons.forEach((b) =>
+      b.addEventListener("click", () => {
+        if (b.dataset.rankFilter) applyRank(b.dataset.rankFilter);
+      }),
+    );
+    timeButtons.forEach((b) =>
+      b.addEventListener("click", () => {
+        if (b.dataset.timeFilter) applyTime(b.dataset.timeFilter);
+      }),
+    );
+
+    const initialRank = rankRoot.dataset.defaultRank;
+    if (initialRank) applyRank(initialRank);
+    applyTime("day");
+  })();
+</script>

@@ -23,6 +23,7 @@ OUTPUT_DEFAULT = REPO_ROOT / "site" / "src" / "data" / "generated" / "items.json
 CARVES_PATH = REPO_ROOT / "site" / "src" / "data" / "generated" / "carves.json"
 PARTBREAKS_PATH = REPO_ROOT / "site" / "src" / "data" / "generated" / "partbreaks.json"
 QUESTS_PATH = REPO_ROOT / "site" / "src" / "data" / "generated" / "quests.json"
+GATHERING_PATH = REPO_ROOT / "site" / "src" / "data" / "generated" / "gathering.json"
 
 ITEM_DESCRIPTIONS_POINTER_TABLE_OFFSET = 0x60
 ITEM_COUNT_OFFSET_FROM_POINTER = 0x0C
@@ -56,6 +57,17 @@ class QuestAquisition(TypedDict):
     guaranteed: bool
 
 
+class GatheringAquisition(TypedDict):
+    map_id: str
+    rank: str
+    area: int
+    point_id: int
+    percentage: int
+    min_count: int
+    max_count: int
+    time: str
+
+
 @dataclass(slots=True)
 class Item:
     id: int
@@ -75,6 +87,7 @@ class Item:
     carve_aquisitions: list[CarveAquisition] = field(default_factory=list)
     partbreak_aquisitions: list[PartbreakAquisition] = field(default_factory=list)
     quest_aquisitions: list[QuestAquisition] = field(default_factory=list)
+    gathering_aquisitions: list[GatheringAquisition] = field(default_factory=list)
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BBBBBBBBHHIIHHHBBHBB")
 
@@ -147,6 +160,7 @@ def extract_items(
     carve_aquisitions = build_carve_acquisitions(CARVES_PATH)
     partbreak_aquisitions = build_partbreak_acquisitions(PARTBREAKS_PATH)
     quest_aquisitions = build_quest_aquisitions(QUESTS_PATH)
+    gathering_aquisitions = build_gathering_aquisitions(GATHERING_PATH)
 
     items: list[Item] = []
     for item_index in range(item_count):
@@ -159,6 +173,7 @@ def extract_items(
         item.carve_aquisitions = carve_aquisitions.get(item.id, [])
         item.partbreak_aquisitions = partbreak_aquisitions.get(item.id, [])
         item.quest_aquisitions = quest_aquisitions.get(item.id, [])
+        item.gathering_aquisitions = gathering_aquisitions.get(item.id, [])
         items.append(item)
 
     return items
@@ -226,6 +241,65 @@ def build_quest_aquisitions(quests_path: Path) -> dict[int, list[QuestAquisition
                         guaranteed=drop["guaranteed"],
                     )
                 )
+    return index
+
+
+DropKey = tuple[int, int, int]  # (area, point_id, item_id)
+DropVal = dict[str, int]  # percentage, min_count, max_count
+
+
+def _collect_drops_by_key(
+    areas: list[dict[str, Any]],
+) -> dict[DropKey, DropVal]:
+    out: dict[DropKey, DropVal] = {}
+    for area_data in areas:
+        area_id: int = area_data["area"]
+        for pi, gp in enumerate(area_data["gps"]):
+            point_id = pi + 1
+            for drop in gp["drops"]:
+                item_id: int = drop["item_id"]
+                if item_id == 0xFFFF:
+                    continue
+                out[(area_id, point_id, item_id)] = {
+                    "percentage": drop["percentage"],
+                    "min_count": gp["min_count"],
+                    "max_count": gp["max_count"],
+                }
+    return out
+
+
+def build_gathering_aquisitions(
+    gathering_path: Path,
+) -> dict[int, list[GatheringAquisition]]:
+    gathering: list[dict[str, Any]] = json.loads(
+        gathering_path.read_text(encoding="utf-8")
+    )
+    index: dict[int, list[GatheringAquisition]] = {}
+    for map_data in gathering:
+        map_id = map_data["id"]
+        for rank, time_slots in map_data["ranks"].items():
+            day_drops = _collect_drops_by_key(time_slots.get("day", []))
+            night_drops = _collect_drops_by_key(time_slots.get("night", []))
+            for key in set(day_drops) | set(night_drops):
+                area_id, point_id, item_id = key
+                d, n = day_drops.get(key), night_drops.get(key)
+                if d and n and d == n:
+                    pairs = [(d, "both")]
+                else:
+                    pairs = [(v, t) for v, t in [(d, "day"), (n, "night")] if v]
+                for vals, time in pairs:
+                    index.setdefault(item_id, []).append(
+                        GatheringAquisition(
+                            map_id=map_id,
+                            rank=rank,
+                            area=area_id,
+                            point_id=point_id,
+                            percentage=vals["percentage"],
+                            min_count=vals["min_count"],
+                            max_count=vals["max_count"],
+                            time=time,
+                        )
+                    )
     return index
 
 
