@@ -379,6 +379,9 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing the quest files.",
     )
     parser.add_argument(
+        "--event-quests-dir", type=Path, default=DEFAULT_DATA_PATHS["events"]
+    )
+    parser.add_argument(
         "--mhfpac",
         type=Path,
         default=DEFAULT_DATA_PATHS["mhfpac"],
@@ -410,27 +413,14 @@ def _extract_map_names(mhfpac_raw: bytes) -> dict[int, str]:
     return result
 
 
-# TODO: get all ids and load from file
-SERVER_SIDE_QUEST_IDS = {
-    65085,
-    65086,
-    65091,
-    65092,
-    65093,
-    65094,
-    65095,
-}
-
-
 def extract_server_side_quests(
     quest_files_dir: Path, map_names: dict[int, str]
 ) -> list[Quest]:
     result: list[Quest] = []
-    for quest_id in SERVER_SIDE_QUEST_IDS:
-        quest_raw = (quest_files_dir / f"{quest_id:05}d0.bin").read_bytes()
-        quest = Quest.unpack_from(quest_raw, 0xC0, quest_files_dir, map_names)
+    for quest_file in sorted(quest_files_dir.rglob("*d0.bin")):
+        quest_raw = quest_file.read_bytes()
+        quest = Quest.unpack_from(quest_raw, 0xC0, quest_file.parent, map_names)
         result.append(quest)
-
     return result
 
 
@@ -530,6 +520,7 @@ def main() -> None:
 
     mhfinf_raw = args.input.read_bytes()
     quest_files_dir = args.quest_files_dir
+    event_quests_dir = args.event_quests_dir
     mhfpac_raw = args.mhfpac.read_bytes()
 
     map_names = _extract_map_names(mhfpac_raw)
@@ -544,7 +535,7 @@ def main() -> None:
         result += qt.quests
         qt_offset += QuestTable.size()
 
-    result += extract_server_side_quests(quest_files_dir, map_names)
+    result += extract_server_side_quests(event_quests_dir, map_names)
 
     # quest_ids = frozenset({quest.id for quest in result})
     # extract_gathering_tables(quest_files_dir, quest_ids)

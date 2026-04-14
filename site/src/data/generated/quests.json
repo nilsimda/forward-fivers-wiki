@@ -203038,6 +203038,2018 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 350,
+    "zenny_reward": 500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 65054,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 48,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 48,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 48,
+      "count": 1
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪GR1 Frontier Quest≫\nShattering the Shield",
+      "main": "Slay a Daimyo Hermitaur",
+      "sub_a": "Wound D.Hermitaur's claws",
+      "sub_b": "Break D.Hermitaur's shell",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "We'd like to ask you to\ninvestigate the Daimyo\nHermitaur lurking in the\nDesert. Wound its parts, \nand we'll make sure to\nreward you accordingly."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6988,
+          "item_name": "Herm Primeclaw",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 6646,
+          "item_name": "Herm Primeshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6750,
+          "item_name": "Foaming Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6655,
+          "item_name": "Prime Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6647,
+          "item_name": "Herm Shieldclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 60,
+    "map": "Polar Sea",
+    "restriction_flags": 0,
+    "id": 65055,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 115,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 115,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 115,
+      "count": 2
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪GR1 Frontier Quest≫\nLord of the Polar Sea",
+      "main": "Slay a Pokaradon",
+      "sub_a": "Wound Pokaradon's head",
+      "sub_b": "Wound Pokaradon's back",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "Our investigation into the\nLord of the Polar Sea, also\nknown as the Pokaradon, is\nstill ongoing. We need you\nto wound as many parts as\npossible to help with the\ninvestigation. Ohh, the\nresearch potential...\nCounting on you, hunters!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6649,
+          "item_name": "Pokaradon Bone",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 6650,
+          "item_name": "Pokaradon Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6653,
+          "item_name": "Pokaradon Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 6654,
+          "item_name": "Pokaradon Piel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6750,
+          "item_name": "Foaming Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6655,
+          "item_name": "Prime Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6651,
+          "item_name": "Heroic Tusks",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 350,
+    "zenny_reward": 500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 57,
+    "map": "Tidal Island",
+    "restriction_flags": 0,
+    "id": 65057,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 6,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 6,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪GR1 Frontier Quest≫\nBursting at the Beak",
+      "main": "Slay a Yian Kut-Ku",
+      "sub_a": "Wound Yian Kut-Ku's ears",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "I need you to hunt a Yian\nKut-Ku at the Tidal Island.\nIts ears would get in the\nway of my research, so I'd\nhighly appreciate if you\ncould wound them."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6987,
+          "item_name": "Kut-KuPrimescale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 6643,
+          "item_name": "Kut-Ku Primebone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6749,
+          "item_name": "Conflagrant Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6655,
+          "item_name": "Prime Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6644,
+          "item_name": "Sinister Beak",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 65058,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 114,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 114,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 114,
+      "count": 3
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Frontier Quest≫\nDesert Dance Off",
+      "main": "Slay a Falnocatrice",
+      "sub_a": "Wound Falnocatrice's beak",
+      "sub_b": "Sever Falnocatrice's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Puzzled Researcher",
+      "description": "In an...unprecedented turn\nof events, a Falnocatrice\nhas been spotted in the\nDesert. We do not know why\nor HOW it appeared there,\nbut it must be investigated.\nWho knows if we'll ever get\na chance like this again!?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6663,
+          "item_name": "Falno Drypelt",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 6662,
+          "item_name": "Falno Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 6666,
+          "item_name": "Falno Beak",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6667,
+          "item_name": "Falno Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6751,
+          "item_name": "Lightning Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6668,
+          "item_name": "Magnific Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6664,
+          "item_name": "Brilliant Quill",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 700,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 5,
+    "map": "Volcano",
+    "restriction_flags": 0,
+    "id": 65059,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 22,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 22,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 22,
+      "count": 1
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nRocky Cradle",
+      "main": "Slay a Basarios",
+      "sub_a": "Sever Basarios's tail",
+      "sub_b": "Wound Basarios's chest",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "Hunter, I need you to slay\na Basarios for my research.\nAlright, counting on y...\nHuh? Is there anything else?\nHmm, well how about you try\nand wound its parts while\nyou're at it. Child's play,\nam I right?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6991,
+          "item_name": "Basa Glosstear",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 6669,
+          "item_name": "Basa Glosshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6756,
+          "item_name": "Wyvern Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6755,
+          "item_name": "Torpor Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6684,
+          "item_name": "Glossy Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6670,
+          "item_name": "Basa Grandwing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 2,
+    "map": "Verdant Hills",
+    "restriction_flags": 0,
+    "id": 65060,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 1,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 1,
+      "count": 3
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nThe Venomous Queen",
+      "main": "Slay a Rathian",
+      "sub_a": "Wound Rathian's wings",
+      "sub_b": "Sever Rathian's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "This time, I'd like to take\na closer look at a Rathian.\nIt may have been studied\nextensively, but I'm sure\nthere's still something\nWAITING to be discovered.\nMay I ask you to wound its\nwings and sever the tail\nwhile you're at it?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6992,
+          "item_name": "Rath Glosshell",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 6672,
+          "item_name": "Rath Glosscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6757,
+          "item_name": "Wyvern Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6756,
+          "item_name": "Wyvern Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6749,
+          "item_name": "Conflagrant Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6684,
+          "item_name": "Glossy Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6673,
+          "item_name": "Rathian Piercer",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7136,
+          "item_name": "Broken Fang",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 600,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 65066,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 52,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 52,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 52,
+      "count": 2
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Frontier Quest≫\nThe Brilliant Beast",
+      "main": "Slay a Congalala",
+      "sub_a": "Wound Congalala's comb",
+      "sub_b": "Wound Congalala's claw",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "We'd like to ask you to\ninvestigate the Congalala\nlurking in the Jungle.\nWound its parts and we'll\nmake sure to reward you\naccordingly."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6990,
+          "item_name": "Conga Magnaclaw",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 6659,
+          "item_name": "Conga Magnapelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6668,
+          "item_name": "Magnific Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6660,
+          "item_name": "Vivid Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 600,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 65067,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 20,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 20,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Frontier Quest≫\nTropical Splendor",
+      "main": "Slay a Gypceros",
+      "sub_a": "Break Gypceros's crest",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "I'd like to investigate the\nGypceros's splendid crest.\nDo your best to wound it!\nIt's just so bright, so...\nmagnificent! Oh, I'm sure\nthis will be a great hunt!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6989,
+          "item_name": "Gyp Magnaclaw",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 6656,
+          "item_name": "Gyp Magnahide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6753,
+          "item_name": "Noxious Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6668,
+          "item_name": "Magnific Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6657,
+          "item_name": "Sprint Extract",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 850,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 50,
+    "map": "Highlands",
+    "restriction_flags": 0,
+    "id": 65068,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 110,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 110,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 110,
+      "count": 5
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nSpiky Stockade",
+      "main": "Slay a Hyujikiki",
+      "sub_a": "Break Hyujikiki's horns",
+      "sub_b": "Sever Hyujikiki's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Monster Researcher",
+      "description": "The Hyujikiki is covered in\nspikes -- that much is true,\nbut did you know that those\nspikes are actually hardened\nhairs? We've learned a lot\nthrough research, but this\ntime we'd like to focus on\nstudying its body parts.\nCan you help us with that?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 19,
+          "item_id": 6678,
+          "item_name": "Hyujikiki Pelt",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 19,
+          "item_id": 6679,
+          "item_name": "Hyujikiki Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6683,
+          "item_name": "Hyujikiki Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6682,
+          "item_name": "Hyujikiki Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6753,
+          "item_name": "Noxious Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6754,
+          "item_name": "Ultraplegia Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6755,
+          "item_name": "Torpor Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6684,
+          "item_name": "Glossy Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6680,
+          "item_name": "Hyujikiki Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7136,
+          "item_name": "Broken Fang",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 100,
+    "quest_time": 90000,
+    "map_id": 13,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 65071,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 11,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 11,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 11,
+      "count": 3
+    },
+    "join_min_rank": 4,
+    "post_min_rank": 4,
+    "quest_text": {
+      "title": "≪GR4 Frontier Quest≫\nHis Empyrean Majesty",
+      "main": "Slay a Rathalos",
+      "sub_a": "Wound Rathalos's wing",
+      "sub_b": "Sever Rathalos's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times,\nor time expires.",
+      "contractor": "Monster Researcher",
+      "description": "Can you hunt a Rathalos for\nme? I'd love to study it\nfurther. It'd be great if\nyou could wound its wings\nand sever the tail, too.\nThey'd only get in the way\nof my research..."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6997,
+          "item_name": "Rath Valorshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 6685,
+          "item_name": "Rath Valorscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6757,
+          "item_name": "Wyvern Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6756,
+          "item_name": "Wyvern Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6749,
+          "item_name": "Conflagrant Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6704,
+          "item_name": "Valorous Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6686,
+          "item_name": "Rathalos Myeloid",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 7136,
+          "item_name": "Broken Fang",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 900,
+    "zenny_ko": 3,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 100,
+    "quest_time": 90000,
+    "map_id": 28,
+    "map": "Volcano",
+    "restriction_flags": 0,
+    "id": 65072,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 111,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 111,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 111,
+      "count": 3
+    },
+    "join_min_rank": 4,
+    "post_min_rank": 4,
+    "quest_text": {
+      "title": "≪GR4 Frontier Quest≫\nIn the Blink of an Eye",
+      "main": "Slay a Midogaron",
+      "sub_a": "Wound Midogaron's head",
+      "sub_b": "Wound Midogaron's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times,\nor time expires.",
+      "contractor": "Monster Researcher",
+      "description": "Our investigation into the\nMidogaron is still ongoing.\nWe need you to wound as many\nparts as possible to help\nwith the investigation. Oh,\nthe research potential...\nCounting on you, hunters!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6699,
+          "item_name": "Midogaron Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 6698,
+          "item_name": "Midogaron Fur",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6702,
+          "item_name": "Midogaron Mane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6703,
+          "item_name": "Midogaron Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6749,
+          "item_name": "Conflagrant Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6704,
+          "item_name": "Valorous Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6700,
+          "item_name": "Midogaron Tendon",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7136,
+          "item_name": "Broken Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 700,
+    "zenny_ko": 3,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 100,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 65073,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 51,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 51,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 51,
+      "count": 2
+    },
+    "join_min_rank": 4,
+    "post_min_rank": 4,
+    "quest_text": {
+      "title": "≪GR4 Frontier Quest≫\nHerculean Might",
+      "main": "Slay a Blangonga",
+      "sub_a": "Wound Blangonga's fangs",
+      "sub_b": "Wound Blangonga's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times,\nor time expires.",
+      "contractor": "Monster Researcher",
+      "description": "We need help with studying\nthe Blangonga further. In\norder to ensure a thorough\nexamination, we need you to\nwound its head and tail. It\nwon't be easy, but we trust\nin your abilities."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6994,
+          "item_name": "Blan Valorfang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 6688,
+          "item_name": "Blan Valorpelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6691,
+          "item_name": "Blango Ironfang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6752,
+          "item_name": "Cryo Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6704,
+          "item_name": "Valorous Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6689,
+          "item_name": "Blan Tempertail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7136,
+          "item_name": "Broken Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 65074,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 15,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 15,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 4,
+    "post_min_rank": 4,
+    "quest_text": {
+      "title": "≪GR4 Frontier Quest≫\nPale Threat",
+      "main": "Slay a Khezu",
+      "sub_a": "Wound Khezu's head & body",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times,\nor time expires.",
+      "contractor": "Monster Researcher",
+      "description": "We'd like to ask you to\ninvestigate the Khezu\nlurking in the Arctic\nRidge. If you manage to\nwound its parts, we will\nmake sure to reward you\naccordingly!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6995,
+          "item_name": "Pearl Valorweave",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 6692,
+          "item_name": "Pearl Valorhide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6751,
+          "item_name": "Lightning Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6704,
+          "item_name": "Valorous Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6693,
+          "item_name": "Pale Concentrate",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 700,
+    "zenny_ko": 3,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 5,
+    "map": "Volcano",
+    "restriction_flags": 0,
+    "id": 65075,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 67,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 67,
+      "count": 4
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nThe Fierce Shogun",
+      "main": "Slay a Shogun Ceanataur",
+      "sub_a": "Wound S.Ceanataur's claw",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times,\nor time expires.",
+      "contractor": "Monster Researcher",
+      "description": "I'd like to learn more about\nthe Shogun Ceanataur, its\nhabits, and its tough shell.\nA Volcano-dwelling specimen\nwould work best... You don't\nhave to wound its claws, but\nthey'd just get in the way,\nso why not do it anyway?\nJust watch out, they're\nreally dangerous!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6993,
+          "item_name": "Ceana Glossleg",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 6675,
+          "item_name": "Ceana Glosshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 6750,
+          "item_name": "Foaming Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6684,
+          "item_name": "Glossy Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6676,
+          "item_name": "Ceanataur Reaper",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1350,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 65085,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 53,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 6,
+    "post_min_rank": 6,
+    "quest_text": {
+      "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
+      "main": "Hunt a Rajang",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Mountaineer",
+      "description": "I was having the time of my\nlife, climbing mountains, as\nI usually do, but then...\neverything started shaking!\nAn earthquake? A tremor?\nHard to say. Though now that\nI think of it, I did hear a\nbeast-like roar right after.\nMaybe there's something near\nthe summit, after all?"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6724,
+          "item_name": "Rajang Acefang",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 7002,
+          "item_name": "Rajang Acepelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 45,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6725,
+          "item_name": "Pure Gold Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 1650,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 60,
+    "map": "Polar Sea",
+    "restriction_flags": 0,
+    "id": 65086,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 109,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 6,
+    "post_min_rank": 6,
+    "quest_text": {
+      "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
+      "main": "Hunt an Anorpatis",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "The Anorpatis is a brutal,\nskilled fighter -- capable\nnot only of moving freely\nabove and below ground, but\nalso of soaring through the\nair. This Quest is extremely\ndangerous, but we need you\nto do your best and hunt it\ndown. Good luck."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 23,
+          "item_id": 6743,
+          "item_name": "Anorpatis Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 6742,
+          "item_name": "Anorpatis Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 7133,
+          "item_name": "Chipped Fang",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 7130,
+          "item_name": "Cracked Fang",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 600,
     "zenny_reward": 1300,
     "zenny_ko": 3,
@@ -203430,177 +205442,6 @@
       ]
     },
     "reward_variant": 0,
-    "preview_items": []
-  },
-  {
-    "max_players": 4,
-    "quest_fee": 600,
-    "zenny_reward": 1350,
-    "zenny_ko": 3,
-    "zenny_sub_a": 0,
-    "zenny_sub_b": 0,
-    "quest_time": 90000,
-    "map_id": 11,
-    "map": "Arctic Ridge",
-    "restriction_flags": 0,
-    "id": 65085,
-    "main_goal": {
-      "target_kind": "Hunt",
-      "target": 53,
-      "count": 1
-    },
-    "subA_goal": {
-      "target_kind": null,
-      "target": 0,
-      "count": 0
-    },
-    "subB_goal": {
-      "target_kind": null,
-      "target": 0,
-      "count": 0
-    },
-    "join_min_rank": 6,
-    "post_min_rank": 6,
-    "quest_text": {
-      "title": "≪GR6 Arctic Ridge Survey≫\nGilded Peaks",
-      "main": "Hunt a Rajang",
-      "sub_a": "None",
-      "sub_b": "None",
-      "success_cond": "Complete Main Objective",
-      "fail_cond": "Faint 3 times\nTime expires",
-      "contractor": "Mountaineer",
-      "description": "I was having the time of my\nlife, climbing mountains, as\nI usually do, but then...\neverything started shaking!\nAn earthquake? A tremor?\nHard to say. Though now that\nI think of it, I did hear a\nbeast-like roar right after.\nMaybe there's something near\nthe summit, after all?"
-    },
-    "rank": "gr",
-    "reward_boxes": {
-      "Main Reward": [
-        {
-          "percentage": 1,
-          "item_id": 6724,
-          "item_name": "Rajang Acefang",
-          "quantity": 1,
-          "guaranteed": true
-        },
-        {
-          "percentage": 33,
-          "item_id": 7002,
-          "item_name": "Rajang Acepelt",
-          "quantity": 1,
-          "guaranteed": false
-        },
-        {
-          "percentage": 45,
-          "item_id": 7134,
-          "item_name": "Chipped Bone",
-          "quantity": 1,
-          "guaranteed": false
-        },
-        {
-          "percentage": 20,
-          "item_id": 7131,
-          "item_name": "Cracked Bone",
-          "quantity": 1,
-          "guaranteed": false
-        },
-        {
-          "percentage": 1,
-          "item_id": 6725,
-          "item_name": "Pure Gold Pelt",
-          "quantity": 1,
-          "guaranteed": false
-        }
-      ]
-    },
-    "reward_variant": 0,
-    "preview_items": []
-  },
-  {
-    "max_players": 4,
-    "quest_fee": 500,
-    "zenny_reward": 1650,
-    "zenny_ko": 3,
-    "zenny_sub_a": 0,
-    "zenny_sub_b": 0,
-    "quest_time": 90000,
-    "map_id": 60,
-    "map": "Polar Sea",
-    "restriction_flags": 0,
-    "id": 65086,
-    "main_goal": {
-      "target_kind": "Hunt",
-      "target": 109,
-      "count": 1
-    },
-    "subA_goal": {
-      "target_kind": null,
-      "target": 0,
-      "count": 0
-    },
-    "subB_goal": {
-      "target_kind": null,
-      "target": 0,
-      "count": 0
-    },
-    "join_min_rank": 6,
-    "post_min_rank": 6,
-    "quest_text": {
-      "title": "≪GR6 Polar Sea Survey≫\nThe Tyrant of the Polar Sea",
-      "main": "Hunt an Anorpatis",
-      "sub_a": "None",
-      "sub_b": "None",
-      "success_cond": "Complete Main Objective",
-      "fail_cond": "Faint 3 times\nTime expires",
-      "contractor": "Hunter's Guild",
-      "description": "The Anorpatis is a brutal,\nskilled fighter -- capable\nnot only of moving freely\nabove and below ground, but\nalso of soaring through the\nair. This Quest is extremely\ndangerous, but we need you\nto do your best and hunt it\ndown. Good luck."
-    },
-    "rank": "gr",
-    "reward_boxes": {
-      "Main Reward": [
-        {
-          "percentage": 23,
-          "item_id": 6743,
-          "item_name": "Anorpatis Shell",
-          "quantity": 1,
-          "guaranteed": false
-        },
-        {
-          "percentage": 23,
-          "item_id": 6742,
-          "item_name": "Anorpatis Fang",
-          "quantity": 1,
-          "guaranteed": false
-        },
-        {
-          "percentage": 12,
-          "item_id": 7133,
-          "item_name": "Chipped Fang",
-          "quantity": 2,
-          "guaranteed": false
-        },
-        {
-          "percentage": 15,
-          "item_id": 7130,
-          "item_name": "Cracked Fang",
-          "quantity": 2,
-          "guaranteed": false
-        },
-        {
-          "percentage": 12,
-          "item_id": 7134,
-          "item_name": "Chipped Bone",
-          "quantity": 2,
-          "guaranteed": false
-        },
-        {
-          "percentage": 15,
-          "item_id": 7131,
-          "item_name": "Cracked Bone",
-          "quantity": 2,
-          "guaranteed": false
-        }
-      ]
-    },
-    "reward_variant": 4,
     "preview_items": []
   }
 ]

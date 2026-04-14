@@ -21,6 +21,7 @@ DEFAULT_DATA_PATHS = {
     "mhfinf": BASE_DATA_PATH / "game" / "mhfinf.raw.bin",
     "quests": BASE_DATA_PATH / "game" / "unpacked_quests",
     "mhfpac": BASE_DATA_PATH / "game" / "mhfpac.raw.bin",
+    "events": BASE_DATA_PATH / "game" / "events",
     # manual labels
     "monster_names": BASE_DATA_PATH / "labels" / "monster_names.json",
     "carve_labels": BASE_DATA_PATH / "labels" / "monster_carve_labels.json",
