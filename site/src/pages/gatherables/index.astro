@@ -27,18 +27,26 @@ const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) =>
   `${basePath}${targetPath.replace(/^\//, "")}`;
 
+const hasAnySeasonData = (slots: NonNullable<GatheringData["ranks"][GatheringRankKey]>) =>
+  slots.day.spring.length > 0 ||
+  slots.day.summer.length > 0 ||
+  slots.day.winter.length > 0 ||
+  slots.night.spring.length > 0 ||
+  slots.night.summer.length > 0 ||
+  slots.night.winter.length > 0;
+
 const getRankKeys = (ranks: GatheringData["ranks"]) =>
   (Object.keys(ranks) as GatheringRankKey[]).filter((rank) => {
     const slots = ranks[rank];
-    return slots && (slots.day.length > 0 || slots.night.length > 0);
+    return slots ? hasAnySeasonData(slots) : false;
   });
 ---
 
-<WikiLayout title="Gathering Maps | MHFG1 Wiki">
+<WikiLayout title="Gatherables | MHFG1 Wiki">
   <section class="space-y-2">
-    <h1>Gathering Maps</h1>
+    <h1>Gatherables</h1>
     <p class="text-slate-300">
-      Browse extracted gathering points grouped by map and available rank.
+      Browse extracted gathering nodes grouped by map and rank.
     </p>
   </section>
 
@@ -79,7 +87,7 @@ const getRankKeys = (ranks: GatheringData["ranks"]) =>
                 data-map-ranks={rankKeys.join(" ").toLowerCase()}
               >
                 <td>
-                  <a href={withBase(`gathering/${mapToSlug(mapEntry.id)}/`)}>
+                  <a href={withBase(`gatherables/${mapToSlug(mapEntry.id)}/`)}>
                     {mapEntry.id}
                   </a>
                 </td>

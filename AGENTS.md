@@ -18,6 +18,11 @@ Useful commands (from `site/`):
 - `npm run dev` (runs data build first, then starts dev server)
 - `npm run build` (runs data build first, then creates static build)
 
+Agent workflow rules:
+
+- Run all npm commands from the `site/` subdirectory (or with `--prefix site`).
+- Do not run `npm run build` unless explicitly requested, since it is too slow for normal validation.
+
 ## Data Extraction
 
 Done via the python scripts `scripts/` in. Data is taken directly from the game files in `g1_data/game/` where possible.

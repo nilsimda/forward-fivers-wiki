@@ -100,15 +100,15 @@ const totalPoints = rankSections.reduce(
 );
 ---
 
-<WikiLayout title={`${mapData.id} | Gathering | MHFG1 Wiki`}>
+<WikiLayout title={`${mapData.id} | Gatherables | MHFG1 Wiki`}>
   <article class="space-y-6">
     <header class="space-y-2">
-      <a href={withBase("gathering/")} class="text-sm">Back to gathering maps</a>
+      <a href={withBase("gathering/")} class="text-sm">Back to Gatherables Index</a>
       <div class="flex items-start gap-6">
         <div class="flex flex-1 flex-col self-stretch">
           <h1>{mapData.id}</h1>
           <p class="text-slate-300">
-            {totalPoints} gathering point{totalPoints === 1 ? "" : "s"} across all
+            {totalPoints} gathering nodes{totalPoints === 1 ? "" : "s"} across all
             extracted rank tables.
           </p>
           <div class="mt-auto flex flex-col gap-1 text-sm text-slate-300">
@@ -131,7 +131,7 @@ const totalPoints = rankSections.reduce(
 
     {rankSections.length === 0 ? (
       <section class="panel">
-        <p class="text-slate-300">No gathering points found for this map.</p>
+        <p class="text-slate-300">No gathering nodes found for this map.</p>
       </section>
     ) : (
       <div class="space-y-4">
