@@ -4,7 +4,8 @@ import fs from "node:fs";
 
 type GatheringMapData = CollectionEntry<"gathering">["data"];
 type GatheringRankKey = keyof GatheringMapData["ranks"];
-type GatheringAreaData = NonNullable<GatheringMapData["ranks"][GatheringRankKey]>[number];
+type GatheringRankSlots = NonNullable<GatheringMapData["ranks"][GatheringRankKey]>;
+type GatheringAreaData = GatheringRankSlots["day"]["spring"][number];
 type GatheringPointData = GatheringAreaData["gps"][number];
 
 interface Props {

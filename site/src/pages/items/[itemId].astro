@@ -30,6 +30,8 @@ const rankMeta = {
   er: { label: "ER (Elite Rank)", panel: "rank-panel--er", pill: "rank-pill--active-er" },
   gr: { label: "GR (G-Rank)", panel: "rank-panel--gr", pill: "rank-pill--active-gr" },
 } as const;
+const seasonSortOrder = { all: 0, spring: 1, summer: 2, winter: 3 } as const;
+const timeSortOrder = { both: 0, day: 1, night: 2 } as const;
 
 type MonsterEntry = {
   id: number;
@@ -87,12 +89,16 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
         min_count: a.min_count,
         max_count: a.max_count,
         time: a.time,
+        season: a.season,
       }))
       .sort(
         (a, b) =>
           a.map_id.localeCompare(b.map_id) ||
           a.area - b.area ||
-          a.pct - b.pct,
+          a.point_id - b.point_id ||
+          seasonSortOrder[a.season] - seasonSortOrder[b.season] ||
+          timeSortOrder[a.time] - timeSortOrder[b.time] ||
+          b.pct - a.pct,
       );
 
     return {
@@ -320,6 +326,7 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
                             <th>Map</th>
                             <th>Area</th>
                             <th>Node</th>
+                            <th>Season</th>
                             <th>Time</th>
                             <th>Chance</th>
                             <th>Node Health</th>
@@ -342,6 +349,17 @@ const rankSections = (["lr", "hr", "er", "gr"] as const)
                               </td>
                               <td>{g.area}</td>
                               <td>{g.point_id}</td>
+                              <td>
+                                {g.season === "all" ? (
+                                  <span class="text-slate-300">All Seasons</span>
+                                ) : g.season === "spring" ? (
+                                  <span class="text-emerald-300">Spring</span>
+                                ) : g.season === "summer" ? (
+                                  <span class="text-orange-300">Summer</span>
+                                ) : (
+                                  <span class="text-cyan-300">Winter</span>
+                                )}
+                              </td>
                               <td>
                                 {g.time === "both" ? (
                                   <span class="text-slate-300">Day & Night</span>

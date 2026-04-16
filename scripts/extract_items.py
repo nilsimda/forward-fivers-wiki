@@ -66,6 +66,7 @@ class GatheringAquisition(TypedDict):
     min_count: int
     max_count: int
     time: str
+    season: str
 
 
 @dataclass(slots=True)
@@ -246,6 +247,8 @@ def build_quest_aquisitions(quests_path: Path) -> dict[int, list[QuestAquisition
 
 DropKey = tuple[int, int, int]  # (area, point_id, item_id)
 DropVal = dict[str, int]  # percentage, min_count, max_count
+TimeLabel = str
+SeasonLabel = str
 
 
 def _collect_drops_by_key(
@@ -268,6 +271,38 @@ def _collect_drops_by_key(
     return out
 
 
+def _compress_time_and_season(
+    by_slot: dict[tuple[TimeLabel, SeasonLabel], DropVal],
+) -> dict[tuple[TimeLabel, SeasonLabel], DropVal]:
+    by_time: dict[tuple[TimeLabel, SeasonLabel], DropVal] = {}
+    for season in ("spring", "summer", "winter"):
+        day = by_slot.get(("day", season))
+        night = by_slot.get(("night", season))
+        if day and night and day == night:
+            by_time[("both", season)] = day
+        else:
+            if day:
+                by_time[("day", season)] = day
+            if night:
+                by_time[("night", season)] = night
+
+    compressed: dict[tuple[TimeLabel, SeasonLabel], DropVal] = {}
+    for time in ("day", "night", "both"):
+        spring = by_time.get((time, "spring"))
+        summer = by_time.get((time, "summer"))
+        winter = by_time.get((time, "winter"))
+        if spring and summer and winter and spring == summer == winter:
+            compressed[(time, "all")] = spring
+        else:
+            if spring:
+                compressed[(time, "spring")] = spring
+            if summer:
+                compressed[(time, "summer")] = summer
+            if winter:
+                compressed[(time, "winter")] = winter
+    return compressed
+
+
 def build_gathering_aquisitions(
     gathering_path: Path,
 ) -> dict[int, list[GatheringAquisition]]:
@@ -278,16 +313,28 @@ def build_gathering_aquisitions(
     for map_data in gathering:
         map_id = map_data["id"]
         for rank, time_slots in map_data["ranks"].items():
-            day_drops = _collect_drops_by_key(time_slots.get("day", []))
-            night_drops = _collect_drops_by_key(time_slots.get("night", []))
-            for key in set(day_drops) | set(night_drops):
+            drops_by_slot: dict[
+                tuple[TimeLabel, SeasonLabel], dict[DropKey, DropVal]
+            ] = {}
+            for time in ("day", "night"):
+                for season in ("spring", "summer", "winter"):
+                    areas = time_slots[time][season]
+                    drops_by_slot[(time, season)] = _collect_drops_by_key(areas)
+
+            all_keys: set[DropKey] = set()
+            for drops in drops_by_slot.values():
+                all_keys |= set(drops)
+
+            for key in all_keys:
                 area_id, point_id, item_id = key
-                d, n = day_drops.get(key), night_drops.get(key)
-                if d and n and d == n:
-                    pairs = [(d, "both")]
-                else:
-                    pairs = [(v, t) for v, t in [(d, "day"), (n, "night")] if v]
-                for vals, time in pairs:
+                values_by_slot: dict[tuple[TimeLabel, SeasonLabel], DropVal] = {
+                    slot: drops[key]
+                    for slot, drops in drops_by_slot.items()
+                    if key in drops
+                }
+                for (time, season), vals in _compress_time_and_season(
+                    values_by_slot
+                ).items():
                     index.setdefault(item_id, []).append(
                         GatheringAquisition(
                             map_id=map_id,
@@ -298,6 +345,7 @@ def build_gathering_aquisitions(
                             min_count=vals["min_count"],
                             max_count=vals["max_count"],
                             time=time,
+                            season=season,
                         )
                     )
     return index

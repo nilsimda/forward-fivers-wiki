@@ -115,9 +115,15 @@ const gatheringAreaSchema = z.object({
     gps: z.array(gatheringPointSchema),
 });
 
+const gatheringSeasonSchema = z.object({
+    spring: z.array(gatheringAreaSchema),
+    summer: z.array(gatheringAreaSchema),
+    winter: z.array(gatheringAreaSchema),
+});
+
 const gatheringTimeSlotsSchema = z.object({
-    day: z.array(gatheringAreaSchema),
-    night: z.array(gatheringAreaSchema),
+    day: gatheringSeasonSchema,
+    night: gatheringSeasonSchema,
 });
 
 const gatheringRanksSchema = z.object({
@@ -206,6 +212,7 @@ const gatheringAquisitionSchema = z.object({
     min_count: z.number().int().min(0).max(255),
     max_count: z.number().int().min(0).max(255),
     time: z.enum(["day", "night", "both"]),
+    season: z.enum(["spring", "summer", "winter", "all"]),
 });
 
 const items = defineCollection({

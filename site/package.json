@@ -6,7 +6,7 @@
         "node": ">=22.12.0"
     },
     "scripts": {
-        "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_items.py && uv run --project .. python ../scripts/extract_decos.py",
+        "data:extract": "uv run --project .. python ../scripts/extract_carves.py && uv run --project .. python ../scripts/extract_partbreaks.py && uv run --project .. python ../scripts/extract_quests.py && uv run --project .. python ../scripts/extract_gatherables.py && uv run --project .. python ../scripts/extract_items.py && uv run --project .. python ../scripts/extract_decos.py",
         "dev": "npm run data:extract && astro dev",
         "build": "astro build",
         "preview": "astro preview",
@@ -19,6 +19,7 @@
         "tailwindcss": "^4.2.1"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.19"
+        "@tailwindcss/typography": "^0.5.19",
+        "@types/node": "^25.6.0"
     }
 }

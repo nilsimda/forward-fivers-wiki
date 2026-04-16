@@ -6,6 +6,7 @@ import fs from "node:fs";
 
 type GatheringMapData = CollectionEntry<"gathering">["data"];
 type GatheringRankKey = keyof GatheringMapData["ranks"];
+type SeasonKey = "spring" | "summer" | "winter";
 
 const rankMeta: Record<
   GatheringRankKey,
@@ -33,6 +34,12 @@ const rankMeta: Record<
   },
 };
 
+const seasonMeta: Record<SeasonKey, { label: string }> = {
+  spring: { label: "Spring" },
+  summer: { label: "Summer" },
+  winter: { label: "Winter" },
+};
+
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) =>
@@ -56,25 +63,39 @@ const { mapData } = Astro.props as { mapData: GatheringMapData };
 const mapSlug = Astro.params.mapId!;
 const overviewPath = `public/img/gathering/${mapSlug}/overview.png`;
 const hasOverview = fs.existsSync(overviewPath);
+const seasonOrder: SeasonKey[] = ["spring", "summer", "winter"];
+const emptySeasonSlots = () => ({ spring: [], summer: [], winter: [] });
 const rankSections = (Object.keys(rankMeta) as GatheringRankKey[])
   .map((rank) => {
     const slots = mapData.ranks[rank];
     return {
       rank,
       ...rankMeta[rank],
-      day: slots?.day ?? [],
-      night: slots?.night ?? [],
+      day: slots?.day ?? emptySeasonSlots(),
+      night: slots?.night ?? emptySeasonSlots(),
     };
   })
-  .filter((s) => s.day.length > 0 || s.night.length > 0);
+  .filter((s) =>
+    seasonOrder.some(
+      (season) => s.day[season].length > 0 || s.night[season].length > 0,
+    ),
+  );
 const defaultRank = rankSections.some((s) => s.rank === "lr")
   ? "lr"
   : rankSections[0]?.rank;
+const defaultSeason: SeasonKey = "spring";
 
-const countGps = (areas: typeof rankSections[0]["day"]) =>
+const countGps = (areas: (typeof rankSections)[number]["day"][SeasonKey]) =>
   areas.reduce((sum, a) => sum + a.gps.length, 0);
 const totalPoints = rankSections.reduce(
-  (sum, s) => sum + Math.max(countGps(s.day), countGps(s.night)),
+  (sum, s) =>
+    sum +
+    Math.max(
+      ...seasonOrder.flatMap((season) => [
+        countGps(s.day[season]),
+        countGps(s.night[season]),
+      ]),
+    ),
   0,
 );
 ---
@@ -133,6 +154,21 @@ const totalPoints = rankSections.reduce(
               ))}
             </div>
 
+            <div
+              id="gathering-season-filter"
+              class="flex gap-1 rounded-lg bg-slate-800 p-1"
+              data-default-season={defaultSeason}
+            >
+              {seasonOrder.map((season) => (
+                <button
+                  type="button"
+                  class={`rounded-md px-3 py-1 text-sm ${season === defaultSeason ? "bg-slate-600 text-white" : "text-slate-400"}`}
+                  data-season-filter={season}
+                >
+                  {seasonMeta[season].label}
+                </button>
+              ))}
+            </div>
             <div id="gathering-time-filter" class="flex gap-1 rounded-lg bg-slate-800 p-1">
               <button
                 type="button"
@@ -153,39 +189,30 @@ const totalPoints = rankSections.reduce(
             class={`panel rank-panel ${section.panel} ${section.rank === defaultRank ? "" : "hidden"}`}
             data-rank-section={section.rank}
           >
-            {section.day.length > 0 && (
-              <div data-time-section="day">
-                <GatheringRankTable
-                  rank={section.rank}
-                  rankLabel={section.label}
-                  areas={section.day}
-                  mapSlug={mapSlug}
-                  time="day"
-                  withBase={withBase}
-                />
-              </div>
-            )}
-            {section.night.length > 0 && (
-              <div data-time-section="night" class="hidden">
-                <GatheringRankTable
-                  rank={section.rank}
-                  rankLabel={section.label}
-                  areas={section.night}
-                  mapSlug={mapSlug}
-                  time="night"
-                  withBase={withBase}
-                />
-              </div>
-            )}
-            {section.day.length === 0 && (
-              <div data-time-section="day">
-                <p class="text-slate-400 text-sm py-4">No daytime gathering data for this rank.</p>
-              </div>
-            )}
-            {section.night.length === 0 && (
-              <div data-time-section="night" class="hidden">
-                <p class="text-slate-400 text-sm py-4">No nighttime gathering data for this rank.</p>
-              </div>
+            {(["day", "night"] as const).map((time) =>
+              seasonOrder.map((season) => (
+                <div
+                  data-slot-section
+                  data-time-section={time}
+                  data-season-section={season}
+                  class="hidden"
+                >
+                  {section[time][season].length > 0 ? (
+                    <GatheringRankTable
+                      rank={section.rank}
+                      rankLabel={section.label}
+                      areas={section[time][season]}
+                      mapSlug={mapSlug}
+                      time={time}
+                      withBase={withBase}
+                    />
+                  ) : (
+                    <p class="text-slate-400 text-sm py-4">
+                      No {time === "day" ? "daytime" : "nighttime"} {seasonMeta[season].label.toLowerCase()} gathering data for this rank.
+                    </p>
+                  )}
+                </div>
+              ))
             )}
           </section>
         ))}
@@ -198,6 +225,7 @@ const totalPoints = rankSections.reduce(
   (() => {
     const rankRoot = document.getElementById("gathering-rank-filter");
     const timeRoot = document.getElementById("gathering-time-filter");
+    const seasonRoot = document.getElementById("gathering-season-filter");
     if (!rankRoot) return;
 
     const rankButtons = Array.from(
@@ -209,8 +237,18 @@ const totalPoints = rankSections.reduce(
     const timeButtons = timeRoot
       ? (Array.from(timeRoot.querySelectorAll("[data-time-filter]")) as HTMLElement[])
       : [];
+    const seasonButtons = seasonRoot
+      ? (Array.from(seasonRoot.querySelectorAll("[data-season-filter]")) as HTMLElement[])
+      : [];
+    const slotSections = Array.from(
+      document.querySelectorAll("[data-slot-section]"),
+    ) as HTMLElement[];
 
     let activeTime = "day";
+    let activeSeason = (seasonRoot?.dataset.defaultSeason || "spring") as
+      | "spring"
+      | "summer"
+      | "winter";
 
     const applyRank = (rank: string) => {
       rankSections.forEach((s) =>
@@ -222,16 +260,33 @@ const totalPoints = rankSections.reduce(
       });
     };
 
-    const applyTime = (time: string) => {
-      activeTime = time;
-      document.querySelectorAll("[data-time-section]").forEach((el) => {
-        (el as HTMLElement).classList.toggle(
+    const applySlotVisibility = () => {
+      slotSections.forEach((slot) => {
+        const slotTime = slot.dataset.timeSection;
+        const slotSeason = slot.dataset.seasonSection;
+        slot.classList.toggle(
           "hidden",
-          el.getAttribute("data-time-section") !== time,
+          slotTime !== activeTime || slotSeason !== activeSeason,
         );
       });
+    };
+
+    const applyTime = (time: string) => {
+      activeTime = time;
+      applySlotVisibility();
       timeButtons.forEach((b) => {
         const active = b.dataset.timeFilter === time;
+        b.classList.toggle("bg-slate-600", active);
+        b.classList.toggle("text-white", active);
+        b.classList.toggle("text-slate-400", !active);
+      });
+    };
+
+    const applySeason = (season: "spring" | "summer" | "winter") => {
+      activeSeason = season;
+      applySlotVisibility();
+      seasonButtons.forEach((b) => {
+        const active = b.dataset.seasonFilter === season;
         b.classList.toggle("bg-slate-600", active);
         b.classList.toggle("text-white", active);
         b.classList.toggle("text-slate-400", !active);
@@ -248,10 +303,17 @@ const totalPoints = rankSections.reduce(
         if (b.dataset.timeFilter) applyTime(b.dataset.timeFilter);
       }),
     );
+    seasonButtons.forEach((b) =>
+      b.addEventListener("click", () => {
+        const season = b.dataset.seasonFilter as "spring" | "summer" | "winter";
+        if (season) applySeason(season);
+      }),
+    );
 
     const initialRank = rankRoot.dataset.defaultRank;
     if (initialRank) applyRank(initialRank);
     applyTime("day");
+    applySeason(activeSeason);
   })();
 
 </script>
