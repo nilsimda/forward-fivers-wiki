@@ -277,7 +277,8 @@ def extract_melee_weapons(
         if mw.model_id == 0xFFFF:
             break
         counter += 1
-        result.append(mw)
+        if name != "ダミー":
+            result.append(mw)
 
     return result
 
