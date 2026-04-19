@@ -103,7 +103,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
 
 {weapon.crafting && weapon.crafting.material_costs.length > 0 && (
   <section class="panel mt-6">
-    <h2 class="text-lg">Shop Crafting Materials</h2>
+    <h2 class="text-lg">Craft from Shop</h2>
     <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
       {weapon.crafting.material_costs.map((cost) => (
         <li>
@@ -122,7 +122,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
 
 {weapon.upgrade_entry.material_costs.length > 0 && (
   <section class="panel mt-6">
-    <h2 class="text-lg">Upgrade Crafting Materials</h2>
+    <h2 class="text-lg">Craft via Upgrade</h2>
     <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
       {weapon.upgrade_entry.material_costs.map((cost) => (
         <li>
