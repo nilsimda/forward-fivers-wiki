@@ -39,7 +39,6 @@ def _load_length_names(mhfpac_raw: bytes) -> dict[int, str]:
         name_pointer = read_u32(mhfpac_raw, 0x000BA4F4 + i * 4)
         result[i] = decode_c_string(mhfpac_raw, name_pointer)
 
-    print(result.values())
     return result
 
 
@@ -101,6 +100,7 @@ class Sharpness:
 class Weapon(ABC):
     name: str
     description: str
+    crafting: WeaponCraftingEntry | None
 
 
 @dataclass(slots=True)
@@ -144,6 +144,7 @@ class MeleeWeapon(Weapon):
         item_names: dict[int, str],
         weapon_names: dict[int, str],
         length_names: dict[int, str],
+        weapon_crafting: dict[int, WeaponCraftingEntry],
     ) -> "MeleeWeapon":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         upgrade_pointer = (
@@ -163,6 +164,7 @@ class MeleeWeapon(Weapon):
             id=idx,
             name="",
             description="",
+            crafting=weapon_crafting[idx] if idx in weapon_crafting else None,
             model_id=unpacked[0],
             rarity=unpacked[1],
             class_name=weapon_names[unpacked[2]],
@@ -201,15 +203,53 @@ class RangedWeapon(Weapon):
     pass
 
 
-class UpgradeMaterialCost(TypedDict):
+class MaterialCost(TypedDict):
     item_id: int
     item_name: str
     amount: int
 
 
 @dataclass(slots=True)
+class WeaponCraftingEntry:
+    purchasable: bool
+    weapon_id: int
+    material_costs: tuple[MaterialCost, ...]
+
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BBH2HI2HI2HI2HI12B")
+
+    @classmethod
+    def unpack_from(cls, raw: bytes, offset: int, item_names) -> "WeaponCraftingEntry":
+        unpacked = cls._STRUCT.unpack_from(raw, offset)
+        material_costs = []
+        for item_id, amount in (
+            (unpacked[3], unpacked[4]),
+            (unpacked[6], unpacked[7]),
+            (unpacked[9], unpacked[10]),
+        ):
+            if item_id <= 0 or amount <= 0:
+                continue
+            material_costs.append(
+                MaterialCost(
+                    item_id=item_id,
+                    item_name=item_names[item_id],
+                    amount=amount,
+                )
+            )
+
+        return cls(
+            purchasable=bool(unpacked[1]),
+            weapon_id=unpacked[2],
+            material_costs=tuple(material_costs),
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls._STRUCT.size
+
+
+@dataclass(slots=True)
 class UpgradeEntry:
-    material_costs: tuple[UpgradeMaterialCost, ...]
+    material_costs: tuple[MaterialCost, ...]
 
     upgrades_to: tuple[int, ...]
 
@@ -229,7 +269,7 @@ class UpgradeEntry:
             if item_id <= 0 or amount <= 0:
                 continue
             material_costs.append(
-                UpgradeMaterialCost(
+                MaterialCost(
                     item_id=item_id,
                     item_name=item_names[item_id],
                     amount=amount,
@@ -255,6 +295,24 @@ class UpgradeEntry:
         return cls._STRUCT.size
 
 
+def _extract_weapon_crafting(
+    raw: bytes, item_names: dict[int, str]
+) -> dict[int, WeaponCraftingEntry]:
+    base_pointer = read_u32(raw, 0x00000038)
+    result: dict[int, WeaponCraftingEntry] = {}
+    while True:
+        wce = WeaponCraftingEntry.unpack_from(raw, base_pointer, item_names)
+        base_pointer += WeaponCraftingEntry.size()
+        if wce.weapon_id == 0:
+            break
+        if wce.weapon_id not in result:
+            result[wce.weapon_id] = wce
+        else:
+            print(f"Duplicate weapon crafting entry for {wce.weapon_id}")
+
+    return result
+
+
 def extract_melee_weapons(
     raw: bytes,
     item_names: dict[int, str],
@@ -263,15 +321,20 @@ def extract_melee_weapons(
 ) -> list[MeleeWeapon]:
     base_pointer = read_u32(raw, MELEE_WEAPON_DATA_POINTER)
     names_pointer = read_u32(raw, MELEE_WEAPON_NAMES_POINTER)
-    # descriptions_pointer = read_u32(raw, MELEE_WEAPON_DESCRIPTIONS_POINTER)
+    weapon_crafting = _extract_weapon_crafting(raw, item_names)
     counter = 0
     result = []
     while True:
         name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
         mw = MeleeWeapon.unpack_from(
-            raw, base_pointer, counter, item_names, weapon_names, length_names
+            raw,
+            base_pointer,
+            counter,
+            item_names,
+            weapon_names,
+            length_names,
+            weapon_crafting,
         )
-        mw.id = counter
         mw.name = name
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
@@ -319,7 +382,6 @@ def main() -> None:
     length_names = _load_length_names(mhfpac_raw)
 
     melee_weapons = extract_melee_weapons(raw, item_names, weapon_names, length_names)
-    print(len(melee_weapons))
 
     write_json_output(args.output, melee_weapons)
 

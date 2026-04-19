@@ -92,36 +92,52 @@ const fmtAffinity = (w: MeleeWeapon) =>
   </div>
 </section>
 
-<section class="panel mt-6">
-  <h2 class="text-lg">Upgrade</h2>
-  {weapon.upgrade_entry.material_costs.length === 0 ? (
-    <p class="mt-3 text-slate-400">No material costs listed for this upgrade entry.</p>
-  ) : (
-    <small>
-      <table class="table-compact mt-3">
-        <tbody>
-          <tr>
-            <td class="w-20 shrink-0 align-top text-slate-400">Materials</td>
-            <td class="text-slate-200">
-              {weapon.upgrade_entry.material_costs.map((cost, i) => (
-                <span>
-                  {i > 0 && <span class="text-slate-500">, </span>}
-                  <a
-                    class="text-cyan-300 hover:text-cyan-200"
-                    href={withBase(`items/${cost.item_id}/`)}
-                  >
-                    {cost.item_name}
-                  </a>
-                  <span class="text-slate-300"> {cost.amount}</span>
-                </span>
-              ))}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </small>
-  )}
-</section>
+{weapon.crafting?.purchasable && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">Purchase</h2>
+    <p class="mt-3 text-slate-300">
+      Price: <span class="tabular-nums">{weapon.price}</span>z
+    </p>
+  </section>
+)}
+
+{weapon.crafting && weapon.crafting.material_costs.length > 0 && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">Shop Crafting Materials</h2>
+    <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
+      {weapon.crafting.material_costs.map((cost) => (
+        <li>
+          <a
+            class="text-cyan-300 hover:text-cyan-200"
+            href={withBase(`items/${cost.item_id}/`)}
+          >
+            {cost.item_name}
+          </a>
+          <span class="text-slate-300"> {cost.amount}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+
+{weapon.upgrade_entry.material_costs.length > 0 && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">Upgrade Crafting Materials</h2>
+    <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
+      {weapon.upgrade_entry.material_costs.map((cost) => (
+        <li>
+          <a
+            class="text-cyan-300 hover:text-cyan-200"
+            href={withBase(`items/${cost.item_id}/`)}
+          >
+            {cost.item_name}
+          </a>
+          <span class="text-slate-300"> {cost.amount}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
 
 <section class="panel mt-6">
   <h2 class="text-lg">Branches to</h2>

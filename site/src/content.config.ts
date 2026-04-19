@@ -275,6 +275,12 @@ const weaponUpgradeCostSchema = z.object({
     amount: z.number().int().min(1),
 });
 
+const weaponCraftingEntrySchema = z.object({
+    purchasable: z.boolean(),
+    weapon_id: z.number().int().min(1),
+    material_costs: z.array(weaponUpgradeCostSchema),
+});
+
 const weaponUpgradeEntrySchema = z.object({
     material_costs: z.array(weaponUpgradeCostSchema),
     upgrades_to: z.array(z.number().int().min(1)),
@@ -297,6 +303,7 @@ const meleeWeapons = defineCollection({
         id: z.int().min(0),
         name: z.string(),
         description: z.string(),
+        crafting: z.nullable(weaponCraftingEntrySchema),
         model_id: z.number().int().min(0).max(65535),
         rarity: z.number().int().min(0).max(255),
         class_name: z.string(),
