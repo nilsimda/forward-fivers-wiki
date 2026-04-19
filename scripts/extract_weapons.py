@@ -111,7 +111,7 @@ class MeleeWeapon(Weapon):
     class_name: str  # u8
     price: int  # u32
     sharpness: Sharpness  # sharpness index u8 into table
-    sharpness_length: int  # u8
+    sharpness_cap: int  # u8 tier → cap = 150 + tier*50
     raw_damage: int  # u16
     defense: int  # u16
     affinity: int  # u8
@@ -140,14 +140,14 @@ class MeleeWeapon(Weapon):
         cls,
         raw: bytes,
         offset: int,
+        idx: int,
         item_names: dict[int, str],
         weapon_names: dict[int, str],
         length_names: dict[int, str],
     ) -> "MeleeWeapon":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         upgrade_pointer = (
-            read_u32(raw, MELEE_WEAPON_UPGRADES_POINTER)
-            + unpacked[16] * UpgradeEntry.size()
+            read_u32(raw, MELEE_WEAPON_UPGRADES_POINTER) + idx * UpgradeEntry.size()
         )
         sharpness_header_pointer = 0x000000AC
         sharpness_base_pointer = read_u32(raw, sharpness_header_pointer)
@@ -160,7 +160,7 @@ class MeleeWeapon(Weapon):
 
         upgrade_entry = UpgradeEntry.unpack_from(raw, upgrade_pointer, item_names)
         return cls(
-            id=0,
+            id=idx,
             name="",
             description="",
             model_id=unpacked[0],
@@ -168,14 +168,14 @@ class MeleeWeapon(Weapon):
             class_name=weapon_names[unpacked[2]],
             price=unpacked[3] // 2,  # for some reason the ingame price is half
             sharpness=sharpness,
-            sharpness_length=150 + unpacked[5] * 50,
-            raw_damage=unpacked[6],
+            sharpness_cap=150 + unpacked[5] * 50,
+            raw_damage=unpacked[6],  # TODO: add weapon mutliplier
             defense=unpacked[7],
             affinity=unpacked[8],
             element=ELEMENT_NAMES[unpacked[9]],
-            element_damage=unpacked[10],
+            element_damage=unpacked[10] * 10,
             ailment=AILMENT_NAMES[unpacked[11]],
-            ailment_damage=unpacked[12],
+            ailment_damage=unpacked[12] * 10,
             slots=unpacked[13],
             weapon_attribute=unpacked[14],
             unk1=unpacked[15],
@@ -269,7 +269,7 @@ def extract_melee_weapons(
     while True:
         name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
         mw = MeleeWeapon.unpack_from(
-            raw, base_pointer, item_names, weapon_names, length_names
+            raw, base_pointer, counter, item_names, weapon_names, length_names
         )
         mw.id = counter
         mw.name = name

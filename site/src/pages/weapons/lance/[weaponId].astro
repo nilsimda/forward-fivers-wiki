@@ -1,0 +1,24 @@
+---
+import MeleeWeaponDetailLayout from "../../../layouts/MeleeWeaponDetailLayout.astro";
+import MeleeWeaponDetailPanels from "../../../components/MeleeWeaponDetailPanels.astro";
+import { getMeleeWeaponStaticPaths } from "../../../lib/getMeleeWeaponStaticPaths";
+import type { CollectionEntry } from "astro:content";
+
+type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
+
+export async function getStaticPaths() {
+  return getMeleeWeaponStaticPaths("Lance");
+}
+
+const { weapon } = Astro.props as { weapon: MeleeWeapon };
+---
+
+<MeleeWeaponDetailLayout
+  title={`${weapon.name} | MHFG1 Wiki`}
+  weaponName={weapon.name}
+  classDisplayName={weapon.class_name}
+  classIndexPath="weapons/lance/"
+  description={weapon.description}
+>
+  <MeleeWeaponDetailPanels weapon={weapon} />
+</MeleeWeaponDetailLayout>

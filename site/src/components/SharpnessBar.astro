@@ -12,10 +12,12 @@ interface SharpnessValues {
 
 interface Props {
   sharpness: SharpnessValues;
-  sharpnessLength: number;
+  sharpnessCap: number;
+  /** Scale raw sharpness units to CSS pixels (game units are large). */
+  pixelScale?: number;
 }
 
-const { sharpness, sharpnessLength } = Astro.props as Props;
+const { sharpness, sharpnessCap, pixelScale = 0.2 } = Astro.props as Props;
 
 const colorMeta = [
   { key: "red", label: "Red", className: "bg-red-700" },
@@ -28,31 +30,31 @@ const colorMeta = [
   { key: "cyan", label: "Cyan", className: "bg-cyan-400" },
 ] as const;
 
-const cappedLength = Math.max(0, sharpnessLength);
+const cappedCap = Math.max(0, sharpnessCap);
 
 const segments = colorMeta.map((meta, index) => {
   const prevRawEnd = index > 0 ? sharpness[colorMeta[index - 1].key] : 0;
   const rawEnd = sharpness[meta.key];
 
-  const start = Math.min(Math.max(0, prevRawEnd), cappedLength);
-  const end = Math.min(Math.max(0, rawEnd), cappedLength);
-  const width = Math.max(0, end - start);
+  const start = Math.min(Math.max(0, prevRawEnd), cappedCap);
+  const end = Math.min(Math.max(0, rawEnd), cappedCap);
+  const width = Math.max(0, end - start) * pixelScale;
 
   return { ...meta, width };
 });
 ---
 
 <div
-  class="flex h-4 overflow-hidden rounded-sm border border-slate-700 bg-slate-900"
+  class="flex h-2 max-w-[120px] overflow-hidden rounded-sm border border-slate-800 bg-slate-900"
   role="img"
-  aria-label={`Sharpness bar (length ${sharpnessLength})`}
+  aria-label={`Sharpness bar (cap ${sharpnessCap})`}
 >
   {
     segments.map((segment) => (
       <span
         class={segment.className}
-        style={`width: ${segment.width}px`}
-        title={`${segment.label}: ${segment.width}`}
+        style={`width: ${segment.width}px; min-width: ${segment.width > 0 ? "1px" : "0"}`}
+        title={`${segment.label}: ${Math.round(segment.width / pixelScale)} (at cap ${sharpnessCap})`}
       />
     ))
   }

@@ -1,0 +1,189 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import SharpnessBar from "./SharpnessBar.astro";
+import { weaponClasses } from "../data/weaponClasses";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+interface Props {
+  className: string;
+}
+
+const { className } = Astro.props;
+type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
+
+const allWeapons: MeleeWeapon[] = (await getCollection("meleeWeapons"))
+  .map((entry) => entry.data)
+  .sort((a, b) => a.id - b.id);
+
+const classWeapons = allWeapons.filter((w) => w.class_name === className && w.id !== 0);
+const byId = new Map<number, MeleeWeapon>();
+for (const w of allWeapons) byId.set(w.id, w);
+
+const resolveUpgradeIds = (weapon: MeleeWeapon): number[] =>
+  weapon.upgrade_entry.upgrades_to
+    .filter((id) => id !== 0);
+
+const incoming = new Map<number, number>();
+for (const w of allWeapons) {
+  for (const targetId of w.upgrade_entry.upgrades_to) {
+    if (targetId === 0) continue;
+    incoming.set(targetId, (incoming.get(targetId) ?? 0) + 1);
+  }
+}
+
+const seedsPrimary = classWeapons
+  .filter((w) => (incoming.get(w.id) ?? 0) === 0)
+  .sort((a, b) => a.id - b.id);
+
+type TreeRow = { depth: number; weapon: MeleeWeapon };
+const visited = new Set<number>();
+const forestRows: TreeRow[][] = [];
+
+const collectSubtree = (weapon: MeleeWeapon, depth: number, bucket: TreeRow[]) => {
+  if (weapon.id === 0) return;
+  if (visited.has(weapon.id)) return;
+  visited.add(weapon.id);
+  bucket.push({ depth, weapon });
+
+  const childIds = resolveUpgradeIds(weapon).sort((a, b) => a - b);
+  for (const cid of childIds) {
+    const child = byId.get(cid);
+    if (child) collectSubtree(child, depth + 1, bucket);
+  }
+};
+
+for (const root of seedsPrimary) {
+  if (visited.has(root.id)) continue;
+  const bucket: TreeRow[] = [];
+  collectSubtree(root, 0, bucket);
+  forestRows.push(bucket);
+}
+
+const seedsOrphan = classWeapons
+  .filter((w) => !visited.has(w.id))
+  .sort((a, b) => a.id - b.id);
+
+for (const root of seedsOrphan) {
+  if (visited.has(root.id)) continue;
+  const bucket: TreeRow[] = [];
+  collectSubtree(root, 0, bucket);
+  forestRows.push(bucket);
+}
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const slugByClassName = new Map(
+  weaponClasses.map((c) => [c.name, c.slug] as const),
+);
+
+const weaponDetailHref = (w: MeleeWeapon) => {
+  const slug = slugByClassName.get(w.class_name);
+  return slug ? withBase(`weapons/${slug}/${w.id}/`) : withBase("weapons/");
+};
+
+const fmtElem = (w: MeleeWeapon) =>
+  w.element ? `${w.element} ${w.element_damage}` : "—";
+const fmtAilment = (w: MeleeWeapon) =>
+  w.ailment ? `${w.ailment} ${w.ailment_damage}` : "—";
+const fmtSlots = (w: MeleeWeapon) =>
+  w.slots === 0 ? "—" : "○".repeat(w.slots);
+
+const fmtAffinity = (w: MeleeWeapon) =>
+  w.affinity === 0 ? "0%" : `${w.affinity > 0 ? "+" : ""}${w.affinity}%`;
+---
+
+<WikiLayout title={`${className} | MHFG1 Wiki`}>
+  <section class="space-y-2">
+    <h1>{className}</h1>
+  </section>
+
+  <section class="panel mt-6">
+    <h2 class="text-lg">Weapon trees</h2>
+    {classWeapons.length === 0 ? (
+      <p class="mt-3 text-slate-300">No weapons found for this class.</p>
+    ) : forestRows.length === 0 ? (
+      <p class="mt-3 text-slate-300">No tree roots derived for this class.</p>
+    ) : (
+      <div class="table-wrap mt-4 space-y-8">
+        {forestRows.map((rows) => (
+          <table class="table-grid">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Raw</th>
+                <th>Aff.</th>
+                <th>Elem./Ail.</th>
+                <th>Slots</th>
+                <th>Sharpness</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map(({ depth, weapon }) => (
+                <tr>
+                  <td>
+                    <div
+                      class="flex flex-wrap items-baseline gap-x-2 gap-y-1"
+                      style={`padding-left: ${0.5 + depth * 1.125}rem`}
+                    >
+                      {depth > 0 && (
+                        <span class="text-slate-500 select-none" aria-hidden="true">
+                          └
+                        </span>
+                      )}
+                      <a href={weaponDetailHref(weapon)}>{weapon.name}</a>
+                      {weapon.class_name !== className && (
+                        <span class="text-xs text-slate-500">({weapon.class_name})</span>
+                      )}
+                    </div>
+                  </td>
+                  <td>{weapon.raw_damage}</td>
+                  <td class="whitespace-nowrap tabular-nums">{fmtAffinity(weapon)}</td>
+                  <td>
+                    <ul class="space-y-0.5 whitespace-nowrap">
+                      <li>{fmtElem(weapon)}</li>
+                      <li>{fmtAilment(weapon)}</li>
+                    </ul>
+                  </td>
+                  <td class="font-mono text-slate-200">{fmtSlots(weapon)}</td>
+                  <td>
+                    <small>
+                      <table class="table-compact">
+                        <tbody>
+                          <tr>
+                            <td class="w-10 shrink-0">+0</td>
+                            <td>
+                              <SharpnessBar
+                                sharpness={weapon.sharpness}
+                                sharpnessCap={weapon.sharpness_cap}
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>+1</td>
+                            <td>
+                              <SharpnessBar
+                                sharpness={weapon.sharpness}
+                                sharpnessCap={weapon.sharpness_cap + 50}
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </small>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <p class="mt-6">
+    <a href={withBase("weapons/")}>Back to weapon class index</a>
+  </p>
+</WikiLayout>

@@ -1,0 +1,147 @@
+---
+import SharpnessBar from "./SharpnessBar.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import { weaponClasses } from "../data/weaponClasses";
+
+type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
+
+interface Props {
+  weapon: MeleeWeapon;
+}
+
+const { weapon } = Astro.props as Props;
+
+const byId = new Map<number, MeleeWeapon>(
+  (await getCollection("meleeWeapons")).map((e) => [e.data.id, e.data]),
+);
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const slugByClassName = new Map(
+  weaponClasses.map((c) => [c.name, c.slug] as const),
+);
+
+const hrefForWeapon = (w: MeleeWeapon) => {
+  const slug = slugByClassName.get(w.class_name);
+  return slug ? withBase(`weapons/${slug}/${w.id}/`) : withBase("weapons/");
+};
+
+const fmtElem = (w: MeleeWeapon) =>
+  w.element ? `${w.element} ${w.element_damage}` : "—";
+const fmtAilment = (w: MeleeWeapon) =>
+  w.ailment ? `${w.ailment} ${w.ailment_damage}` : "—";
+const fmtSlots = (w: MeleeWeapon) =>
+  w.slots === 0 ? "—" : "○".repeat(w.slots);
+const fmtAffinity = (w: MeleeWeapon) =>
+  w.affinity === 0 ? "0%" : `${w.affinity > 0 ? "+" : ""}${w.affinity}%`;
+---
+
+<section class="panel mt-6">
+  <h2 class="text-lg">Stats</h2>
+  <div class="table-wrap mt-4">
+    <table class="table-grid">
+      <thead>
+        <tr>
+          <th>Raw</th>
+          <th>Aff.</th>
+          <th>Element</th>
+          <th>Ailment</th>
+          <th>Slots</th>
+          <th>Sharpness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{weapon.raw_damage}</td>
+          <td class="tabular-nums">{fmtAffinity(weapon)}</td>
+          <td class="whitespace-nowrap">{fmtElem(weapon)}</td>
+          <td class="whitespace-nowrap">{fmtAilment(weapon)}</td>
+          <td class="font-mono text-slate-200">{fmtSlots(weapon)}</td>
+          <td>
+            <small>
+              <table class="table-compact">
+                <tbody>
+                  <tr>
+                    <td class="w-10 shrink-0">+0</td>
+                    <td>
+                      <SharpnessBar
+                        sharpness={weapon.sharpness}
+                        sharpnessCap={weapon.sharpness_cap}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>+1</td>
+                    <td>
+                      <SharpnessBar
+                        sharpness={weapon.sharpness}
+                        sharpnessCap={weapon.sharpness_cap + 50}
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </small>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="panel mt-6">
+  <h2 class="text-lg">Upgrade</h2>
+  {weapon.upgrade_entry.material_costs.length === 0 ? (
+    <p class="mt-3 text-slate-400">No material costs listed for this upgrade entry.</p>
+  ) : (
+    <small>
+      <table class="table-compact mt-3">
+        <tbody>
+          <tr>
+            <td class="w-20 shrink-0 align-top text-slate-400">Materials</td>
+            <td class="text-slate-200">
+              {weapon.upgrade_entry.material_costs.map((cost, i) => (
+                <span>
+                  {i > 0 && <span class="text-slate-500">, </span>}
+                  <a
+                    class="text-cyan-300 hover:text-cyan-200"
+                    href={withBase(`items/${cost.item_id}/`)}
+                  >
+                    {cost.item_name}
+                  </a>
+                  <span class="text-slate-300"> {cost.amount}</span>
+                </span>
+              ))}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </small>
+  )}
+</section>
+
+<section class="panel mt-6">
+  <h2 class="text-lg">Branches to</h2>
+  {weapon.upgrade_entry.upgrades_to.length === 0 ? (
+    <p class="mt-3 text-slate-400">No further upgrades in data.</p>
+  ) : (
+    <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
+      {weapon.upgrade_entry.upgrades_to.map((id) => {
+        const next = byId.get(id);
+        return (
+          <li>
+            {next ? (
+              <a href={hrefForWeapon(next)}>{next.name}</a>
+            ) : (
+              <span>#{id} (missing)</span>
+            )}
+            {next && <span class="text-slate-500"> — {next.class_name}</span>}
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</section>
