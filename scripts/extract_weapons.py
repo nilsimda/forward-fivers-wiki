@@ -277,7 +277,7 @@ def extract_melee_weapons(
         if mw.model_id == 0xFFFF:
             break
         counter += 1
-        if name != "ダミー":
+        if name != "ダミー":  # filter out dummy weapons
             result.append(mw)
 
     return result
