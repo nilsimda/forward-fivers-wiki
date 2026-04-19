@@ -144,7 +144,7 @@ class MeleeWeapon(Weapon):
         item_names: dict[int, str],
         weapon_names: dict[int, str],
         length_names: dict[int, str],
-        weapon_crafting: dict[int, WeaponCraftingEntry],
+        weapon_crafting: dict[tuple[str, int], WeaponCraftingEntry],
     ) -> "MeleeWeapon":
         unpacked = cls._STRUCT.unpack_from(raw, offset)
         upgrade_pointer = (
@@ -164,7 +164,9 @@ class MeleeWeapon(Weapon):
             id=idx,
             name="",
             description="",
-            crafting=weapon_crafting[idx] if idx in weapon_crafting else None,
+            crafting=weapon_crafting["melee", idx]
+            if ("melee", idx) in weapon_crafting
+            else None,
             model_id=unpacked[0],
             rarity=unpacked[1],
             class_name=weapon_names[unpacked[2]],
@@ -211,6 +213,7 @@ class MaterialCost(TypedDict):
 
 @dataclass(slots=True)
 class WeaponCraftingEntry:
+    kind: str
     purchasable: bool
     weapon_id: int
     material_costs: tuple[MaterialCost, ...]
@@ -236,7 +239,14 @@ class WeaponCraftingEntry:
                 )
             )
 
+        kind = "unkown"
+        if unpacked[0] == 6:
+            kind = "melee"
+        if unpacked[0] == 7:
+            kind = "ranged"
+
         return cls(
+            kind=kind,
             purchasable=bool(unpacked[1]),
             weapon_id=unpacked[2],
             material_costs=tuple(material_costs),
@@ -297,18 +307,18 @@ class UpgradeEntry:
 
 def _extract_weapon_crafting(
     raw: bytes, item_names: dict[int, str]
-) -> dict[int, WeaponCraftingEntry]:
+) -> dict[tuple[str, int], WeaponCraftingEntry]:
     base_pointer = read_u32(raw, 0x00000038)
-    result: dict[int, WeaponCraftingEntry] = {}
+    result: dict[tuple[str, int], WeaponCraftingEntry] = {}
     while True:
         wce = WeaponCraftingEntry.unpack_from(raw, base_pointer, item_names)
         base_pointer += WeaponCraftingEntry.size()
         if wce.weapon_id == 0:
             break
-        if wce.weapon_id not in result:
-            result[wce.weapon_id] = wce
+        if (wce.kind, wce.weapon_id) not in result:
+            result[(wce.kind, wce.weapon_id)] = wce
         else:
-            print(f"Duplicate weapon crafting entry for {wce.weapon_id}")
+            print(f"Duplicate WCE {wce}")
 
     return result
 
