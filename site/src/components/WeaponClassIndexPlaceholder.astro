@@ -1,0 +1,72 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import SharpnessBar from "./SharpnessBar.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+interface Props {
+  className: string;
+}
+
+const { className } = Astro.props;
+type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
+const weapons: MeleeWeapon[] = (await getCollection("meleeWeapons"))
+  .map((entry) => entry.data)
+  .filter((weapon) => weapon.class_name === className)
+  .sort((a, b) => a.id - b.id);
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+---
+
+<WikiLayout title={`${className} | MHFG1 Wiki`}>
+  <section class="space-y-2">
+    <h1>{className}</h1>
+    <p class="text-slate-300">
+      Weapon list with sharpness bars generated from endpoint sharpness data.
+    </p>
+  </section>
+
+  <section class="panel mt-6">
+    <h2 class="text-lg">Weapons</h2>
+    {weapons.length === 0 ? (
+      <p class="mt-3 text-slate-300">No weapons found for this class.</p>
+    ) : (
+      <div class="table-wrap mt-4">
+        <table class="table-grid">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>ID</th>
+              <th>Raw</th>
+              <th>Sharpness</th>
+            </tr>
+          </thead>
+          <tbody>
+            {weapons.map((weapon) => (
+              <tr>
+                <td>{weapon.name}</td>
+                <td>{weapon.id}</td>
+                <td>{weapon.raw_damage}</td>
+                <td>
+                  <div class="space-y-2">
+                    <SharpnessBar
+                      sharpness={weapon.sharpness}
+                      sharpnessLength={weapon.sharpness_length}
+                    />
+                    <p class="text-xs text-slate-400">Length: {weapon.sharpness_length}</p>
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </section>
+
+  <p class="mt-6">
+    <a href={withBase("weapons/")}>Back to weapon class index</a>
+  </p>
+</WikiLayout>

@@ -268,4 +268,57 @@ const decos = defineCollection({
     }),
 });
 
-export const collections = { monsterCarves, monsterPartbreaks, gathering, quests, items, decos };
+// WEAPONS
+const weaponUpgradeCostSchema = z.object({
+    item_id: itemIdSchema,
+    item_name: z.string(),
+    amount: z.number().int().min(1),
+});
+
+const weaponUpgradeEntrySchema = z.object({
+    material_costs: z.array(weaponUpgradeCostSchema),
+    upgrades_to: z.array(z.number().int().min(1)),
+});
+
+const weaponSharpnessSchema = z.object({
+    red: z.number().int().min(0).max(400),
+    orange: z.number().int().min(0).max(400),
+    yellow: z.number().int().min(0).max(400),
+    green: z.number().int().min(0).max(400),
+    blue: z.number().int().min(0).max(400),
+    white: z.number().int().min(0).max(400),
+    purple: z.number().int().min(0).max(400),
+    cyan: z.number().int().min(0).max(400),
+});
+
+const meleeWeapons = defineCollection({
+    loader: file("src/data/generated/weapons.json"),
+    schema: z.object({
+        id: z.int().min(0),
+        name: z.string(),
+        description: z.string(),
+        model_id: z.number().int().min(0).max(65535),
+        rarity: z.number().int().min(0).max(255),
+        class_name: z.string(),
+        price: z.number().int().min(0),
+        sharpness: weaponSharpnessSchema,
+        sharpness_length: z.number().int().min(150),
+        raw_damage: z.number().int().min(0).max(65535),
+        defense: z.number().int().min(0).max(65535),
+        affinity: z.number().int().min(-100).max(100),
+        element: z.nullable(z.string()),
+        element_damage: z.number().int().min(0).max(255),
+        ailment: z.nullable(z.string()),
+        ailment_damage: z.number().int().min(0).max(255),
+        slots: z.number().int().min(0).max(255),
+        weapon_attribute: z.number().int().min(0).max(255),
+        upgrade_entry: weaponUpgradeEntrySchema,
+        other_model_id: z.number().int().min(0).max(65535),
+        equip_type: z.string(),
+        length: z.string(),
+        weapon_type: z.number().int().min(0),
+        visual_effects: z.number().int().min(0).max(65535),
+    }),
+});
+
+export const collections = { monsterCarves, monsterPartbreaks, gathering, quests, items, decos, meleeWeapons };

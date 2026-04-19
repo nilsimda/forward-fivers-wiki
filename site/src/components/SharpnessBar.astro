@@ -1,0 +1,59 @@
+---
+interface SharpnessValues {
+  red: number;
+  orange: number;
+  yellow: number;
+  green: number;
+  blue: number;
+  white: number;
+  purple: number;
+  cyan: number;
+}
+
+interface Props {
+  sharpness: SharpnessValues;
+  sharpnessLength: number;
+}
+
+const { sharpness, sharpnessLength } = Astro.props as Props;
+
+const colorMeta = [
+  { key: "red", label: "Red", className: "bg-red-700" },
+  { key: "orange", label: "Orange", className: "bg-orange-500" },
+  { key: "yellow", label: "Yellow", className: "bg-yellow-400" },
+  { key: "green", label: "Green", className: "bg-emerald-500" },
+  { key: "blue", label: "Blue", className: "bg-sky-500" },
+  { key: "white", label: "White", className: "bg-slate-100" },
+  { key: "purple", label: "Purple", className: "bg-violet-500" },
+  { key: "cyan", label: "Cyan", className: "bg-cyan-400" },
+] as const;
+
+const cappedLength = Math.max(0, sharpnessLength);
+
+const segments = colorMeta.map((meta, index) => {
+  const prevRawEnd = index > 0 ? sharpness[colorMeta[index - 1].key] : 0;
+  const rawEnd = sharpness[meta.key];
+
+  const start = Math.min(Math.max(0, prevRawEnd), cappedLength);
+  const end = Math.min(Math.max(0, rawEnd), cappedLength);
+  const width = Math.max(0, end - start);
+
+  return { ...meta, width };
+});
+---
+
+<div
+  class="flex h-4 overflow-hidden rounded-sm border border-slate-700 bg-slate-900"
+  role="img"
+  aria-label={`Sharpness bar (length ${sharpnessLength})`}
+>
+  {
+    segments.map((segment) => (
+      <span
+        class={segment.className}
+        style={`width: ${segment.width}px`}
+        title={`${segment.label}: ${segment.width}`}
+      />
+    ))
+  }
+</div>

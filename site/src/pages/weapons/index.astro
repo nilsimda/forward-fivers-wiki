@@ -1,0 +1,33 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { weaponClasses } from "../../data/weaponClasses";
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+---
+
+<WikiLayout title="Weapons | MHFG1 Wiki">
+  <section class="space-y-2">
+    <h1>Weapon Index</h1>
+    <p class="text-slate-300">
+      Browse by weapon class. Each class has its own index page.
+    </p>
+  </section>
+
+  <section class="panel mt-6">
+    <h2 class="text-lg">Weapon Classes</h2>
+    <ul class="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        weaponClasses.map((weaponClass) => (
+          <li>
+            <a class="inline-block" href={withBase(`weapons/${weaponClass.slug}/`)}>
+              {weaponClass.name}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</WikiLayout>
