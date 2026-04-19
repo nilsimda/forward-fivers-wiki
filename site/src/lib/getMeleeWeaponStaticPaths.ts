@@ -1,11 +1,11 @@
-import { getCollection } from "astro:content";
+import { getAllMeleeWeapons } from "./meleeWeapons";
 
 export async function getMeleeWeaponStaticPaths(className: string) {
-  const entries = await getCollection("meleeWeapons");
-  return entries
-    .filter((e) => e.data.id !== 0 && e.data.class_name === className)
-    .map((e) => ({
-      params: { weaponId: String(e.data.id) },
-      props: { weapon: e.data },
+  const weapons = await getAllMeleeWeapons();
+  return weapons
+    .filter((weapon) => weapon.id !== 0 && weapon.class_name === className)
+    .map((weapon) => ({
+      params: { weaponId: String(weapon.id) },
+      props: { weapon },
     }));
 }

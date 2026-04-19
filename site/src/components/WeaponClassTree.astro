@@ -2,18 +2,16 @@
 import WikiLayout from "../layouts/WikiLayout.astro";
 import SharpnessBar from "./SharpnessBar.astro";
 import { weaponClasses } from "../data/weaponClasses";
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getAllMeleeWeapons, type MeleeWeapon } from "../lib/meleeWeapons";
 
 interface Props {
   className: string;
 }
 
 const { className } = Astro.props;
-type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
-
-const allWeapons: MeleeWeapon[] = (await getCollection("meleeWeapons"))
-  .map((entry) => entry.data)
-  .sort((a, b) => a.id - b.id);
+const allWeapons: MeleeWeapon[] = (await getAllMeleeWeapons()).sort(
+  (a, b) => a.id - b.id,
+);
 
 const classWeapons = allWeapons.filter((w) => w.class_name === className && w.id !== 0);
 const totalClassWeapons = classWeapons.length;

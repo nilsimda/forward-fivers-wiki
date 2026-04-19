@@ -1,9 +1,7 @@
 ---
 import SharpnessBar from "./SharpnessBar.astro";
-import { getCollection, type CollectionEntry } from "astro:content";
+import { type MeleeWeapon, getMeleeWeaponsById } from "../lib/meleeWeapons";
 import { weaponClasses } from "../data/weaponClasses";
-
-type MeleeWeapon = CollectionEntry<"meleeWeapons">["data"];
 
 interface Props {
   weapon: MeleeWeapon;
@@ -11,9 +9,7 @@ interface Props {
 
 const { weapon } = Astro.props as Props;
 
-const byId = new Map<number, MeleeWeapon>(
-  (await getCollection("meleeWeapons")).map((e) => [e.data.id, e.data]),
-);
+const byId = await getMeleeWeaponsById();
 
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;

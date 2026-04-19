@@ -7,6 +7,7 @@ const allCarves = await getCollection("monsterCarves");
 const allQuests = await getCollection("quests");
 const allDecos = await getCollection("decos");
 const allGatheringMaps = await getCollection("gathering");
+const allMeleeWeapons = await getCollection("meleeWeapons");
 
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
@@ -79,6 +80,18 @@ const withBase = (targetPath: string) =>
       </p>
       <a class="mt-4 inline-block" href={withBase("decos/")}
         >Open decos</a
+      >
+    </article>
+    <article class="panel">
+      <h2 class="text-lg">Weapons</h2>
+      <p class="mt-2 text-slate-400">
+        Browse extracted weapon trees, stats, and upgrade paths.
+      </p>
+      <p class="mt-3 text-2xl font-semibold text-cyan-200">
+        {allMeleeWeapons.length}
+      </p>
+      <a class="mt-4 inline-block" href={withBase("weapons/")}
+        >Open weapons</a
       >
     </article>
     <article class="panel">
