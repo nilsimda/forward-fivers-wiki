@@ -228,6 +228,7 @@ class WeaponCraftingEntry:
             (unpacked[3], unpacked[4]),
             (unpacked[6], unpacked[7]),
             (unpacked[9], unpacked[10]),
+            (unpacked[12], unpacked[13]),
         ):
             if item_id <= 0 or amount <= 0:
                 continue

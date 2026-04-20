@@ -610,6 +610,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 7
+        },
+        {
+          "item_id": 172,
+          "item_name": "Whetstone",
+          "amount": 12
         }
       ]
     },
@@ -818,6 +823,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 4
+        },
+        {
+          "item_id": 341,
+          "item_name": "Velociprey Fang",
+          "amount": 7
         }
       ]
     },
@@ -1402,6 +1412,11 @@
           "item_id": 396,
           "item_name": "Rathian Shell",
           "amount": 6
+        },
+        {
+          "item_id": 266,
+          "item_name": "Shiny Beetle",
+          "amount": 3
         }
       ]
     },
@@ -1674,6 +1689,11 @@
           "item_id": 253,
           "item_name": "Ancient Fish",
           "amount": 2
+        },
+        {
+          "item_id": 25,
+          "item_name": "Monster Broth",
+          "amount": 4
         }
       ]
     },
@@ -2095,6 +2115,11 @@
           "item_id": 507,
           "item_name": "Sharp Claw",
           "amount": 3
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
+          "amount": 1
         }
       ]
     },
@@ -2365,6 +2390,11 @@
           "item_id": 550,
           "item_name": "Daora Scale",
           "amount": 10
+        },
+        {
+          "item_id": 394,
+          "item_name": "Rathian Plate",
+          "amount": 1
         }
       ]
     },
@@ -2685,6 +2715,11 @@
           "item_id": 406,
           "item_name": "Rath Wingtalon",
           "amount": 4
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 2
         }
       ]
     },
@@ -3090,6 +3125,11 @@
           "item_id": 588,
           "item_name": "Tsukami Fin",
           "amount": 3
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 15
         }
       ]
     },
@@ -4011,6 +4051,11 @@
           "item_id": 210,
           "item_name": "Needleberry",
           "amount": 12
+        },
+        {
+          "item_id": 29,
+          "item_name": "Catalyst",
+          "amount": 5
         }
       ]
     },
@@ -4156,6 +4201,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 7
+        },
+        {
+          "item_id": 743,
+          "item_name": "Jewel Ticket",
+          "amount": 1
         }
       ]
     },
@@ -4487,6 +4537,11 @@
           "item_id": 466,
           "item_name": "Small Lobstershl",
           "amount": 1
+        },
+        {
+          "item_id": 320,
+          "item_name": "Bone",
+          "amount": 1
         }
       ]
     },
@@ -4679,6 +4734,11 @@
           "item_id": 216,
           "item_name": "Iron Ore",
           "amount": 30
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 10
         }
       ]
     },
@@ -4808,6 +4868,11 @@
           "item_id": 604,
           "item_name": "Garuga Mane",
           "amount": 4
+        },
+        {
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "amount": 3
         }
       ]
     },
@@ -5105,6 +5170,11 @@
           "item_id": 316,
           "item_name": "ElderDragonBone",
           "amount": 7
+        },
+        {
+          "item_id": 25,
+          "item_name": "Monster Broth",
+          "amount": 5
         }
       ]
     },
@@ -5857,6 +5927,11 @@
           "item_id": 407,
           "item_name": "Rath Marrow",
           "amount": 1
+        },
+        {
+          "item_id": 32,
+          "item_name": "Gunpowder",
+          "amount": 20
         }
       ]
     },
@@ -6866,6 +6941,11 @@
           "item_id": 32,
           "item_name": "Gunpowder",
           "amount": 5
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 1
         }
       ]
     },
@@ -7388,6 +7468,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 15
+        },
+        {
+          "item_id": 374,
+          "item_name": "Rubbery Hide",
+          "amount": 4
         }
       ]
     },
@@ -7599,6 +7684,11 @@
         {
           "item_id": 219,
           "item_name": "Dragonite Ore",
+          "amount": 5
+        },
+        {
+          "item_id": 736,
+          "item_name": "Meteorite",
           "amount": 5
         }
       ]
@@ -7870,6 +7960,11 @@
           "item_id": 187,
           "item_name": "Sleep Herb",
           "amount": 10
+        },
+        {
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "amount": 1
         }
       ]
     },
@@ -8446,6 +8541,11 @@
           "item_id": 225,
           "item_name": "Lightcrystal",
           "amount": 8
+        },
+        {
+          "item_id": 407,
+          "item_name": "Rath Marrow",
+          "amount": 5
         }
       ]
     },
@@ -8721,6 +8821,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 20
+        },
+        {
+          "item_id": 571,
+          "item_name": "Teostra Powder",
+          "amount": 1
         }
       ]
     },
@@ -8788,6 +8893,11 @@
           "item_id": 451,
           "item_name": "Blos Fang",
           "amount": 2
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 3
         }
       ]
     },
@@ -8982,6 +9092,11 @@
           "item_id": 529,
           "item_name": "Sm Hermitaur Shl",
           "amount": 7
+        },
+        {
+          "item_id": 24,
+          "item_name": "Monster Fluid",
+          "amount": 3
         }
       ]
     },
@@ -9128,6 +9243,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 8
+        },
+        {
+          "item_id": 203,
+          "item_name": "Deadly Toadstool",
+          "amount": 6
         }
       ]
     },
@@ -9382,6 +9502,11 @@
           "item_id": 407,
           "item_name": "Rath Marrow",
           "amount": 1
+        },
+        {
+          "item_id": 32,
+          "item_name": "Gunpowder",
+          "amount": 20
         }
       ]
     },
@@ -9731,6 +9856,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 10
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "amount": 3
         }
       ]
     },
@@ -10155,6 +10285,11 @@
           "item_id": 322,
           "item_name": "Wyvern Fang",
           "amount": 8
+        },
+        {
+          "item_id": 377,
+          "item_name": "Rubbery Prp Hide",
+          "amount": 2
         }
       ]
     },
@@ -10285,6 +10420,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 7
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 5
         }
       ]
     },
@@ -10911,6 +11051,11 @@
           "item_id": 314,
           "item_name": "Monster Bone L",
           "amount": 4
+        },
+        {
+          "item_id": 374,
+          "item_name": "Rubbery Hide",
+          "amount": 7
         }
       ]
     },
@@ -11532,6 +11677,11 @@
           "item_id": 407,
           "item_name": "Rath Marrow",
           "amount": 1
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 3
         }
       ]
     },
@@ -11848,6 +11998,11 @@
           "item_id": 548,
           "item_name": "Daora Shell",
           "amount": 8
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 20
         }
       ]
     },
@@ -11977,6 +12132,11 @@
           "item_id": 1003,
           "item_name": "Rainbow Quill",
           "amount": 2
+        },
+        {
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "amount": 5
         }
       ]
     },
@@ -12112,6 +12272,11 @@
           "item_id": 448,
           "item_name": "Diablos Ridge",
           "amount": 1
+        },
+        {
+          "item_id": 446,
+          "item_name": "Diablos Shell",
+          "amount": 4
         }
       ]
     },
@@ -12322,6 +12487,11 @@
           "item_id": 451,
           "item_name": "Blos Fang",
           "amount": 4
+        },
+        {
+          "item_id": 736,
+          "item_name": "Meteorite",
+          "amount": 1
         }
       ]
     },
@@ -12550,6 +12720,11 @@
           "item_id": 486,
           "item_name": "Lao-Shan Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 740,
+          "item_name": "Bond Ticket",
+          "amount": 5
         }
       ]
     },
@@ -12798,6 +12973,11 @@
           "item_id": 744,
           "item_name": "Commendation",
           "amount": 5
+        },
+        {
+          "item_id": 740,
+          "item_name": "Bond Ticket",
+          "amount": 5
         }
       ]
     },
@@ -12865,6 +13045,11 @@
           "item_id": 602,
           "item_name": "Garuga Wing",
           "amount": 1
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 3
         }
       ]
     },
@@ -13242,6 +13427,11 @@
         {
           "item_id": 394,
           "item_name": "Rathian Plate",
+          "amount": 1
+        },
+        {
+          "item_id": 410,
+          "item_name": "Rathalos Plate",
           "amount": 1
         }
       ]
@@ -13853,6 +14043,11 @@
           "item_id": 320,
           "item_name": "Bone",
           "amount": 2
+        },
+        {
+          "item_id": 22,
+          "item_name": "Hot Drink",
+          "amount": 4
         }
       ]
     },
@@ -14252,6 +14447,11 @@
           "item_id": 594,
           "item_name": "Remobra Hide",
           "amount": 2
+        },
+        {
+          "item_id": 742,
+          "item_name": "Egg Ticket",
+          "amount": 3
         }
       ]
     },
@@ -14319,6 +14519,11 @@
           "item_id": 523,
           "item_name": "Rajang Blackfur",
           "amount": 5
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 8
         }
       ]
     },
@@ -14634,6 +14839,11 @@
         {
           "item_id": 320,
           "item_name": "Bone",
+          "amount": 1
+        },
+        {
+          "item_id": 362,
+          "item_name": "Iodrome Head",
           "amount": 1
         }
       ]
@@ -15200,6 +15410,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 12
+        },
+        {
+          "item_id": 743,
+          "item_name": "Jewel Ticket",
+          "amount": 3
         }
       ]
     },
@@ -15267,6 +15482,11 @@
           "item_id": 604,
           "item_name": "Garuga Mane",
           "amount": 4
+        },
+        {
+          "item_id": 743,
+          "item_name": "Jewel Ticket",
+          "amount": 1
         }
       ]
     },
@@ -15396,6 +15616,11 @@
           "item_id": 952,
           "item_name": "Thunder Sac",
           "amount": 3
+        },
+        {
+          "item_id": 374,
+          "item_name": "Rubbery Hide",
+          "amount": 8
         }
       ]
     },
@@ -16029,6 +16254,11 @@
           "item_id": 396,
           "item_name": "Rathian Shell",
           "amount": 2
+        },
+        {
+          "item_id": 392,
+          "item_name": "Rathian Scale",
+          "amount": 6
         }
       ]
     },
@@ -16221,6 +16451,11 @@
           "item_id": 486,
           "item_name": "Lao-Shan Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 740,
+          "item_name": "Bond Ticket",
+          "amount": 5
         }
       ]
     },
@@ -16351,6 +16586,11 @@
           "item_id": 214,
           "item_name": "Sunstone",
           "amount": 8
+        },
+        {
+          "item_id": 318,
+          "item_name": "Unknown Skull",
+          "amount": 1
         }
       ]
     },
@@ -16931,6 +17171,11 @@
           "item_id": 598,
           "item_name": "Garuga Scale",
           "amount": 5
+        },
+        {
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "amount": 2
         }
       ]
     },
@@ -17123,6 +17368,11 @@
           "item_id": 569,
           "item_name": "FireDragonScale",
           "amount": 3
+        },
+        {
+          "item_id": 736,
+          "item_name": "Meteorite",
+          "amount": 5
         }
       ]
     },
@@ -18166,6 +18416,11 @@
           "item_id": 707,
           "item_name": "White Belt Coin",
           "amount": 30
+        },
+        {
+          "item_id": 548,
+          "item_name": "Daora Shell",
+          "amount": 2
         }
       ]
     },
@@ -18643,6 +18898,11 @@
           "item_id": 464,
           "item_name": "Hornetaur Wing",
           "amount": 6
+        },
+        {
+          "item_id": 264,
+          "item_name": "Glueglopper",
+          "amount": 3
         }
       ]
     },
@@ -19020,6 +19280,11 @@
           "item_id": 594,
           "item_name": "Remobra Hide",
           "amount": 2
+        },
+        {
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "amount": 6
         }
       ]
     },
@@ -19165,6 +19430,11 @@
           "item_id": 309,
           "item_name": "Electro Sac",
           "amount": 2
+        },
+        {
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "amount": 6
         }
       ]
     },
@@ -19356,6 +19626,11 @@
           "item_id": 565,
           "item_name": "Chameleos Wbng",
           "amount": 2
+        },
+        {
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "amount": 5
         }
       ]
     },
@@ -19423,6 +19698,11 @@
           "item_id": 709,
           "item_name": "Expert Coin",
           "amount": 10
+        },
+        {
+          "item_id": 438,
+          "item_name": "Gravios Shell",
+          "amount": 3
         }
       ]
     },
@@ -19768,6 +20048,11 @@
           "item_id": 231,
           "item_name": "Ale Nuts",
           "amount": 5
+        },
+        {
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "amount": 3
         }
       ]
     },
@@ -19851,6 +20136,11 @@
           "item_id": 309,
           "item_name": "Electro Sac",
           "amount": 3
+        },
+        {
+          "item_id": 316,
+          "item_name": "ElderDragonBone",
+          "amount": 6
         }
       ]
     },
@@ -19918,6 +20208,11 @@
           "item_id": 544,
           "item_name": "Gaoren Ridge",
           "amount": 2
+        },
+        {
+          "item_id": 740,
+          "item_name": "Bond Ticket",
+          "amount": 5
         }
       ]
     },
@@ -19985,6 +20280,11 @@
           "item_id": 588,
           "item_name": "Tsukami Fin",
           "amount": 4
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 23
         }
       ]
     },
@@ -20238,6 +20538,11 @@
           "item_id": 600,
           "item_name": "Garuga Ear",
           "amount": 2
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 10
         }
       ]
     },
@@ -20675,6 +20980,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 18
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 7
         }
       ]
     },
@@ -20804,6 +21114,11 @@
           "item_id": 707,
           "item_name": "White Belt Coin",
           "amount": 30
+        },
+        {
+          "item_id": 530,
+          "item_name": "Hermitaur Shell",
+          "amount": 2
         }
       ]
     },
@@ -21151,6 +21466,11 @@
           "item_id": 543,
           "item_name": "Gaoren Shell",
           "amount": 4
+        },
+        {
+          "item_id": 744,
+          "item_name": "Commendation",
+          "amount": 5
         }
       ]
     },
@@ -21280,6 +21600,11 @@
           "item_id": 507,
           "item_name": "Sharp Claw",
           "amount": 3
+        },
+        {
+          "item_id": 264,
+          "item_name": "Glueglopper",
+          "amount": 5
         }
       ]
     },
@@ -21612,6 +21937,11 @@
           "item_id": 486,
           "item_name": "Lao-Shan Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 8
         }
       ]
     },
@@ -21863,6 +22193,11 @@
           "item_id": 348,
           "item_name": "Velocidrome Head",
           "amount": 2
+        },
+        {
+          "item_id": 266,
+          "item_name": "Shiny Beetle",
+          "amount": 6
         }
       ]
     },
@@ -21932,6 +22267,11 @@
           "item_id": 437,
           "item_name": "Gravios Marrow",
           "amount": 2
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "amount": 6
         }
       ]
     },
@@ -22247,6 +22587,11 @@
           "item_id": 708,
           "item_name": "Black Belt Coin",
           "amount": 20
+        },
+        {
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "amount": 2
         }
       ]
     },
@@ -23028,6 +23373,11 @@
           "item_id": 418,
           "item_name": "A.Rath Scale+",
           "amount": 4
+        },
+        {
+          "item_id": 25,
+          "item_name": "Monster Broth",
+          "amount": 5
         }
       ]
     },
@@ -23406,6 +23756,11 @@
           "item_id": 412,
           "item_name": "Rathalos Shell",
           "amount": 4
+        },
+        {
+          "item_id": 573,
+          "item_name": "Elder Drgn Blood",
+          "amount": 1
         }
       ]
     },
@@ -23597,6 +23952,11 @@
           "item_id": 366,
           "item_name": "Kut-Ku Ear",
           "amount": 1
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 3
         }
       ]
     },
@@ -23726,6 +24086,11 @@
           "item_id": 480,
           "item_name": "Kirin Mane",
           "amount": 10
+        },
+        {
+          "item_id": 289,
+          "item_name": "Hercudrome",
+          "amount": 8
         }
       ]
     },
@@ -23792,6 +24157,11 @@
         {
           "item_id": 740,
           "item_name": "Bond Ticket",
+          "amount": 5
+        },
+        {
+          "item_id": 739,
+          "item_name": "Friendship Tkt",
           "amount": 5
         }
       ]
@@ -26652,6 +27022,11 @@
           "item_id": 321,
           "item_name": "Jumbo Bone",
           "amount": 8
+        },
+        {
+          "item_id": 206,
+          "item_name": "Might Seed",
+          "amount": 3
         }
       ]
     },
@@ -29612,6 +29987,11 @@
           "item_id": 740,
           "item_name": "Bond Ticket",
           "amount": 10
+        },
+        {
+          "item_id": 739,
+          "item_name": "Friendship Tkt",
+          "amount": 5
         }
       ]
     },
@@ -29680,6 +30060,11 @@
           "item_id": 595,
           "item_name": "Remobra Hide+",
           "amount": 4
+        },
+        {
+          "item_id": 357,
+          "item_name": "Ioprey Fang",
+          "amount": 60
         }
       ]
     },
@@ -31289,6 +31674,11 @@
           "item_id": 24,
           "item_name": "Monster Fluid",
           "amount": 3
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 1
         }
       ]
     },
@@ -31676,6 +32066,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 8
+        },
+        {
+          "item_id": 266,
+          "item_name": "Shiny Beetle",
+          "amount": 6
         }
       ]
     },
@@ -31805,6 +32200,11 @@
           "item_id": 1014,
           "item_name": "Lavasioth Fang",
           "amount": 3
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 2
         }
       ]
     },
@@ -31934,6 +32334,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 10
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 6
         }
       ]
     },
@@ -32063,6 +32468,11 @@
           "item_id": 314,
           "item_name": "Monster Bone L",
           "amount": 13
+        },
+        {
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "amount": 6
         }
       ]
     },
@@ -34017,6 +34427,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 8
+        },
+        {
+          "item_id": 374,
+          "item_name": "Rubbery Hide",
+          "amount": 5
         }
       ]
     },
@@ -34160,6 +34575,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 2
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 5
         }
       ]
     },
@@ -34368,6 +34788,11 @@
           "item_id": 216,
           "item_name": "Iron Ore",
           "amount": 20
+        },
+        {
+          "item_id": 240,
+          "item_name": "Burst Arowana",
+          "amount": 10
         }
       ]
     },
@@ -34637,6 +35062,11 @@
           "item_id": 303,
           "item_name": "Poison Sac",
           "amount": 10
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 2
         }
       ]
     },
@@ -34967,6 +35397,11 @@
           "item_id": 973,
           "item_name": "Rath Fluid",
           "amount": 10
+        },
+        {
+          "item_id": 289,
+          "item_name": "Hercudrome",
+          "amount": 3
         }
       ]
     },
@@ -35343,6 +35778,11 @@
           "item_id": 754,
           "item_name": "Pawprint Stamp",
           "amount": 2
+        },
+        {
+          "item_id": 744,
+          "item_name": "Commendation",
+          "amount": 1
         }
       ]
     },
@@ -35471,6 +35911,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 2
+        },
+        {
+          "item_id": 227,
+          "item_name": "Antiseptic Stone",
+          "amount": 5
         }
       ]
     },
@@ -35663,6 +36108,11 @@
           "item_id": 736,
           "item_name": "Meteorite",
           "amount": 7
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 4
         }
       ]
     },
@@ -35806,6 +36256,11 @@
           "item_id": 754,
           "item_name": "Pawprint Stamp",
           "amount": 4
+        },
+        {
+          "item_id": 592,
+          "item_name": "Dragonwood",
+          "amount": 2
         }
       ]
     },
@@ -35871,6 +36326,11 @@
           "item_id": 303,
           "item_name": "Poison Sac",
           "amount": 20
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 15
         }
       ]
     },
@@ -36016,6 +36476,11 @@
           "item_id": 340,
           "item_name": "Anteka Antler",
           "amount": 2
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 5
         }
       ]
     },
@@ -36224,6 +36689,11 @@
           "item_id": 188,
           "item_name": "Sap Plant",
           "amount": 5
+        },
+        {
+          "item_id": 259,
+          "item_name": "Godbug",
+          "amount": 1
         }
       ]
     },
@@ -36744,6 +37214,11 @@
           "item_id": 222,
           "item_name": "Firestone",
           "amount": 3
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 7
         }
       ]
     },
@@ -36994,6 +37469,11 @@
           "item_id": 230,
           "item_name": "Great Hibiscus",
           "amount": 8
+        },
+        {
+          "item_id": 943,
+          "item_name": "Sticky Ctrpillar",
+          "amount": 3
         }
       ]
     },
@@ -37123,6 +37603,11 @@
           "item_id": 230,
           "item_name": "Great Hibiscus",
           "amount": 30
+        },
+        {
+          "item_id": 289,
+          "item_name": "Hercudrome",
+          "amount": 20
         }
       ]
     },
@@ -37564,6 +38049,11 @@
           "item_id": 532,
           "item_name": "Hermitaur Cpc",
           "amount": 4
+        },
+        {
+          "item_id": 598,
+          "item_name": "Garuga Scale",
+          "amount": 3
         }
       ]
     },
@@ -38121,6 +38611,11 @@
           "item_id": 541,
           "item_name": "Ceanataur Claw+",
           "amount": 4
+        },
+        {
+          "item_id": 598,
+          "item_name": "Garuga Scale",
+          "amount": 3
         }
       ]
     },
@@ -38930,6 +39425,11 @@
           "item_id": 541,
           "item_name": "Ceanataur Claw+",
           "amount": 1
+        },
+        {
+          "item_id": 1011,
+          "item_name": "Blue Hypno Pelt+",
+          "amount": 1
         }
       ]
     },
@@ -38996,6 +39496,11 @@
         {
           "item_id": 1009,
           "item_name": "Hypno Bezoar+",
+          "amount": 1
+        },
+        {
+          "item_id": 927,
+          "item_name": "Great Ladybug",
           "amount": 1
         }
       ]
@@ -43154,6 +43659,11 @@
           "item_id": 320,
           "item_name": "Bone",
           "amount": 1
+        },
+        {
+          "item_id": 225,
+          "item_name": "Lightcrystal",
+          "amount": 1
         }
       ]
     },
@@ -43655,6 +44165,11 @@
           "item_id": 983,
           "item_name": "Dragonmoss+",
           "amount": 1
+        },
+        {
+          "item_id": 1011,
+          "item_name": "Blue Hypno Pelt+",
+          "amount": 3
         }
       ]
     },
@@ -43971,6 +44486,11 @@
           "item_id": 987,
           "item_name": "Tigrex Shell",
           "amount": 8
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 25
         }
       ]
     },
@@ -44158,6 +44678,11 @@
           "item_id": 985,
           "item_name": "Tigrex Scale",
           "amount": 4
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 25
         }
       ]
     },
@@ -44285,6 +44810,11 @@
           "item_id": 995,
           "item_name": "Akantor Scale+",
           "amount": 6
+        },
+        {
+          "item_id": 315,
+          "item_name": "Monster Hardbone",
+          "amount": 8
         }
       ]
     },
@@ -44350,6 +44880,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 8
+        },
+        {
+          "item_id": 519,
+          "item_name": "Congalala Claw+",
+          "amount": 3
         }
       ]
     },
@@ -44785,6 +45320,11 @@
           "item_id": 994,
           "item_name": "Tigrex Scalp",
           "amount": 1
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 10
         }
       ]
     },
@@ -44914,6 +45454,11 @@
           "item_id": 546,
           "item_name": "Gaoren Claw",
           "amount": 3
+        },
+        {
+          "item_id": 1000,
+          "item_name": "Akantor Spike",
+          "amount": 2
         }
       ]
     },
@@ -45041,6 +45586,11 @@
           "item_id": 987,
           "item_name": "Tigrex Shell",
           "amount": 4
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 8
         }
       ]
     },
@@ -45170,6 +45720,11 @@
           "item_id": 997,
           "item_name": "Akantor Tail",
           "amount": 1
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 10
         }
       ]
     },
@@ -45235,6 +45790,11 @@
           "item_id": 990,
           "item_name": "Tigrex Claw",
           "amount": 5
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 3
         }
       ]
     },
@@ -45362,6 +45922,11 @@
           "item_id": 987,
           "item_name": "Tigrex Shell",
           "amount": 2
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 4
         }
       ]
     },
@@ -45489,6 +46054,11 @@
           "item_id": 996,
           "item_name": "Akantor Carapace",
           "amount": 5
+        },
+        {
+          "item_id": 921,
+          "item_name": "Firecell Stone",
+          "amount": 8
         }
       ]
     },
@@ -45616,6 +46186,11 @@
           "item_id": 497,
           "item_name": "Fatalis Bloodscl",
           "amount": 6
+        },
+        {
+          "item_id": 486,
+          "item_name": "Lao-Shan Ruby",
+          "amount": 2
         }
       ]
     },
@@ -45743,6 +46318,11 @@
           "item_id": 987,
           "item_name": "Tigrex Shell",
           "amount": 5
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 12
         }
       ]
     },
@@ -45870,6 +46450,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 10
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 3
         }
       ]
     },
@@ -45999,6 +46584,11 @@
           "item_id": 995,
           "item_name": "Akantor Scale+",
           "amount": 8
+        },
+        {
+          "item_id": 921,
+          "item_name": "Firecell Stone",
+          "amount": 5
         }
       ]
     },
@@ -46226,6 +46816,11 @@
         {
           "item_id": 952,
           "item_name": "Thunder Sac",
+          "amount": 6
+        },
+        {
+          "item_id": 717,
+          "item_name": "Luxury Coin",
           "amount": 6
         }
       ]
@@ -51371,6 +51966,11 @@
           "item_id": 921,
           "item_name": "Firecell Stone",
           "amount": 2
+        },
+        {
+          "item_id": 712,
+          "item_name": "Piscine Coin",
+          "amount": 8
         }
       ]
     },
@@ -51438,6 +52038,11 @@
           "item_id": 951,
           "item_name": "Inferno Sac",
           "amount": 4
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "amount": 3
         }
       ]
     },
@@ -51504,6 +52109,11 @@
         {
           "item_id": 324,
           "item_name": "Wyvern Gem",
+          "amount": 2
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
           "amount": 2
         }
       ]
@@ -51986,6 +52596,11 @@
           "item_id": 1005,
           "item_name": "Hypno Bezoar",
           "amount": 2
+        },
+        {
+          "item_id": 513,
+          "item_name": "Blangonga Tail",
+          "amount": 2
         }
       ]
     },
@@ -52113,6 +52728,11 @@
           "item_id": 519,
           "item_name": "Congalala Claw+",
           "amount": 3
+        },
+        {
+          "item_id": 710,
+          "item_name": "Bird Coin",
+          "amount": 15
         }
       ]
     },
@@ -52240,6 +52860,11 @@
           "item_id": 951,
           "item_name": "Inferno Sac",
           "amount": 10
+        },
+        {
+          "item_id": 710,
+          "item_name": "Bird Coin",
+          "amount": 15
         }
       ]
     },
@@ -52369,6 +52994,11 @@
           "item_id": 975,
           "item_name": "Basarios Tears",
           "amount": 1
+        },
+        {
+          "item_id": 474,
+          "item_name": "Argent Horn",
+          "amount": 2
         }
       ]
     },
@@ -52802,6 +53432,11 @@
           "item_id": 951,
           "item_name": "Inferno Sac",
           "amount": 6
+        },
+        {
+          "item_id": 718,
+          "item_name": "Solid Coin",
+          "amount": 5
         }
       ]
     },
@@ -53055,6 +53690,11 @@
           "item_id": 1048,
           "item_name": "Espinas Spike",
           "amount": 4
+        },
+        {
+          "item_id": 1050,
+          "item_name": "Espinas Tail",
+          "amount": 1
         }
       ]
     },
@@ -53246,6 +53886,11 @@
           "item_id": 1052,
           "item_name": "Espinas Horn",
           "amount": 2
+        },
+        {
+          "item_id": 1046,
+          "item_name": "Espinas Scale",
+          "amount": 5
         }
       ]
     },
@@ -53437,6 +54082,11 @@
           "item_id": 1048,
           "item_name": "Espinas Spike",
           "amount": 3
+        },
+        {
+          "item_id": 1050,
+          "item_name": "Espinas Tail",
+          "amount": 2
         }
       ]
     },
@@ -53628,6 +54278,11 @@
           "item_id": 1046,
           "item_name": "Espinas Scale",
           "amount": 6
+        },
+        {
+          "item_id": 1047,
+          "item_name": "Espinas Carapace",
+          "amount": 2
         }
       ]
     },
@@ -53819,6 +54474,11 @@
           "item_id": 1046,
           "item_name": "Espinas Scale",
           "amount": 4
+        },
+        {
+          "item_id": 1052,
+          "item_name": "Espinas Horn",
+          "amount": 1
         }
       ]
     },
@@ -54010,6 +54670,11 @@
           "item_id": 1048,
           "item_name": "Espinas Spike",
           "amount": 3
+        },
+        {
+          "item_id": 1046,
+          "item_name": "Espinas Scale",
+          "amount": 7
         }
       ]
     },
@@ -54201,6 +54866,11 @@
           "item_id": 1049,
           "item_name": "Espinas Scalp",
           "amount": 2
+        },
+        {
+          "item_id": 1046,
+          "item_name": "Espinas Scale",
+          "amount": 6
         }
       ]
     },
@@ -54391,6 +55061,11 @@
         {
           "item_id": 1047,
           "item_name": "Espinas Carapace",
+          "amount": 8
+        },
+        {
+          "item_id": 1046,
+          "item_name": "Espinas Scale",
           "amount": 8
         }
       ]
@@ -54583,6 +55258,11 @@
           "item_id": 480,
           "item_name": "Kirin Mane",
           "amount": 12
+        },
+        {
+          "item_id": 431,
+          "item_name": "Pale Steak",
+          "amount": 5
         }
       ]
     },
@@ -55128,6 +55808,11 @@
           "item_id": 347,
           "item_name": "Velocidrome Claw+",
           "amount": 30
+        },
+        {
+          "item_id": 962,
+          "item_name": "Gendrome Tail",
+          "amount": 6
         }
       ]
     },
@@ -55427,6 +56112,11 @@
           "item_id": 376,
           "item_name": "Gypceros Head",
           "amount": 1
+        },
+        {
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "amount": 12
         }
       ]
     },
@@ -56226,6 +56916,11 @@
           "item_id": 385,
           "item_name": "G.Plesioth Fin",
           "amount": 8
+        },
+        {
+          "item_id": 254,
+          "item_name": "Queen Shrimp",
+          "amount": 2
         }
       ]
     },
@@ -56417,6 +57112,11 @@
           "item_id": 1007,
           "item_name": "Hypno Beak+",
           "amount": 2
+        },
+        {
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "amount": 5
         }
       ]
     },
@@ -56916,6 +57616,11 @@
           "item_id": 532,
           "item_name": "Hermitaur Cpc",
           "amount": 12
+        },
+        {
+          "item_id": 546,
+          "item_name": "Gaoren Claw",
+          "amount": 3
         }
       ]
     },
@@ -57224,6 +57929,11 @@
           "item_id": 587,
           "item_name": "Teostra Horn+",
           "amount": 3
+        },
+        {
+          "item_id": 1025,
+          "item_name": "Mercury Note",
+          "amount": 5
         }
       ]
     },
@@ -57475,6 +58185,11 @@
           "item_id": 367,
           "item_name": "Kut-Ku Auricle",
           "amount": 3
+        },
+        {
+          "item_id": 603,
+          "item_name": "Garuga Tail",
+          "amount": 2
         }
       ]
     },
@@ -61760,6 +62475,11 @@
           "item_id": 456,
           "item_name": "B.Diablos Cpc",
           "amount": 12
+        },
+        {
+          "item_id": 473,
+          "item_name": "Monoblos Heart",
+          "amount": 2
         }
       ]
     },
@@ -65388,6 +66108,11 @@
           "item_id": 445,
           "item_name": "Majestic Horn",
           "amount": 6
+        },
+        {
+          "item_id": 450,
+          "item_name": "Diablos Tail",
+          "amount": 6
         }
       ]
     },
@@ -65881,6 +66606,11 @@
           "item_id": 470,
           "item_name": "Scarlet Horn",
           "amount": 4
+        },
+        {
+          "item_id": 447,
+          "item_name": "Diablos Carapace",
+          "amount": 5
         }
       ]
     },
@@ -67183,6 +67913,11 @@
           "item_id": 1066,
           "item_name": "Wht Vashim Fluid",
           "amount": 4
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "amount": 10
         }
       ]
     },
@@ -68831,6 +69566,11 @@
           "item_id": 145,
           "item_name": "Frog",
           "amount": 1
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 5
         }
       ]
     },
@@ -69502,6 +70242,11 @@
           "item_id": 1066,
           "item_name": "Wht Vashim Fluid",
           "amount": 4
+        },
+        {
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "amount": 2
         }
       ]
     },
@@ -69691,6 +70436,11 @@
           "item_id": 1089,
           "item_name": "Carapaceolite+",
           "amount": 10
+        },
+        {
+          "item_id": 242,
+          "item_name": "Large Whetfish",
+          "amount": 4
         }
       ]
     },
@@ -69877,6 +70627,11 @@
         {
           "item_id": 396,
           "item_name": "Rathian Shell",
+          "amount": 1
+        },
+        {
+          "item_id": 406,
+          "item_name": "Rath Wingtalon",
           "amount": 1
         }
       ]
@@ -70128,6 +70883,11 @@
         {
           "item_id": 1066,
           "item_name": "Wht Vashim Fluid",
+          "amount": 4
+        },
+        {
+          "item_id": 253,
+          "item_name": "Ancient Fish",
           "amount": 4
         }
       ]
@@ -71535,6 +72295,11 @@
           "item_id": 1257,
           "item_name": "Herbivore Bone+",
           "amount": 14
+        },
+        {
+          "item_id": 950,
+          "item_name": "Toxin Sac",
+          "amount": 6
         }
       ]
     },
@@ -72508,6 +73273,11 @@
           "item_id": 1066,
           "item_name": "Wht Vashim Fluid",
           "amount": 4
+        },
+        {
+          "item_id": 736,
+          "item_name": "Meteorite",
+          "amount": 7
         }
       ]
     },
@@ -73552,6 +74322,11 @@
           "item_id": 424,
           "item_name": "S.Rathalos Cpc",
           "amount": 6
+        },
+        {
+          "item_id": 425,
+          "item_name": "S.Rathalos Tail",
+          "amount": 2
         }
       ]
     },
@@ -73801,6 +74576,11 @@
           "item_id": 1066,
           "item_name": "Wht Vashim Fluid",
           "amount": 4
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "amount": 12
         }
       ]
     },
@@ -74294,6 +75074,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 17
+        },
+        {
+          "item_id": 32,
+          "item_name": "Gunpowder",
+          "amount": 22
         }
       ]
     },
@@ -74771,6 +75556,11 @@
           "item_id": 378,
           "item_name": "P.Gypceros Wing",
           "amount": 12
+        },
+        {
+          "item_id": 376,
+          "item_name": "Gypceros Head",
+          "amount": 1
         }
       ]
     },
@@ -75874,6 +76664,11 @@
           "item_id": 226,
           "item_name": "Novacrystal",
           "amount": 5
+        },
+        {
+          "item_id": 983,
+          "item_name": "Dragonmoss+",
+          "amount": 2
         }
       ]
     },
@@ -76062,6 +76857,11 @@
         {
           "item_id": 941,
           "item_name": "Aminotite",
+          "amount": 2
+        },
+        {
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
           "amount": 2
         }
       ]
@@ -76252,6 +77052,11 @@
           "item_id": 226,
           "item_name": "Novacrystal",
           "amount": 5
+        },
+        {
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "amount": 2
         }
       ]
     },
@@ -76441,6 +77246,11 @@
           "item_id": 324,
           "item_name": "Wyvern Gem",
           "amount": 5
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 12
         }
       ]
     },
@@ -76630,6 +77440,11 @@
           "item_id": 921,
           "item_name": "Firecell Stone",
           "amount": 5
+        },
+        {
+          "item_id": 250,
+          "item_name": "Speartuna",
+          "amount": 2
         }
       ]
     },
@@ -78497,6 +79312,11 @@
           "item_id": 411,
           "item_name": "Rathalos Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 408,
+          "item_name": "Rathalos Scale",
+          "amount": 24
         }
       ]
     },
@@ -78626,6 +79446,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 5
+        },
+        {
+          "item_id": 556,
+          "item_name": "Daora Gem",
+          "amount": 1
         }
       ]
     },
@@ -79617,6 +80442,11 @@
           "item_id": 1063,
           "item_name": "Vashim Jaw",
           "amount": 2
+        },
+        {
+          "item_id": 953,
+          "item_name": "Monster Bone+",
+          "amount": 2
         }
       ]
     },
@@ -79805,6 +80635,11 @@
         {
           "item_id": 1024,
           "item_name": "Neodymium Note",
+          "amount": 2
+        },
+        {
+          "item_id": 226,
+          "item_name": "Novacrystal",
           "amount": 2
         }
       ]
@@ -80239,6 +81074,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 8
+        },
+        {
+          "item_id": 482,
+          "item_name": "Kirin Azure Horn",
+          "amount": 2
         }
       ]
     },
@@ -81219,6 +82059,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 7
+        },
+        {
+          "item_id": 481,
+          "item_name": "Kirin Thndrtail",
+          "amount": 7
         }
       ]
     },
@@ -82198,6 +83043,11 @@
           "item_id": 1007,
           "item_name": "Hypno Beak+",
           "amount": 6
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 45
         }
       ]
     },
@@ -82863,6 +83713,11 @@
           "item_id": 1668,
           "item_name": "Belkuros Claw+",
           "amount": 3
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 5
         }
       ]
     },
@@ -82991,6 +83846,11 @@
           "item_id": 1672,
           "item_name": "Belkuros Marrow",
           "amount": 2
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 5
         }
       ]
     },
@@ -83059,6 +83919,11 @@
           "item_id": 1670,
           "item_name": "Belkuros Wing+",
           "amount": 2
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 6
         }
       ]
     },
@@ -83187,6 +84052,11 @@
           "item_id": 1671,
           "item_name": "Belkuros Fluid",
           "amount": 2
+        },
+        {
+          "item_id": 1658,
+          "item_name": "Illumonite",
+          "amount": 6
         }
       ]
     },
@@ -83255,6 +84125,11 @@
           "item_id": 1669,
           "item_name": "Belkuros Horn+",
           "amount": 2
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 5
         }
       ]
     },
@@ -83383,6 +84258,11 @@
           "item_id": 1671,
           "item_name": "Belkuros Fluid",
           "amount": 2
+        },
+        {
+          "item_id": 1656,
+          "item_name": "Tempestite",
+          "amount": 3
         }
       ]
     },
@@ -83451,6 +84331,11 @@
           "item_id": 1667,
           "item_name": "Belkuros Tail+",
           "amount": 3
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 4
         }
       ]
     },
@@ -83579,6 +84464,11 @@
           "item_id": 1670,
           "item_name": "Belkuros Wing+",
           "amount": 6
+        },
+        {
+          "item_id": 1656,
+          "item_name": "Tempestite",
+          "amount": 4
         }
       ]
     },
@@ -83646,6 +84536,11 @@
         {
           "item_id": 1416,
           "item_name": "Dragon Blood+",
+          "amount": 4
+        },
+        {
+          "item_id": 571,
+          "item_name": "Teostra Powder",
           "amount": 4
         }
       ]
@@ -91838,6 +92733,11 @@
           "item_id": 960,
           "item_name": "Velociprey Hide+",
           "amount": 10
+        },
+        {
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "amount": 25
         }
       ]
     },
@@ -92275,6 +93175,11 @@
           "item_id": 950,
           "item_name": "Toxin Sac",
           "amount": 8
+        },
+        {
+          "item_id": 394,
+          "item_name": "Rathian Plate",
+          "amount": 1
         }
       ]
     },
@@ -92712,6 +93617,11 @@
           "item_id": 509,
           "item_name": "Blangonga Fang+",
           "amount": 2
+        },
+        {
+          "item_id": 939,
+          "item_name": "Perennial Frost",
+          "amount": 15
         }
       ]
     },
@@ -93149,6 +94059,11 @@
           "item_id": 956,
           "item_name": "Felyne Fur Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 754,
+          "item_name": "Pawprint Stamp",
+          "amount": 5
         }
       ]
     },
@@ -93586,6 +94501,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 20
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 5
         }
       ]
     },
@@ -94023,6 +94943,11 @@
           "item_id": 719,
           "item_name": "Guild Coin",
           "amount": 3
+        },
+        {
+          "item_id": 709,
+          "item_name": "Expert Coin",
+          "amount": 10
         }
       ]
     },
@@ -94460,6 +95385,11 @@
           "item_id": 571,
           "item_name": "Teostra Powder",
           "amount": 2
+        },
+        {
+          "item_id": 973,
+          "item_name": "Rath Fluid",
+          "amount": 7
         }
       ]
     },
@@ -94897,6 +95827,11 @@
           "item_id": 970,
           "item_name": "Plesioth Fin+",
           "amount": 7
+        },
+        {
+          "item_id": 383,
+          "item_name": "Plesioth Fin",
+          "amount": 12
         }
       ]
     },
@@ -95333,6 +96268,11 @@
         {
           "item_id": 225,
           "item_name": "Lightcrystal",
+          "amount": 20
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
           "amount": 20
         }
       ]
@@ -95771,6 +96711,11 @@
           "item_id": 599,
           "item_name": "Garuga Shell",
           "amount": 7
+        },
+        {
+          "item_id": 366,
+          "item_name": "Kut-Ku Ear",
+          "amount": 7
         }
       ]
     },
@@ -96208,6 +97153,11 @@
           "item_id": 518,
           "item_name": "Congalala Pelt+",
           "amount": 20
+        },
+        {
+          "item_id": 515,
+          "item_name": "Vibrant Pelt",
+          "amount": 10
         }
       ]
     },
@@ -96645,6 +97595,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 25
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 20
         }
       ]
     },
@@ -97081,6 +98036,11 @@
         {
           "item_id": 221,
           "item_name": "Fucium Ore",
+          "amount": 10
+        },
+        {
+          "item_id": 309,
+          "item_name": "Electro Sac",
           "amount": 10
         }
       ]
@@ -97519,6 +98479,11 @@
           "item_id": 545,
           "item_name": "Gaoren Pincer",
           "amount": 3
+        },
+        {
+          "item_id": 540,
+          "item_name": "Ceanataur Claw",
+          "amount": 20
         }
       ]
     },
@@ -97956,6 +98921,11 @@
           "item_id": 393,
           "item_name": "Rathian Scale+",
           "amount": 15
+        },
+        {
+          "item_id": 407,
+          "item_name": "Rath Marrow",
+          "amount": 4
         }
       ]
     },
@@ -98393,6 +99363,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 10
+        },
+        {
+          "item_id": 483,
+          "item_name": "Lao-Shan Claw",
+          "amount": 4
         }
       ]
     },
@@ -98830,6 +99805,11 @@
           "item_id": 719,
           "item_name": "Guild Coin",
           "amount": 2
+        },
+        {
+          "item_id": 289,
+          "item_name": "Hercudrome",
+          "amount": 12
         }
       ]
     },
@@ -99267,6 +100247,11 @@
           "item_id": 1015,
           "item_name": "Lavasioth Fin",
           "amount": 2
+        },
+        {
+          "item_id": 1014,
+          "item_name": "Lavasioth Fang",
+          "amount": 5
         }
       ]
     },
@@ -99704,6 +100689,11 @@
           "item_id": 429,
           "item_name": "Pearl Hide",
           "amount": 15
+        },
+        {
+          "item_id": 430,
+          "item_name": "Pale Bone",
+          "amount": 1
         }
       ]
     },
@@ -100141,6 +101131,11 @@
           "item_id": 939,
           "item_name": "Perennial Frost",
           "amount": 10
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 90
         }
       ]
     },
@@ -100578,6 +101573,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 30
+        },
+        {
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "amount": 15
         }
       ]
     },
@@ -101015,6 +102015,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 20
+        },
+        {
+          "item_id": 436,
+          "item_name": "Basarios Wing",
+          "amount": 3
         }
       ]
     },
@@ -101452,6 +102457,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 30
+        },
+        {
+          "item_id": 309,
+          "item_name": "Electro Sac",
+          "amount": 10
         }
       ]
     },
@@ -101889,6 +102899,11 @@
           "item_id": 465,
           "item_name": "HornetaurInnrWng",
           "amount": 15
+        },
+        {
+          "item_id": 457,
+          "item_name": "Vespoid Abdomen",
+          "amount": 2
         }
       ]
     },
@@ -102326,6 +103341,11 @@
           "item_id": 549,
           "item_name": "Daora Carapace",
           "amount": 8
+        },
+        {
+          "item_id": 552,
+          "item_name": "Daora Horn",
+          "amount": 2
         }
       ]
     },
@@ -102762,6 +103782,11 @@
         {
           "item_id": 931,
           "item_name": "Giaprey Scale+",
+          "amount": 15
+        },
+        {
+          "item_id": 939,
+          "item_name": "Perennial Frost",
           "amount": 15
         }
       ]
@@ -103200,6 +104225,11 @@
           "item_id": 1017,
           "item_name": "Lavasio Carapace",
           "amount": 7
+        },
+        {
+          "item_id": 1014,
+          "item_name": "Lavasioth Fang",
+          "amount": 8
         }
       ]
     },
@@ -103636,6 +104666,11 @@
         {
           "item_id": 397,
           "item_name": "Rathian Carapace",
+          "amount": 8
+        },
+        {
+          "item_id": 398,
+          "item_name": "Rathian Spike",
           "amount": 8
         }
       ]
@@ -104074,6 +105109,11 @@
           "item_id": 745,
           "item_name": "Pawprint Seal",
           "amount": 10
+        },
+        {
+          "item_id": 189,
+          "item_name": "Felvine",
+          "amount": 40
         }
       ]
     },
@@ -104511,6 +105551,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 40
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 45
         }
       ]
     },
@@ -104948,6 +105993,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 35
+        },
+        {
+          "item_id": 970,
+          "item_name": "Plesioth Fin+",
+          "amount": 15
         }
       ]
     },
@@ -105385,6 +106435,11 @@
           "item_id": 743,
           "item_name": "Jewel Ticket",
           "amount": 5
+        },
+        {
+          "item_id": 225,
+          "item_name": "Lightcrystal",
+          "amount": 15
         }
       ]
     },
@@ -105822,6 +106877,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 35
+        },
+        {
+          "item_id": 32,
+          "item_name": "Gunpowder",
+          "amount": 15
         }
       ]
     },
@@ -106259,6 +107319,11 @@
           "item_id": 952,
           "item_name": "Thunder Sac",
           "amount": 8
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 20
         }
       ]
     },
@@ -106696,6 +107761,11 @@
           "item_id": 513,
           "item_name": "Blangonga Tail",
           "amount": 5
+        },
+        {
+          "item_id": 931,
+          "item_name": "Giaprey Scale+",
+          "amount": 7
         }
       ]
     },
@@ -107132,6 +108202,11 @@
         {
           "item_id": 1018,
           "item_name": "Lavasioth Fang+",
+          "amount": 2
+        },
+        {
+          "item_id": 1015,
+          "item_name": "Lavasioth Fin",
           "amount": 2
         }
       ]
@@ -107570,6 +108645,11 @@
           "item_id": 401,
           "item_name": "P.Rathian Scale+",
           "amount": 7
+        },
+        {
+          "item_id": 230,
+          "item_name": "Great Hibiscus",
+          "amount": 20
         }
       ]
     },
@@ -108006,6 +109086,11 @@
         {
           "item_id": 438,
           "item_name": "Gravios Shell",
+          "amount": 12
+        },
+        {
+          "item_id": 434,
+          "item_name": "Basarios Shell",
           "amount": 12
         }
       ]
@@ -108444,6 +109529,11 @@
           "item_id": 429,
           "item_name": "Pearl Hide",
           "amount": 15
+        },
+        {
+          "item_id": 428,
+          "item_name": "Flabby Hide",
+          "amount": 20
         }
       ]
     },
@@ -108881,6 +109971,11 @@
           "item_id": 461,
           "item_name": "Vespoid InnrWng",
           "amount": 15
+        },
+        {
+          "item_id": 464,
+          "item_name": "Hornetaur Wing",
+          "amount": 25
         }
       ]
     },
@@ -109318,6 +110413,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 20
+        },
+        {
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "amount": 15
         }
       ]
     },
@@ -109755,6 +110855,11 @@
           "item_id": 518,
           "item_name": "Congalala Pelt+",
           "amount": 12
+        },
+        {
+          "item_id": 515,
+          "item_name": "Vibrant Pelt",
+          "amount": 5
         }
       ]
     },
@@ -110191,6 +111296,11 @@
         {
           "item_id": 719,
           "item_name": "Guild Coin",
+          "amount": 3
+        },
+        {
+          "item_id": 712,
+          "item_name": "Piscine Coin",
           "amount": 3
         }
       ]
@@ -110629,6 +111739,11 @@
           "item_id": 414,
           "item_name": "Rathalos Tail",
           "amount": 6
+        },
+        {
+          "item_id": 421,
+          "item_name": "A.Rathalos Tail",
+          "amount": 6
         }
       ]
     },
@@ -111066,6 +112181,11 @@
           "item_id": 549,
           "item_name": "Daora Carapace",
           "amount": 10
+        },
+        {
+          "item_id": 551,
+          "item_name": "Daora Webbing",
+          "amount": 4
         }
       ]
     },
@@ -111503,6 +112623,11 @@
           "item_id": 437,
           "item_name": "Gravios Marrow",
           "amount": 3
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 12
         }
       ]
     },
@@ -111940,6 +113065,11 @@
           "item_id": 465,
           "item_name": "HornetaurInnrWng",
           "amount": 12
+        },
+        {
+          "item_id": 24,
+          "item_name": "Monster Fluid",
+          "amount": 9
         }
       ]
     },
@@ -112377,6 +113507,11 @@
           "item_id": 549,
           "item_name": "Daora Carapace",
           "amount": 5
+        },
+        {
+          "item_id": 550,
+          "item_name": "Daora Scale",
+          "amount": 35
         }
       ]
     },
@@ -112814,6 +113949,11 @@
           "item_id": 373,
           "item_name": "B.Kut-Ku Carpace",
           "amount": 10
+        },
+        {
+          "item_id": 368,
+          "item_name": "Giant Beak",
+          "amount": 4
         }
       ]
     },
@@ -113251,6 +114391,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 30
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 15
         }
       ]
     },
@@ -113688,6 +114833,11 @@
           "item_id": 1024,
           "item_name": "Neodymium Note",
           "amount": 5
+        },
+        {
+          "item_id": 715,
+          "item_name": "Dragon Coin",
+          "amount": 1
         }
       ]
     },
@@ -114125,6 +115275,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 15
+        },
+        {
+          "item_id": 232,
+          "item_name": "Anbar Ore",
+          "amount": 20
         }
       ]
     },
@@ -114562,6 +115717,11 @@
           "item_id": 1007,
           "item_name": "Hypno Beak+",
           "amount": 4
+        },
+        {
+          "item_id": 1001,
+          "item_name": "Hypno Pelt",
+          "amount": 30
         }
       ]
     },
@@ -114999,6 +116159,11 @@
           "item_id": 996,
           "item_name": "Akantor Carapace",
           "amount": 7
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 15
         }
       ]
     },
@@ -115436,6 +116601,11 @@
           "item_id": 423,
           "item_name": "S.Rath Scale+",
           "amount": 15
+        },
+        {
+          "item_id": 425,
+          "item_name": "S.Rathalos Tail",
+          "amount": 2
         }
       ]
     },
@@ -115873,6 +117043,11 @@
           "item_id": 377,
           "item_name": "Rubbery Prp Hide",
           "amount": 25
+        },
+        {
+          "item_id": 950,
+          "item_name": "Toxin Sac",
+          "amount": 10
         }
       ]
     },
@@ -116310,6 +117485,11 @@
           "item_id": 600,
           "item_name": "Garuga Ear",
           "amount": 3
+        },
+        {
+          "item_id": 231,
+          "item_name": "Ale Nuts",
+          "amount": 15
         }
       ]
     },
@@ -116746,6 +117926,11 @@
         {
           "item_id": 971,
           "item_name": "G.PlesiothScale+",
+          "amount": 15
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
           "amount": 15
         }
       ]
@@ -117184,6 +118369,11 @@
           "item_id": 1436,
           "item_name": "Storm Sac",
           "amount": 2
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 8
         }
       ]
     },
@@ -117621,6 +118811,11 @@
           "item_id": 549,
           "item_name": "Daora Carapace",
           "amount": 8
+        },
+        {
+          "item_id": 508,
+          "item_name": "Blangonga Fang",
+          "amount": 7
         }
       ]
     },
@@ -118058,6 +119253,11 @@
           "item_id": 950,
           "item_name": "Toxin Sac",
           "amount": 7
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "amount": 15
         }
       ]
     },
@@ -118495,6 +119695,11 @@
           "item_id": 587,
           "item_name": "Teostra Horn+",
           "amount": 4
+        },
+        {
+          "item_id": 573,
+          "item_name": "Elder Drgn Blood",
+          "amount": 3
         }
       ]
     },
@@ -118932,6 +120137,11 @@
           "item_id": 573,
           "item_name": "Elder Drgn Blood",
           "amount": 3
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 34
         }
       ]
     },
@@ -119369,6 +120579,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 17
+        },
+        {
+          "item_id": 707,
+          "item_name": "White Belt Coin",
+          "amount": 26
         }
       ]
     },
@@ -119806,6 +121021,11 @@
           "item_id": 956,
           "item_name": "Felyne Fur Ruby",
           "amount": 1
+        },
+        {
+          "item_id": 351,
+          "item_name": "Genprey Fang",
+          "amount": 20
         }
       ]
     },
@@ -120243,6 +121463,11 @@
           "item_id": 382,
           "item_name": "Plesioth Scale+",
           "amount": 16
+        },
+        {
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "amount": 20
         }
       ]
     },
@@ -120680,6 +121905,11 @@
           "item_id": 409,
           "item_name": "Rathalos Scale+",
           "amount": 3
+        },
+        {
+          "item_id": 331,
+          "item_name": "Mosswine Hide",
+          "amount": 1
         }
       ]
     },
@@ -121117,6 +122347,11 @@
           "item_id": 509,
           "item_name": "Blangonga Fang+",
           "amount": 1
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 4
         }
       ]
     },
@@ -121554,6 +122789,11 @@
           "item_id": 429,
           "item_name": "Pearl Hide",
           "amount": 5
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 14
         }
       ]
     },
@@ -121991,6 +123231,11 @@
           "item_id": 994,
           "item_name": "Tigrex Scalp",
           "amount": 1
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "amount": 11
         }
       ]
     },
@@ -122428,6 +123673,11 @@
           "item_id": 220,
           "item_name": "Carbalite Ore",
           "amount": 13
+        },
+        {
+          "item_id": 434,
+          "item_name": "Basarios Shell",
+          "amount": 2
         }
       ]
     },
@@ -122865,6 +124115,11 @@
           "item_id": 970,
           "item_name": "Plesioth Fin+",
           "amount": 3
+        },
+        {
+          "item_id": 212,
+          "item_name": "Broken Shell",
+          "amount": 17
         }
       ]
     },
@@ -123302,6 +124557,11 @@
           "item_id": 343,
           "item_name": "Velociprey Scale+",
           "amount": 9
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 20
         }
       ]
     },
@@ -123739,6 +124999,11 @@
           "item_id": 1007,
           "item_name": "Hypno Beak+",
           "amount": 2
+        },
+        {
+          "item_id": 189,
+          "item_name": "Felvine",
+          "amount": 8
         }
       ]
     },
@@ -124176,6 +125441,11 @@
           "item_id": 226,
           "item_name": "Novacrystal",
           "amount": 2
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 20
         }
       ]
     },
@@ -124613,6 +125883,11 @@
           "item_id": 931,
           "item_name": "Giaprey Scale+",
           "amount": 6
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 10
         }
       ]
     },
@@ -125050,6 +126325,11 @@
           "item_id": 971,
           "item_name": "G.PlesiothScale+",
           "amount": 3
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 25
         }
       ]
     },
@@ -125487,6 +126767,11 @@
           "item_id": 521,
           "item_name": "Rajang Horn",
           "amount": 2
+        },
+        {
+          "item_id": 217,
+          "item_name": "Earth Crystal",
+          "amount": 30
         }
       ]
     },
@@ -125924,6 +127209,11 @@
           "item_id": 941,
           "item_name": "Aminotite",
           "amount": 2
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 10
         }
       ]
     },
@@ -126361,6 +127651,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 3
+        },
+        {
+          "item_id": 930,
+          "item_name": "Giaprey Scale",
+          "amount": 8
         }
       ]
     },
@@ -126798,6 +128093,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 8
+        },
+        {
+          "item_id": 983,
+          "item_name": "Dragonmoss+",
+          "amount": 2
         }
       ]
     },
@@ -127235,6 +128535,11 @@
           "item_id": 736,
           "item_name": "Meteorite",
           "amount": 5
+        },
+        {
+          "item_id": 309,
+          "item_name": "Electro Sac",
+          "amount": 2
         }
       ]
     },
@@ -127672,6 +128977,11 @@
           "item_id": 470,
           "item_name": "Scarlet Horn",
           "amount": 2
+        },
+        {
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "amount": 3
         }
       ]
     },
@@ -128109,6 +129419,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 5
+        },
+        {
+          "item_id": 462,
+          "item_name": "Hornetaur Shell",
+          "amount": 8
         }
       ]
     },
@@ -128546,6 +129861,11 @@
           "item_id": 317,
           "item_name": "Mystery Bone",
           "amount": 8
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 10
         }
       ]
     },
@@ -128983,6 +130303,11 @@
           "item_id": 303,
           "item_name": "Poison Sac",
           "amount": 8
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 18
         }
       ]
     },
@@ -129420,6 +130745,11 @@
           "item_id": 573,
           "item_name": "Elder Drgn Blood",
           "amount": 2
+        },
+        {
+          "item_id": 316,
+          "item_name": "ElderDragonBone",
+          "amount": 10
         }
       ]
     },
@@ -129857,6 +131187,11 @@
           "item_id": 303,
           "item_name": "Poison Sac",
           "amount": 4
+        },
+        {
+          "item_id": 383,
+          "item_name": "Plesioth Fin",
+          "amount": 2
         }
       ]
     },
@@ -130294,6 +131629,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 20
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 15
         }
       ]
     },
@@ -130731,6 +132071,11 @@
           "item_id": 316,
           "item_name": "ElderDragonBone",
           "amount": 12
+        },
+        {
+          "item_id": 232,
+          "item_name": "Anbar Ore",
+          "amount": 3
         }
       ]
     },
@@ -131168,6 +132513,11 @@
           "item_id": 932,
           "item_name": "Giaprey Hide",
           "amount": 3
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 12
         }
       ]
     },
@@ -131605,6 +132955,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 8
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "amount": 12
         }
       ]
     },
@@ -132042,6 +133397,11 @@
           "item_id": 199,
           "item_name": "Toadstool",
           "amount": 12
+        },
+        {
+          "item_id": 217,
+          "item_name": "Earth Crystal",
+          "amount": 34
         }
       ]
     },
@@ -132479,6 +133839,11 @@
           "item_id": 187,
           "item_name": "Sleep Herb",
           "amount": 30
+        },
+        {
+          "item_id": 214,
+          "item_name": "Sunstone",
+          "amount": 11
         }
       ]
     },
@@ -132916,6 +134281,11 @@
           "item_id": 530,
           "item_name": "Hermitaur Shell",
           "amount": 3
+        },
+        {
+          "item_id": 212,
+          "item_name": "Broken Shell",
+          "amount": 12
         }
       ]
     },
@@ -133353,6 +134723,11 @@
           "item_id": 187,
           "item_name": "Sleep Herb",
           "amount": 14
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
+          "amount": 8
         }
       ]
     },
@@ -133789,6 +135164,11 @@
         {
           "item_id": 452,
           "item_name": "Black Spiralhorn",
+          "amount": 1
+        },
+        {
+          "item_id": 474,
+          "item_name": "Argent Horn",
           "amount": 1
         }
       ]
@@ -134227,6 +135607,11 @@
           "item_id": 930,
           "item_name": "Giaprey Scale",
           "amount": 6
+        },
+        {
+          "item_id": 46,
+          "item_name": "Drugged Meat",
+          "amount": 6
         }
       ]
     },
@@ -134664,6 +136049,11 @@
           "item_id": 309,
           "item_name": "Electro Sac",
           "amount": 3
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 5
         }
       ]
     },
@@ -135101,6 +136491,11 @@
           "item_id": 289,
           "item_name": "Hercudrome",
           "amount": 5
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 18
         }
       ]
     },
@@ -135537,6 +136932,11 @@
         {
           "item_id": 237,
           "item_name": "Pin Tuna",
+          "amount": 6
+        },
+        {
+          "item_id": 458,
+          "item_name": "Vespoid Shell",
           "amount": 6
         }
       ]
@@ -135975,6 +137375,11 @@
           "item_id": 86,
           "item_name": "Lightning Rod",
           "amount": 3
+        },
+        {
+          "item_id": 1047,
+          "item_name": "Espinas Carapace",
+          "amount": 6
         }
       ]
     },
@@ -136412,6 +137817,11 @@
           "item_id": 198,
           "item_name": "Parashroom",
           "amount": 3
+        },
+        {
+          "item_id": 208,
+          "item_name": "Dragonfell Berry",
+          "amount": 8
         }
       ]
     },
@@ -136849,6 +138259,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 8
+        },
+        {
+          "item_id": 217,
+          "item_name": "Earth Crystal",
+          "amount": 12
         }
       ]
     },
@@ -137286,6 +138701,11 @@
           "item_id": 185,
           "item_name": "Fire Herb",
           "amount": 12
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 4
         }
       ]
     },
@@ -137723,6 +139143,11 @@
           "item_id": 1046,
           "item_name": "Espinas Scale",
           "amount": 3
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 17
         }
       ]
     },
@@ -138160,6 +139585,11 @@
           "item_id": 529,
           "item_name": "Sm Hermitaur Shl",
           "amount": 32
+        },
+        {
+          "item_id": 198,
+          "item_name": "Parashroom",
+          "amount": 29
         }
       ]
     },
@@ -138597,6 +140027,11 @@
           "item_id": 1001,
           "item_name": "Hypno Pelt",
           "amount": 3
+        },
+        {
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "amount": 5
         }
       ]
     },
@@ -139033,6 +140468,11 @@
         {
           "item_id": 1046,
           "item_name": "Espinas Scale",
+          "amount": 3
+        },
+        {
+          "item_id": 309,
+          "item_name": "Electro Sac",
           "amount": 3
         }
       ]
@@ -139471,6 +140911,11 @@
           "item_id": 230,
           "item_name": "Great Hibiscus",
           "amount": 5
+        },
+        {
+          "item_id": 550,
+          "item_name": "Daora Scale",
+          "amount": 6
         }
       ]
     },
@@ -139908,6 +141353,11 @@
           "item_id": 351,
           "item_name": "Genprey Fang",
           "amount": 14
+        },
+        {
+          "item_id": 368,
+          "item_name": "Giant Beak",
+          "amount": 2
         }
       ]
     },
@@ -140345,6 +141795,11 @@
           "item_id": 383,
           "item_name": "Plesioth Fin",
           "amount": 4
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
+          "amount": 17
         }
       ]
     },
@@ -140781,6 +142236,11 @@
         {
           "item_id": 228,
           "item_name": "Ice Crystal",
+          "amount": 22
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
           "amount": 22
         }
       ]
@@ -141219,6 +142679,11 @@
           "item_id": 308,
           "item_name": "Flame Sac",
           "amount": 6
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 11
         }
       ]
     },
@@ -141656,6 +143121,11 @@
           "item_id": 381,
           "item_name": "Plesioth Scale",
           "amount": 3
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 6
         }
       ]
     },
@@ -142092,6 +143562,11 @@
         {
           "item_id": 277,
           "item_name": "Silver Ricegrass",
+          "amount": 10
+        },
+        {
+          "item_id": 351,
+          "item_name": "Genprey Fang",
           "amount": 10
         }
       ]
@@ -142530,6 +144005,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 10
+        },
+        {
+          "item_id": 140,
+          "item_name": "Slp Coat",
+          "amount": 17
         }
       ]
     },
@@ -142967,6 +144447,11 @@
           "item_id": 21,
           "item_name": "Cool Drink",
           "amount": 14
+        },
+        {
+          "item_id": 203,
+          "item_name": "Deadly Toadstool",
+          "amount": 8
         }
       ]
     },
@@ -143404,6 +144889,11 @@
           "item_id": 32,
           "item_name": "Gunpowder",
           "amount": 12
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 5
         }
       ]
     },
@@ -143840,6 +145330,11 @@
         {
           "item_id": 428,
           "item_name": "Flabby Hide",
+          "amount": 3
+        },
+        {
+          "item_id": 1001,
+          "item_name": "Hypno Pelt",
           "amount": 3
         }
       ]
@@ -144278,6 +145773,11 @@
           "item_id": 530,
           "item_name": "Hermitaur Shell",
           "amount": 6
+        },
+        {
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "amount": 7
         }
       ]
     },
@@ -144714,6 +146214,11 @@
         {
           "item_id": 309,
           "item_name": "Electro Sac",
+          "amount": 3
+        },
+        {
+          "item_id": 232,
+          "item_name": "Anbar Ore",
           "amount": 3
         }
       ]
@@ -145152,6 +146657,11 @@
           "item_id": 316,
           "item_name": "ElderDragonBone",
           "amount": 5
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 7
         }
       ]
     },
@@ -145589,6 +147099,11 @@
           "item_id": 185,
           "item_name": "Fire Herb",
           "amount": 22
+        },
+        {
+          "item_id": 217,
+          "item_name": "Earth Crystal",
+          "amount": 32
         }
       ]
     },
@@ -146026,6 +147541,11 @@
           "item_id": 138,
           "item_name": "Psn Coat",
           "amount": 30
+        },
+        {
+          "item_id": 219,
+          "item_name": "Dragonite Ore",
+          "amount": 8
         }
       ]
     },
@@ -146463,6 +147983,11 @@
           "item_id": 351,
           "item_name": "Genprey Fang",
           "amount": 21
+        },
+        {
+          "item_id": 221,
+          "item_name": "Fucium Ore",
+          "amount": 3
         }
       ]
     },
@@ -146900,6 +148425,11 @@
           "item_id": 558,
           "item_name": "Decayed Webbing",
           "amount": 4
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 25
         }
       ]
     },
@@ -147337,6 +148867,11 @@
           "item_id": 583,
           "item_name": "Teostra Mane",
           "amount": 2
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 10
         }
       ]
     },
@@ -147774,6 +149309,11 @@
           "item_id": 478,
           "item_name": "Kirin Hide",
           "amount": 3
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 7
         }
       ]
     },
@@ -148211,6 +149751,11 @@
           "item_id": 573,
           "item_name": "Elder Drgn Blood",
           "amount": 3
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 11
         }
       ]
     },
@@ -148647,6 +150192,11 @@
         {
           "item_id": 550,
           "item_name": "Daora Scale",
+          "amount": 20
+        },
+        {
+          "item_id": 303,
+          "item_name": "Poison Sac",
           "amount": 20
         }
       ]
@@ -149085,6 +150635,11 @@
           "item_id": 569,
           "item_name": "FireDragonScale",
           "amount": 3
+        },
+        {
+          "item_id": 388,
+          "item_name": "Cephalos Fin",
+          "amount": 3
         }
       ]
     },
@@ -149522,6 +151077,11 @@
           "item_id": 715,
           "item_name": "Dragon Coin",
           "amount": 2
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 9
         }
       ]
     },
@@ -149959,6 +151519,11 @@
           "item_id": 402,
           "item_name": "P.Rathian Shell",
           "amount": 3
+        },
+        {
+          "item_id": 262,
+          "item_name": "Thunderbug",
+          "amount": 5
         }
       ]
     },
@@ -150396,6 +151961,11 @@
           "item_id": 509,
           "item_name": "Blangonga Fang+",
           "amount": 3
+        },
+        {
+          "item_id": 44,
+          "item_name": "Poisoned Meat",
+          "amount": 6
         }
       ]
     },
@@ -150833,6 +152403,11 @@
           "item_id": 32,
           "item_name": "Gunpowder",
           "amount": 22
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 6
         }
       ]
     },
@@ -151270,6 +152845,11 @@
           "item_id": 316,
           "item_name": "ElderDragonBone",
           "amount": 4
+        },
+        {
+          "item_id": 436,
+          "item_name": "Basarios Wing",
+          "amount": 1
         }
       ]
     },
@@ -151706,6 +153286,11 @@
         {
           "item_id": 483,
           "item_name": "Lao-Shan Claw",
+          "amount": 2
+        },
+        {
+          "item_id": 1050,
+          "item_name": "Espinas Tail",
           "amount": 2
         }
       ]
@@ -152144,6 +153729,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 26
+        },
+        {
+          "item_id": 924,
+          "item_name": "Carpenterbug",
+          "amount": 5
         }
       ]
     },
@@ -152581,6 +154171,11 @@
           "item_id": 429,
           "item_name": "Pearl Hide",
           "amount": 4
+        },
+        {
+          "item_id": 1049,
+          "item_name": "Espinas Scalp",
+          "amount": 1
         }
       ]
     },
@@ -153018,6 +154613,11 @@
           "item_id": 1037,
           "item_name": "R.Lavasioth Shl",
           "amount": 4
+        },
+        {
+          "item_id": 438,
+          "item_name": "Gravios Shell",
+          "amount": 5
         }
       ]
     },
@@ -153455,6 +155055,11 @@
           "item_id": 570,
           "item_name": "Fire Dragon Claw",
           "amount": 2
+        },
+        {
+          "item_id": 548,
+          "item_name": "Daora Shell",
+          "amount": 3
         }
       ]
     },
@@ -153891,6 +155496,11 @@
         {
           "item_id": 971,
           "item_name": "G.PlesiothScale+",
+          "amount": 2
+        },
+        {
+          "item_id": 391,
+          "item_name": "Coral Cphlos Fin",
           "amount": 2
         }
       ]
@@ -154329,6 +155939,11 @@
           "item_id": 564,
           "item_name": "Chameleos Claw",
           "amount": 2
+        },
+        {
+          "item_id": 939,
+          "item_name": "Perennial Frost",
+          "amount": 4
         }
       ]
     },
@@ -154766,6 +156381,11 @@
           "item_id": 393,
           "item_name": "Rathian Scale+",
           "amount": 4
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 6
         }
       ]
     },
@@ -155203,6 +156823,11 @@
           "item_id": 529,
           "item_name": "Sm Hermitaur Shl",
           "amount": 21
+        },
+        {
+          "item_id": 957,
+          "item_name": "Bulldrome Tusk",
+          "amount": 7
         }
       ]
     },
@@ -155640,6 +157265,11 @@
           "item_id": 316,
           "item_name": "ElderDragonBone",
           "amount": 2
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 4
         }
       ]
     },
@@ -156077,6 +157707,11 @@
           "item_id": 592,
           "item_name": "Dragonwood",
           "amount": 2
+        },
+        {
+          "item_id": 289,
+          "item_name": "Hercudrome",
+          "amount": 5
         }
       ]
     },
@@ -156514,6 +158149,11 @@
           "item_id": 962,
           "item_name": "Gendrome Tail",
           "amount": 2
+        },
+        {
+          "item_id": 220,
+          "item_name": "Carbalite Ore",
+          "amount": 4
         }
       ]
     },
@@ -156951,6 +158591,11 @@
           "item_id": 930,
           "item_name": "Giaprey Scale",
           "amount": 5
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 24
         }
       ]
     },
@@ -157388,6 +159033,11 @@
           "item_id": 138,
           "item_name": "Psn Coat",
           "amount": 15
+        },
+        {
+          "item_id": 1050,
+          "item_name": "Espinas Tail",
+          "amount": 1
         }
       ]
     },
@@ -157825,6 +159475,11 @@
           "item_id": 380,
           "item_name": "Piscine Fang",
           "amount": 10
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
+          "amount": 5
         }
       ]
     },
@@ -158262,6 +159917,11 @@
           "item_id": 566,
           "item_name": "Chameleos Tail",
           "amount": 2
+        },
+        {
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "amount": 3
         }
       ]
     },
@@ -158699,6 +160359,11 @@
           "item_id": 277,
           "item_name": "Silver Ricegrass",
           "amount": 5
+        },
+        {
+          "item_id": 508,
+          "item_name": "Blangonga Fang",
+          "amount": 2
         }
       ]
     },
@@ -159136,6 +160801,11 @@
           "item_id": 973,
           "item_name": "Rath Fluid",
           "amount": 3
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
+          "amount": 5
         }
       ]
     },
@@ -159573,6 +161243,11 @@
           "item_id": 945,
           "item_name": "Kurenzite",
           "amount": 14
+        },
+        {
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "amount": 1
         }
       ]
     },
@@ -160010,6 +161685,11 @@
           "item_id": 24,
           "item_name": "Monster Fluid",
           "amount": 5
+        },
+        {
+          "item_id": 25,
+          "item_name": "Monster Broth",
+          "amount": 3
         }
       ]
     },
@@ -160447,6 +162127,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 6
+        },
+        {
+          "item_id": 460,
+          "item_name": "Vespoid Wing",
+          "amount": 8
         }
       ]
     },
@@ -160883,6 +162568,11 @@
         {
           "item_id": 488,
           "item_name": "Lao-Shan Carpace",
+          "amount": 3
+        },
+        {
+          "item_id": 554,
+          "item_name": "Daora Claw",
           "amount": 3
         }
       ]
@@ -161321,6 +163011,11 @@
           "item_id": 944,
           "item_name": "Sniperfish",
           "amount": 3
+        },
+        {
+          "item_id": 199,
+          "item_name": "Toadstool",
+          "amount": 6
         }
       ]
     },
@@ -161758,6 +163453,11 @@
           "item_id": 189,
           "item_name": "Felvine",
           "amount": 20
+        },
+        {
+          "item_id": 754,
+          "item_name": "Pawprint Stamp",
+          "amount": 5
         }
       ]
     },
@@ -162195,6 +163895,11 @@
           "item_id": 1796,
           "item_name": "Pariapuria Fang",
           "amount": 4
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 12
         }
       ]
     },
@@ -162632,6 +164337,11 @@
           "item_id": 303,
           "item_name": "Poison Sac",
           "amount": 5
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 22
         }
       ]
     },
@@ -163069,6 +164779,11 @@
           "item_id": 228,
           "item_name": "Ice Crystal",
           "amount": 23
+        },
+        {
+          "item_id": 187,
+          "item_name": "Sleep Herb",
+          "amount": 20
         }
       ]
     },
@@ -163506,6 +165221,11 @@
           "item_id": 511,
           "item_name": "Blangonga Pelt+",
           "amount": 3
+        },
+        {
+          "item_id": 514,
+          "item_name": "Congalala Pelt",
+          "amount": 8
         }
       ]
     },
@@ -163943,6 +165663,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 3
+        },
+        {
+          "item_id": 942,
+          "item_name": "Slimy Mushroom",
+          "amount": 6
         }
       ]
     },
@@ -164380,6 +166105,11 @@
           "item_id": 950,
           "item_name": "Toxin Sac",
           "amount": 4
+        },
+        {
+          "item_id": 548,
+          "item_name": "Daora Shell",
+          "amount": 5
         }
       ]
     },
@@ -164817,6 +166547,11 @@
           "item_id": 208,
           "item_name": "Dragonfell Berry",
           "amount": 5
+        },
+        {
+          "item_id": 1008,
+          "item_name": "Hypno Claw+",
+          "amount": 2
         }
       ]
     },
@@ -165254,6 +166989,11 @@
           "item_id": 1048,
           "item_name": "Espinas Spike",
           "amount": 1
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 8
         }
       ]
     },
@@ -165691,6 +167431,11 @@
           "item_id": 560,
           "item_name": "Chameleos Hide",
           "amount": 3
+        },
+        {
+          "item_id": 203,
+          "item_name": "Deadly Toadstool",
+          "amount": 5
         }
       ]
     },
@@ -166127,6 +167872,11 @@
         {
           "item_id": 303,
           "item_name": "Poison Sac",
+          "amount": 9
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
           "amount": 9
         }
       ]
@@ -166565,6 +168315,11 @@
           "item_id": 1012,
           "item_name": "Lavasioth Scale",
           "amount": 1
+        },
+        {
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "amount": 2
         }
       ]
     },
@@ -167002,6 +168757,11 @@
           "item_id": 213,
           "item_name": "Black Pearl",
           "amount": 8
+        },
+        {
+          "item_id": 212,
+          "item_name": "Broken Shell",
+          "amount": 35
         }
       ]
     },
@@ -167439,6 +169199,11 @@
           "item_id": 309,
           "item_name": "Electro Sac",
           "amount": 6
+        },
+        {
+          "item_id": 433,
+          "item_name": "Alluring Webbing",
+          "amount": 2
         }
       ]
     },
@@ -167876,6 +169641,11 @@
           "item_id": 198,
           "item_name": "Parashroom",
           "amount": 9
+        },
+        {
+          "item_id": 459,
+          "item_name": "Vespoid Carapace",
+          "amount": 4
         }
       ]
     },
@@ -168313,6 +170083,11 @@
           "item_id": 592,
           "item_name": "Dragonwood",
           "amount": 5
+        },
+        {
+          "item_id": 416,
+          "item_name": "Rathalos Wing",
+          "amount": 1
         }
       ]
     },
@@ -168750,6 +170525,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 42
+        },
+        {
+          "item_id": 923,
+          "item_name": "Springnight Carp",
+          "amount": 5
         }
       ]
     },
@@ -169187,6 +170967,11 @@
           "item_id": 199,
           "item_name": "Toadstool",
           "amount": 9
+        },
+        {
+          "item_id": 374,
+          "item_name": "Rubbery Hide",
+          "amount": 6
         }
       ]
     },
@@ -169623,6 +171408,11 @@
         {
           "item_id": 32,
           "item_name": "Gunpowder",
+          "amount": 4
+        },
+        {
+          "item_id": 222,
+          "item_name": "Firestone",
           "amount": 4
         }
       ]
@@ -170061,6 +171851,11 @@
           "item_id": 254,
           "item_name": "Queen Shrimp",
           "amount": 1
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 22
         }
       ]
     },
@@ -170498,6 +172293,11 @@
           "item_id": 77,
           "item_name": "Psn Smoke Bomb",
           "amount": 12
+        },
+        {
+          "item_id": 218,
+          "item_name": "Machalite Ore",
+          "amount": 7
         }
       ]
     },
@@ -170935,6 +172735,11 @@
           "item_id": 754,
           "item_name": "Pawprint Stamp",
           "amount": 2
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 6
         }
       ]
     },
@@ -171372,6 +173177,11 @@
           "item_id": 381,
           "item_name": "Plesioth Scale",
           "amount": 5
+        },
+        {
+          "item_id": 190,
+          "item_name": "Cactus Flower",
+          "amount": 4
         }
       ]
     },
@@ -171809,6 +173619,11 @@
           "item_id": 532,
           "item_name": "Hermitaur Cpc",
           "amount": 6
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 15
         }
       ]
     },
@@ -207214,6 +209029,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 4
+        },
+        {
+          "item_id": 481,
+          "item_name": "Kirin Thndrtail",
+          "amount": 6
         }
       ]
     },
@@ -209410,6 +211230,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 5
+        },
+        {
+          "item_id": 572,
+          "item_name": "Teostra Gem",
+          "amount": 2
         }
       ]
     },
@@ -211874,6 +213699,11 @@
           "item_id": 1668,
           "item_name": "Belkuros Claw+",
           "amount": 2
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 5
         }
       ]
     },
@@ -212002,6 +213832,11 @@
           "item_id": 1676,
           "item_name": "Belkuros Gem",
           "amount": 8
+        },
+        {
+          "item_id": 1658,
+          "item_name": "Illumonite",
+          "amount": 5
         }
       ]
     },
@@ -214303,6 +216138,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 572,
+          "item_name": "Teostra Gem",
+          "amount": 2
         }
       ]
     },
@@ -215642,6 +217482,11 @@
           "item_id": 1671,
           "item_name": "Belkuros Fluid",
           "amount": 1
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 5
         }
       ]
     },
@@ -215770,6 +217615,11 @@
           "item_id": 1675,
           "item_name": "Bel Electroscale",
           "amount": 8
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 5
         }
       ]
     },
@@ -215900,6 +217750,11 @@
           "item_id": 1245,
           "item_name": "Lynian Treasure+",
           "amount": 7
+        },
+        {
+          "item_id": 1672,
+          "item_name": "Belkuros Marrow",
+          "amount": 2
         }
       ]
     },
@@ -216509,6 +218364,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 5
+        },
+        {
+          "item_id": 1675,
+          "item_name": "Bel Electroscale",
+          "amount": 5
         }
       ]
     },
@@ -216636,6 +218496,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 99
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 30
         }
       ]
     },
@@ -217369,6 +219234,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 7
+        },
+        {
+          "item_id": 250,
+          "item_name": "Speartuna",
+          "amount": 1
         }
       ]
     },
@@ -218348,6 +220218,11 @@
           "item_id": 1799,
           "item_name": "Pariapuria Fin",
           "amount": 1
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 4
         }
       ]
     },
@@ -218475,6 +220350,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 1800,
+          "item_name": "Paria Cartilage",
+          "amount": 3
         }
       ]
     },
@@ -219563,6 +221443,11 @@
           "item_id": 1798,
           "item_name": "Pariapuria Blood",
           "amount": 4
+        },
+        {
+          "item_id": 944,
+          "item_name": "Sniperfish",
+          "amount": 6
         }
       ]
     },
@@ -219690,6 +221575,11 @@
           "item_id": 1409,
           "item_name": "E.Dragon Claw",
           "amount": 6
+        },
+        {
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "amount": 3
         }
       ]
     },
@@ -221943,6 +223833,11 @@
           "item_id": 1400,
           "item_name": "E.Dragon Shell",
           "amount": 4
+        },
+        {
+          "item_id": 1424,
+          "item_name": "E.Dragon Scale",
+          "amount": 6
         }
       ]
     },
@@ -223886,6 +225781,11 @@
           "item_id": 1799,
           "item_name": "Pariapuria Fin",
           "amount": 2
+        },
+        {
+          "item_id": 1658,
+          "item_name": "Illumonite",
+          "amount": 5
         }
       ]
     },
@@ -224013,6 +225913,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "amount": 3
         }
       ]
     },
@@ -224758,6 +226663,11 @@
           "item_id": 1421,
           "item_name": "E.Dragon Horn",
           "amount": 2
+        },
+        {
+          "item_id": 1406,
+          "item_name": "E.Dragon Hide",
+          "amount": 7
         }
       ]
     },
@@ -226584,6 +228494,11 @@
           "item_id": 1799,
           "item_name": "Pariapuria Fin",
           "amount": 2
+        },
+        {
+          "item_id": 1656,
+          "item_name": "Tempestite",
+          "amount": 4
         }
       ]
     },
@@ -226711,6 +228626,11 @@
           "item_id": 1412,
           "item_name": "E.Dragon Tail",
           "amount": 7
+        },
+        {
+          "item_id": 1800,
+          "item_name": "Paria Cartilage",
+          "amount": 3
         }
       ]
     },
@@ -226898,6 +228818,11 @@
           "item_id": 1799,
           "item_name": "Pariapuria Fin",
           "amount": 3
+        },
+        {
+          "item_id": 1659,
+          "item_name": "Prickly Eel",
+          "amount": 4
         }
       ]
     },
@@ -227025,6 +228950,11 @@
           "item_id": 1406,
           "item_name": "E.Dragon Hide",
           "amount": 5
+        },
+        {
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "amount": 3
         }
       ]
     },
@@ -227212,6 +229142,11 @@
           "item_id": 1421,
           "item_name": "E.Dragon Horn",
           "amount": 3
+        },
+        {
+          "item_id": 1406,
+          "item_name": "E.Dragon Hide",
+          "amount": 6
         }
       ]
     },
@@ -229154,6 +231089,11 @@
           "item_id": 973,
           "item_name": "Rath Fluid",
           "amount": 2
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 3
         }
       ]
     },
@@ -233754,6 +235694,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 9
+        },
+        {
+          "item_id": 556,
+          "item_name": "Daora Gem",
+          "amount": 1
         }
       ]
     },
@@ -234487,6 +236432,11 @@
           "item_id": 1800,
           "item_name": "Paria Cartilage",
           "amount": 1
+        },
+        {
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "amount": 8
         }
       ]
     },
@@ -234614,6 +236564,11 @@
           "item_id": 1418,
           "item_name": "E.Dragon Wing",
           "amount": 6
+        },
+        {
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "amount": 2
         }
       ]
     },
@@ -235588,6 +237543,11 @@
           "item_id": 954,
           "item_name": "Brute Bone",
           "amount": 5
+        },
+        {
+          "item_id": 204,
+          "item_name": "Prism Dandelion",
+          "amount": 1
         }
       ]
     },
@@ -236869,6 +238829,11 @@
           "item_id": 1675,
           "item_name": "Bel Electroscale",
           "amount": 1
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 7
         }
       ]
     },
@@ -236997,6 +238962,11 @@
           "item_id": 1673,
           "item_name": "Bel Insulator",
           "amount": 3
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 5
         }
       ]
     },
@@ -237247,6 +239217,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 99
+        },
+        {
+          "item_id": 208,
+          "item_name": "Dragonfell Berry",
+          "amount": 2
         }
       ]
     },
@@ -238225,6 +240200,11 @@
           "item_id": 314,
           "item_name": "Monster Bone L",
           "amount": 7
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 4
         }
       ]
     },
@@ -238352,6 +240332,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 5
+        },
+        {
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "amount": 2
         }
       ]
     },
@@ -240490,6 +242475,11 @@
           "item_id": 1090,
           "item_name": "Pure Cpceolite",
           "amount": 3
+        },
+        {
+          "item_id": 1388,
+          "item_name": "Avian Beak",
+          "amount": 10
         }
       ]
     },
@@ -240617,6 +242607,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 6
+        },
+        {
+          "item_id": 1403,
+          "item_name": "E.Dragon Pelt",
+          "amount": 9
         }
       ]
     },
@@ -240744,6 +242739,11 @@
           "item_id": 1297,
           "item_name": "Cpceon Direblade",
           "amount": 8
+        },
+        {
+          "item_id": 1088,
+          "item_name": "Carapaceolite",
+          "amount": 11
         }
       ]
     },
@@ -241113,6 +243113,11 @@
           "item_id": 1881,
           "item_name": "Orgaron Spike",
           "amount": 3
+        },
+        {
+          "item_id": 277,
+          "item_name": "Silver Ricegrass",
+          "amount": 12
         }
       ]
     },
@@ -241240,6 +243245,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 9
+        },
+        {
+          "item_id": 1884,
+          "item_name": "Crimson Pelt",
+          "amount": 3
         }
       ]
     },
@@ -241367,6 +243377,11 @@
           "item_id": 324,
           "item_name": "Wyvern Gem",
           "amount": 3
+        },
+        {
+          "item_id": 213,
+          "item_name": "Black Pearl",
+          "amount": 8
         }
       ]
     },
@@ -243359,6 +245374,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 10
+        },
+        {
+          "item_id": 577,
+          "item_name": "Lunastra Webbing",
+          "amount": 4
         }
       ]
     },
@@ -244529,6 +246549,11 @@
           "item_id": 1876,
           "item_name": "Orgaron Claw",
           "amount": 5
+        },
+        {
+          "item_id": 1656,
+          "item_name": "Tempestite",
+          "amount": 3
         }
       ]
     },
@@ -244656,6 +246681,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 8
+        },
+        {
+          "item_id": 1883,
+          "item_name": "Orgaron Ruby",
+          "amount": 3
         }
       ]
     },
@@ -247018,6 +249048,11 @@
           "item_id": 1882,
           "item_name": "Orgaron Blood",
           "amount": 5
+        },
+        {
+          "item_id": 1653,
+          "item_name": "Beryl Ore",
+          "amount": 2
         }
       ]
     },
@@ -247145,6 +249180,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 7
+        },
+        {
+          "item_id": 1884,
+          "item_name": "Crimson Pelt",
+          "amount": 3
         }
       ]
     },
@@ -247392,6 +249432,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 4
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 8
         }
       ]
     },
@@ -249222,6 +251267,11 @@
           "item_id": 1880,
           "item_name": "Orgaron Spike+",
           "amount": 2
+        },
+        {
+          "item_id": 1654,
+          "item_name": "Ammonite Ore",
+          "amount": 3
         }
       ]
     },
@@ -249349,6 +251399,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 7
+        },
+        {
+          "item_id": 1883,
+          "item_name": "Orgaron Ruby",
+          "amount": 3
         }
       ]
     },
@@ -252069,6 +254124,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 6
+        },
+        {
+          "item_id": 576,
+          "item_name": "Lunastra Mane",
+          "amount": 13
         }
       ]
     },
@@ -252800,6 +254860,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 579,
+          "item_name": "Lunastra Horn",
+          "amount": 6
         }
       ]
     },
@@ -252927,6 +254992,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 12
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 5
         }
       ]
     },
@@ -254495,6 +256565,11 @@
           "item_id": 1880,
           "item_name": "Orgaron Spike+",
           "amount": 3
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 3
         }
       ]
     },
@@ -254622,6 +256697,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 8
+        },
+        {
+          "item_id": 1884,
+          "item_name": "Crimson Pelt",
+          "amount": 3
         }
       ]
     },
@@ -256250,6 +258330,11 @@
           "item_id": 2155,
           "item_name": "Laviente Spike",
           "amount": 2
+        },
+        {
+          "item_id": 2148,
+          "item_name": "Laviente Hide",
+          "amount": 10
         }
       ]
     },
@@ -256499,6 +258584,11 @@
           "item_id": 2208,
           "item_name": "E.Dragon Fang",
           "amount": 7
+        },
+        {
+          "item_id": 579,
+          "item_name": "Lunastra Horn",
+          "amount": 5
         }
       ]
     },
@@ -257765,6 +259855,11 @@
           "item_id": 1297,
           "item_name": "Cpceon Direblade",
           "amount": 6
+        },
+        {
+          "item_id": 1290,
+          "item_name": "Cpceon Carapace",
+          "amount": 11
         }
       ]
     },
@@ -259282,6 +261377,11 @@
           "item_id": 2150,
           "item_name": "Laviente Wing",
           "amount": 4
+        },
+        {
+          "item_id": 2152,
+          "item_name": "Laviente Horn",
+          "amount": 4
         }
       ]
     },
@@ -259531,6 +261631,11 @@
           "item_id": 1799,
           "item_name": "Pariapuria Fin",
           "amount": 2
+        },
+        {
+          "item_id": 1657,
+          "item_name": "Scarlenite",
+          "amount": 3
         }
       ]
     },
@@ -259658,6 +261763,11 @@
           "item_id": 2209,
           "item_name": "E.Dragon Gem",
           "amount": 7
+        },
+        {
+          "item_id": 1800,
+          "item_name": "Paria Cartilage",
+          "amount": 2
         }
       ]
     },
@@ -263822,6 +265932,11 @@
           "item_id": 222,
           "item_name": "Firestone",
           "amount": 2
+        },
+        {
+          "item_id": 945,
+          "item_name": "Kurenzite",
+          "amount": 5
         }
       ]
     },
@@ -265352,6 +267467,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "amount": 7
         }
       ]
     },
@@ -266748,6 +268868,11 @@
           "item_id": 1881,
           "item_name": "Orgaron Spike",
           "amount": 2
+        },
+        {
+          "item_id": 1656,
+          "item_name": "Tempestite",
+          "amount": 2
         }
       ]
     },
@@ -266875,6 +269000,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 4
+        },
+        {
+          "item_id": 1884,
+          "item_name": "Crimson Pelt",
+          "amount": 2
         }
       ]
     },
@@ -267901,6 +270031,11 @@
           "item_id": 2149,
           "item_name": "Laviente Scale",
           "amount": 16
+        },
+        {
+          "item_id": 2154,
+          "item_name": "Laviente Tail",
+          "amount": 4
         }
       ]
     },
@@ -268150,6 +270285,11 @@
           "item_id": 2208,
           "item_name": "E.Dragon Fang",
           "amount": 6
+        },
+        {
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "amount": 5
         }
       ]
     },
@@ -269173,6 +271313,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 8
+        },
+        {
+          "item_id": 486,
+          "item_name": "Lao-Shan Ruby",
+          "amount": 1
         }
       ]
     },
@@ -272783,6 +274928,11 @@
           "item_id": 2646,
           "item_name": "Duragaua Shell",
           "amount": 4
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 12
         }
       ]
     },
@@ -272972,6 +275122,11 @@
           "item_id": 1419,
           "item_name": "E.Dragon Wing+",
           "amount": 5
+        },
+        {
+          "item_id": 2649,
+          "item_name": "Duragaua Tail",
+          "amount": 2
         }
       ]
     },
@@ -273099,6 +275254,11 @@
           "item_id": 2718,
           "item_name": "Rath Steelshell",
           "amount": 1
+        },
+        {
+          "item_id": 1018,
+          "item_name": "Lavasioth Fang+",
+          "amount": 16
         }
       ]
     },
@@ -274981,6 +277141,11 @@
           "item_id": 1882,
           "item_name": "Orgaron Blood",
           "amount": 3
+        },
+        {
+          "item_id": 1877,
+          "item_name": "Orgaron Pelt",
+          "amount": 2
         }
       ]
     },
@@ -275108,6 +277273,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 1883,
+          "item_name": "Orgaron Ruby",
+          "amount": 3
         }
       ]
     },
@@ -275837,6 +278007,11 @@
           "item_id": 2647,
           "item_name": "Duragaua Claw",
           "amount": 1
+        },
+        {
+          "item_id": 217,
+          "item_name": "Earth Crystal",
+          "amount": 14
         }
       ]
     },
@@ -276026,6 +278201,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 5
+        },
+        {
+          "item_id": 2654,
+          "item_name": "Duragaua Horn+",
+          "amount": 3
         }
       ]
     },
@@ -276153,6 +278333,11 @@
           "item_id": 2724,
           "item_name": "Blango Crusher",
           "amount": 1
+        },
+        {
+          "item_id": 463,
+          "item_name": "Hornetaur Head",
+          "amount": 8
         }
       ]
     },
@@ -276404,6 +278589,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 22
+        },
+        {
+          "item_id": 351,
+          "item_name": "Genprey Fang",
+          "amount": 9
         }
       ]
     },
@@ -277679,6 +279869,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 17
+        },
+        {
+          "item_id": 587,
+          "item_name": "Teostra Horn+",
+          "amount": 4
         }
       ]
     },
@@ -281123,6 +283318,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 7
+        },
+        {
+          "item_id": 574,
+          "item_name": "FireDragonScale+",
+          "amount": 22
         }
       ]
     },
@@ -281252,6 +283452,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 15
+        },
+        {
+          "item_id": 398,
+          "item_name": "Rathian Spike",
+          "amount": 2
         }
       ]
     },
@@ -282340,6 +284545,11 @@
           "item_id": 2645,
           "item_name": "Duragaua Scale",
           "amount": 7
+        },
+        {
+          "item_id": 228,
+          "item_name": "Ice Crystal",
+          "amount": 13
         }
       ]
     },
@@ -282529,6 +284739,11 @@
           "item_id": 1419,
           "item_name": "E.Dragon Wing+",
           "amount": 6
+        },
+        {
+          "item_id": 2654,
+          "item_name": "Duragaua Horn+",
+          "amount": 4
         }
       ]
     },
@@ -282957,6 +285172,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 7
+        },
+        {
+          "item_id": 567,
+          "item_name": "Chameleos Gem",
+          "amount": 3
         }
       ]
     },
@@ -283086,6 +285306,11 @@
           "item_id": 2706,
           "item_name": "Congalala Talon",
           "amount": 1
+        },
+        {
+          "item_id": 347,
+          "item_name": "Velocidrome Claw+",
+          "amount": 22
         }
       ]
     },
@@ -284427,6 +286652,11 @@
           "item_id": 2646,
           "item_name": "Duragaua Shell",
           "amount": 3
+        },
+        {
+          "item_id": 512,
+          "item_name": "Blango Whisker",
+          "amount": 1
         }
       ]
     },
@@ -284616,6 +286846,11 @@
           "item_id": 1408,
           "item_name": "E.Dragon Piel",
           "amount": 5
+        },
+        {
+          "item_id": 2655,
+          "item_name": "Duragaua Tail+",
+          "amount": 2
         }
       ]
     },
@@ -286073,6 +288308,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 6
+        },
+        {
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "amount": 8
         }
       ]
     },
@@ -288014,6 +290254,11 @@
           "item_id": 2703,
           "item_name": "Strong Beak",
           "amount": 1
+        },
+        {
+          "item_id": 2163,
+          "item_name": "Rustleweed",
+          "amount": 5
         }
       ]
     },
@@ -292007,6 +294252,11 @@
           "item_id": 2146,
           "item_name": "Laviente Blood",
           "amount": 5
+        },
+        {
+          "item_id": 2151,
+          "item_name": "Laviente Marrow",
+          "amount": 2
         }
       ]
     },
@@ -292256,6 +294506,11 @@
           "item_id": 2709,
           "item_name": "Lavasio Whirlfin",
           "amount": 1
+        },
+        {
+          "item_id": 976,
+          "item_name": "Gravios Medulla",
+          "amount": 3
         }
       ]
     },
@@ -294698,6 +296953,11 @@
           "item_id": 2721,
           "item_name": "Crooked Horn",
           "amount": 1
+        },
+        {
+          "item_id": 2938,
+          "item_name": "Truby",
+          "amount": 3
         }
       ]
     },
@@ -297012,6 +299272,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 11
+        },
+        {
+          "item_id": 486,
+          "item_name": "Lao-Shan Ruby",
+          "amount": 2
         }
       ]
     },
@@ -297139,6 +299404,11 @@
           "item_id": 2718,
           "item_name": "Rath Steelshell",
           "amount": 1
+        },
+        {
+          "item_id": 389,
+          "item_name": "Cephalos Fin+",
+          "amount": 3
         }
       ]
     },
@@ -298183,6 +300453,11 @@
           "item_id": 2208,
           "item_name": "E.Dragon Fang",
           "amount": 6
+        },
+        {
+          "item_id": 555,
+          "item_name": "Daora Claw+",
+          "amount": 5
         }
       ]
     },
@@ -300366,6 +302641,11 @@
           "item_id": 2721,
           "item_name": "Crooked Horn",
           "amount": 1
+        },
+        {
+          "item_id": 962,
+          "item_name": "Gendrome Tail",
+          "amount": 3
         }
       ]
     },
@@ -301996,6 +304276,11 @@
           "item_id": 3540,
           "item_name": "Grenzebul Horn",
           "amount": 2
+        },
+        {
+          "item_id": 381,
+          "item_name": "Plesioth Scale",
+          "amount": 6
         }
       ]
     },
@@ -302185,6 +304470,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 3544,
+          "item_name": "Grenzebul Scale+",
+          "amount": 14
         }
       ]
     },
@@ -302312,6 +304602,11 @@
           "item_id": 2706,
           "item_name": "Congalala Talon",
           "amount": 1
+        },
+        {
+          "item_id": 512,
+          "item_name": "Blango Whisker",
+          "amount": 12
         }
       ]
     },
@@ -303045,6 +305340,11 @@
           "item_id": 3543,
           "item_name": "Grenzebul Spike",
           "amount": 3
+        },
+        {
+          "item_id": 529,
+          "item_name": "Sm Hermitaur Shl",
+          "amount": 12
         }
       ]
     },
@@ -303234,6 +305534,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 5
+        },
+        {
+          "item_id": 3545,
+          "item_name": "Grenzebul Hide+",
+          "amount": 8
         }
       ]
     },
@@ -304822,6 +307127,11 @@
           "item_id": 3543,
           "item_name": "Grenzebul Spike",
           "amount": 4
+        },
+        {
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "amount": 2
         }
       ]
     },
@@ -305011,6 +307321,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 14
+        },
+        {
+          "item_id": 3548,
+          "item_name": "Grenzebul Wing+",
+          "amount": 2
         }
       ]
     },
@@ -305138,6 +307453,11 @@
           "item_id": 3519,
           "item_name": "Plesio Razorfin",
           "amount": 1
+        },
+        {
+          "item_id": 436,
+          "item_name": "Basarios Wing",
+          "amount": 17
         }
       ]
     },
@@ -308350,6 +310670,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 14
+        },
+        {
+          "item_id": 489,
+          "item_name": "Azure Lao Horn",
+          "amount": 2
         }
       ]
     },
@@ -311145,6 +313470,11 @@
           "item_id": 2146,
           "item_name": "Laviente Blood",
           "amount": 5
+        },
+        {
+          "item_id": 2151,
+          "item_name": "Laviente Marrow",
+          "amount": 2
         }
       ]
     },
@@ -313106,6 +315436,11 @@
           "item_id": 3540,
           "item_name": "Grenzebul Horn",
           "amount": 2
+        },
+        {
+          "item_id": 216,
+          "item_name": "Iron Ore",
+          "amount": 12
         }
       ]
     },
@@ -313295,6 +315630,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 14
+        },
+        {
+          "item_id": 3550,
+          "item_name": "Grenzebul Spike+",
+          "amount": 2
         }
       ]
     },
@@ -314691,6 +317031,11 @@
           "item_id": 2648,
           "item_name": "Duragaua Horn",
           "amount": 2
+        },
+        {
+          "item_id": 24,
+          "item_name": "Monster Fluid",
+          "amount": 6
         }
       ]
     },
@@ -314880,6 +317225,11 @@
           "item_id": 3571,
           "item_name": "E.Dragon Jaw",
           "amount": 6
+        },
+        {
+          "item_id": 2656,
+          "item_name": "Duragaua Spike+",
+          "amount": 2
         }
       ]
     },
@@ -315007,6 +317357,11 @@
           "item_id": 3516,
           "item_name": "Teo Fiercehorn",
           "amount": 1
+        },
+        {
+          "item_id": 375,
+          "item_name": "Rubbery Hide+",
+          "amount": 20
         }
       ]
     },
@@ -316035,6 +318390,11 @@
           "item_id": 3572,
           "item_name": "E.Dragon Webbing",
           "amount": 8
+        },
+        {
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "amount": 5
         }
       ]
     },
@@ -319094,6 +321454,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 4
+        },
+        {
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "amount": 2
         }
       ]
     },
@@ -319203,6 +321568,11 @@
           "item_id": 3712,
           "item_name": "Kirin Piel",
           "amount": 1
+        },
+        {
+          "item_id": 526,
+          "item_name": "Gold Rajang Pelt",
+          "amount": 12
         }
       ]
     },
@@ -323920,6 +326290,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 447,
+          "item_name": "Diablos Carapace",
+          "amount": 8
         }
       ]
     },
@@ -324171,6 +326546,11 @@
           "item_id": 3532,
           "item_name": "Paria Piercer",
           "amount": 1
+        },
+        {
+          "item_id": 971,
+          "item_name": "G.PlesiothScale+",
+          "amount": 12
         }
       ]
     },
@@ -324422,6 +326802,11 @@
           "item_id": 2648,
           "item_name": "Duragaua Horn",
           "amount": 2
+        },
+        {
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "amount": 8
         }
       ]
     },
@@ -324611,6 +326996,11 @@
           "item_id": 3738,
           "item_name": "E.Dragon Tendon",
           "amount": 6
+        },
+        {
+          "item_id": 2656,
+          "item_name": "Duragaua Spike+",
+          "amount": 2
         }
       ]
     },
@@ -326070,6 +328460,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 4
+        },
+        {
+          "item_id": 1408,
+          "item_name": "E.Dragon Piel",
+          "amount": 2
         }
       ]
     },
@@ -326179,6 +328574,11 @@
           "item_id": 3519,
           "item_name": "Plesio Razorfin",
           "amount": 1
+        },
+        {
+          "item_id": 537,
+          "item_name": "Ceanataur Cpc",
+          "amount": 12
         }
       ]
     },
@@ -328677,6 +331077,11 @@
           "item_id": 1409,
           "item_name": "E.Dragon Claw",
           "amount": 8
+        },
+        {
+          "item_id": 567,
+          "item_name": "Chameleos Gem",
+          "amount": 4
         }
       ]
     },
@@ -328804,6 +331209,11 @@
           "item_id": 2715,
           "item_name": "Rath Direscale",
           "amount": 1
+        },
+        {
+          "item_id": 1057,
+          "item_name": "F.Espinas Tail",
+          "amount": 8
         }
       ]
     },
@@ -329055,6 +331465,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 533,
+          "item_name": "Hermitaur Claw+",
+          "amount": 10
         }
       ]
     },
@@ -330867,6 +333282,11 @@
           "item_id": 1660,
           "item_name": "Dryland Coral",
           "amount": 8
+        },
+        {
+          "item_id": 468,
+          "item_name": "Giant Lobstershl",
+          "amount": 2
         }
       ]
     },
@@ -331118,6 +333538,11 @@
           "item_id": 3510,
           "item_name": "Basa Rockshell",
           "amount": 1
+        },
+        {
+          "item_id": 599,
+          "item_name": "Garuga Shell",
+          "amount": 10
         }
       ]
     },
@@ -331369,6 +333794,11 @@
           "item_id": 2649,
           "item_name": "Duragaua Tail",
           "amount": 2
+        },
+        {
+          "item_id": 939,
+          "item_name": "Perennial Frost",
+          "amount": 12
         }
       ]
     },
@@ -331558,6 +333988,11 @@
           "item_id": 3737,
           "item_name": "E.Dragon Tongue",
           "amount": 6
+        },
+        {
+          "item_id": 2653,
+          "item_name": "Duragaua Claw+",
+          "amount": 3
         }
       ]
     },
@@ -332281,6 +334716,11 @@
           "item_id": 3738,
           "item_name": "E.Dragon Tendon",
           "amount": 6
+        },
+        {
+          "item_id": 563,
+          "item_name": "Chameleos Spike",
+          "amount": 4
         }
       ]
     },
@@ -332408,6 +334848,11 @@
           "item_id": 3722,
           "item_name": "Dura Rimeshell",
           "amount": 1
+        },
+        {
+          "item_id": 993,
+          "item_name": "Tigrex Fang+",
+          "amount": 6
         }
       ]
     },
@@ -332659,6 +335104,11 @@
           "item_id": 3715,
           "item_name": "Cham Specklehide",
           "amount": 1
+        },
+        {
+          "item_id": 1051,
+          "item_name": "Espinas Ruby",
+          "amount": 8
         }
       ]
     },
@@ -333213,6 +335663,11 @@
           "item_id": 2706,
           "item_name": "Congalala Talon",
           "amount": 1
+        },
+        {
+          "item_id": 537,
+          "item_name": "Ceanataur Cpc",
+          "amount": 10
         }
       ]
     },
@@ -333464,6 +335919,11 @@
           "item_id": 3541,
           "item_name": "Grenzebul Wing",
           "amount": 2
+        },
+        {
+          "item_id": 384,
+          "item_name": "G.Plesioth Scale",
+          "amount": 3
         }
       ]
     },
@@ -333653,6 +336113,11 @@
           "item_id": 3737,
           "item_name": "E.Dragon Tongue",
           "amount": 6
+        },
+        {
+          "item_id": 3548,
+          "item_name": "Grenzebul Wing+",
+          "amount": 3
         }
       ]
     },
@@ -336079,6 +338544,11 @@
           "item_id": 3715,
           "item_name": "Cham Specklehide",
           "amount": 1
+        },
+        {
+          "item_id": 1072,
+          "item_name": "Silver Quill",
+          "amount": 4
         }
       ]
     },
@@ -336330,6 +338800,11 @@
           "item_id": 3510,
           "item_name": "Basa Rockshell",
           "amount": 1
+        },
+        {
+          "item_id": 1057,
+          "item_name": "F.Espinas Tail",
+          "amount": 3
         }
       ]
     },
@@ -336581,6 +339056,11 @@
           "item_id": 3541,
           "item_name": "Grenzebul Wing",
           "amount": 2
+        },
+        {
+          "item_id": 466,
+          "item_name": "Small Lobstershl",
+          "amount": 4
         }
       ]
     },
@@ -336770,6 +339250,11 @@
           "item_id": 1417,
           "item_name": "ThickDragonBlood",
           "amount": 3
+        },
+        {
+          "item_id": 1410,
+          "item_name": "E.Dragon Claw+",
+          "amount": 4
         }
       ]
     },
@@ -337852,6 +340337,11 @@
           "item_id": 2150,
           "item_name": "Laviente Wing",
           "amount": 5
+        },
+        {
+          "item_id": 2153,
+          "item_name": "Laviente Fang",
+          "amount": 3
         }
       ]
     },
@@ -338101,6 +340591,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 4
+        },
+        {
+          "item_id": 1426,
+          "item_name": "E.Dragon Shard",
+          "amount": 2
         }
       ]
     },
@@ -338210,6 +340705,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 4
+        },
+        {
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "amount": 2
         }
       ]
     },
@@ -338495,6 +340995,11 @@
           "item_id": 3987,
           "item_name": "Rukodiora Wing",
           "amount": 4
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -338684,6 +341189,11 @@
           "item_id": 3989,
           "item_name": "Rukodiora Gem",
           "amount": 3
+        },
+        {
+          "item_id": 3992,
+          "item_name": "Rukodiora Horn+",
+          "amount": 5
         }
       ]
     },
@@ -340252,6 +342762,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 4
+        },
+        {
+          "item_id": 1411,
+          "item_name": "E.Drgn Hardclaw",
+          "amount": 2
         }
       ]
     },
@@ -342586,6 +345101,11 @@
           "item_id": 3987,
           "item_name": "Rukodiora Wing",
           "amount": 2
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -342775,6 +345295,11 @@
           "item_id": 3989,
           "item_name": "Rukodiora Gem",
           "amount": 3
+        },
+        {
+          "item_id": 3993,
+          "item_name": "Rukodiora Webbing",
+          "amount": 9
         }
       ]
     },
@@ -344288,6 +346813,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 4
+        },
+        {
+          "item_id": 1408,
+          "item_name": "E.Dragon Piel",
+          "amount": 2
         }
       ]
     },
@@ -344441,6 +346971,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 344,
+          "item_name": "Velociprey Hide",
+          "amount": 12
         }
       ]
     },
@@ -347178,6 +349713,11 @@
           "item_id": 3986,
           "item_name": "Rukodiora Horn",
           "amount": 2
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -347367,6 +349907,11 @@
           "item_id": 4400,
           "item_name": "Rukodiora Stone",
           "amount": 6
+        },
+        {
+          "item_id": 3994,
+          "item_name": "Rukodiora Tail+",
+          "amount": 4
         }
       ]
     },
@@ -349255,6 +351800,11 @@
           "item_id": 1402,
           "item_name": "E.Dragon Cortex",
           "amount": 12
+        },
+        {
+          "item_id": 545,
+          "item_name": "Gaoren Pincer",
+          "amount": 5
         }
       ]
     },
@@ -349382,6 +351932,11 @@
           "item_id": 4329,
           "item_name": "Quivering Hide",
           "amount": 1
+        },
+        {
+          "item_id": 533,
+          "item_name": "Hermitaur Claw+",
+          "amount": 8
         }
       ]
     },
@@ -351505,6 +354060,11 @@
           "item_id": 3987,
           "item_name": "Rukodiora Wing",
           "amount": 3
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -351693,6 +354253,11 @@
         {
           "item_id": 4400,
           "item_name": "Rukodiora Stone",
+          "amount": 6
+        },
+        {
+          "item_id": 3992,
+          "item_name": "Rukodiora Horn+",
           "amount": 6
         }
       ]
@@ -353031,6 +355596,11 @@
           "item_id": 1405,
           "item_name": "E.Dragon Fur",
           "amount": 9
+        },
+        {
+          "item_id": 482,
+          "item_name": "Kirin Azure Horn",
+          "amount": 6
         }
       ]
     },
@@ -353158,6 +355728,11 @@
           "item_id": 2152,
           "item_name": "Laviente Horn",
           "amount": 4
+        },
+        {
+          "item_id": 2155,
+          "item_name": "Laviente Spike",
+          "amount": 3
         }
       ]
     },
@@ -370852,6 +373427,11 @@
           "item_id": 2703,
           "item_name": "Strong Beak",
           "amount": 1
+        },
+        {
+          "item_id": 375,
+          "item_name": "Rubbery Hide+",
+          "amount": 16
         }
       ]
     },
@@ -371103,6 +373683,11 @@
           "item_id": 3722,
           "item_name": "Dura Rimeshell",
           "amount": 1
+        },
+        {
+          "item_id": 420,
+          "item_name": "A.Rathalos Cpc",
+          "amount": 14
         }
       ]
     },
@@ -371354,6 +373939,11 @@
           "item_id": 4329,
           "item_name": "Quivering Hide",
           "amount": 1
+        },
+        {
+          "item_id": 518,
+          "item_name": "Congalala Pelt+",
+          "amount": 12
         }
       ]
     },
@@ -371605,6 +374195,11 @@
           "item_id": 4320,
           "item_name": "Daora Windshell",
           "amount": 1
+        },
+        {
+          "item_id": 471,
+          "item_name": "Monoblos Shell",
+          "amount": 21
         }
       ]
     },
@@ -371856,6 +374451,11 @@
           "item_id": 3712,
           "item_name": "Kirin Piel",
           "amount": 1
+        },
+        {
+          "item_id": 429,
+          "item_name": "Pearl Hide",
+          "amount": 15
         }
       ]
     },
@@ -372107,6 +374707,11 @@
           "item_id": 3715,
           "item_name": "Cham Specklehide",
           "amount": 1
+        },
+        {
+          "item_id": 399,
+          "item_name": "Rathian Spike+",
+          "amount": 4
         }
       ]
     },
@@ -372358,6 +374963,11 @@
           "item_id": 3734,
           "item_name": "Mono Hardshell",
           "amount": 1
+        },
+        {
+          "item_id": 435,
+          "item_name": "Basarios Carpace",
+          "amount": 20
         }
       ]
     },
@@ -372609,6 +375219,11 @@
           "item_id": 4327,
           "item_name": "Pink Steelshell",
           "amount": 1
+        },
+        {
+          "item_id": 1049,
+          "item_name": "Espinas Scalp",
+          "amount": 4
         }
       ]
     },
@@ -372860,6 +375475,11 @@
           "item_id": 4320,
           "item_name": "Daora Windshell",
           "amount": 1
+        },
+        {
+          "item_id": 375,
+          "item_name": "Rubbery Hide+",
+          "amount": 22
         }
       ]
     },
@@ -373111,6 +375731,11 @@
           "item_id": 3725,
           "item_name": "Ceanataur Edge",
           "amount": 1
+        },
+        {
+          "item_id": 1011,
+          "item_name": "Blue Hypno Pelt+",
+          "amount": 14
         }
       ]
     },
@@ -373362,6 +375987,11 @@
           "item_id": 2724,
           "item_name": "Blango Crusher",
           "amount": 1
+        },
+        {
+          "item_id": 1006,
+          "item_name": "Hypno Pelt+",
+          "amount": 12
         }
       ]
     },
@@ -373613,6 +376243,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 365,
+          "item_name": "Kut-Ku Carapace",
+          "amount": 18
         }
       ]
     },
@@ -373864,6 +376499,11 @@
           "item_id": 3725,
           "item_name": "Ceanataur Edge",
           "amount": 1
+        },
+        {
+          "item_id": 970,
+          "item_name": "Plesioth Fin+",
+          "amount": 11
         }
       ]
     },
@@ -374115,6 +376755,11 @@
           "item_id": 2718,
           "item_name": "Rath Steelshell",
           "amount": 1
+        },
+        {
+          "item_id": 456,
+          "item_name": "B.Diablos Cpc",
+          "amount": 16
         }
       ]
     },
@@ -374366,6 +377011,11 @@
           "item_id": 3516,
           "item_name": "Teo Fiercehorn",
           "amount": 1
+        },
+        {
+          "item_id": 409,
+          "item_name": "Rathalos Scale+",
+          "amount": 18
         }
       ]
     },
@@ -374617,6 +377267,11 @@
           "item_id": 2718,
           "item_name": "Rath Steelshell",
           "amount": 1
+        },
+        {
+          "item_id": 1054,
+          "item_name": "F.Espi Carapace",
+          "amount": 22
         }
       ]
     },
@@ -374868,6 +377523,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 561,
+          "item_name": "Chameleos Hide+",
+          "amount": 10
         }
       ]
     },
@@ -374997,6 +377657,11 @@
           "item_id": 4935,
           "item_name": "Warped Horn",
           "amount": 1
+        },
+        {
+          "item_id": 472,
+          "item_name": "Monoblos Ridge",
+          "amount": 10
         }
       ]
     },
@@ -375248,6 +377913,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 4
         }
       ]
     },
@@ -375499,6 +378169,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -378104,6 +380779,11 @@
           "item_id": 3987,
           "item_name": "Rukodiora Wing",
           "amount": 4
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -378293,6 +380973,11 @@
           "item_id": 3989,
           "item_name": "Rukodiora Gem",
           "amount": 3
+        },
+        {
+          "item_id": 3990,
+          "item_name": "Rukodiora Scale+",
+          "amount": 8
         }
       ]
     },
@@ -378420,6 +381105,11 @@
           "item_id": 2715,
           "item_name": "Rath Direscale",
           "amount": 1
+        },
+        {
+          "item_id": 372,
+          "item_name": "B.Kut-Ku Shell",
+          "amount": 12
         }
       ]
     },
@@ -380787,6 +383477,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "amount": 10
         }
       ]
     },
@@ -380914,6 +383609,11 @@
           "item_id": 3516,
           "item_name": "Teo Fiercehorn",
           "amount": 1
+        },
+        {
+          "item_id": 401,
+          "item_name": "P.Rathian Scale+",
+          "amount": 22
         }
       ]
     },
@@ -382974,6 +385674,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4765,
+          "item_name": "Pelican Ore",
+          "amount": 3
         }
       ]
     },
@@ -383225,6 +385930,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -383352,6 +386062,11 @@
           "item_id": 3516,
           "item_name": "Teo Fiercehorn",
           "amount": 1
+        },
+        {
+          "item_id": 998,
+          "item_name": "Akantor Hardclaw",
+          "amount": 6
         }
       ]
     },
@@ -385629,6 +388344,11 @@
           "item_id": 3543,
           "item_name": "Grenzebul Spike",
           "amount": 4
+        },
+        {
+          "item_id": 321,
+          "item_name": "Jumbo Bone",
+          "amount": 2
         }
       ]
     },
@@ -385818,6 +388538,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 12
+        },
+        {
+          "item_id": 3548,
+          "item_name": "Grenzebul Wing+",
+          "amount": 4
         }
       ]
     },
@@ -385947,6 +388672,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 336,
+          "item_name": "Bulldrome Hide+",
+          "amount": 13
         }
       ]
     },
@@ -386260,6 +388990,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4759,
+          "item_name": "Absorbing Herb",
+          "amount": 8
         }
       ]
     },
@@ -386511,6 +389246,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -390394,6 +393134,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4769,
+          "item_name": "Bellworm",
+          "amount": 4
         }
       ]
     },
@@ -390645,6 +393390,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -390774,6 +393524,11 @@
           "item_id": 4924,
           "item_name": "Grav Charshell",
           "amount": 1
+        },
+        {
+          "item_id": 1017,
+          "item_name": "Lavasio Carapace",
+          "amount": 18
         }
       ]
     },
@@ -391025,6 +393780,11 @@
           "item_id": 2149,
           "item_name": "Laviente Scale",
           "amount": 16
+        },
+        {
+          "item_id": 2154,
+          "item_name": "Laviente Tail",
+          "amount": 4
         }
       ]
     },
@@ -391917,6 +394677,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4757,
+          "item_name": "Longtailed Fish",
+          "amount": 3
         }
       ]
     },
@@ -392168,6 +394933,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -392295,6 +395065,11 @@
           "item_id": 3734,
           "item_name": "Mono Hardshell",
           "amount": 1
+        },
+        {
+          "item_id": 336,
+          "item_name": "Bulldrome Hide+",
+          "amount": 13
         }
       ]
     },
@@ -395270,6 +398045,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 4
+        },
+        {
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "amount": 2
         }
       ]
     },
@@ -395423,6 +398203,11 @@
           "item_id": 3516,
           "item_name": "Teo Fiercehorn",
           "amount": 1
+        },
+        {
+          "item_id": 999,
+          "item_name": "Akantor Tallfang",
+          "amount": 6
         }
       ]
     },
@@ -397093,6 +399878,11 @@
           "item_id": 5309,
           "item_name": "Abiorg Scale",
           "amount": 6
+        },
+        {
+          "item_id": 4400,
+          "item_name": "Rukodiora Stone",
+          "amount": 1
         }
       ]
     },
@@ -397530,6 +400320,11 @@
           "item_id": 4932,
           "item_name": "Stately Beak",
           "amount": 1
+        },
+        {
+          "item_id": 1011,
+          "item_name": "Blue Hypno Pelt+",
+          "amount": 16
         }
       ]
     },
@@ -398457,6 +401252,11 @@
           "item_id": 5297,
           "item_name": "Zamuza Rockshell",
           "amount": 10
+        },
+        {
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "amount": 4
         }
       ]
     },
@@ -398646,6 +401446,11 @@
           "item_id": 1419,
           "item_name": "E.Dragon Wing+",
           "amount": 4
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -398835,6 +401640,11 @@
           "item_id": 3522,
           "item_name": "Hermitaur Pincer",
           "amount": 1
+        },
+        {
+          "item_id": 526,
+          "item_name": "Gold Rajang Pelt",
+          "amount": 3
         }
       ]
     },
@@ -401391,6 +404201,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 4
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 6
         }
       ]
     },
@@ -401580,6 +404395,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 6
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -401709,6 +404529,11 @@
           "item_id": 5312,
           "item_name": "Abiorg Fang",
           "amount": 3
+        },
+        {
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "amount": 6
         }
       ]
     },
@@ -401898,6 +404723,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 6
+        },
+        {
+          "item_id": 5336,
+          "item_name": "B.Wyvern Blood",
+          "amount": 2
         }
       ]
     },
@@ -402025,6 +404855,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 6
         }
       ]
     },
@@ -402276,6 +405111,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -402403,6 +405243,11 @@
           "item_id": 1293,
           "item_name": "Cpceon Pincer+",
           "amount": 8
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -402530,6 +405375,11 @@
           "item_id": 4935,
           "item_name": "Warped Horn",
           "amount": 1
+        },
+        {
+          "item_id": 1010,
+          "item_name": "Blue Hypno Pelt",
+          "amount": 15
         }
       ]
     },
@@ -404895,6 +407745,11 @@
           "item_id": 5311,
           "item_name": "Abiorg Hide",
           "amount": 6
+        },
+        {
+          "item_id": 5289,
+          "item_name": "Fungal Stone",
+          "amount": 3
         }
       ]
     },
@@ -405084,6 +407939,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 5336,
+          "item_name": "B.Wyvern Blood",
+          "amount": 2
         }
       ]
     },
@@ -405211,6 +408071,11 @@
           "item_id": 3988,
           "item_name": "Rukodiora Tail",
           "amount": 4
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -405400,6 +408265,11 @@
           "item_id": 3989,
           "item_name": "Rukodiora Gem",
           "amount": 3
+        },
+        {
+          "item_id": 3994,
+          "item_name": "Rukodiora Tail+",
+          "amount": 8
         }
       ]
     },
@@ -405527,6 +408397,11 @@
           "item_id": 3510,
           "item_name": "Basa Rockshell",
           "amount": 1
+        },
+        {
+          "item_id": 972,
+          "item_name": "G.Plesioth Fin+",
+          "amount": 10
         }
       ]
     },
@@ -407311,6 +410186,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 3
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 4
         }
       ]
     },
@@ -407500,6 +410380,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 6
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -407627,6 +410512,11 @@
           "item_id": 5314,
           "item_name": "Abiorg Horn",
           "amount": 3
+        },
+        {
+          "item_id": 4762,
+          "item_name": "Clean Shell",
+          "amount": 15
         }
       ]
     },
@@ -407816,6 +410706,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 6
+        },
+        {
+          "item_id": 5336,
+          "item_name": "B.Wyvern Blood",
+          "amount": 2
         }
       ]
     },
@@ -407943,6 +410838,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 4399,
+          "item_name": "E.Drgn Greatbone",
+          "amount": 2
         }
       ]
     },
@@ -408070,6 +410970,11 @@
           "item_id": 3513,
           "item_name": "Fine Rubberhide",
           "amount": 1
+        },
+        {
+          "item_id": 1056,
+          "item_name": "F.Espinas Scalp",
+          "amount": 7
         }
       ]
     },
@@ -409605,6 +412510,11 @@
           "item_id": 5309,
           "item_name": "Abiorg Scale",
           "amount": 6
+        },
+        {
+          "item_id": 4765,
+          "item_name": "Pelican Ore",
+          "amount": 6
         }
       ]
     },
@@ -409794,6 +412704,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 5336,
+          "item_name": "B.Wyvern Blood",
+          "amount": 2
         }
       ]
     },
@@ -409921,6 +412836,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 4
+        },
+        {
+          "item_id": 1426,
+          "item_name": "E.Dragon Shard",
+          "amount": 2
         }
       ]
     },
@@ -410074,6 +412994,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 433,
+          "item_name": "Alluring Webbing",
+          "amount": 12
         }
       ]
     },
@@ -413109,6 +416034,11 @@
           "item_id": 5298,
           "item_name": "Zamuza Rockclaw",
           "amount": 10
+        },
+        {
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "amount": 4
         }
       ]
     },
@@ -413298,6 +416228,11 @@
           "item_id": 1419,
           "item_name": "E.Dragon Wing+",
           "amount": 4
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -413425,6 +416360,11 @@
           "item_id": 3522,
           "item_name": "Hermitaur Pincer",
           "amount": 1
+        },
+        {
+          "item_id": 418,
+          "item_name": "A.Rath Scale+",
+          "amount": 16
         }
       ]
     },
@@ -415102,6 +418042,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 4
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 6
         }
       ]
     },
@@ -415291,6 +418236,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 6
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -415418,6 +418368,11 @@
           "item_id": 308,
           "item_name": "Flame Sac",
           "amount": 4
+        },
+        {
+          "item_id": 5289,
+          "item_name": "Fungal Stone",
+          "amount": 3
         }
       ]
     },
@@ -415607,6 +418562,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 5336,
+          "item_name": "B.Wyvern Blood",
+          "amount": 2
         }
       ]
     },
@@ -415734,6 +418694,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 512,
+          "item_name": "Blango Whisker",
+          "amount": 12
         }
       ]
     },
@@ -423493,6 +426458,11 @@
           "item_id": 216,
           "item_name": "Iron Ore",
           "amount": 30
+        },
+        {
+          "item_id": 5290,
+          "item_name": "Dark Steel",
+          "amount": 3
         }
       ]
     },
@@ -423682,6 +426652,11 @@
           "item_id": 1413,
           "item_name": "E.Dragon Tail+",
           "amount": 6
+        },
+        {
+          "item_id": 5744,
+          "item_name": "Leviathan Scale+",
+          "amount": 7
         }
       ]
     },
@@ -423811,6 +426786,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 3
+        },
+        {
+          "item_id": 4756,
+          "item_name": "Thin Mackerel",
+          "amount": 4
         }
       ]
     },
@@ -424000,6 +426980,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -424127,6 +427112,11 @@
           "item_id": 3725,
           "item_name": "Ceanataur Edge",
           "amount": 1
+        },
+        {
+          "item_id": 541,
+          "item_name": "Ceanataur Claw+",
+          "amount": 16
         }
       ]
     },
@@ -426709,6 +429699,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 1
+        },
+        {
+          "item_id": 4759,
+          "item_name": "Absorbing Herb",
+          "amount": 8
         }
       ]
     },
@@ -426960,6 +429955,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 2
         }
       ]
     },
@@ -427087,6 +430087,11 @@
           "item_id": 4927,
           "item_name": "Bdrome Sharptusk",
           "amount": 1
+        },
+        {
+          "item_id": 1000,
+          "item_name": "Akantor Spike",
+          "amount": 8
         }
       ]
     },
@@ -427338,6 +430343,11 @@
           "item_id": 1061,
           "item_name": "Vashim Carapace",
           "amount": 8
+        },
+        {
+          "item_id": 309,
+          "item_name": "Electro Sac",
+          "amount": 10
         }
       ]
     },
@@ -430957,6 +433967,11 @@
           "item_id": 217,
           "item_name": "Earth Crystal",
           "amount": 30
+        },
+        {
+          "item_id": 5289,
+          "item_name": "Fungal Stone",
+          "amount": 10
         }
       ]
     },
@@ -431146,6 +434161,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 6
+        },
+        {
+          "item_id": 5747,
+          "item_name": "Leviathan Hide+",
+          "amount": 6
         }
       ]
     },
@@ -431275,6 +434295,11 @@
           "item_id": 3731,
           "item_name": "Vdrome Vividscl",
           "amount": 1
+        },
+        {
+          "item_id": 533,
+          "item_name": "Hermitaur Claw+",
+          "amount": 24
         }
       ]
     },
@@ -431526,6 +434551,11 @@
           "item_id": 4763,
           "item_name": "Soft Shell",
           "amount": 16
+        },
+        {
+          "item_id": 1665,
+          "item_name": "Belkuros Carpace",
+          "amount": 8
         }
       ]
     },
@@ -435349,6 +438379,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 26
+        },
+        {
+          "item_id": 4766,
+          "item_name": "Black Pyroxene",
+          "amount": 3
         }
       ]
     },
@@ -435538,6 +438573,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 6
+        },
+        {
+          "item_id": 5744,
+          "item_name": "Leviathan Scale+",
+          "amount": 7
         }
       ]
     },
@@ -435667,6 +438707,11 @@
           "item_id": 2721,
           "item_name": "Crooked Horn",
           "amount": 1
+        },
+        {
+          "item_id": 952,
+          "item_name": "Thunder Sac",
+          "amount": 30
         }
       ]
     },
@@ -437867,6 +440912,11 @@
           "item_id": 3734,
           "item_name": "Mono Hardshell",
           "amount": 1
+        },
+        {
+          "item_id": 324,
+          "item_name": "Wyvern Gem",
+          "amount": 8
         }
       ]
     },
@@ -439842,6 +442892,11 @@
           "item_id": 219,
           "item_name": "Dragonite Ore",
           "amount": 22
+        },
+        {
+          "item_id": 3561,
+          "item_name": "Arcstone",
+          "amount": 30
         }
       ]
     },
@@ -440031,6 +443086,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 6
+        },
+        {
+          "item_id": 5747,
+          "item_name": "Leviathan Hide+",
+          "amount": 6
         }
       ]
     },
@@ -440160,6 +443220,11 @@
           "item_id": 5303,
           "item_name": "Zamuza Claw+",
           "amount": 10
+        },
+        {
+          "item_id": 1655,
+          "item_name": "Fulgurite",
+          "amount": 1
         }
       ]
     },
@@ -440349,6 +443414,11 @@
           "item_id": 1407,
           "item_name": "E.Dragon Hide+",
           "amount": 8
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -440476,6 +443546,11 @@
           "item_id": 5730,
           "item_name": "Rusted Heavywing",
           "amount": 1
+        },
+        {
+          "item_id": 512,
+          "item_name": "Blango Whisker",
+          "amount": 12
         }
       ]
     },
@@ -441788,6 +444863,11 @@
           "item_id": 221,
           "item_name": "Fucium Ore",
           "amount": 22
+        },
+        {
+          "item_id": 1655,
+          "item_name": "Fulgurite",
+          "amount": 1
         }
       ]
     },
@@ -441977,6 +445057,11 @@
           "item_id": 5726,
           "item_name": "Beast Spike",
           "amount": 6
+        },
+        {
+          "item_id": 5747,
+          "item_name": "Leviathan Hide+",
+          "amount": 8
         }
       ]
     },
@@ -442106,6 +445191,11 @@
           "item_id": 4932,
           "item_name": "Stately Beak",
           "amount": 1
+        },
+        {
+          "item_id": 526,
+          "item_name": "Gold Rajang Pelt",
+          "amount": 4
         }
       ]
     },
@@ -442357,6 +445447,11 @@
           "item_id": 1658,
           "item_name": "Illumonite",
           "amount": 12
+        },
+        {
+          "item_id": 1796,
+          "item_name": "Pariapuria Fang",
+          "amount": 10
         }
       ]
     },
@@ -444545,6 +447640,11 @@
           "item_id": 3986,
           "item_name": "Rukodiora Horn",
           "amount": 3
+        },
+        {
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "amount": 8
         }
       ]
     },
@@ -444734,6 +447834,11 @@
           "item_id": 4400,
           "item_name": "Rukodiora Stone",
           "amount": 6
+        },
+        {
+          "item_id": 3993,
+          "item_name": "Rukodiora Webbing",
+          "amount": 6
         }
       ]
     },
@@ -444861,6 +447966,11 @@
           "item_id": 304,
           "item_name": "Paralysis Sac",
           "amount": 2
+        },
+        {
+          "item_id": 4758,
+          "item_name": "Blackfish",
+          "amount": 3
         }
       ]
     },
@@ -445112,6 +448222,11 @@
           "item_id": 5726,
           "item_name": "Beast Spike",
           "amount": 6
+        },
+        {
+          "item_id": 4971,
+          "item_name": "Beast Gleamhorn",
+          "amount": 3
         }
       ]
     },
@@ -445239,6 +448354,11 @@
           "item_id": 3519,
           "item_name": "Plesio Razorfin",
           "amount": 1
+        },
+        {
+          "item_id": 970,
+          "item_name": "Plesioth Fin+",
+          "amount": 16
         }
       ]
     },
@@ -447513,6 +450633,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 6
+        },
+        {
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "amount": 8
         }
       ]
     },
@@ -450657,6 +453782,11 @@
           "item_id": 218,
           "item_name": "Machalite Ore",
           "amount": 15
+        },
+        {
+          "item_id": 5290,
+          "item_name": "Dark Steel",
+          "amount": 3
         }
       ]
     },
@@ -450846,6 +453976,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 6
+        },
+        {
+          "item_id": 5747,
+          "item_name": "Leviathan Hide+",
+          "amount": 7
         }
       ]
     },
@@ -452412,6 +455547,11 @@
           "item_id": 1401,
           "item_name": "E.Drgn Carapace",
           "amount": 6
+        },
+        {
+          "item_id": 6140,
+          "item_name": "Odiba Shell",
+          "amount": 10
         }
       ]
     },
@@ -454763,6 +457903,11 @@
           "item_id": 262,
           "item_name": "Thunderbug",
           "amount": 8
+        },
+        {
+          "item_id": 5298,
+          "item_name": "Zamuza Rockclaw",
+          "amount": 10
         }
       ]
     },
@@ -454952,6 +458097,11 @@
           "item_id": 1404,
           "item_name": "E.Dragon Pelt+",
           "amount": 6
+        },
+        {
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "amount": 2
         }
       ]
     },
@@ -456764,6 +459914,11 @@
           "item_id": 1416,
           "item_name": "Dragon Blood+",
           "amount": 6
+        },
+        {
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "amount": 8
         }
       ]
     },
@@ -458324,6 +461479,11 @@
           "item_id": 1410,
           "item_name": "E.Dragon Claw+",
           "amount": 6
+        },
+        {
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "amount": 8
         }
       ]
     },
@@ -460011,6 +463171,11 @@
           "item_id": 1422,
           "item_name": "E.Dragon Horn+",
           "amount": 6
+        },
+        {
+          "item_id": 6140,
+          "item_name": "Odiba Shell",
+          "amount": 10
         }
       ]
     },
@@ -463267,6 +466432,11 @@
           "item_id": 1425,
           "item_name": "E.Dragon Scale+",
           "amount": 8
+        },
+        {
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "amount": 10
         }
       ]
     },
@@ -468610,6 +471780,11 @@
           "item_id": 6432,
           "item_name": "Auris Giltscale",
           "amount": 8
+        },
+        {
+          "item_id": 5737,
+          "item_name": "Dazzling Bezoar",
+          "amount": 1
         }
       ]
     },
@@ -468737,6 +471912,11 @@
           "item_id": 6434,
           "item_name": "Argas Mirrorscl",
           "amount": 8
+        },
+        {
+          "item_id": 3727,
+          "item_name": "Ceanataur Saber",
+          "amount": 1
         }
       ]
     },
@@ -471989,6 +475169,11 @@
           "item_id": 6432,
           "item_name": "Auris Giltscale",
           "amount": 8
+        },
+        {
+          "item_id": 4926,
+          "item_name": "Grav Blazeshell",
+          "amount": 1
         }
       ]
     },
@@ -472116,6 +475301,11 @@
           "item_id": 6434,
           "item_name": "Argas Mirrorscl",
           "amount": 8
+        },
+        {
+          "item_id": 6155,
+          "item_name": "Crimson Belly",
+          "amount": 1
         }
       ]
     },
