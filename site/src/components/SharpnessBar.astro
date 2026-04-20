@@ -45,7 +45,7 @@ const segments = colorMeta.map((meta, index) => {
 ---
 
 <div
-  class="flex h-2 max-w-[120px] overflow-hidden rounded-sm border border-slate-800 bg-slate-900"
+  class="flex h-2 max-w-30 overflow-hidden rounded-sm border border-slate-800 bg-slate-900"
   role="img"
   aria-label={`Sharpness bar (cap ${sharpnessCap})`}
 >
@@ -54,7 +54,7 @@ const segments = colorMeta.map((meta, index) => {
       <span
         class={segment.className}
         style={`width: ${segment.width}px; min-width: ${segment.width > 0 ? "1px" : "0"}`}
-        title={`${segment.label}: ${Math.round(segment.width / pixelScale)} (at cap ${sharpnessCap})`}
+        title={`${segment.label}: ${Math.round(segment.width / pixelScale)}`}
       />
     ))
   }

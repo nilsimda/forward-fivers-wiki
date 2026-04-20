@@ -203038,6 +203038,197 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 1500,
+    "zenny_reward": 26000,
+    "zenny_ko": 9000,
+    "zenny_sub_a": 1000,
+    "zenny_sub_b": 1000,
+    "quest_time": 90000,
+    "map_id": 50,
+    "map": "Highlands",
+    "restriction_flags": 109,
+    "id": 65069,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 105,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 105,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 105,
+      "count": 7
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nBejeweled Tryst",
+      "main": "Hunt a Quarzeps",
+      "sub_a": "Wound Quarzeps's head",
+      "sub_b": "Wound Quarzeps's tail",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Bling-loving Man",
+      "description": "I've received word about a\ndazzling Quarzeps in the\nHighlands. I simply must\nget my hands on its parts.\nA golden opportunity like\nthis does not come often!\nHunt it down and bring me\nas many of its parts as\nyou can. I will reward you\nwith a true gem of a prize."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 5750,
+          "item_name": "Quarzeps Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 7,
+          "item_id": 1899,
+          "item_name": "Carving Charm",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1899,
+          "item_name": "Carving Charm",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 1899,
+          "item_name": "Carving Charm",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 1899,
+          "item_name": "Carving Charm",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 100,
+          "item_id": 1899,
+          "item_name": "Carving Charm",
+          "quantity": 25,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 1,
+    "quest_fee": 1500,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 1000,
+    "zenny_sub_b": 1000,
+    "quest_time": 27000,
+    "map_id": 15,
+    "map": "Tower",
+    "restriction_flags": 139,
+    "id": 65070,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 64,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 64,
+      "count": 13
+    },
+    "subB_goal": {
+      "target_kind": "Damage",
+      "target": 64,
+      "count": 26
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nPride on the Line",
+      "main": "Slay a Lunastra",
+      "sub_a": "Damage the Lunastra",
+      "sub_b": "Damage the Lunastra",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Shady Old Timer",
+      "description": "Do you have what it takes\nto attain true power? Will\nyou stand tall and proud?\nOr will you cower before\nthe Empress of Flame...\nStep forward, Hunter, or\nbe consumed by the flames\nof your own fear."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1885,
+          "item_name": "Lunastra Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 24,
+          "item_id": 1548,
+          "item_name": "Yellow Elixir",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 75,
+          "item_id": 1548,
+          "item_name": "Yellow Elixir",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1548,
+          "item_name": "Yellow Elixir",
+          "quantity": 25,
+          "guaranteed": true
+        },
+        {
+          "percentage": 24,
+          "item_id": 1548,
+          "item_name": "Yellow Elixir",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 75,
+          "item_id": 1548,
+          "item_name": "Yellow Elixir",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Special Reward": [
+        {
+          "percentage": 100,
+          "item_id": 3636,
+          "item_name": "Red Hunter Dice",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 350,
     "zenny_reward": 500,
     "zenny_ko": 3,

@@ -309110,7 +309110,58 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 24,
+        "quantity": 10,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 75,
+        "quantity": 5,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 25,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 24,
+        "quantity": 10,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 75,
+        "quantity": 5,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -323823,6 +323874,16 @@
         "quantity": 1,
         "reward_box_label": "Bonus Reward 7",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
       }
     ],
     "gathering_aquisitions": []
@@ -324236,7 +324297,58 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 7,
+        "quantity": 10,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 10,
+        "quantity": 5,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 40,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 100,
+        "quantity": 25,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": true
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -370914,7 +371026,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 100,
+        "quantity": 1,
+        "reward_box_label": "Special Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -436635,6 +436758,16 @@
       {
         "quest_id": 21164,
         "title": "≪Mighty Quest≫\nThrough Storm and Fury",
+        "main_objective": "Hunt a Quarzeps",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65069,
+        "title": "≪Daily Quest≫\nBejeweled Tryst",
         "main_objective": "Hunt a Quarzeps",
         "rank": "er",
         "percentage": 1,

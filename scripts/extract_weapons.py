@@ -331,11 +331,22 @@ def extract_melee_weapons(
 ) -> list[MeleeWeapon]:
     base_pointer = read_u32(raw, MELEE_WEAPON_DATA_POINTER)
     names_pointer = read_u32(raw, MELEE_WEAPON_NAMES_POINTER)
+    descriptions_pointer = 0x003C06D4  # 0x003C06E4
     weapon_crafting = _extract_weapon_crafting(raw, item_names)
     counter = 0
+    description_counter = 0
     result = []
     while True:
         name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
+        description = decode_c_string(
+            raw, read_u32(raw, descriptions_pointer + description_counter * 4)
+        )
+        description += " " + decode_c_string(
+            raw, read_u32(raw, descriptions_pointer + description_counter * 4 + 4)
+        )
+        description += " " + decode_c_string(
+            raw, read_u32(raw, descriptions_pointer + description_counter * 4 + 8)
+        )
         mw = MeleeWeapon.unpack_from(
             raw,
             base_pointer,
@@ -346,10 +357,12 @@ def extract_melee_weapons(
             weapon_crafting,
         )
         mw.name = name
+        mw.description = description
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
             break
         counter += 1
+        description_counter += 3
         if name != "ダミー":  # filter out dummy weapons
             result.append(mw)
 
