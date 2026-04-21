@@ -11,6 +11,10 @@ const { weapon } = Astro.props as Props;
 
 const byId = await getMeleeWeaponsById();
 
+const branchesFrom = [...byId.values()].filter(
+  (w) => w.upgrade_entry.upgrades_to.includes(weapon.id),
+);
+
 const baseUrl = import.meta.env.BASE_URL;
 const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
 const withBase = (targetPath: string) =>
@@ -129,6 +133,20 @@ const fmtAffinity = (w: MeleeWeapon) =>
             {cost.item_name}
           </a>
           <span class="text-slate-300"> - {cost.amount}x</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+
+{branchesFrom.length > 0 && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">Branches from</h2>
+    <ul class="mt-3 list-inside list-disc space-y-1 text-slate-300">
+      {branchesFrom.map((prev) => (
+        <li>
+          <a href={hrefForWeapon(prev)}>{prev.name}</a>
+          <span class="text-slate-500"> — {prev.class_name}</span>
         </li>
       ))}
     </ul>
