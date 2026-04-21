@@ -203214,6 +203214,29 @@
           "guaranteed": false
         }
       ],
+      "Sub B Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1547,
+          "item_name": "Green Elixir",
+          "quantity": 25,
+          "guaranteed": true
+        },
+        {
+          "percentage": 24,
+          "item_id": 1547,
+          "item_name": "Green Elixir",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 75,
+          "item_id": 1547,
+          "item_name": "Green Elixir",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
       "Special Reward": [
         {
           "percentage": 100,

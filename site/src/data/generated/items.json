@@ -309086,7 +309086,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 25,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 24,
+        "quantity": 10,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65070,
+        "title": "≪Event Quest≫\nPride on the Line",
+        "main_objective": "Slay a Lunastra",
+        "rank": "er",
+        "percentage": 75,
+        "quantity": 5,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
