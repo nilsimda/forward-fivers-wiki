@@ -18,7 +18,6 @@ const { weapon } = Astro.props as { weapon: MeleeWeapon };
   weaponName={weapon.name}
   classDisplayName={weapon.class_name}
   classIndexPath="weapons/great-sword/"
-  description={weapon.description}
 >
   <MeleeWeaponDetailPanels weapon={weapon} />
 </MeleeWeaponDetailLayout>
