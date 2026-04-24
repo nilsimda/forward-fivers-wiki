@@ -68,9 +68,11 @@ EQUIP_TYPE_NAMES: dict[int, str] = {
     0x00: "Normal",
     0x01: "SP",
     0x02: "Mighty",
-    0x04: "Evolution",
+    0x04: "Evolving",
     0x08: "HC",
-    0x24: "Laviente",
+    0x12: "Meowty",
+    0x24: "Evolving",
+    0x40: "G-rank",
 }
 
 
@@ -124,6 +126,7 @@ class MeleeWeapon(Weapon):
     unk1: int  # u8
     upgrade_entry: UpgradeEntry  # u16
     other_model_id: int  # u16
+    equip_id: int
     equip_type: str  # int  # u8, bit level flags for sp, ravi, random weapon etc
     length: str  # u8?
     unk2: int  # u8,
@@ -185,6 +188,7 @@ class MeleeWeapon(Weapon):
             unk1=unpacked[15],
             upgrade_entry=upgrade_entry,
             other_model_id=unpacked[17],
+            equip_id=unpacked[18],
             equip_type=EQUIP_TYPE_NAMES.get(unpacked[18], "Unknown"),
             length=length_names[unpacked[19]],
             unk2=unpacked[20],
@@ -219,6 +223,8 @@ class WeaponCraftingEntry:
     material_costs: tuple[MaterialCost, ...]
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<BBH2HI2HI2HI2HI12B")
+    # 0x00884B95
+    # 0x3E0
 
     @classmethod
     def unpack_from(cls, raw: bytes, offset: int, item_names) -> "WeaponCraftingEntry":
@@ -332,13 +338,15 @@ def extract_melee_weapons(
 ) -> list[MeleeWeapon]:
     base_pointer = read_u32(raw, MELEE_WEAPON_DATA_POINTER)
     names_pointer = read_u32(raw, MELEE_WEAPON_NAMES_POINTER)
-    descriptions_pointer = 0x003C06D4  # 0x003C06E4
+    descriptions_pointer = read_u32(raw, 0x0000008C)  # 0x003C06D4  # 0x003C06E4
+    print(hex(descriptions_pointer))
     weapon_crafting = _extract_weapon_crafting(raw, item_names)
     counter = 0
     description_counter = 0
     result = []
     while True:
         name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
+        print(hex(read_u32(raw, descriptions_pointer + description_counter * 4)))
         description = decode_c_string(
             raw, read_u32(raw, descriptions_pointer + description_counter * 4)
         )
@@ -358,12 +366,12 @@ def extract_melee_weapons(
             weapon_crafting,
         )
         mw.name = name
-        mw.description = description
+        mw.description = description.strip()
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
             break
         counter += 1
-        description_counter += 3
+        description_counter += 4
         if name != "ダミー":  # filter out dummy weapons
             result.append(mw)
 

@@ -1,5 +1,6 @@
 ---
 import SharpnessBar from "./SharpnessBar.astro";
+import EquipTypeTag from "./EquipTypeTag.astro";
 import { type MeleeWeapon, getMeleeWeaponsById } from "../lib/meleeWeapons";
 import { weaponClasses } from "../data/weaponClasses";
 
@@ -146,6 +147,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
       {branchesFrom.map((prev) => (
         <li>
           <a href={hrefForWeapon(prev)}>{prev.name}</a>
+          <EquipTypeTag equipType={prev.equip_type} />
           <span class="text-slate-500"> — {prev.class_name}</span>
         </li>
       ))}
@@ -168,6 +170,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
             ) : (
               <span>#{id} (missing)</span>
             )}
+            {next && <EquipTypeTag equipType={next.equip_type} />}
             {next && <span class="text-slate-500"> — {next.class_name}</span>}
           </li>
         );

@@ -1,5 +1,6 @@
 ---
 import WikiLayout from "./WikiLayout.astro";
+import EquipTypeTag from "../components/EquipTypeTag.astro";
 
 interface Props {
   title: string;
@@ -7,9 +8,10 @@ interface Props {
   classDisplayName: string;
   /** Path under site root, e.g. `weapons/great-sword/` */
   classIndexPath: string;
+  equipType: string;
 }
 
-const { title, weaponName, classDisplayName, classIndexPath } =
+const { title, weaponName, classDisplayName, classIndexPath, equipType } =
   Astro.props as Props;
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -27,7 +29,10 @@ const classIndexHref = withBase(classIndexPath);
       <span class="text-slate-600"> / </span>
       <a href={classIndexHref}>{classDisplayName}</a>
     </p>
-    <h1>{weaponName}</h1>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+      <h1>{weaponName}</h1>
+      <EquipTypeTag equipType={equipType} />
+    </div>
     <p class="text-slate-400">{classDisplayName}</p>
   </section>
   <slot />

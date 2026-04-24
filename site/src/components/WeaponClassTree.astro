@@ -1,8 +1,18 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import SharpnessBar from "./SharpnessBar.astro";
+import EquipTypeTag from "./EquipTypeTag.astro";
 import { weaponClasses } from "../data/weaponClasses";
 import { getAllMeleeWeapons, type MeleeWeapon } from "../lib/meleeWeapons";
+
+const equipTypeFilters = [
+  { value: "Mighty", pill: "rank-pill--active-mighty" },
+  { value: "HC", pill: "rank-pill--active-hc" },
+  { value: "SP", pill: "rank-pill--active-sp" },
+  { value: "Evolving", pill: "rank-pill--active-evolution" },
+  { value: "Meowty", pill: "rank-pill--active-meowty" },
+  { value: "G-rank", pill: "rank-pill--active-grank" },
+];
 
 interface Props {
   className: string;
@@ -119,6 +129,30 @@ const fmtAffinity = (w: MeleeWeapon) =>
             placeholder="Weapon name..."
             class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
           />
+          <div
+            id="weapon-equip-filter"
+            class="flex flex-wrap gap-2"
+            data-default-equip="all"
+          >
+            <button
+              type="button"
+              class="rank-pill rank-pill--active"
+              data-equip-filter="all"
+              data-equip-active-class="rank-pill--active"
+            >
+              All
+            </button>
+            {equipTypeFilters.map((f) => (
+              <button
+                type="button"
+                class="rank-pill"
+                data-equip-filter={f.value}
+                data-equip-active-class={f.pill}
+              >
+                {f.value}
+              </button>
+            ))}
+          </div>
           <div class="text-sm text-slate-400">
             Showing <span id="weapon-match-count">{totalRenderedWeapons}</span> of{" "}
             {totalRenderedWeapons} weapons
@@ -140,7 +174,11 @@ const fmtAffinity = (w: MeleeWeapon) =>
             {forestRows.map((rows, treeIndex) => (
               <tbody class="tree-group" data-tree-group={String(treeIndex)}>
                 {rows.map(({ depth, weapon }) => (
-                  <tr data-weapon-row data-weapon-name={weapon.name.toLowerCase()}>
+                  <tr
+                    data-weapon-row
+                    data-weapon-name={weapon.name.toLowerCase()}
+                    data-weapon-equip={weapon.equip_type}
+                  >
                     <td>
                       <div
                         class="flex flex-wrap items-baseline gap-x-2 gap-y-1"
@@ -152,6 +190,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
                           </span>
                         )}
                         <a href={weaponDetailHref(weapon)}>{weapon.name}</a>
+                        <EquipTypeTag equipType={weapon.equip_type} />
                         {weapon.class_name !== className && (
                           <span class="text-xs text-slate-500">({weapon.class_name})</span>
                         )}
@@ -212,6 +251,14 @@ const fmtAffinity = (w: MeleeWeapon) =>
     const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>("[data-weapon-row]"));
     const groups = Array.from(document.querySelectorAll<HTMLTableSectionElement>("[data-tree-group]"));
     const matchCount = document.querySelector<HTMLElement>("#weapon-match-count");
+    const equipFilterRoot = document.getElementById("weapon-equip-filter");
+    const equipButtons = equipFilterRoot
+      ? (Array.from(
+          equipFilterRoot.querySelectorAll<HTMLElement>("[data-equip-filter]"),
+        ))
+      : [];
+
+    let activeEquip = equipFilterRoot?.dataset.defaultEquip || "all";
 
     function updateWeaponFilter() {
       const query = (searchInput?.value || "").trim().toLowerCase();
@@ -219,7 +266,10 @@ const fmtAffinity = (w: MeleeWeapon) =>
 
       for (const row of rows) {
         const name = row.dataset.weaponName || "";
-        const isMatch = query === "" || name.includes(query);
+        const equip = row.dataset.weaponEquip || "";
+        const nameMatch = query === "" || name.includes(query);
+        const equipMatch = activeEquip === "all" || equip === activeEquip;
+        const isMatch = nameMatch && equipMatch;
         row.style.display = isMatch ? "" : "none";
         if (isMatch) visibleCount += 1;
       }
@@ -232,7 +282,19 @@ const fmtAffinity = (w: MeleeWeapon) =>
         group.style.display = hasVisibleRow ? "" : "none";
       }
 
+      for (const btn of equipButtons) {
+        const cls = btn.dataset.equipActiveClass || "rank-pill--active";
+        btn.classList.toggle(cls, btn.dataset.equipFilter === activeEquip);
+      }
+
       if (matchCount) matchCount.textContent = String(visibleCount);
+    }
+
+    for (const btn of equipButtons) {
+      btn.addEventListener("click", () => {
+        activeEquip = btn.dataset.equipFilter || "all";
+        updateWeaponFilter();
+      });
     }
 
     searchInput?.addEventListener("input", updateWeaponFilter);
