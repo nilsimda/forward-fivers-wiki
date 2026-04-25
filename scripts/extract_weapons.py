@@ -10,8 +10,10 @@ from typing import ClassVar, TypedDict
 from extract_common import (
     DEFAULT_DATA_PATHS,
     REPO_ROOT,
+    ColorTagSegment,
     decode_c_string,
     load_item_names,
+    parse_color_tags,
     read_u32,
     write_json_output,
 )
@@ -75,6 +77,17 @@ EQUIP_TYPE_NAMES: dict[int, str] = {
     0x40: "G-rank",
 }
 
+# Mighty weapons carry a description tag distinguishing the three sub-tiers.
+# Some descriptions have been translated and use the English bracket form.
+MIGHTY_DESCRIPTION_TAGS: dict[str, str] = {
+    "≪剛種武器≫": "Mighty",
+    "<Mighty>": "Mighty",
+    "≪天嵐武器≫": "Heavenly",
+    "<Heavenly>": "Heavenly",
+    "≪覇種武器≫": "Supreme",
+    "<Supreme>": "Supreme",
+}
+
 
 @dataclass(slots=True)
 class Sharpness:
@@ -102,6 +115,7 @@ class Sharpness:
 class Weapon(ABC):
     name: str
     description: str
+    descriptionSegments: list[ColorTagSegment]
     crafting: WeaponCraftingEntry | None
 
 
@@ -168,6 +182,7 @@ class MeleeWeapon(Weapon):
             id=idx,
             name="",
             description="",
+            descriptionSegments=[],
             crafting=weapon_crafting["melee", idx]
             if ("melee", idx) in weapon_crafting
             else None,
@@ -381,7 +396,14 @@ def extract_melee_weapons(
             weapon_crafting,
         )
         mw.name = name
-        mw.description = description.strip()
+        parsed = parse_color_tags(description.strip())
+        mw.description = parsed.plain
+        mw.descriptionSegments = parsed.segments
+        if mw.equip_type == "Mighty":
+            for tag, sub_tier in MIGHTY_DESCRIPTION_TAGS.items():
+                if tag in mw.description:
+                    mw.equip_type = sub_tier
+                    break
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
             break

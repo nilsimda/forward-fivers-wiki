@@ -30,6 +30,17 @@ const hrefForWeapon = (w: MeleeWeapon) => {
   return slug ? withBase(`weapons/${slug}/${w.id}/`) : withBase("weapons/");
 };
 
+const descColorClasses: Record<string, string> = {
+  "02": "text-red-400",
+  "03": "text-emerald-400",
+  "05": "text-amber-300",
+  "07": "text-pink-400",
+  "11": "text-rose-400",
+  "16": "text-sky-400",
+};
+const segmentClass = (code: string | null) =>
+  code && descColorClasses[code] ? descColorClasses[code] : "text-slate-300";
+
 const fmtElem = (w: MeleeWeapon) =>
   w.element ? `${w.element} ${w.element_damage}` : "—";
 const fmtAilment = (w: MeleeWeapon) =>
@@ -62,6 +73,17 @@ const grankRows = (weapon.grank_upgrades?.recipe1 ?? []).map((entry) => {
 const r2Range = weapon.grank_upgrades?.recipe2 ?? null;
 const r2RangePartial = r2Range !== null && r2Range.level_min - 2 > 0;
 ---
+
+{weapon.descriptionSegments.length > 0 && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">Description</h2>
+    <p class="mt-3 whitespace-pre-line">
+      {weapon.descriptionSegments.map((seg) => (
+        <span class={segmentClass(seg.colorCode)}>{seg.text}</span>
+      ))}
+    </p>
+  </section>
+)}
 
 <section class="panel mt-6">
   <h2 class="text-lg">Stats</h2>

@@ -321,6 +321,7 @@ const meleeWeapons = defineCollection({
         id: z.int().min(0),
         name: z.string(),
         description: z.string(),
+        descriptionSegments: z.array(colorTagSegmentSchema),
         crafting: z.nullable(weaponCraftingEntrySchema),
         model_id: z.number().int().min(0).max(65535),
         rarity: z.number().int().min(0).max(255),

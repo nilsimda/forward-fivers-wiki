@@ -116,6 +116,11 @@
     @apply border-red-500 bg-red-950/60 text-red-200;
   }
 
+  .equip-tag--heavenly,
+  .equip-tag--supreme {
+    @apply border-red-500 bg-red-950/60 text-red-200;
+  }
+
   .equip-tag--hc {
     @apply border-orange-500 bg-orange-950/60 text-orange-200;
   }
@@ -134,6 +139,11 @@
 
   .rank-pill--active-mighty,
   .rank-pill--active-meowty {
+    @apply border-red-500 bg-red-950/60 text-red-200;
+  }
+
+  .rank-pill--active-heavenly,
+  .rank-pill--active-supreme {
     @apply border-red-500 bg-red-950/60 text-red-200;
   }
 

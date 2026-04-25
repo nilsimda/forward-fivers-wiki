@@ -7,6 +7,8 @@ import { getAllMeleeWeapons, type MeleeWeapon } from "../lib/meleeWeapons";
 
 const equipTypeFilters = [
   { value: "Mighty", pill: "rank-pill--active-mighty" },
+  { value: "Heavenly", pill: "rank-pill--active-heavenly" },
+  { value: "Supreme", pill: "rank-pill--active-supreme" },
   { value: "HC", pill: "rank-pill--active-hc" },
   { value: "SP", pill: "rank-pill--active-sp" },
   { value: "Evolving", pill: "rank-pill--active-evolution" },
@@ -261,7 +263,7 @@ const fmtAffinity = (w: MeleeWeapon) =>
         ))
       : [];
 
-    let activeEquip = equipFilterRoot?.dataset.defaultEquip || "all";
+    const activeEquips = new Set<string>();
 
     function updateWeaponFilter() {
       const query = (searchInput?.value || "").trim().toLowerCase();
@@ -271,14 +273,14 @@ const fmtAffinity = (w: MeleeWeapon) =>
         const name = row.dataset.weaponName || "";
         const equip = row.dataset.weaponEquip || "";
         const nameMatch = query === "" || name.includes(query);
-        const equipMatch = activeEquip === "all" || equip === activeEquip;
+        const equipMatch = activeEquips.size === 0 || activeEquips.has(equip);
         const isMatch = nameMatch && equipMatch;
         row.style.display = isMatch ? "" : "none";
         if (isMatch) visibleCount += 1;
       }
 
       const filterActive =
-        query !== "" || activeEquip !== "all";
+        query !== "" || activeEquips.size > 0;
 
       for (const group of groups) {
         const groupRows = Array.from(
@@ -317,7 +319,10 @@ const fmtAffinity = (w: MeleeWeapon) =>
 
       for (const btn of equipButtons) {
         const cls = btn.dataset.equipActiveClass || "rank-pill--active";
-        btn.classList.toggle(cls, btn.dataset.equipFilter === activeEquip);
+        const filter = btn.dataset.equipFilter || "";
+        const isActive =
+          filter === "all" ? activeEquips.size === 0 : activeEquips.has(filter);
+        btn.classList.toggle(cls, isActive);
       }
 
       if (matchCount) matchCount.textContent = String(visibleCount);
@@ -325,7 +330,14 @@ const fmtAffinity = (w: MeleeWeapon) =>
 
     for (const btn of equipButtons) {
       btn.addEventListener("click", () => {
-        activeEquip = btn.dataset.equipFilter || "all";
+        const filter = btn.dataset.equipFilter || "all";
+        if (filter === "all") {
+          activeEquips.clear();
+        } else if (activeEquips.has(filter)) {
+          activeEquips.delete(filter);
+        } else {
+          activeEquips.add(filter);
+        }
         updateWeaponFilter();
       });
     }
