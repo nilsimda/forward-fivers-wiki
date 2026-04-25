@@ -286,6 +286,24 @@ const weaponUpgradeEntrySchema = z.object({
     upgrades_to: z.array(z.number().int().min(1)),
 });
 
+const grankRecipe1EntrySchema = z.object({
+    level: z.number().int().min(2).max(20),
+    price: z.number().int().min(0),
+    material_costs: z.array(weaponUpgradeCostSchema),
+});
+
+const grankRecipe2Schema = z.object({
+    level_min: z.number().int().min(1).max(20),
+    level_max: z.number().int().min(1).max(20),
+    price: z.number().int().min(0),
+    material_costs: z.array(weaponUpgradeCostSchema),
+});
+
+const grankUpgradesSchema = z.object({
+    recipe1: z.array(grankRecipe1EntrySchema),
+    recipe2: z.nullable(grankRecipe2Schema),
+});
+
 const weaponSharpnessSchema = z.object({
     red: z.number().int().min(0).max(400),
     orange: z.number().int().min(0).max(400),
@@ -325,6 +343,7 @@ const meleeWeapons = defineCollection({
         length: z.string(),
         weapon_type: z.number().int().min(0),
         visual_effects: z.number().int().min(0).max(65535),
+        grank_upgrades: z.nullable(grankUpgradesSchema).default(null),
     }),
 });
 

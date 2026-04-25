@@ -38,6 +38,29 @@ const fmtSlots = (w: MeleeWeapon) =>
   w.slots === 0 ? "—" : "○".repeat(w.slots);
 const fmtAffinity = (w: MeleeWeapon) =>
   w.affinity === 0 ? "0%" : `${w.affinity > 0 ? "+" : ""}${w.affinity}%`;
+
+const BASE_SUCCESS_RATE: Record<number, number> = {
+  2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100, 10: 100,
+  11: 70, 12: 60, 13: 50, 14: 100, 15: 30, 16: 30, 17: 30, 18: 100, 19: 20, 20: 10,
+};
+const RECIPE2_BONUS = 10;
+
+const grankRows = (weapon.grank_upgrades?.recipe1 ?? []).map((entry) => {
+  const base = BASE_SUCCESS_RATE[entry.level] ?? 100;
+  const r2 = weapon.grank_upgrades?.recipe2 ?? null;
+  const r2Applies = r2 !== null
+    && entry.level - r2.level_min >= 0
+    && r2.level_max - entry.level >= 0;
+  return {
+    entry,
+    base,
+    withBonus: Math.min(100, base + RECIPE2_BONUS),
+    r2: r2Applies ? r2 : null,
+  };
+});
+
+const r2Range = weapon.grank_upgrades?.recipe2 ?? null;
+const r2RangePartial = r2Range !== null && r2Range.level_min - 2 > 0;
 ---
 
 <section class="panel mt-6">
@@ -152,6 +175,72 @@ const fmtAffinity = (w: MeleeWeapon) =>
         </li>
       ))}
     </ul>
+  </section>
+)}
+
+{weapon.grank_upgrades && (
+  <section class="panel mt-6">
+    <h2 class="text-lg">G Rank Upgrades</h2>
+    <p class="mt-3 text-sm text-slate-400">
+      Pick one recipe per upgrade. Recipe 2 uses a single rare G Rank material instead of Recipe 1's mats and grants a flat +{RECIPE2_BONUS}% to the base success rate
+      {r2RangePartial && r2Range && (
+        <span> (only available from Lv {r2Range.level_min}–{r2Range.level_max})</span>
+      )}
+      .
+    </p>
+    <div class="table-wrap mt-4">
+      <table class="table-grid">
+        <thead>
+          <tr>
+            <th>Lv</th>
+            <th>Success</th>
+            <th>Recipe 1</th>
+            <th>Recipe 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          {grankRows.map((row) => (
+            <tr>
+              <td class="tabular-nums">{row.entry.level}</td>
+              <td class="tabular-nums whitespace-nowrap">
+                <div>R1: {row.base}%</div>
+                {row.r2 && (
+                  <div class="text-slate-400">R2: {row.withBonus}%</div>
+                )}
+              </td>
+              <td>
+                <div class="text-xs text-slate-500"><span class="tabular-nums">{row.entry.price}</span>Gz</div>
+                <ul class="list-inside list-disc space-y-0.5 text-slate-300">
+                  {row.entry.material_costs.map((cost) => (
+                    <li>
+                      <a class="text-cyan-300 hover:text-cyan-200" href={withBase(`items/${cost.item_id}/`)}>{cost.item_name}</a>
+                      <span class="text-slate-300"> ×{cost.amount}</span>
+                    </li>
+                  ))}
+                </ul>
+              </td>
+              <td>
+                {row.r2 ? (
+                  <div>
+                    <div class="text-xs text-slate-500"><span class="tabular-nums">{row.r2.price}</span>Gz</div>
+                    <ul class="list-inside list-disc space-y-0.5 text-slate-300">
+                      {row.r2.material_costs.map((cost) => (
+                        <li>
+                          <a class="text-cyan-300 hover:text-cyan-200" href={withBase(`items/${cost.item_id}/`)}>{cost.item_name}</a>
+                          <span class="text-slate-300"> ×{cost.amount}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <span class="text-slate-600">—</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </section>
 )}
 

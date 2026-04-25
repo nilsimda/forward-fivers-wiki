@@ -135,6 +135,7 @@ class MeleeWeapon(Weapon):
     weapon_type: int  # u32, bit level flags, mighty, heavenly, hc etc.
     visual_effects: int  # u16
     unk3: int  # u16
+    grank_upgrades: "GrankUpgrades | None" = None
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBIBBHHbBBBBBBBHHBBBBHIHH")
 
@@ -327,6 +328,22 @@ def _extract_weapon_crafting(
         else:
             print(f"Duplicate WCE {wce}")
 
+    # grank weapon crafting
+    grank_base_pointer = read_u32(raw, 0x0000060C)
+    grank_end_pointer = read_u32(raw, 0x00000610)
+    n_grank_crafts = (
+        grank_end_pointer - grank_base_pointer
+    ) // WeaponCraftingEntry.size()
+
+    print(f"n_grank_crafts: {n_grank_crafts}")
+    for i in range(n_grank_crafts):
+        wce = WeaponCraftingEntry.unpack_from(
+            raw, grank_base_pointer + i * WeaponCraftingEntry.size(), item_names
+        )
+        if wce.weapon_id == 0:
+            break
+        result[(wce.kind, wce.weapon_id)] = wce
+
     return result
 
 
@@ -339,14 +356,12 @@ def extract_melee_weapons(
     base_pointer = read_u32(raw, MELEE_WEAPON_DATA_POINTER)
     names_pointer = read_u32(raw, MELEE_WEAPON_NAMES_POINTER)
     descriptions_pointer = read_u32(raw, 0x0000008C)  # 0x003C06D4  # 0x003C06E4
-    print(hex(descriptions_pointer))
     weapon_crafting = _extract_weapon_crafting(raw, item_names)
     counter = 0
     description_counter = 0
     result = []
     while True:
         name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
-        print(hex(read_u32(raw, descriptions_pointer + description_counter * 4)))
         description = decode_c_string(
             raw, read_u32(raw, descriptions_pointer + description_counter * 4)
         )
@@ -404,6 +419,111 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+@dataclass(slots=True)
+class GrankRecipe1Entry:
+    level: int
+    price: int
+    material_costs: tuple[MaterialCost, ...]
+
+
+@dataclass(slots=True)
+class GrankRecipe2:
+    level_min: int
+    level_max: int
+    price: int
+    material_costs: tuple[MaterialCost, ...]
+
+
+@dataclass(slots=True)
+class GrankUpgrades:
+    recipe1: tuple[GrankRecipe1Entry, ...]
+    recipe2: GrankRecipe2 | None
+
+
+@dataclass(slots=True)
+class _RawGrankUpgrade:
+    weapon_id: int
+    level1: int
+    level2: int
+    price: int
+    material_costs: tuple[MaterialCost, ...]
+
+    STRUCT: ClassVar[struct.Struct] = struct.Struct("<IHHI2HI2HI2HI")
+
+    @classmethod
+    def unpack_from(
+        cls, raw: bytes, offset: int, item_names: dict[int, str]
+    ) -> "_RawGrankUpgrade":
+        unpacked = cls.STRUCT.unpack_from(raw, offset)
+        material_costs = []
+        for item_id, amount in (
+            (unpacked[4], unpacked[5]),
+            (unpacked[7], unpacked[8]),
+            (unpacked[10], unpacked[11]),
+        ):
+            if item_id <= 0 or amount <= 0:
+                continue
+            material_costs.append(
+                MaterialCost(
+                    item_id=item_id,
+                    item_name=item_names[item_id],
+                    amount=amount,
+                )
+            )
+
+        return cls(
+            weapon_id=unpacked[0],
+            level1=unpacked[1],
+            level2=unpacked[2],
+            price=unpacked[3],
+            material_costs=tuple(material_costs),
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls.STRUCT.size
+
+
+def extract_grank_upgrades(
+    raw: bytes, item_names: dict[int, str]
+) -> dict[int, GrankUpgrades]:
+    base_pointer = read_u32(raw, 0x00000614)
+    end_pointer = read_u32(raw, 0x00000618)
+
+    num_grank_upgrades = (end_pointer - base_pointer) // _RawGrankUpgrade.size()
+    print(f"num_grank_upgrades: {num_grank_upgrades}")
+
+    by_weapon: dict[int, dict] = {}
+    for i in range(num_grank_upgrades):
+        gru = _RawGrankUpgrade.unpack_from(
+            raw, base_pointer + i * _RawGrankUpgrade.size(), item_names
+        )
+        bucket = by_weapon.setdefault(gru.weapon_id, {"recipe1": [], "recipe2": None})
+        if gru.level1 == gru.level2:
+            bucket["recipe1"].append(
+                GrankRecipe1Entry(
+                    level=gru.level1,
+                    price=gru.price,
+                    material_costs=gru.material_costs,
+                )
+            )
+        else:
+            bucket["recipe2"] = GrankRecipe2(
+                level_min=gru.level1,
+                level_max=gru.level2,
+                price=gru.price,
+                material_costs=gru.material_costs,
+            )
+
+    return {
+        weapon_id: GrankUpgrades(
+            recipe1=tuple(sorted(bucket["recipe1"], key=lambda e: e.level)),
+            recipe2=bucket["recipe2"],
+        )
+        for weapon_id, bucket in by_weapon.items()
+    }
+
+
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
@@ -413,7 +533,15 @@ def main() -> None:
     weapon_names = _load_weapon_names(mhfpac_raw)
     length_names = _load_length_names(mhfpac_raw)
 
-    melee_weapons = extract_melee_weapons(raw, item_names, weapon_names, length_names)
+    melee_weapons = extract_melee_weapons(
+        raw,
+        item_names,
+        weapon_names,
+        length_names,
+    )
+    gr_upgrades = extract_grank_upgrades(raw, item_names)
+    for weapon in melee_weapons:
+        weapon.grank_upgrades = gr_upgrades.get(weapon.id)
 
     write_json_output(args.output, melee_weapons)
 
