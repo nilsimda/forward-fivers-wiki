@@ -204439,6 +204439,109 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 62235,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 20,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 20,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 31,
+    "post_min_rank": 31,
+    "quest_text": {
+      "title": "≪Event Quest≫\nBack in Business",
+      "main": "Hunt a Gypceros",
+      "sub_a": "Break Gypceros's crest",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Master Tool",
+      "description": "Hey, you got a moment? I've\ndecided to visit the swamps\nfor the first time in ages,\nthing is -- I got robbed by\na Gypceros. Think you could\ngo get my things back? I'll\nreward you with some Decor\nDerby-exclusive Decorations\nas thanks."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 13,
+          "item_id": 910,
+          "item_name": "Herculean Jewel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 911,
+          "item_name": "Rigid Jewel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 915,
+          "item_name": "Fire Jewel 3",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 916,
+          "item_name": "Water Jewel 3",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 918,
+          "item_name": "Thunder Jewel 3",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 919,
+          "item_name": "Dragon Jewel 3",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 917,
+          "item_name": "Ice Jewel 3",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 376,
+          "item_name": "Gypceros Head",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 500,
     "zenny_reward": 15000,
     "zenny_ko": 5000,

@@ -160120,6 +160120,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 9,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -221016,7 +221026,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221044,7 +221065,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221144,7 +221176,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221172,7 +221215,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221200,7 +221254,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221228,7 +221293,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -221256,7 +221332,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62235,
+        "title": "≪Event Quest≫\nBack in Business",
+        "main_objective": "Hunt a Gypceros",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
