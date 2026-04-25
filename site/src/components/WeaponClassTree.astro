@@ -178,17 +178,20 @@ const fmtAffinity = (w: MeleeWeapon) =>
                     data-weapon-row
                     data-weapon-name={weapon.name.toLowerCase()}
                     data-weapon-equip={weapon.equip_type}
+                    data-weapon-depth={String(depth)}
                   >
                     <td>
                       <div
-                        class="flex flex-wrap items-baseline gap-x-2 gap-y-1"
+                        class="weapon-indent flex flex-wrap items-baseline gap-x-2 gap-y-1"
                         style={`padding-left: ${0.5 + depth * 1.125}rem`}
                       >
-                        {depth > 0 && (
-                          <span class="text-slate-500 select-none" aria-hidden="true">
-                            └
-                          </span>
-                        )}
+                        <span
+                          class="weapon-indent-marker text-slate-500 select-none"
+                          aria-hidden="true"
+                          style={depth > 0 ? "" : "display: none"}
+                        >
+                          └
+                        </span>
                         <a href={weaponDetailHref(weapon)}>{weapon.name}</a>
                         <EquipTypeTag equipType={weapon.equip_type} />
                         {weapon.class_name !== className && (
@@ -274,11 +277,41 @@ const fmtAffinity = (w: MeleeWeapon) =>
         if (isMatch) visibleCount += 1;
       }
 
+      const filterActive =
+        query !== "" || activeEquip !== "all";
+
       for (const group of groups) {
-        const groupRows = group.querySelectorAll<HTMLTableRowElement>("[data-weapon-row]");
-        const hasVisibleRow = Array.from(groupRows).some(
-          (row) => row.style.display !== "none",
+        const groupRows = Array.from(
+          group.querySelectorAll<HTMLTableRowElement>("[data-weapon-row]"),
         );
+        let hasVisibleRow = false;
+        const stack: number[] = [];
+
+        for (const row of groupRows) {
+          const origDepth = Number(row.dataset.weaponDepth || "0");
+          const isVisible = row.style.display !== "none";
+
+          while (stack.length > 0 && stack[stack.length - 1] >= origDepth) {
+            stack.pop();
+          }
+
+          if (isVisible) {
+            const renderDepth = filterActive ? stack.length : origDepth;
+            const indentEl = row.querySelector<HTMLElement>(".weapon-indent");
+            const markerEl = row.querySelector<HTMLElement>(
+              ".weapon-indent-marker",
+            );
+            if (indentEl) {
+              indentEl.style.paddingLeft = `${0.5 + renderDepth * 1.125}rem`;
+            }
+            if (markerEl) {
+              markerEl.style.display = renderDepth > 0 ? "" : "none";
+            }
+            stack.push(origDepth);
+            hasVisibleRow = true;
+          }
+        }
+
         group.style.display = hasVisibleRow ? "" : "none";
       }
 
