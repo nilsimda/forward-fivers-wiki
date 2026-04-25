@@ -141,6 +141,12 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing the quest files.",
     )
     parser.add_argument(
+        "--events-dir",
+        type=Path,
+        default=DEFAULT_DATA_PATHS["events"],
+        help="Directory containing event quest files.",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=REPO_ROOT / "site" / "src" / "data" / "generated" / "gathering.json",
@@ -211,17 +217,26 @@ def _extract_areas_from_quest_file(quest_raw: bytes) -> list[GatheringArea]:
     return [area for area in areas if any(gp.drops for gp in area["gps"])]
 
 
+def _resolve_quest_dir(
+    quest_files_dir: Path, events_dir: Path, quest_id: int, day_or_night: str
+) -> Path:
+    if (events_dir / f"{quest_id:05}{day_or_night}0.bin").exists():
+        return events_dir
+    return quest_files_dir
+
+
 def _extract_seasons_from_quest_file(
-    quest_files_dir: Path, quest_id: int, day_or_night: str
+    quest_files_dir: Path, events_dir: Path, quest_id: int, day_or_night: str
 ) -> GatheringSeasonSlots:
+    dir_to_use = _resolve_quest_dir(quest_files_dir, events_dir, quest_id, day_or_night)
     spring_areas = _extract_areas_from_quest_file(
-        (quest_files_dir / f"{quest_id:05}{day_or_night}0.bin").read_bytes()
+        (dir_to_use / f"{quest_id:05}{day_or_night}0.bin").read_bytes()
     )
     summer_areas = _extract_areas_from_quest_file(
-        (quest_files_dir / f"{quest_id:05}{day_or_night}1.bin").read_bytes()
+        (dir_to_use / f"{quest_id:05}{day_or_night}1.bin").read_bytes()
     )
     winter_areas = _extract_areas_from_quest_file(
-        (quest_files_dir / f"{quest_id:05}{day_or_night}2.bin").read_bytes()
+        (dir_to_use / f"{quest_id:05}{day_or_night}2.bin").read_bytes()
     )
     return GatheringSeasonSlots(
         spring=spring_areas,
@@ -244,12 +259,16 @@ def _has_any_gathering_areas(slots: GatheringTimeSlots) -> bool:
 
 
 def extract_gathering_tables(
-    quest_files_dir: Path, quests: list[Quest]
+    quest_files_dir: Path, events_dir: Path, quests: list[Quest]
 ) -> list[MapGatheringPoints]:
     by_map: dict[str, MapGatheringPoints] = {}
     for quest in quests:
-        day_slots = _extract_seasons_from_quest_file(quest_files_dir, quest.id, "d")
-        night_slots = _extract_seasons_from_quest_file(quest_files_dir, quest.id, "n")
+        day_slots = _extract_seasons_from_quest_file(
+            quest_files_dir, events_dir, quest.id, "d"
+        )
+        night_slots = _extract_seasons_from_quest_file(
+            quest_files_dir, events_dir, quest.id, "n"
+        )
         time_slots = GatheringTimeSlots(day=day_slots, night=night_slots)
 
         if not _has_any_gathering_areas(time_slots):
@@ -303,7 +322,9 @@ def main() -> None:
     args = parse_args()
     quests = load_quests(args.input)
     gathering_quests = _one_quest_per_map_and_rank(quests)
-    gathering_points = extract_gathering_tables(args.quest_files_dir, gathering_quests)
+    gathering_points = extract_gathering_tables(
+        args.quest_files_dir, args.events_dir, gathering_quests
+    )
     write_json_output(args.output, gathering_points)
 
 

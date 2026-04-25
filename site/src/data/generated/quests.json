@@ -47246,7 +47246,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1403,
@@ -47290,7 +47290,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -47515,7 +47515,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1400,
@@ -47559,7 +47559,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -47784,7 +47784,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1400,
@@ -47828,7 +47828,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -48032,7 +48032,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1409,
@@ -48076,7 +48076,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -48264,8 +48264,8 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [],
-      "Special Reward": [
+      "Secret Objective (No Secret Codex)": [],
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -48567,8 +48567,8 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [],
-      "Special Reward": [
+      "Secret Objective (No Secret Codex)": [],
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -48751,7 +48751,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1400,
@@ -48795,7 +48795,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -48957,7 +48957,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1406,
@@ -49001,7 +49001,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -49219,7 +49219,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1295,
@@ -49263,7 +49263,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -49395,7 +49395,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1349,
@@ -49439,7 +49439,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -49571,7 +49571,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1349,
@@ -49615,7 +49615,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -49747,7 +49747,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1307,
@@ -49791,7 +49791,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -49923,7 +49923,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1277,
@@ -49967,7 +49967,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -50099,7 +50099,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1316,
@@ -50143,7 +50143,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -50275,7 +50275,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1316,
@@ -50319,7 +50319,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -50451,7 +50451,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1337,
@@ -50495,7 +50495,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -50627,7 +50627,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1337,
@@ -50671,7 +50671,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -50803,7 +50803,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1325,
@@ -50847,7 +50847,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -51016,7 +51016,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1424,
@@ -51060,7 +51060,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -51229,7 +51229,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1424,
@@ -51273,7 +51273,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -51514,7 +51514,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1268,
@@ -51558,7 +51558,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -51690,7 +51690,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1268,
@@ -51734,7 +51734,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -51866,7 +51866,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 30,
           "item_id": 1293,
@@ -51896,7 +51896,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -52158,7 +52158,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 30,
           "item_id": 5327,
@@ -52188,7 +52188,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -52350,7 +52350,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 5332,
@@ -52394,7 +52394,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -52526,7 +52526,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 5327,
@@ -52556,7 +52556,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -52681,7 +52681,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 5327,
@@ -52711,7 +52711,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 30,
           "item_id": 5347,
@@ -52897,7 +52897,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 5743,
@@ -52941,7 +52941,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -53073,7 +53073,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 26,
           "item_id": 5743,
@@ -53117,7 +53117,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5347,
@@ -53249,7 +53249,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 26,
           "item_id": 5743,
@@ -53293,7 +53293,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -54804,7 +54804,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -54827,7 +54827,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 39,
           "item_id": 2727,
@@ -55048,7 +55048,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 1662,
@@ -55078,7 +55078,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -55254,7 +55254,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -55277,7 +55277,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 5386,
@@ -55511,7 +55511,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 79,
           "item_id": 1662,
@@ -55534,7 +55534,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -55789,7 +55789,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 39,
           "item_id": 1662,
@@ -55826,7 +55826,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 5386,
@@ -56046,7 +56046,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 1662,
@@ -56076,7 +56076,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -56275,7 +56275,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 1662,
@@ -56305,7 +56305,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -56539,7 +56539,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 79,
           "item_id": 1662,
@@ -56562,7 +56562,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 5386,
@@ -56782,7 +56782,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -56805,7 +56805,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 5386,
@@ -56930,7 +56930,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 364,
@@ -56960,7 +56960,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 364,
@@ -57092,7 +57092,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 346,
@@ -57101,7 +57101,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 346,
@@ -57212,7 +57212,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 374,
@@ -57242,7 +57242,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 374,
@@ -57367,7 +57367,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 531,
@@ -57397,7 +57397,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 531,
@@ -57515,7 +57515,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 514,
@@ -57545,7 +57545,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 514,
@@ -57677,7 +57677,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 377,
@@ -57707,7 +57707,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 377,
@@ -57839,7 +57839,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 371,
@@ -57869,7 +57869,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 371,
@@ -58008,7 +58008,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 428,
@@ -58038,7 +58038,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 428,
@@ -58156,7 +58156,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1002,
@@ -58186,7 +58186,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1002,
@@ -58332,7 +58332,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 392,
@@ -58362,7 +58362,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 392,
@@ -58480,7 +58480,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 510,
@@ -58510,7 +58510,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 510,
@@ -58649,7 +58649,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 434,
@@ -58679,7 +58679,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 434,
@@ -58825,7 +58825,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 400,
@@ -58855,7 +58855,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 400,
@@ -58994,7 +58994,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1013,
@@ -59024,7 +59024,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1013,
@@ -59156,7 +59156,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 540,
@@ -59186,7 +59186,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 540,
@@ -59332,7 +59332,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 381,
@@ -59362,7 +59362,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 381,
@@ -59508,7 +59508,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 438,
@@ -59538,7 +59538,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 438,
@@ -59684,7 +59684,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 446,
@@ -59714,7 +59714,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 446,
@@ -59860,7 +59860,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 384,
@@ -59890,7 +59890,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 384,
@@ -60036,7 +60036,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 441,
@@ -60066,7 +60066,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 441,
@@ -60226,7 +60226,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 408,
@@ -60256,7 +60256,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 408,
@@ -60367,7 +60367,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 3538,
@@ -60397,7 +60397,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 3538,
@@ -60529,7 +60529,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 2646,
@@ -60559,7 +60559,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 2646,
@@ -60712,7 +60712,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 471,
@@ -60742,7 +60742,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 471,
@@ -60902,7 +60902,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 419,
@@ -60932,7 +60932,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 419,
@@ -61057,7 +61057,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1010,
@@ -61087,7 +61087,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1010,
@@ -61219,7 +61219,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1037,
@@ -61249,7 +61249,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1037,
@@ -61402,7 +61402,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 987,
@@ -61432,7 +61432,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 987,
@@ -61578,7 +61578,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1046,
@@ -61608,7 +61608,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1046,
@@ -61726,7 +61726,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1795,
@@ -61756,7 +61756,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1795,
@@ -61881,7 +61881,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 523,
@@ -61911,7 +61911,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 523,
@@ -62094,7 +62094,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 387,
@@ -62124,7 +62124,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 387,
@@ -62284,7 +62284,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 382,
@@ -62314,7 +62314,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 382,
@@ -62446,7 +62446,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 541,
@@ -62476,7 +62476,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 541,
@@ -62629,7 +62629,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 403,
@@ -62659,7 +62659,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 403,
@@ -62826,7 +62826,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 413,
@@ -62856,7 +62856,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 413,
@@ -63023,7 +63023,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 420,
@@ -63053,7 +63053,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 420,
@@ -63192,7 +63192,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1006,
@@ -63222,7 +63222,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1006,
@@ -63375,7 +63375,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1016,
@@ -63405,7 +63405,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1016,
@@ -63558,7 +63558,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 393,
@@ -63588,7 +63588,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 393,
@@ -63727,7 +63727,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1061,
@@ -63757,7 +63757,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1061,
@@ -63889,7 +63889,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 599,
@@ -63919,7 +63919,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 599,
@@ -64058,7 +64058,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 2652,
@@ -64088,7 +64088,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 2652,
@@ -64227,7 +64227,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1011,
@@ -64257,7 +64257,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1011,
@@ -64410,7 +64410,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1059,
@@ -64440,7 +64440,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1059,
@@ -64586,7 +64586,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1040,
@@ -64616,7 +64616,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1040,
@@ -64748,7 +64748,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1876,
@@ -64778,7 +64778,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1876,
@@ -64910,7 +64910,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1877,
@@ -64940,7 +64940,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1877,
@@ -65072,7 +65072,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 3545,
@@ -65102,7 +65102,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 3545,
@@ -65241,7 +65241,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 988,
@@ -65271,7 +65271,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 988,
@@ -65403,7 +65403,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1217,
@@ -65433,7 +65433,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1217,
@@ -65616,7 +65616,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1665,
@@ -65646,7 +65646,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1665,
@@ -65764,7 +65764,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 2954,
@@ -65794,7 +65794,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 2954,
@@ -65936,7 +65936,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1271,
@@ -65966,7 +65966,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1271,
@@ -66108,7 +66108,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1361,
@@ -66138,7 +66138,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 1361,
@@ -70205,7 +70205,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -70249,7 +70249,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 33,
           "item_id": 2600,
@@ -70349,7 +70349,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -70393,7 +70393,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 5384,
@@ -70535,7 +70535,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -70579,7 +70579,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 5384,
@@ -70684,7 +70684,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -70728,7 +70728,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 34,
           "item_id": 2600,
@@ -70835,7 +70835,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 20,
           "item_id": 655,
@@ -70879,7 +70879,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5385,
@@ -71035,7 +71035,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -71079,7 +71079,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 55,
           "item_id": 5385,
@@ -71221,7 +71221,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 22,
           "item_id": 655,
@@ -71265,7 +71265,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -71870,7 +71870,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 15,
           "item_id": 4780,
@@ -71879,7 +71879,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 15,
           "item_id": 4780,
@@ -75438,7 +75438,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 428,
@@ -75468,7 +75468,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5620,
@@ -77445,7 +77445,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5241,
@@ -77468,7 +77468,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5241,
@@ -77932,7 +77932,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 1521,
@@ -77941,7 +77941,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 6066,
@@ -78691,7 +78691,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 2142,
@@ -78707,7 +78707,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 5595,
@@ -79841,7 +79841,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1297,
@@ -79871,7 +79871,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5382,
@@ -79989,7 +79989,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5184,
@@ -79998,7 +79998,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 6065,
@@ -80123,7 +80123,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 4779,
@@ -80153,7 +80153,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5372,
@@ -80278,7 +80278,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 30,
           "item_id": 1339,
@@ -80301,7 +80301,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5374,
@@ -83018,7 +83018,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 1768,
@@ -83027,7 +83027,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5594,
@@ -95244,7 +95244,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 75,
           "item_id": 3985,
@@ -95274,7 +95274,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5384,
@@ -95385,7 +95385,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 3984,
@@ -95408,7 +95408,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5384,
@@ -95554,7 +95554,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 3984,
@@ -95584,7 +95584,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -95730,7 +95730,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 40,
           "item_id": 3985,
@@ -95760,7 +95760,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -95899,7 +95899,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 1665,
@@ -95929,7 +95929,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -96068,7 +96068,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 45,
           "item_id": 1665,
@@ -96098,7 +96098,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -96237,7 +96237,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 45,
           "item_id": 1665,
@@ -96267,7 +96267,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -96406,7 +96406,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 30,
           "item_id": 996,
@@ -96457,7 +96457,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5385,
@@ -96575,7 +96575,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 1339,
@@ -96591,7 +96591,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -96803,7 +96803,7 @@
     "rank": "lr",
     "reward_boxes": {
       "Main Reward": [],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5606,
@@ -99001,7 +99001,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -99024,7 +99024,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -99237,7 +99237,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -99260,7 +99260,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -99487,7 +99487,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -99510,7 +99510,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -99744,7 +99744,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -99767,7 +99767,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -99978,7 +99978,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -100001,7 +100001,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -100205,7 +100205,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -100228,7 +100228,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -100425,7 +100425,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 85,
           "item_id": 1662,
@@ -100448,7 +100448,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5386,
@@ -100643,7 +100643,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1400,
@@ -100687,7 +100687,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5348,
@@ -100849,7 +100849,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1403,
@@ -100893,7 +100893,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -101025,7 +101025,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1307,
@@ -101069,7 +101069,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5345,
@@ -101201,7 +101201,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1277,
@@ -101245,7 +101245,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 50,
           "item_id": 5346,
@@ -101370,7 +101370,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 343,
@@ -101400,7 +101400,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 343,
@@ -101525,7 +101525,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 355,
@@ -101555,7 +101555,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 355,
@@ -101680,7 +101680,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 353,
@@ -101710,7 +101710,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 353,
@@ -101842,7 +101842,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 360,
@@ -101872,7 +101872,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 360,
@@ -102004,7 +102004,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 359,
@@ -102034,7 +102034,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 359,
@@ -102180,7 +102180,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1376,
@@ -102210,7 +102210,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1376,
@@ -102328,7 +102328,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 335,
@@ -102358,7 +102358,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 335,
@@ -102490,7 +102490,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 336,
@@ -102520,7 +102520,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 336,
@@ -102652,7 +102652,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 365,
@@ -102682,7 +102682,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 365,
@@ -102814,7 +102814,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 373,
@@ -102844,7 +102844,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 373,
@@ -103004,7 +103004,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 384,
@@ -103034,7 +103034,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 384,
@@ -103187,7 +103187,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 439,
@@ -103217,7 +103217,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 439,
@@ -103370,7 +103370,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 442,
@@ -103400,7 +103400,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 442,
@@ -103532,7 +103532,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 375,
@@ -103562,7 +103562,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 375,
@@ -103701,7 +103701,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 377,
@@ -103731,7 +103731,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 377,
@@ -103863,7 +103863,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 532,
@@ -103893,7 +103893,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 532,
@@ -104046,7 +104046,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 449,
@@ -104076,7 +104076,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 449,
@@ -104208,7 +104208,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 388,
@@ -104238,7 +104238,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 388,
@@ -104356,7 +104356,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 511,
@@ -104386,7 +104386,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 511,
@@ -104525,7 +104525,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 435,
@@ -104555,7 +104555,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 435,
@@ -104680,7 +104680,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 518,
@@ -104710,7 +104710,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 518,
@@ -104856,7 +104856,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 429,
@@ -104886,7 +104886,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 429,
@@ -105032,7 +105032,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1088,
@@ -105062,7 +105062,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1088,
@@ -105201,7 +105201,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1367,
@@ -105231,7 +105231,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1367,
@@ -105377,7 +105377,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1319,
@@ -105407,7 +105407,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1319,
@@ -105553,7 +105553,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1352,
@@ -105583,7 +105583,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1352,
@@ -105729,7 +105729,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1385,
@@ -105759,7 +105759,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1385,
@@ -105905,7 +105905,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1289,
@@ -105935,7 +105935,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1289,
@@ -106081,7 +106081,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1271,
@@ -106111,7 +106111,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1271,
@@ -106257,7 +106257,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1334,
@@ -106287,7 +106287,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1334,
@@ -106433,7 +106433,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1391,
@@ -106463,7 +106463,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1391,
@@ -106609,7 +106609,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1310,
@@ -106639,7 +106639,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1310,
@@ -106785,7 +106785,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1277,
@@ -106815,7 +106815,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1277,
@@ -106961,7 +106961,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1331,
@@ -106991,7 +106991,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1331,
@@ -194768,7 +194768,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 1768,
@@ -194777,7 +194777,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5594,
@@ -196562,7 +196562,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 25,
           "item_id": 1297,
@@ -196592,7 +196592,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 5382,
@@ -196697,7 +196697,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5184,
@@ -196720,7 +196720,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5184,
@@ -196853,7 +196853,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5241,
@@ -196876,7 +196876,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 60,
           "item_id": 5241,
@@ -203038,6 +203038,3834 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 24000,
+    "zenny_ko": 8000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 7,
+    "map": "Castle Schrade",
+    "restriction_flags": 0,
+    "id": 50001,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 2,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 51,
+    "post_min_rank": 51,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nClash at Castle Schrade!",
+      "main": "Slay a Fatalis",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Dragonwatch",
+      "description": "The mythical black dragon\nhas been sighted in Castle\nSchrade. According to the\nlegends, this beast will\nbring calamity and chaos\nto the entire world. You\nmust prevent this prophecy\nfrom being fulfilled."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 7,
+          "item_id": 492,
+          "item_name": "Fatalis Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 493,
+          "item_name": "Fatalis Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 495,
+          "item_name": "Fatalis Webbing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 27,
+          "item_id": 746,
+          "item_name": "Guild Ticket",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 491,
+          "item_name": "Fatalis Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 492,
+        "item_name": "Fatalis Scale"
+      },
+      {
+        "item_id": 493,
+        "item_name": "Fatalis Shell"
+      },
+      {
+        "item_id": 495,
+        "item_name": "Fatalis Webbing"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 28000,
+    "zenny_ko": 10000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 8,
+    "map": "Battlefield",
+    "restriction_flags": 0,
+    "id": 50002,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 36,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 81,
+    "post_min_rank": 81,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nCrimson Fury",
+      "main": "Slay a Fatalis",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Dragonwatch",
+      "description": "Fatalis, the black dragon of\nlegend, is holed up deep in\na volcanic lair where no man\nhas ever set foot. We cannot\nafford to leave it to its\nnefarious devices or it will\nsurely spell disaster for\nthe entire world. You must\nmake a stand against it."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 7,
+          "item_id": 497,
+          "item_name": "Fatalis Bloodscl",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 498,
+          "item_name": "Fatalis Bloodshl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 500,
+          "item_name": "Fatalis Bloodwng",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 746,
+          "item_name": "Guild Ticket",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 491,
+          "item_name": "Fatalis Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 739,
+          "item_name": "Friendship Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 497,
+        "item_name": "Fatalis Bloodscl"
+      },
+      {
+        "item_id": 498,
+        "item_name": "Fatalis Bloodshl"
+      },
+      {
+        "item_id": 739,
+        "item_name": "Friendship Tkt"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 32000,
+    "zenny_ko": 11000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 15,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 50003,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 71,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 91,
+    "post_min_rank": 91,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nOld Fatalis",
+      "main": "Slay a Fatalis",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Dragonwatch",
+      "description": "A beast that is not referred\nto in any of our documents\nhas been sighted atop the\nAncient Tower. Could this\nbe the Ancestral Dragon? He,\nwhose dreadful name has been\nfearfully whispered through\nthe ages?"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 7,
+          "item_id": 501,
+          "item_name": "Old Fatalis Scl",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 502,
+          "item_name": "Old Fatalis Shl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 503,
+          "item_name": "Old Fatalis Wbng",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 746,
+          "item_name": "Guild Ticket",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 491,
+          "item_name": "Fatalis Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 739,
+          "item_name": "Friendship Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 501,
+        "item_name": "Old Fatalis Scl"
+      },
+      {
+        "item_id": 502,
+        "item_name": "Old Fatalis Shl"
+      },
+      {
+        "item_id": 739,
+        "item_name": "Friendship Tkt"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 21000,
+    "zenny_ko": 7000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 47,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62101,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nTyrant of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 55,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 4,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 21000,
+    "zenny_ko": 7000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 48,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62102,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nTyrant of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 55,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 4,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 21000,
+    "zenny_ko": 7000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 49,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62103,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nTyrant of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 55,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 4,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 300,
+    "zenny_ko": 100,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 49,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62104,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nTyrant of the Solitary Isles",
+      "main": "None",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Time expires",
+      "fail_cond": "Reward hits 0",
+      "contractor": "Pallone Caravan",
+      "description": "Hunters, you've done it!\nThanks to your hard work,\nthe Raviente is no more.\nTime for a celebration!\nWe've prepared a special\nQuest for all Great Slay\nparticipants. Come along\nand claim your reward!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 55,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 4,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 8,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 15000,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 47,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62105,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nLord of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 2148,
+          "item_name": "Laviente Hide",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 2149,
+          "item_name": "Laviente Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2146,
+          "item_name": "Laviente Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2147,
+          "item_name": "Laviente Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 2156,
+          "item_name": "Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2157,
+          "item_name": "Power Gem+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 15000,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 48,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62106,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nLord of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 2148,
+          "item_name": "Laviente Hide",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 2149,
+          "item_name": "Laviente Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2146,
+          "item_name": "Laviente Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2147,
+          "item_name": "Laviente Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 2156,
+          "item_name": "Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2157,
+          "item_name": "Power Gem+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 15000,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 54000,
+    "map_id": 49,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62107,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nLord of the Solitary Isles",
+      "main": "Repel a Laviente",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Continues hit 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "An enormous, never-before-\nseen monster has appeared\non the Solitary Isles. It's\ncausing extensive damage to\nthe surrounding waters. We\nask all able-bodied hunters\nto eliminate it!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 2148,
+          "item_name": "Laviente Hide",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 2149,
+          "item_name": "Laviente Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2146,
+          "item_name": "Laviente Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 2147,
+          "item_name": "Laviente Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 2156,
+          "item_name": "Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2157,
+          "item_name": "Power Gem+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 300,
+    "zenny_ko": 100,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 49,
+    "map": "Solitary Isles",
+    "restriction_flags": 0,
+    "id": 62108,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 93,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Great Hunt≫\nLord of the Solitary Isles",
+      "main": "None",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Time expires",
+      "fail_cond": "Reward hits 0",
+      "contractor": "Pallone Caravan",
+      "description": "Hunters, you've done it!\nThanks to your hard work,\nthe Laviente is no more.\nTime for a celebration!\nWe've prepared a special\nQuest for all Great Hunt\nparticipants. Come along\nand claim your reward!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 50,
+          "item_id": 2156,
+          "item_name": "Power Gem",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2157,
+          "item_name": "Power Gem+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 2158,
+          "item_name": "Rare Power Gem",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 22500,
+    "zenny_ko": 7500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 55,
+    "map": "Interception Base",
+    "restriction_flags": 102,
+    "id": 62168,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 58,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 81,
+    "post_min_rank": 81,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nFest Memories: Yama Tsukami",
+      "main": "Slay a Yama Tsukami",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward or Integrity hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've prepared a special\nQuest for winners of the\nHunter Festival. Please\nprovide the specified item\nto participate. Do keep in\nmind that you will not be\nable to get it back, no\nmatter what."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1530,
+          "item_name": "Fest Memories",
+          "quantity": 6,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 486,
+          "item_name": "Lao-Shan Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 567,
+          "item_name": "Chameleos Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 556,
+          "item_name": "Daora Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 572,
+          "item_name": "Teostra Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 546,
+          "item_name": "Gaoren Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 592,
+          "item_name": "Dragonwood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 984,
+          "item_name": "Dragonwood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 983,
+          "item_name": "Dragonmoss+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 588,
+          "item_name": "Tsukami Fin",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 590,
+          "item_name": "Tsukami Fluid",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 16000,
+    "zenny_ko": 5500,
+    "zenny_sub_a": 2200,
+    "zenny_sub_b": 0,
+    "quest_time": 63000,
+    "map_id": 1,
+    "map": "Fortress",
+    "restriction_flags": 116,
+    "id": 62169,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 7,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 7,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nFest Memories: Lao-Shan Lung",
+      "main": "Slay or repel Lao-Shan Lung",
+      "sub_a": "Damage the Lao-Shan Lung",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward or Integrity hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've prepared a special\nQuest for winners of the\nHunter Festival. Steel\nyourself, hunters, as it\nis every bit as difficult\nas a Mighty Quest. Do keep\nin mind that you will not\nbe able to get the Fest\nTickets back, no matter\nwhat."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1866,
+          "item_name": "Lao-Shan Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 6,
+          "item_id": 1420,
+          "item_name": "E.Drgn Fellwing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1423,
+          "item_name": "E.Drgn Hardhorn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1408,
+          "item_name": "E.Dragon Piel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1411,
+          "item_name": "E.Drgn Hardclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1414,
+          "item_name": "E.Dragon Lash",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1417,
+          "item_name": "ThickDragonBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1405,
+          "item_name": "E.Dragon Fur",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1426,
+          "item_name": "E.Dragon Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 2208,
+          "item_name": "E.Dragon Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 2209,
+          "item_name": "E.Dragon Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 3571,
+          "item_name": "E.Dragon Jaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 3572,
+          "item_name": "E.Dragon Webbing",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1530,
+          "item_name": "Fest Memories",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 6,
+          "item_id": 1419,
+          "item_name": "E.Dragon Wing+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1422,
+          "item_name": "E.Dragon Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1407,
+          "item_name": "E.Dragon Hide+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1410,
+          "item_name": "E.Dragon Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1413,
+          "item_name": "E.Dragon Tail+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1416,
+          "item_name": "Dragon Blood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1401,
+          "item_name": "E.Drgn Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1404,
+          "item_name": "E.Dragon Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1425,
+          "item_name": "E.Dragon Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 15000,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 44,
+    "map": "G.Forest Canopy",
+    "restriction_flags": 0,
+    "id": 62665,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 82,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 71,
+    "post_min_rank": 71,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nSilver Sighting",
+      "main": "Hunt a Pale Hypnocatrice",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Clan Association",
+      "description": "A hunter wandering atop the\nGreat Forest seems to have\ndiscovered a rare species of\nHypnocatrice! According to\nhis account, its plumage is\nincredibly pale, completely\nunlike anything he had ever\nseen before. We ask that you\nlook into it ASAP!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 1008,
+          "item_name": "Hypno Claw+",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 1071,
+          "item_name": "Wht Hypno Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 953,
+          "item_name": "Monster Bone+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1009,
+          "item_name": "Hypno Bezoar+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1073,
+          "item_name": "White Hypno Beak",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 1072,
+          "item_name": "Silver Quill",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 57,
+          "item_id": 953,
+          "item_name": "Monster Bone+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1071,
+          "item_name": "Wht Hypno Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1073,
+          "item_name": "White Hypno Beak",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 57,
+          "item_id": 5385,
+          "item_name": "Secret Ticket 2",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1071,
+          "item_name": "Wht Hypno Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1073,
+          "item_name": "White Hypno Beak",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 1071,
+        "item_name": "Wht Hypno Pelt+"
+      },
+      {
+        "item_id": 1073,
+        "item_name": "White Hypno Beak"
+      },
+      {
+        "item_id": 1072,
+        "item_name": "Silver Quill"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 20000,
+    "zenny_ko": 7000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 44,
+    "map": "G.Forest Canopy",
+    "restriction_flags": 0,
+    "id": 62667,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 90,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 61,
+    "post_min_rank": 61,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nA Pearl Wreathed in Flame",
+      "main": "Hunt a Pearl Espinas",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Clan Association",
+      "description": "A mysterious, white monster\nhas been spotted atop the\nGreat Forest. Reports state\nthat is completely unlike a\nPale Hypnocatrice. It is\nalso said to be engulfed in\nflames. Head to the locale\nand investigate."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 2,
+          "item_id": 950,
+          "item_name": "Toxin Sac",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 14,
+          "item_id": 1868,
+          "item_name": "P.Espinas Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1869,
+          "item_name": "P.Espinas Cpc",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1870,
+          "item_name": "P.Espinas Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1871,
+          "item_name": "P.Espinas Scalp",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1872,
+          "item_name": "P.Espinas Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1873,
+          "item_name": "P.Espinas Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1874,
+          "item_name": "P.Espinas Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 20,
+          "item_id": 1870,
+          "item_name": "P.Espinas Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1871,
+          "item_name": "P.Espinas Scalp",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1872,
+          "item_name": "P.Espinas Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1873,
+          "item_name": "P.Espinas Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1874,
+          "item_name": "P.Espinas Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 50,
+          "item_id": 5385,
+          "item_name": "Secret Ticket 2",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 1868,
+          "item_name": "P.Espinas Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 1869,
+          "item_name": "P.Espinas Cpc",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 1868,
+        "item_name": "P.Espinas Scale"
+      },
+      {
+        "item_id": 1869,
+        "item_name": "P.Espinas Cpc"
+      },
+      {
+        "item_id": 1870,
+        "item_name": "P.Espinas Spike"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 45000,
+    "zenny_ko": 15000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 63151,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 106,
+      "count": 150
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Supreme Quest≫\nIndestructible Cannon",
+      "main": "Slay an Odibataurus",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Calling all elite hunters!\nThe bringer of destruction\nis upon us! You've got to\nslay it as soon as possible!\nThere's no time to waste.\nIf it proves too difficult,\nat least try to repel it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 18,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 19,
+          "item_id": 6148,
+          "item_name": "Odiba Scarscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 6140,
+          "item_name": "Odiba Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 29,
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6142,
+          "item_name": "Odiba Greatjaw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Bonus Reward 7": [
+        {
+          "percentage": 17,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 6148,
+          "item_name": "Odiba Scarscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 6140,
+          "item_name": "Odiba Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 6141,
+          "item_name": "Odiba Heavyscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6142,
+          "item_name": "Odiba Greatjaw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 6148,
+        "item_name": "Odiba Scarscale"
+      },
+      {
+        "item_id": 6114,
+        "item_name": "Vivid Blood"
+      },
+      {
+        "item_id": 6141,
+        "item_name": "Odiba Heavyscale"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 65000,
+    "zenny_ko": 22000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63152,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 100,
+      "count": 150
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Supreme Quest≫\nThe End Times",
+      "main": "Slay a ???",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Calling all elite hunters!\nThe bearer of calamity is\nupon us! You've got to slay\nit as soon as possible!\nThere's no time to waste.\nIf it proves too difficult,\nat least try to repel it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 19,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 19,
+          "item_id": 6113,
+          "item_name": "??? Claw Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 37,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Bonus Reward 7": [
+        {
+          "percentage": 22,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 6113,
+          "item_name": "??? Claw Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 43,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 6113,
+        "item_name": "??? Claw Shard"
+      },
+      {
+        "item_id": 6114,
+        "item_name": "Vivid Blood"
+      },
+      {
+        "item_id": 4485,
+        "item_name": "??? Scale"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 70000,
+    "zenny_ko": 24000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 57,
+    "map": "Tidal Island",
+    "restriction_flags": 0,
+    "id": 63227,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 89,
+      "count": 150
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Supreme Quest≫\nInsatiable Hunger",
+      "main": "Slay a Pariapuria",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Calling all elite hunters!\nThe defiler of the land is\nupon us! You've got to slay\nit as soon as possible!\nThere's no time to waste.\nIf it proves too difficult,\nat least try to repel it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 19,
+          "item_id": 5422,
+          "item_name": "Pariapuria Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 21,
+          "item_id": 1329,
+          "item_name": "F.Wyvern Blood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1330,
+          "item_name": "ThickF.WyvBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1308,
+          "item_name": "F.Wyvern Bone+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Bonus Reward 7": [
+        {
+          "percentage": 24,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 5422,
+          "item_name": "Pariapuria Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 1329,
+          "item_name": "F.Wyvern Blood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1330,
+          "item_name": "ThickF.WyvBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 1308,
+          "item_name": "F.Wyvern Bone+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1309,
+          "item_name": "F.Wyv Hardbone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 5422,
+        "item_name": "Pariapuria Stone"
+      },
+      {
+        "item_id": 6114,
+        "item_name": "Vivid Blood"
+      },
+      {
+        "item_id": 1330,
+        "item_name": "ThickF.WyvBlood"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 80000,
+    "zenny_ko": 28000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63329,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 119,
+      "count": 140
+    },
+    "subA_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 120,
+      "count": 140
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Supreme Quest≫\nRazzle Dazzle",
+      "main": "???",
+      "sub_a": "???",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've received reports about\na pair of unknown monsters\nrampaging around the Ancient\nTower. We need you to slay\nthem as fast as possible. If\nworse comes to worst and you\ncan't do it, we ask that you\ntry and drive them away."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 21,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 6437,
+          "item_name": "Fused Strifeshl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 6431,
+          "item_name": "Aurisioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6432,
+          "item_name": "Auris Giltscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 6433,
+          "item_name": "Argasioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 6434,
+          "item_name": "Argas Mirrorscl",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Bonus Reward 7": [
+        {
+          "percentage": 23,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 6437,
+          "item_name": "Fused Strifeshl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 6431,
+          "item_name": "Aurisioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6432,
+          "item_name": "Auris Giltscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 6433,
+          "item_name": "Argasioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6434,
+          "item_name": "Argas Mirrorscl",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 1000,
+    "zenny_reward": 90000,
+    "zenny_ko": 30000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 15,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63358,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 65,
+      "count": 144
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Supreme Quest≫\nThe Blooming Inferno",
+      "main": "Slay a Teostra",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Calling all elite hunters!\nThe God of Fire is upon us!\nYou've got to slay it as\nfast as possible! There's\nno time to waste. If that\nproves too difficult, at\nleast try to repel it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 23,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 21,
+          "item_id": 5421,
+          "item_name": "Teo Blazewing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1401,
+          "item_name": "E.Drgn Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1404,
+          "item_name": "E.Dragon Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1405,
+          "item_name": "E.Dragon Fur",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Bonus Reward 7": [
+        {
+          "percentage": 25,
+          "item_id": 6114,
+          "item_name": "Vivid Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 5421,
+          "item_name": "Teo Blazewing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1401,
+          "item_name": "E.Drgn Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1404,
+          "item_name": "E.Dragon Pelt+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1405,
+          "item_name": "E.Dragon Fur",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 5421,
+        "item_name": "Teo Blazewing"
+      },
+      {
+        "item_id": 6114,
+        "item_name": "Vivid Blood"
+      },
+      {
+        "item_id": 1402,
+        "item_name": "E.Dragon Cortex"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 10000,
+    "zenny_ko": 3400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 63000,
+    "map_id": 1,
+    "map": "Fortress",
+    "restriction_flags": 0,
+    "id": 63386,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 7,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nA Majestic Advance",
+      "main": "Repel a Lao-Shan Lung",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Achieve Main Objective",
+      "fail_cond": "Reward hits 0, time expires,\nor Integrity hits 0",
+      "contractor": "Hunter's Guild",
+      "description": "Our scouts have spotted a\nLao-Shan Lung approaching\ntowards the Fortress! All\nhunters are to head to the\nbase and intercept it at\nonce. Make the most of the\nballistae and cannons!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 744,
+          "item_name": "Commendation",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 485,
+          "item_name": "Lao-Shan Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 612,
+          "item_name": "Flat Ruststone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 613,
+          "item_name": "Large Ruststone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 614,
+          "item_name": "Small Ruststone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 615,
+          "item_name": "Ruststone Rod",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 611,
+          "item_name": "Ruststone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 483,
+          "item_name": "Lao-Shan Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 703,
+          "item_name": "Song of Life",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 485,
+        "item_name": "Lao-Shan Scale"
+      },
+      {
+        "item_id": 483,
+        "item_name": "Lao-Shan Claw"
+      },
+      {
+        "item_id": 703,
+        "item_name": "Song of Life"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 16000,
+    "zenny_ko": 5500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 63000,
+    "map_id": 1,
+    "map": "Fortress",
+    "restriction_flags": 0,
+    "id": 63387,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 7,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 31,
+    "post_min_rank": 31,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nGiant Dragon Invasion",
+      "main": "Repel a Lao-Shan Lung",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Achieve Main Objective",
+      "fail_cond": "Reward hits 0, time expires,\nor Integrity hits 0",
+      "contractor": "Hunter's Guild",
+      "description": "Our scouts have spotted a\nLao-Shan Lung approaching\ntowards the Fortress! All\nhunters are to head to the\nbase and intercept it at\nonce. Make the most of the\nballistae and cannons!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 744,
+          "item_name": "Commendation",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 485,
+          "item_name": "Lao-Shan Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 617,
+          "item_name": "Ancient Flatstone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 620,
+          "item_name": "AncientStoneRod",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 618,
+          "item_name": "Large Anc. Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 619,
+          "item_name": "Small Anc. Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 616,
+          "item_name": "Ancient Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 483,
+          "item_name": "Lao-Shan Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 485,
+        "item_name": "Lao-Shan Scale"
+      },
+      {
+        "item_id": 483,
+        "item_name": "Lao-Shan Claw"
+      },
+      {
+        "item_id": 744,
+        "item_name": "Commendation"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 700,
+    "zenny_reward": 16000,
+    "zenny_ko": 5500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 63000,
+    "map_id": 1,
+    "map": "Fortress",
+    "restriction_flags": 0,
+    "id": 63388,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 50,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 31,
+    "post_min_rank": 31,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nLao-Shan Lung Draws Near!",
+      "main": "Repel an Ashen Lao-Shan Lung",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Achieve Main Objective",
+      "fail_cond": "Reward hits 0, time expires,\nor Integrity hits 0",
+      "contractor": "Hunter's Guild",
+      "description": "Our scouts have spotted an\nAshen Lao-Shan Lung heading\nfor the Fortress! Calling\nall hunters to arms! Head to\nthe base and intercept the\ntarget. Make the most of the\nballistae and cannons!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 490,
+          "item_name": "Azure Lao Shell",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 485,
+          "item_name": "Lao-Shan Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 617,
+          "item_name": "Ancient Flatstone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 620,
+          "item_name": "AncientStoneRod",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 618,
+          "item_name": "Large Anc. Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 619,
+          "item_name": "Small Anc. Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 616,
+          "item_name": "Ancient Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 483,
+          "item_name": "Lao-Shan Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 490,
+        "item_name": "Azure Lao Shell"
+      },
+      {
+        "item_id": 485,
+        "item_name": "Lao-Shan Scale"
+      },
+      {
+        "item_id": 483,
+        "item_name": "Lao-Shan Claw"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 9000,
+    "zenny_ko": 3000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63411,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 42,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nMemories of Gold",
+      "main": "Hunt a Gold Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We're deeply grateful for\nall your contributions to\nthe Hunter Fest. As our\nthanks, we've prepared a\nspecial Quest. Completing\nit will award you with a\nplethora of Fest Memories.\nAs per usual, you'll need\nto provide a Fest Ticket."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4459,
+          "item_name": "Vermln Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4460,
+          "item_name": "Indigo Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4461,
+          "item_name": "Pink Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4904,
+          "item_name": "Gray Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4905,
+          "item_name": "Ylw Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4906,
+          "item_name": "Grn Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 4907,
+          "item_name": "Org Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5192,
+          "item_name": "Purple Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5598,
+          "item_name": "Black Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5599,
+          "item_name": "White Fest Mem.",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": [
+      {
+        "item_id": 4459,
+        "item_name": "Vermln Fest Mem."
+      },
+      {
+        "item_id": 4460,
+        "item_name": "Indigo Fest Mem."
+      },
+      {
+        "item_id": 4461,
+        "item_name": "Pink Fest Mem."
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63412,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 41,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nEchoes of Silver",
+      "main": "Hunt a Silver Rathalos",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We're deeply grateful for\nall your contributions to\nthe Hunter Fest. As our\nthanks, we've prepared a\nspecial Quest. Completing\nit will award you with a\nplethora of Fest Echoes.\nAs per usual, you'll need\nto provide a Fest Ticket."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 5375,
+          "item_name": "Fest Echo I",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5376,
+          "item_name": "Fest Echo II",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5377,
+          "item_name": "Fest Echo III",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5378,
+          "item_name": "Fest Echo IV",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5600,
+          "item_name": "Fest Echo V",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5601,
+          "item_name": "Fest Echo VI",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5602,
+          "item_name": "Fest Echo VII",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5603,
+          "item_name": "Fest Echo VIII",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5604,
+          "item_name": "Fest Echo IX",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5605,
+          "item_name": "Fest Echo X",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": [
+      {
+        "item_id": 5375,
+        "item_name": "Fest Echo I"
+      },
+      {
+        "item_id": 5376,
+        "item_name": "Fest Echo II"
+      },
+      {
+        "item_id": 5377,
+        "item_name": "Fest Echo III"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 57,
+    "map": "Tidal Island",
+    "restriction_flags": 109,
+    "id": 65009,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 89,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nPariapuria's Lucky Charms",
+      "main": "Hunt a Pariapuria",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Achieve Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Green-clad Dwarf",
+      "description": "Me Lucky Charms! I don't\nknow what that thing is,\nbut its got me charms!\nSomeone's gotta stop it \nfrom eating them all!\nYou can have whatever it\nleft behind! Please just\nget rid of it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1794,
+          "item_name": "Pariapuria Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 15,
+          "guaranteed": false
+        },
+        {
+          "percentage": 28,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 20,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 30,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 1897,
+          "item_name": "Good Luck Charm",
+          "quantity": 99,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 80000,
+    "zenny_ko": 28000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 72000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 65053,
+    "main_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 119,
+      "count": 140
+    },
+    "subA_goal": {
+      "target_kind": "Slay or Damage",
+      "target": 120,
+      "count": 140
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 300,
+    "post_min_rank": 300,
+    "quest_text": {
+      "title": "≪Custom Quest≫\nDeath by Glamour",
+      "main": "Slay an Argasioth",
+      "sub_a": "Slay an Aurisioth",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Gaudy Noble",
+      "description": "That towering form... That\nbrilliant visage... They're\nsimply sublime!  I implore\nyou to slay these majestic\nbeasts! I shall accompany\nyou and observe from the\nsidelines. Fear not, for I\nshall bestow upon you a most\nexquisite reward. I pledge\nit upon my very name."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 27,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 20,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 50,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 1613,
+          "item_name": "Great Luck Charm",
+          "quantity": 99,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 15,
+    "map": "Tower",
+    "restriction_flags": 124,
+    "id": 65056,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 81,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 81,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 81,
+      "count": 5
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nTerror is Reality",
+      "main": "1 Aberrant Flaming Espinas",
+      "sub_a": "Wound Flaming Espinas's horn",
+      "sub_b": "Sever Flaming Espinas's tail",
+      "success_cond": "Slay the target monster, or\nwound the specified parts",
+      "fail_cond": "Reward hits 0, time expires,\nor target is captured",
+      "contractor": "Chuck Greene",
+      "description": "Great. First I'm clearing\nout zombies at the Atlantica\nCasino, and now I wake up in\nsome damn tower. Must've\nbeen that booze... figures.\nYou're a hunter, right?\nI'm not looking to screw\naround -- just help me get\nthrough this, and we'll\nmake it out in one piece."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 50,
+          "item_id": 3331,
+          "item_name": "Duct Tape",
+          "quantity": 20,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3333,
+          "item_name": "DR2 Ticket C",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3334,
+          "item_name": "DR2 Ticket A",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3336,
+          "item_name": "DR2 Ticket L",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3337,
+          "item_name": "DR2 Ticket M",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3332,
+          "item_name": "DR2 Ticket H",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 50,
+          "item_id": 3331,
+          "item_name": "Duct Tape",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 3331,
+          "item_name": "Duct Tape",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3330,
+          "item_name": "Gloves",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3329,
+          "item_name": "Knife Set",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 50,
+          "item_id": 3331,
+          "item_name": "Duct Tape",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 3331,
+          "item_name": "Duct Tape",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3327,
+          "item_name": "Shotgun",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 3328,
+          "item_name": "Pitchfork",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 171,
+    "id": 65061,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 6,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪GR1 Frontier Quest≫\nFest Fervor: Kut-Ku",
+      "main": "Hunt a Yian Kut-Ku",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Completing it\nwill reward you with Fest\nInsignias. Please bring\nthe required items when\naccepting the Quest."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 12,
+          "item_id": 6643,
+          "item_name": "Kut-Ku Primebone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6987,
+          "item_name": "Kut-KuPrimescale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 2100,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 172,
+    "id": 65062,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 52,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Frontier Quest≫\nFest Fervor: Congalala",
+      "main": "Hunt a Congalala",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Completing it\nwill reward you with Fest\nInsignias. Please bring\nthe required items when\naccepting the Quest."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 2,
+          "guaranteed": true
+        },
+        {
+          "percentage": 12,
+          "item_id": 6990,
+          "item_name": "Conga Magnaclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6659,
+          "item_name": "Conga Magnapelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 600,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 175,
+    "id": 65063,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 20,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Frontier Quest≫\nFest Fervor: Gypceros",
+      "main": "Hunt a Gypceros",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Completing it\nwill reward you with Fest\nInsignias. Please bring\nthe required items when\naccepting the Quest."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 26,
+          "item_id": 6989,
+          "item_name": "Gyp Magnaclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 26,
+          "item_id": 6656,
+          "item_name": "Gyp Magnahide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 6753,
+          "item_name": "Noxious Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 6668,
+          "item_name": "Magnific Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 6657,
+          "item_name": "Sprint Extract",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 700,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 5,
+    "map": "Volcano",
+    "restriction_flags": 173,
+    "id": 65064,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 22,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nFest Fervor: Basarios",
+      "main": "Hunt a Basarios",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Completing it\nwill reward you with Fest\nInsignias. Please bring\nthe required items when\naccepting the Quest."
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 23,
+          "item_id": 6991,
+          "item_name": "Basa Glosstear",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 6669,
+          "item_name": "Basa Glosshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 6756,
+          "item_name": "Wyvern Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 6755,
+          "item_name": "Torpor Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 6684,
+          "item_name": "Glossy Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 6670,
+          "item_name": "Basa Grandwing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7135,
+          "item_name": "Chipped Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7134,
+          "item_name": "Chipped Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7132,
+          "item_name": "Cracked Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7131,
+          "item_name": "Cracked Bone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7138,
+          "item_name": "Broken Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7137,
+          "item_name": "Broken Bone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 1500,
     "zenny_reward": 26000,
     "zenny_ko": 9000,
@@ -203237,7 +207065,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 100,
           "item_id": 3636,
@@ -203248,6 +207076,314 @@
       ]
     },
     "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 7500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 36000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 65102,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 114,
+      "count": 2
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 114,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 2,
+    "post_min_rank": 2,
+    "quest_text": {
+      "title": "≪GR2 Challenge Quest≫\nIt Takes Two to Tango",
+      "main": "Slay 2 Falnocatrice",
+      "sub_a": "Slay a Falnocatrice",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Arena Patron",
+      "description": "Nothing beats the Arena! Is\nwhat I'd usually say, but...\nDon't you feel like it's\nbeen lacking recently?\nWhere's the oomph? Where's\nthe glory!? I won't stand\nfor this! It's time for a\ntruly ELECTRIFYING show!\nDo your best -- unless you\nwant to become bird food!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 6662,
+          "item_name": "Falno Claw",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6664,
+          "item_name": "Brilliant Quill",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6666,
+          "item_name": "Falno Beak",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 7123,
+          "item_name": "Prpl Porta Card",
+          "quantity": 4,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 3637,
+          "item_name": "Blue Hunter Dice",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 100,
+    "zenny_ko": 40,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 45,
+    "map": "Balloon",
+    "restriction_flags": 0,
+    "id": 65103,
+    "main_goal": {
+      "target_kind": "Deliver",
+      "target": 2944,
+      "count": 5
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 2917,
+      "count": 5
+    },
+    "subB_goal": {
+      "target_kind": "Deliver",
+      "target": 2203,
+      "count": 5
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nLong Live the Pioneers",
+      "main": "Deliver 5 Ioprey Monrachs",
+      "sub_a": "Deliver 5 Popo Lilies",
+      "sub_b": "Deliver 5 Polished Stones",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Pallone Caravan",
+      "description": "Looks like SOMEONE has been\nhard at work pioneering!\nHere at the Caravan hard\nwork is what we're all\nabout! To show our thanks,\nwe've rounded up some\nspecial items from our\nstockpile, just for you.\nKeep up the good work --\nand keep on pioneering!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 34,
+          "item_id": 1553,
+          "item_name": "Spirit Drink",
+          "quantity": 25,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 1536,
+          "item_name": "Gunlance Coolant",
+          "quantity": 25,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 1546,
+          "item_name": "Guts Ticket",
+          "quantity": 10,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 15000,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 1500,
+    "zenny_sub_b": 1500,
+    "quest_time": 90000,
+    "map_id": 2,
+    "map": "Verdant Hills",
+    "restriction_flags": 0,
+    "id": 65105,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 42,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 42,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 42,
+      "count": 3
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nWish Upon the Golden Moon",
+      "main": "Hunt a Gold Rathian",
+      "sub_a": "Wound Gold Rathian's head",
+      "sub_b": "Sever Gold Rathian's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Haven Manager",
+      "description": "Oh, Lady of the Moon,\nMay your light shine upon\nmy dearest hunter and guide\nthem through their darkest\nhours. May... O-Oh! Hunter!\nI was just tending to the\nflowers, but we've, uhm...\nRun out of fertilizer...?\nYes! Can I come along with\nyou and gather some?"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 33,
+          "item_id": 1481,
+          "item_name": "Maiden Heart (H)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1482,
+          "item_name": "Maiden Heart (E)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1483,
+          "item_name": "Maiden Heart (S)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 1684,
+          "item_name": "Maiden Soul",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 33,
+          "item_id": 1481,
+          "item_name": "Maiden Heart (H)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1482,
+          "item_name": "Maiden Heart (E)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1483,
+          "item_name": "Maiden Heart (S)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 1684,
+          "item_name": "Maiden Soul",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 33,
+          "item_id": 1481,
+          "item_name": "Maiden Heart (H)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1482,
+          "item_name": "Maiden Heart (E)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1483,
+          "item_name": "Maiden Heart (S)",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 1684,
+          "item_name": "Maiden Soul",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
     "preview_items": []
   },
   {
@@ -203339,7 +207475,7 @@
           "guaranteed": false
         }
       ],
-      "Additional Reward": [
+      "Secret Objective (No Secret Codex)": [
         {
           "percentage": 99,
           "item_id": 3636,
@@ -203355,7 +207491,7 @@
           "guaranteed": false
         }
       ],
-      "Special Reward": [
+      "Secret Objective (Secret Codex)": [
         {
           "percentage": 99,
           "item_id": 3636,

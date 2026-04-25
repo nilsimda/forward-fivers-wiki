@@ -16488,7 +16488,62 @@
     "id": 82,
     "monster_name": "Pale Hypnocatrice",
     "lr_cts": [],
-    "hr_cts": [],
+    "hr_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 3,
+        "drops": [
+          {
+            "percentage": 25,
+            "item_id": 1008,
+            "item_name": "Hypno Claw+"
+          },
+          {
+            "percentage": 35,
+            "item_id": 1071,
+            "item_name": "Wht Hypno Pelt+"
+          },
+          {
+            "percentage": 30,
+            "item_id": 953,
+            "item_name": "Monster Bone+"
+          },
+          {
+            "percentage": 5,
+            "item_id": 1009,
+            "item_name": "Hypno Bezoar+"
+          },
+          {
+            "percentage": 5,
+            "item_id": 306,
+            "item_name": "Sleep Sac"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 16,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 45,
+            "item_id": 1071,
+            "item_name": "Wht Hypno Pelt+"
+          },
+          {
+            "percentage": 5,
+            "item_id": 1009,
+            "item_name": "Hypno Bezoar+"
+          },
+          {
+            "percentage": 50,
+            "item_id": 243,
+            "item_name": "Large Sleepyfish"
+          }
+        ]
+      }
+    ],
     "er_cts": [],
     "gr_cts": []
   },
@@ -17842,9 +17897,277 @@
   {
     "id": 93,
     "monster_name": "Laviente",
-    "lr_cts": [],
+    "lr_cts": [
+      {
+        "label": "Body Carves: Head",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn"
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang"
+          }
+        ]
+      },
+      {
+        "label": "Body Carves: Body (4-9)",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing"
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow"
+          }
+        ]
+      },
+      {
+        "label": "Body Carves: Body (4-9)",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing"
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 1558,
+            "item_name": "Haste Seed"
+          },
+          {
+            "percentage": 24,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 1,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          }
+        ]
+      }
+    ],
     "hr_cts": [],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves: Head",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn"
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang"
+          }
+        ]
+      },
+      {
+        "label": "Body Carves: Body (4-9)",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing"
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow"
+          }
+        ]
+      },
+      {
+        "label": "Body Carves: Body (4-9)",
+        "trigger_chance": null,
+        "num_carves": 9,
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood"
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide"
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing"
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow"
+          }
+        ]
+      },
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 75,
+            "item_id": 1558,
+            "item_name": "Haste Seed"
+          },
+          {
+            "percentage": 24,
+            "item_id": 2149,
+            "item_name": "Laviente Scale"
+          },
+          {
+            "percentage": 1,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   },
   {
@@ -20672,7 +20995,35 @@
     "monster_name": "Aurisioth",
     "lr_cts": [],
     "hr_cts": [],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 4,
+        "drops": [
+          {
+            "percentage": 57,
+            "item_id": 6431,
+            "item_name": "Aurisioth Scale"
+          },
+          {
+            "percentage": 31,
+            "item_id": 6432,
+            "item_name": "Auris Giltscale"
+          },
+          {
+            "percentage": 8,
+            "item_id": 6435,
+            "item_name": "P.Wyv Temperfang"
+          },
+          {
+            "percentage": 4,
+            "item_id": 6436,
+            "item_name": "P.Wyv Grandfin"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   },
   {
@@ -20680,7 +21031,35 @@
     "monster_name": "Argasioth",
     "lr_cts": [],
     "hr_cts": [],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Body Carves",
+        "trigger_chance": null,
+        "num_carves": 4,
+        "drops": [
+          {
+            "percentage": 57,
+            "item_id": 6433,
+            "item_name": "Argasioth Scale"
+          },
+          {
+            "percentage": 31,
+            "item_id": 6434,
+            "item_name": "Argas Mirrorscl"
+          },
+          {
+            "percentage": 4,
+            "item_id": 6435,
+            "item_name": "P.Wyv Temperfang"
+          },
+          {
+            "percentage": 8,
+            "item_id": 6436,
+            "item_name": "P.Wyv Grandfin"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   }
 ]

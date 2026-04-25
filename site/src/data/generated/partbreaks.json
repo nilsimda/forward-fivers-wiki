@@ -12305,7 +12305,54 @@
     "id": 82,
     "monster_name": "Pale Hypnocatrice",
     "lr_pts": [],
-    "hr_pts": [],
+    "hr_pts": [
+      {
+        "partbreak_label": "Capture",
+        "drops": [
+          {
+            "percentage": 45,
+            "item_id": 1072,
+            "item_name": "Silver Quill",
+            "quantity": 1
+          },
+          {
+            "percentage": 40,
+            "item_id": 1008,
+            "item_name": "Hypno Claw+",
+            "quantity": 1
+          },
+          {
+            "percentage": 5,
+            "item_id": 1009,
+            "item_name": "Hypno Bezoar+",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 306,
+            "item_name": "Sleep Sac",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Beak",
+        "drops": [
+          {
+            "percentage": 50,
+            "item_id": 1073,
+            "item_name": "White Hypno Beak",
+            "quantity": 1
+          },
+          {
+            "percentage": 50,
+            "item_id": 1007,
+            "item_name": "Hypno Beak+",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "er_pts": [],
     "gr_pts": []
   },
@@ -15161,9 +15208,339 @@
   {
     "id": 93,
     "monster_name": "Laviente",
-    "lr_pts": [],
+    "lr_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back (Alt)",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing",
+            "quantity": 1
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Tail",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 18,
+            "item_id": 2154,
+            "item_name": "Laviente Tail",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2155,
+            "item_name": "Laviente Spike",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "hr_pts": [],
-    "er_pts": [],
+    "er_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 14,
+            "item_id": 2152,
+            "item_name": "Laviente Horn",
+            "quantity": 1
+          },
+          {
+            "percentage": 10,
+            "item_id": 2153,
+            "item_name": "Laviente Fang",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Back (Alt)",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 16,
+            "item_id": 2150,
+            "item_name": "Laviente Wing",
+            "quantity": 1
+          },
+          {
+            "percentage": 8,
+            "item_id": 2151,
+            "item_name": "Laviente Marrow",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Tail",
+        "drops": [
+          {
+            "percentage": 6,
+            "item_id": 2146,
+            "item_name": "Laviente Blood",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2147,
+            "item_name": "Laviente Ruby",
+            "quantity": 1
+          },
+          {
+            "percentage": 30,
+            "item_id": 2148,
+            "item_name": "Laviente Hide",
+            "quantity": 1
+          },
+          {
+            "percentage": 34,
+            "item_id": 2149,
+            "item_name": "Laviente Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 18,
+            "item_id": 2154,
+            "item_name": "Laviente Tail",
+            "quantity": 1
+          },
+          {
+            "percentage": 6,
+            "item_id": 2155,
+            "item_name": "Laviente Spike",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "gr_pts": []
   },
   {
@@ -19664,7 +20041,54 @@
     "monster_name": "Aurisioth",
     "lr_pts": [],
     "hr_pts": [],
-    "er_pts": [],
+    "er_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 64,
+            "item_id": 6435,
+            "item_name": "P.Wyv Temperfang",
+            "quantity": 1
+          },
+          {
+            "percentage": 21,
+            "item_id": 6431,
+            "item_name": "Aurisioth Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6432,
+            "item_name": "Auris Giltscale",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Fin",
+        "drops": [
+          {
+            "percentage": 64,
+            "item_id": 6436,
+            "item_name": "P.Wyv Grandfin",
+            "quantity": 1
+          },
+          {
+            "percentage": 21,
+            "item_id": 6431,
+            "item_name": "Aurisioth Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6432,
+            "item_name": "Auris Giltscale",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "gr_pts": []
   },
   {
@@ -19672,7 +20096,54 @@
     "monster_name": "Argasioth",
     "lr_pts": [],
     "hr_pts": [],
-    "er_pts": [],
+    "er_pts": [
+      {
+        "partbreak_label": "Head",
+        "drops": [
+          {
+            "percentage": 64,
+            "item_id": 6435,
+            "item_name": "P.Wyv Temperfang",
+            "quantity": 1
+          },
+          {
+            "percentage": 21,
+            "item_id": 6433,
+            "item_name": "Argasioth Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6434,
+            "item_name": "Argas Mirrorscl",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "partbreak_label": "Fin",
+        "drops": [
+          {
+            "percentage": 64,
+            "item_id": 6436,
+            "item_name": "P.Wyv Grandfin",
+            "quantity": 1
+          },
+          {
+            "percentage": 21,
+            "item_id": 6433,
+            "item_name": "Argasioth Scale",
+            "quantity": 1
+          },
+          {
+            "percentage": 15,
+            "item_id": 6434,
+            "item_name": "Argas Mirrorscl",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
     "gr_pts": []
   },
   {

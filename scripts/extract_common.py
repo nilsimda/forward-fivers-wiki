@@ -199,8 +199,8 @@ REWARD_BOX_LABELS: dict[int, str] = {
     1: "Main Reward",
     2: "Sub A Reward",
     3: "Sub B Reward",
-    4: "Additional Reward",
-    5: "Special Reward",
+    4: "Secret Objective (No Secret Codex)",
+    5: "Secret Objective (Secret Codex)",
 }
 
 
