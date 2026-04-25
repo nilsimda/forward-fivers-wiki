@@ -21312,7 +21312,7 @@
         {
           "percentage": 15,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -21606,7 +21606,7 @@
         {
           "percentage": 16,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -21759,7 +21759,7 @@
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Public Tavern",
-      "description": "さらなる高みを目指す者よ！\nオヌシの腕前を再度確認すべ\nく、こちらで指定したモンス\nターを全て狩猟して貰うぞ！\n名づけて≪公式狩猟試験≫！\n今回は砂漠に潜む盾蟹たちを\n狩り尽くすことじゃ！難敵と\nなるが達成を信じておるぞ！"
+      "description": "Listen up, Aspiring Hunter!\nThe time has come to test\nyour skills. Your opponent\nthis time is the mighty\nDaimyo Hermitaur!\nIt won't be easy, but I'll\nbe rooting for 'ya!"
     },
     "rank": "lr",
     "reward_boxes": {
@@ -21848,7 +21848,7 @@
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Public Tavern",
-      "description": "さらなる高みを目指す者よ！\nオヌシの腕前を再度確認すべ\nく、こちらで指定したモンス\nターを全て狩猟して貰うぞ！\n名づけて≪公式狩猟試験≫！\n今回は極寒の地に群生する白\nき獅子たちを狩猟するのじゃ！\n囲まれぬよう注意じゃぞ！"
+      "description": "Listen up, Aspiring Hunter!\nThe time has come to test\nyour skills. Your job this\ntime is to hunt down a pack\nof Blangos in the bitterly\ncold Arctic Ridge. Try not\nto get surrounded!"
     },
     "rank": "lr",
     "reward_boxes": {
@@ -21937,7 +21937,7 @@
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0, time expires,\nor Integrity hits 0",
       "contractor": "Public Tavern",
-      "description": "古龍観測士より、怪しげな龍\nがとうとう砦に到達したとの\n知らせが入った！\n今回はこの龍の撃退を公式狩\n猟試験とする！\n砦に到達した謎の龍を全力で\n撃退するのじゃ！砦の迎撃兵\n器をしかと活用するがよいぞ！"
+      "description": "The Dragonwatch has spotted\na mysterious monster at the\nFortress. You must repel it!\nDon't forget to make use of\nthe ballistae and cannons!"
     },
     "rank": "lr",
     "reward_boxes": {
@@ -22019,7 +22019,7 @@
     "join_min_rank": 38,
     "post_min_rank": 40,
     "quest_text": {
-      "title": "≪Minister's Urgent Request≫\n古塔の最古龍を沈めろ！",
+      "title": "≪Minister's Urgent Request≫\nSlay the Yama Tsukami!",
       "main": "Slay a Yama Tsukami",
       "sub_a": "None",
       "sub_b": "None",
@@ -46507,7 +46507,7 @@
         {
           "percentage": 15,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -46643,7 +46643,7 @@
     "preview_items": [
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       },
       {
         "item_id": 418,
@@ -46932,7 +46932,7 @@
         {
           "percentage": 16,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -47105,7 +47105,7 @@
     "preview_items": [
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       },
       {
         "item_id": 722,
@@ -48922,7 +48922,7 @@
         {
           "percentage": 10,
           "item_id": 3572,
-          "item_name": "E.Dragon Webbing",
+          "item_name": "E.Drg Membrane",
           "quantity": 1,
           "guaranteed": false
         }
@@ -50791,7 +50791,7 @@
         {
           "percentage": 10,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -50842,7 +50842,7 @@
         {
           "percentage": 10,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -53589,7 +53589,7 @@
         {
           "percentage": 15,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -53906,21 +53906,21 @@
         {
           "percentage": 21,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 13,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -54645,21 +54645,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -55668,7 +55668,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 2,
           "guaranteed": false
         }
@@ -55712,21 +55712,21 @@
         {
           "percentage": 24,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 11,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 7,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -55960,7 +55960,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -56196,21 +56196,21 @@
         {
           "percentage": 16,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 17,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -56337,7 +56337,7 @@
       },
       {
         "item_id": 1332,
-        "item_name": "F.Wyvern Gem+"
+        "item_name": "F.Wyvern Pearl+"
       },
       {
         "item_id": 1326,
@@ -56418,7 +56418,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -62948,7 +62948,7 @@
         {
           "percentage": 15,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -63027,7 +63027,7 @@
         {
           "percentage": 25,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -63057,7 +63057,7 @@
         {
           "percentage": 25,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -63092,7 +63092,7 @@
       },
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       },
       {
         "item_id": 415,
@@ -68207,7 +68207,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 2,
           "guaranteed": false
         }
@@ -68265,21 +68265,21 @@
         {
           "percentage": 10,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 9,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 6,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -71188,7 +71188,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -71577,7 +71577,7 @@
         {
           "percentage": 20,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -71642,7 +71642,7 @@
         {
           "percentage": 15,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -71712,7 +71712,7 @@
       },
       {
         "item_id": 424,
-        "item_name": "S.Rathalos Cpc"
+        "item_name": "S.Rath Carapace"
       },
       {
         "item_id": 423,
@@ -73917,7 +73917,7 @@
         {
           "percentage": 14,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -74253,7 +74253,7 @@
         {
           "percentage": 15,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -75827,7 +75827,7 @@
         {
           "percentage": 11,
           "item_id": 1869,
-          "item_name": "P.Espinas Cpc",
+          "item_name": "P.Espi Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -77560,21 +77560,21 @@
         {
           "percentage": 17,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 6,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -77732,7 +77732,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -77815,7 +77815,7 @@
       },
       {
         "item_id": 1342,
-        "item_name": "F.Wyvern Bile"
+        "item_name": "Rare F.Wyv Liver"
       }
     ]
   },
@@ -77913,21 +77913,21 @@
         {
           "percentage": 11,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 9,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -77966,7 +77966,7 @@
       },
       {
         "item_id": 1333,
-        "item_name": "Rare F.Wyv Gem"
+        "item_name": "Rare F.Wyv Pearl"
       },
       {
         "item_id": 1363,
@@ -79235,7 +79235,7 @@
         {
           "percentage": 15,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -79737,7 +79737,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Special Material Quest≫\nDesert Crown",
+      "title": "≪Special Material Quest≫\nDesert Clown",
       "main": "1 Aberrant Aqra Vashim",
       "sub_a": "1 Aberrant Gendrome",
       "sub_b": "None",
@@ -80704,7 +80704,7 @@
         {
           "percentage": 9,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -80864,21 +80864,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 11,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 7,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -82024,21 +82024,21 @@
         {
           "percentage": 17,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 16,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 11,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -82447,7 +82447,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -82696,7 +82696,7 @@
         {
           "percentage": 6,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -85254,14 +85254,14 @@
         {
           "percentage": 13,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
@@ -86460,7 +86460,7 @@
         {
           "percentage": 18,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -86530,7 +86530,7 @@
       },
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       },
       {
         "item_id": 415,
@@ -86843,7 +86843,7 @@
         {
           "percentage": 24,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -86885,7 +86885,7 @@
       },
       {
         "item_id": 424,
-        "item_name": "S.Rathalos Cpc"
+        "item_name": "S.Rath Carapace"
       },
       {
         "item_id": 423,
@@ -87725,21 +87725,21 @@
         {
           "percentage": 10,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 1,
           "guaranteed": true
         },
         {
           "percentage": 5,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 3,
           "guaranteed": false
         },
         {
           "percentage": 1,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 5,
           "guaranteed": false
         },
@@ -87798,7 +87798,7 @@
     "preview_items": [
       {
         "item_id": 3708,
-        "item_name": "Dew Base"
+        "item_name": "Dewy Base"
       },
       {
         "item_id": 2651,
@@ -88312,7 +88312,7 @@
         {
           "percentage": 10,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -88507,7 +88507,7 @@
         {
           "percentage": 20,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 1,
           "guaranteed": false
         },
@@ -88558,7 +88558,7 @@
         {
           "percentage": 30,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 1,
           "guaranteed": false
         },
@@ -88614,7 +88614,7 @@
       },
       {
         "item_id": 3708,
-        "item_name": "Dew Base"
+        "item_name": "Dewy Base"
       },
       {
         "item_id": 3710,
@@ -90945,7 +90945,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -91493,14 +91493,14 @@
     "join_min_rank": 22,
     "post_min_rank": 22,
     "quest_text": {
-      "title": "≪Long-Term Event Quest≫\nMushroom Mania 1",
+      "title": "≪Long-Term Event Quest≫\nMushroomania 1",
       "main": "Deliver 99 Alpineshroom",
       "sub_a": "None",
       "sub_b": "None",
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0\nTime expires",
-      "contractor": "Mushroom Maniac",
-      "description": "君もキノコマニアになりた\nいって？\nこの道は君が考えているほど\n簡単な道のりでは無いのだよ。\nまずはコウザンダケを大量に\n集めてくるんだ！\n話はそれからだ！"
+      "contractor": "Mushroomaniac",
+      "description": "Hey! You wanna become a\ncertified Mushroomaniac,\ntoo!? Alright, but let me\nwarn you -- it's not going\nto be easy... First up!\nGather a large amount of\nAlpineshrooms. We'll talk\nafter that!"
     },
     "rank": "lr",
     "reward_boxes": {
@@ -91552,14 +91552,14 @@
     "join_min_rank": 22,
     "post_min_rank": 22,
     "quest_text": {
-      "title": "≪Long-Term Event Quest≫\nMushroom Mania 2",
+      "title": "≪Long-Term Event Quest≫\nMushroomania 2",
       "main": "Deliver 20 Purple Volvae",
       "sub_a": "None",
       "sub_b": "None",
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0\nTime expires",
-      "contractor": "Mushroom Maniac",
-      "description": "よくここまで頑張ったね。\n君のキノコ道はあと少しだ！\n今まで集めた紫苑の稀袋を全\nて私のところへ持ってくるん\nだ！キノコマニアとしての証\nを君に進呈しよう！"
+      "contractor": "Mushroomaniac",
+      "description": "You've done well to come\nthis far! It's time for\nyour final task. Gather up\nall your Purple Volvae!\nBring them to me and I'll\nreward you with something\nthat'll certify you as a\nfellow Mushroomaniac!"
     },
     "rank": "lr",
     "reward_boxes": {
@@ -93995,21 +93995,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -94501,7 +94501,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -94624,7 +94624,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -96668,7 +96668,7 @@
       "success_cond": "Complete Main Objective",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Veteran Hunter",
-      "description": "≪センショク草≫という\n不思議な草がある。\nこれは各地で採取が可能\nで、特殊な装飾品を装着\nできる武具の素材となる\nのだ。わたしの依頼を\n達成してくれたら、少し\n君にも分けてあげよう。"
+      "description": "There's this curious plant\nknown as the \"Dyegrass\".\nIt's quite versatile, but\nmost commonly used to craft\na special type of weapon.\nComplete my Quest and I'll\nshare some of my stash!"
     },
     "rank": "er",
     "reward_boxes": {
@@ -96964,7 +96964,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -97192,14 +97192,14 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Desert Survey≫\n鋭き鎌を閃かせ",
+      "title": "≪Desert Survey≫\nBladed Flurry",
       "main": "1 Aberrant Diablos",
       "sub_a": "3 Hermitaur",
       "sub_b": "2 Cephalos",
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
+      "description": "Hey! Looks like someone's\nfinally entered the big\nleagues. You must've got\none of those special weapons\nfrom the Guild, right? Some\nQuests actually require you\nto use em'. Bout' time you\nupgraded it, eh? I'll give\nyou what you need -- just\ncomplete my Quest first!"
     },
     "rank": "er",
     "reward_boxes": {
@@ -97277,7 +97277,7 @@
         {
           "percentage": 7,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -97434,7 +97434,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
+      "description": "Hey! Looks like someone's\nfinally entered the big\nleagues. You must've got\none of those special weapons\nfrom the Guild, right? Some\nQuests actually require you\nto use em'. Bout' time you\nupgraded it, eh? I'll give\nyou what you need -- just\ncomplete my Quest first!"
     },
     "rank": "er",
     "reward_boxes": {
@@ -97676,7 +97676,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -97925,7 +97925,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -98153,7 +98153,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、こいつを見てくれよ。\nいい武器だろ？これは、対\n変種に適した特殊な武器の\n一種でな。しかも、装備して\nいることが、一部の依頼の\n条件にもなっているって話だ。\nお前さんも作ってみるかい？\n俺の紹介する依頼をこなせば、\n余った素材を分けてやるぜ。"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -98395,7 +98395,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -98637,7 +98637,7 @@
       "success_cond": "Hunt all target monsters",
       "fail_cond": "Reward hits 0\nTime expires",
       "contractor": "Older? Hunter",
-      "description": "よう、お前もようやく凄腕\nハンターに到達したんだな。\nハンターズギルドから特殊な\n武器を貰っただろ？あれは対\n変種に適した武器で一部の\n依頼を受ける条件にもなって\nいる。\n俺の紹介する依頼をこなせば、\n強化用の素材を分けてやるぜ。\nやってみないか？"
+      "description": "Check this out. Nice weapon,\nhuh? It's tailor made for\nhunting Aberrant monsters.\nRumor has it that certain\nQuests require you to use\nem' too... Whatcha think,\nwanna get one of your own?\nIf you complete my Quest,\nI'll give you some of my\nleftovers to craft one."
     },
     "rank": "er",
     "reward_boxes": {
@@ -98666,7 +98666,7 @@
         {
           "percentage": 10,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -98782,7 +98782,7 @@
         {
           "percentage": 10,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -98996,7 +98996,7 @@
         {
           "percentage": 15,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -99431,21 +99431,21 @@
         {
           "percentage": 21,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 13,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -100406,21 +100406,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -106597,7 +106597,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -106682,7 +106682,7 @@
       },
       {
         "item_id": 1342,
-        "item_name": "F.Wyvern Bile"
+        "item_name": "Rare F.Wyv Liver"
       }
     ]
   },
@@ -106935,21 +106935,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -106965,7 +106965,7 @@
         {
           "percentage": 25,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -106995,7 +106995,7 @@
         {
           "percentage": 25,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -107034,7 +107034,7 @@
       },
       {
         "item_id": 1333,
-        "item_name": "Rare F.Wyv Gem"
+        "item_name": "Rare F.Wyv Pearl"
       }
     ]
   },
@@ -108578,21 +108578,21 @@
         {
           "percentage": 10,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 13,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 9,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -111352,7 +111352,7 @@
     "join_min_rank": 2,
     "post_min_rank": 2,
     "quest_text": {
-      "title": "≪Great Forest Survey≫\nGreat Forest Blessings",
+      "title": "≪GR2 Great Forest Survey≫\nGreat Forest Blessings",
       "main": "Deliver 2 Wyvern Eggs",
       "sub_a": "Slay 8 Velociprey",
       "sub_b": "None",
@@ -132675,7 +132675,7 @@
         {
           "percentage": 20,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 2,
           "guaranteed": true
         },
@@ -132768,7 +132768,7 @@
         {
           "percentage": 30,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -132799,7 +132799,7 @@
     "preview_items": [
       {
         "item_id": 424,
-        "item_name": "S.Rathalos Cpc"
+        "item_name": "S.Rath Carapace"
       },
       {
         "item_id": 423,
@@ -137392,7 +137392,7 @@
         {
           "percentage": 15,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -145285,7 +145285,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -145410,7 +145410,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -145513,7 +145513,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -145602,21 +145602,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -145646,11 +145646,11 @@
       },
       {
         "item_id": 1331,
-        "item_name": "F.Wyvern Gem"
+        "item_name": "F.Wyvern Pearl"
       },
       {
         "item_id": 1332,
-        "item_name": "F.Wyvern Gem+"
+        "item_name": "F.Wyvern Pearl+"
       }
     ]
   },
@@ -145727,21 +145727,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -145830,21 +145830,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -150376,7 +150376,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -150501,7 +150501,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -150604,7 +150604,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -153432,7 +153432,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -153557,7 +153557,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -153660,7 +153660,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -155018,21 +155018,21 @@
         {
           "percentage": 14,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -155451,7 +155451,7 @@
     "join_min_rank": 22,
     "post_min_rank": 22,
     "quest_text": {
-      "title": "≪Extra Quests≫\nA Tour of the Tower (LR)",
+      "title": "≪Extra Quest≫\nA Tour of the Tower (LR)",
       "main": "Deliver a Map",
       "sub_a": "None",
       "sub_b": "None",
@@ -155533,7 +155533,7 @@
     "join_min_rank": 31,
     "post_min_rank": 31,
     "quest_text": {
-      "title": "≪Extra Quests≫\nA Tour of the Tower (HR)",
+      "title": "≪Extra Quest≫\nA Tour of the Tower (HR)",
       "main": "Deliver a Map",
       "sub_a": "None",
       "sub_b": "None",
@@ -158550,21 +158550,21 @@
         {
           "percentage": 33,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 11,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -158670,7 +158670,7 @@
       },
       {
         "item_id": 1333,
-        "item_name": "Rare F.Wyv Gem"
+        "item_name": "Rare F.Wyv Pearl"
       }
     ]
   },
@@ -158835,21 +158835,21 @@
         {
           "percentage": 38,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 5,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -159155,7 +159155,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -159261,7 +159261,7 @@
       },
       {
         "item_id": 1342,
-        "item_name": "F.Wyvern Bile"
+        "item_name": "Rare F.Wyv Liver"
       }
     ]
   },
@@ -159324,7 +159324,7 @@
         {
           "percentage": 16,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -159384,7 +159384,7 @@
       },
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       }
     ]
   },
@@ -159570,21 +159570,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 20,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 14,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -159855,21 +159855,21 @@
         {
           "percentage": 26,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 15,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160175,7 +160175,7 @@
         {
           "percentage": 10,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160395,7 +160395,7 @@
         {
           "percentage": 5,
           "item_id": 1447,
-          "item_name": "Partbreaker Tkt",
+          "item_name": "Part Brk Ticket",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160541,7 +160541,7 @@
         {
           "percentage": 20,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160585,14 +160585,14 @@
         {
           "percentage": 9,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 5,
           "item_id": 1447,
-          "item_name": "Partbreaker Tkt",
+          "item_name": "Part Brk Ticket",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160615,7 +160615,7 @@
         {
           "percentage": 8,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         },
@@ -160688,7 +160688,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Desert Survey≫\nCarving Arts: Tidal Sac",
+      "title": "≪Desert Survey≫\nCarving: Tidal Sac",
       "main": "1 Aberrant Plesioth",
       "sub_a": "Wound Plesioth's fin",
       "sub_b": "Deliver 3 Herbivore Eggs",
@@ -160775,14 +160775,14 @@
         {
           "percentage": 16,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1447,
-          "item_name": "Partbreaker Tkt",
+          "item_name": "Part Brk Ticket",
           "quantity": 1,
           "guaranteed": false
         }
@@ -160892,7 +160892,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Arctic Ridge Survey≫\nCarving Arts: Glacial Sac",
+      "title": "≪Arctic Ridge Survey≫\nCarving: Glacial Sac",
       "main": "1 Aberrant Blangonga",
       "sub_a": "Sever Blangonga's tail",
       "sub_b": "Break Blangonga's fangs",
@@ -161103,7 +161103,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Great Forest Survey≫\nCarving Arts: Coma Sac",
+      "title": "≪Great Forest Survey≫\nCarving: Coma Sac",
       "main": "1 Aberrant Hypnocatrice",
       "sub_a": "Break Hypnocatrice's beak",
       "sub_b": "Deliver 6 Choice Mushrooms",
@@ -161280,7 +161280,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Desert Survey≫\nCarving Arts: Omniplegia Sac",
+      "title": "≪Desert Survey≫\nCarving: Omniplegia Sac",
       "main": "1 Aberrant Cephadrome",
       "sub_a": "Wound Cephadrome's fin",
       "sub_b": "Deliver 3 Herbivore Eggs",
@@ -161360,7 +161360,7 @@
         {
           "percentage": 9,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         },
@@ -161498,7 +161498,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Arctic Ridge Survey≫\nCarving Arts: Storm Sac",
+      "title": "≪Arctic Ridge Survey≫\nCarving: Storm Sac",
       "main": "1 Aberrant Khezu",
       "sub_a": "Wound Khezu's head & torso",
       "sub_b": "Deliver 2 Carnivore Eggs",
@@ -161555,7 +161555,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         }
@@ -161716,7 +161716,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Marshlands Survey≫\nCarving Arts: Virulent Sac",
+      "title": "≪Marshlands Survey≫\nCarving: Virulent Sac",
       "main": "1 Aberrant Gypceros",
       "sub_a": "Break Gypceros's crest",
       "sub_b": "Deliver 3 Quartz Ore",
@@ -161920,7 +161920,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Ancient Tower Survey≫\nCarving Arts: Scorch Sac",
+      "title": "≪Ancient Tower Survey≫\nCarving: Scorch Sac",
       "main": "1 Aberrant Rathalos",
       "sub_a": "Sever Rathalos's tail",
       "sub_b": "Wound Rathalos's head",
@@ -162232,21 +162232,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 5,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -163370,7 +163370,7 @@
         {
           "percentage": 5,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -164017,7 +164017,7 @@
         {
           "percentage": 5,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -164035,7 +164035,7 @@
       },
       {
         "item_id": 1357,
-        "item_name": "P.Wyvern Grndfin"
+        "item_name": "P.Wyv Grandfin"
       }
     ]
   },
@@ -164302,7 +164302,7 @@
         {
           "percentage": 1,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": true
         },
@@ -164388,21 +164388,21 @@
         {
           "percentage": 35,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 5,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -164541,7 +164541,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -165188,7 +165188,7 @@
         {
           "percentage": 9,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -165206,7 +165206,7 @@
       },
       {
         "item_id": 1357,
-        "item_name": "P.Wyvern Grndfin"
+        "item_name": "P.Wyv Grandfin"
       }
     ]
   },
@@ -165473,7 +165473,7 @@
         {
           "percentage": 1,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": true
         },
@@ -165559,21 +165559,21 @@
         {
           "percentage": 22,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 20,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 14,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -165638,7 +165638,7 @@
       },
       {
         "item_id": 1333,
-        "item_name": "Rare F.Wyv Gem"
+        "item_name": "Rare F.Wyv Pearl"
       },
       {
         "item_id": 1312,
@@ -166430,21 +166430,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 5,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -173328,7 +173328,7 @@
         {
           "percentage": 18,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -173363,7 +173363,7 @@
         {
           "percentage": 12,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -173394,7 +173394,7 @@
     "preview_items": [
       {
         "item_id": 424,
-        "item_name": "S.Rathalos Cpc"
+        "item_name": "S.Rath Carapace"
       },
       {
         "item_id": 423,
@@ -173402,7 +173402,7 @@
       },
       {
         "item_id": 420,
-        "item_name": "A.Rathalos Cpc"
+        "item_name": "A.Rath Carapace"
       }
     ]
   },
@@ -176044,7 +176044,7 @@
     "join_min_rank": 100,
     "post_min_rank": 100,
     "quest_text": {
-      "title": "≪Great Forest Survey≫\nCarving Arts: Coma Sac",
+      "title": "≪Great Forest Survey≫\nCarving: Coma Sac",
       "main": "1 Aberrant Hypnocatrice",
       "sub_a": "Break Hypnocatrice's beak",
       "sub_b": "Deliver 6 Choice Mushrooms",
@@ -182035,7 +182035,7 @@
         {
           "percentage": 14,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": true
         },
@@ -184693,7 +184693,7 @@
         {
           "percentage": 18,
           "item_id": 420,
-          "item_name": "A.Rathalos Cpc",
+          "item_name": "A.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -185037,7 +185037,7 @@
         {
           "percentage": 24,
           "item_id": 424,
-          "item_name": "S.Rathalos Cpc",
+          "item_name": "S.Rath Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -185696,7 +185696,7 @@
     "join_min_rank": 51,
     "post_min_rank": 51,
     "quest_text": {
-      "title": "≪Great Forest Survey≫\nCuff Porkfolio: Chitose",
+      "title": "≪Great Forest Survey≫\nCuff Porkfolio: Evergreen",
       "main": "Hunt a Hypnocatrice",
       "sub_a": "None",
       "sub_b": "None",
@@ -185813,7 +185813,7 @@
     "join_min_rank": 51,
     "post_min_rank": 51,
     "quest_text": {
-      "title": "≪Ancient Tower Survey≫\nCuff Porkfolio: Tsuyukusa",
+      "title": "≪Ancient Tower Survey≫\nCuff Porkfolio: Dew",
       "main": "Hunt a Duragaua",
       "sub_a": "None",
       "sub_b": "None",
@@ -185828,21 +185828,21 @@
         {
           "percentage": 10,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 1,
           "guaranteed": true
         },
         {
           "percentage": 5,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 3,
           "guaranteed": false
         },
         {
           "percentage": 1,
           "item_id": 3708,
-          "item_name": "Dew Base",
+          "item_name": "Dewy Base",
           "quantity": 5,
           "guaranteed": false
         },
@@ -185930,7 +185930,7 @@
     "join_min_rank": 51,
     "post_min_rank": 51,
     "quest_text": {
-      "title": "≪Great Forest Survey≫\nCuff Porkfolio: Tokiwa",
+      "title": "≪Great Forest Survey≫\nCuff Porkfolio: B.Green",
       "main": "Hunt a Rathian",
       "sub_a": "None",
       "sub_b": "None",
@@ -186171,7 +186171,7 @@
         {
           "percentage": 15,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -186488,21 +186488,21 @@
         {
           "percentage": 21,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 13,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 8,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -187227,21 +187227,21 @@
         {
           "percentage": 18,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         }
@@ -187728,21 +187728,21 @@
         {
           "percentage": 20,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 18,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 12,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -187927,7 +187927,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -188777,7 +188777,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -189980,7 +189980,7 @@
         {
           "percentage": 5,
           "item_id": 5304,
-          "item_name": "Pale Zamuza Shl",
+          "item_name": "Zamuza Paleshell",
           "quantity": 1,
           "guaranteed": false
         },
@@ -190008,7 +190008,7 @@
         {
           "percentage": 5,
           "item_id": 5305,
-          "item_name": "Pale Zamuza Claw",
+          "item_name": "Zamuza Paleclaw",
           "quantity": 1,
           "guaranteed": false
         }
@@ -192016,7 +192016,7 @@
         {
           "percentage": 10,
           "item_id": 5741,
-          "item_name": "Quarz Crystalscl",
+          "item_name": "Quarz Crystscale",
           "quantity": 1,
           "guaranteed": false
         }
@@ -194298,21 +194298,21 @@
         {
           "percentage": 17,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 6,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -194457,7 +194457,7 @@
         {
           "percentage": 8,
           "item_id": 1342,
-          "item_name": "F.Wyvern Bile",
+          "item_name": "Rare F.Wyv Liver",
           "quantity": 1,
           "guaranteed": false
         },
@@ -194625,21 +194625,21 @@
         {
           "percentage": 12,
           "item_id": 1331,
-          "item_name": "F.Wyvern Gem",
+          "item_name": "F.Wyvern Pearl",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 10,
           "item_id": 1332,
-          "item_name": "F.Wyvern Gem+",
+          "item_name": "F.Wyvern Pearl+",
           "quantity": 1,
           "guaranteed": false
         },
         {
           "percentage": 9,
           "item_id": 1333,
-          "item_name": "Rare F.Wyv Gem",
+          "item_name": "Rare F.Wyv Pearl",
           "quantity": 1,
           "guaranteed": false
         },
@@ -195912,7 +195912,7 @@
         {
           "percentage": 15,
           "item_id": 1357,
-          "item_name": "P.Wyvern Grndfin",
+          "item_name": "P.Wyv Grandfin",
           "quantity": 1,
           "guaranteed": false
         }
@@ -200579,7 +200579,7 @@
     "join_min_rank": 31,
     "post_min_rank": 31,
     "quest_text": {
-      "title": "≪Clan Quest≫\n",
+      "title": "≪Clan Quest≫\nDown with the Diablos",
       "main": "Hunt a Diablos",
       "sub_a": "None",
       "sub_b": "None",
@@ -204349,7 +204349,7 @@
         {
           "percentage": 6,
           "item_id": 3572,
-          "item_name": "E.Dragon Webbing",
+          "item_name": "E.Drg Membrane",
           "quantity": 1,
           "guaranteed": false
         }
@@ -204651,7 +204651,7 @@
         {
           "percentage": 14,
           "item_id": 1869,
-          "item_name": "P.Espinas Cpc",
+          "item_name": "P.Espi Carapace",
           "quantity": 1,
           "guaranteed": false
         },
@@ -204746,7 +204746,7 @@
         {
           "percentage": 25,
           "item_id": 1869,
-          "item_name": "P.Espinas Cpc",
+          "item_name": "P.Espi Carapace",
           "quantity": 1,
           "guaranteed": false
         }
@@ -204760,7 +204760,7 @@
       },
       {
         "item_id": 1869,
-        "item_name": "P.Espinas Cpc"
+        "item_name": "P.Espi Carapace"
       },
       {
         "item_id": 1870,

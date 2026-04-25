@@ -157,19 +157,19 @@
           {
             "percentage": 20,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 18,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 12,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
@@ -210,7 +210,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -257,7 +257,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -734,7 +734,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -1502,7 +1502,7 @@
           {
             "percentage": 9,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
@@ -1526,7 +1526,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -1763,7 +1763,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -1792,7 +1792,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -2006,7 +2006,7 @@
           {
             "percentage": 10,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -2059,7 +2059,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -2209,7 +2209,7 @@
           {
             "percentage": 8,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -2250,7 +2250,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -2506,25 +2506,25 @@
           {
             "percentage": 21,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 13,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 9,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -2786,7 +2786,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -3030,13 +3030,13 @@
           {
             "percentage": 18,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -3233,25 +3233,25 @@
           {
             "percentage": 24,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 14,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 10,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -3769,7 +3769,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4005,19 +4005,19 @@
           {
             "percentage": 23,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 20,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 7,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
@@ -4058,7 +4058,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4105,7 +4105,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4308,7 +4308,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4517,7 +4517,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4688,7 +4688,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4735,7 +4735,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4782,7 +4782,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4829,7 +4829,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -4976,7 +4976,7 @@
           {
             "percentage": 83,
             "item_id": 424,
-            "item_name": "S.Rathalos Cpc",
+            "item_name": "S.Rath Carapace",
             "quantity": 2
           },
           {
@@ -5005,7 +5005,7 @@
           {
             "percentage": 35,
             "item_id": 424,
-            "item_name": "S.Rathalos Cpc",
+            "item_name": "S.Rath Carapace",
             "quantity": 1
           }
         ]
@@ -5124,7 +5124,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5153,7 +5153,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5255,19 +5255,19 @@
           {
             "percentage": 15,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 18,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 17,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
@@ -5308,7 +5308,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5355,7 +5355,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5505,7 +5505,7 @@
           {
             "percentage": 5,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -5558,7 +5558,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5763,7 +5763,7 @@
           {
             "percentage": 3,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -5804,7 +5804,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -5971,13 +5971,13 @@
           {
             "percentage": 10,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -6168,25 +6168,25 @@
           {
             "percentage": 21,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 18,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -6441,7 +6441,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -6488,7 +6488,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -6641,7 +6641,7 @@
           {
             "percentage": 63,
             "item_id": 420,
-            "item_name": "A.Rathalos Cpc",
+            "item_name": "A.Rath Carapace",
             "quantity": 1
           },
           {
@@ -6682,7 +6682,7 @@
           {
             "percentage": 32,
             "item_id": 420,
-            "item_name": "A.Rathalos Cpc",
+            "item_name": "A.Rath Carapace",
             "quantity": 1
           },
           {
@@ -6807,7 +6807,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -6836,7 +6836,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7245,7 +7245,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7292,7 +7292,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7605,7 +7605,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7652,7 +7652,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7883,7 +7883,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -7930,7 +7930,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8162,7 +8162,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           },
           {
@@ -8215,7 +8215,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8414,7 +8414,7 @@
           {
             "percentage": 15,
             "item_id": 3572,
-            "item_name": "E.Dragon Webbing",
+            "item_name": "E.Drg Membrane",
             "quantity": 1
           }
         ]
@@ -8632,7 +8632,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8679,7 +8679,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8770,7 +8770,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8817,7 +8817,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -8955,7 +8955,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -9002,7 +9002,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           },
           {
@@ -9319,7 +9319,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -9366,7 +9366,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -9413,7 +9413,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -9460,7 +9460,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -9971,7 +9971,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10196,13 +10196,13 @@
           {
             "percentage": 18,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10225,13 +10225,13 @@
           {
             "percentage": 18,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10503,7 +10503,7 @@
           {
             "percentage": 9,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -10574,7 +10574,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10603,7 +10603,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10810,7 +10810,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10857,7 +10857,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10886,25 +10886,25 @@
           {
             "percentage": 23,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 15,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 10,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -10951,7 +10951,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11160,7 +11160,7 @@
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11386,13 +11386,13 @@
           {
             "percentage": 10,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11415,13 +11415,13 @@
           {
             "percentage": 10,
             "item_id": 1357,
-            "item_name": "P.Wyvern Grndfin",
+            "item_name": "P.Wyv Grandfin",
             "quantity": 1
           },
           {
             "percentage": 8,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11652,7 +11652,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11699,7 +11699,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11746,7 +11746,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -11775,25 +11775,25 @@
           {
             "percentage": 23,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 15,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 10,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12152,7 +12152,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12199,7 +12199,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12246,7 +12246,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12275,25 +12275,25 @@
           {
             "percentage": 23,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem",
+            "item_name": "F.Wyvern Pearl",
             "quantity": 1
           },
           {
             "percentage": 15,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+",
+            "item_name": "F.Wyvern Pearl+",
             "quantity": 1
           },
           {
             "percentage": 10,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem",
+            "item_name": "Rare F.Wyv Pearl",
             "quantity": 1
           },
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12494,7 +12494,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12541,7 +12541,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12588,7 +12588,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12933,7 +12933,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -12980,7 +12980,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -13027,7 +13027,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -13930,7 +13930,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -13977,7 +13977,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -14024,7 +14024,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -14440,7 +14440,7 @@
           {
             "percentage": 48,
             "item_id": 1869,
-            "item_name": "P.Espinas Cpc",
+            "item_name": "P.Espi Carapace",
             "quantity": 1
           },
           {
@@ -14469,7 +14469,7 @@
           {
             "percentage": 40,
             "item_id": 1869,
-            "item_name": "P.Espinas Cpc",
+            "item_name": "P.Espi Carapace",
             "quantity": 1
           }
         ]
@@ -14503,7 +14503,7 @@
           {
             "percentage": 18,
             "item_id": 1869,
-            "item_name": "P.Espinas Cpc",
+            "item_name": "P.Espi Carapace",
             "quantity": 1
           },
           {
@@ -14783,7 +14783,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -14812,7 +14812,7 @@
           {
             "percentage": 2,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           },
           {
@@ -14865,7 +14865,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -15115,7 +15115,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -15144,7 +15144,7 @@
           {
             "percentage": 2,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           },
           {
@@ -15197,7 +15197,7 @@
           {
             "percentage": 4,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16520,7 +16520,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16567,7 +16567,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16614,7 +16614,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16661,7 +16661,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16708,7 +16708,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -16755,7 +16755,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17147,7 +17147,7 @@
           {
             "percentage": 8,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
@@ -17206,7 +17206,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17253,7 +17253,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17300,7 +17300,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17341,13 +17341,13 @@
           {
             "percentage": 10,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile",
+            "item_name": "Rare F.Wyv Liver",
             "quantity": 1
           },
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17394,7 +17394,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -17441,7 +17441,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -19165,7 +19165,7 @@
           {
             "percentage": 10,
             "item_id": 5305,
-            "item_name": "Pale Zamuza Claw",
+            "item_name": "Zamuza Paleclaw",
             "quantity": 1
           }
         ]
@@ -19290,7 +19290,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -19337,7 +19337,7 @@
           {
             "percentage": 5,
             "item_id": 1447,
-            "item_name": "Partbreaker Tkt",
+            "item_name": "Part Brk Ticket",
             "quantity": 1
           }
         ]
@@ -19391,7 +19391,7 @@
           {
             "percentage": 31,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl",
+            "item_name": "Quarz Crystscale",
             "quantity": 1
           },
           {
@@ -19426,7 +19426,7 @@
           {
             "percentage": 25,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl",
+            "item_name": "Quarz Crystscale",
             "quantity": 1
           }
         ]
@@ -19455,7 +19455,7 @@
           {
             "percentage": 25,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl",
+            "item_name": "Quarz Crystscale",
             "quantity": 1
           }
         ]
@@ -19484,7 +19484,7 @@
           {
             "percentage": 25,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl",
+            "item_name": "Quarz Crystscale",
             "quantity": 1
           }
         ]
@@ -19513,7 +19513,7 @@
           {
             "percentage": 25,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl",
+            "item_name": "Quarz Crystscale",
             "quantity": 1
           }
         ]

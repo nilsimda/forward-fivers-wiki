@@ -246,17 +246,17 @@
           {
             "percentage": 20,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem"
+            "item_name": "F.Wyvern Pearl"
           },
           {
             "percentage": 18,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+"
+            "item_name": "F.Wyvern Pearl+"
           },
           {
             "percentage": 12,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem"
+            "item_name": "Rare F.Wyv Pearl"
           },
           {
             "percentage": 5,
@@ -2640,7 +2640,7 @@
           {
             "percentage": 10,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 5,
@@ -2886,7 +2886,7 @@
           {
             "percentage": 8,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 5,
@@ -6742,17 +6742,17 @@
           {
             "percentage": 23,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem"
+            "item_name": "F.Wyvern Pearl"
           },
           {
             "percentage": 20,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+"
+            "item_name": "F.Wyvern Pearl+"
           },
           {
             "percentage": 7,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem"
+            "item_name": "Rare F.Wyv Pearl"
           },
           {
             "percentage": 5,
@@ -7654,7 +7654,7 @@
           {
             "percentage": 28,
             "item_id": 424,
-            "item_name": "S.Rathalos Cpc"
+            "item_name": "S.Rath Carapace"
           },
           {
             "percentage": 16,
@@ -7964,17 +7964,17 @@
           {
             "percentage": 15,
             "item_id": 1331,
-            "item_name": "F.Wyvern Gem"
+            "item_name": "F.Wyvern Pearl"
           },
           {
             "percentage": 18,
             "item_id": 1332,
-            "item_name": "F.Wyvern Gem+"
+            "item_name": "F.Wyvern Pearl+"
           },
           {
             "percentage": 17,
             "item_id": 1333,
-            "item_name": "Rare F.Wyv Gem"
+            "item_name": "Rare F.Wyv Pearl"
           },
           {
             "percentage": 5,
@@ -8247,7 +8247,7 @@
           {
             "percentage": 5,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 5,
@@ -8568,7 +8568,7 @@
           {
             "percentage": 3,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 5,
@@ -9543,7 +9543,7 @@
           {
             "percentage": 24,
             "item_id": 420,
-            "item_name": "A.Rathalos Cpc"
+            "item_name": "A.Rath Carapace"
           },
           {
             "percentage": 17,
@@ -9590,7 +9590,7 @@
           {
             "percentage": 23,
             "item_id": 420,
-            "item_name": "A.Rathalos Cpc"
+            "item_name": "A.Rath Carapace"
           },
           {
             "percentage": 15,
@@ -15150,7 +15150,7 @@
           {
             "percentage": 9,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 21,
@@ -17548,7 +17548,7 @@
           {
             "percentage": 32,
             "item_id": 1869,
-            "item_name": "P.Espinas Cpc"
+            "item_name": "P.Espi Carapace"
           },
           {
             "percentage": 4,
@@ -17570,7 +17570,7 @@
           {
             "percentage": 36,
             "item_id": 1869,
-            "item_name": "P.Espinas Cpc"
+            "item_name": "P.Espi Carapace"
           }
         ]
       },
@@ -18799,7 +18799,7 @@
           {
             "percentage": 8,
             "item_id": 1342,
-            "item_name": "F.Wyvern Bile"
+            "item_name": "Rare F.Wyv Liver"
           },
           {
             "percentage": 5,
@@ -19761,7 +19761,7 @@
           {
             "percentage": 2,
             "item_id": 6150,
-            "item_name": "Gogomoa Wildpelt"
+            "item_name": "Gogo Wildpelt"
           }
         ]
       }
@@ -19959,7 +19959,7 @@
           {
             "percentage": 21,
             "item_id": 5304,
-            "item_name": "Pale Zamuza Shl"
+            "item_name": "Zamuza Paleshell"
           },
           {
             "percentage": 8,
@@ -20339,7 +20339,7 @@
           {
             "percentage": 15,
             "item_id": 5741,
-            "item_name": "Quarz Crystalscl"
+            "item_name": "Quarz Crystscale"
           },
           {
             "percentage": 1,

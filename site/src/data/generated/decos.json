@@ -5795,7 +5795,7 @@
   },
   {
     "id": 1121,
-    "name": "Mindful Jewel+",
+    "name": "Recoil Jewel+",
     "receipt_category": 0,
     "craft_recipes": [
       [
@@ -5819,7 +5819,7 @@
         },
         {
           "item_id": 1332,
-          "name": "F.Wyvern Gem+",
+          "name": "F.Wyvern Pearl+",
           "quantity": 15,
           "needed_for_unlock": false
         }
@@ -5921,7 +5921,7 @@
         },
         {
           "item_id": 1332,
-          "name": "F.Wyvern Gem+",
+          "name": "F.Wyvern Pearl+",
           "quantity": 15,
           "needed_for_unlock": false
         },
@@ -6035,7 +6035,7 @@
         },
         {
           "item_id": 1332,
-          "name": "F.Wyvern Gem+",
+          "name": "F.Wyvern Pearl+",
           "quantity": 15,
           "needed_for_unlock": false
         }
@@ -6293,7 +6293,7 @@
         },
         {
           "item_id": 1332,
-          "name": "F.Wyvern Gem+",
+          "name": "F.Wyvern Pearl+",
           "quantity": 15,
           "needed_for_unlock": false
         },
