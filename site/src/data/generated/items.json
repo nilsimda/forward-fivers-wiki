@@ -274625,6 +274625,16 @@
         "quantity": 1,
         "reward_box_label": "Sub A Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -275029,6 +275039,16 @@
         "percentage": 6,
         "quantity": 1,
         "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
         "guaranteed": false
       }
     ],
@@ -277099,6 +277119,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -277550,6 +277580,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -277978,6 +278018,16 @@
         "main_objective": "1 Aberrant Plesioth",
         "rank": "er",
         "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 8,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -440868,6 +440918,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -441008,6 +441068,16 @@
         "quest_id": 21483,
         "title": "≪Volcano Survey≫\nMagmatic Monarch",
         "main_objective": "1 Aberrant Red Lavasioth",
+        "rank": "er",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
         "rank": "er",
         "percentage": 10,
         "quantity": 1,
@@ -441372,6 +441442,16 @@
       {
         "quest_id": 21472,
         "title": "≪Jungle Survey≫\nJungle Jade",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 4,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
         "main_objective": "1 Aberrant Green Plesioth",
         "rank": "er",
         "percentage": 4,
@@ -477868,7 +477948,58 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 10,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 7,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 50,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65109,
+        "title": "≪Event Quest≫\nAgainst the Current",
+        "main_objective": "1 Aberrant Green Plesioth",
+        "rank": "er",
+        "percentage": 50,
+        "quantity": 1,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {

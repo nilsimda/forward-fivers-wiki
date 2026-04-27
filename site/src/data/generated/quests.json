@@ -209457,6 +209457,148 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 6600,
+    "zenny_ko": 2200,
+    "zenny_sub_a": 660,
+    "zenny_sub_b": 660,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 65109,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 46,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 46,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 46,
+      "count": 2
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nAgainst the Current",
+      "main": "1 Aberrant Green Plesioth",
+      "sub_a": "Wound Green Plesioth's fin",
+      "sub_b": "Fish out Green Plesioth",
+      "success_cond": "Hunt the target monster, or\ncomplete Subquest A or B",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Enlightened Hunter",
+      "description": "It takes a real hunter to\nappreciate the underdogs...\nTake the Green Plesioth for\nexample -- have you ever\nseen ANYONE hunt it? Cause\nI sure haven't! So... I put\nin a little word with the\nGuild and prepared a special\nQuest. Don't worry, there's\na big reward in it for you!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7085,
+          "item_name": "Green Bracelet",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5781,
+          "item_name": "Prp Aberrant Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5778,
+          "item_name": "Grn Aberrant Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 5790,
+          "item_name": "Purple Aberrite",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 7085,
+          "item_name": "Green Bracelet",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 7085,
+          "item_name": "Green Bracelet",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 50,
+          "item_id": 7085,
+          "item_name": "Green Bracelet",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 50,
+          "item_id": 7085,
+          "item_name": "Green Bracelet",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 600,
     "zenny_reward": 1350,
     "zenny_ko": 3,
