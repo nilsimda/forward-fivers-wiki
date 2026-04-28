@@ -350,7 +350,6 @@ def _extract_weapon_crafting(
         grank_end_pointer - grank_base_pointer
     ) // WeaponCraftingEntry.size()
 
-    print(f"n_grank_crafts: {n_grank_crafts}")
     for i in range(n_grank_crafts):
         wce = WeaponCraftingEntry.unpack_from(
             raw, grank_base_pointer + i * WeaponCraftingEntry.size(), item_names
@@ -513,7 +512,6 @@ def extract_grank_upgrades(
     end_pointer = read_u32(raw, 0x00000618)
 
     num_grank_upgrades = (end_pointer - base_pointer) // _RawGrankUpgrade.size()
-    print(f"num_grank_upgrades: {num_grank_upgrades}")
 
     by_weapon: dict[int, dict] = {}
     for i in range(num_grank_upgrades):
@@ -546,6 +544,65 @@ def extract_grank_upgrades(
     }
 
 
+@dataclass(slots=True)
+class GrankWeaponStats:
+    weapon_id: int
+    sharpness: Sharpness
+    sharpness_cap: int
+    raw_damage: int
+    element: str | None
+    element_damage: int
+    ailment: str | None
+    ailment_damage: int
+    defense: int
+    success_rate: int
+
+    STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBHBBBBHBBH")
+
+    @classmethod
+    def unpack_from(cls, raw: bytes, offset: int) -> "GrankWeaponStats":
+        unpacked = cls.STRUCT.unpack_from(raw, offset)
+        sharpness_header_pointer = 0x000000AC
+        sharpness_base_pointer = read_u32(raw, sharpness_header_pointer)
+        sharpness_weapon_pointer = read_u32(raw, sharpness_base_pointer + 4 * 0)
+        sharpness = Sharpness.unpack_from(
+            raw, sharpness_weapon_pointer + Sharpness.size() * unpacked[1]
+        )
+        return cls(
+            weapon_id=unpacked[0],
+            sharpness=sharpness,
+            sharpness_cap=unpacked[2],
+            raw_damage=unpacked[3],
+            element=ELEMENT_NAMES.get(unpacked[4], "uknown"),
+            element_damage=unpacked[5],
+            ailment=AILMENT_NAMES.get(unpacked[6], "unkown"),
+            ailment_damage=unpacked[7],
+            defense=unpacked[8],
+            success_rate=unpacked[9],
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls.STRUCT.size
+
+
+def extract_grank_weapons_stats(raw):
+    base_pointer = 0x0059BB18
+    results = []
+    for i in range(983 // 4 - 1):
+        start_pointer = read_u32(raw, base_pointer + i * 4)
+        print()
+        print(f"new weapon: {i}")
+
+        while True:
+            gws = GrankWeaponStats.unpack_from(raw, start_pointer)
+            start_pointer += GrankWeaponStats.size()
+            if gws.weapon_id == 0xFFFF:
+                break
+            print(gws)
+            results.append(gws)
+
+
 def main() -> None:
     args = parse_args()
     raw = args.input.read_bytes()
@@ -564,6 +621,8 @@ def main() -> None:
     gr_upgrades = extract_grank_upgrades(raw, item_names)
     for weapon in melee_weapons:
         weapon.grank_upgrades = gr_upgrades.get(weapon.id)
+
+    extract_grank_weapons_stats(raw)
 
     write_json_output(args.output, melee_weapons)
 

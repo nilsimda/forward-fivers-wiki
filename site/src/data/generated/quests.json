@@ -209502,7 +209502,7 @@
           "item_id": 7085,
           "item_name": "Green Bracelet",
           "quantity": 1,
-          "guaranteed": false
+          "guaranteed": true
         },
         {
           "percentage": 12,
@@ -209589,12 +209589,12 @@
           "percentage": 50,
           "item_id": 7085,
           "item_name": "Green Bracelet",
-          "quantity": 1,
+          "quantity": 3,
           "guaranteed": false
         }
       ]
     },
-    "reward_variant": 4,
+    "reward_variant": 0,
     "preview_items": []
   },
   {

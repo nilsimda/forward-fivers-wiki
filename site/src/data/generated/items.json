@@ -477957,7 +477957,7 @@
         "percentage": 1,
         "quantity": 1,
         "reward_box_label": "Main Reward",
-        "guaranteed": false
+        "guaranteed": true
       },
       {
         "quest_id": 65109,
@@ -477995,7 +477995,7 @@
         "main_objective": "1 Aberrant Green Plesioth",
         "rank": "er",
         "percentage": 50,
-        "quantity": 1,
+        "quantity": 3,
         "reward_box_label": "Sub B Reward",
         "guaranteed": false
       }
