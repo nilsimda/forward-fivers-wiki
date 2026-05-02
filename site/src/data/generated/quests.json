@@ -209457,6 +209457,7383 @@
   },
   {
     "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63006,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 11,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nArtisan's Pride",
+      "main": "1 Aberrant Rathalos",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Only a handful of artisans\never reach true mastery...\nTheir efforts give birth to\nweapons said to be imbued\nwith powerful souls. Why\nnot use this opportunity\nto experience their skill\nfirsthand?"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 15,
+          "item_id": 5345,
+          "item_name": "Wild Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5346,
+          "item_name": "Calm Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5348,
+          "item_name": "Novel Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5347,
+          "item_name": "Joyful Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5345,
+          "item_name": "Wild Artisoul",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5346,
+          "item_name": "Calm Artisoul",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5348,
+          "item_name": "Novel Artisoul",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5347,
+          "item_name": "Joyful Artisoul",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": [
+      {
+        "item_id": 5345,
+        "item_name": "Wild Artisoul"
+      },
+      {
+        "item_id": 5346,
+        "item_name": "Calm Artisoul"
+      },
+      {
+        "item_id": 5348,
+        "item_name": "Novel Artisoul"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 2400,
+    "zenny_ko": 800,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 57,
+    "map": "Tidal Island",
+    "restriction_flags": 0,
+    "id": 63225,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 6,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nGoocoo Research Team",
+      "main": "Hunt a Yian Kut-Ku",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Are you a real Goocoo fan?\nThen this Quest is just for\nyou. Complete it to obtain\nan item used to transform\nthe Goocoo into something...\nincredible."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 100,
+          "item_id": 6190,
+          "item_name": "Survey Ticket",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 3,
+    "preview_items": [
+      {
+        "item_id": 6190,
+        "item_name": "Survey Ticket"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63342,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nSword & Shield Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Sword Saint",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2661,
+          "item_name": "Sword Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2660,
+          "item_name": "Sword Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2659,
+          "item_name": "Sword Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2661,
+        "item_name": "Sword Soul 3"
+      },
+      {
+        "item_id": 2660,
+        "item_name": "Sword Soul 2"
+      },
+      {
+        "item_id": 2659,
+        "item_name": "Sword Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63343,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nDual Blades Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Twin Dragon",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2665,
+          "item_name": "D.Blades Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2664,
+          "item_name": "D.Blades Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2663,
+          "item_name": "D.Blades Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2665,
+        "item_name": "D.Blades Soul 3"
+      },
+      {
+        "item_id": 2664,
+        "item_name": "D.Blades Soul 2"
+      },
+      {
+        "item_id": 2663,
+        "item_name": "D.Blades Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63344,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 21,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nHeavy Bowgun Enlightenment",
+      "main": "1 Aberrant Plesioth",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Bowgun Sage",
+      "description": "Calling all aspiring weapon\nmasters! Best a Plesioth in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2693,
+          "item_name": "H.Bowgun Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2692,
+          "item_name": "H.Bowgun Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2691,
+          "item_name": "H.Bowgun Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2693,
+        "item_name": "H.Bowgun Soul 3"
+      },
+      {
+        "item_id": 2692,
+        "item_name": "H.Bowgun Soul 2"
+      },
+      {
+        "item_id": 2691,
+        "item_name": "H.Bowgun Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63345,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 21,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nLight Bowgun Enlightenment",
+      "main": "1 Aberrant Plesioth",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Bowgun Prodigy",
+      "description": "Calling all aspiring weapon\nmasters! Best a Plesioth in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2697,
+          "item_name": "L.Bowgun Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2696,
+          "item_name": "L.Bowgun Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2695,
+          "item_name": "L.Bowgun Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2697,
+        "item_name": "L.Bowgun Soul 3"
+      },
+      {
+        "item_id": 2696,
+        "item_name": "L.Bowgun Soul 2"
+      },
+      {
+        "item_id": 2695,
+        "item_name": "L.Bowgun Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63349,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nGreat Sword Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Sword King",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2669,
+          "item_name": "G.Sword Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2668,
+          "item_name": "G.Sword Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2667,
+          "item_name": "G.Sword Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2669,
+        "item_name": "G.Sword Soul 3"
+      },
+      {
+        "item_id": 2668,
+        "item_name": "G.Sword Soul 2"
+      },
+      {
+        "item_id": 2667,
+        "item_name": "G.Sword Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63350,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nLong Sword Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Saber Lord",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2673,
+          "item_name": "L.Sword Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2672,
+          "item_name": "L.Sword Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2671,
+          "item_name": "L.Sword Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2673,
+        "item_name": "L.Sword Soul 3"
+      },
+      {
+        "item_id": 2672,
+        "item_name": "L.Sword Soul 2"
+      },
+      {
+        "item_id": 2671,
+        "item_name": "L.Sword Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63351,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nHammer Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Blunt Beast",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2677,
+          "item_name": "Hammer Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2676,
+          "item_name": "Hammer Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2675,
+          "item_name": "Hammer Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2677,
+        "item_name": "Hammer Soul 3"
+      },
+      {
+        "item_id": 2676,
+        "item_name": "Hammer Soul 2"
+      },
+      {
+        "item_id": 2675,
+        "item_name": "Hammer Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63352,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nHunting Horn Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the main target",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Virtuoso",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2681,
+          "item_name": "Horn Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2680,
+          "item_name": "Horn Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2679,
+          "item_name": "Horn Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2681,
+        "item_name": "Horn Soul 3"
+      },
+      {
+        "item_id": 2680,
+        "item_name": "Horn Soul 2"
+      },
+      {
+        "item_id": 2679,
+        "item_name": "Horn Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63353,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nLance Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Heavenly Spear",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2685,
+          "item_name": "Lance Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2684,
+          "item_name": "Lance Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2683,
+          "item_name": "Lance Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2685,
+        "item_name": "Lance Soul 3"
+      },
+      {
+        "item_id": 2684,
+        "item_name": "Lance Soul 2"
+      },
+      {
+        "item_id": 2683,
+        "item_name": "Lance Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63354,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nGunlance Enlightenment",
+      "main": "1 Aberrant Rathian",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Divine Cannon",
+      "description": "Calling all aspiring weapon\nmasters! Best a Rathian in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2689,
+          "item_name": "Gunlance Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2688,
+          "item_name": "Gunlance Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2687,
+          "item_name": "Gunlance Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2689,
+        "item_name": "Gunlance Soul 3"
+      },
+      {
+        "item_id": 2688,
+        "item_name": "Gunlance Soul 2"
+      },
+      {
+        "item_id": 2687,
+        "item_name": "Gunlance Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 300,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 0,
+    "id": 63355,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 21,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nBow Enlightenment",
+      "main": "1 Aberrant Plesioth",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "The Bow Demon",
+      "description": "Calling all aspiring weapon\nmasters! Best a Plesioth in\nthe Arena and I will reward\nyou with something to kick-\nstart your journey towards\ntrue power!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 35,
+          "item_id": 2701,
+          "item_name": "Bow Soul 3",
+          "quantity": 15,
+          "guaranteed": true
+        },
+        {
+          "percentage": 35,
+          "item_id": 2700,
+          "item_name": "Bow Soul 2",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 30,
+          "item_id": 2699,
+          "item_name": "Bow Soul 1",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2701,
+        "item_name": "Bow Soul 3"
+      },
+      {
+        "item_id": 2700,
+        "item_name": "Bow Soul 2"
+      },
+      {
+        "item_id": 2699,
+        "item_name": "Bow Soul 1"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 500,
+    "zenny_ko": 200,
+    "zenny_sub_a": 200,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 50009,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 87,
+      "count": 10
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 63,
+      "count": 8
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nReach for the Sky!",
+      "main": "Destroy 10 Barrel Bombs",
+      "sub_a": "Slay 8 Remobra",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Instructor",
+      "description": "It's me! Your one and only\nInstructor! I'm sure you're\nall aware by now, but... The\ndreadful Shantien is real!\nIn order to prepare you for\nthe challenges head, I've\ndecided to test your archery\nskills! Aren't I kind?\nHa ha ha!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 7036,
+          "item_name": "Luminous Scale",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 339,
+          "item_name": "Anteka Pelt",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 510,
+          "item_name": "Blangonga Pelt",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 24,
+          "item_name": "Monster Fluid",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 28,
+          "item_id": 40,
+          "item_name": "Raw Meat",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 10,
+          "item_id": 7036,
+          "item_name": "Luminous Scale",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 282,
+          "item_name": "Remobra Shank",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 27,
+          "item_id": 597,
+          "item_name": "Remobra Head",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 594,
+          "item_name": "Remobra Hide",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 7036,
+          "item_name": "Luminous Scale",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 7036,
+          "item_name": "Luminous Scale",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": [
+      {
+        "item_id": 7036,
+        "item_name": "Luminous Scale"
+      },
+      {
+        "item_id": 339,
+        "item_name": "Anteka Pelt"
+      },
+      {
+        "item_id": 510,
+        "item_name": "Blangonga Pelt"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 2000,
+    "zenny_ko": 700,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 50031,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 6,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 68,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪Event Quest≫\nA Weapon for Your Departure",
+      "main": "Hunt a Yian Kut-Ku",
+      "sub_a": "Hunt a Bulldrome",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "This Quest is aimed towards\nnew hunters looking to rise\nthrough the ranks. We'd like\nyou to hunt the Yian Kut-Ku\nand Bulldrome in the Jungle.\nYou will be rewarded with a\nsmall token of appreciation,\ncourtesy of the Guild. We\nare looking forward to your\nfuture exploits."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7223,
+          "item_name": "Sprout Ore",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 364,
+          "item_name": "Kut-Ku Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 363,
+          "item_name": "Kut-Ku Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 308,
+          "item_name": "Flame Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 335,
+          "item_name": "Bulldrome Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 320,
+          "item_name": "Bone",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 334,
+          "item_name": "Bullfango Head",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 7223,
+        "item_name": "Sprout Ore"
+      },
+      {
+        "item_id": 364,
+        "item_name": "Kut-Ku Shell"
+      },
+      {
+        "item_id": 335,
+        "item_name": "Bulldrome Hide"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 7000,
+    "zenny_ko": 2500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 50033,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 20,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 39,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Event Quest≫\nGoocoo Makeover",
+      "main": "Hunt a Gypceros",
+      "sub_a": "Hunt a Purple Gypceros",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Gallery Curator",
+      "description": "I've ordered some Goocoo\nclothes for my upcoming\nGallery, but they STILL\nhaven't arrived. Can you\ngo and check things out\nfor me? I'll reward you\nwith part of my treasured\nclothing collection."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 9,
+          "item_id": 4342,
+          "item_name": "Polka Dot Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 4345,
+          "item_name": "Diving Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 4346,
+          "item_name": "Fruity Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 4347,
+          "item_name": "Party Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 4946,
+          "item_name": "Fluffy Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5395,
+          "item_name": "Noble Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5396,
+          "item_name": "Fledgling Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5397,
+          "item_name": "Rider Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5752,
+          "item_name": "Naughty Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5753,
+          "item_name": "Memorial Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 5754,
+          "item_name": "Festival Design",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 4342,
+        "item_name": "Polka Dot Design"
+      },
+      {
+        "item_id": 4345,
+        "item_name": "Diving Design"
+      },
+      {
+        "item_id": 5754,
+        "item_name": "Festival Design"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 4600,
+    "zenny_ko": 1600,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 50034,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 8,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 28,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 6
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Event Quest≫\nGoocoo Renovation",
+      "main": "Hunt a Cephadrome",
+      "sub_a": "Hunt a Gendrome",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Goocoo-loving Man",
+      "description": "I think I've lost a set\nof commissioned Goocoo\nfurniture designs while\nI was out on a walk...\nSorry to ask this, but\ncould you go look for\nthem? I'll make sure to\nshare some of them with\nyou as a reward."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 17,
+          "item_id": 4338,
+          "item_name": "Miniature Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 17,
+          "item_id": 4948,
+          "item_name": "Lovely Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 17,
+          "item_id": 5398,
+          "item_name": "Garden Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 17,
+          "item_id": 5399,
+          "item_name": "Mechanical Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 17,
+          "item_id": 5751,
+          "item_name": "Candy Design",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 6177,
+          "item_name": "Monster Design",
+          "quantity": 5,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 4338,
+        "item_name": "Miniature Design"
+      },
+      {
+        "item_id": 4948,
+        "item_name": "Lovely Design"
+      },
+      {
+        "item_id": 5398,
+        "item_name": "Garden Design"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 48000,
+    "zenny_ko": 16000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 50131,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Path to Greatness (GR1)",
+      "main": "Slay ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Hunter's Guild",
+      "description": "Complete this Quest to\nobtain some of the items\nused to upgrade GR1 Armor!\nJust keep in mind that you\nwon't get ANY G Rank items\nhere. You'll have to do\nanother Quest for that."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 410,
+          "item_name": "Rathalos Plate",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1226,
+          "item_name": "Jebia Bloodstone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1276,
+          "item_name": "Beast Hardclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1414,
+          "item_name": "E.Dragon Lash",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1258,
+          "item_name": "Herbvr Hardbone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1051,
+          "item_name": "Espinas Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1064,
+          "item_name": "Vashim Crystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1372,
+          "item_name": "Avian Finehide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1321,
+          "item_name": "F.Wyv Surspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 411,
+          "item_name": "Rathalos Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 395,
+          "item_name": "Rathian Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": [
+      {
+        "item_id": 410,
+        "item_name": "Rathalos Plate"
+      },
+      {
+        "item_id": 1226,
+        "item_name": "Jebia Bloodstone"
+      },
+      {
+        "item_id": 1064,
+        "item_name": "Vashim Crystal"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 48000,
+    "zenny_ko": 16000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 50142,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Path to Greatness (GR2)",
+      "main": "Slay ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Hunter's Guild",
+      "description": "Complete this Quest to\nobtain some of the items\nused to upgrade GR2 Armor!\nJust keep in mind that you\nwon't get ANY G Rank items\nhere. You'll have to do\nanother Quest for that."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 9,
+          "item_id": 5322,
+          "item_name": "Abiorg Blood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 541,
+          "item_name": "Ceanataur Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1219,
+          "item_name": "Jebia Jaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1306,
+          "item_name": "F.Wyv Hardclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 482,
+          "item_name": "Kirin Azure Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1408,
+          "item_name": "E.Dragon Piel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 526,
+          "item_name": "Gold Rajang Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 2655,
+          "item_name": "Duragaua Tail+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 5742,
+          "item_name": "Quarzeps Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 571,
+          "item_name": "Teostra Powder",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1420,
+          "item_name": "E.Drgn Fellwing",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": [
+      {
+        "item_id": 5322,
+        "item_name": "Abiorg Blood+"
+      },
+      {
+        "item_id": 482,
+        "item_name": "Kirin Azure Horn"
+      },
+      {
+        "item_id": 526,
+        "item_name": "Gold Rajang Pelt"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 48000,
+    "zenny_ko": 16000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 50145,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Path to Greatness (GR3)",
+      "main": "Slay ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Hunter's Guild",
+      "description": "Complete this Quest to\nobtain some of the items\nused to upgrade GR3 Armor!\nJust keep in mind that you\nwon't get ANY G Rank items\nhere. You'll have to do\nanother Quest for that."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 7,
+          "item_id": 1426,
+          "item_name": "E.Dragon Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 567,
+          "item_name": "Chameleos Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 468,
+          "item_name": "Giant Lobstershl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1324,
+          "item_name": "F.Wyv Hardhorn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1413,
+          "item_name": "E.Dragon Tail+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1801,
+          "item_name": "Pariapuria Liver",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1042,
+          "item_name": "R.Lavasioth Fin+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1884,
+          "item_name": "Crimson Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 3550,
+          "item_name": "Grenzebul Spike+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1417,
+          "item_name": "ThickDragonBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1378,
+          "item_name": "Avian Hardfang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1366,
+          "item_name": "P.Wyv Grandgills",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 1422,
+          "item_name": "E.Dragon Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1402,
+          "item_name": "E.Dragon Cortex",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": [
+      {
+        "item_id": 567,
+        "item_name": "Chameleos Gem"
+      },
+      {
+        "item_id": 1360,
+        "item_name": "ThickP.WyvBlood"
+      },
+      {
+        "item_id": 1884,
+        "item_name": "Crimson Pelt"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 9000,
+    "zenny_ko": 3000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 50149,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 53,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nWrath of the Rajang",
+      "main": "Slay a Rajang",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Rajang Expert",
+      "description": "Hey, hunters! I've got some\nexclusive info just for you!\nA legendary Rajang seems to\nhave appeared in the Arctic\nRidge! What's that? \"Not a\nbig deal?\" Alright, go and\ntry your luck then! It's not\nyour ordinary Rajang..."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 5,
+          "item_id": 1448,
+          "item_name": "Sphere Fragment",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1275,
+          "item_name": "Beast Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1276,
+          "item_name": "Beast Hardclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1278,
+          "item_name": "Beast Tail+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1279,
+          "item_name": "Beast Lash",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 15,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 5000,
+    "zenny_reward": 48000,
+    "zenny_ko": 16000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 109,
+    "id": 50150,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 95,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Phantom of the Ridge",
+      "main": "Slay a Draguros",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've received reports of\nnumerous black bolts over\nthe Arctic Ridge. This may\nbe caused by the infamous\nmonster known only as the\n\"Phantom\". We are looking\nfor elite hunters ready to\nslay the target and secure\nthe area."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2963,
+          "item_name": "Draguros Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 1337,
+          "item_name": "F.Wyvern Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 1338,
+          "item_name": "F.Wyvern Medulla",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1339,
+          "item_name": "F.Wyvern Myeloid",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1313,
+          "item_name": "F.Wyvern Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1314,
+          "item_name": "F.Wyvern Wing+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1315,
+          "item_name": "F.Wyv Fellwing",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 3000,
+    "zenny_ko": 1100,
+    "zenny_sub_a": 6000,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 9,
+    "map": "Great Arena",
+    "restriction_flags": 0,
+    "id": 53003,
+    "main_goal": {
+      "target_kind": "Break Part",
+      "target": 53,
+      "count": 2
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 53,
+      "count": 4
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 31,
+    "post_min_rank": 31,
+    "quest_text": {
+      "title": "≪Event Quest≫\nRajang Challenge!",
+      "main": "Sever Rajang's tail",
+      "sub_a": "Slay 4 Rajang",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward hits 0, time expires,\nor Rajang is captured",
+      "contractor": "Hunter's Guild",
+      "description": "We've received reports of a\nRajang in the Arena, but...\nWe can't determine whether\nthe monster is real or not!\nAs soon as its slayed, a\nnew one takes its place\nshortly after -- over, and\nover, and over... Severing\nits tail might solve this\nriddle, but..."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 2083,
+          "item_name": "Brutal Beast",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 2084,
+          "item_name": "Tropical Tree",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 523,
+          "item_name": "Rajang Blackfur",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 525,
+          "item_name": "Rajang Tail",
+          "quantity": 1,
+          "guaranteed": true
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4475,
+          "item_name": "Tiny Hammer",
+          "quantity": 3,
+          "guaranteed": true
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6036,
+          "item_name": "Conductive Pad",
+          "quantity": 10,
+          "guaranteed": true
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6036,
+          "item_name": "Conductive Pad",
+          "quantity": 10,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 2,
+    "preview_items": [
+      {
+        "item_id": 2083,
+        "item_name": "Brutal Beast"
+      },
+      {
+        "item_id": 2084,
+        "item_name": "Tropical Tree"
+      },
+      {
+        "item_id": 4475,
+        "item_name": "Tiny Hammer"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 5100,
+    "zenny_ko": 1700,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 53006,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 45,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 61,
+      "count": 5
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 11,
+    "post_min_rank": 11,
+    "quest_text": {
+      "title": "≪Event Quest≫\nHunter's Masquerade",
+      "main": "Hunt a Red Khezu",
+      "sub_a": "Slay 5 Blango",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "Ladies and gentlemen, thank\nyou for attending today's\nparty. Please wait in the\nfirst area outside of the\nbase camp. The main course\nshall be delivered to you\nshortly. May this evening\nbe a memorable one to all\nof you."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 3320,
+          "item_name": "Steelstone",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 432,
+          "item_name": "Alluring Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 311,
+          "item_name": "Pale Extract",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 309,
+          "item_name": "Electro Sac",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 188,
+          "item_name": "Sap Plant",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 182,
+          "item_name": "Sunset Herb",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 215,
+          "item_name": "Stone",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 4469,
+          "item_name": "Pure Steelstone",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 5369,
+          "item_name": "Wavestone",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 3320,
+        "item_name": "Steelstone"
+      },
+      {
+        "item_id": 4469,
+        "item_name": "Pure Steelstone"
+      },
+      {
+        "item_id": 5369,
+        "item_name": "Wavestone"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 10,
+    "zenny_reward": 1500,
+    "zenny_ko": 500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 62124,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 27,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 5,
+      "count": 4
+    },
+    "subB_goal": {
+      "target_kind": "Deliver",
+      "target": 193,
+      "count": 2
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪Event Quest≫\nTo Hunt Like a Gentleman",
+      "main": "Hunt a Velocidrome",
+      "sub_a": "Slay 4 Bullfango",
+      "sub_b": "Deliver 2 Unique Mushrooms",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Tavern Employee",
+      "description": "Good day, hunters. I've got\na special request for all\nof you. The theme for this\nhunt is \"Elegance\". I'll\nlend you some fitting\nattire, so make sure to\nshow off your cool side!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1633,
+          "item_name": "Bartender Ticket",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 44,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 8,
+          "item_name": "Mega Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 30,
+          "item_name": "Energy Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 346,
+          "item_name": "Velocidrome Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 302,
+          "item_name": "Screamer Sac",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1694,
+          "item_name": "R.Barkeep Cloth",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 72,
+          "item_name": "Flash Bomb",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 44,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 8,
+          "item_name": "Mega Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 40,
+          "item_name": "Raw Meat",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 333,
+          "item_name": "Bullfango Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1695,
+          "item_name": "G.Barkeep Cloth",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 44,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 8,
+          "item_name": "Mega Potion",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 180,
+          "item_name": "Honey",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 196,
+          "item_name": "Blue Mushroom",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 197,
+          "item_name": "Nitroshroom",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 28,
+    "map": "Volcano",
+    "restriction_flags": 0,
+    "id": 62140,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 75,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Lost Map - Part 2",
+      "main": "Hunt a Lavasioth",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "It's been a long time since\nI've last seen a hunter in\nthese parts. I could really\nuse your help with some map\nfragments. See, I dropped\nthem all while fleeing some\nferocious monsters. It might\nbe a bit rough, but I'm sure\nyou can do it! Gear yourself\nup and collect them all!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2614,
+          "item_name": "Map Fragment 2",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2914,
+          "item_name": "Scarlet Base",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 1012,
+          "item_name": "Lavasioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1013,
+          "item_name": "Lavasioth Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 380,
+          "item_name": "Piscine Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 62141,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 43,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Lost Map - Part 3",
+      "main": "Hunt a Black Diablos",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "It's been a long time since\nI've last seen a hunter in\nthese parts. I could really\nuse your help with some map\nfragments. See, I dropped\nthem all while fleeing some\nferocious monsters. It might\nbe a bit rough, but I'm sure\nyou can do it! Gear yourself\nup and collect them all!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2615,
+          "item_name": "Map Fragment 3",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2912,
+          "item_name": "Crimson Base",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 454,
+          "item_name": "B.Diablos Ridge",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 453,
+          "item_name": "B.Diablos Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 451,
+          "item_name": "Blos Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 13,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 62142,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 49,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Lost Map - Part 4",
+      "main": "Hunt an Azure Rathalos",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "It's been a long time since\nI've last seen a hunter in\nthese parts. I could really\nuse your help with some map\nfragments. See, I dropped\nthem all while fleeing some\nferocious monsters. It might\nbe a bit rough, but I'm sure\nyou can do it! Gear yourself\nup and collect them all!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2616,
+          "item_name": "Map Fragment 4",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2913,
+          "item_name": "Pine Base",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 419,
+          "item_name": "A.Rathalos Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 313,
+          "item_name": "Monster Bone M",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 314,
+          "item_name": "Monster Bone L",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 417,
+          "item_name": "A.Rathalos Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 415,
+          "item_name": "Rathalos Webbing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 407,
+          "item_name": "Rath Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 422,
+          "item_name": "A.Rathalos Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 283,
+          "item_name": "Dragon Tail",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 9000,
+    "zenny_ko": 3000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 52,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 62143,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 94,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Lost Map - Part 5",
+      "main": "Hunt a Duragaua",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "It's been a long time since\nI've last seen a hunter in\nthese parts. I could really\nuse your help with some map\nfragments. See, I dropped\nthem all while fleeing some\nferocious monsters. It might\nbe a bit rough, but I'm sure\nyou can do it! Gear yourself\nup and collect them all!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2617,
+          "item_name": "Map Fragment 5",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 2910,
+          "item_name": "Sprouting Base",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 39,
+          "item_id": 2645,
+          "item_name": "Duragaua Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 23,
+          "item_id": 2646,
+          "item_name": "Duragaua Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 2647,
+          "item_name": "Duragaua Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 2648,
+          "item_name": "Duragaua Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2650,
+          "item_name": "Duragaua Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 306,
+          "item_name": "Sleep Sac",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 1,
+    "quest_fee": 100,
+    "zenny_reward": 300,
+    "zenny_ko": 100,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 26,
+    "map": "Great Forest",
+    "restriction_flags": 0,
+    "id": 62144,
+    "main_goal": {
+      "target_kind": "Deliver",
+      "target": 2613,
+      "count": 2
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 2614,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Deliver",
+      "target": 2615,
+      "count": 2
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nMap Restoration - Top",
+      "main": "Deliver 2 Map Fragments 1",
+      "sub_a": "Deliver 2 Map Fragments 2",
+      "sub_b": "Deliver 2 Map Fragments 3",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "Looks like you've gathered\nenough fragments. There's\nquite a few, but I should\nbe able to put them back\ntogether just fine. Make\nsure to leave them in the\nred box at camp. I'll give\nyou a copy as a reward.\nThe Smithy might be able\nto make something with it."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2604,
+          "item_name": "Torn Map Top",
+          "quantity": 10,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 2604,
+        "item_name": "Torn Map Top"
+      }
+    ]
+  },
+  {
+    "max_players": 1,
+    "quest_fee": 100,
+    "zenny_reward": 300,
+    "zenny_ko": 100,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 26,
+    "map": "Great Forest",
+    "restriction_flags": 0,
+    "id": 62145,
+    "main_goal": {
+      "target_kind": "Deliver",
+      "target": 2616,
+      "count": 2
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 2617,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nMap Restoration - Bottom",
+      "main": "Deliver 2 Map Fragments 4",
+      "sub_a": "Deliver 2 Map Fragments 5",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "Looks like you've gathered\nenough fragments. There's\nquite a few, but I should\nbe able to put them back\ntogether just fine. Make\nsure to leave them in the\nred box at camp. I'll give\nyou a copy as a reward.\nThe Smithy might be able\nto make something with it."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2605,
+          "item_name": "Torn Map Bottom",
+          "quantity": 10,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 2605,
+        "item_name": "Torn Map Bottom"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 3000,
+    "zenny_ko": 1000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 5400,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 60,
+    "id": 62278,
+    "main_goal": {
+      "target_kind": "Break Part",
+      "target": 53,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nHere Comes the Rajang!",
+      "main": "Wound Aberrant Rajang's head",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Wound the specified part",
+      "fail_cond": "Reward hits 0, time expires,\nor Rajang is captured",
+      "contractor": "Hunter's Guild",
+      "description": "A Rajang has appeared in\nthe Arena... We're very\nsorry, but we need you to\nbreak its horns -- AS SOON\nAS POSSIBLE! If anyone can\ndo it, it's you! Counting\non you, hunters!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4475,
+          "item_name": "Tiny Hammer",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 40,
+          "item_id": 1274,
+          "item_name": "Beast Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 1277,
+          "item_name": "Beast Tail",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 1468,
+          "item_name": "Guild Cheque",
+          "quantity": 15,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 9000,
+    "zenny_ko": 3000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 62657,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 21,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 28,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nDesert Field Test",
+      "main": "Hunt a Plesioth",
+      "sub_a": "Hunt a Gendrome",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Mechanician",
+      "description": "Gunlances and Bowguns are\nquite the intricate weapons.\nWill they even function in\nharsh, desert environments?\nComplete my Quest and I'll\nreward you with some armor\nmaterials. If you go above\nand beyond, I'll include the\nupgrade materials too."
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 6,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 383,
+          "item_name": "Plesioth Fin",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 381,
+          "item_name": "Plesioth Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 466,
+          "item_name": "Small Lobstershl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 467,
+          "item_name": "Large Lobstershl",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 355,
+          "item_name": "Gendrome Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 351,
+          "item_name": "Genprey Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 352,
+          "item_name": "Genprey Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 90,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2597,
+          "item_name": "Meteorite Chunk",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 70,
+          "item_id": 5381,
+          "item_name": "Purple Purecrystal",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 5381,
+          "item_name": "Purple Purecrystal",
+          "quantity": 4,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 5381,
+          "item_name": "Purple Purecrystal",
+          "quantity": 6,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 4500,
+    "zenny_ko": 1500,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 31,
+    "map": "Canyon",
+    "restriction_flags": 60,
+    "id": 62713,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 9,
+      "count": 10
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 23,
+      "count": 10
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nFind the Felynes!",
+      "main": "Defeat 10 Felynes",
+      "sub_a": "Defeat 10 Melynx",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Doll Maker",
+      "description": "I've made countless things\nwith Rajang materials. All\nI had to do to finish the\npiece was line up those lil'\nfurballs, but they've all\nrun away... Can you find\nthem and give them a good\nscolding? I've prepared some\nGoocoo Bombs to flush them\nout. Make use of them!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 5215,
+          "item_name": "Golden Screen",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 21,
+          "item_id": 1244,
+          "item_name": "Lynian Treasure",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1245,
+          "item_name": "Lynian Treasure+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1246,
+          "item_name": "Lynian Artifact",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1247,
+          "item_name": "Lynian Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1248,
+          "item_name": "Lynian Ruby+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1249,
+          "item_name": "Rare Lynian Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63049,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2715,
+          "item_name": "Rath Direscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 2716,
+          "item_name": "Rath Hellscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 2717,
+          "item_name": "Rath Kingscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2715,
+          "item_name": "Rath Direscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2716,
+          "item_name": "Rath Hellscale",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2717,
+          "item_name": "Rath Kingscale",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63059,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2721,
+          "item_name": "Crooked Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 2722,
+          "item_name": "Brutal Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 2723,
+          "item_name": "Sublime Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2721,
+          "item_name": "Crooked Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2722,
+          "item_name": "Brutal Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2723,
+          "item_name": "Sublime Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63060,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 3535,
+          "item_name": "F.Espi Grndspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 3720,
+          "item_name": "Espi Grandspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 3721,
+          "item_name": "Espinas Noxspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3535,
+          "item_name": "F.Espi Grndspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3720,
+          "item_name": "Espi Grandspike",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3721,
+          "item_name": "Espinas Noxspike",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63061,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 4924,
+          "item_name": "Grav Charshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 4925,
+          "item_name": "Grav Heatshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 4926,
+          "item_name": "Grav Blazeshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 2718,
+          "item_name": "Rath Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2719,
+          "item_name": "Rath Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4924,
+          "item_name": "Grav Charshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4925,
+          "item_name": "Grav Heatshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2720,
+          "item_name": "Rath Graceshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4926,
+          "item_name": "Grav Blazeshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63125,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 3510,
+          "item_name": "Basa Rockshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 3511,
+          "item_name": "Basa Firmshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 3512,
+          "item_name": "Basa Cragshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2715,
+          "item_name": "Rath Direscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2716,
+          "item_name": "Rath Hellscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2717,
+          "item_name": "Rath Kingscale",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 3510,
+          "item_name": "Basa Rockshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3511,
+          "item_name": "Basa Firmshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2715,
+          "item_name": "Rath Direscale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2716,
+          "item_name": "Rath Hellscale",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3512,
+          "item_name": "Basa Cragshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2717,
+          "item_name": "Rath Kingscale",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63126,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 2712,
+          "item_name": "Cushy Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 2713,
+          "item_name": "Pure White Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 2714,
+          "item_name": "Pale Belly",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2721,
+          "item_name": "Crooked Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2722,
+          "item_name": "Brutal Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 2723,
+          "item_name": "Sublime Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 2712,
+          "item_name": "Cushy Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2713,
+          "item_name": "Pure White Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2721,
+          "item_name": "Crooked Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2722,
+          "item_name": "Brutal Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2714,
+          "item_name": "Pale Belly",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 2723,
+          "item_name": "Sublime Horn",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63127,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 3528,
+          "item_name": "Brnz Hypno Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 3529,
+          "item_name": "Vrmln Hypno Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 3530,
+          "item_name": "Prismatic Bezoar",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 3535,
+          "item_name": "F.Espi Grndspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 3720,
+          "item_name": "Espi Grandspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 3721,
+          "item_name": "Espinas Noxspike",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 3528,
+          "item_name": "Brnz Hypno Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3529,
+          "item_name": "Vrmln Hypno Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3535,
+          "item_name": "F.Espi Grndspike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3720,
+          "item_name": "Espi Grandspike",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3530,
+          "item_name": "Prismatic Bezoar",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 3721,
+          "item_name": "Espinas Noxspike",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 0,
+    "zenny_reward": 55000,
+    "zenny_ko": 20000,
+    "zenny_sub_a": 10000,
+    "zenny_sub_b": 10000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63128,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 100,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 100,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 100,
+      "count": 4
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nEndless Assault",
+      "main": "Slay a ???",
+      "sub_a": "Damage the monster",
+      "sub_b": "Sever the monster's tail",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "Reports indicate that the\nmonster attacks around\nMezeporta have only gotten\nworse. And now, a wave of\npowerful, seemingly indis-\ntinguishable individuals\nhas joined the fray... We\nare looking for Mystic Tome\n-equipped hunters to save\nthe day."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 4327,
+          "item_name": "Pink Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 4328,
+          "item_name": "Pink Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 4330,
+          "item_name": "Crimson Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 4924,
+          "item_name": "Grav Charshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 4925,
+          "item_name": "Grav Heatshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 4926,
+          "item_name": "Grav Blazeshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 4485,
+          "item_name": "??? Scale",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 1,
+          "item_id": 4327,
+          "item_name": "Pink Steelshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4328,
+          "item_name": "Pink Gleamshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4924,
+          "item_name": "Grav Charshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4925,
+          "item_name": "Grav Heatshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 10,
+          "item_id": 4486,
+          "item_name": "??? Webbing",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 4491,
+          "item_name": "??? Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4330,
+          "item_name": "Crimson Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 4926,
+          "item_name": "Grav Blazeshell",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 2000,
+    "zenny_ko": 670,
+    "zenny_sub_a": 100,
+    "zenny_sub_b": 100,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63158,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 57,
+      "count": 6
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 24,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Slay",
+      "target": 19,
+      "count": 2
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nShakalaka Secret Dealings",
+      "main": "Defeat 6 Shakalaka",
+      "sub_a": "Slay 2 Hornetaur",
+      "sub_b": "Slay 2 Vespoid",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "It's that time of the year\nagain... The Shakalaka are\nup to no good, and I need\nyou to investigate. This\ncalls for a disguise. One\nthat won't arouse their\nsuspicion... First things\nfirst: Complete this Quest!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 15,
+          "item_id": 3315,
+          "item_name": "Shaka BBQ Spit",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 85,
+          "item_id": 3568,
+          "item_name": "Porta Cookie",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 15,
+          "item_id": 3315,
+          "item_name": "Shaka BBQ Spit",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 85,
+          "item_id": 3568,
+          "item_name": "Porta Cookie",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 15,
+          "item_id": 3315,
+          "item_name": "Shaka BBQ Spit",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 85,
+          "item_id": 3568,
+          "item_name": "Porta Cookie",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 300,
+    "zenny_ko": 100,
+    "zenny_sub_a": 300,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 26,
+    "map": "Great Forest",
+    "restriction_flags": 59,
+    "id": 63159,
+    "main_goal": {
+      "target_kind": "Deliver",
+      "target": 296,
+      "count": 3
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 298,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 17,
+    "post_min_rank": 17,
+    "quest_text": {
+      "title": "≪Event Quest≫\nShakalaka Secret Party",
+      "main": "Deliver 3 Hopi",
+      "sub_a": "Deliver 2 Golden Ales",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Hunter's Guild",
+      "description": "I hear that the Shakalaka\nare planning to hold a...\nstrange banquet. They say\nthat they're going to serve\nan exceptionally rare drink.\nYour job is to blend in and\nget to the bottom of this\nwhole affair. Good luck!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 22,
+          "item_id": 6053,
+          "item_name": "Shaka Stationery",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 6054,
+          "item_name": "Shakalaka Book",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3316,
+          "item_name": "Shakalaka Spike",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3317,
+          "item_name": "Shakalaka Pouch",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 3568,
+          "item_name": "Porta Cookie",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 22,
+          "item_id": 6053,
+          "item_name": "Shaka Stationery",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 6054,
+          "item_name": "Shakalaka Book",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3316,
+          "item_name": "Shakalaka Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3317,
+          "item_name": "Shakalaka Pouch",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 3568,
+          "item_name": "Porta Cookie",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 3000,
+    "zenny_ko": 1000,
+    "zenny_sub_a": 500,
+    "zenny_sub_b": 2000,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63244,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 20,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 20,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Deliver",
+      "target": 673,
+      "count": 2
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Red Gift-bringer",
+      "main": "Hunt a Gypceros",
+      "sub_a": "Break Gypceros's crest",
+      "sub_b": "Deliver 2 Sootstone Ores",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Bearded Old Man",
+      "description": "Here you go! A present just\nfor you. Hmm, I can't find\nit anywhere... I must've\ndropped it somewhere. Sorry.\nyoung hunter, but could you\nplease help me find it?"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 18,
+          "item_id": 6055,
+          "item_name": "Christmas Gifts",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 6056,
+          "item_name": "Festive Candles",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3318,
+          "item_name": "Shining Star",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3309,
+          "item_name": "Christmas Song",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3310,
+          "item_name": "Large Stockings",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1692,
+          "item_name": "Porta Cake",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 18,
+          "item_id": 6055,
+          "item_name": "Christmas Gifts",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 6056,
+          "item_name": "Festive Candles",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3318,
+          "item_name": "Shining Star",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3309,
+          "item_name": "Christmas Song",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3310,
+          "item_name": "Large Stockings",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1692,
+          "item_name": "Porta Cake",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 18,
+          "item_id": 6055,
+          "item_name": "Christmas Gifts",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 6056,
+          "item_name": "Festive Candles",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3318,
+          "item_name": "Shining Star",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3309,
+          "item_name": "Christmas Song",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3310,
+          "item_name": "Large Stockings",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1692,
+          "item_name": "Porta Cake",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 60,
+          "item_id": 3070,
+          "item_name": "Mysterious Egg",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 3070,
+          "item_name": "Mysterious Egg",
+          "quantity": 4,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 60,
+          "item_id": 3070,
+          "item_name": "Mysterious Egg",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 3070,
+          "item_name": "Mysterious Egg",
+          "quantity": 4,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 600,
+    "zenny_ko": 200,
+    "zenny_sub_a": 7200,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 63245,
+    "main_goal": {
+      "target_kind": "Deliver Flag",
+      "target": 678,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 33,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nA Gift from the Bright Peaks",
+      "main": "Place flag on mountain top",
+      "sub_a": "Slay a Kirin",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Bearded Old Man",
+      "description": "The sky above the Ridge is\nso bright... I can't stand\nit. How am I supposed to\ngive gifts to the children?\nCan you use your... hunting\npowers... to do something\nabout this? Please -- when\nthe time is right, put up a\nflag to help me find my way!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 22,
+          "item_id": 4771,
+          "item_name": "Valiant Horn",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3319,
+          "item_name": "Frozen Fur",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 2070,
+          "item_name": "Anc. Frostbranch",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 1044,
+          "item_name": "Christmas Card",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1692,
+          "item_name": "Porta Cake",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 22,
+          "item_id": 4771,
+          "item_name": "Valiant Horn",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 3319,
+          "item_name": "Frozen Fur",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 2070,
+          "item_name": "Anc. Frostbranch",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 1044,
+          "item_name": "Christmas Card",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1692,
+          "item_name": "Porta Cake",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 60,
+          "item_id": 4774,
+          "item_name": "Frostwood Sprout",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 4774,
+          "item_name": "Frostwood Sprout",
+          "quantity": 7,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 60,
+          "item_id": 4774,
+          "item_name": "Frostwood Sprout",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 4774,
+          "item_name": "Frostwood Sprout",
+          "quantity": 7,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 4500,
+    "zenny_ko": 1500,
+    "zenny_sub_a": 500,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 57,
+    "map": "Tidal Island",
+    "restriction_flags": 0,
+    "id": 63273,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 103,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 5292,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪Event Quest≫\nA Crabby Celebration",
+      "main": "Hunt a Taikun Zamuza",
+      "sub_a": "Deliver a Limestone",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Hunter's Guild",
+      "description": "Happy new year! Complete\nthis special Quest to craft\nan eccentric, bamboo-based\nGunlance from the East! All\nyou have to do is hunt a\ncarapaceon -- one of many\neastern festive staples.\nYou'll also be rewarded\nwith items from previous\nNew Year's events!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 6042,
+          "item_name": "Eastern Bamboo",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 5,
+          "item_id": 6042,
+          "item_name": "Eastern Bamboo",
+          "quantity": 4,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1693,
+          "item_name": "Porta Mochi",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 28,
+          "item_id": 5297,
+          "item_name": "Zamuza Rockshell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 34,
+          "item_id": 5298,
+          "item_name": "Zamuza Rockclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 5299,
+          "item_name": "Zamuza Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 5300,
+          "item_name": "Zamuza Claw",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 18,
+          "item_id": 1045,
+          "item_name": "N.Year Gift (Rat)",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1642,
+          "item_name": "N.Year Gift (Ox)",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 2145,
+          "item_name": "N.Year Gift (Tiger)",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 3302,
+          "item_name": "N.Year Gift (Rabbit)",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 4795,
+          "item_name": "N.Year Gift (Drg)",
+          "quantity": 10,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1693,
+          "item_name": "Porta Mochi",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 7200,
+    "zenny_ko": 2400,
+    "zenny_sub_a": 3600,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 63274,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 21,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 8,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nA Fishy Festival",
+      "main": "1 Aberrant Plesioth",
+      "sub_a": "1 Aberrant Cephadrome",
+      "sub_b": "None",
+      "success_cond": "Hunt the Aberrant Plesioth,\nor the Aberrant Cephadrome.",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Hunter's Guild",
+      "description": "Hey, hunters! How'd you like\nthe bamboo? We've prepared\nanother Quest! Complete it\nto upgrade your new Gunlance\neven further! All you've got\nto do is hunt a piscine --\nyet another festive staple!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 5,
+          "item_id": 6043,
+          "item_name": "E. Straw Rope",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 6043,
+          "item_name": "E. Straw Rope",
+          "quantity": 4,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1693,
+          "item_name": "Porta Mochi",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1352,
+          "item_name": "P.Wyvern Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1353,
+          "item_name": "P.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1354,
+          "item_name": "P.Wyvern Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 1361,
+          "item_name": "P.Wyvern Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1362,
+          "item_name": "P.Wyvern Fang+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1363,
+          "item_name": "P.Wyv Hardfang",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 25,
+          "item_id": 4796,
+          "item_name": "Gorgeous Feathers",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 1693,
+          "item_name": "Porta Mochi",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 1358,
+          "item_name": "P.Wyvern Blood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1359,
+          "item_name": "P.Wyvern Blood+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 1360,
+          "item_name": "ThickP.WyvBlood",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 1364,
+          "item_name": "P.Wyvern Gills",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1365,
+          "item_name": "P.Wyvern Gills+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1366,
+          "item_name": "P.Wyv Grandgills",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 9000,
+    "zenny_ko": 3000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 14,
+    "map": "Tower",
+    "restriction_flags": 0,
+    "id": 63280,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 91,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 91,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 91,
+      "count": 2
+    },
+    "join_min_rank": 91,
+    "post_min_rank": 91,
+    "quest_text": {
+      "title": "≪Event Quest≫\nOrgaron Onslaught",
+      "main": "Hunt a Kamu Orgaron",
+      "sub_a": "Wound Kamu Orgaron's head",
+      "sub_b": "Wound Kamu Orgaron's back",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "The map has led me to a new\ndiscovery. It'd seem that a\npair of Orgaron has taken up\nresidence in the Tower. If\nluck is on your side, you\nmight even get your hands\non a \"Frozen Fang\". Tell\nyou what -- if you manage\nto hunt both of them, I'll\ngive you an extra reward!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4462,
+          "item_name": "Frozen Fang",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 44,
+          "item_id": 1876,
+          "item_name": "Orgaron Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1878,
+          "item_name": "Orgaron Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 1879,
+          "item_name": "Orgaron Mane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1880,
+          "item_name": "Orgaron Spike+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1881,
+          "item_name": "Orgaron Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 1882,
+          "item_name": "Orgaron Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 4462,
+          "item_name": "Frozen Fang",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6027,
+          "item_name": "Garon License",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 4462,
+        "item_name": "Frozen Fang"
+      },
+      {
+        "item_id": 6027,
+        "item_name": "Garon License"
+      },
+      {
+        "item_id": 1882,
+        "item_name": "Orgaron Blood"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 24000,
+    "zenny_ko": 8000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 50,
+    "map": "Highlands",
+    "restriction_flags": 0,
+    "id": 63281,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 96,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 96,
+      "count": 5
+    },
+    "subB_goal": {
+      "target_kind": "Break Part",
+      "target": 96,
+      "count": 7
+    },
+    "join_min_rank": 91,
+    "post_min_rank": 91,
+    "quest_text": {
+      "title": "≪Event Quest≫\nReaching the Summit",
+      "main": "Slay a Grenzebul",
+      "sub_a": "Wound Grenzebul's back",
+      "sub_b": "Sever Grenzebul's tail",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0, time expires,\nor Grenzebul is captured.",
+      "contractor": "Frontier Surveyor",
+      "description": "The weapon from beyond the\nDragon Floodgate may yet be\nupgraded. There's a stela\nin the Highlands detailing\nthe process, but we'll need\neither an Iron Compass or\na Dowsing Rod to find it.\nNo time to waste! Go out\nand find it!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4476,
+          "item_name": "Iron Compass",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 3537,
+          "item_name": "Grenzebul Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 3538,
+          "item_name": "Grenzebul Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 34,
+          "item_id": 3539,
+          "item_name": "Grenzebul Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 3544,
+          "item_name": "Grenzebul Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 3545,
+          "item_name": "Grenzebul Hide+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 3546,
+          "item_name": "Grenzebul Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 50,
+          "item_id": 3547,
+          "item_name": "Grenzebul Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 50,
+          "item_id": 3549,
+          "item_name": "Grenzebul Tail+",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6026,
+          "item_name": "Dowsing Rod",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 4476,
+        "item_name": "Iron Compass"
+      },
+      {
+        "item_id": 6026,
+        "item_name": "Dowsing Rod"
+      },
+      {
+        "item_id": 3549,
+        "item_name": "Grenzebul Tail+"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 2000,
+    "zenny_reward": 51000,
+    "zenny_ko": 17000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 63282,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 84,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 91,
+    "post_min_rank": 91,
+    "quest_text": {
+      "title": "≪Event Quest≫\nJangling the Jebia",
+      "main": "Slay an Aqra Jebia",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Frontier Surveyor",
+      "description": "The Marshlands might hold a\nnew type of ore. Thing is,\nthe area is inhabited by an\nAqra Jebia, making it all\nbut inaccessible. Think you\ncould do something about\nthat...? Oh, if you're up\nfor a challenge, why don't\nyou break its bloodstone?\nI'll be sure to reward you."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6044,
+          "item_name": "Excavated Ore",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 39,
+          "item_id": 1217,
+          "item_name": "Jebia Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1218,
+          "item_name": "Jebia Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1219,
+          "item_name": "Jebia Jaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 225,
+          "item_name": "Lightcrystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 226,
+          "item_name": "Novacrystal",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 304,
+          "item_name": "Paralysis Sac",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6045,
+          "item_name": "Ice Stones",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6046,
+          "item_name": "Rimeblade Cryst",
+          "quantity": 10,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": [
+      {
+        "item_id": 6044,
+        "item_name": "Excavated Ore"
+      },
+      {
+        "item_id": 6046,
+        "item_name": "Rimeblade Cryst"
+      },
+      {
+        "item_id": 6045,
+        "item_name": "Ice Stones"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 3000,
+    "zenny_ko": 1000,
+    "zenny_sub_a": 1000,
+    "zenny_sub_b": 700,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 63346,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 52,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 52,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Slay",
+      "target": 62,
+      "count": 5
+    },
+    "join_min_rank": 11,
+    "post_min_rank": 11,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Pink Plunderer",
+      "main": "Hunt a Congalala",
+      "sub_a": "Wound Congalala's claw",
+      "sub_b": "Slay 5 Conga",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Pink-loving Felyne",
+      "description": "They've stolen my favorite\nglowy pink orb fur-om me!\nHow dare they steal from MY\ncollection!? What's that?\nYou can get it back fur me?\nPurr-ety please, Hunter...\nI'll give you my treasures\nif you do!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6459,
+          "item_name": "Vivid Pink Mochi",
+          "quantity": 2,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 5214,
+          "item_name": "Dim Pink Lamp",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 3662,
+          "item_name": "MellowPinkNectar",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 2088,
+          "item_name": "PinkMemoryShard",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 34,
+          "item_id": 5214,
+          "item_name": "Dim Pink Lamp",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 3662,
+          "item_name": "MellowPinkNectar",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 2088,
+          "item_name": "PinkMemoryShard",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 34,
+          "item_id": 5214,
+          "item_name": "Dim Pink Lamp",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 3662,
+          "item_name": "MellowPinkNectar",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 2088,
+          "item_name": "PinkMemoryShard",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 3600,
+    "zenny_ko": 1200,
+    "zenny_sub_a": 1200,
+    "zenny_sub_b": 700,
+    "quest_time": 90000,
+    "map_id": 11,
+    "map": "Arctic Ridge",
+    "restriction_flags": 0,
+    "id": 63347,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 51,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 51,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": "Slay",
+      "target": 61,
+      "count": 5
+    },
+    "join_min_rank": 11,
+    "post_min_rank": 11,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Blue Burglar",
+      "main": "Hunt a Blangonga",
+      "sub_a": "Sever Blangonga's tail",
+      "sub_b": "Slay 5 Blango",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B.",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Blue-loving Felyne",
+      "description": "I found a strange blue\nthingy in the mountains,\nbut when I tried picking\nit up, a pack of Blangos\nstepped on my tail! Get\nrid of them, Hunter! I'll\nreward mew with my hoard\nof blue things!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 25,
+          "item_id": 6458,
+          "item_name": "Vivid Blue Mochi",
+          "quantity": 2,
+          "guaranteed": true
+        },
+        {
+          "percentage": 25,
+          "item_id": 5213,
+          "item_name": "Dim Blue Lamp",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 3661,
+          "item_name": "MellowBlueNectar",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 2087,
+          "item_name": "BlueMemoryShard",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 34,
+          "item_id": 5213,
+          "item_name": "Dim Blue Lamp",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 3661,
+          "item_name": "MellowBlueNectar",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 2087,
+          "item_name": "BlueMemoryShard",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 34,
+          "item_id": 5213,
+          "item_name": "Dim Blue Lamp",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 3661,
+          "item_name": "MellowBlueNectar",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 2087,
+          "item_name": "BlueMemoryShard",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 350,
+    "zenny_reward": 4000,
+    "zenny_ko": 1350,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 40,
+    "id": 63371,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 52,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 11,
+    "post_min_rank": 11,
+    "quest_text": {
+      "title": "≪Event Quest≫\nShoot Your Shot!",
+      "main": "Hunt a Congalala",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Ex-Timid Hunter",
+      "description": "Listen up, guys! Now's not\nthe time to let yourself\ngo! The next few days could\nchange your very future!\nSo man up and shoot your\nshot! While you're at it...\ngo break some Congalala\nclaws -- for good luck!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6461,
+          "item_name": "Sugary Ball",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 10,
+          "item_id": 6461,
+          "item_name": "Sugary Ball",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 3570,
+          "item_name": "Porta Candy",
+          "quantity": 5,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 514,
+          "item_name": "Congalala Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 517,
+          "item_name": "Congalala Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 320,
+          "item_name": "Bone",
+          "quantity": 4,
+          "guaranteed": false
+        },
+        {
+          "percentage": 24,
+          "item_id": 269,
+          "item_name": "Jungle Onion",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6461,
+          "item_name": "Sugary Ball",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6461,
+          "item_name": "Sugary Ball",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 400,
+    "zenny_ko": 150,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 41,
+    "id": 63372,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 4,
+      "count": 8
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 12,
+      "count": 5
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Event Quest≫\nClaim Your Prize!",
+      "main": "Slay 8 Mosswine",
+      "sub_a": "Slay 5 Aptonoth",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Assertive Huntress",
+      "description": "Listen up, girls! Today's\nthe day our efforts finally\npay off! Snag some candy\nfrom those cute little\nhunters and clear the Quest!\n\"What a girl wants, a girl\ngets!\" -- that's the name\nof the game!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 6461,
+          "item_name": "Sugary Ball",
+          "quantity": 10,
+          "guaranteed": true
+        },
+        {
+          "percentage": 36,
+          "item_id": 331,
+          "item_name": "Mosswine Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 32,
+          "item_id": 40,
+          "item_name": "Raw Meat",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 196,
+          "item_name": "Blue Mushroom",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 332,
+          "item_name": "Mosswine Head",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 4000,
+    "zenny_ko": 1350,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 63373,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 74,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 22,
+    "post_min_rank": 22,
+    "quest_text": {
+      "title": "≪Event Quest≫\nLove Never Sleeps",
+      "main": "Hunt a Hypnocatrice",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Romantic Hunter",
+      "description": "Hear me, fellow romantics!\nIt's prime time for love,\nand we've got a Hypnocatrice\nsleeping on the job! That\njust won't do! Go out there\nand knock some sense into\nit! Show it that love won't\ncome knockin'! Oh yeah! You\nshould totally wound the\nCephadrome's fin, too!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 17,
+          "item_id": 5229,
+          "item_name": "White Cloth",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 3613,
+          "item_name": "White Sugar",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 2090,
+          "item_name": "Jewel Box",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 3312,
+          "item_name": "Passionate Arrow",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1697,
+          "item_name": "White Gratistone",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1517,
+          "item_name": "White Lump",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 5230,
+          "item_name": "White Card",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 5230,
+          "item_name": "White Card",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 800,
+    "zenny_ko": 300,
+    "zenny_sub_a": 500,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 63389,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 19,
+      "count": 10
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 5,
+    "post_min_rank": 5,
+    "quest_text": {
+      "title": "≪Event Quest≫\nVespoids Over Flowers",
+      "main": "Slay 10 Vespoid",
+      "sub_a": "Pick up a Territorial Dung",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Enlightened Hunter",
+      "description": "I've had an...epiphany of\nsorts. Gazing at flowers\nwon't fill my belly! Which\nis why I want to say loud\nand clear:\nA HUNTER MUST HUNT! \nForget flower viewing!\nIT'S ALL ABOUT THE HUUUUNT!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 5187,
+          "item_name": "Sakura Dango",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5188,
+          "item_name": "Glorious Incense",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 460,
+          "item_name": "Vespoid Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 458,
+          "item_name": "Vespoid Shell",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 24,
+          "item_name": "Monster Fluid",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 255,
+          "item_name": "Insect Husk",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 15,
+          "item_id": 5187,
+          "item_name": "Sakura Dango",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5188,
+          "item_name": "Glorious Incense",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 35,
+          "item_id": 320,
+          "item_name": "Bone",
+          "quantity": 4,
+          "guaranteed": false
+        },
+        {
+          "percentage": 35,
+          "item_id": 269,
+          "item_name": "Jungle Onion",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 5188,
+          "item_name": "Glorious Incense",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 6460,
+          "item_name": "Romantic Perfume",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 18000,
+    "zenny_ko": 6000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 109,
+    "id": 65005,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 104,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Premium Cuff Quest≫\nLean Mean Murder Machine",
+      "main": "Hunt an Abiorg",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0,\nor time expires",
+      "contractor": "Veteran Hunter",
+      "description": "A vicious Abiorg has been\nspotted at the Marshlands,\nand while I COULD beat\nit with one hand behind\nmy back... I'm just too\nlazy! Tell ya what, take\ncare of it for me, and I\nwill make it worthwhile!\n[PA I, II]"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 5335,
+          "item_name": "Abiorg Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 22,
+          "item_id": 5326,
+          "item_name": "B.Wyvern Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 2533,
+          "item_name": "Cuff Ticket PA",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 19,
+          "item_id": 5323,
+          "item_name": "B.Wyvern Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 4364,
+          "item_name": "Cuff Ticket PA2",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 30,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 5328,
+          "item_name": "B.Wyv Hardhorn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 5325,
+          "item_name": "B.Wyvern Shard",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 20,
+          "item_id": 5348,
+          "item_name": "Novel Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 5345,
+          "item_name": "Wild Artisoul",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 27,
+          "item_id": 5326,
+          "item_name": "B.Wyvern Horn",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 5323,
+          "item_name": "B.Wyvern Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 5327,
+          "item_name": "B.Wyvern Horn+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 5324,
+          "item_name": "B.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 21000,
+    "zenny_ko": 7000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 2,
+    "map": "Verdant Hills",
+    "restriction_flags": 0,
+    "id": 65006,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 11,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 1,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Premium Cuff Quest≫\nMinegarde Memories",
+      "main": "1 Aberrant Rathalos",
+      "sub_a": "1 Aberrant Rathian",
+      "sub_b": "None",
+      "success_cond": "Hunt all target monsters",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Kokoto Smithy",
+      "description": "Think you've got what it\ntakes to live through our\nold ways, kid? We used to\nhunt wyverns all the time,\neven in pairs!\nThe wyverns were sighted\nat the Verdant Hills, be\nglad I'm not asking for\n50 of each! [PB I, II]"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 10,
+          "item_id": 1315,
+          "item_name": "F.Wyv Fellwing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1327,
+          "item_name": "F.Wyvern Shard",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1313,
+          "item_name": "F.Wyvern Wing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1314,
+          "item_name": "F.Wyvern Wing+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 2534,
+          "item_name": "Cuff Ticket PB",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 1325,
+          "item_name": "F.Wyvern Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1326,
+          "item_name": "F.Wyvern Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 4365,
+          "item_name": "Cuff Ticket PB2",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 250,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 65007,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 39,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 20,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Premium Cuff Quest≫\nBurglerin' Bird Bastards",
+      "main": "1 Aberrant Purple Gypceros",
+      "sub_a": "1 Aberrant Gypceros",
+      "sub_b": "None",
+      "success_cond": "Hunt all target monsters",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Angry Tourist",
+      "description": "Those bird-brains have done\nit now! I got jumped by two\novergrown Thanksgiving left-\novers while heading for the\nbeach, they flashed me blind\nand then LITERALLY robbed me\nblind! Go punish their bad\nmanners! You can have what-\never's left! [PC I, II]"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 12,
+          "item_id": 1370,
+          "item_name": "Avian Hide",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1371,
+          "item_name": "Avian Hide+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 2535,
+          "item_name": "Cuff Ticket PC",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 1385,
+          "item_name": "Avian Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1386,
+          "item_name": "Avian Gem+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 4366,
+          "item_name": "Cuff Ticket PC2",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5785,
+          "item_name": "Gry Aberrant Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5783,
+          "item_name": "Org Aberrant Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 6158,
+          "item_name": "Green Aberrite",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 4,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 2100,
+    "zenny_ko": 700,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 5,
+    "map": "Volcano",
+    "restriction_flags": 0,
+    "id": 65104,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 22,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nHitting the Rocks",
+      "main": "1 Aberrant Basarios",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Hunt the target monster",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Basarios Fan Club",
+      "description": "People always rave about the\nGravios, but seem to forget\nabout its younger brother...\nWe, the OFFICIAL Basarios\nFan Club, will NOT stand for\nthis! Complete this Quest to\nget your hands on some rare\nores AND earn a newfound\nappreciation for THE Rocky\nWyvern itself!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 1655,
+          "item_name": "Fulgurite",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 941,
+          "item_name": "Aminotite",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 5289,
+          "item_name": "Fungal Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1658,
+          "item_name": "Illumonite",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
     "quest_fee": 500,
     "zenny_reward": 6600,
     "zenny_ko": 2200,
