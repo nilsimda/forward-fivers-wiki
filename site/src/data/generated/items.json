@@ -316999,7 +316999,15 @@
         "colorCode": "05"
       }
     ],
-    "carve_aquisitions": [],
+    "carve_aquisitions": [
+      {
+        "monster_id": 87,
+        "monster_name": "Canyon Objects",
+        "rank": "hr",
+        "label": "Shiny Drops",
+        "percentage": 100
+      }
+    ],
     "partbreak_aquisitions": [],
     "quest_aquisitions": [],
     "gathering_aquisitions": []

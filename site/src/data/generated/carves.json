@@ -17286,7 +17286,20 @@
     "id": 87,
     "monster_name": "Canyon Objects",
     "lr_cts": [],
-    "hr_cts": [],
+    "hr_cts": [
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 1661,
+            "item_name": "Blastfruit"
+          }
+        ]
+      }
+    ],
     "er_cts": [],
     "gr_cts": []
   },
