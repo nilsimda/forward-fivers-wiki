@@ -137,6 +137,10 @@
     @apply border-rose-500 bg-rose-950/60 text-rose-200;
   }
 
+  .equip-tag--artisanal {
+    @apply border-blue-500 bg-blue-950/60 text-blue-200;
+  }
+
   .rank-pill--active-mighty,
   .rank-pill--active-meowty {
     @apply border-red-500 bg-red-950/60 text-red-200;
@@ -161,6 +165,10 @@
 
   .rank-pill--active-grank {
     @apply border-rose-500 bg-rose-950/60 text-rose-200;
+  }
+
+  .rank-pill--active-artisanal {
+    @apply border-blue-500 bg-blue-950/60 text-blue-200;
   }
 
   .pagination-btn {

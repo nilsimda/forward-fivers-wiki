@@ -88,6 +88,12 @@ MIGHTY_DESCRIPTION_TAGS: dict[str, str] = {
     "<Supreme>": "Supreme",
 }
 
+# Artisanal weapons are tagged in their description and are otherwise classified
+# as Normal — independent of the Mighty sub-tier system above.
+ARTISANAL_DESCRIPTION_TAGS: dict[str, str] = {
+    "<Artisanal>": "Artisanal",
+}
+
 
 @dataclass(slots=True)
 class Sharpness:
@@ -403,6 +409,10 @@ def extract_melee_weapons(
                 if tag in mw.description:
                     mw.equip_type = sub_tier
                     break
+        for tag, tier in ARTISANAL_DESCRIPTION_TAGS.items():
+            if tag in mw.description:
+                mw.equip_type = tier
+                break
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
             break
