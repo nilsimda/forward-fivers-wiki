@@ -91,6 +91,7 @@ MIGHTY_DESCRIPTION_TAGS: dict[str, str] = {
 # Artisanal weapons are tagged in their description and are otherwise classified
 # as Normal — independent of the Mighty sub-tier system above.
 ARTISANAL_DESCRIPTION_TAGS: dict[str, str] = {
+    "≪親方印≫": "Artisanal",
     "<Artisanal>": "Artisanal",
 }
 
