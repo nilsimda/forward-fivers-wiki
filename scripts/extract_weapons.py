@@ -583,7 +583,7 @@ class GrankWeaponStats:
             sharpness=sharpness,
             sharpness_cap=unpacked[2],
             raw_damage=unpacked[3],
-            element=ELEMENT_NAMES.get(unpacked[4], "uknown"),
+            element=ELEMENT_NAMES.get(unpacked[4], "unkown"),
             element_damage=unpacked[5],
             ailment=AILMENT_NAMES.get(unpacked[6], "unkown"),
             ailment_damage=unpacked[7],
@@ -599,10 +599,15 @@ class GrankWeaponStats:
 def extract_grank_weapons_stats(raw):
     base_pointer = 0x0059BB18
     results = []
-    for i in range(983 // 4 - 1):
-        start_pointer = read_u32(raw, base_pointer + i * 4)
+    counter = 0
+    while True:
+        start_pointer = read_u32(raw, base_pointer + counter * 4)
+        print(hex(start_pointer))
+        if start_pointer >= 0x01000000:  # hacky way to stop
+            break
         print()
-        print(f"new weapon: {i}")
+        print(f"new weapon: {counter}")
+        counter += 1
 
         while True:
             gws = GrankWeaponStats.unpack_from(raw, start_pointer)
@@ -611,6 +616,7 @@ def extract_grank_weapons_stats(raw):
                 break
             print(gws)
             results.append(gws)
+        break
 
 
 def main() -> None:
