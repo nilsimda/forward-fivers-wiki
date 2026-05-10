@@ -217540,5 +217540,1444 @@
     },
     "reward_variant": 0,
     "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 600,
+    "zenny_ko": 200,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 6,
+    "map": "Jungle",
+    "restriction_flags": 0,
+    "id": 63226,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 12,
+      "count": 3
+    },
+    "subA_goal": {
+      "target_kind": "Deliver",
+      "target": 40,
+      "count": 4
+    },
+    "subB_goal": {
+      "target_kind": "Deliver",
+      "target": 193,
+      "count": 3
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪Daily Quest≫\nHunter's Epidosis",
+      "main": "Slay 3 Aptonoth",
+      "sub_a": "Deliver 4 Raw Meat",
+      "sub_b": "Deliver 3 Unique Mushrooms",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "Hey there, greenhorns!\nDon't know what weapon to\ncraft next? Well, worry not,\ncause we've got the PERFECT\nQuest for you! You can only\naccept it once a day, but\nyou also get to craft one\nweapon for it! Not a bad\ntrade, don't you think?"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 100,
+          "item_id": 6063,
+          "item_name": "Epidosis Egg",
+          "quantity": 20,
+          "guaranteed": true
+        }
+      ]
+    },
+    "reward_variant": 3,
+    "preview_items": [
+      {
+        "item_id": 6063,
+        "item_name": "Epidosis Egg"
+      }
+    ]
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 61976,
+    "main_goal": {
+      "target_kind": "Damage",
+      "target": 92,
+      "count": 50
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 61,
+    "post_min_rank": 61,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+      "main": "Damage the Orgaron",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Traveling Bard",
+      "description": "Greetings, I am a musician\nfrom a faraway land. Word\nhas it that a mysterious\nmelody can be heard from\na nearby swamp. Can I ask\nyou to look into it? I will\nprovide all the necessary\nequipment. It won't take\nlong, so please get to it\nas soon as possible."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 3304,
+          "item_name": "Crimson Melody",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 40,
+          "item_id": 1876,
+          "item_name": "Orgaron Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 1878,
+          "item_name": "Orgaron Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1879,
+          "item_name": "Orgaron Mane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1880,
+          "item_name": "Orgaron Spike+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1881,
+          "item_name": "Orgaron Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 1882,
+          "item_name": "Orgaron Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 61977,
+    "main_goal": {
+      "target_kind": "Damage",
+      "target": 91,
+      "count": 58
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 61,
+    "post_min_rank": 61,
+    "quest_text": {
+      "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+      "main": "Damage the Orgaron",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Traveling Bard",
+      "description": "Greetings, I am a musician\nfrom a faraway land. Word\nhas it that a mysterious\nmelody can be heard from\na nearby swamp. Can I ask\nyou to look into it? I will\nprovide all the necessary\nequipment. It won't take\nlong, so please get to it\nas soon as possible."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 20,
+          "item_id": 3305,
+          "item_name": "Azure Melody",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 40,
+          "item_id": 1876,
+          "item_name": "Orgaron Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1878,
+          "item_name": "Orgaron Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 1879,
+          "item_name": "Orgaron Mane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1880,
+          "item_name": "Orgaron Spike+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 1881,
+          "item_name": "Orgaron Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 25,
+          "item_id": 1882,
+          "item_name": "Orgaron Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 1200,
+    "zenny_ko": 400,
+    "zenny_sub_a": 300,
+    "zenny_sub_b": 200,
+    "quest_time": 12600,
+    "map_id": 9,
+    "map": "Great Arena",
+    "restriction_flags": 0,
+    "id": 62353,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 23,
+      "count": 50
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 23,
+      "count": 25
+    },
+    "subB_goal": {
+      "target_kind": "Slay",
+      "target": 23,
+      "count": 5
+    },
+    "join_min_rank": 11,
+    "post_min_rank": 11,
+    "quest_text": {
+      "title": "≪Event Quest≫\nDON'T Touch Anything!",
+      "main": "Defeat 50 Melynx",
+      "sub_a": "Defeat 25 Melynx",
+      "sub_b": "Defeat 5 Melynx",
+      "success_cond": "Complete Main Objective,\nor Subquest A or B",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Distanced Man",
+      "description": "Knowing how to keep your\ndistance is *key* during a\nhunt. Though it's best to\nsimply NOT touch anything,\nif you ask me... Sometimes\nyou'll have to move away,\nwhile other times you'll\nhave to make a run for it!\nBring some friends along\nand try it out!"
+    },
+    "rank": "lr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 5,
+          "item_id": 3049,
+          "item_name": "Squishy Thing",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 15,
+          "item_id": 3049,
+          "item_name": "Squishy Thing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 189,
+          "item_name": "Felvine",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 247,
+          "item_name": "Glutton Tuna",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 754,
+          "item_name": "Pawprint Stamp",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 8,
+          "item_name": "Mega Potion",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 5,
+          "item_id": 3049,
+          "item_name": "Squishy Thing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 189,
+          "item_name": "Felvine",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 247,
+          "item_name": "Glutton Tuna",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 22,
+          "item_id": 8,
+          "item_name": "Mega Potion",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ],
+      "Sub B Reward": [
+        {
+          "percentage": 3,
+          "item_id": 3049,
+          "item_name": "Squishy Thing",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 189,
+          "item_name": "Felvine",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 247,
+          "item_name": "Glutton Tuna",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 64,
+          "item_id": 7,
+          "item_name": "Potion",
+          "quantity": 2,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 6000,
+    "zenny_ko": 2000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 12600,
+    "map_id": 53,
+    "map": "New Great Arena",
+    "restriction_flags": 60,
+    "id": 62354,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 23,
+      "count": 30
+    },
+    "subA_goal": {
+      "target_kind": "Slay",
+      "target": 87,
+      "count": 6
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Event Quest≫\nKeep Your Distance!",
+      "main": "Defeat 30 Melynx",
+      "sub_a": "Destroy 6 bombs",
+      "sub_b": "None",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Distanced Man",
+      "description": "We might not be able to\norder monsters around, but\nwe can certainly trick them\nto do our bidding! That is\nwhy *keeping your distance*\nis KEY! I mean, why WOULDN'T\nyou want to make it easier\nfor yourself!? Try it out!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4478,
+          "item_name": "Shocking Talon",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 3,
+          "item_id": 4478,
+          "item_name": "Shocking Talon",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 1244,
+          "item_name": "Lynian Treasure",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 1245,
+          "item_name": "Lynian Treasure+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1246,
+          "item_name": "Lynian Artifact",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 18,
+          "item_id": 1247,
+          "item_name": "Lynian Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 16,
+          "item_id": 1248,
+          "item_name": "Lynian Ruby+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 1249,
+          "item_name": "Rare Lynian Ruby",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 1443,
+          "item_name": "Monster Oil",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 27000,
+    "zenny_ko": 9000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 4,
+    "map": "Marshlands",
+    "restriction_flags": 0,
+    "id": 62879,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 91,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Hunt",
+      "target": 92,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 91,
+    "post_min_rank": 91,
+    "quest_text": {
+      "title": "≪Event Quest≫\nResonant Roars",
+      "main": "Hunt a Kamu Orgaron",
+      "sub_a": "Hunt a Nono Orgaron",
+      "sub_b": "None",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Traveling Bard",
+      "description": "Did you know? The Orgarons\nwork together to hunt prey.\nThe real question is -- HOW\ndo they coordinate so well?\nI believe the secret lies\nin their roars, but I simply\ncan't prove it. Think you\ncould look into it? I'll\nreward you with some special\nmaterials."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4477,
+          "item_name": "Black Fur",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 4,
+          "item_id": 4477,
+          "item_name": "Black Fur",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 39,
+          "item_id": 1876,
+          "item_name": "Orgaron Claw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1878,
+          "item_name": "Orgaron Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 3,
+          "item_id": 1879,
+          "item_name": "Orgaron Mane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1880,
+          "item_name": "Orgaron Spike+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 1881,
+          "item_name": "Orgaron Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 30,
+          "item_id": 1882,
+          "item_name": "Orgaron Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 100,
+          "item_id": 4477,
+          "item_name": "Black Fur",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 80,
+          "item_id": 5371,
+          "item_name": "Black Spikes",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5371,
+          "item_name": "Black Spikes",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 5371,
+          "item_name": "Black Spikes",
+          "quantity": 3,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 900,
+    "zenny_reward": 30000,
+    "zenny_ko": 10000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 35,
+    "map": "Battlefield",
+    "restriction_flags": 0,
+    "id": 63019,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 77,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 77,
+      "count": 2
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 71,
+    "post_min_rank": 71,
+    "quest_text": {
+      "title": "≪Event Quest≫\nMight Makes Right",
+      "main": "Slay an Akantor",
+      "sub_a": "Wound Akantor's head",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0, time expires,\nor Akantor's back is broken.",
+      "contractor": "Ancient Researcher",
+      "description": "The Supreme Cannon -- a\nweapon once wielded by an\nancient overlord, can now\nfinally be crafted. You'll\nneed various Akantor parts,\nall in excellent condition,\nmight I add. The back is\nespecially important. You\nmust not wound it!"
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 5137,
+          "item_name": "Large Fang Shard",
+          "quantity": 5,
+          "guaranteed": true
+        },
+        {
+          "percentage": 12,
+          "item_id": 5138,
+          "item_name": "Giant Skull",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 5138,
+          "item_name": "Giant Skull",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 13,
+          "item_id": 996,
+          "item_name": "Akantor Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 28,
+          "item_id": 995,
+          "item_name": "Akantor Scale+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 998,
+          "item_name": "Akantor Hardclaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 999,
+          "item_name": "Akantor Tallfang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 1000,
+          "item_name": "Akantor Spike",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 8,
+          "item_id": 921,
+          "item_name": "Firecell Stone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 922,
+          "item_name": "Rainbow Ore",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 100,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 0,
+    "id": 63025,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 54,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 54,
+      "count": 1
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 41,
+    "post_min_rank": 41,
+    "quest_text": {
+      "title": "≪Event Quest≫\nLunatic Storm",
+      "main": "Slay a Kushala Daora",
+      "sub_a": "Wound Kushala Daora's head",
+      "sub_b": "None",
+      "success_cond": "Complete All Objectives",
+      "fail_cond": "Reward hits 0,\nor time expires.",
+      "contractor": "Desert Peddler",
+      "description": "Picture this -- a beautiful,\nmoonlit night, tranquility\nitself. Suddenly... an elder\ndragon right in front of\nyour eyes! And a mighty\nfurious one at that. It's\nalmost as if the moon had\nawakened its true fury! We\ncan't risk it, you have to\nslay it as soon as possible."
+    },
+    "rank": "hr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 5643,
+          "item_name": "Daorite Ore",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 20,
+          "item_id": 5643,
+          "item_name": "Daorite Ore",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 20,
+          "item_id": 5644,
+          "item_name": "Pale Daorite",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 550,
+          "item_name": "Daora Scale",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 14,
+          "item_id": 549,
+          "item_name": "Daora Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 12,
+          "item_id": 316,
+          "item_name": "ElderDragonBone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 6,
+          "item_id": 554,
+          "item_name": "Daora Claw",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 555,
+          "item_name": "Daora Claw+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 9,
+          "item_id": 329,
+          "item_name": "Decayed Scale",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 573,
+          "item_name": "Elder Drgn Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 4458,
+          "item_name": "Daoran Powder",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 40,
+          "item_id": 4458,
+          "item_name": "Daoran Powder",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 40,
+          "item_id": 5219,
+          "item_name": "Hexar Powder",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 549,
+          "item_name": "Daora Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 7,
+          "item_id": 316,
+          "item_name": "ElderDragonBone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 2,
+          "item_id": 573,
+          "item_name": "Elder Drgn Blood",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (No Secret Codex)": [
+        {
+          "percentage": 15,
+          "item_id": 5643,
+          "item_name": "Daorite Ore",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5644,
+          "item_name": "Pale Daorite",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 4458,
+          "item_name": "Daoran Powder",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5219,
+          "item_name": "Hexar Powder",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 50,
+          "item_id": 549,
+          "item_name": "Daora Carapace",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Secret Objective (Secret Codex)": [
+        {
+          "percentage": 80,
+          "item_id": 5645,
+          "item_name": "Purple Daorite",
+          "quantity": 2,
+          "guaranteed": false
+        },
+        {
+          "percentage": 15,
+          "item_id": 5645,
+          "item_name": "Purple Daorite",
+          "quantity": 3,
+          "guaranteed": false
+        },
+        {
+          "percentage": 5,
+          "item_id": 5645,
+          "item_name": "Purple Daorite",
+          "quantity": 5,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 600,
+    "zenny_reward": 1500,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 3,
+    "map": "Desert",
+    "restriction_flags": 173,
+    "id": 65104,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 110,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Break Part",
+      "target": 110,
+      "count": 5
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 3,
+    "post_min_rank": 3,
+    "quest_text": {
+      "title": "≪GR3 Frontier Quest≫\nFest Fervor: Hyujikiki",
+      "main": "Hunt a Hyujikiki",
+      "sub_a": "Sever Hyujikiki's tail",
+      "sub_b": "None",
+      "success_cond": "Complete all objectives",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Complete it\nfor a chance of obtaining\na rare material, as well\nas a few Fest Insiginas!\nMake sure you've got the\nrequired item beforehand!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 2,
+          "guaranteed": true
+        },
+        {
+          "percentage": 49,
+          "item_id": 6678,
+          "item_name": "Hyujikiki Pelt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 49,
+          "item_id": 6679,
+          "item_name": "Hyujikiki Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 1,
+          "item_id": 6681,
+          "item_name": "Crimson Quill",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 500,
+    "zenny_reward": 750,
+    "zenny_ko": 3,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 60,
+    "map": "Polar Sea",
+    "restriction_flags": 171,
+    "id": 65105,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 115,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 1,
+    "post_min_rank": 1,
+    "quest_text": {
+      "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+      "main": "Hunt a Pokaradon",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Faint 3 times\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Complete it\nto obtain some Polar Sea-\nexclusive items, as well\nas a few Fest Insiginas!\nMake sure you've got the\nrequired item beforehand!"
+    },
+    "rank": "gr",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 7010,
+          "item_name": "Fest Insignia",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 11,
+          "item_id": 6619,
+          "item_name": "Dew Herb",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6618,
+          "item_name": "Sunlight Herb",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6627,
+          "item_name": "Snowshroom",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6624,
+          "item_name": "Snowfly",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6630,
+          "item_name": "Anchor Tuna",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6629,
+          "item_name": "Prime Salmon",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6622,
+          "item_name": "Stubborn Fish",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6625,
+          "item_name": "Icestone",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 6626,
+          "item_name": "Blue Seastone",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 400,
+    "zenny_reward": 12000,
+    "zenny_ko": 4000,
+    "zenny_sub_a": 0,
+    "zenny_sub_b": 0,
+    "quest_time": 90000,
+    "map_id": 5,
+    "map": "Volcano",
+    "restriction_flags": 115,
+    "id": 65106,
+    "main_goal": {
+      "target_kind": "Hunt",
+      "target": 47,
+      "count": 0
+    },
+    "subA_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nFest Memories: Power",
+      "main": "1 Aberrant Black Gravios",
+      "sub_a": "None",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective",
+      "fail_cond": "Reward hits 0\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We have prepared a special\nQuest for winners of the\nHunter Fest. Complete it\nto obtain some empowering\nconsumable items, as well\nas a few Fest Memories!\nMake sure you've got the\nrequired item beforehand!"
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1530,
+          "item_name": "Fest Memories",
+          "quantity": 6,
+          "guaranteed": true
+        },
+        {
+          "percentage": 17,
+          "item_id": 4943,
+          "item_name": "Affinity Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 4954,
+          "item_name": "Hydrating Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 4955,
+          "item_name": "Frigid Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 4956,
+          "item_name": "Shocking Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 17,
+          "item_id": 4957,
+          "item_name": "Draconic Drink",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 10,
+          "item_id": 5776,
+          "item_name": "Wht Aberrant Tkt",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 4,
+          "item_id": 6163,
+          "item_name": "Golden Aberrite",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 0,
+    "preview_items": []
+  },
+  {
+    "max_players": 4,
+    "quest_fee": 700,
+    "zenny_reward": 14800,
+    "zenny_ko": 5000,
+    "zenny_sub_a": 600,
+    "zenny_sub_b": 0,
+    "quest_time": 81000,
+    "map_id": 1,
+    "map": "Fortress",
+    "restriction_flags": 102,
+    "id": 65107,
+    "main_goal": {
+      "target_kind": "Slay",
+      "target": 55,
+      "count": 1
+    },
+    "subA_goal": {
+      "target_kind": "Damage",
+      "target": 55,
+      "count": 160
+    },
+    "subB_goal": {
+      "target_kind": null,
+      "target": 0,
+      "count": 0
+    },
+    "join_min_rank": 100,
+    "post_min_rank": 100,
+    "quest_text": {
+      "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+      "main": "Slay or repel Shen Gaoren",
+      "sub_a": "Damage the Shen Gaoren",
+      "sub_b": "None",
+      "success_cond": "Complete Main Objective,\nor Subquest A",
+      "fail_cond": "Reward or Integrity hits 0\nTime expires",
+      "contractor": "Hunter's Guild",
+      "description": "We've prepared a special\nQuest for winners of the\nHunter Festival. Steel\nyourself, hunters, as it\nis every bit as difficult\nas a Mighty Quest. Do keep\nin mind that you will not\nbe able to get the Fest\nTickets back, no matter\nwhat."
+    },
+    "rank": "er",
+    "reward_boxes": {
+      "Main Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1867,
+          "item_name": "Gaoren Cert.",
+          "quantity": 1,
+          "guaranteed": true
+        },
+        {
+          "percentage": 11,
+          "item_id": 2208,
+          "item_name": "E.Dragon Fang",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 2209,
+          "item_name": "E.Dragon Gem",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 3571,
+          "item_name": "E.Dragon Jaw",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 3737,
+          "item_name": "E.Dragon Tongue",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 3738,
+          "item_name": "E.Dragon Tendon",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 3995,
+          "item_name": "E.Dragon Jewel",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 5113,
+          "item_name": "E.Dragon Marrow",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 3572,
+          "item_name": "E.Drg Membrane",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 11,
+          "item_id": 5307,
+          "item_name": "Carapaceon Gem",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ],
+      "Sub A Reward": [
+        {
+          "percentage": 1,
+          "item_id": 1530,
+          "item_name": "Fest Memories",
+          "quantity": 3,
+          "guaranteed": true
+        },
+        {
+          "percentage": 33,
+          "item_id": 1294,
+          "item_name": "Cpceon Hrdpincer",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1293,
+          "item_name": "Cpceon Pincer+",
+          "quantity": 1,
+          "guaranteed": false
+        },
+        {
+          "percentage": 33,
+          "item_id": 1292,
+          "item_name": "Cpceon Pincer",
+          "quantity": 1,
+          "guaranteed": false
+        }
+      ]
+    },
+    "reward_variant": 1,
+    "preview_items": []
   }
 ]

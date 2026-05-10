@@ -434,6 +434,36 @@
         "quantity": 1,
         "reward_box_label": "Sub B Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 30,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 40,
+        "quantity": 2,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 64,
+        "quantity": 2,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -678,6 +708,26 @@
         "percentage": 5,
         "quantity": 1,
         "reward_box_label": "Sub B Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 17,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 22,
+        "quantity": 2,
+        "reward_box_label": "Sub A Reward",
         "guaranteed": false
       }
     ],
@@ -43335,6 +43385,36 @@
         "percentage": 10,
         "quantity": 1,
         "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 13,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 15,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 15,
+        "quantity": 1,
+        "reward_box_label": "Sub B Reward",
         "guaranteed": false
       }
     ],
@@ -94175,6 +94255,36 @@
         "quantity": 2,
         "reward_box_label": "Sub A Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -136907,6 +137017,26 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 7,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -149609,6 +149739,16 @@
         "main_objective": "Slay a Kushala Daora",
         "rank": "hr",
         "percentage": 4,
+        "quantity": 3,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 9,
         "quantity": 3,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -191870,6 +192010,36 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": true
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 14,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 50,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -192208,6 +192378,16 @@
         "main_objective": "Slay a Kushala Daora",
         "rank": "hr",
         "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 5,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -192800,6 +192980,16 @@
         "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 6,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -192892,6 +193082,16 @@
         "main_objective": "Slay a Kushala Daora",
         "rank": "hr",
         "percentage": 22,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -196321,6 +196521,26 @@
         "percentage": 1,
         "quantity": 1,
         "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
         "guaranteed": false
       }
     ],
@@ -215572,7 +215792,18 @@
         "quantity": 1
       }
     ],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 4,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -222466,6 +222697,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": [
@@ -222690,6 +222931,16 @@
         "main_objective": "1 Aberrant Basarios",
         "rank": "er",
         "percentage": 20,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 4,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -230054,6 +230305,16 @@
         "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 28,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -230167,6 +230428,16 @@
         "rank": "hr",
         "percentage": 5,
         "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 13,
+        "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
       }
@@ -230292,6 +230563,16 @@
         "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -230364,6 +230645,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -230430,6 +230721,16 @@
       {
         "quest_id": 26421,
         "title": "≪Frontier Quest≫\nTo Victory and Beyond",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
         "main_objective": "Slay an Akantor",
         "rank": "hr",
         "percentage": 8,
@@ -243457,6 +243758,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 20,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -243521,6 +243832,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -243580,6 +243901,16 @@
         "quest_id": 62713,
         "title": "≪Event Quest≫\nFind the Felynes!",
         "main_objective": "Defeat 10 Felynes",
+        "rank": "er",
+        "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
         "rank": "er",
         "percentage": 8,
         "quantity": 1,
@@ -243649,6 +243980,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 18,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -243713,6 +244054,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 16,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -243774,6 +244125,16 @@
         "main_objective": "Defeat 10 Felynes",
         "rank": "er",
         "percentage": 8,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 14,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -252664,6 +253025,16 @@
         "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 33,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -253132,6 +253503,16 @@
         "quantity": 2,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 33,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -253569,6 +253950,16 @@
         "percentage": 12,
         "quantity": 2,
         "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 33,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
         "guaranteed": false
       }
     ],
@@ -294831,6 +295222,16 @@
         "quantity": 1,
         "reward_box_label": "Sub B Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 9,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -311497,6 +311898,26 @@
         "quantity": 10,
         "reward_box_label": "Sub A Reward",
         "guaranteed": true
+      },
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 6,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 3,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": true
       }
     ],
     "gathering_aquisitions": []
@@ -325594,6 +326015,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": true
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
       }
     ],
     "gathering_aquisitions": []
@@ -326277,6 +326708,36 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 40,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 40,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 39,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -326534,6 +326995,36 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 3,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 3,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -326615,6 +327106,36 @@
         "main_objective": "Hunt a Kamu Orgaron",
         "rank": "hr",
         "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 3,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 2,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 3,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -326720,6 +327241,36 @@
       {
         "quest_id": 63280,
         "title": "≪Event Quest≫\nOrgaron Onslaught",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
         "main_objective": "Hunt a Kamu Orgaron",
         "rank": "hr",
         "percentage": 10,
@@ -326844,6 +327395,36 @@
       {
         "quest_id": 63280,
         "title": "≪Event Quest≫\nOrgaron Onslaught",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
         "main_objective": "Hunt a Kamu Orgaron",
         "rank": "hr",
         "percentage": 10,
@@ -326999,6 +327580,36 @@
       {
         "quest_id": 63280,
         "title": "≪Event Quest≫\nOrgaron Onslaught",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 30,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 25,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 25,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
         "main_objective": "Hunt a Kamu Orgaron",
         "rank": "hr",
         "percentage": 30,
@@ -334994,6 +335605,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -335045,6 +335666,16 @@
         "main_objective": "Slay or repel Lao-Shan Lung",
         "rank": "er",
         "percentage": 6,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -358809,7 +359440,48 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 5,
+        "quantity": 3,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 15,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 5,
+        "quantity": 1,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62353,
+        "title": "≪Event Quest≫\nDON'T Touch Anything!",
+        "main_objective": "Defeat 50 Melynx",
+        "rank": "lr",
+        "percentage": 3,
+        "quantity": 1,
+        "reward_box_label": "Sub B Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -365322,7 +365994,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 61976,
+        "title": "≪Event Quest≫\nThe Red Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 20,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -365346,7 +366029,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 61977,
+        "title": "≪Event Quest≫\nThe Blue Melody of the Swamp",
+        "main_objective": "Damage the Orgaron",
+        "rank": "hr",
+        "percentage": 20,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -375842,6 +376536,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -375893,6 +376597,16 @@
         "main_objective": "Slay or repel Lao-Shan Lung",
         "rank": "er",
         "percentage": 6,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -380971,6 +381685,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -381021,6 +381745,16 @@
         "main_objective": "Slay a Kirin",
         "rank": "er",
         "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -388308,6 +389042,16 @@
         "main_objective": "Slay a Rukodiora",
         "rank": "er",
         "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -400589,7 +401333,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 1,
+        "quantity": 3,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 40,
+        "quantity": 2,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 15,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -401175,7 +401950,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 4,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 100,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -401199,7 +402005,28 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 62354,
+        "title": "≪Event Quest≫\nKeep Your Distance!",
+        "main_objective": "Defeat 30 Melynx",
+        "rank": "er",
+        "percentage": 3,
+        "quantity": 3,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -418830,7 +419657,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -419116,7 +419954,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -419140,7 +419989,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -419164,7 +420024,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -419188,7 +420059,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 17,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -423673,6 +424555,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -424296,7 +425188,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 1,
+        "quantity": 5,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -424320,7 +425223,28 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 12,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63019,
+        "title": "≪Event Quest≫\nMight Makes Right",
+        "main_objective": "Slay an Akantor",
+        "rank": "hr",
+        "percentage": 6,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -426513,7 +427437,28 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 40,
+        "quantity": 2,
+        "reward_box_label": "Sub A Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -430133,6 +431078,16 @@
         "main_objective": "Hunt a Taikun Zamuza",
         "rank": "er",
         "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65107,
+        "title": "≪Frontier Quest≫\nFest Memories: Shen Gaoren",
+        "main_objective": "Slay or repel Shen Gaoren",
+        "rank": "er",
+        "percentage": 11,
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
@@ -434173,7 +435128,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 80,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 15,
+        "quantity": 2,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 62879,
+        "title": "≪Event Quest≫\nResonant Roars",
+        "main_objective": "Hunt a Kamu Orgaron",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 3,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -441598,7 +442584,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 1,
+        "quantity": 3,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 20,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 15,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -441622,7 +442639,28 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 20,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Secret Objective (No Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -441646,7 +442684,38 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 80,
+        "quantity": 2,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 15,
+        "quantity": 3,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 63025,
+        "title": "≪Event Quest≫\nLunatic Storm",
+        "main_objective": "Slay a Kushala Daora",
+        "rank": "hr",
+        "percentage": 5,
+        "quantity": 5,
+        "reward_box_label": "Secret Objective (Secret Codex)",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -446373,6 +447442,16 @@
       {
         "quest_id": 21481,
         "title": "≪Marshlands Survey≫\nStorming the Swamp",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 10,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
         "main_objective": "1 Aberrant Black Gravios",
         "rank": "er",
         "percentage": 10,
@@ -454023,7 +455102,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 63226,
+        "title": "≪Daily Quest≫\nHunter's Epidosis",
+        "main_objective": "Slay 3 Aptonoth",
+        "rank": "lr",
+        "percentage": 100,
+        "quantity": 20,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -456888,6 +457978,16 @@
       {
         "quest_id": 21481,
         "title": "≪Marshlands Survey≫\nStorming the Swamp",
+        "main_objective": "1 Aberrant Black Gravios",
+        "rank": "er",
+        "percentage": 4,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      },
+      {
+        "quest_id": 65106,
+        "title": "≪Frontier Quest≫\nFest Memories: Power",
         "main_objective": "1 Aberrant Black Gravios",
         "rank": "er",
         "percentage": 4,
@@ -465566,7 +466666,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465590,7 +466701,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465662,7 +466784,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465710,7 +466843,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465734,7 +466878,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465758,7 +466913,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465782,7 +466948,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465830,7 +467007,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -465854,7 +467042,18 @@
     ],
     "carve_aquisitions": [],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 11,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -468752,6 +469951,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": true
+      },
+      {
+        "quest_id": 65104,
+        "title": "≪GR3 Frontier Quest≫\nFest Fervor: Hyujikiki",
+        "main_objective": "Hunt a Hyujikiki",
+        "rank": "gr",
+        "percentage": 49,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -468862,6 +470071,16 @@
         "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": false
+      },
+      {
+        "quest_id": 65104,
+        "title": "≪GR3 Frontier Quest≫\nFest Fervor: Hyujikiki",
+        "main_objective": "Hunt a Hyujikiki",
+        "rank": "gr",
+        "percentage": 49,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
       }
     ],
     "gathering_aquisitions": []
@@ -468955,7 +470174,18 @@
       }
     ],
     "partbreak_aquisitions": [],
-    "quest_aquisitions": [],
+    "quest_aquisitions": [
+      {
+        "quest_id": 65104,
+        "title": "≪GR3 Frontier Quest≫\nFest Fervor: Hyujikiki",
+        "main_objective": "Hunt a Hyujikiki",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
+        "reward_box_label": "Main Reward",
+        "guaranteed": false
+      }
+    ],
     "gathering_aquisitions": []
   },
   {
@@ -482088,6 +483318,26 @@
         "rank": "gr",
         "percentage": 1,
         "quantity": 3,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65104,
+        "title": "≪GR3 Frontier Quest≫\nFest Fervor: Hyujikiki",
+        "main_objective": "Hunt a Hyujikiki",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 2,
+        "reward_box_label": "Main Reward",
+        "guaranteed": true
+      },
+      {
+        "quest_id": 65105,
+        "title": "≪GR1 Frontier Quest≫\nFest Fervor: Polar Sea",
+        "main_objective": "Hunt a Pokaradon",
+        "rank": "gr",
+        "percentage": 1,
+        "quantity": 1,
         "reward_box_label": "Main Reward",
         "guaranteed": true
       }
