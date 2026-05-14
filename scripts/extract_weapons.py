@@ -285,7 +285,7 @@ class RangedWeapon(Weapon):
     upgrade_entry: "UpgradeEntry | None" = None
     grank_upgrades: "GrankUpgrades | None" = None
 
-    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBBBHIIHHBBBBBBBBIIII")
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBBBHIIHHBBbBBBBBIIII")
 
     @classmethod
     def unpack_from(

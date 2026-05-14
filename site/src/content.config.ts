@@ -366,7 +366,7 @@ const rangedWeapons = defineCollection({
         defense: z.number().int().min(0).max(65535),
         recoil: z.string(),
         slots: z.number().int().min(0).max(3),
-        affinity: z.number().int(),
+        affinity: z.number().int().min(-100).max(100),
         element: z.nullable(z.string()),
         element_damage: z.number().int().min(0),
         reload_speed: z.string(),
