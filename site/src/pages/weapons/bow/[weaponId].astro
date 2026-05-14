@@ -1,0 +1,24 @@
+---
+import MeleeWeaponDetailLayout from "../../../layouts/MeleeWeaponDetailLayout.astro";
+import RangedWeaponDetailPanels from "../../../components/RangedWeaponDetailPanels.astro";
+import { getRangedWeaponStaticPaths } from "../../../lib/getRangedWeaponStaticPaths";
+import type { CollectionEntry } from "astro:content";
+
+type RangedWeapon = CollectionEntry<"rangedWeapons">["data"];
+
+export async function getStaticPaths() {
+  return getRangedWeaponStaticPaths("Bow");
+}
+
+const { weapon } = Astro.props as { weapon: RangedWeapon };
+---
+
+<MeleeWeaponDetailLayout
+  title={`${weapon.name} | MHFG1 Wiki`}
+  weaponName={weapon.name}
+  classDisplayName={weapon.class_name}
+  classIndexPath="weapons/bow/"
+  equipType={weapon.equip_type}
+>
+  <RangedWeaponDetailPanels weapon={weapon} />
+</MeleeWeaponDetailLayout>

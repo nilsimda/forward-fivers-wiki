@@ -317427,6 +317427,13 @@
         "rank": "hr",
         "label": "Shiny Drops",
         "percentage": 100
+      },
+      {
+        "monster_id": 87,
+        "monster_name": "Canyon Objects",
+        "rank": "er",
+        "label": "Shiny Drops",
+        "percentage": 100
       }
     ],
     "partbreak_aquisitions": [],

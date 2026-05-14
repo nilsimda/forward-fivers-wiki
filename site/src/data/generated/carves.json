@@ -17300,7 +17300,20 @@
         ]
       }
     ],
-    "er_cts": [],
+    "er_cts": [
+      {
+        "label": "Shiny Drops",
+        "trigger_chance": 32,
+        "num_carves": null,
+        "drops": [
+          {
+            "percentage": 100,
+            "item_id": 1661,
+            "item_name": "Blastfruit"
+          }
+        ]
+      }
+    ],
     "gr_cts": []
   },
   {

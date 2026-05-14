@@ -1,0 +1,323 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import EquipTypeTag from "./EquipTypeTag.astro";
+import { weaponClasses } from "../data/weaponClasses";
+import { getAllRangedWeapons, type RangedWeapon } from "../lib/rangedWeapons";
+
+const equipTypeFilters = [
+  { value: "Mighty", pill: "rank-pill--active-mighty" },
+  { value: "Heavenly", pill: "rank-pill--active-heavenly" },
+  { value: "Supreme", pill: "rank-pill--active-supreme" },
+  { value: "HC", pill: "rank-pill--active-hc" },
+  { value: "SP", pill: "rank-pill--active-sp" },
+  { value: "Evolving", pill: "rank-pill--active-evolution" },
+  { value: "Meowty", pill: "rank-pill--active-meowty" },
+  { value: "Artisanal", pill: "rank-pill--active-artisanal" },
+  { value: "G-rank", pill: "rank-pill--active-grank" },
+];
+
+interface Props {
+  className: string;
+}
+
+const { className } = Astro.props;
+const allWeapons: RangedWeapon[] = (await getAllRangedWeapons()).sort(
+  (a, b) => a.id - b.id,
+);
+
+const classWeapons = allWeapons.filter((w) => w.class_name === className && w.id !== 0);
+const totalClassWeapons = classWeapons.length;
+const byId = new Map<number, RangedWeapon>();
+for (const w of allWeapons) byId.set(w.id, w);
+
+const resolveUpgradeIds = (weapon: RangedWeapon): number[] =>
+  (weapon.upgrade_entry?.upgrades_to ?? []).filter((id) => id !== 0);
+
+const incoming = new Map<number, number>();
+for (const w of allWeapons) {
+  for (const targetId of w.upgrade_entry?.upgrades_to ?? []) {
+    if (targetId === 0) continue;
+    incoming.set(targetId, (incoming.get(targetId) ?? 0) + 1);
+  }
+}
+
+const seedsPrimary = classWeapons
+  .filter((w) => (incoming.get(w.id) ?? 0) === 0)
+  .sort((a, b) => a.id - b.id);
+
+type TreeRow = { depth: number; weapon: RangedWeapon };
+const visited = new Set<number>();
+const forestRows: TreeRow[][] = [];
+
+const collectSubtree = (weapon: RangedWeapon, depth: number, bucket: TreeRow[]) => {
+  if (weapon.id === 0) return;
+  if (visited.has(weapon.id)) return;
+  visited.add(weapon.id);
+  bucket.push({ depth, weapon });
+
+  const childIds = resolveUpgradeIds(weapon).sort((a, b) => a - b);
+  for (const cid of childIds) {
+    const child = byId.get(cid);
+    if (child) collectSubtree(child, depth + 1, bucket);
+  }
+};
+
+for (const root of seedsPrimary) {
+  if (visited.has(root.id)) continue;
+  const bucket: TreeRow[] = [];
+  collectSubtree(root, 0, bucket);
+  forestRows.push(bucket);
+}
+
+const seedsOrphan = classWeapons
+  .filter((w) => !visited.has(w.id))
+  .sort((a, b) => a.id - b.id);
+
+for (const root of seedsOrphan) {
+  if (visited.has(root.id)) continue;
+  const bucket: TreeRow[] = [];
+  collectSubtree(root, 0, bucket);
+  forestRows.push(bucket);
+}
+
+const totalRenderedWeapons = forestRows.reduce((sum, rows) => sum + rows.length, 0);
+
+const baseUrl = import.meta.env.BASE_URL;
+const basePath = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+const withBase = (targetPath: string) =>
+  `${basePath}${targetPath.replace(/^\//, "")}`;
+
+const slugByClassName = new Map(
+  weaponClasses.map((c) => [c.name, c.slug] as const),
+);
+
+const weaponDetailHref = (w: RangedWeapon) => {
+  const slug = slugByClassName.get(w.class_name);
+  return slug ? withBase(`weapons/${slug}/${w.id}/`) : withBase("weapons/");
+};
+
+const fmtElem = (w: RangedWeapon) =>
+  w.element ? `${w.element} ${w.element_damage}` : "—";
+const fmtSlots = (w: RangedWeapon) =>
+  w.slots === 0 ? "—" : "○".repeat(w.slots);
+
+const fmtAffinity = (w: RangedWeapon) =>
+  w.affinity === 0 ? "0%" : `${w.affinity > 0 ? "+" : ""}${w.affinity}%`;
+---
+
+<WikiLayout title={`${className} | MHFG1 Wiki`}>
+  <section class="space-y-2">
+    <h1>{className}</h1>
+  </section>
+
+  <section class="panel mt-6">
+    <h2 class="text-lg">Weapon trees</h2>
+    {totalClassWeapons === 0 ? (
+      <p class="mt-3 text-slate-300">No weapons found for this class.</p>
+    ) : forestRows.length === 0 ? (
+      <p class="mt-3 text-slate-300">No tree roots derived for this class.</p>
+    ) : (
+      <>
+        <section class="mt-4 space-y-3">
+          <label class="block text-sm font-medium text-slate-200" for="weapon-search">
+            Search weapons
+          </label>
+          <input
+            id="weapon-search"
+            type="search"
+            placeholder="Weapon name..."
+            class="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100"
+          />
+          <div
+            id="weapon-equip-filter"
+            class="flex flex-wrap gap-2"
+            data-default-equip="all"
+          >
+            <button
+              type="button"
+              class="rank-pill rank-pill--active"
+              data-equip-filter="all"
+              data-equip-active-class="rank-pill--active"
+            >
+              All
+            </button>
+            {equipTypeFilters.map((f) => (
+              <button
+                type="button"
+                class="rank-pill"
+                data-equip-filter={f.value}
+                data-equip-active-class={f.pill}
+              >
+                {f.value}
+              </button>
+            ))}
+          </div>
+          <div class="text-sm text-slate-400">
+            Showing <span id="weapon-match-count">{totalRenderedWeapons}</span> of{" "}
+            {totalRenderedWeapons} weapons
+          </div>
+        </section>
+        <div class="table-wrap mt-4">
+          <table class="table-grid">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Rarity</th>
+                <th>Raw</th>
+                <th>Aff.</th>
+                <th>Element</th>
+                <th>Slots</th>
+                <th>Recoil</th>
+                <th>Reload</th>
+              </tr>
+            </thead>
+            {forestRows.map((rows, treeIndex) => (
+              <tbody class="tree-group" data-tree-group={String(treeIndex)}>
+                {rows.map(({ depth, weapon }) => (
+                  <tr
+                    data-weapon-row
+                    data-weapon-name={weapon.name.toLowerCase()}
+                    data-weapon-equip={weapon.equip_type}
+                    data-weapon-depth={String(depth)}
+                  >
+                    <td>
+                      <div
+                        class="weapon-indent flex flex-wrap items-baseline gap-x-2 gap-y-1"
+                        style={`padding-left: ${0.5 + depth * 1.125}rem`}
+                      >
+                        <span
+                          class="weapon-indent-marker text-slate-500 select-none"
+                          aria-hidden="true"
+                          style={depth > 0 ? "" : "display: none"}
+                        >
+                          └
+                        </span>
+                        <a href={weaponDetailHref(weapon)}>{weapon.name}</a>
+                        <EquipTypeTag equipType={weapon.equip_type} />
+                        {weapon.class_name !== className && (
+                          <span class="text-xs text-slate-500">({weapon.class_name})</span>
+                        )}
+                      </div>
+                    </td>
+                    <td class="tabular-nums">{weapon.rarity + 1}</td>
+                    <td>{weapon.raw_damage}</td>
+                    <td class="whitespace-nowrap tabular-nums">{fmtAffinity(weapon)}</td>
+                    <td class="whitespace-nowrap">{fmtElem(weapon)}</td>
+                    <td class="font-mono text-slate-200">{fmtSlots(weapon)}</td>
+                    <td class="whitespace-nowrap">{weapon.recoil}</td>
+                    <td class="whitespace-nowrap">{weapon.reload_speed}</td>
+                  </tr>
+                ))}
+              </tbody>
+            ))}
+          </table>
+        </div>
+      </>
+    )}
+  </section>
+
+  <p class="mt-6">
+    <a href={withBase("weapons/")}>Back to weapon class index</a>
+  </p>
+
+  <script>
+    const searchInput = document.querySelector<HTMLInputElement>("#weapon-search");
+    const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>("[data-weapon-row]"));
+    const groups = Array.from(document.querySelectorAll<HTMLTableSectionElement>("[data-tree-group]"));
+    const matchCount = document.querySelector<HTMLElement>("#weapon-match-count");
+    const equipFilterRoot = document.getElementById("weapon-equip-filter");
+    const equipButtons = equipFilterRoot
+      ? (Array.from(
+          equipFilterRoot.querySelectorAll<HTMLElement>("[data-equip-filter]"),
+        ))
+      : [];
+
+    const activeEquips = new Set<string>();
+
+    function updateWeaponFilter() {
+      const query = (searchInput?.value || "").trim().toLowerCase();
+      let visibleCount = 0;
+
+      for (const row of rows) {
+        const name = row.dataset.weaponName || "";
+        const equip = row.dataset.weaponEquip || "";
+        const nameMatch = query === "" || name.includes(query);
+        const equipMatch = activeEquips.size === 0 || activeEquips.has(equip);
+        const isMatch = nameMatch && equipMatch;
+        row.style.display = isMatch ? "" : "none";
+        if (isMatch) visibleCount += 1;
+      }
+
+      const filterActive =
+        query !== "" || activeEquips.size > 0;
+
+      for (const group of groups) {
+        const groupRows = Array.from(
+          group.querySelectorAll<HTMLTableRowElement>("[data-weapon-row]"),
+        );
+        let hasVisibleRow = false;
+        const stack: number[] = [];
+
+        for (const row of groupRows) {
+          const origDepth = Number(row.dataset.weaponDepth || "0");
+          const isVisible = row.style.display !== "none";
+
+          while (stack.length > 0 && stack[stack.length - 1] >= origDepth) {
+            stack.pop();
+          }
+
+          if (isVisible) {
+            const renderDepth = filterActive ? stack.length : origDepth;
+            const indentEl = row.querySelector<HTMLElement>(".weapon-indent");
+            const markerEl = row.querySelector<HTMLElement>(
+              ".weapon-indent-marker",
+            );
+            if (indentEl) {
+              indentEl.style.paddingLeft = `${0.5 + renderDepth * 1.125}rem`;
+            }
+            if (markerEl) {
+              markerEl.style.display = renderDepth > 0 ? "" : "none";
+            }
+            stack.push(origDepth);
+            hasVisibleRow = true;
+          }
+        }
+
+        group.style.display = hasVisibleRow ? "" : "none";
+      }
+
+      for (const btn of equipButtons) {
+        const cls = btn.dataset.equipActiveClass || "rank-pill--active";
+        const filter = btn.dataset.equipFilter || "";
+        const isActive =
+          filter === "all" ? activeEquips.size === 0 : activeEquips.has(filter);
+        btn.classList.toggle(cls, isActive);
+      }
+
+      if (matchCount) matchCount.textContent = String(visibleCount);
+    }
+
+    for (const btn of equipButtons) {
+      btn.addEventListener("click", () => {
+        const filter = btn.dataset.equipFilter || "all";
+        if (filter === "all") {
+          activeEquips.clear();
+        } else if (activeEquips.has(filter)) {
+          activeEquips.delete(filter);
+        } else {
+          activeEquips.add(filter);
+        }
+        updateWeaponFilter();
+      });
+    }
+
+    searchInput?.addEventListener("input", updateWeaponFilter);
+    updateWeaponFilter();
+  </script>
+</WikiLayout>
+
+<style>
+  .tree-group + .tree-group tr:first-child td {
+    border-top-width: 2px;
+  }
+</style>

@@ -316,7 +316,7 @@ const weaponSharpnessSchema = z.object({
 });
 
 const meleeWeapons = defineCollection({
-    loader: file("src/data/generated/weapons.json"),
+    loader: file("src/data/generated/melee_weapons.json"),
     schema: z.object({
         id: z.int().min(0),
         name: z.string(),
@@ -348,4 +348,32 @@ const meleeWeapons = defineCollection({
     }),
 });
 
-export const collections = { monsterCarves, monsterPartbreaks, gathering, quests, items, decos, meleeWeapons };
+const rangedWeapons = defineCollection({
+    loader: file("src/data/generated/ranged_weapons.json"),
+    schema: z.object({
+        id: z.int().min(0),
+        name: z.string(),
+        description: z.string(),
+        descriptionSegments: z.array(colorTagSegmentSchema),
+        crafting: z.nullable(weaponCraftingEntrySchema),
+        model_id: z.number().int().min(0).max(65535),
+        rarity: z.number().int().min(0).max(255),
+        class_name: z.string(),
+        equip_id: z.number().int().min(0).max(255),
+        equip_type: z.string(),
+        price: z.number().int().min(0),
+        raw_damage: z.number().int().min(0).max(65535),
+        defense: z.number().int().min(0).max(65535),
+        recoil: z.string(),
+        slots: z.number().int().min(0).max(3),
+        affinity: z.number().int(),
+        element: z.nullable(z.string()),
+        element_damage: z.number().int().min(0),
+        reload_speed: z.string(),
+        bullet_types: z.number().int().min(0).max(0xFFFFFFFF),
+        upgrade_entry: z.nullable(weaponUpgradeEntrySchema),
+        grank_upgrades: z.nullable(grankUpgradesSchema).default(null),
+    }),
+});
+
+export const collections = { monsterCarves, monsterPartbreaks, gathering, quests, items, decos, meleeWeapons, rangedWeapons };

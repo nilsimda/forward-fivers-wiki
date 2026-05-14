@@ -31,7 +31,9 @@ from extract_common import (
 )
 
 GRANK_UPGRADE_BASE_OFFSET = 0x00660D94
-WEAPONS_JSON_PATH = REPO_ROOT / "site" / "src" / "data" / "generated" / "weapons.json"
+WEAPONS_JSON_PATH = (
+    REPO_ROOT / "site" / "src" / "data" / "generated" / "melee_weapons.json"
+)
 
 
 @dataclass(slots=True)

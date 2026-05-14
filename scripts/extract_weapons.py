@@ -18,18 +18,31 @@ from extract_common import (
     write_json_output,
 )
 
+# mhfdat header offsets (pointer-to-pointer table at the top of mhfdat).
+CRAFTING_TABLE_POINTER = 0x00000038
+MELEE_WEAPON_UPGRADES_POINTER = 0x0000003C
+RANGED_WEAPON_UPGRADES_POINTER = 0x00000040
 MELEE_WEAPON_DATA_POINTER = 0x0000007C
+RANGED_WEAPON_DATA_POINTER = 0x00000080
+RANGED_WEAPON_NAMES_POINTER = 0x00000084
 MELEE_WEAPON_NAMES_POINTER = 0x00000088
 MELEE_WEAPON_DESCRIPTIONS_POINTER = 0x0000008C
-MELEE_WEAPON_UPGRADES_POINTER = 0x0000003C
-RANGED_WEAPON_NAMES_POINTER = 0x00000084
-SHARPNESS_POINTER = 0x0AC
+RANGED_WEAPON_DESCRIPTIONS_POINTER = 0x00000090
+SHARPNESS_POINTER = 0x000000AC
+GRANK_CRAFTING_BASE_POINTER = 0x0000060C
+GRANK_CRAFTING_END_POINTER = 0x00000610
+GRANK_MELEE_UPGRADES_BASE_POINTER = 0x00000614
+GRANK_RANGED_UPGRADES_BASE_POINTER = 0x00000618
+
+# mhfpac offsets.
+WEAPON_CLASS_NAMES_OFFSET = 0x000AF7C0
+LENGTH_NAMES_OFFSET = 0x000BA4F4
 
 
-def _load_weapon_names(mhfpac_raw: bytes) -> dict[int, str]:
+def _load_weapon_class_names(mhfpac_raw: bytes) -> dict[int, str]:
     result = {}
     for i in range(11):
-        name_pointer = read_u32(mhfpac_raw, 0x000AF7C0 + i * 4)
+        name_pointer = read_u32(mhfpac_raw, WEAPON_CLASS_NAMES_OFFSET + i * 4)
         result[i] = decode_c_string(mhfpac_raw, name_pointer)
 
     return result
@@ -38,10 +51,27 @@ def _load_weapon_names(mhfpac_raw: bytes) -> dict[int, str]:
 def _load_length_names(mhfpac_raw: bytes) -> dict[int, str]:
     result = {}
     for i in range(8):
-        name_pointer = read_u32(mhfpac_raw, 0x000BA4F4 + i * 4)
+        name_pointer = read_u32(mhfpac_raw, LENGTH_NAMES_OFFSET + i * 4)
         result[i] = decode_c_string(mhfpac_raw, name_pointer)
 
     return result
+
+
+RELOAD_SPEED_NAMES: dict[int, str] = {
+    0x00: "Slow",
+    0x01: "Normal",
+    0x02: "Fast",
+    0x03: "Very Fast",
+    0x04: "Very Slow",
+}
+
+RECOIL_LEVEL_NAMES: dict[int, str] = {
+    0x00: "High",
+    0x01: "Low",
+    0x02: "Normal",
+    0x03: "Very High",
+    0x04: "Very Low",
+}
 
 
 # @0x0011ECA8
@@ -118,6 +148,12 @@ class Sharpness:
         return cls._STRUCT.size
 
 
+def _lookup_sharpness(raw: bytes, class_idx: int, sharpness_idx: int) -> Sharpness:
+    base = read_u32(raw, SHARPNESS_POINTER)
+    weapon_table = read_u32(raw, base + 4 * class_idx)
+    return Sharpness.unpack_from(raw, weapon_table + Sharpness.size() * sharpness_idx)
+
+
 @dataclass(slots=True)
 class Weapon(ABC):
     name: str
@@ -144,18 +180,18 @@ class MeleeWeapon(Weapon):
     ailment_damage: int  # u8
     slots: int  # u8
     weapon_attribute: int  # u8, secondary weapon attribute?
-    unk1: int  # u8
+    # unk1: int  # u8
     upgrade_entry: UpgradeEntry  # u16
     other_model_id: int  # u16
     equip_id: int
     equip_type: str  # int  # u8, bit level flags for sp, ravi, random weapon etc
     length: str  # u8?
-    unk2: int  # u8,
-    unk4: int  # u8
-    unk5: int  # u16
+    # unk2: int  # u8
+    # unk4: int  # u8
+    # unk5: int  # u16
     weapon_type: int  # u32, bit level flags, mighty, heavenly, hc etc.
     visual_effects: int  # u16
-    unk3: int  # u16
+    # unk3: int  # u16
     grank_upgrades: "GrankUpgrades | None" = None
 
     _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBIBBHHbBBBBBBBHHBBBBHIHH")
@@ -167,7 +203,7 @@ class MeleeWeapon(Weapon):
         offset: int,
         idx: int,
         item_names: dict[int, str],
-        weapon_names: dict[int, str],
+        weapon_class_names: dict[int, str],
         length_names: dict[int, str],
         weapon_crafting: dict[tuple[str, int], WeaponCraftingEntry],
     ) -> "MeleeWeapon":
@@ -175,14 +211,7 @@ class MeleeWeapon(Weapon):
         upgrade_pointer = (
             read_u32(raw, MELEE_WEAPON_UPGRADES_POINTER) + idx * UpgradeEntry.size()
         )
-        sharpness_header_pointer = 0x000000AC
-        sharpness_base_pointer = read_u32(raw, sharpness_header_pointer)
-        sharpness_weapon_pointer = read_u32(
-            raw, sharpness_base_pointer + 4 * unpacked[2]
-        )
-        sharpness = Sharpness.unpack_from(
-            raw, sharpness_weapon_pointer + Sharpness.size() * unpacked[4]
-        )
+        sharpness = _lookup_sharpness(raw, unpacked[2], unpacked[4])
 
         upgrade_entry = UpgradeEntry.unpack_from(raw, upgrade_pointer, item_names)
         return cls(
@@ -195,7 +224,7 @@ class MeleeWeapon(Weapon):
             else None,
             model_id=unpacked[0],
             rarity=unpacked[1],
-            class_name=weapon_names[unpacked[2]],
+            class_name=weapon_class_names[unpacked[2]],
             price=unpacked[3] // 2,  # for some reason the ingame price is half
             sharpness=sharpness,
             sharpness_cap=150 + unpacked[5] * 50,
@@ -208,18 +237,18 @@ class MeleeWeapon(Weapon):
             ailment_damage=unpacked[12] * 10,
             slots=unpacked[13],
             weapon_attribute=unpacked[14],
-            unk1=unpacked[15],
+            # unpacked[15] unk1
             upgrade_entry=upgrade_entry,
             other_model_id=unpacked[17],
             equip_id=unpacked[18],
             equip_type=EQUIP_TYPE_NAMES.get(unpacked[18], "Unknown"),
             length=length_names[unpacked[19]],
-            unk2=unpacked[20],
-            unk4=unpacked[21],
-            unk5=unpacked[22],
+            # unpacked[20] unk2
+            # unpacked[21] unk4
+            # unpacked[22] unk5
             weapon_type=unpacked[23],
             visual_effects=unpacked[24],
-            unk3=unpacked[25],
+            # unpacked[25] unk3
         )
 
     @classmethod
@@ -229,7 +258,78 @@ class MeleeWeapon(Weapon):
 
 @dataclass(slots=True)
 class RangedWeapon(Weapon):
-    pass
+    id: int
+    model_id: int  # u16
+    rarity: int  # u8
+    # unk0: int  # u8
+    class_name: str  # u8
+    equip_id: int  # u8
+    equip_type: str  # int  # u8, bit level flags for sp, ravi, random weapon etc
+    # unk1: int  # u16
+    # unk2: int # u32
+    price: int  # u32
+    raw_damage: int  # u16
+    defense: int  # u16
+    recoil: str  # u8
+    slots: int  # u8
+    affinity: int  # u8
+    # unk3: int  # u8
+    # unk4: int  # u8
+    element: str | None  # u8
+    element_damage: int  # u8
+    reload_speed: str  # u8
+    # unk5: int  # u32
+    bullet_types: int  # u32
+    # unk6: int  # u32
+    # unk7: int  # u32
+    upgrade_entry: "UpgradeEntry | None" = None
+    grank_upgrades: "GrankUpgrades | None" = None
+
+    _STRUCT: ClassVar[struct.Struct] = struct.Struct("<HBBBBHIIHHBBBBBBBBIIII")
+
+    @classmethod
+    def unpack_from(
+        cls,
+        raw: bytes,
+        offset: int,
+        idx: int,
+        item_names: dict[int, str],
+        weapon_class_names: dict[int, str],
+        weapon_crafting: dict[tuple[str, int], "WeaponCraftingEntry"],
+    ) -> "RangedWeapon":
+        unpacked = cls._STRUCT.unpack_from(raw, offset)
+        upgrade_pointer = (
+            read_u32(raw, RANGED_WEAPON_UPGRADES_POINTER) + idx * UpgradeEntry.size()
+        )
+        upgrade_entry = UpgradeEntry.unpack_from(raw, upgrade_pointer, item_names)
+
+        return cls(
+            id=idx,
+            name="",
+            description="",
+            descriptionSegments=[],
+            crafting=weapon_crafting.get(("ranged", idx)),
+            model_id=unpacked[0],
+            rarity=unpacked[1],
+            class_name=weapon_class_names[unpacked[3]],
+            equip_id=unpacked[4],
+            equip_type=EQUIP_TYPE_NAMES.get(unpacked[4], "Unknown"),
+            price=unpacked[7],
+            raw_damage=unpacked[8],
+            defense=unpacked[9],
+            recoil=RECOIL_LEVEL_NAMES[unpacked[10]],
+            slots=unpacked[11],
+            affinity=unpacked[12],
+            element=ELEMENT_NAMES[unpacked[15]],
+            element_damage=unpacked[16],
+            reload_speed=RELOAD_SPEED_NAMES[unpacked[17]],
+            bullet_types=unpacked[19],
+            upgrade_entry=upgrade_entry,
+        )
+
+    @classmethod
+    def size(cls) -> int:
+        return cls._STRUCT.size
 
 
 class MaterialCost(TypedDict):
@@ -269,7 +369,7 @@ class WeaponCraftingEntry:
                 )
             )
 
-        kind = "unkown"
+        kind = "unknown"
         if unpacked[0] == 6:
             kind = "melee"
         if unpacked[0] == 7:
@@ -338,7 +438,7 @@ class UpgradeEntry:
 def _extract_weapon_crafting(
     raw: bytes, item_names: dict[int, str]
 ) -> dict[tuple[str, int], WeaponCraftingEntry]:
-    base_pointer = read_u32(raw, 0x00000038)
+    base_pointer = read_u32(raw, CRAFTING_TABLE_POINTER)
     result: dict[tuple[str, int], WeaponCraftingEntry] = {}
     while True:
         wce = WeaponCraftingEntry.unpack_from(raw, base_pointer, item_names)
@@ -351,8 +451,8 @@ def _extract_weapon_crafting(
             print(f"Duplicate WCE {wce}")
 
     # grank weapon crafting
-    grank_base_pointer = read_u32(raw, 0x0000060C)
-    grank_end_pointer = read_u32(raw, 0x00000610)
+    grank_base_pointer = read_u32(raw, GRANK_CRAFTING_BASE_POINTER)
+    grank_end_pointer = read_u32(raw, GRANK_CRAFTING_END_POINTER)
     n_grank_crafts = (
         grank_end_pointer - grank_base_pointer
     ) // WeaponCraftingEntry.size()
@@ -368,29 +468,46 @@ def _extract_weapon_crafting(
     return result
 
 
+def _read_weapon_text(
+    raw: bytes, names_pointer: int, descriptions_pointer: int, idx: int
+) -> tuple[str, str]:
+    name = decode_c_string(raw, read_u32(raw, names_pointer + idx * 4))
+    # Each weapon owns 4 description-pointer slots (16 bytes); we concatenate the first 3.
+    description_base = descriptions_pointer + idx * 16
+    description = " ".join(
+        decode_c_string(raw, read_u32(raw, description_base + slot * 4))
+        for slot in range(3)
+    )
+    return name, description
+
+
+def _apply_equip_type_tags(equip_type: str, description: str) -> str:
+    if equip_type == "Mighty":
+        for tag, sub_tier in MIGHTY_DESCRIPTION_TAGS.items():
+            if tag in description:
+                equip_type = sub_tier
+                break
+    for tag, tier in ARTISANAL_DESCRIPTION_TAGS.items():
+        if tag in description:
+            return tier
+    return equip_type
+
+
 def extract_melee_weapons(
     raw: bytes,
     item_names: dict[int, str],
     weapon_names: dict[int, str],
     length_names: dict[int, str],
+    weapon_crafting: dict[tuple[str, int], WeaponCraftingEntry],
 ) -> list[MeleeWeapon]:
     base_pointer = read_u32(raw, MELEE_WEAPON_DATA_POINTER)
     names_pointer = read_u32(raw, MELEE_WEAPON_NAMES_POINTER)
-    descriptions_pointer = read_u32(raw, 0x0000008C)  # 0x003C06D4  # 0x003C06E4
-    weapon_crafting = _extract_weapon_crafting(raw, item_names)
+    descriptions_pointer = read_u32(raw, MELEE_WEAPON_DESCRIPTIONS_POINTER)
     counter = 0
-    description_counter = 0
     result = []
     while True:
-        name = decode_c_string(raw, read_u32(raw, names_pointer + counter * 4))
-        description = decode_c_string(
-            raw, read_u32(raw, descriptions_pointer + description_counter * 4)
-        )
-        description += " " + decode_c_string(
-            raw, read_u32(raw, descriptions_pointer + description_counter * 4 + 4)
-        )
-        description += " " + decode_c_string(
-            raw, read_u32(raw, descriptions_pointer + description_counter * 4 + 8)
+        name, description = _read_weapon_text(
+            raw, names_pointer, descriptions_pointer, counter
         )
         mw = MeleeWeapon.unpack_from(
             raw,
@@ -405,22 +522,46 @@ def extract_melee_weapons(
         parsed = parse_color_tags(description.strip())
         mw.description = parsed.plain
         mw.descriptionSegments = parsed.segments
-        if mw.equip_type == "Mighty":
-            for tag, sub_tier in MIGHTY_DESCRIPTION_TAGS.items():
-                if tag in mw.description:
-                    mw.equip_type = sub_tier
-                    break
-        for tag, tier in ARTISANAL_DESCRIPTION_TAGS.items():
-            if tag in mw.description:
-                mw.equip_type = tier
-                break
+        mw.equip_type = _apply_equip_type_tags(mw.equip_type, mw.description)
         base_pointer += MeleeWeapon.size()
         if mw.model_id == 0xFFFF:
             break
         counter += 1
-        description_counter += 4
-        if name != "ダミー":  # filter out dummy weapons
+        if "ダミー" not in name:  # filter out dummy weapons
             result.append(mw)
+
+    return result
+
+
+def extract_ranged_weapons(
+    raw: bytes,
+    item_names: dict[int, str],
+    weapon_names: dict[int, str],
+    weapon_crafting: dict[tuple[str, int], WeaponCraftingEntry],
+) -> list[RangedWeapon]:
+    base_pointer = read_u32(raw, RANGED_WEAPON_DATA_POINTER)
+    names_pointer = read_u32(raw, RANGED_WEAPON_NAMES_POINTER)
+    descriptions_pointer = read_u32(raw, RANGED_WEAPON_DESCRIPTIONS_POINTER)
+    counter = 0
+    result = []
+    while True:
+        name, description = _read_weapon_text(
+            raw, names_pointer, descriptions_pointer, counter
+        )
+        rw = RangedWeapon.unpack_from(
+            raw, base_pointer, counter, item_names, weapon_names, weapon_crafting
+        )
+        rw.name = name
+        parsed = parse_color_tags(description.strip())
+        rw.description = parsed.plain
+        rw.descriptionSegments = parsed.segments
+        rw.equip_type = _apply_equip_type_tags(rw.equip_type, rw.description)
+        base_pointer += RangedWeapon.size()
+        if rw.model_id == 0xFFFF:
+            break
+        counter += 1
+        if name != "ダミー":
+            result.append(rw)
 
     return result
 
@@ -445,8 +586,24 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "site" / "src" / "data" / "generated" / "weapons.json",
-        help="Output gathering JSON path.",
+        default=REPO_ROOT
+        / "site"
+        / "src"
+        / "data"
+        / "generated"
+        / "melee_weapons.json",
+        help="Output melee weapons JSON path.",
+    )
+    parser.add_argument(
+        "--ranged-output",
+        type=Path,
+        default=REPO_ROOT
+        / "site"
+        / "src"
+        / "data"
+        / "generated"
+        / "ranged_weapons.json",
+        help="Output ranged weapons JSON path.",
     )
     return parser.parse_args()
 
@@ -516,19 +673,28 @@ class _RawGrankUpgrade:
         return cls.STRUCT.size
 
 
-def extract_grank_upgrades(
-    raw: bytes, item_names: dict[int, str]
+def _collect_grank_upgrades(
+    raw: bytes,
+    base_pointer: int,
+    item_names: dict[int, str],
+    end_pointer: int | None = None,
 ) -> dict[int, GrankUpgrades]:
-    base_pointer = read_u32(raw, 0x00000614)
-    end_pointer = read_u32(raw, 0x00000618)
+    """Walk grank upgrade entries.
 
-    num_grank_upgrades = (end_pointer - base_pointer) // _RawGrankUpgrade.size()
-
+    If end_pointer is given, iterate the bounded range. Otherwise stop on a
+    0 / 0xFFFFFFFF weapon-id sentinel — used for ranged where no end marker
+    is known yet.
+    """
     by_weapon: dict[int, dict] = {}
-    for i in range(num_grank_upgrades):
-        gru = _RawGrankUpgrade.unpack_from(
-            raw, base_pointer + i * _RawGrankUpgrade.size(), item_names
-        )
+    i = 0
+    while True:
+        offset = base_pointer + i * _RawGrankUpgrade.size()
+        if end_pointer is not None and offset >= end_pointer:
+            break
+        gru = _RawGrankUpgrade.unpack_from(raw, offset, item_names)
+        if end_pointer is None and gru.weapon_id in (0, 0xFFFFFFFF):
+            break
+        i += 1
         bucket = by_weapon.setdefault(gru.weapon_id, {"recipe1": [], "recipe2": None})
         if gru.level1 == gru.level2:
             bucket["recipe1"].append(
@@ -555,6 +721,22 @@ def extract_grank_upgrades(
     }
 
 
+def extract_grank_melee_upgrades(
+    raw: bytes, item_names: dict[int, str]
+) -> dict[int, GrankUpgrades]:
+    base_pointer = read_u32(raw, GRANK_MELEE_UPGRADES_BASE_POINTER)
+    # Melee's end is ranged's base.
+    end_pointer = read_u32(raw, GRANK_RANGED_UPGRADES_BASE_POINTER)
+    return _collect_grank_upgrades(raw, base_pointer, item_names, end_pointer)
+
+
+def extract_grank_ranged_upgrades(
+    raw: bytes, item_names: dict[int, str]
+) -> dict[int, GrankUpgrades]:
+    base_pointer = read_u32(raw, GRANK_RANGED_UPGRADES_BASE_POINTER)
+    return _collect_grank_upgrades(raw, base_pointer, item_names)
+
+
 @dataclass(slots=True)
 class GrankWeaponStats:
     weapon_id: int
@@ -573,20 +755,15 @@ class GrankWeaponStats:
     @classmethod
     def unpack_from(cls, raw: bytes, offset: int) -> "GrankWeaponStats":
         unpacked = cls.STRUCT.unpack_from(raw, offset)
-        sharpness_header_pointer = 0x000000AC
-        sharpness_base_pointer = read_u32(raw, sharpness_header_pointer)
-        sharpness_weapon_pointer = read_u32(raw, sharpness_base_pointer + 4 * 0)
-        sharpness = Sharpness.unpack_from(
-            raw, sharpness_weapon_pointer + Sharpness.size() * unpacked[1]
-        )
+        sharpness = _lookup_sharpness(raw, class_idx=0, sharpness_idx=unpacked[1])
         return cls(
             weapon_id=unpacked[0],
             sharpness=sharpness,
             sharpness_cap=unpacked[2],
             raw_damage=unpacked[3],
-            element=ELEMENT_NAMES.get(unpacked[4], "unkown"),
+            element=ELEMENT_NAMES.get(unpacked[4], "unknown"),
             element_damage=unpacked[5],
-            ailment=AILMENT_NAMES.get(unpacked[6], "unkown"),
+            ailment=AILMENT_NAMES.get(unpacked[6], "unknown"),
             ailment_damage=unpacked[7],
             defense=unpacked[8],
             success_rate=unpacked[9],
@@ -597,17 +774,15 @@ class GrankWeaponStats:
         return cls.STRUCT.size
 
 
+# WIP: G-rank weapon stats parsing — not yet wired into output.
 def extract_grank_weapons_stats(raw):
     base_pointer = 0x0059BB18
     results = []
     counter = 0
     while True:
         start_pointer = read_u32(raw, base_pointer + counter * 4)
-        print(hex(start_pointer))
         if start_pointer >= 0x01000000:  # hacky way to stop
             break
-        print()
-        print(f"new weapon: {counter}")
         counter += 1
 
         while True:
@@ -615,9 +790,8 @@ def extract_grank_weapons_stats(raw):
             start_pointer += GrankWeaponStats.size()
             if gws.weapon_id == 0xFFFF:
                 break
-            print(gws)
             results.append(gws)
-        break
+    return results
 
 
 def main() -> None:
@@ -626,22 +800,33 @@ def main() -> None:
     mhfpac_raw = args.mhfpac.read_bytes()
 
     item_names = load_item_names()
-    weapon_names = _load_weapon_names(mhfpac_raw)
+    weapon_class_names = _load_weapon_class_names(mhfpac_raw)
     length_names = _load_length_names(mhfpac_raw)
+
+    weapon_crafting = _extract_weapon_crafting(raw, item_names)
 
     melee_weapons = extract_melee_weapons(
         raw,
         item_names,
-        weapon_names,
+        weapon_class_names,
         length_names,
+        weapon_crafting,
     )
-    gr_upgrades = extract_grank_upgrades(raw, item_names)
-    for weapon in melee_weapons:
-        weapon.grank_upgrades = gr_upgrades.get(weapon.id)
+    gr_melee_upgrades = extract_grank_melee_upgrades(raw, item_names)
+    for melee_weapon in melee_weapons:
+        melee_weapon.grank_upgrades = gr_melee_upgrades.get(melee_weapon.id)
 
-    extract_grank_weapons_stats(raw)
+    # extract_grank_weapons_stats(raw)
+
+    ranged_weapons = extract_ranged_weapons(
+        raw, item_names, weapon_class_names, weapon_crafting
+    )
+    gr_ranged_upgrades = extract_grank_ranged_upgrades(raw, item_names)
+    for ranged_weapon in ranged_weapons:
+        ranged_weapon.grank_upgrades = gr_ranged_upgrades.get(ranged_weapon.id)
 
     write_json_output(args.output, melee_weapons)
+    write_json_output(args.ranged_output, ranged_weapons)
 
 
 if __name__ == "__main__":
